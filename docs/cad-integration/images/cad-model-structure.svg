@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 770 678" width="770" height="678" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#888888"/></marker>
+  </defs>
+
+  <!-- ============ SPINE (contains, top to bottom) ============ -->
+  <g stroke="#888888" stroke-width="1.4">
+    <line x1="180" y1="60"  x2="180" y2="120" marker-end="url(#arr)"/>
+    <line x1="180" y1="160" x2="180" y2="210" marker-end="url(#arr)"/>
+    <line x1="180" y1="250" x2="180" y2="300" marker-end="url(#arr)"/>
+    <line x1="180" y1="340" x2="180" y2="375" marker-end="url(#arr)"/>
+    <line x1="180" y1="415" x2="180" y2="450" marker-end="url(#arr)"/>
+    <line x1="180" y1="490" x2="180" y2="525" marker-end="url(#arr)"/>
+  </g>
+
+  <!-- Document to Part: document-to-part, bypassing the assembly (left, far arc) -->
+  <path d="M 100 48 C 28 96, 28 196, 100 224" fill="none" stroke="#888888" stroke-width="1.4" marker-end="url(#arr)"/>
+
+  <!-- Assembly to Assembly: nested assembly, recursion (left) -->
+  <path d="M 100 128 C 62 122, 62 154, 100 148" fill="none" stroke="#888888" stroke-width="1.4" marker-end="url(#arr)"/>
+
+  <!-- Assembly -> Matrix (reference to the placement matrix, same level) -->
+  <line x1="260" y1="140" x2="380" y2="140" stroke="#888888" stroke-width="1.4" marker-end="url(#arr)"/>
+  <text x="320" y="133" text-anchor="middle" fill="#888888" font-size="11">placement</text>
+
+  <!-- ============ BRANCHES to geometry/vertices ============ -->
+  <g stroke="#888888" stroke-width="1.4">
+    <line x1="260" y1="395" x2="380" y2="395" marker-end="url(#arr)"/>            <!-- Face -> Surface -->
+    <line x1="260" y1="545" x2="380" y2="518" marker-end="url(#arr)"/>            <!-- Edge -> Curve -->
+    <line x1="260" y1="557" x2="380" y2="593" marker-end="url(#arr)"/>            <!-- Edge -> Vertex -->
+    <line x1="540" y1="518" x2="620" y2="548" marker-end="url(#arr)"/>            <!-- Curve -> Point -->
+    <line x1="540" y1="595" x2="620" y2="562" marker-end="url(#arr)"/>            <!-- Vertex -> Point -->
+  </g>
+  <g fill="#888888" font-size="11">
+    <text x="320" y="388" text-anchor="middle">base surface</text>
+    <text x="315" y="500" text-anchor="middle">base curve</text>
+    <text x="312" y="603" text-anchor="middle">end vertices ×2</text>
+    <text x="592" y="498" text-anchor="middle">control points</text>
+    <text x="592" y="607" text-anchor="middle">position</text>
+  </g>
+
+  <!-- ============ BOXES ============ -->
+  <!-- structure (assembly level) -->
+  <g>
+    <rect x="100" y="20"  width="160" height="40" rx="6" fill="#f3ecfb" stroke="#7b2cbf" stroke-width="1.6"/>
+    <text x="180" y="45" text-anchor="middle" fill="#5a1e8f" font-weight="bold">CADDocument</text>
+
+    <rect x="100" y="120" width="160" height="40" rx="6" fill="#f3ecfb" stroke="#7b2cbf" stroke-width="1.6"/>
+    <text x="180" y="145" text-anchor="middle" fill="#5a1e8f" font-weight="bold">CADAssembly</text>
+
+    <rect x="100" y="210" width="160" height="40" rx="6" fill="#f3ecfb" stroke="#7b2cbf" stroke-width="1.6"/>
+    <text x="180" y="235" text-anchor="middle" fill="#5a1e8f" font-weight="bold">CADPart</text>
+
+    <rect x="380" y="120" width="160" height="40" rx="6" fill="#f3ecfb" stroke="#7b2cbf" stroke-width="1.6"/>
+    <text x="460" y="145" text-anchor="middle" fill="#5a1e8f" font-weight="bold">CADMatrix</text>
+  </g>
+
+  <!-- topology -->
+  <g>
+    <rect x="100" y="300" width="160" height="40" rx="6" fill="#e9f1fc" stroke="#1f6feb" stroke-width="1.6"/>
+    <text x="180" y="325" text-anchor="middle" fill="#14457a" font-weight="bold">CADBody</text>
+
+    <rect x="100" y="375" width="160" height="40" rx="6" fill="#e9f1fc" stroke="#1f6feb" stroke-width="1.6"/>
+    <text x="180" y="400" text-anchor="middle" fill="#14457a" font-weight="bold">CADFace</text>
+
+    <rect x="100" y="450" width="160" height="40" rx="6" fill="#e9f1fc" stroke="#1f6feb" stroke-width="1.6"/>
+    <text x="180" y="475" text-anchor="middle" fill="#14457a" font-weight="bold">CADLoop</text>
+
+    <rect x="100" y="525" width="160" height="40" rx="6" fill="#e9f1fc" stroke="#1f6feb" stroke-width="1.6"/>
+    <text x="180" y="550" text-anchor="middle" fill="#14457a" font-weight="bold">CADEdge</text>
+
+    <rect x="380" y="575" width="160" height="40" rx="6" fill="#e9f1fc" stroke="#1f6feb" stroke-width="1.6"/>
+    <text x="460" y="600" text-anchor="middle" fill="#14457a" font-weight="bold">CADVertex</text>
+  </g>
+
+  <!-- geometry (primitives) -->
+  <g>
+    <rect x="380" y="375" width="160" height="40" rx="6" fill="#e9f5ec" stroke="#2a8c4a" stroke-width="1.6"/>
+    <text x="460" y="400" text-anchor="middle" fill="#1c5f33" font-weight="bold">CADSurface</text>
+
+    <rect x="380" y="490" width="160" height="40" rx="6" fill="#e9f5ec" stroke="#2a8c4a" stroke-width="1.6"/>
+    <text x="460" y="515" text-anchor="middle" fill="#1c5f33" font-weight="bold">CADCurve</text>
+
+    <rect x="620" y="535" width="140" height="40" rx="6" fill="#e9f5ec" stroke="#2a8c4a" stroke-width="1.6"/>
+    <text x="690" y="560" text-anchor="middle" fill="#1c5f33" font-weight="bold">CADPoint</text>
+  </g>
+
+  <!-- legend -->
+  <g font-size="11">
+    <rect x="100" y="650" width="13" height="13" rx="2" fill="#f3ecfb" stroke="#7b2cbf"/>
+    <text x="120" y="660" fill="#444">assembly level</text>
+    <rect x="320" y="650" width="13" height="13" rx="2" fill="#e9f1fc" stroke="#1f6feb"/>
+    <text x="340" y="660" fill="#444">topology</text>
+    <rect x="460" y="650" width="13" height="13" rx="2" fill="#e9f5ec" stroke="#2a8c4a"/>
+    <text x="480" y="660" fill="#444">geometry</text>
+  </g>
+</svg>

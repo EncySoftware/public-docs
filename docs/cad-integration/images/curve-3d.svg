@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" width="360" height="200" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <!-- composite 3D curve: a sequence of segments -->
+  <polyline points="55,150 130,105 205,140 290,80" fill="none" stroke="#111111" stroke-width="2.2"/>
+
+  <!-- vertices -->
+  <g fill="#111111">
+    <circle cx="55"  cy="150" r="4"/>
+    <circle cx="130" cy="105" r="3.2"/>
+    <circle cx="205" cy="140" r="3.2"/>
+    <circle cx="290" cy="80"  r="3.2"/>
+  </g>
+
+  <text x="55" y="170" fill="#888888" text-anchor="middle">p (StartCurve3d)</text>
+  <text x="168" y="116" fill="#888888">CutTo3d</text>
+</svg>

@@ -1,0 +1,15 @@
+﻿{
+  "build": {
+    "content": [
+      {
+        "files": [ "**/*.{md,yml}" ],
+        "exclude": [ "_site/**", "obj/**", "_pdf/**" ]
+      }
+    ],
+    "dest": "_pdf",
+    "template": [
+      "default",
+      "modern"
+    ]
+  }
+}

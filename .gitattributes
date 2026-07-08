@@ -1,0 +1,17 @@
+# Text files: normalized to LF in the repository, checked out as CRLF in the working copy
+# (deterministic regardless of each developer's core.autocrlf).
+* text=auto eol=crlf
+
+# Binary assets - never convert.
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.bmp  binary
+*.ico  binary
+*.pdf  binary
+*.zip  binary
+*.7z   binary
+*.osd  binary
+*.dll  binary
+*.exe  binary

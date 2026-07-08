@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1088 170" width="1088" height="170" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+
+  <!-- main processes (full height) -->
+  <rect x="25"  y="45" width="150" height="80" rx="4" fill="#eaeaea" stroke="#7a7a7a" stroke-width="1"/>
+  <text x="100" y="89" text-anchor="middle" fill="#222" font-weight="bold">CAD.exe</text>
+
+  <rect x="913" y="45" width="150" height="80" rx="4" fill="#eaeaea" stroke="#7a7a7a" stroke-width="1"/>
+  <text x="988" y="89" text-anchor="middle" fill="#222" font-weight="bold">CAM.exe</text>
+
+  <!-- intermediate steps (half height, centered on y=85) -->
+  <rect x="247" y="65" width="150" height="40" rx="4" fill="#d9e7f5" stroke="#3a6a99" stroke-width="1.5"/>
+  <text x="322" y="89" text-anchor="middle" fill="#1a3a59" font-weight="bold">Toolbar.dll</text>
+
+  <rect x="469" y="65" width="150" height="40" rx="4" fill="#eaeaea" stroke="#7a7a7a" stroke-width="1"/>
+  <text x="544" y="89" text-anchor="middle" fill="#222" font-weight="bold">STGeomFile.dll</text>
+
+  <rect x="691" y="65" width="150" height="40" rx="4" fill="#fdf3d3" stroke="#c2922e" stroke-width="1.2"/>
+  <text x="766" y="89" text-anchor="middle" fill="#6b531a" font-weight="bold">SGF file</text>
+
+  <!-- arrows (forward flow) -->
+  <g stroke="#333" stroke-width="1.4" fill="none">
+    <line x1="175" y1="85" x2="247" y2="85" marker-end="url(#arrow)"/>
+    <line x1="397" y1="85" x2="469" y2="85" marker-end="url(#arrow)"/>
+    <line x1="619" y1="85" x2="691" y2="85" marker-end="url(#arrow)"/>
+    <line x1="841" y1="85" x2="913" y2="85" marker-end="url(#arrow)"/>
+  </g>
+
+  <!-- arrow labels -->
+  <g text-anchor="middle" fill="#a64500">
+    <text x="211" y="74">Loading</text>
+    <text x="433" y="74">Loading</text>
+    <text x="655" y="74">Forming</text>
+    <text x="877" y="74">Importing</text>
+  </g>
+</svg>

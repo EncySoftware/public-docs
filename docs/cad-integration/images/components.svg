@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 680" width="1000" height="680" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+  </defs>
+
+  <!-- External participants (uniform 220x100, centered on x=210 / 490 / 830) -->
+  <g stroke="#7a7a7a" fill="#eaeaea" stroke-width="1">
+    <rect x="100" y="50"  width="220" height="100" rx="4"/>
+    <rect x="380" y="50"  width="220" height="100" rx="4"/>
+    <rect x="720" y="290" width="220" height="100" rx="4"/>
+  </g>
+  <g text-anchor="middle" fill="#222" font-weight="bold">
+    <text x="210" y="105">AddinManager.dll</text>
+    <text x="490" y="105">CAM</text>
+    <text x="830" y="345">CAD</text>
+  </g>
+
+  <!-- "Add-in" frame (symmetric around the middle row) -->
+  <rect x="60" y="220" width="580" height="240" rx="6" fill="#fffaee" stroke="#a07020" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="80" y="245" fill="#a07020" font-weight="bold" font-size="14">Add-in</text>
+
+  <!-- Translator -->
+  <rect x="100" y="290" width="220" height="100" rx="4" fill="#d9e7f5" stroke="#3a6a99" stroke-width="1.5"/>
+  <text x="210" y="335" text-anchor="middle" fill="#1a3a59" font-weight="bold">Translator</text>
+  <text x="210" y="358" text-anchor="middle" fill="#1a3a59" font-size="12" font-family="Consolas, monospace">&lt;Translator&gt;.exe</text>
+
+  <!-- Toolbar -->
+  <rect x="380" y="290" width="220" height="100" rx="4" fill="#d9e7f5" stroke="#3a6a99" stroke-width="1.5"/>
+  <text x="490" y="335" text-anchor="middle" fill="#1a3a59" font-weight="bold">Toolbar</text>
+  <text x="490" y="358" text-anchor="middle" fill="#1a3a59" font-size="12">plugin in CAD</text>
+
+  <!-- CheckLockToolbar.exe (optional) -->
+  <rect x="100" y="530" width="220" height="100" rx="4" fill="#e3e3e3" stroke="#777" stroke-width="1"/>
+  <text x="210" y="585" text-anchor="middle" fill="#333" font-weight="bold">CheckLockToolbar.exe</text>
+
+  <!-- STGeomFile -->
+  <rect x="380" y="530" width="220" height="100" rx="4" fill="#e3e3e3" stroke="#777" stroke-width="1"/>
+  <text x="490" y="585" text-anchor="middle" fill="#333" font-weight="bold">STGeomFile.dll</text>
+
+  <!-- Main connections -->
+  <g stroke="#333" stroke-width="1.4" fill="none">
+    <!-- Wizard -> Translator -->
+    <line x1="210" y1="150" x2="210" y2="288" marker-end="url(#arrow)"/>
+
+    <!-- CAM -> Translator: import call -->
+    <path d="M 440 150 L 440 265 L 260 265 L 260 288" marker-end="url(#arrow)"/>
+
+    <!-- Toolbar -> CAM: SGF -->
+    <line x1="490" y1="290" x2="490" y2="152" marker-end="url(#arrow)"/>
+
+    <!-- CAD -> Toolbar: import -->
+    <path d="M 830 290 L 830 260 L 540 260 L 540 288" marker-end="url(#arrow)"/>
+
+    <!-- Translator -> Toolbar (internal) -->
+    <line x1="320" y1="340" x2="378" y2="340" marker-end="url(#arrow)"/>
+
+    <!-- Toolbar <-> CAD: API -->
+    <line x1="600" y1="340" x2="718" y2="340" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+
+    <!-- Translator -> CheckLockToolbar.exe (optional: dashed) -->
+    <line x1="210" y1="390" x2="210" y2="528" stroke-dasharray="7,5" marker-end="url(#arrow)"/>
+
+    <!-- Toolbar <-> STGeomFile: API -->
+    <line x1="490" y1="390" x2="490" y2="528" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  </g>
+
+  <!-- Arrow labels (centered on their arrows; top/bottom rows symmetric about the middle row) -->
+  <g font-size="13" text-anchor="middle">
+    <rect x="158" y="176" width="104" height="18" fill="#ffffff"/>
+    <text x="210" y="190" fill="#a64500">Install/Uninstall</text>
+
+    <rect x="417" y="176" width="46" height="18" fill="#ffffff"/>
+    <text x="440" y="190" fill="#a64500">Import</text>
+
+    <rect x="475" y="176" width="30" height="18" fill="#ffffff"/>
+    <text x="490" y="190" fill="#a64500">SGF</text>
+
+    <text x="685" y="252" fill="#a64500">Import</text>
+    <text x="666" y="332" fill="#a64500" text-anchor="start">API</text>
+
+    <rect x="183" y="486" width="54" height="18" fill="#ffffff"/>
+    <text x="210" y="500" fill="#a64500">Optional</text>
+
+    <rect x="475" y="486" width="30" height="18" fill="#ffffff"/>
+    <text x="490" y="500" fill="#a64500">API</text>
+  </g>
+
+</svg>
