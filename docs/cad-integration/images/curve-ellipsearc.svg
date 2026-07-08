@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 200" width="370" height="200" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="mx" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#d62728"/>
+    </marker>
+    <marker id="mz" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1f6feb"/>
+    </marker>
+    <marker id="mn" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#888888"/>
+    </marker>
+  </defs>
+
+  <!-- full ellipse (the cut-out part is dashed) -->
+  <ellipse cx="180" cy="130" rx="105" ry="48" fill="none" stroke="#c9c9c9" stroke-width="1.4" stroke-dasharray="5,4"/>
+
+  <!-- elliptical arc (in the upper-left sector) -->
+  <path d="M 152.8 83.6 A 105 48 0 0 0 95.1 101.7" fill="none" stroke="#111111" stroke-width="2.2"/>
+  <circle cx="180" cy="130" r="4" fill="#111111"/>
+  <text x="162" y="158" fill="#888888" text-anchor="end">vT</text>
+
+  <!-- vZ — normal (up) -->
+  <line x1="180" y1="130" x2="180" y2="32" stroke="#1f6feb" stroke-width="1.6" marker-end="url(#mz)"/>
+  <text x="187" y="44" fill="#1f6feb">vZ</text>
+
+  <!-- vX — to the right (angle origin) -->
+  <line x1="180" y1="130" x2="300" y2="130" stroke="#d62728" stroke-width="1.6" marker-end="url(#mx)"/>
+  <text x="305" y="134" fill="#d62728">vX</text>
+
+  <!-- MajRad / MinRad (linear dimensions) -->
+  <line x1="180" y1="130" x2="75" y2="130" stroke="#888888" stroke-width="1" marker-end="url(#mn)"/>
+  <text x="108" y="151" fill="#888888" text-anchor="middle">MajRad</text>
+  <line x1="180" y1="130" x2="180" y2="178" stroke="#888888" stroke-width="1" marker-end="url(#mn)"/>
+  <text x="186" y="169" fill="#888888">MinRad</text>
+
+  <!-- angle sides (thin radii to the arc start and end) -->
+  <line x1="180" y1="130" x2="152.8" y2="83.6"  stroke="#888888" stroke-width="0.8"/>
+  <line x1="180" y1="130" x2="95.1"  y2="101.7" stroke="#888888" stroke-width="0.8"/>
+
+  <!-- SAng (angular dimension: vX → arc start) -->
+  <path d="M 224 130 A 44 20 0 0 0 168.6 109.7" fill="none" stroke="#888888" stroke-width="1" marker-start="url(#mn)" marker-end="url(#mn)"/>
+  <text x="214" y="144" fill="#888888">SAng</text>
+
+  <!-- TAng (angular dimension: vX → arc end) -->
+  <path d="M 246 130 A 66 30 0 0 0 127.6 112.5" fill="none" stroke="#888888" stroke-width="1" marker-start="url(#mn)" marker-end="url(#mn)"/>
+  <text x="260" y="123" fill="#888888">TAng</text>
+</svg>

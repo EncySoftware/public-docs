@@ -1,0 +1,140 @@
+﻿- name: Introduction
+  href: introduction.md
+  items:
+  - name: Glossary
+    href: glossary.md
+  - name: Requirements
+    href: requirements.md
+- name: Toolbar structure
+  href: toolbar.md
+  items:
+  - name: Component description
+    href: components.md
+    items:
+    - name: Add-in Wizard
+      href: addins-wizard.md
+    - name: Distribution files
+      href: distribution-files.md
+    - name: Translator
+      href: translator.md
+    - name: Add-in XML file
+      href: xml-descriptor.md
+    - name: CAMInfo.ini file
+      href: caminfo-ini.md
+    - name: CheckLockToolbar utility
+      href: checklocktoolbar.md
+    - name: Toolbar
+      href: toolbar-plugin.md
+  - name: Interaction scenarios
+    href: scenarios.md
+    items:
+    - name: Installing the Add-in
+      href: install-addon.md
+    - name: Uninstalling the Add-in
+      href: uninstall-addon.md
+    - name: Import from a CAD system into the CAM system
+      href: import-from-cad.md
+    - name: Importing a CAD file into the CAM system
+      href: import-cad-file.md
+- name: Geometry import into the CAM system
+  href: geometry-import.md
+  items:
+  - name: CAD model structure
+    href: cad-model.md
+  - name: Import interfaces
+    href: import-interfaces.md
+  - name: Connecting STGeomFile.dll
+    href: connecting-stgeomfile.md
+  - name: Building the SGF file
+    href: building-sgf.md
+  - name: SGF data structures
+    href: data-structures.md
+  - name: Working with an assembly
+    href: assembly.md
+  - name: Working with a part
+    href: part.md
+  - name: Curves and points
+    href: curves-and-points.md
+    items:
+    - name: Point and analytic curves
+      href: analytic-curves.md
+      items:
+      - name: 3D point
+        href: point-3d.md
+      - name: Coordinate system
+        href: coordinate-system.md
+      - name: Line segment
+        href: line-segment.md
+      - name: Circle
+        href: circle.md
+      - name: Circular arc
+        href: arc.md
+      - name: Ellipse
+        href: ellipse.md
+      - name: Elliptical arc
+        href: ellipse-arc.md
+      - name: Conical spiral
+        href: conical-spiral.md
+      - name: NURBS curve
+        href: nurbs-curve.md
+      - name: Composite curve
+        href: composite-curve.md
+    - name: Derived curves
+      href: derived-curves.md
+      items:
+      - name: Curve on a surface
+        href: curve-on-surface.md
+      - name: Trimmed curve
+        href: trimmed-curve.md
+      - name: Inverted curve
+        href: inversed-curve.md
+      - name: Intersection curve
+        href: intersection-curve.md
+      - name: Blend boundary
+        href: blend-bound.md
+    - name: Curve parametrization
+      href: curve-parametrization.md
+  - name: Face (trimmed surface)
+    href: face.md
+  - name: Surfaces
+    href: surfaces.md
+    items:
+    - name: Analytic surfaces
+      href: analytic-surfaces.md
+      items:
+      - name: Plane
+        href: plane.md
+      - name: Cylinder
+        href: cylinder.md
+      - name: Cone
+        href: cone.md
+      - name: Sphere
+        href: sphere.md
+      - name: Torus
+        href: torus.md
+      - name: NURBS surface
+        href: nurbs-surface.md
+      - name: Polygonal mesh
+        href: mesh.md
+    - name: Derived surfaces
+      href: derived-surfaces.md
+      items:
+      - name: Surface of revolution
+        href: revolution-surface.md
+      - name: Extrusion surface
+        href: extrusion-surface.md
+      - name: Transposed UV surface
+        href: transposed-uv-surface.md
+      - name: Blend surface
+        href: blended-surface.md
+      - name: Offset surface
+        href: offset-surface.md
+    - name: Surface parametrization
+      href: surface-parametrization.md
+  - name: PMI (Product Manufacturing Information)
+    href: pmi.md
+    items:
+    - name: IPMIGeomThread
+      href: pmi-thread.md
+  - name: Deprecated and unused methods
+    href: deprecated.md

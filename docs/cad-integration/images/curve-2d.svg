@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 210" width="380" height="210" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <!-- CutTo2d — line segment -->
+  <path d="M 55 160 L 135 160" fill="none" stroke="#1f6feb" stroke-width="2.6"/>
+  <!-- ArcTo2d — arc -->
+  <path d="M 135 160 A 55 55 0 0 1 205 112" fill="none" stroke="#e8821e" stroke-width="2.6"/>
+  <!-- BezierTo2d — 3rd-order Bézier curve -->
+  <path d="M 205 112 C 245 60 300 180 335 135" fill="none" stroke="#7b2cbf" stroke-width="2.6"/>
+
+  <!-- start point and segment junction nodes -->
+  <circle cx="55"  cy="160" r="4" fill="#111111"/>
+  <circle cx="135" cy="160" r="3" fill="#111111"/>
+  <circle cx="205" cy="112" r="3" fill="#111111"/>
+  <circle cx="335" cy="135" r="3" fill="#111111"/>
+  <text x="20" y="186" fill="#888888" font-size="12">p (StartCurve2d)</text>
+
+  <!-- segment labels (color = segment color) -->
+  <text x="95"  y="151" fill="#1f6feb" font-size="12" text-anchor="middle">CutTo2d</text>
+  <text x="150" y="151" fill="#e8821e" font-size="12">ArcTo2d</text>
+  <text x="298" y="172" fill="#7b2cbf" font-size="12">BezierTo2d</text>
+</svg>

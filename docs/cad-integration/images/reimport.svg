@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1360 285" width="1360" height="285" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#333"/></marker>
+  </defs>
+
+  <!-- top row: geometry pipeline -->
+  <rect x="25"   y="45" width="150" height="80" rx="4" fill="#eaeaea" stroke="#7a7a7a" stroke-width="1"/>
+  <text x="100"  y="89" text-anchor="middle" fill="#222" font-weight="bold">CAD.exe</text>
+
+  <rect x="1185" y="45" width="150" height="80" rx="4" fill="#eaeaea" stroke="#7a7a7a" stroke-width="1"/>
+  <text x="1260" y="89" text-anchor="middle" fill="#222" font-weight="bold">CAM.exe</text>
+
+  <rect x="315" y="65" width="150" height="40" rx="4" fill="#d9e7f5" stroke="#3a6a99" stroke-width="1.5"/>
+  <text x="390" y="89" text-anchor="middle" fill="#1a3a59" font-weight="bold">Toolbar.dll</text>
+
+  <rect x="605" y="65" width="150" height="40" rx="4" fill="#eaeaea" stroke="#7a7a7a" stroke-width="1"/>
+  <text x="680" y="89" text-anchor="middle" fill="#222" font-weight="bold">STGeomFile.dll</text>
+
+  <rect x="895" y="65" width="150" height="40" rx="4" fill="#fdf3d3" stroke="#c2922e" stroke-width="1.2"/>
+  <text x="970" y="89" text-anchor="middle" fill="#6b531a" font-weight="bold">SGF file</text>
+
+  <!-- bottom centre (under Toolbar.dll): Translator.exe (control flow) -->
+  <rect x="315" y="220" width="150" height="40" rx="4" fill="#d9e7f5" stroke="#3a6a99" stroke-width="1.5"/>
+  <text x="390" y="244" text-anchor="middle" fill="#1a3a59" font-weight="bold">Translator.exe</text>
+
+  <!-- arrows -->
+  <g stroke="#333" stroke-width="1.4" fill="none">
+    <!-- top-row pipeline -->
+    <line x1="175"  y1="85" x2="315"  y2="85" marker-end="url(#arrow)"/>
+    <line x1="465"  y1="85" x2="605"  y2="85" marker-end="url(#arrow)"/>
+    <line x1="755"  y1="85" x2="895"  y2="85" marker-end="url(#arrow)"/>
+    <line x1="1045" y1="85" x2="1185" y2="85" marker-end="url(#arrow)"/>
+
+    <!-- CAM.exe -> Translator.exe: down from CAM, enters Translator from the right -->
+    <path d="M 1260 125 V 240 H 465" marker-end="url(#arrow)"/>
+    <!-- Translator.exe -> CAD.exe: out Translator left, then up into CAD bottom -->
+    <path d="M 315 240 H 100 V 125" marker-end="url(#arrow)"/>
+  </g>
+
+  <!-- labels -->
+  <g text-anchor="middle" fill="#a64500">
+    <text x="245"  y="74">Loading</text>
+    <text x="535"  y="74">Loading</text>
+    <text x="825"  y="74">Forming &lt;OutFile&gt;</text>
+    <text x="1115" y="74">Importing</text>
+
+    <text x="863" y="232">&lt;InFile&gt; &lt;OutFile&gt;</text>
+    <text x="208" y="232">Opening &lt;InFile&gt;</text>
+  </g>
+</svg>
