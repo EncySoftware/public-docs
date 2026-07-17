@@ -1,0 +1,445 @@
+﻿pdf: true
+items:
+  - name: "Postprocessors generator (sppx postprocessors)"
+    href: ../readme-sppx.md
+  - name: "External references and examples"
+    href: ../references.md
+  - name: "Introduction"
+    href: ../introduction/readme-introduction.md
+    items:
+    - name: "The purpose of the postprocessors generator"
+      href: ../introduction/purpose-of-the-postprocessors-generator.md
+    - name: "The files set of the postprocessors generator"
+      href: ../introduction/files-set-of-the-postprocessors-generator.md
+  - name: "The common organization of the work"
+    href: ../common-organization-of-the-work/readme-common-organization-of-the-work.md
+    items:
+    - name: "The principle of postprocessor operation"
+      href: ../common-organization-of-the-work/principle-of-postprocessor-operation.md
+    - name: "The main window"
+      href: ../common-organization-of-the-work/main-window/readme-main-window.md
+      items:
+      - name: "The main toolbar"
+        href: ../common-organization-of-the-work/main-window/main-toolbar.md
+      - name: "System settings"
+        href: ../common-organization-of-the-work/main-window/system-settings.md
+      - name: "Editor settings"
+        href: ../common-organization-of-the-work/main-window/editor-settings.md
+      - name: "Machine parameters"
+        href: ../common-organization-of-the-work/main-window/machine-parameters/readme-machine-parameters.md
+        items:
+        - name: "Defining the data about the NC-machine and CNC-system"
+          href: ../common-organization-of-the-work/main-window/machine-parameters/defining-the-data-about-the-nc-machine-and-cnc-system.md
+        - name: "Comments transliteration"
+          href: ../common-organization-of-the-work/main-window/machine-parameters/comments-transliteration.md
+      - name: "The block structure and format definition (Register list forming)"
+        href: ../common-organization-of-the-work/main-window/block-structure-and-format-definition-register-list-forming.md
+      - name: "The masks for the machining commands translation"
+        href: ../common-organization-of-the-work/main-window/masks-for-the-machining-commands-translation.md
+      - name: "The programs for the CLData commands processing"
+        href: ../common-organization-of-the-work/main-window/programs-for-the-cldata-commands-processing.md
+      - name: "Subprograms"
+        href: ../common-organization-of-the-work/main-window/subprograms.md
+      - name: "The command processing programs compilation"
+        href: ../common-organization-of-the-work/main-window/command-processing-programs-compilation.md
+      - name: "The work with the files of technological commands"
+        href: ../common-organization-of-the-work/main-window/work-with-the-files-of-technological-commands.md
+      - name: "The test NC-code generation"
+        href: ../common-organization-of-the-work/main-window/test-nc-code-generation.md
+      - name: "Programs debugging"
+        href: ../common-organization-of-the-work/main-window/programs-debugging.md
+      - name: "Postprocessor parameters inquiry while the first using"
+        href: ../common-organization-of-the-work/main-window/postprocessor-parameters-inquiry-while-the-first-using.md
+  - name: "Postprocessor masks"
+    href: ../postprocessor-masks/readme-postprocessor-masks.md
+    items:
+    - name: "Mask structure"
+      href: ../postprocessor-masks/mask-structure/readme-mask-structure.md
+      items:
+      - name: "Mask element"
+        href: ../postprocessor-masks/mask-structure/mask-element.md
+      - name: "Registers in the masks"
+        href: ../postprocessor-masks/mask-structure/registers-in-the-masks.md
+      - name: "Modifiers"
+        href: ../postprocessor-masks/mask-structure/modifiers.md
+      - name: "Expressions"
+        href: ../postprocessor-masks/mask-structure/expressions.md
+      - name: "Nested mask"
+        href: ../postprocessor-masks/mask-structure/nested-mask.md
+      - name: "The separators of the mask elements"
+        href: ../postprocessor-masks/mask-structure/separators-of-the-mask-elements.md
+      - name: "Variables assignment from the mask"
+        href: ../postprocessor-masks/mask-structure/variables-assignment-from-the-mask.md
+      - name: "Deferred masks"
+        href: ../postprocessor-masks/mask-structure/deferred-masks.md
+      - name: "GMA array in masks"
+        href: ../postprocessor-masks/mask-structure/gma-array-in-masks.md
+    - name: "Mask management"
+      href: ../postprocessor-masks/mask-management/readme-mask-management.md
+      items:
+      - name: "Mask switches"
+        href: ../postprocessor-masks/mask-management/mask-switches.md
+      - name: "The transformation of a mask to the subprogram"
+        href: ../postprocessor-masks/mask-management/transformation-of-a-mask-to-the-subprogram.md
+      - name: "The interactive to create the masks"
+        href: ../postprocessor-masks/mask-management/interactive-to-create-the-masks.md
+  - name: "Language description"
+    href: ../language-description/readme-language-description.md
+    items:
+    - name: "Basic definitions"
+      href: ../language-description/basic-definitions/readme-basic-definitions.md
+      items:
+      - name: "Conditional indications"
+        href: ../language-description/basic-definitions/conditional-indications.md
+      - name: "Technology command programs, comments"
+        href: ../language-description/basic-definitions/technology-command-programs-comments.md
+      - name: "Subprograms"
+        href: ../language-description/basic-definitions/subprograms.md
+      - name: "The language statement conception"
+        href: ../language-description/basic-definitions/language-statement-conception.md
+      - name: "The set of symbols"
+        href: ../language-description/basic-definitions/set-of-symbols.md
+      - name: "The variables"
+        href: ../language-description/basic-definitions/variables.md
+      - name: "Arrays"
+        href: ../language-description/basic-definitions/arrays.md
+      - name: "Mathematical expressions and functions"
+        href: ../language-description/basic-definitions/mathematical-expressions-and-functions.md
+      - name: "Predefined variables and functions"
+        href: ../language-description/basic-definitions/predefined-variables-and-functions/readme-predefined-variables-and-functions.md
+        items:
+        - name: "Standard mathematical functions"
+          href: ../language-description/basic-definitions/predefined-variables-and-functions/standard-mathematical-functions.md
+        - name: "String functions"
+          href: ../language-description/basic-definitions/predefined-variables-and-functions/string-functions.md
+        - name: "Miscellaneous functions and variables"
+          href: ../language-description/basic-definitions/predefined-variables-and-functions/miscellaneous-functions-and-variables.md
+      - name: "Records"
+        href: ../language-description/basic-definitions/records.md
+      - name: "Objects"
+        href: ../language-description/basic-definitions/objects/readme-objects.md
+        items:
+        - name: "EulerConverter"
+          href: ../language-description/basic-definitions/objects/eulerconverter.md
+        - name: "Matrix"
+          href: ../language-description/basic-definitions/objects/matrix.md
+        - name: "NCChannel"
+          href: ../language-description/basic-definitions/objects/ncchannel.md
+        - name: "Point3D"
+          href: ../language-description/basic-definitions/objects/point3d.md
+        - name: "Quaternion4d"
+          href: ../language-description/basic-definitions/objects/quaternion4d.md
+        - name: "StringHelper"
+          href: ../language-description/basic-definitions/objects/stringhelper.md
+    - name: "Operators"
+      href: ../language-description/operators/readme-operators.md
+      items:
+      - name: "The processing program start operator PROGRAM"
+        href: ../language-description/operators/processing-program-start-operator-program.md
+      - name: "The statement of assignment"
+        href: ../language-description/operators/statement-of-assignment.md
+      - name: "The output statement PRINT"
+        href: ../language-description/operators/output-statement-print.md
+      - name: "The input statement INPUT"
+        href: ../language-description/operators/input-statement-input/readme-input-statement-input.md
+        items:
+        - name: "The input from file"
+          href: ../language-description/operators/input-statement-input/input-from-file.md
+        - name: "The input from keyboard"
+          href: ../language-description/operators/input-statement-input/input-from-keyboard.md
+      - name: "Conditional statement IF"
+        href: ../language-description/operators/conditional-statement-if.md
+      - name: "Statement of the multiconditional execution CASE"
+        href: ../language-description/operators/statement-of-the-multiconditional-execution-case.md
+      - name: "JUMP statement"
+        href: ../language-description/operators/jump-statement.md
+      - name: "The cycle statement FOR"
+        href: ../language-description/operators/cycle-statement-for/readme-cycle-statement-for.md
+        items:
+        - name: "Statement CONTINUE"
+          href: ../language-description/operators/cycle-statement-for/statement-continue.md
+        - name: "Statement BREAK"
+          href: ../language-description/operators/cycle-statement-for/statement-break.md
+      - name: "The cycle statement REPEAT"
+        href: ../language-description/operators/cycle-statement-repeat.md
+      - name: "The cycle statement WHILE"
+        href: ../language-description/operators/cycle-statement-while.md
+      - name: "Composite statement BEGIN...END"
+        href: ../language-description/operators/composite-statement.md
+      - name: "Statement to call a subprogram CALL"
+        href: ../language-description/operators/statement-to-call-a-subprogram-call.md
+      - name: "The statement of the subprogram start SUB"
+        href: ../language-description/operators/statement-of-the-subprogram-start-sub.md
+      - name: "The statement of the subprogram end SUBEND"
+        href: ../language-description/operators/statement-of-the-subprogram-end-subend.md
+      - name: "The statement of the procedure start PROC"
+        href: ../language-description/operators/statement-of-the-procedure-start-proc.md
+      - name: "The RETURN from a procedure statement"
+        href: ../language-description/operators/return-from-a-procedure-statement.md
+      - name: "The block output statement OUTBLOCK"
+        href: ../language-description/operators/block-output-statement-outblock.md
+      - name: "The block forming statement FORMBLOCK"
+        href: ../language-description/operators/block-forming-statement-formblock.md
+      - name: "Statement of direct output into the block OUTPUT"
+        href: ../language-description/operators/statement-of-direct-output-into-the-block-output.md
+      - name: "The replace statement of the substring in a string REPLACE"
+        href: ../language-description/operators/replace-statement-of-the-substring-in-a-string-replace.md
+      - name: "The statement to form the block by mask MASK"
+        href: ../language-description/operators/statement-to-form-the-block-by-mask-mask.md
+      - name: "Change current NC-file operator"
+        href: ../language-description/operators/change-current-nc-file-operator.md
+      - name: "External task call operator"
+        href: ../language-description/operators/external-task-call-operator.md
+      - name: "CustomData access operator CAM system"
+        href: ../language-description/operators/customdata-access-operator-cam-system.md
+      - name: "Operators of work with NC-subroutines"
+        href: ../language-description/operators/operators-of-work-with-nc-subroutines/readme-operators-of-work-with-nc-subroutines.md
+        items:
+        - name: "The operator of a output of NC-subroutine NCSUB.OUTPUT"
+          href: ../language-description/operators/operators-of-work-with-nc-subroutines/operator-of-a-output-of-nc-subroutine.md
+        - name: "NCSUB.OUTPUTALL operator"
+          href: ../language-description/operators/operators-of-work-with-nc-subroutines/operator.md
+        - name: "The operator of definition of an initial marker of NC-subroutine NCSUB.STARTLABEL"
+          href: ../language-description/operators/operators-of-work-with-nc-subroutines/operator-of-definition-of-an-initial-marker-of-nc-subroutine.md
+        - name: "The operator of definition of a final marker of NC-subroutine NCSUB.ENDLABEL"
+          href: ../language-description/operators/operators-of-work-with-nc-subroutines/operator-of-definition-of-a-final-marker-of-nc-subroutine.md
+        - name: "The operator of definition of a name of NC-subroutine NCSUB.NAME"
+          href: ../language-description/operators/operators-of-work-with-nc-subroutines/operator-of-definition-of-a-name-of-nc-subroutine.md
+        - name: "Technique of work with NC-subroutines"
+          href: ../language-description/operators/operators-of-work-with-nc-subroutines/technique-of-work-with-nc-subroutines.md
+      - name: "ReplNCStr operator to replace strings at NC-file"
+        href: ../language-description/operators/replncstr-operator-to-replace-strings-at-nc-file.md
+  - name: "CLData"
+    href: ../../cldata/cldata.md
+    items:
+    - name: "CLData access functions and operators"
+      href: ../../cldata/functions/functions.md
+      items:
+      - name: "Named CLData parameters"
+        href: ../../cldata/functions/named-parameters.md
+      - name: "CLD predefined array"
+        href: ../../cldata/functions/cld-array.md
+      - name: "Current command (Cmd operator)"
+        href: ../../cldata/functions/current-command.md
+      - name: "Browsing CLData commands"
+        href: ../../cldata/functions/browsing.md
+      - name: "CLData files (CLDFile operator)"
+        href: ../../cldata/functions/files.md
+      - name: "Project information (Project operator)"
+        href: ../../cldata/functions/project.md
+      - name: "GMA array"
+        href: ../../cldata/functions/gma.md
+
+    - name: "Project information in CLData"
+      href: ../../cldata/project-information.md
+    - name: "Technology commands description"
+      href: ../../cldata/commands/commands.md
+      items:
+      - name: "AXESBRAKE - Machine axes brakes control"
+        href: ../../cldata/commands/axesbrake.md
+      - name: "CIRCLE - Circle movement"
+        href: ../../cldata/commands/circle.md
+      - name: "CLAMP - Fixtures clamp"
+        href: ../../cldata/commands/clamp.md
+      - name: "COMMENT - Commentaries"
+        href: ../../cldata/commands/comment.md
+      - name: "COOLNT - Cooling"
+        href: ../../cldata/commands/coolnt.md
+      - name: "CUTCOM - Tool compensation"
+        href: ../../cldata/commands/cutcom.md
+      - name: "CYCLE - Hole machining cycles"
+        href: ../../cldata/commands/cycle/cycle.md
+        items:
+        - name: "CYCLE BORE5(209) - G85 drilling cycle"
+          href: ../../cldata/commands/cycle/g85.md
+        - name: "CYCLE BORE6(210) - G86 drilling cycle"
+          href: ../../cldata/commands/cycle/g86.md
+        - name: "CYCLE BORE7(211) - G87 drilling cycle"
+          href: ../../cldata/commands/cycle/g87.md
+        - name: "CYCLE BORE8(212) - G88 drilling cycle"
+          href: ../../cldata/commands/cycle/g88.md
+        - name: "CYCLE BORE9(213) - G89 drilling cycle"
+          href: ../../cldata/commands/cycle/g89.md
+        - name: "CYCLE BRKCHP(288) - Deep drilling with chip breaking"
+          href: ../../cldata/commands/cycle/deep-chip-breaking.md
+        - name: "CYCLE DEEP(153) - Deep drilling with chip removing"
+          href: ../../cldata/commands/cycle/deep-chip-removing.md
+        - name: "CYCLE DRILL(163) - G81 drilling cycle"
+          href: ../../cldata/commands/cycle/g81.md
+        - name: "CYCLE FACE(81) - G82 drilling cycle"
+          href: ../../cldata/commands/cycle/g82.md
+        - name: "CYCLE TAP(168) - G84 drilling cycle"
+          href: ../../cldata/commands/cycle/g84.md
+      - name: "DELAY - Delay"
+        href: ../../cldata/commands/delay.md
+      - name: "EDMMOVE - EDM movement"
+        href: ../../cldata/commands/edmmove.md
+      - name: "EFFECTOR - End effector activation"
+        href: ../../cldata/commands/effector.md
+      - name: "EXTCYCLE - Extended cycle"
+        href: ../../cldata/commands/extcycle/extcycle.md
+        items:
+        - name: "EXTCYCLE BRKCHP - Lathe drilling with chip breaking cycle"
+          href: ../../cldata/commands/extcycle/lathe-brkchp.md
+        - name: "EXTCYCLE DEEP - Lathe drilling with chip removing cycle"
+          href: ../../cldata/commands/extcycle/lathe-deep.md
+        - name: "EXTCYCLE DRILL - Lathe drilling cycle (G81)"
+          href: ../../cldata/commands/extcycle/lathe-drill.md
+        - name: "EXTCYCLE FACE - Lathe drilling cycle (G82)"
+          href: ../../cldata/commands/extcycle/lathe-face.md
+        - name: "EXTCYCLE LATHEFINISH - Lathe finish cycle (G70, G73)"
+          href: ../../cldata/commands/extcycle/lathefinish.md
+        - name: "EXTCYCLE LATHEGROOVE - Lathe grooving cycle (G74, G75)"
+          href: ../../cldata/commands/extcycle/lathegroove.md
+        - name: "EXTCYCLE LATHEROUGH - Lathe roughing cycle (G71, G72)"
+          href: ../../cldata/commands/extcycle/latherough.md
+        - name: "EXTCYCLE LATHETHREAD - Lathe threading cycle (G76)"
+          href: ../../cldata/commands/extcycle/lathethread.md
+        - name: "EXTCYCLE LATHETHREADG92(404) - Lathe threading single pass cycle (G92)"
+          href: ../../cldata/commands/extcycle/lathethread-g92.md
+        - name: "EXTCYCLE TAP - Lathe tapping cycle (G84)"
+          href: ../../cldata/commands/extcycle/lathe-tap.md
+        - name: "EXTCYCLE W5DBore5 - Drilling cycle (G85)"
+          href: ../../cldata/commands/extcycle/w5dbore5.md
+        - name: "EXTCYCLE W5DBore6 - Drilling cycle (G86)"
+          href: ../../cldata/commands/extcycle/w5dbore6.md
+        - name: "EXTCYCLE W5DBore7 - Drilling cycle (G87)"
+          href: ../../cldata/commands/extcycle/w5dbore7.md
+        - name: "EXTCYCLE W5DBore8 - Drilling cycle (G88)"
+          href: ../../cldata/commands/extcycle/w5dbore8.md
+        - name: "EXTCYCLE W5DBore9 - Drilling cycle (G89)"
+          href: ../../cldata/commands/extcycle/w5dbore9.md
+        - name: "EXTCYCLE W5DChipBreaking - Drilling with chip breaking cycle (G73)"
+          href: ../../cldata/commands/extcycle/w5dchipbreaking.md
+        - name: "EXTCYCLE W5DChipRemoving - Drilling with chip removing cycle (G83)"
+          href: ../../cldata/commands/extcycle/w5dchipremoving.md
+        - name: "EXTCYCLE W5DDrill - Drilling cycle (G81)"
+          href: ../../cldata/commands/extcycle/w5ddrill.md
+        - name: "EXTCYCLE W5DFace - Drilling cycle (G82)"
+          href: ../../cldata/commands/extcycle/w5dface.md
+        - name: "EXTCYCLE W5DHolePocketing - Hole pocketing cycle"
+          href: ../../cldata/commands/extcycle/w5dholepocketing.md
+        - name: "EXTCYCLE W5DTap - Tapping cycle (G84)"
+          href: ../../cldata/commands/extcycle/w5dtap.md
+        - name: "EXTCYCLE W5DThreadMill - Thread milling cycle"
+          href: ../../cldata/commands/extcycle/w5dthreadmill.md
+        - name: "EXTCYCLE WProbing - Probing cycle"
+          href: ../../cldata/commands/extcycle/wprobing/wprobing.md
+          items:
+          - name: "Additional parameters"
+            href: ../../cldata/commands/extcycle/wprobing/additional.md
+          - name: "Boss probing parameters"
+            href: ../../cldata/commands/extcycle/wprobing/boss.md
+          - name: "Double wall external corner probing parameters"
+            href: ../../cldata/commands/extcycle/wprobing/double-wall-external-corner.md
+          - name: "Double wall internal corner probing parameters"
+            href: ../../cldata/commands/extcycle/wprobing/double-wall-internal-corner.md
+          - name: "External rectangle probing parameters"
+            href: ../../cldata/commands/extcycle/wprobing/external-rectangle.md
+          - name: "Groove probing parameters"
+            href: ../../cldata/commands/extcycle/wprobing/groove.md
+          - name: "Groove probing protected parameters"
+            href: ../../cldata/commands/extcycle/wprobing/groove-protected.md
+          - name: "Hole probing parameters"
+            href: ../../cldata/commands/extcycle/wprobing/hole.md
+          - name: "Hole protected probing parameters"
+            href: ../../cldata/commands/extcycle/wprobing/hole-protected.md
+          - name: "Internal rectangle probing parameters"
+            href: ../../cldata/commands/extcycle/wprobing/internal-rectangle.md
+          - name: "Internal rectangle probing protected parameters"
+            href: ../../cldata/commands/extcycle/wprobing/internal-rectangle-protected.md
+          - name: "Surface probing parameters"
+            href: ../../cldata/commands/extcycle/wprobing/surface.md
+          - name: "Triple wall external corner probing parameters"
+            href: ../../cldata/commands/extcycle/wprobing/triple-wall-external-corner.md
+          - name: "Triple wall internal corner probing parameters"
+            href: ../../cldata/commands/extcycle/wprobing/triple-wall-internal-corner.md
+          - name: "Web probing (three points) parameters"
+            href: ../../cldata/commands/extcycle/wprobing/web-three-points.md
+          - name: "Web probing parameters"
+            href: ../../cldata/commands/extcycle/wprobing/web.md
+      - name: "FEDRAT - Feedrate"
+        href: ../../cldata/commands/fedrat.md
+      - name: "Filter - Output filter (global handler)"
+        href: ../../cldata/commands/filter.md
+      - name: "FINI - Ending record"
+        href: ../../cldata/commands/fini.md
+      - name: "FROM - Original point"
+        href: ../../cldata/commands/from.md
+      - name: "GOHOME - Return to original position"
+        href: ../../cldata/commands/gohome.md
+      - name: "GOTO - Linear transition"
+        href: ../../cldata/commands/goto.md
+      - name: "HEAD - Spindle head number"
+        href: ../../cldata/commands/head.md
+      - name: "INSERT - Insertion"
+        href: ../../cldata/commands/insert.md
+      - name: "INTERPOLATION - Interpolation mode"
+        href: ../../cldata/commands/interpolation.md
+      - name: "LOADTL - Tool loading"
+        href: ../../cldata/commands/loadtl.md
+      - name: "MULTIARC - Multi-axis circle movement"
+        href: ../../cldata/commands/multiarc.md
+      - name: "MULTIGOTO - Multi-coordinate movement"
+        href: ../../cldata/commands/multigoto.md
+      - name: "OPSKIP - Optional skipping"
+        href: ../../cldata/commands/opskip.md
+      - name: "OPSTOP - Auxiliary stop"
+        href: ../../cldata/commands/opstop.md
+      - name: "ORIGIN - Original coordinates"
+        href: ../../cldata/commands/origin.md
+      - name: "PALETA - Palette changing"
+        href: ../../cldata/commands/paleta.md
+      - name: "PARTNO - Part number"
+        href: ../../cldata/commands/partno.md
+      - name: "PHYSICGOTO - Physical machine axes movement"
+        href: ../../cldata/commands/physicgoto.md
+      - name: "PLANE - Working plane"
+        href: ../../cldata/commands/plane.md
+      - name: "POWER - Power adjustment"
+        href: ../../cldata/commands/power.md
+      - name: "PPFUN - Postprocessor function"
+        href: ../../cldata/commands/ppfun/ppfun.md
+        items:
+        - name: "PPFUN CALLSUB(52) - NC-subprogram call command"
+          href: ../../cldata/commands/ppfun/callsub.md
+        - name: "PPFUN ENDSUB(51) - NC-subprogram end command"
+          href: ../../cldata/commands/ppfun/endsub.md
+        - name: "PPFUN ENDTECHINFO(59) - End of operation's technological information"
+          href: ../../cldata/commands/ppfun/endtechinfo.md
+        - name: "PPFUN PPFUN(500) - Tool durability control command"
+          href: ../../cldata/commands/ppfun/tool-durability.md
+        - name: "PPFUN STARTSUB(50) - NC-subprogram start command"
+          href: ../../cldata/commands/ppfun/startsub.md
+        - name: "PPFUN TECHINFO(58) - Technology parameters command"
+          href: ../../cldata/commands/ppfun/techinfo.md
+        - name: "PPFUN WEDMConditions(56) - EDM machining conditions specification command"
+          href: ../../cldata/commands/ppfun/wedm-conditions.md
+        - name: "PPFUN WEDMPassItem(57) - Wire EDM pass properties"
+          href: ../../cldata/commands/ppfun/wedm-passitem.md
+      - name: "PPRINT - Postprocessor printing"
+        href: ../../cldata/commands/pprint.md
+      - name: "RAPID - Rapid feedrate"
+        href: ../../cldata/commands/rapid.md
+      - name: "ROTABL - Table rotation"
+        href: ../../cldata/commands/rotabl.md
+      - name: "SAFPOS - Tool change point"
+        href: ../../cldata/commands/safpos.md
+      - name: "SELWORKPIECE - Active workpiece connector selection"
+        href: ../../cldata/commands/selworkpiece.md
+      - name: "SINGLETHREAD - Single-pass thread"
+        href: ../../cldata/commands/singlethread.md
+      - name: "SPINDL - Spindle"
+        href: ../../cldata/commands/spindle.md
+      - name: "STOP - Stop"
+        href: ../../cldata/commands/stop.md
+      - name: "STRUCTURE - Toolpath structure"
+        href: ../../cldata/commands/structure.md
+      - name: "SYNCAXES - Axes movement synchronization"
+        href: ../../cldata/commands/syncaxes.md
+      - name: "TAKEOVER - Workpiece takeover"
+        href: ../../cldata/commands/takeover.md
+      - name: "TLCONTACT - Tool contact"
+        href: ../../cldata/commands/tlcontact.md
+      - name: "WAIT - Waiting for synchronization point"
+        href: ../../cldata/commands/wait.md
