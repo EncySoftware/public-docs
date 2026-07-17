@@ -422,3 +422,59 @@
     init();
   }
 })();
+
+/* =============================================================
+   Track the current page in the left TOC: highlight it and keep
+   its branch expanded across navigation. statictoc marks the
+   active node but leaves the tree collapsed (no ".in" on the
+   ancestors), so expand them here. Re-applies when docfx
+   re-renders the TOC (e.g. after loading toc.html over HTTP).
+   ============================================================= */
+(function () {
+  'use strict';
+  function markActive() {
+    var toc = document.querySelector('.sidetoc');
+    if (!toc) return;
+    var links = toc.querySelectorAll('a[href]');
+    if (!links.length) return;
+    var active = null;
+    for (var i = 0; i < links.length; i++) {
+      var h = links[i].getAttribute('href') || '';
+      if (!h || h.charAt(0) === '#') continue;
+      try {
+        if (new URL(links[i].href).pathname === location.pathname) { active = links[i]; break; }
+      } catch (e) { /* ignore */ }
+    }
+    if (!active) {
+      var here = location.pathname.split('/').pop() || 'index.html';
+      for (var j = 0; j < links.length; j++) {
+        var f = (links[j].getAttribute('href') || '').split('#')[0].split('/').pop();
+        if (f && f === here) { active = links[j]; break; }
+      }
+    }
+    if (!active || !active.closest) return;
+    var li = active.closest('li');
+    var el = li;
+    while (el) {
+      if (el.tagName === 'LI') el.classList.add('in');
+      el = el.parentElement && el.parentElement.closest ? el.parentElement.closest('li') : null;
+    }
+    if (li) {
+      li.classList.add('active', 'in');
+      if (li.scrollIntoView) { try { li.scrollIntoView({ block: 'center' }); } catch (e) { li.scrollIntoView(); } }
+    }
+  }
+  function start() {
+    markActive();
+    setTimeout(markActive, 250);
+    setTimeout(markActive, 800);
+    var toc = document.querySelector('.sidetoc');
+    if (toc && window.MutationObserver) {
+      var t = null;
+      new MutationObserver(function () { clearTimeout(t); t = setTimeout(markActive, 50); })
+        .observe(toc, { childList: true, subtree: true });
+    }
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start);
+  else start();
+})();
