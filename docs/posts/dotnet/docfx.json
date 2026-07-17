@@ -1,15 +1,50 @@
 {
   "build": {
     "content": [
-      { "src": "src", "files": [ "**/*.{md,yml}" ] },
-      { "src": "../cldata", "files": [ "**/*.{md,yml}" ], "dest": "cldata" }
+      {
+        "src": "src",
+        "files": [
+          "**/*.{md,yml}"
+        ]
+      },
+      {
+        "src": "../cldata",
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "dest": "cldata"
+      }
     ],
     "resource": [
-      { "src": "src", "files": [ "images/**", "attachments/**" ] },
-      { "src": "../sppx/src", "files": [ "images/**" ], "dest": "sppx/src" }
+      {
+        "src": "src",
+        "files": [
+          "images/**",
+          "attachments/**"
+        ]
+      },
+      {
+        "src": "../sppx/src",
+        "files": [
+          "images/**"
+        ],
+        "dest": "sppx/src"
+      }
     ],
     "dest": "out/html",
-    "template": [ "statictoc" ],
-    "markdownEngineName": "markdig"
+    "template": [
+      "default",
+      "modern"
+    ],
+    "markdownEngineName": "markdig",
+    "postProcessors": [
+      "ExtractSearchIndex"
+    ],
+    "globalMetadata": {
+      "_appName": ".NET postprocessors",
+      "_appTitle": ".NET postprocessors",
+      "_enableSearch": true,
+      "_disableContribution": true
+    }
   }
 }

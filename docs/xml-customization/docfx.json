@@ -1,13 +1,36 @@
 {
   "build": {
     "content": [
-      { "src": "src", "files": [ "**/*.{md,yml}" ] }
+      {
+        "src": "src",
+        "files": [
+          "**/*.{md,yml}"
+        ]
+      }
     ],
     "resource": [
-      { "src": "src", "files": [ "images/**", "attachments/**" ] }
+      {
+        "src": "src",
+        "files": [
+          "images/**",
+          "attachments/**"
+        ]
+      }
     ],
     "dest": "out/html",
-    "template": [ "statictoc" ],
-    "markdownEngineName": "markdig"
+    "template": [
+      "default",
+      "modern"
+    ],
+    "markdownEngineName": "markdig",
+    "postProcessors": [
+      "ExtractSearchIndex"
+    ],
+    "globalMetadata": {
+      "_appName": "CAM System Customization Reference",
+      "_appTitle": "CAM System Customization Reference",
+      "_enableSearch": true,
+      "_disableContribution": true
+    }
   }
 }
