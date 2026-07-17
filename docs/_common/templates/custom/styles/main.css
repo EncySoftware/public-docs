@@ -558,11 +558,13 @@ a code {
   width: 320px;
 }
 
-/* Main content fills the gap between the left TOC and the right outline */
+/* Main content fills the gap between the left TOC and the right outline.
+   Left rail = sidebar 320 at left:0, content margin-left 336 -> 16 px gap.
+   Right rail = affix width 220 at right:16 (rail 236); margin-right 252 mirrors
+   the 16 px gap (336 - (320 - 236)), so both gaps are visually symmetric. */
 .article.grid-right {
   margin-left: 336px;
-  margin-right: 240px;
-  padding-right: 24px;
+  margin-right: 252px;
 }
 
 /* The content sits in a Bootstrap .col-md-10 with an empty .col-md-2 beside it
