@@ -32,12 +32,29 @@ def _run(args, cwd):
     subprocess.check_call(args, cwd=cwd)
 
 
-def build_html(unit, open_after):
+_ROOT_REDIRECT = (
+    '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">'
+    '<meta http-equiv="refresh" content="0; url=./src/index.html">'
+    '<link rel="canonical" href="./src/index.html"><title>Documentation</title>'
+    '</head><body><a href="./src/index.html">Open the documentation</a></body></html>\n'
+)
+
+
+def _build_html(unit):
+    """Build the HTML site and drop a redirect at the site root so the root URL
+    (e.g. https://host/<unit>/) opens the home page, which lives at src/index.html."""
     _run([_docfx(), "build", "docfx.json"], unit)
-    # Home is src/index.html (content lives under src/); fall back to the root.
-    index = os.path.join(unit, "out", "html", "src", "index.html")
-    if not os.path.isfile(index):
-        index = os.path.join(unit, "out", "html", "index.html")
+    out_html = os.path.join(unit, "out", "html")
+    home = os.path.join(out_html, "src", "index.html")
+    if os.path.isfile(home):
+        with open(os.path.join(out_html, "index.html"), "w", encoding="utf-8") as f:
+            f.write(_ROOT_REDIRECT)
+    return out_html, home
+
+
+def build_html(unit, open_after):
+    out_html, home = _build_html(unit)
+    index = home if os.path.isfile(home) else os.path.join(out_html, "index.html")
     print("HTML:", index)
     if open_after and os.path.isfile(index) and hasattr(os, "startfile"):
         os.startfile(index)
@@ -57,8 +74,8 @@ def build_pdf(unit, name):
 def serve_html(unit, port):
     # Full-text search needs the site served over HTTP: browsers block the
     # search web worker and the index.json fetch under file://.
-    _run([_docfx(), "build", "docfx.json"], unit)
-    url = "http://localhost:%d/src/index.html" % port
+    _build_html(unit)
+    url = "http://localhost:%d/" % port
     print("Serving on", url, "(Ctrl+C to stop)")
     try:
         import webbrowser
