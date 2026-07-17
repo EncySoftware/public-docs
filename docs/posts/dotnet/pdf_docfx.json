@@ -1,13 +1,12 @@
 {
   "build": {
     "content": [
-      { "src": "src", "files": [ "**/*.{md,yml}" ] },
-      { "src": "../cldata", "files": [ "**/*.{md,yml}" ], "dest": "cldata" },
-      { "files": [ "pdf/toc.yml" ] }
+      { "src": ".", "dest": "dotnet", "files": [ "src/**/*.{md,yml}", "pdf/toc.yml" ] },
+      { "src": "../cldata", "dest": "cldata", "files": [ "**/*.{md,yml}" ] }
     ],
     "resource": [
-      { "src": "src", "files": [ "images/**", "attachments/**" ] },
-      { "src": "../sppx/src", "files": [ "images/**" ], "dest": "sppx/src" }
+      { "src": ".", "dest": "dotnet", "files": [ "src/images/**", "src/attachments/**" ] },
+      { "src": "../sppx", "dest": "sppx", "files": [ "src/images/**" ] }
     ],
     "dest": "out/pdf",
     "template": [ "default", "modern" ]

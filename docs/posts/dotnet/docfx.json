@@ -1,39 +1,12 @@
 {
   "build": {
     "content": [
-      {
-        "files": [
-          "**/*.{md,yml}"
-        ],
-        "exclude": [
-          "build/**",
-          "pdf/**",
-          "out/**",
-          "obj/**"
-        ]
-      },
-      {
-        "src": "../cldata",
-        "files": [
-          "**/*.{md,yml}"
-        ],
-        "dest": "cldata"
-      }
+      { "src": ".", "dest": "dotnet", "files": [ "src/**/*.{md,yml}" ] },
+      { "src": "../cldata", "dest": "cldata", "files": [ "**/*.{md,yml}" ] }
     ],
     "resource": [
-      {
-        "files": [
-          "src/images/**",
-          "src/attachments/**"
-        ]
-      },
-      {
-        "src": "../sppx/src",
-        "files": [
-          "images/**"
-        ],
-        "dest": "sppx/src"
-      }
+      { "src": ".", "dest": "dotnet", "files": [ "src/images/**", "src/attachments/**" ] },
+      { "src": "../sppx", "dest": "sppx", "files": [ "src/images/**" ] }
     ],
     "dest": "out/html",
     "globalMetadata": {
@@ -42,13 +15,8 @@
       "_enableSearch": true,
       "_disableContribution": true
     },
-    "postProcessors": [
-      "ExtractSearchIndex"
-    ],
-    "template": [
-      "statictoc",
-      "../../_common/templates/custom"
-    ],
+    "postProcessors": [ "ExtractSearchIndex" ],
+    "template": [ "statictoc", "../../_common/templates/custom" ],
     "markdownEngineName": "markdig"
   }
 }

@@ -32,23 +32,39 @@ def _run(args, cwd):
     subprocess.check_call(args, cwd=cwd)
 
 
-_ROOT_REDIRECT = (
-    '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">'
-    '<meta http-equiv="refresh" content="0; url=./src/index.html">'
-    '<link rel="canonical" href="./src/index.html"><title>Documentation</title>'
-    '</head><body><a href="./src/index.html">Open the documentation</a></body></html>\n'
-)
+def _redirect_html(rel):
+    return (
+        '<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">'
+        '<meta http-equiv="refresh" content="0; url=./%s">'
+        '<link rel="canonical" href="./%s"><title>Documentation</title>'
+        '</head><body><a href="./%s">Open the documentation</a></body></html>\n'
+        % (rel, rel, rel)
+    )
+
+
+def _find_home(out_html):
+    """The home is the built src/index.html. Simple units put it at src/index.html;
+    posts units (built from the posts root to resolve the shared cldata links) put
+    it one level deeper, e.g. sppx/src/index.html."""
+    direct = os.path.join(out_html, "src", "index.html")
+    if os.path.isfile(direct):
+        return direct
+    import glob
+    hits = sorted(glob.glob(os.path.join(out_html, "*", "src", "index.html")))
+    return hits[0] if hits else os.path.join(out_html, "index.html")
 
 
 def _build_html(unit):
     """Build the HTML site and drop a redirect at the site root so the root URL
-    (e.g. https://host/<unit>/) opens the home page, which lives at src/index.html."""
+    (e.g. https://host/<unit>/) opens the home page wherever it landed."""
     _run([_docfx(), "build", "docfx.json"], unit)
     out_html = os.path.join(unit, "out", "html")
-    home = os.path.join(out_html, "src", "index.html")
+    home = _find_home(out_html)
     if os.path.isfile(home):
-        with open(os.path.join(out_html, "index.html"), "w", encoding="utf-8") as f:
-            f.write(_ROOT_REDIRECT)
+        rel = os.path.relpath(home, out_html).replace("\\", "/")
+        if rel != "index.html":
+            with open(os.path.join(out_html, "index.html"), "w", encoding="utf-8") as f:
+                f.write(_redirect_html(rel))
     return out_html, home
 
 
@@ -64,10 +80,16 @@ def build_pdf(unit, name):
     _run([sys.executable, os.path.join(HERE, "gen_toc.py"), unit], HERE)
     _run([_docfx(), "build", "pdf_docfx.json"], unit)
     _run([_docfx(), "pdf", "pdf_docfx.json"], unit)
-    produced = os.path.join(unit, "out", "pdf", "pdf", "toc.pdf")
+    out_pdf = os.path.join(unit, "out", "pdf")
+    # docfx names the file toc.pdf under the pdf-toc's output dir, which varies
+    # with the content dest (e.g. pdf/ or sppx/pdf/); find it wherever it landed.
+    import glob
+    hits = glob.glob(os.path.join(out_pdf, "**", "toc.pdf"), recursive=True)
+    if not hits:
+        raise SystemExit("no toc.pdf produced under " + out_pdf)
     name = name or ("CAM-" + os.path.basename(os.path.normpath(unit)) + ".pdf")
-    dest = os.path.join(unit, "out", "pdf", name)
-    shutil.copyfile(produced, dest)
+    dest = os.path.join(out_pdf, name)
+    shutil.copyfile(hits[0], dest)
     print("PDF:", dest)
 
 
