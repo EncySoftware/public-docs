@@ -2,9 +2,14 @@
   "build": {
     "content": [
       {
-        "src": "src",
         "files": [
           "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "build/**",
+          "pdf/**",
+          "out/**",
+          "obj/**"
         ]
       },
       {
@@ -17,10 +22,9 @@
     ],
     "resource": [
       {
-        "src": "src",
         "files": [
-          "images/**",
-          "attachments/**"
+          "src/images/**",
+          "src/attachments/**"
         ]
       },
       {
@@ -32,19 +36,19 @@
       }
     ],
     "dest": "out/html",
-    "template": [
-      "default",
-      "modern"
-    ],
-    "markdownEngineName": "markdig",
-    "postProcessors": [
-      "ExtractSearchIndex"
-    ],
     "globalMetadata": {
       "_appName": ".NET postprocessors",
       "_appTitle": ".NET postprocessors",
       "_enableSearch": true,
       "_disableContribution": true
-    }
+    },
+    "postProcessors": [
+      "ExtractSearchIndex"
+    ],
+    "template": [
+      "statictoc",
+      "../../_common/templates/custom"
+    ],
+    "markdownEngineName": "markdig"
   }
 }

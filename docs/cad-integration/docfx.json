@@ -2,18 +2,22 @@
   "build": {
     "content": [
       {
-        "src": "src",
         "files": [
           "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "build/**",
+          "pdf/**",
+          "out/**",
+          "obj/**"
         ]
       }
     ],
     "resource": [
       {
-        "src": "src",
         "files": [
-          "images/**",
-          "attachments/**"
+          "src/images/**",
+          "src/attachments/**"
         ]
       }
     ],
@@ -28,8 +32,8 @@
       "ExtractSearchIndex"
     ],
     "template": [
-      "default",
-      "modern"
+      "statictoc",
+      "../_common/templates/custom"
     ],
     "markdownEngineName": "markdig"
   }
