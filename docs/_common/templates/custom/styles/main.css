@@ -561,8 +561,21 @@ a code {
 /* Main content fills the gap between the left TOC and the right outline */
 .article.grid-right {
   margin-left: 336px;
-  margin-right: 250px;
+  margin-right: 240px;
   padding-right: 24px;
+}
+
+/* The content sits in a Bootstrap .col-md-10 with an empty .col-md-2 beside it
+   (the in-page outline is fixed-positioned separately). Let the content column
+   fill the whole article area and drop the empty placeholder column's width,
+   otherwise ~17% is wasted between the content and the outline. */
+.article.grid-right .col-md-10 {
+  width: 100%;
+}
+.article.grid-right .col-md-2 {
+  width: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* Right in-page outline pinned to the right edge */
