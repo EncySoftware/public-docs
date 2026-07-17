@@ -1,6 +1,6 @@
 ﻿# Groove probing parameters
 
-![image2022-4-7_16-39-34](../../../../sppx/images/download/attachments/148776114/image2022-4-7_16-39-34.png)
+![image2022-4-7_16-39-34](../../../../sppx/src/images/download/attachments/148776114/image2022-4-7_16-39-34.png)
 
 Groove probing consist of the following steps:
 

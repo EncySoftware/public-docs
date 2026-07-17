@@ -1,6 +1,6 @@
 ﻿# Triple wall internal corner probing parameters
 
-**![image2022-4-5_22-58-52](../../../../sppx/images/download/attachments/148776133/image2022-4-5_22-58-52.png) ![image2022-4-5_22-59-15](../../../../sppx/images/download/attachments/148776133/image2022-4-5_22-59-15.png)**
+**![image2022-4-5_22-58-52](../../../../sppx/src/images/download/attachments/148776133/image2022-4-5_22-58-52.png) ![image2022-4-5_22-59-15](../../../../sppx/src/images/download/attachments/148776133/image2022-4-5_22-59-15.png)**
 
 Triple wall internal corner probing consist of the following steps:
 

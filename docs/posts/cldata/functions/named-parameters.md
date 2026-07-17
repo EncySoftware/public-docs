@@ -50,7 +50,7 @@ As the parameter name in them can be not only a string constant, as shown here, 
 
 There is a convenient way to form a string to access the desired parameter. All parameters for CLData objects are shown in a separate tree on the CLData tab in its right side. It is necessary to select the necessary command in the list, or the project in the list of operations. At the same time in the tree on the right you will see the parameters of the selected object. Then you need to find the desired parameter in this tree and double-click on it. The line of access to the specified parameter will be inserted into the current cursor position in the code editing window.
 
-![images/download/attachments/142668957/image2024-8-21_16-46-26.png](../../sppx/images/download/attachments/142668957/image2024-8-21_16-46-26.png)
+![images/download/attachments/142668957/image2024-8-21_16-46-26.png](../../sppx/src/images/download/attachments/142668957/image2024-8-21_16-46-26.png)
 
 Example of MultiGoto command processing using various methods to access elements of array parameter Axes (by index, by key, and by compound name):
 

@@ -2,7 +2,7 @@
 
 A CAM system UI tool for managing the lifecycle of Add-ins. Implemented by the `AddinManager.dll` library that is part of the CAM system.
 
-![Add-in Wizard](../images/addins-wizard.png)
+![Add-in Wizard](images/addins-wizard.png)
 
 When you select an Add-in in the top list, all of its additional information is shown in the `Properties` panel. Usually this is the name and version of the application the Add-in works with, a description of the capabilities it provides, and other information.
 

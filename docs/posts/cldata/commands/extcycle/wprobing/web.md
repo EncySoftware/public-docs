@@ -1,6 +1,6 @@
 ﻿# Web probing parameters
 
-![image2022-4-5_19-52-45](../../../../sppx/images/download/attachments/148776108/image2022-4-5_19-52-45.png)
+![image2022-4-5_19-52-45](../../../../sppx/src/images/download/attachments/148776108/image2022-4-5_19-52-45.png)
 
 Web probing consist of the following steps:
 

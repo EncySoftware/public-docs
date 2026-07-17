@@ -1,0 +1,14 @@
+{
+  "build": {
+    "content": [
+      { "src": "src", "files": [ "**/*.{md,yml}" ] },
+      { "src": "../cldata", "files": [ "**/*.{md,yml}" ], "dest": "cldata" }
+    ],
+    "resource": [
+      { "src": "src", "files": [ "images/**", "attachments/**" ] }
+    ],
+    "dest": "out/html",
+    "template": [ "statictoc" ],
+    "markdownEngineName": "markdig"
+  }
+}

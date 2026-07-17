@@ -2,7 +2,7 @@
 
 Boring cycle `W5DBore5(485)` (G85) performs tool approach to the hole center, hole boring with stop at minimum level and work feedrate retract to the **Return** level.
 
-![G85](../../../sppx/images/download/attachments/142669182/G85.PNG)
+![G85](../../../sppx/src/images/download/attachments/142669182/G85.PNG)
 
 Boring canned cycle G85 consists of:
 
@@ -34,7 +34,7 @@ Boring canned cycle G85 consists of:
 | CLD[15] | CLD.CLParams(13) | Delay at the bottom level in seconds |
 | CLD[50] | CLD.CLParams(48) | What spindle is used to machining: 1 - driven tool, 2 - workpiece spindle (lathe). |
 
-![W5DSchema](../../../sppx/images/download/attachments/142669182/W5DSchema.png)
+![W5DSchema](../../../sppx/src/images/download/attachments/142669182/W5DSchema.png)
 
 ## Access from .NET
 

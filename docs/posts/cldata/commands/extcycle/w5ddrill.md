@@ -2,7 +2,7 @@
 
 Drilling cycle type `W5DDrill(481)` (G81) drills holes with rapid approach to the safe level and rapid retract the safe plane level.
 
-![G81](../../../sppx/images/download/attachments/142669157/G81.PNG)
+![G81](../../../sppx/src/images/download/attachments/142669157/G81.PNG)
 
 Drilling cycle G81 consist of the following steps:
 

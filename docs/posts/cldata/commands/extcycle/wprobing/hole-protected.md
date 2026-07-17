@@ -1,6 +1,6 @@
 ﻿# Hole protected probing parameters
 
-![image2022-4-5_19-13-35](../../../../sppx/images/download/attachments/148776087/image2022-4-5_19-13-35.png)
+![image2022-4-5_19-13-35](../../../../sppx/src/images/download/attachments/148776087/image2022-4-5_19-13-35.png)
 
 Hole protected probing consist of the following steps:
 

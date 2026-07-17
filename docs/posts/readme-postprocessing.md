@@ -10,11 +10,11 @@ The CAM system has **two independent postprocessing subsystems**. They share the
 and the same input (CLData), but differ in language, implementation and authoring style —
 pick one per postprocessor; they are documented separately:
 
-- **[Postprocessors generator (sppx postprocessors)](sppx/readme-sppx.md)** — postprocessors
+- **[Postprocessors generator (sppx postprocessors)](sppx/src/index.md)** — postprocessors
   written in the built‑in **Pascal‑like language**, with the `.sppx` extension, authored in the
   dedicated **Postprocessors generator** application. Mature and self‑contained, with its own
   editor and masks/registers model.
-- **[Postprocessors — .NET](dotnet/readme-dotnet.md)** — postprocessors built as **.NET
+- **[Postprocessors — .NET](dotnet/src/index.md)** — postprocessors built as **.NET
   assemblies** (`.dll`) against the postprocessing SDK, authored in a general‑purpose IDE
   (e.g. Visual Studio Code). The runner (`InpCore.exe`) reads the CLData and calls the
   postprocessor's command handlers.

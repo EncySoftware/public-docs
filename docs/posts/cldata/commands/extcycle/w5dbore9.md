@@ -2,7 +2,7 @@
 
 Boring cycle type `W5DBore9(489)` (G89) Bores holes with rapid approach to the safe level, dwell at hole bottom level, spindle stop and manual retract to the safe plane level.
 
-![G89](../../../sppx/images/download/attachments/142669202/G89.PNG)
+![G89](../../../sppx/src/images/download/attachments/142669202/G89.PNG)
 
 Boring cycle G89 consist of the following steps:
 

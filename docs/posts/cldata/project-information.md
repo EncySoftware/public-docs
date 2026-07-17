@@ -4,7 +4,7 @@ The information about the CAM system project placed inside CLData available thro
 
 You can display it on the screen if on the CLData tab select the first item with the name of the project. Properties will be shown in the parameters tree on the right.
 
-![image2024-8-21_17-13-56](../sppx/images/download/attachments/142669061/image2024-8-21_17-13-56.png)
+![image2024-8-21_17-13-56](../sppx/src/images/download/attachments/142669061/image2024-8-21_17-13-56.png)
 
 The list of possible properties described in tables below. Information about the properties structure, presented as an XML file, is available in the CAM system installation folder in a subfolder Supplement\Operations\CLData.xml.
 

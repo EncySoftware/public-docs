@@ -1,15 +1,12 @@
-﻿{
+{
   "build": {
     "content": [
-      {
-        "files": [ "**/*.{md,yml}" ],
-        "exclude": [ "_site/**", "obj/**", "_pdf/**" ]
-      }
+      { "files": [ "src/**/*.{md,yml}", "pdf/toc.yml" ] }
     ],
-    "dest": "_pdf",
-    "template": [
-      "default",
-      "modern"
-    ]
+    "resource": [
+      { "files": [ "src/images/**", "src/attachments/**" ] }
+    ],
+    "dest": "out/pdf",
+    "template": [ "default", "modern" ]
   }
 }

@@ -29,15 +29,15 @@ Handler: `program Interpolation`
 
 The **Polar interpolation** mode is usually used on turn-milling machines without the Y axis in order to machine parts from the side. In this mode the tool movement in Y direction is replaced by the simultaneous rotation of the workpiece around the rotary axis (C) and the tool movement along the radial axis (X). Depending on the control used the Y coordinate in the NC code may be replaced with the C coordinate.
 
-![PolarInterp](../../sppx/images/download/attachments/142669256/PolarInterp.png)
+![PolarInterp](../../sppx/src/images/download/attachments/142669256/PolarInterp.png)
 
 The **Cylindrical interpolation** mode is used to machine cylindrical pockets on cylindrical parts. The NC code contains a 2d contour of a pocket in the XY coordinates where the X coordinate is the coordinate along the cylinder axis, while the Y coordinate is equal to the Cylinder Radius multiplied by the rotation Angle of the workpiece around the rotary axis. Depending on the control used the Y coordinate in the NC code may be replaced with the C coordinate.
 
-![CylInterp](../../sppx/images/download/attachments/142669256/CylInterp.png)
+![CylInterp](../../sppx/src/images/download/attachments/142669256/CylInterp.png)
 
 The **MULTIAXIS interpolation** mode is used for simultaneous five axis milling. In this mode the XYZ coordinates of a NC block are the coordinates of the tool center point relative to the workpiece coordinate system rotating together with the rotary table. Opposed to the standard Cartesian interpolation mode in the MULTIAXIS interpolation mode if a NC block consists only of the commands positioning rotary axes, the position of the tool tip to the workpiece remains the same. It means the tool is rotated around the tool center (see the figure below).
 
-![5AxisInterp](../../sppx/images/download/attachments/142669256/5AxisInterp.png)
+![5AxisInterp](../../sppx/src/images/download/attachments/142669256/5AxisInterp.png)
 
 If you program a tilting table movement while multiaxis interpolation is active, the control rotates the coordinate system accordingly. If, for example, you rotate the C axis by 90° (through a positioning command or datum shift) and then program a movement in the X axis, the control executes the movement in the machine axis Y.
 

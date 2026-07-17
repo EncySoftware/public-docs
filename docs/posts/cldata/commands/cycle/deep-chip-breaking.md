@@ -4,7 +4,7 @@
 
 Deep drilling with chip removing cycle performs rapid approach to the safe level and repeated drilling according to specified cut-in depth value **ZI** and withdrawal **Zi** values.
 
-![Img5_4_31_4](../../../sppx/images/download/attachments/142669103/Img5_4_31_4.gif)
+![Img5_4_31_4](../../../sppx/src/images/download/attachments/142669103/Img5_4_31_4.gif)
 
 Cycle includes:
 

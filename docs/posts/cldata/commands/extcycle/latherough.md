@@ -6,7 +6,7 @@ G73 canned cycle is similar to G71, but is used to machine part face.
 
 The last motion for both cycles is the return to the starting S position. As shown on the image S is the tool position when the cycle was called.
 
-![f_clip0029](../../../sppx/images/download/attachments/142669113/f_clip0029.png)
+![f_clip0029](../../../sppx/src/images/download/attachments/142669113/f_clip0029.png)
 
 Lathe cycles assume the part programmed contour PQ is defined. CAM system passes the contour as NC-subroutine. The number of the subroutine is specified in the `CLD[3]` parameter.
 

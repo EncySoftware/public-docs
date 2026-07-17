@@ -2,7 +2,7 @@
 
 Boring cycle `W5DBore7(487)` (G87) performs tool approach to the hole center, hole boring with stop at minimum level and manual retract to the **Return** level.
 
-![G87](../../../sppx/images/download/attachments/142669192/G87.PNG)
+![G87](../../../sppx/src/images/download/attachments/142669192/G87.PNG)
 
 Boring canned cycle G87 consists of:
 
@@ -38,7 +38,7 @@ Boring canned cycle G87 consists of:
 | CLD[21] | CLD.CLParams(19) | The value of tool shift for the Z coordinate after oriented spindle stop at the bottom of the hole. |
 | CLD[50] | CLD.CLParams(48) | What spindle is used to machining: 1 - driven tool, 2 - workpiece spindle (lathe). |
 
-![W5DSchema](../../../sppx/images/download/attachments/142669192/W5DSchema.png)
+![W5DSchema](../../../sppx/src/images/download/attachments/142669192/W5DSchema.png)
 
 ## Access from .NET
 

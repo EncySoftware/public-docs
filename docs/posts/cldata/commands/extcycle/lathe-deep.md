@@ -11,7 +11,7 @@ Deep drilling cycle with tool retraction for chip removing `DEEP(153)` is used t
 7. Repeat steps 3 - 6 until the full hole depth is reached.
 8. Rapid retract to the safe plane level S.
 
-![image2023-6-14_17-13-44](../../../sppx/images/download/attachments/142669153/image2023-6-14_17-13-44.png)
+![image2023-6-14_17-13-44](../../../sppx/src/images/download/attachments/142669153/image2023-6-14_17-13-44.png)
 
 ## Parameters
 

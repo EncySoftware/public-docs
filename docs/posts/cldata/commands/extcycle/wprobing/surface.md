@@ -1,6 +1,6 @@
 ﻿# Surface probing parameters
 
-![image2022-4-5_0-8-42](../../../../sppx/images/download/thumbnails/148776070/image2022-4-5_0-8-42.png)
+![image2022-4-5_0-8-42](../../../../sppx/src/images/download/thumbnails/148776070/image2022-4-5_0-8-42.png)
 
 Surface probing consist of the following steps:
 

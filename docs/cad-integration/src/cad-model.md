@@ -4,7 +4,7 @@
 
 A CAD model is a hierarchy of related objects: from the document as a whole down to individual points. Importing into SGF is essentially a traversal of this hierarchy, translating each object into the corresponding `ISTGeomReceiver` call.
 
-![CAD model structure](../images/cad-model-structure.svg)
+![CAD model structure](images/cad-model-structure.svg)
 
 Model entities (top-down — from the assembly level to geometric primitives):
 

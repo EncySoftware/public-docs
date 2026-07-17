@@ -1,6 +1,6 @@
 ﻿# Groove probing protected parameters
 
-![image2022-4-5_21-8-24](../../../../sppx/images/download/attachments/148776118/image2022-4-5_21-8-24.png)
+![image2022-4-5_21-8-24](../../../../sppx/src/images/download/attachments/148776118/image2022-4-5_21-8-24.png)
 
 Groove probing protected consist of the following steps:
 

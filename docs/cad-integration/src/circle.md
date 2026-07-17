@@ -8,4 +8,4 @@
 - `vZ` — Z axis;
 - `vX` — X axis.
 
-![CreateCircle](../images/curve-circle.svg)
+![CreateCircle](images/curve-circle.svg)

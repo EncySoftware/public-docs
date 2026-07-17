@@ -11,4 +11,4 @@
 - `vZ` — Z axis;
 - `vX` — X axis.
 
-![CreateEllipseArc](../images/curve-ellipsearc.svg)
+![CreateEllipseArc](images/curve-ellipsearc.svg)

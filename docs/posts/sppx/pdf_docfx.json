@@ -1,0 +1,14 @@
+{
+  "build": {
+    "content": [
+      { "src": "src", "files": [ "**/*.{md,yml}" ] },
+      { "src": "../cldata", "files": [ "**/*.{md,yml}" ], "dest": "cldata" },
+      { "files": [ "pdf/toc.yml" ] }
+    ],
+    "resource": [
+      { "src": "src", "files": [ "images/**", "attachments/**" ] }
+    ],
+    "dest": "out/pdf",
+    "template": [ "default", "modern" ]
+  }
+}

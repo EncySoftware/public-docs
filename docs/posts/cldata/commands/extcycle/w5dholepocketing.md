@@ -2,7 +2,7 @@
 
 `W5DHolePocketing(491)` is used to machine holes whose diameter is greater than the tool diameter. The pocketing is performed by layers. The tool cuts in along a spiral to each layer and then expands the hole to the desired diameter by moving along Archimedes spiral with finishing pass along the circle.
 
-![W5DHolePocketing_eng](../../../sppx/images/download/attachments/142669232/W5DHolePocketing_eng.PNG)
+![W5DHolePocketing_eng](../../../sppx/src/images/download/attachments/142669232/W5DHolePocketing_eng.PNG)
 
 Hole pocketing cycle includes the following:
 
@@ -24,7 +24,7 @@ Spiral twist direction can be one of the following:
 - **Counter**. Spiral twist direction is determined by the spindle rotation direction and corresponds to the up cutting milling. When counter pocketing milling tool rotation direction and spiral direction are opposite to each other.
 - **Follow**. Spiral twist direction is determined by the spindle rotation direction and corresponds to the down cutting milling. When counter pocketing milling tool rotation direction and spiral direction are coincident.
 
-![Arhimeds_spiral](../../../sppx/images/download/attachments/142669232/Arhimeds_spiral.PNG)
+![Arhimeds_spiral](../../../sppx/src/images/download/attachments/142669232/Arhimeds_spiral.PNG)
 
 If the finishing pass value is not zero, then additional pass along the circle with specified stock is performed before the final pass along the circle. This allows to ensure equal stock final pass.
 

@@ -5,4 +5,4 @@
 - `ID` — the identifier of the entity being created;
 - `SourceSurface` — the identifier of the source surface.
 
-![Transposed UV surface](../images/surface-transpose.svg)
+![Transposed UV surface](images/surface-transpose.svg)

@@ -39,7 +39,7 @@ A NURBS surface is formed by a sequence of calls: open (`StartNurbsSurface`), se
 - `UMin`, `UMax` — bounds of the U parameter;
 - `VMin`, `VMax` — bounds of the V parameter.
 
-![NURBS surface](../images/surface-nurbs.svg)
+![NURBS surface](images/surface-nurbs.svg)
 
 **Example of importing a NURBS surface.**
 

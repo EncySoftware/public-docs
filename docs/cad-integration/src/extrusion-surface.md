@@ -6,7 +6,7 @@
 - `GeneratrixID` — identifier of the generatrix curve;
 - `ExtrusionVector` — extrusion vector (direction and length).
 
-![Extrusion surface](../images/surface-extrude.svg)
+![Extrusion surface](images/surface-extrude.svg)
 
 **Example of saving an extrusion surface.**
 

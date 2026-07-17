@@ -1,6 +1,6 @@
 ﻿# External rectangle probing parameters
 
-![image2022-4-5_19-34-48](../../../../sppx/images/download/attachments/148776103/image2022-4-5_19-34-48.png) ![image2022-4-5_19-44-58](../../../../sppx/images/download/attachments/148776103/image2022-4-5_19-44-58.png)
+![image2022-4-5_19-34-48](../../../../sppx/src/images/download/attachments/148776103/image2022-4-5_19-34-48.png) ![image2022-4-5_19-44-58](../../../../sppx/src/images/download/attachments/148776103/image2022-4-5_19-44-58.png)
 
 External rectangle probing consist of the following steps:
 

@@ -29,7 +29,7 @@ A NURBS curve is formed through a sequence of calls: open (`StartNurbsCurve`), s
 
 **`CloseNurbsCurve()`** — finish forming the NURBS curve.
 
-![NURBS curve](../images/curve-nurbs.svg)
+![NURBS curve](images/curve-nurbs.svg)
 
 **Example of importing a NURBS curve.** 
 

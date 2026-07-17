@@ -2,7 +2,7 @@
 
 Lathe tapping cycle `TAP(168)` G84 is used to machine threading by static tap in an axial hole of the workpiece which is rotated by the spindle. The tool approaches the hole axis at the safe plane level, rapid travels to the return level, then work feedrate equal to the threading pitch machines the threading to the specified depth. At the hole bottom the spindle rotation is reversed and the tool is retracted at work feedrate to the return level, where the spindle rotation direction and frequency are reset.
 
-![image2023-6-14_16-52-29](../../../sppx/images/download/attachments/142669145/image2023-6-14_16-52-29.png)
+![image2023-6-14_16-52-29](../../../sppx/src/images/download/attachments/142669145/image2023-6-14_16-52-29.png)
 
 ## Parameters
 

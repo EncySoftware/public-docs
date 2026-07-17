@@ -9,7 +9,7 @@
 - `sa` — start angle (usually `0`);
 - `ta` — end angle (full revolution — `2π`).
 
-![Surface of revolution](../images/surface-rev.svg)
+![Surface of revolution](images/surface-rev.svg)
 
 **Example of saving a surface of revolution.**
 

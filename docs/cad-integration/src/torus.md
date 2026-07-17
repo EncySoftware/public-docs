@@ -9,4 +9,4 @@
 - `MajRad` — major radius (from the axis to the center of the tube);
 - `MinRad` — minor radius (radius of the tube).
 
-![Torus](../images/surface-torus.svg)
+![Torus](images/surface-torus.svg)

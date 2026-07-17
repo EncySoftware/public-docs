@@ -1,33 +1,33 @@
 ﻿pdf: true
 items:
   - name: "Contents"
-    href: ../contents.md
+    href: ../src/contents.md
   - name: "External references and examples"
-    href: ../references.md
+    href: ../src/references.md
   - name: ".NET postprocessors"
-    href: ../readme-dotnet.md
+    href: ../src/index.md
   - name: "Introduction"
-    href: ../introduction.md
+    href: ../src/introduction.md
   - name: "Organization of the postprocessing system"
     items:
     - name: "Running the postprocessing"
-      href: ../organization/running-the-postprocessing.md
+      href: ../src/organization/running-the-postprocessing.md
     - name: "Postprocessors' development tools"
-      href: ../organization/development-tools.md
+      href: ../src/organization/development-tools.md
     - name: "Postprocessor's file set"
-      href: ../organization/postprocessor-file-set.md
+      href: ../src/organization/postprocessor-file-set.md
   - name: "User interface"
     items:
     - name: "CLData Viewer"
-      href: ../user-interface/cldata-viewer.md
+      href: ../src/user-interface/cldata-viewer.md
     - name: "Postprocessor settings window"
-      href: ../user-interface/postprocessor-settings-window.md
+      href: ../src/user-interface/postprocessor-settings-window.md
     - name: "Registers window"
-      href: ../user-interface/registers-windows.md
+      href: ../src/user-interface/registers-windows.md
   - name: "How to write postprocessors"
     items:
     - name: "How to prepare the computer to start writing the postprocessors"
-      href: ../how-to/prepare-the-computer.md
+      href: ../src/how-to/prepare-the-computer.md
   - name: "CLData"
     href: ../../cldata/cldata.md
     items:

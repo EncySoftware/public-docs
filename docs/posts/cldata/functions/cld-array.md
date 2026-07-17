@@ -12,7 +12,7 @@ Command parameters are accessed either by indexing the appropriate item in the *
 
 To access by index use the common array syntax: `CLD[i]` - i-th array item - real number, **i** - item index - positive integer. Index of array element can be a variable or an expression of integer type. For example: `CLD[3]`, `CLD[n]`, `CLD[2*n+1]` etc. The total number of elements in the array **CLD** contained in the predefined variable **RecNum**.
 
-To access parameters by name use the following syntax: `CLD.Parameter name`, where **Parameter name** - unique identifier of the parameter. For example, `CLD.X`, `CLD.Mode` and so on. Parameter names are specific for each command. The detailed description of CLData technology commands and their parameters is found in the [technology commands description](../commands/commands.md). Also you can see the list of parameters at the **Current parameters** panel of the **Mask** page of the [main window](../../sppx/common-organization-of-the-work/main-window/readme-main-window.md) and on the **CLData** tab at the bottom of the main window.
+To access parameters by name use the following syntax: `CLD.Parameter name`, where **Parameter name** - unique identifier of the parameter. For example, `CLD.X`, `CLD.Mode` and so on. Parameter names are specific for each command. The detailed description of CLData technology commands and their parameters is found in the [technology commands description](../commands/commands.md). Also you can see the list of parameters at the **Current parameters** panel of the **Mask** page of the [main window](../../sppx/src/common-organization-of-the-work/main-window/readme-main-window.md) and on the **CLData** tab at the bottom of the main window.
 
 Example of using **CLD** array:
 

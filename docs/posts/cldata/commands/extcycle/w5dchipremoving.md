@@ -2,7 +2,7 @@
 
 Drilling with chip removing cycle `W5DChipRemoving(483)` (G83) performs tool motion to the hole center at the **Z return** level and consequent cyclic drill with tool retraction to the **Z safe** level.
 
-![G83](../../../sppx/images/download/attachments/142669167/G83.PNG)
+![G83](../../../sppx/src/images/download/attachments/142669167/G83.PNG)
 
 Cycle consists of:
 

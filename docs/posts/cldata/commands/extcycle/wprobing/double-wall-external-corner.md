@@ -1,6 +1,6 @@
 ﻿# Double wall external corner probing parameters
 
-![image2022-4-5_22-37-24](../../../../sppx/images/download/attachments/148776128/image2022-4-5_22-37-24.png) ![image2022-4-5_22-37-40](../../../../sppx/images/download/attachments/148776128/image2022-4-5_22-37-40.png)
+![image2022-4-5_22-37-24](../../../../sppx/src/images/download/attachments/148776128/image2022-4-5_22-37-24.png) ![image2022-4-5_22-37-40](../../../../sppx/src/images/download/attachments/148776128/image2022-4-5_22-37-40.png)
 
 Double wall external corner probing consist of the following steps:
 

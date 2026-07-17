@@ -8,4 +8,4 @@
 - `RefAxis` — the X axis (`vX`);
 - `Radius` — the radius.
 
-![Sphere](../images/surface-sphere.svg)
+![Sphere](images/surface-sphere.svg)

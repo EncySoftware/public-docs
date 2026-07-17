@@ -1,6 +1,6 @@
 ﻿# Hole probing parameters
 
-![image2022-4-4_23-34-6](../../../../sppx/images/download/attachments/148776082/image2022-4-4_23-34-6.png)
+![image2022-4-4_23-34-6](../../../../sppx/src/images/download/attachments/148776082/image2022-4-4_23-34-6.png)
 
 Hole probing consist of the following steps:
 

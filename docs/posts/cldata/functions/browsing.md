@@ -101,7 +101,7 @@ To get access to the parameters of arbitrary technological command can also use 
 
 ### GetCLDStr function
 
-**GetCLDStr** returns a string representation of current CLData command with it's parameters similar to that displayed in the [textual representation CLData window](../../sppx/common-organization-of-the-work/main-window/work-with-the-files-of-technological-commands.md).
+**GetCLDStr** returns a string representation of current CLData command with it's parameters similar to that displayed in the [textual representation CLData window](../../sppx/src/common-organization-of-the-work/main-window/work-with-the-files-of-technological-commands.md).
 
 For example, inside the command handler AbsMov function can return a string like the following.
 
