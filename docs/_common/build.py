@@ -54,16 +54,33 @@ def build_pdf(unit, name):
     print("PDF:", dest)
 
 
+def serve_html(unit, port):
+    # Full-text search needs the site served over HTTP: browsers block the
+    # search web worker and the index.json fetch under file://.
+    _run([_docfx(), "build", "docfx.json"], unit)
+    url = "http://localhost:%d/src/index.html" % port
+    print("Serving on", url, "(Ctrl+C to stop)")
+    try:
+        import webbrowser
+        webbrowser.open(url)
+    except Exception:
+        pass
+    _run([_docfx(), "serve", os.path.join(unit, "out", "html"), "-p", str(port)], unit)
+
+
 def main():
     ap = argparse.ArgumentParser(description="Build a documentation unit.")
     ap.add_argument("unit", help="path to the unit directory")
-    ap.add_argument("target", choices=["html", "pdf"])
+    ap.add_argument("target", choices=["html", "pdf", "serve"])
     ap.add_argument("--name", help="output PDF file name (pdf target)")
     ap.add_argument("--open", action="store_true", help="open the HTML after building")
+    ap.add_argument("--port", type=int, default=8080, help="port for the serve target")
     a = ap.parse_args()
     unit = os.path.abspath(a.unit)
     if a.target == "html":
         build_html(unit, a.open)
+    elif a.target == "serve":
+        serve_html(unit, a.port)
     else:
         build_pdf(unit, a.name)
 
