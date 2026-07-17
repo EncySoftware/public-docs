@@ -1,0 +1,14 @@
+{
+  "build": {
+    "content": [
+      { "src": "dotnet", "files": [ "**/*.{md,yml}" ], "exclude": [ "**/_pdf/**", "**/_site/**", "**/obj/**" ], "dest": "dotnet" },
+      { "src": "cldata", "files": [ "**/*.{md,yml}" ], "exclude": [ "**/_pdf/**", "**/_site/**" ], "dest": "cldata" }
+    ],
+    "resource": [
+      { "src": "dotnet", "files": [ "images/**" ], "dest": "dotnet" },
+      { "src": "sppx", "files": [ "images/**" ], "dest": "sppx" }
+    ],
+    "dest": "dotnet/_pdf",
+    "template": [ "default", "modern" ]
+  }
+}

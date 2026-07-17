@@ -1,0 +1,55 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 520" font-family="Segoe UI, Arial, sans-serif" font-size="22">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#000"/>
+    </marker>
+  </defs>
+  <style>
+    rect { fill:#fff; stroke:#000; stroke-width:2; }
+    text { fill:#000; text-anchor:middle; dominant-baseline:middle; }
+    line { stroke:#000; stroke-width:2; }
+  </style>
+
+  <!-- left pipeline -->
+  <rect x="40"  y="24"  width="200" height="64"/>
+  <text x="140" y="57">The CAM system</text>
+
+  <rect x="40"  y="148" width="200" height="64"/>
+  <text x="140" y="181">CLDATA</text>
+
+  <rect x="40"  y="272" width="200" height="78"/>
+  <text x="140" y="303">Executable</text>
+  <text x="140" y="329">system</text>
+
+  <rect x="40"  y="432" width="200" height="64"/>
+  <text x="140" y="465">NC-program</text>
+
+  <line x1="140" y1="88"  x2="140" y2="146" marker-end="url(#arrow)"/>
+  <line x1="140" y1="212" x2="140" y2="270" marker-end="url(#arrow)"/>
+  <line x1="140" y1="350" x2="140" y2="430" marker-end="url(#arrow)"/>
+
+  <!-- dashed postprocessors container -->
+  <rect x="350" y="56" width="400" height="340" fill="none" stroke="#000" stroke-width="2" stroke-dasharray="8 7"/>
+
+  <rect x="395" y="84" width="300" height="72"/>
+  <text x="545" y="112">Postprocessors</text>
+  <text x="545" y="138">library</text>
+
+  <!-- stacked *.SPPX files -->
+  <rect x="455" y="232" width="205" height="68"/>
+  <rect x="435" y="252" width="205" height="68"/>
+  <rect x="415" y="272" width="205" height="68"/>
+  <text x="517" y="308">*.SPPX</text>
+
+  <!-- generator -->
+  <rect x="800" y="268" width="160" height="84"/>
+  <text x="880" y="300">Postprocessors</text>
+  <text x="880" y="326">generator</text>
+
+  <!-- generator <-> library (read / write the .sppx) -->
+  <line x1="668" y1="290" x2="798" y2="290" marker-end="url(#arrow)"/>
+  <line x1="798" y1="318" x2="668" y2="318" marker-end="url(#arrow)"/>
+
+  <!-- library feeds the executable system -->
+  <line x1="414" y1="306" x2="242" y2="306" marker-end="url(#arrow)"/>
+</svg>
