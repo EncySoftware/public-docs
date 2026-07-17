@@ -564,7 +564,7 @@ a code {
    the 16 px gap (336 - (320 - 236)), so both gaps are visually symmetric. */
 .article.grid-right {
   margin-left: 336px;
-  margin-right: 252px;
+  margin-right: 212px;
 }
 
 /* The content sits in a Bootstrap .col-md-10 with an empty .col-md-2 beside it
@@ -580,10 +580,11 @@ a code {
   padding-right: 0;
 }
 
-/* Right in-page outline pinned to the right edge */
+/* Right in-page outline pinned to the right edge (narrow footprint so the
+   content can extend and the right gap matches the left one) */
 .sideaffix {
-  right: 16px;
-  width: 220px;
+  right: 12px;
+  width: 200px;
 }
 
 /* Breadcrumb aligns with the content column */
