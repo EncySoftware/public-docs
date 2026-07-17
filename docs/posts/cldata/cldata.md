@@ -246,7 +246,7 @@ A command's parameters come in two flavours:
 - **Named / structured parameters** — typed values addressed by name, possibly nested (objects, arrays).
   This is the modern form used by newer commands (and available for most parameters of the older ones).
   The naming model is the same one described in
-  [XML properties — access from code](../../xml-properties/using-from-code.md).
+  [XML properties — access from code](../../xml-customization/xml-properties/using-from-code.md).
 
 The table summarizes the ways to read them. Details and examples are given per command in the command
 reference; the access pattern is always the same.
@@ -255,7 +255,7 @@ reference; the access pattern is always the same.
 |---|---|---|---|
 | Numeric array, by index | `cld[i]` | `cld[i]` | Common to both. The array is filled with the current command's parameters before the command is processed. |
 | Numeric element, by short name | `cld.X`, `cld.N` … | — | **sppx only.** A flat, duplicate accessor for some numeric elements. Not available in .NET. |
-| Named / structured, by name | `cmd.Str["Name"]`, `cmd.Flt["Name"]`, `cmd.Int["Name"]`, `cmd.Ptr["Name"]` | `cmd.Str["Name"]`, `cmd.Flt["Name"]`, `cmd.Int["Name"]`, `cmd.Ptr["Name"]` | Same grammar in both (dotted paths, array keys `Name(Key)`, pointer chaining). See [XML properties — access from code](../../xml-properties/using-from-code.md). |
+| Named / structured, by name | `cmd.Str["Name"]`, `cmd.Flt["Name"]`, `cmd.Int["Name"]`, `cmd.Ptr["Name"]` | `cmd.Str["Name"]`, `cmd.Flt["Name"]`, `cmd.Int["Name"]`, `cmd.Ptr["Name"]` | Same grammar in both (dotted paths, array keys `Name(Key)`, pointer chaining). See [XML properties — access from code](../../xml-customization/xml-properties/using-from-code.md). |
 | By stable parameter code | `CmdPrm.Flt[code]` | `cmdPrm.Flt[code]` | Used by the extended / probing cycles, where parameters are addressed by a fixed code so their order can change without breaking postprocessors. |
 | Strongly-typed command wrapper | — | `cmd.<Property>` (e.g. `cmd.R`, `cmd.IsCSS`) | **.NET only.** Each command handler receives a typed `cmd` object with named, documented properties. The modern .NET way; see the API reference. |
 

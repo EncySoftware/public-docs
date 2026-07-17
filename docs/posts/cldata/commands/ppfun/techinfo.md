@@ -161,7 +161,7 @@ Example (from the Heidenhain (iTNC530)_Mill postprocessor - sppx, **1-based** el
 MinDepth = cmd.Flt["PPFun(TechInfo).Operation(1).ChipBreaking.DepthDegression.MinStepPercent"]
 ```
 
-To find the exact name of a property: open the operation's **property inspector**, locate the property, click the **...** button at the right of its row and choose **"Copy property name to clipboard"**; or inspect the operation's XML. The naming rules and the full access model are described in [Using XML properties from code](../../../../xml-properties/using-from-code.md).
+To find the exact name of a property: open the operation's **property inspector**, locate the property, click the **...** button at the right of its row and choose **"Copy property name to clipboard"**; or inspect the operation's XML. The naming rules and the full access model are described in [Using XML properties from code](../../../../xml-customization/xml-properties/using-from-code.md).
 
 Example - `OnStartTechOperation` (from the Heidenhain_Mill_iTNC530_DN postprocessor):
 
@@ -196,4 +196,4 @@ public override void OnStartTechOperation(ICLDTechOperation op, ICLDPPFunCommand
 - [Postprocessor function (PPFUN)](ppfun.md)
 - [CLData access model](../../cldata.md)
 - [`PPFUN ENDTECHINFO(59)`](endtechinfo.md)
-- [Using XML properties from code](../../../../xml-properties/using-from-code.md)
+- [Using XML properties from code](../../../../xml-customization/xml-properties/using-from-code.md)
