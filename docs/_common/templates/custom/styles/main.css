@@ -529,3 +529,66 @@ a code {
   color: #4fc1ff;
   background-color: #2d2d2d;
 }
+
+/* =============================================
+   LAYOUT — use the full window width
+   The default Bootstrap container is centered with a fixed max-width, which
+   leaves a large empty strip on the left and squeezes the content on wide
+   screens. Span the whole width and let the three panes fill it.
+   ============================================= */
+
+/* Container spans the viewport instead of a centered fixed-width band */
+.container,
+.container.body-content {
+  width: 100%;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Left table of contents / filter pinned to the left edge, a bit wider */
+.sidefilter {
+  left: 0;
+  width: 320px;
+}
+.sidetoc {
+  left: 0;
+  width: 320px;
+}
+
+/* Main content fills the gap between the left TOC and the right outline */
+.article.grid-right {
+  margin-left: 336px;
+  margin-right: 250px;
+  padding-right: 24px;
+}
+
+/* Right in-page outline pinned to the right edge */
+.sideaffix {
+  right: 16px;
+  width: 220px;
+}
+
+/* Breadcrumb aligns with the content column */
+.subnav .breadcrumb {
+  padding-left: 336px;
+}
+
+/* Readability: larger body text and comfortable line spacing */
+.article {
+  font-size: 15px;
+  line-height: 1.65;
+}
+.article h1 { font-size: 30px; }
+.article h2 { font-size: 23px; }
+.article h3 { font-size: 19px; }
+.article p,
+.article li { max-width: 100ch; }
+
+/* On narrow screens fall back to the stacked mobile layout */
+@media only screen and (max-width: 768px) {
+  .article.grid-right { margin-left: 0; margin-right: 0; padding-right: 0; }
+  .subnav .breadcrumb { padding-left: 15px; }
+}
