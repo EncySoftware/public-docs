@@ -4,5 +4,5 @@ REM (browsers block search when pages are opened as local file:// files).
 REM Requires: .NET SDK, docfx (dotnet tool install -g docfx) and Python 3.
 cd /D "%~dp0.."
 CALL dotnet tool update -g docfx
-python "%~dp0..\..\_commonuild.py" "%~dp0.." serve
+python "%~dp0../../_common/build.py" "%~dp0.." serve
 pause
