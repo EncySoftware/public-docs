@@ -8,7 +8,7 @@
 
 Checks whether the specified processes are running in the system. If any are found, it shows a dialog:
 
-![CheckLockToolbar — process termination dialog](../images/terminate-proc-dialog.png)
+![CheckLockToolbar — process termination dialog](images/terminate-proc-dialog.png)
 
 This dialog lets you forcibly terminate the specified processes or ignore them.
 

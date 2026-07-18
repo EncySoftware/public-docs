@@ -2,7 +2,7 @@
 
 Thread milling `W5DThreadMill(490)` cycle is used to machine external or internal threading or to machine hole by a helix. Spiral machining is used when hole diameter is larger than the tool diameter. The tool rotates around the hole axis and simultaneously travels along the axis. spiral diameter is chosen according to the hole and the tool dimensions. Machining can be done in several passes to mill holes of desired diameter.
 
-![W5DSpiral_eng](../../../sppx/images/download/attachments/142669207/W5DSpiral_eng.PNG)
+![W5DSpiral_eng](../../../sppx/src/images/download/attachments/142669207/W5DSpiral_eng.PNG)
 
 Spiral machining includes the following steps:
 
@@ -29,7 +29,7 @@ Spiral machining includes the following steps:
 
 For threadmilling both single-cutter tools and multi-cutter ones allowing to machine several thread turns in one pass. Multi-cutter tool machining is much similar to spiral machining.
 
-![W5DThreadMill_eng](../../../sppx/images/download/attachments/142669207/W5DThreadMill_eng.PNG)
+![W5DThreadMill_eng](../../../sppx/src/images/download/attachments/142669207/W5DThreadMill_eng.PNG)
 
 When using the multi-cutter tool threadmilling machining includes the following steps:
 
@@ -52,7 +52,7 @@ Thread kind, right or left, is determined by the **Thread spiral direction** par
 
 **Threading depth** parameter, is used to specify the difference between outer and inner diameters of the thread.
 
-![Thread_depth](../../../sppx/images/download/attachments/142669207/Thread_depth.PNG)
+![Thread_depth](../../../sppx/src/images/download/attachments/142669207/Thread_depth.PNG)
 
 **Bottom circle pass** parameter specifies whether the circle motion is performed when the bottom of the thread is reached.
 
@@ -60,11 +60,11 @@ Multi-start thread is machined if **Thread start count** parameter is greater th
 
 Thread milling cycle supports tapered thread machining. **Taper angle** parameter is used to specify the thread taper angle in degrees.The taper angle is measured from the top level of the hole (lug). Positive angle direction for tapered thread machining of the hole is the direction to the center of the hole. Positive angle direction for tapered thread machining of the lug is the direction from the center of the lug.
 
-![W5DThreadMill_TA](../../../sppx/images/download/attachments/142669207/W5DThreadMill_TA.PNG)
+![W5DThreadMill_TA](../../../sppx/src/images/download/attachments/142669207/W5DThreadMill_TA.PNG)
 
 Threadmilling can be performed by several passes. Use the **Roughing passes count**, **Roughing pass step** and **Finish pass step** parameters to process this machining cycles.
 
-![Thread_depth2](../../../sppx/images/download/attachments/142669207/Thread_depth2.PNG)
+![Thread_depth2](../../../sppx/src/images/download/attachments/142669207/Thread_depth2.PNG)
 
 **Toolpath type** parameter is used defines the toolpath type according to the used tool type. It can be one of the following
 

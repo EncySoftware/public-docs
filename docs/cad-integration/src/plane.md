@@ -9,4 +9,4 @@
 - `xMin`, `yMin` — the minimum X and Y of the bounding rectangle;
 - `xMax`, `yMax` — the maximum X and Y of the bounding rectangle.
 
-![Plane](../images/surface-plane.svg)
+![Plane](images/surface-plane.svg)

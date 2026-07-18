@@ -1,6 +1,6 @@
 ﻿# Internal rectangle probing protected parameters
 
-![image2022-4-5_19-21-28](../../../../sppx/images/download/attachments/148776098/image2022-4-5_19-21-28.png) ![image2022-4-5_19-22-0](../../../../sppx/images/download/attachments/148776098/image2022-4-5_19-22-0.png)
+![image2022-4-5_19-21-28](../../../../sppx/src/images/download/attachments/148776098/image2022-4-5_19-21-28.png) ![image2022-4-5_19-22-0](../../../../sppx/src/images/download/attachments/148776098/image2022-4-5_19-22-0.png)
 
 Internal rectangle probing protected consist of the following steps:
 

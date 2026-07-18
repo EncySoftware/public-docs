@@ -10,7 +10,7 @@ SINGLETHREAD OD(0) | ID(1) | FACE(2), STEP(0) | COUNT(1), s, ANGLE a
 
 **SINGLETHREAD** command is used in continuous cylindrical or conical thread cutting with constant step by a lathe tool. Commonly this is the G32 or G33 G-codes in NC-programs.
 
-![f_clip0028](../../sppx/images/download/attachments/142669288/f_clip0028.png)
+![f_clip0028](../../sppx/src/images/download/attachments/142669288/f_clip0028.png)
 
 When the threading mode is activated the tool movement and spindle rotation synchronization mode is activated. All following movements of the tool are performed in this mode until feed rate change ([`FEDRAT`](fedrat.md)) command or rapid travel ([`RAPID`](rapid.md)) command is received. If the tool is traveling along the spindle axis then cylindrical thread is formed. If the tool is traveling along the spindle axis and also perpendicular to it then conical thread is machined. It is possible to machine a face thread by moving the tool only perpendicularly to the spindle axis.
 

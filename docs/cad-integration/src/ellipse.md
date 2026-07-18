@@ -9,4 +9,4 @@
 - `vZ` — Z axis; 
 - `vX` — X axis.
 
-![CreateEllipse](../images/curve-ellipse.svg)
+![CreateEllipse](images/curve-ellipse.svg)

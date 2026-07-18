@@ -2,7 +2,7 @@
 
 Drilling cycle type `W5DFace(482)` (G82) drills holes with rapid approach to the safe level, dwell at hole bottom level and rapid retract the safe plane level.
 
-![G82](../../../sppx/images/download/attachments/142669162/G82.PNG)
+![G82](../../../sppx/src/images/download/attachments/142669162/G82.PNG)
 
 Drilling cycle G82 consists of the following steps:
 

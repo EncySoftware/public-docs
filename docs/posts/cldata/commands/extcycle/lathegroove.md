@@ -2,7 +2,7 @@
 
 Cycle `LATHEGROOVE(402)` implements the G74 cylindrical grooving canned cycle and G75 face grooving canned cycle. Groove shape is rectangular and is defined by its dimensions: width and height. The cutting is done by consequent work passes of the tool with Z and X axes stepping.
 
-![f_clip0030](../../../sppx/images/download/attachments/142669116/f_clip0030.png)
+![f_clip0030](../../../sppx/src/images/download/attachments/142669116/f_clip0030.png)
 
 ## Parameters
 

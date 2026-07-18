@@ -2,7 +2,7 @@
 
 Drilling cycle type `W5DBore8(488)` (G88) drills holes with rapid approach to the safe level, dwell at hole bottom level, spindle stop and manual retract to the safe plane level.
 
-![G88](../../../sppx/images/download/attachments/142669197/G88.PNG)
+![G88](../../../sppx/src/images/download/attachments/142669197/G88.PNG)
 
 Drilling cycle G88 consist of the following steps:
 

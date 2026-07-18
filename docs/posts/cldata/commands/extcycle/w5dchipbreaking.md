@@ -2,7 +2,7 @@
 
 Drilling with chip breaking cycle `W5DChipBreaking(473)` (G73) performs tool approach to the hole center at the **Z return level**. When cyclic drilling is performed with tool retraction for chip breaking.
 
-![G73](../../../sppx/images/download/attachments/142669172/G73.PNG)
+![G73](../../../sppx/src/images/download/attachments/142669172/G73.PNG)
 
 The cycle consists of:
 

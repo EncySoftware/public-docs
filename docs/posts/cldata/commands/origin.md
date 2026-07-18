@@ -84,7 +84,7 @@ Old controls know nothing about the machine kinematics and can not rotate the wo
 
 At the following figures you can see the difference between the reference coordinate systems for the MCS, and the WCS matrices. Using the WCS matrix is preferable as the WCS matrix is not dependent on the workpiece setup, while the MCS is heavily dependent on it.
 
-![CSTypes](../../sppx/images/download/attachments/142669265/CSTypes.png)
+![CSTypes](../../sppx/src/images/download/attachments/142669265/CSTypes.png)
 
 CAM system Local CS settings.
 
@@ -108,7 +108,7 @@ In CAM system the settings of the ORIGIN command are specified in the Machine co
 
 The options are also available from the GUI in the Control Parameters section of the Machine parameters.
 
-![LocalCSInspector](../../sppx/images/download/attachments/142669265/LocalCSInspector.png)
+![LocalCSInspector](../../sppx/src/images/download/attachments/142669265/LocalCSInspector.png)
 
 Code samples of the **ORIGIN** command.
 

@@ -10,7 +10,7 @@ A bounded region can be cut out of a surface — a **face** (trimmed surface) �
 4. **Edge = trimmed curve between two vertices.** The ends of an edge — the *vertices* — are created as 3D points by calling `CreatePoint(ID, P)` (`AddFaceEdge3d` references them by identifier). The geometry of the edge itself is a **trimmed curve**: a supporting 3D curve (a line segment, arc, NURBS, intersection curve, etc., already saved in the SGF) is taken and trimmed between the endpoints of the edge by calling `CreateTrimmedCurve2(ID, SourceCurveID, p1, p2)` (for a straight edge you can use `CreateLineSeg` directly). If the edge is directed against the supporting curve, the curve is either reversed beforehand with `CreateInversedCurve` or `Orientation = false` is passed. The completed edge is added to the current loop: `AddFaceEdge3d` for a spatial curve, `AddFaceEdge2d` for a curve specified in the surface's UV parameters (see `CreateCurveOnSurface`).
 5. **Completion and adding to the tree.** The face is closed with `CloseFace` (which returns a flag indicating whether "closure" succeeded). For the trimmed surface to appear in the geometry tree as a standalone object, it is registered by calling `AddEntity(ID, EntityName)` — where `ID` matches the face identifier from `StartFace`.
 
-![Trimmed surface (face): a contour of edges cuts out a region of the base surface](../images/topology-face.svg)
+![Trimmed surface (face): a contour of edges cuts out a region of the base surface](images/topology-face.svg)
 
 **`StartFace(ID, SurfaceID: string; NormalOrientation: boolean)`** — begin a face based on a previously saved surface.
 

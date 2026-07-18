@@ -34,7 +34,7 @@ Custom properties have their own parameter codes that are stored in cycles and `
 
 For `Custom property` element, in `Job assignment` tab of probing cycle operation you manually set the code for the parameter to be stored in CLData and you can also set the type of the parameter. Custom parameter code must not be repeated with other codes.
 
-![image2022-4-6_0-30-4](../../../../sppx/images/download/attachments/142669245/image2022-4-6_0-30-4.png)
+![image2022-4-6_0-30-4](../../../../sppx/src/images/download/attachments/142669245/image2022-4-6_0-30-4.png)
 
 ## Probe On/Off
 

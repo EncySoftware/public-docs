@@ -1,28 +1,40 @@
-﻿{
+{
   "build": {
     "content": [
       {
-        "files": [ "**/*.{md,yml}" ],
-        "exclude": [ "_site/**", "obj/**", "_pdf/**", "pdf/**" ]
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "build/**",
+          "pdf/**",
+          "out/**",
+          "obj/**"
+        ]
       }
     ],
     "resource": [
       {
         "files": [
-          "images/*"
+          "src/images/**",
+          "src/attachments/**"
         ]
       }
     ],
-    "dest": "_site",
-    "globalMetadataFiles": [],
-    "fileMetadataFiles": [],
-    "template": [
-      "statictoc"
+    "dest": "out/html",
+    "globalMetadata": {
+      "_appName": "Creating a CAM-system Add-in",
+      "_appTitle": "Creating a CAM-system Add-in",
+      "_enableSearch": true,
+      "_disableContribution": true
+    },
+    "postProcessors": [
+      "ExtractSearchIndex"
     ],
-    "markdownEngineName": "markdig",
-    "noLangKeyword": false,
-    "keepFileLink": false,
-    "cleanupCacheHistory": false,
-    "disableGitFeatures": false
+    "template": [
+      "statictoc",
+      "../_common/templates/custom"
+    ],
+    "markdownEngineName": "markdig"
   }
 }

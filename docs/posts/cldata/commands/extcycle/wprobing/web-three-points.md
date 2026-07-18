@@ -1,6 +1,6 @@
 ﻿# Web probing (three points) parameters
 
-![image2022-4-5_20-50-6](../../../../sppx/images/download/attachments/148776111/image2022-4-5_20-50-6.png)
+![image2022-4-5_20-50-6](../../../../sppx/src/images/download/attachments/148776111/image2022-4-5_20-50-6.png)
 
 Web probing (three points) consist of the following steps:
 

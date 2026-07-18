@@ -56,13 +56,13 @@ GMA[<AxisName>].TurnCount
 GMA[<AxisName>].Dir
 ```
 
-- `GMA[<AxisName>].OutFlag` is an [Integer](../../sppx/language-description/basic-definitions/variables.md) field that is assigned values 1 or 0. Use this flag to determine whether the coordinate named **AxisName** is listed in the given [MULTIGOTO](../commands/multigoto.md) command. `GMA[<AxisName>].OutFlag` has the value of 1 (the flag is set) if there is a coordinate named **AxisName** in the given [MULTIGOTO](../commands/multigoto.md) command, otherwise the flag is 0.
-- `GMA[<AxisName>].Vn` is a [Real](../../sppx/language-description/basic-definitions/variables.md) field and it's value is the new value of the coordinate **AxisName** set by [MULTIGOTO](../commands/multigoto.md) command. Use the **Vn** field to read or set the new coordinate value.
-- `GMA[<AxisName>].Vp` is a [Real](../../sppx/language-description/basic-definitions/variables.md) field that contains the value of **AxisName** coordinate assigned by the previous [MULTIGOTO](../commands/multigoto.md) command. Use the **Vp** field to read or set the previous coordinate value.
-- `GMA[<AxisName>].Axis` is a [String](../../sppx/language-description/basic-definitions/variables.md) field that is the name of the coordinate and is equal to **AxisName**. The field is read-only.
-- `GMA[<AxisName>].Reg` is a [String](../../sppx/language-description/basic-definitions/variables.md) field and it's value is the name of the register associated with the coordinate. The field is read-only.
-- `GMA[<AxisName>].TurnCount` is an [Integer](../../sppx/language-description/basic-definitions/variables.md) field that is assigned the number of full turns of a rotatable axis. The field is read-only.
-- `GMA[<AxisName>].Dir` is an [Integer](../../sppx/language-description/basic-definitions/variables.md) value that is assigned +1 if the value of the coordinate is increasing, otherwise it is set to -1. The field is read-only.
+- `GMA[<AxisName>].OutFlag` is an [Integer](../../sppx/src/language-description/basic-definitions/variables.md) field that is assigned values 1 or 0. Use this flag to determine whether the coordinate named **AxisName** is listed in the given [MULTIGOTO](../commands/multigoto.md) command. `GMA[<AxisName>].OutFlag` has the value of 1 (the flag is set) if there is a coordinate named **AxisName** in the given [MULTIGOTO](../commands/multigoto.md) command, otherwise the flag is 0.
+- `GMA[<AxisName>].Vn` is a [Real](../../sppx/src/language-description/basic-definitions/variables.md) field and it's value is the new value of the coordinate **AxisName** set by [MULTIGOTO](../commands/multigoto.md) command. Use the **Vn** field to read or set the new coordinate value.
+- `GMA[<AxisName>].Vp` is a [Real](../../sppx/src/language-description/basic-definitions/variables.md) field that contains the value of **AxisName** coordinate assigned by the previous [MULTIGOTO](../commands/multigoto.md) command. Use the **Vp** field to read or set the previous coordinate value.
+- `GMA[<AxisName>].Axis` is a [String](../../sppx/src/language-description/basic-definitions/variables.md) field that is the name of the coordinate and is equal to **AxisName**. The field is read-only.
+- `GMA[<AxisName>].Reg` is a [String](../../sppx/src/language-description/basic-definitions/variables.md) field and it's value is the name of the register associated with the coordinate. The field is read-only.
+- `GMA[<AxisName>].TurnCount` is an [Integer](../../sppx/src/language-description/basic-definitions/variables.md) field that is assigned the number of full turns of a rotatable axis. The field is read-only.
+- `GMA[<AxisName>].Dir` is an [Integer](../../sppx/src/language-description/basic-definitions/variables.md) value that is assigned +1 if the value of the coordinate is increasing, otherwise it is set to -1. The field is read-only.
 
 Use **TurnCount** and **Dir** fields to process the movement of rotatable axes. CAM system passes the movements of rotatable axes in absolute values, whereas some NC-systems accept only values in bound ranges like 0º to 360º or 180º to -180º for those coordinates. Use the **Machine axes parameters** dialog to define the bounds and ranges parameters of rotatable axes. If angle reduction is defined for a given coordinate then when processing [MULTIGOTO](../commands/multigoto.md) command the system will reduce the coordinate value **Vn** to specified range, assign the **TurnCount** field the number of full revolutions of the coordinate and set the sign of the **Dir** field depending on the previous (not reduced) value of the coordinate.
 
@@ -151,7 +151,7 @@ end
 
 ## See also
 
-- [Predefined functions](../../sppx/language-description/basic-definitions/predefined-variables-and-functions/miscellaneous-functions-and-variables.md)
+- [Predefined functions](../../sppx/src/language-description/basic-definitions/predefined-variables-and-functions/miscellaneous-functions-and-variables.md)
 - [MULTIGOTO command](../commands/multigoto.md)
-- [Masks](../../sppx/postprocessor-masks/mask-structure/gma-array-in-masks.md)
+- [Masks](../../sppx/src/postprocessor-masks/mask-structure/gma-array-in-masks.md)
 - [CLData access functions and operators](functions.md)

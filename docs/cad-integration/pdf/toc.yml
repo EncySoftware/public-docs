@@ -1,147 +1,144 @@
 ﻿pdf: true
 items:
   - name: Creating a CAM-system Add-in
-    href: ../index.md
-
+    href: ../src/index.md
   - name: Introduction
     href: ../src/introduction.md
     items:
-      - name: Glossary
-        href: ../src/glossary.md
-      - name: Requirements
-        href: ../src/requirements.md
-
+    - name: Glossary
+      href: ../src/glossary.md
+    - name: Requirements
+      href: ../src/requirements.md
   - name: Toolbar structure
     href: ../src/toolbar.md
     items:
-      - name: Component description
-        href: ../src/components.md
-        items:
-          - name: Add-in Wizard
-            href: ../src/addins-wizard.md
-          - name: Distribution files
-            href: ../src/distribution-files.md
-          - name: Translator
-            href: ../src/translator.md
-          - name: Add-in XML file
-            href: ../src/xml-descriptor.md
-          - name: CAMInfo.ini file
-            href: ../src/caminfo-ini.md
-          - name: CheckLockToolbar utility
-            href: ../src/checklocktoolbar.md
-          - name: Toolbar
-            href: ../src/toolbar-plugin.md
-      - name: Interaction scenarios
-        href: ../src/scenarios.md
-        items:
-          - name: Installing the Add-in
-            href: ../src/install-addon.md
-          - name: Uninstalling the Add-in
-            href: ../src/uninstall-addon.md
-          - name: Import from a CAD system into the CAM system
-            href: ../src/import-from-cad.md
-          - name: Importing a CAD file into the CAM system
-            href: ../src/import-cad-file.md
-
+    - name: Component description
+      href: ../src/components.md
+      items:
+      - name: Add-in Wizard
+        href: ../src/addins-wizard.md
+      - name: Distribution files
+        href: ../src/distribution-files.md
+      - name: Translator
+        href: ../src/translator.md
+      - name: Add-in XML file
+        href: ../src/xml-descriptor.md
+      - name: CAMInfo.ini file
+        href: ../src/caminfo-ini.md
+      - name: CheckLockToolbar utility
+        href: ../src/checklocktoolbar.md
+      - name: Toolbar
+        href: ../src/toolbar-plugin.md
+    - name: Interaction scenarios
+      href: ../src/scenarios.md
+      items:
+      - name: Installing the Add-in
+        href: ../src/install-addon.md
+      - name: Uninstalling the Add-in
+        href: ../src/uninstall-addon.md
+      - name: Import from a CAD system into the CAM system
+        href: ../src/import-from-cad.md
+      - name: Importing a CAD file into the CAM system
+        href: ../src/import-cad-file.md
   - name: Geometry import into the CAM system
     href: ../src/geometry-import.md
     items:
-      - name: CAD model structure
-        href: ../src/cad-model.md
-      - name: Import interfaces
-        href: ../src/import-interfaces.md
-      - name: Connecting STGeomFile.dll
-        href: ../src/connecting-stgeomfile.md
-      - name: Building the SGF file
-        href: ../src/building-sgf.md
-      - name: SGF data structures
-        href: ../src/data-structures.md
-      - name: Working with an assembly
-        href: ../src/assembly.md
-      - name: Working with a part
-        href: ../src/part.md
-      - name: Curves and points
-        href: ../src/curves-and-points.md
+    - name: CAD model structure
+      href: ../src/cad-model.md
+    - name: Import interfaces
+      href: ../src/import-interfaces.md
+    - name: Connecting STGeomFile.dll
+      href: ../src/connecting-stgeomfile.md
+    - name: Building the SGF file
+      href: ../src/building-sgf.md
+    - name: SGF data structures
+      href: ../src/data-structures.md
+    - name: Working with an assembly
+      href: ../src/assembly.md
+    - name: Working with a part
+      href: ../src/part.md
+    - name: Curves and points
+      href: ../src/curves-and-points.md
+      items:
+      - name: Point and analytic curves
+        href: ../src/analytic-curves.md
         items:
-          - name: Point and analytic curves
-            href: ../src/analytic-curves.md
-            items:
-              - name: 3D point
-                href: ../src/point-3d.md
-              - name: Coordinate system
-                href: ../src/coordinate-system.md
-              - name: Line segment
-                href: ../src/line-segment.md
-              - name: Circle
-                href: ../src/circle.md
-              - name: Circular arc
-                href: ../src/arc.md
-              - name: Ellipse
-                href: ../src/ellipse.md
-              - name: Elliptical arc
-                href: ../src/ellipse-arc.md
-              - name: Conical spiral
-                href: ../src/conical-spiral.md
-              - name: NURBS curve
-                href: ../src/nurbs-curve.md
-              - name: Composite curve
-                href: ../src/composite-curve.md
-          - name: Derived curves
-            href: ../src/derived-curves.md
-            items:
-              - name: Curve on a surface
-                href: ../src/curve-on-surface.md
-              - name: Trimmed curve
-                href: ../src/trimmed-curve.md
-              - name: Inverted curve
-                href: ../src/inversed-curve.md
-              - name: Intersection curve
-                href: ../src/intersection-curve.md
-              - name: Blend boundary
-                href: ../src/blend-bound.md
-          - name: Curve parametrization
-            href: ../src/curve-parametrization.md
-      - name: Face (trimmed surface)
-        href: ../src/face.md
-      - name: Surfaces
-        href: ../src/surfaces.md
+        - name: 3D point
+          href: ../src/point-3d.md
+        - name: Coordinate system
+          href: ../src/coordinate-system.md
+        - name: Line segment
+          href: ../src/line-segment.md
+        - name: Circle
+          href: ../src/circle.md
+        - name: Circular arc
+          href: ../src/arc.md
+        - name: Ellipse
+          href: ../src/ellipse.md
+        - name: Elliptical arc
+          href: ../src/ellipse-arc.md
+        - name: Conical spiral
+          href: ../src/conical-spiral.md
+        - name: NURBS curve
+          href: ../src/nurbs-curve.md
+        - name: Composite curve
+          href: ../src/composite-curve.md
+      - name: Derived curves
+        href: ../src/derived-curves.md
         items:
-          - name: Analytic surfaces
-            href: ../src/analytic-surfaces.md
-            items:
-              - name: Plane
-                href: ../src/plane.md
-              - name: Cylinder
-                href: ../src/cylinder.md
-              - name: Cone
-                href: ../src/cone.md
-              - name: Sphere
-                href: ../src/sphere.md
-              - name: Torus
-                href: ../src/torus.md
-              - name: NURBS surface
-                href: ../src/nurbs-surface.md
-              - name: Polygonal mesh
-                href: ../src/mesh.md
-          - name: Derived surfaces
-            href: ../src/derived-surfaces.md
-            items:
-              - name: Surface of revolution
-                href: ../src/revolution-surface.md
-              - name: Extrusion surface
-                href: ../src/extrusion-surface.md
-              - name: Transposed UV surface
-                href: ../src/transposed-uv-surface.md
-              - name: Blend surface
-                href: ../src/blended-surface.md
-              - name: Offset surface
-                href: ../src/offset-surface.md
-          - name: Surface parametrization
-            href: ../src/surface-parametrization.md
-      - name: PMI (Product Manufacturing Information)
-        href: ../src/pmi.md
+        - name: Curve on a surface
+          href: ../src/curve-on-surface.md
+        - name: Trimmed curve
+          href: ../src/trimmed-curve.md
+        - name: Inverted curve
+          href: ../src/inversed-curve.md
+        - name: Intersection curve
+          href: ../src/intersection-curve.md
+        - name: Blend boundary
+          href: ../src/blend-bound.md
+      - name: Curve parametrization
+        href: ../src/curve-parametrization.md
+    - name: Face (trimmed surface)
+      href: ../src/face.md
+    - name: Surfaces
+      href: ../src/surfaces.md
+      items:
+      - name: Analytic surfaces
+        href: ../src/analytic-surfaces.md
         items:
-          - name: IPMIGeomThread
-            href: ../src/pmi-thread.md
-      - name: Deprecated and unused methods
-        href: ../src/deprecated.md
+        - name: Plane
+          href: ../src/plane.md
+        - name: Cylinder
+          href: ../src/cylinder.md
+        - name: Cone
+          href: ../src/cone.md
+        - name: Sphere
+          href: ../src/sphere.md
+        - name: Torus
+          href: ../src/torus.md
+        - name: NURBS surface
+          href: ../src/nurbs-surface.md
+        - name: Polygonal mesh
+          href: ../src/mesh.md
+      - name: Derived surfaces
+        href: ../src/derived-surfaces.md
+        items:
+        - name: Surface of revolution
+          href: ../src/revolution-surface.md
+        - name: Extrusion surface
+          href: ../src/extrusion-surface.md
+        - name: Transposed UV surface
+          href: ../src/transposed-uv-surface.md
+        - name: Blend surface
+          href: ../src/blended-surface.md
+        - name: Offset surface
+          href: ../src/offset-surface.md
+      - name: Surface parametrization
+        href: ../src/surface-parametrization.md
+    - name: PMI (Product Manufacturing Information)
+      href: ../src/pmi.md
+      items:
+      - name: IPMIGeomThread
+        href: ../src/pmi-thread.md
+    - name: Deprecated and unused methods
+      href: ../src/deprecated.md

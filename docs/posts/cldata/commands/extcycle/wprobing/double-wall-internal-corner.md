@@ -1,6 +1,6 @@
 ﻿# Double wall internal corner probing parameters
 
-![image2022-4-5_22-1-29](../../../../sppx/images/download/attachments/148776121/image2022-4-5_22-1-29.png) ![image2022-4-5_21-48-25](../../../../sppx/images/download/attachments/148776121/image2022-4-5_21-48-25.png)
+![image2022-4-5_22-1-29](../../../../sppx/src/images/download/attachments/148776121/image2022-4-5_22-1-29.png) ![image2022-4-5_21-48-25](../../../../sppx/src/images/download/attachments/148776121/image2022-4-5_21-48-25.png)
 
 Double wall internal corner probing consist of the following steps:
 

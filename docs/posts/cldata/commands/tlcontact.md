@@ -15,7 +15,7 @@ Handler: `program TLContact`
 
 This command will be generated in CLData only if the corresponding option "Set tool contact surface normal vectors" is enabled in the settings of the machine schema.
 
-![image2024-8-21_17-24-44](../../sppx/images/download/attachments/142669296/image2024-8-21_17-24-44.png)
+![image2024-8-21_17-24-44](../../sppx/src/images/download/attachments/142669296/image2024-8-21_17-24-44.png)
 
 Example:
 

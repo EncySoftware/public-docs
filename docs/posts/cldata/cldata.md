@@ -5,8 +5,8 @@ CLData is the intermediate data that the CAM system passes to a postprocessor: a
 auxiliary functions, etc.), each carrying a set of parameters. A postprocessor reads CLData and
 generates the NC program for a particular machine and control system.
 
-Both postprocessing subsystems — the [Postprocessors generator (sppx postprocessors)](../sppx/readme-sppx.md)
-and the [.NET postprocessors](../dotnet/readme-dotnet.md) — work with **the same** CLData. The module
+Both postprocessing subsystems — the [Postprocessors generator (sppx postprocessors)](../sppx/src/index.md)
+and the [.NET postprocessors](../dotnet/src/index.md) — work with **the same** CLData. The module
 that reads and writes CLData is shared between them; the low-level interaction with native code is
 hidden, and each subsystem exposes the data through convenient wrappers. **Only the access syntax
 differs between the two subsystems** — the commands and their parameters are identical.
@@ -56,7 +56,7 @@ file-walking pattern as the example in [CLData files](functions/files.md)).
 - Files of type `NCSub` are optional - they exist only when the project uses subprograms or
   cycles-with-subprograms. Unlike operation files, they are **not** translated automatically; a
   postprocessor emits them by calling the NC-subroutine operators explicitly (see [Operators of work
-  with NC-subroutines](../sppx/language-description/operators/operators-of-work-with-nc-subroutines/readme-operators-of-work-with-nc-subroutines.md)).
+  with NC-subroutines](../sppx/src/language-description/operators/operators-of-work-with-nc-subroutines/readme-operators-of-work-with-nc-subroutines.md)).
 
 ```text
 File 0   CAMProject      - project-level data, no commands
@@ -246,7 +246,7 @@ A command's parameters come in two flavours:
 - **Named / structured parameters** — typed values addressed by name, possibly nested (objects, arrays).
   This is the modern form used by newer commands (and available for most parameters of the older ones).
   The naming model is the same one described in
-  [XML properties — access from code](../../xml-customization/xml-properties/using-from-code.md).
+  [XML properties — access from code](../../xml-customization/src/xml-properties/using-from-code.md).
 
 The table summarizes the ways to read them. Details and examples are given per command in the command
 reference; the access pattern is always the same.
@@ -255,7 +255,7 @@ reference; the access pattern is always the same.
 |---|---|---|---|
 | Numeric array, by index | `cld[i]` | `cld[i]` | Common to both. The array is filled with the current command's parameters before the command is processed. |
 | Numeric element, by short name | `cld.X`, `cld.N` … | — | **sppx only.** A flat, duplicate accessor for some numeric elements. Not available in .NET. |
-| Named / structured, by name | `cmd.Str["Name"]`, `cmd.Flt["Name"]`, `cmd.Int["Name"]`, `cmd.Ptr["Name"]` | `cmd.Str["Name"]`, `cmd.Flt["Name"]`, `cmd.Int["Name"]`, `cmd.Ptr["Name"]` | Same grammar in both (dotted paths, array keys `Name(Key)`, pointer chaining). See [XML properties — access from code](../../xml-customization/xml-properties/using-from-code.md). |
+| Named / structured, by name | `cmd.Str["Name"]`, `cmd.Flt["Name"]`, `cmd.Int["Name"]`, `cmd.Ptr["Name"]` | `cmd.Str["Name"]`, `cmd.Flt["Name"]`, `cmd.Int["Name"]`, `cmd.Ptr["Name"]` | Same grammar in both (dotted paths, array keys `Name(Key)`, pointer chaining). See [XML properties — access from code](../../xml-customization/src/xml-properties/using-from-code.md). |
 | By stable parameter code | `CmdPrm.Flt[code]` | `cmdPrm.Flt[code]` | Used by the extended / probing cycles, where parameters are addressed by a fixed code so their order can change without breaking postprocessors. |
 | Strongly-typed command wrapper | — | `cmd.<Property>` (e.g. `cmd.R`, `cmd.IsCSS`) | **.NET only.** Each command handler receives a typed `cmd` object with named, documented properties. The modern .NET way; see the API reference. |
 
@@ -280,7 +280,7 @@ In .NET a postprocessor implements a typed handler per command, for example
 - use code-based access `cmdPrm.Flt[code]` for the extended cycles.
 
 The typed command interfaces (`ICLD…Command`) and all their properties are described in the .NET SDK
-**API reference** — see [.NET references](../dotnet/references.md).
+**API reference** — see [.NET references](../dotnet/src/references.md).
 
 ## Locating commands (browsing CLData)
 

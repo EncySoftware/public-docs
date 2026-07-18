@@ -1,6 +1,6 @@
 ﻿# Uninstalling the Add-in
 
-![Uninstalling the Add-in](../images/uninstall.svg)
+![Uninstalling the Add-in](images/uninstall.svg)
 
 1. The user opens the Add-ins Wizard in the CAM system. 
 2. The Add-ins Wizard scans the standard folder and shows a list of the Add-ins found.

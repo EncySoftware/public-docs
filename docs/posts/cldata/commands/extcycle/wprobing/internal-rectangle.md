@@ -1,6 +1,6 @@
 ﻿# Internal rectangle probing parameters
 
-![image2022-4-5_18-44-27](../../../../sppx/images/download/attachments/148776094/image2022-4-5_18-44-27.png) ![image2022-4-5_18-44-49](../../../../sppx/images/download/attachments/148776094/image2022-4-5_18-44-49.png)
+![image2022-4-5_18-44-27](../../../../sppx/src/images/download/attachments/148776094/image2022-4-5_18-44-27.png) ![image2022-4-5_18-44-49](../../../../sppx/src/images/download/attachments/148776094/image2022-4-5_18-44-49.png)
 
 Internal rectangle probing consist of the following steps:
 

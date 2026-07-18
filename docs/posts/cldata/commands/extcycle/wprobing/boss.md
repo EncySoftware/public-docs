@@ -1,6 +1,6 @@
 ﻿# Boss probing parameters
 
-![image2022-4-5_18-29-48](../../../../sppx/images/download/attachments/148776091/image2022-4-5_18-29-48.png)
+![image2022-4-5_18-29-48](../../../../sppx/src/images/download/attachments/148776091/image2022-4-5_18-29-48.png)
 
 Boss probing consist of the following steps:
 

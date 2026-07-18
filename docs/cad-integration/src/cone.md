@@ -11,4 +11,4 @@
 - `Hmin`, `Hmax` — height bounds (along the axis);
 - `Amin`, `Amax` — angular sector bounds (full cone — from `0` to `2π`).
 
-![Cone](../images/surface-cone.svg)
+![Cone](images/surface-cone.svg)

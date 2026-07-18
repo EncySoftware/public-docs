@@ -14,7 +14,7 @@ Deep drilling cycle with tool returns for chip breaking `BRKCHP(288)` is used to
 
 Drill step is decreased at each iteration for the specified value if decrease value is not zero.
 
-![image2023-6-14_16-59-29](../../../sppx/images/download/attachments/142669149/image2023-6-14_16-59-29.png)
+![image2023-6-14_16-59-29](../../../sppx/src/images/download/attachments/142669149/image2023-6-14_16-59-29.png)
 
 ## Parameters
 

@@ -1,6 +1,6 @@
 ﻿# Triple wall external corner probing parameters
 
-![image2022-4-28_17-46-32](../../../../sppx/images/download/attachments/148776138/image2022-4-28_17-46-32.png) ![image2022-4-5_23-23-48](../../../../sppx/images/download/attachments/148776138/image2022-4-5_23-23-48.png)
+![image2022-4-28_17-46-32](../../../../sppx/src/images/download/attachments/148776138/image2022-4-28_17-46-32.png) ![image2022-4-5_23-23-48](../../../../sppx/src/images/download/attachments/148776138/image2022-4-5_23-23-48.png)
 
 Triple wall external corner probing consists of the following steps:
 

@@ -6,4 +6,4 @@
 - `sp` — start point;
 - `tp` — end point.
 
-![CreateLineSeg](../images/curve-lineseg.svg)
+![CreateLineSeg](images/curve-lineseg.svg)

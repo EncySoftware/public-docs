@@ -1,0 +1,13 @@
+{
+  "build": {
+    "content": [
+      { "src": ".", "dest": "sppx", "files": [ "src/**/*.{md,yml}", "pdf/toc.yml" ] },
+      { "src": "../cldata", "dest": "cldata", "files": [ "**/*.{md,yml}" ] }
+    ],
+    "resource": [
+      { "src": ".", "dest": "sppx", "files": [ "src/images/**", "src/attachments/**" ] }
+    ],
+    "dest": "out/pdf",
+    "template": [ "default", "modern" ]
+  }
+}

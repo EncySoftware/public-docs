@@ -12,4 +12,4 @@
 - `Distance` — the length along the axis;
 - `CCW` — the direction of rotation (True = counterclockwise).
 
-![CreateConicalSpiral](../images/curve-conicalspiral.svg)
+![CreateConicalSpiral](images/curve-conicalspiral.svg)

@@ -1,6 +1,6 @@
 ﻿# Import a CAD file into a CAM system
 
-![Import a CAD file into a CAM system](../images/reimport.svg)
+![Import a CAD file into a CAM system](images/reimport.svg)
 
 1. In the CAM system, the user imports a CAD file.
 2. By the file extension, the CAM system finds the appropriate Add-in, and if there are several, it shows the user a dialog to choose one.

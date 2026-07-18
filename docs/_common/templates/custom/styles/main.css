@@ -1,0 +1,610 @@
+/* =============================================
+   VS CODE DARK THEME + COLORED HEADERS + AFFIX FIX
+   ============================================= */
+
+/* --- Base dark theme (VS Code Dark+) --- */
+html, body {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+}
+
+#wrapper {
+  background-color: #1e1e1e;
+}
+
+a {
+  color: #4fc1ff;
+}
+
+a:hover, a:focus {
+  color: #9cdcfe;
+}
+
+a.disable, a.disable:hover {
+  color: #808080;
+}
+
+code {
+  color: #ce9178;
+  background-color: #2d2d2d;
+}
+
+a code {
+  color: #4fc1ff;
+  background-color: #2d2d2d;
+}
+
+pre {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  border: 1px solid #3c3c3c;
+}
+
+/* --- Colored headers (VS Code Dark+ palette, muted) --- */
+h1, .h1 {
+  color: #4e94c2;
+  border-bottom: 2px solid #2b4a6b;
+  padding-bottom: 8px;
+}
+
+h2, .h2 {
+  color: #3dab96;
+  border-bottom: 1px solid #264f42;
+  padding-bottom: 6px;
+}
+
+h3, .h3 {
+  color: #9e9e9e;
+}
+
+h4, .h4 {
+  color: #66CDAA;
+}
+
+h5, .h5 {
+  color: #8a8a8a;
+}
+
+h6, .h6 {
+  color: #8b8b8b;
+}
+
+/* --- Navbar dark --- */
+.navbar {
+  background-color: #252526;
+  border-color: #3c3c3c;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-nav > li > a {
+  color: #d4d4d4;
+}
+
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+
+header .navbar {
+  border-bottom-color: #3c3c3c;
+}
+
+/* --- Sidebar / TOC dark --- */
+.sidenav, .fixed_header, .toc,
+.sidetoc, .sidefilter {
+  background-color: #252526;
+  border-color: #3c3c3c;
+}
+
+.sidetoc {
+  border-left-color: #3c3c3c;
+  border-right-color: #3c3c3c;
+}
+
+.sidefilter {
+  border-left-color: #3c3c3c;
+  border-right-color: #3c3c3c;
+}
+
+.toc-filter {
+  background: #3c3c3c;
+  color: #d4d4d4;
+}
+
+.toc-filter > input {
+  color: #d4d4d4;
+  background: transparent;
+}
+
+.toc .nav > li > a {
+  color: #cccccc;
+}
+
+.toc .nav > li > a:hover,
+.toc .nav > li > a:focus {
+  color: #ffffff;
+}
+
+.toc .nav > li.active > a {
+  color: #4fc1ff;
+}
+
+body .toc {
+  background-color: #252526;
+}
+
+/* --- Article area --- */
+.article {
+  background-color: #1e1e1e;
+}
+
+/* --- AFFIX SCROLL FIX --- */
+/* A single scrollbar for the whole container */
+.sideaffix {
+  overflow-y: auto !important;
+  overflow-x: hidden;
+  max-height: calc(100vh - 200px);
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+.sideaffix::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+/* Nested lists — no scrollbar of their own */
+.affix,
+.bs-docs-sidebar,
+.bs-docs-sidenav,
+.affix ul.level1,
+.affix ul.level2,
+.affix ul.level3 {
+  overflow: visible !important;
+  max-height: none !important;
+}
+
+/* Affix dark styles */
+.affix h5 {
+  color: #569cd6;
+}
+
+.affix ul > li > a {
+  color: #cccccc;
+}
+
+.affix ul > li > a:hover {
+  color: #ffffff;
+}
+
+.affix ul > li.active > a,
+.affix ul > li.active > a:before {
+  color: #4fc1ff;
+}
+
+.affix > ul > li > a:before {
+  color: #555555;
+}
+
+/* --- Breadcrumb dark --- */
+.breadcrumb {
+  background-color: transparent;
+  color: #808080;
+}
+
+.breadcrumb > li + li:before {
+  color: #555555;
+}
+
+/* --- Footer dark --- */
+.footer {
+  background-color: #252526;
+  border-top-color: #3c3c3c;
+  color: #808080;
+}
+
+/* --- Tables dark --- */
+.table > thead > tr > th,
+.table > tbody > tr > td {
+  border-color: #3c3c3c;
+  color: #d4d4d4;
+}
+
+.table > thead > tr > th {
+  background-color: #2d2d2d;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #1e1e1e;
+}
+
+.table-striped > tbody > tr:nth-of-type(even) {
+  background-color: #252526;
+}
+
+/* --- Alerts dark --- */
+.alert-info {
+  background-color: #063b49;
+  border-color: #3c3c3c;
+  color: #9cdcfe;
+}
+
+.alert-warning {
+  background-color: #4d3a1a;
+  border-color: #3c3c3c;
+  color: #dcdcaa;
+}
+
+.alert-danger {
+  background-color: #4b1818;
+  border-color: #3c3c3c;
+  color: #f48771;
+}
+
+/* --- Gradient blends dark --- */
+.grad-top {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
+}
+
+.grad-bottom {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+}
+
+/* --- Dividers --- */
+hr {
+  border-color: #3c3c3c;
+}
+
+.divider {
+  color: #555555;
+}
+
+/* --- Search dark --- */
+.docs-search {
+  background: #3c3c3c;
+}
+
+.docs-search > .search-query {
+  color: #d4d4d4;
+}
+
+#search-results {
+  color: #d4d4d4;
+}
+
+.search-results-container {
+  background: rgba(30, 30, 30, 0.95);
+  border-top-color: #3c3c3c;
+}
+
+/* --- Inheritance / members sections --- */
+.inheritance h5, .inheritedMembers h5 {
+  border-bottom-color: #3c3c3c;
+  color: #4ec9b0;
+}
+
+#fields, #properties, #methods, #events {
+  color: #dcdcaa;
+}
+
+.declaration, .fieldValue, .parameters, .returns {
+  color: #808080;
+}
+
+/* --- Tabs dark --- */
+.tabGroup a[role="tab"] {
+  color: #808080;
+  border-bottom-color: #252526;
+}
+
+.tabGroup a[role="tab"]:hover,
+.tabGroup a[role="tab"]:focus,
+.tabGroup a[role="tab"][aria-selected="true"] {
+  border-bottom-color: #4fc1ff;
+}
+
+.tabGroup a[role="tab"][aria-selected="true"] {
+  color: #d4d4d4;
+}
+
+.tabGroup a[role="tab"]:hover,
+.tabGroup a[role="tab"]:focus {
+  color: #4fc1ff;
+}
+
+.tabGroup section[role="tabpanel"] {
+  border-color: #3c3c3c;
+  background-color: #1e1e1e;
+}
+
+/* --- Global scrollbar --- */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #424242;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4f4f4f;
+}
+
+/* --- Pagination dark --- */
+.pagination > li > a {
+  color: #4fc1ff;
+  background-color: #2d2d2d;
+  border-color: #3c3c3c;
+}
+
+.pagination > .active > a {
+  background-color: #264f78;
+  border-color: #264f78;
+  color: #ffffff;
+}
+
+/* --- Code syntax highlighting (VS Code Dark+) --- */
+.hljs,
+.hljs-subst {
+  color: #d4d4d4;
+}
+
+/* Keywords: if, else, return, class, etc. */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-section,
+.hljs-link {
+  color: #569cd6;
+}
+
+/* Strings */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition,
+.hljs-template-tag,
+.hljs-template-variable {
+  color: #ce9178;
+}
+
+/* Function names / titles */
+.hljs-title,
+.hljs-title.function_ {
+  color: #dcdcaa;
+}
+
+/* Types, classes */
+.hljs-type,
+.hljs-class .hljs-title,
+.hljs-title.class_ {
+  color: #4ec9b0;
+}
+
+/* Tag names (XML/HTML) */
+.hljs-name {
+  color: #569cd6;
+}
+
+/* Comments, meta */
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion,
+.hljs-meta {
+  color: #6a9955;
+}
+
+/* Reset bold weight */
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-title,
+.hljs-section,
+.hljs-doctag,
+.hljs-type,
+.hljs-name,
+.hljs-strong {
+  font-weight: normal;
+}
+
+/* Numbers */
+.hljs-number {
+  color: #b5cea8;
+}
+
+/* Parameters, attributes */
+.hljs-params,
+.hljs-attr {
+  color: #9cdcfe;
+}
+
+/* Variables */
+.hljs-variable,
+.hljs-attribute {
+  color: #9cdcfe;
+}
+
+/* Built-in functions */
+.hljs-built_in {
+  color: #1bdbb5;
+}
+
+/* Regular expressions */
+.hljs-regexp {
+  color: #a8dac9;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+/* --- Bash / shell highlighting --- */
+.hljs-language-bash .hljs-variable,
+.hljs-language-bash .hljs-subst {
+  color: #9cdcfe;
+}
+
+.hljs-language-bash .hljs-built_in {
+  color: #dcdcaa;
+}
+
+.hljs-language-bash .hljs-string {
+  color: #ce9178;
+}
+
+.hljs-language-bash .hljs-keyword {
+  color: #569cd6;
+}
+
+.hljs-language-bash .hljs-comment {
+  color: #6a9955;
+}
+
+.hljs-language-bash .hljs-number {
+  color: #b5cea8;
+}
+
+.hljs-language-bash .hljs-literal {
+  color: #569cd6;
+}
+
+/* --- ABNF highlighting --- */
+.hljs-language-abnf .hljs-attribute {
+  color: #9cdcfe;
+}
+
+.hljs-language-abnf .hljs-symbol {
+  color: #d4d4d4;
+}
+
+.hljs-language-abnf .hljs-string {
+  color: #ce9178;
+}
+
+.hljs-language-abnf .hljs-comment {
+  color: #6a9955;
+}
+
+.hljs-language-abnf .hljs-keyword {
+  color: #569cd6;
+}
+
+/* --- XML doc comments (/// <summary> etc.) --- */
+.hljs-doctag,
+.hljs-tag,
+.hljs-name {
+  color: #608b4e;
+}
+
+.hljs-tag .hljs-attr {
+  color: #9cdcfe;
+}
+
+.hljs-tag .hljs-string {
+  color: #ce9178;
+}
+
+/* XML comment content — green like comments */
+.hljs-comment .hljs-doctag,
+.hljs-comment .hljs-tag,
+.hljs-comment .hljs-name {
+  color: #6a9955;
+}
+
+/* --- Inline code in documentation text --- */
+code {
+  color: #d4d4d4;
+  background-color: #2d2d2d;
+  padding: 2px 4px;
+  border-radius: 3px;
+  border: 1px solid #3c3c3c;
+}
+
+a code {
+  color: #4fc1ff;
+  background-color: #2d2d2d;
+}
+
+/* =============================================
+   LAYOUT — use the full window width
+   The default Bootstrap container is centered with a fixed max-width, which
+   leaves a large empty strip on the left and squeezes the content on wide
+   screens. Span the whole width and let the three panes fill it.
+   ============================================= */
+
+/* Container spans the viewport instead of a centered fixed-width band */
+.container,
+.container.body-content {
+  width: 100%;
+  max-width: none;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Left table of contents / filter pinned to the left edge, a bit wider */
+.sidefilter {
+  left: 0;
+  width: 320px;
+}
+.sidetoc {
+  left: 0;
+  width: 320px;
+}
+
+/* Main content fills the gap between the left TOC and the right outline.
+   Left rail = sidebar 320 at left:0, content margin-left 336 -> 16 px gap.
+   Right rail = affix width 220 at right:16 (rail 236); margin-right 252 mirrors
+   the 16 px gap (336 - (320 - 236)), so both gaps are visually symmetric. */
+.article.grid-right {
+  margin-left: 336px;
+  margin-right: 212px;
+}
+
+/* The content sits in a Bootstrap .col-md-10 with an empty .col-md-2 beside it
+   (the in-page outline is fixed-positioned separately). Let the content column
+   fill the whole article area and drop the empty placeholder column's width,
+   otherwise ~17% is wasted between the content and the outline. */
+.article.grid-right .col-md-10 {
+  width: 100%;
+}
+.article.grid-right .col-md-2 {
+  width: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Right in-page outline pinned to the right edge (narrow footprint so the
+   content can extend and the right gap matches the left one) */
+.sideaffix {
+  right: 12px;
+  width: 200px;
+}
+
+/* Breadcrumb aligns with the content column */
+.subnav .breadcrumb {
+  padding-left: 336px;
+}
+
+/* Readability: larger body text and comfortable line spacing */
+.article {
+  font-size: 15px;
+  line-height: 1.65;
+}
+.article h1 { font-size: 30px; }
+.article h2 { font-size: 23px; }
+.article h3 { font-size: 19px; }
+.article p,
+.article li { max-width: 100ch; }
+
+/* On narrow screens fall back to the stacked mobile layout */
+@media only screen and (max-width: 768px) {
+  .article.grid-right { margin-left: 0; margin-right: 0; padding-right: 0; }
+  .subnav .breadcrumb { padding-left: 15px; }
+}

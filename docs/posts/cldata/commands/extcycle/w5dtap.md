@@ -2,7 +2,7 @@
 
 Tapping cycle `W5DTap(484)` (G84) performs rapid approach to the **Z return** level, thread tapping with subsequent retraction at work feedrate with reverse spindle rotation.
 
-![G84](../../../sppx/images/download/attachments/142669177/G84.PNG)
+![G84](../../../sppx/src/images/download/attachments/142669177/G84.PNG)
 
 G84 tapping cycle includes:
 
@@ -47,7 +47,7 @@ CNC-systems often have different tapping canned cycles for fixed and floating so
 | CLD[24] | CLD.CLParams(22) | Ld, each step lead out value for cutting process breaking |
 | CLD[50] | CLD.CLParams(48) | What spindle is used to machining: 1 - driven tool, 2 - workpiece spindle (lathe). |
 
-![W5DSchema](../../../sppx/images/download/attachments/142669177/W5DSchema.png)
+![W5DSchema](../../../sppx/src/images/download/attachments/142669177/W5DSchema.png)
 
 ## Access from .NET
 

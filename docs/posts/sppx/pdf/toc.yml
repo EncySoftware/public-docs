@@ -1,214 +1,214 @@
 ﻿pdf: true
 items:
   - name: "Postprocessors generator (sppx postprocessors)"
-    href: ../readme-sppx.md
+    href: ../src/index.md
   - name: "External references and examples"
-    href: ../references.md
+    href: ../src/references.md
   - name: "Introduction"
-    href: ../introduction/readme-introduction.md
+    href: ../src/introduction/readme-introduction.md
     items:
     - name: "The purpose of the postprocessors generator"
-      href: ../introduction/purpose-of-the-postprocessors-generator.md
+      href: ../src/introduction/purpose-of-the-postprocessors-generator.md
     - name: "The files set of the postprocessors generator"
-      href: ../introduction/files-set-of-the-postprocessors-generator.md
+      href: ../src/introduction/files-set-of-the-postprocessors-generator.md
   - name: "The common organization of the work"
-    href: ../common-organization-of-the-work/readme-common-organization-of-the-work.md
+    href: ../src/common-organization-of-the-work/readme-common-organization-of-the-work.md
     items:
     - name: "The principle of postprocessor operation"
-      href: ../common-organization-of-the-work/principle-of-postprocessor-operation.md
+      href: ../src/common-organization-of-the-work/principle-of-postprocessor-operation.md
     - name: "The main window"
-      href: ../common-organization-of-the-work/main-window/readme-main-window.md
+      href: ../src/common-organization-of-the-work/main-window/readme-main-window.md
       items:
       - name: "The main toolbar"
-        href: ../common-organization-of-the-work/main-window/main-toolbar.md
+        href: ../src/common-organization-of-the-work/main-window/main-toolbar.md
       - name: "System settings"
-        href: ../common-organization-of-the-work/main-window/system-settings.md
+        href: ../src/common-organization-of-the-work/main-window/system-settings.md
       - name: "Editor settings"
-        href: ../common-organization-of-the-work/main-window/editor-settings.md
+        href: ../src/common-organization-of-the-work/main-window/editor-settings.md
       - name: "Machine parameters"
-        href: ../common-organization-of-the-work/main-window/machine-parameters/readme-machine-parameters.md
+        href: ../src/common-organization-of-the-work/main-window/machine-parameters/readme-machine-parameters.md
         items:
         - name: "Defining the data about the NC-machine and CNC-system"
-          href: ../common-organization-of-the-work/main-window/machine-parameters/defining-the-data-about-the-nc-machine-and-cnc-system.md
+          href: ../src/common-organization-of-the-work/main-window/machine-parameters/defining-the-data-about-the-nc-machine-and-cnc-system.md
         - name: "Comments transliteration"
-          href: ../common-organization-of-the-work/main-window/machine-parameters/comments-transliteration.md
+          href: ../src/common-organization-of-the-work/main-window/machine-parameters/comments-transliteration.md
       - name: "The block structure and format definition (Register list forming)"
-        href: ../common-organization-of-the-work/main-window/block-structure-and-format-definition-register-list-forming.md
+        href: ../src/common-organization-of-the-work/main-window/block-structure-and-format-definition-register-list-forming.md
       - name: "The masks for the machining commands translation"
-        href: ../common-organization-of-the-work/main-window/masks-for-the-machining-commands-translation.md
+        href: ../src/common-organization-of-the-work/main-window/masks-for-the-machining-commands-translation.md
       - name: "The programs for the CLData commands processing"
-        href: ../common-organization-of-the-work/main-window/programs-for-the-cldata-commands-processing.md
+        href: ../src/common-organization-of-the-work/main-window/programs-for-the-cldata-commands-processing.md
       - name: "Subprograms"
-        href: ../common-organization-of-the-work/main-window/subprograms.md
+        href: ../src/common-organization-of-the-work/main-window/subprograms.md
       - name: "The command processing programs compilation"
-        href: ../common-organization-of-the-work/main-window/command-processing-programs-compilation.md
+        href: ../src/common-organization-of-the-work/main-window/command-processing-programs-compilation.md
       - name: "The work with the files of technological commands"
-        href: ../common-organization-of-the-work/main-window/work-with-the-files-of-technological-commands.md
+        href: ../src/common-organization-of-the-work/main-window/work-with-the-files-of-technological-commands.md
       - name: "The test NC-code generation"
-        href: ../common-organization-of-the-work/main-window/test-nc-code-generation.md
+        href: ../src/common-organization-of-the-work/main-window/test-nc-code-generation.md
       - name: "Programs debugging"
-        href: ../common-organization-of-the-work/main-window/programs-debugging.md
+        href: ../src/common-organization-of-the-work/main-window/programs-debugging.md
       - name: "Postprocessor parameters inquiry while the first using"
-        href: ../common-organization-of-the-work/main-window/postprocessor-parameters-inquiry-while-the-first-using.md
+        href: ../src/common-organization-of-the-work/main-window/postprocessor-parameters-inquiry-while-the-first-using.md
   - name: "Postprocessor masks"
-    href: ../postprocessor-masks/readme-postprocessor-masks.md
+    href: ../src/postprocessor-masks/readme-postprocessor-masks.md
     items:
     - name: "Mask structure"
-      href: ../postprocessor-masks/mask-structure/readme-mask-structure.md
+      href: ../src/postprocessor-masks/mask-structure/readme-mask-structure.md
       items:
       - name: "Mask element"
-        href: ../postprocessor-masks/mask-structure/mask-element.md
+        href: ../src/postprocessor-masks/mask-structure/mask-element.md
       - name: "Registers in the masks"
-        href: ../postprocessor-masks/mask-structure/registers-in-the-masks.md
+        href: ../src/postprocessor-masks/mask-structure/registers-in-the-masks.md
       - name: "Modifiers"
-        href: ../postprocessor-masks/mask-structure/modifiers.md
+        href: ../src/postprocessor-masks/mask-structure/modifiers.md
       - name: "Expressions"
-        href: ../postprocessor-masks/mask-structure/expressions.md
+        href: ../src/postprocessor-masks/mask-structure/expressions.md
       - name: "Nested mask"
-        href: ../postprocessor-masks/mask-structure/nested-mask.md
+        href: ../src/postprocessor-masks/mask-structure/nested-mask.md
       - name: "The separators of the mask elements"
-        href: ../postprocessor-masks/mask-structure/separators-of-the-mask-elements.md
+        href: ../src/postprocessor-masks/mask-structure/separators-of-the-mask-elements.md
       - name: "Variables assignment from the mask"
-        href: ../postprocessor-masks/mask-structure/variables-assignment-from-the-mask.md
+        href: ../src/postprocessor-masks/mask-structure/variables-assignment-from-the-mask.md
       - name: "Deferred masks"
-        href: ../postprocessor-masks/mask-structure/deferred-masks.md
+        href: ../src/postprocessor-masks/mask-structure/deferred-masks.md
       - name: "GMA array in masks"
-        href: ../postprocessor-masks/mask-structure/gma-array-in-masks.md
+        href: ../src/postprocessor-masks/mask-structure/gma-array-in-masks.md
     - name: "Mask management"
-      href: ../postprocessor-masks/mask-management/readme-mask-management.md
+      href: ../src/postprocessor-masks/mask-management/readme-mask-management.md
       items:
       - name: "Mask switches"
-        href: ../postprocessor-masks/mask-management/mask-switches.md
+        href: ../src/postprocessor-masks/mask-management/mask-switches.md
       - name: "The transformation of a mask to the subprogram"
-        href: ../postprocessor-masks/mask-management/transformation-of-a-mask-to-the-subprogram.md
+        href: ../src/postprocessor-masks/mask-management/transformation-of-a-mask-to-the-subprogram.md
       - name: "The interactive to create the masks"
-        href: ../postprocessor-masks/mask-management/interactive-to-create-the-masks.md
+        href: ../src/postprocessor-masks/mask-management/interactive-to-create-the-masks.md
   - name: "Language description"
-    href: ../language-description/readme-language-description.md
+    href: ../src/language-description/readme-language-description.md
     items:
     - name: "Basic definitions"
-      href: ../language-description/basic-definitions/readme-basic-definitions.md
+      href: ../src/language-description/basic-definitions/readme-basic-definitions.md
       items:
       - name: "Conditional indications"
-        href: ../language-description/basic-definitions/conditional-indications.md
+        href: ../src/language-description/basic-definitions/conditional-indications.md
       - name: "Technology command programs, comments"
-        href: ../language-description/basic-definitions/technology-command-programs-comments.md
+        href: ../src/language-description/basic-definitions/technology-command-programs-comments.md
       - name: "Subprograms"
-        href: ../language-description/basic-definitions/subprograms.md
+        href: ../src/language-description/basic-definitions/subprograms.md
       - name: "The language statement conception"
-        href: ../language-description/basic-definitions/language-statement-conception.md
+        href: ../src/language-description/basic-definitions/language-statement-conception.md
       - name: "The set of symbols"
-        href: ../language-description/basic-definitions/set-of-symbols.md
+        href: ../src/language-description/basic-definitions/set-of-symbols.md
       - name: "The variables"
-        href: ../language-description/basic-definitions/variables.md
+        href: ../src/language-description/basic-definitions/variables.md
       - name: "Arrays"
-        href: ../language-description/basic-definitions/arrays.md
+        href: ../src/language-description/basic-definitions/arrays.md
       - name: "Mathematical expressions and functions"
-        href: ../language-description/basic-definitions/mathematical-expressions-and-functions.md
+        href: ../src/language-description/basic-definitions/mathematical-expressions-and-functions.md
       - name: "Predefined variables and functions"
-        href: ../language-description/basic-definitions/predefined-variables-and-functions/readme-predefined-variables-and-functions.md
+        href: ../src/language-description/basic-definitions/predefined-variables-and-functions/readme-predefined-variables-and-functions.md
         items:
         - name: "Standard mathematical functions"
-          href: ../language-description/basic-definitions/predefined-variables-and-functions/standard-mathematical-functions.md
+          href: ../src/language-description/basic-definitions/predefined-variables-and-functions/standard-mathematical-functions.md
         - name: "String functions"
-          href: ../language-description/basic-definitions/predefined-variables-and-functions/string-functions.md
+          href: ../src/language-description/basic-definitions/predefined-variables-and-functions/string-functions.md
         - name: "Miscellaneous functions and variables"
-          href: ../language-description/basic-definitions/predefined-variables-and-functions/miscellaneous-functions-and-variables.md
+          href: ../src/language-description/basic-definitions/predefined-variables-and-functions/miscellaneous-functions-and-variables.md
       - name: "Records"
-        href: ../language-description/basic-definitions/records.md
+        href: ../src/language-description/basic-definitions/records.md
       - name: "Objects"
-        href: ../language-description/basic-definitions/objects/readme-objects.md
+        href: ../src/language-description/basic-definitions/objects/readme-objects.md
         items:
         - name: "EulerConverter"
-          href: ../language-description/basic-definitions/objects/eulerconverter.md
+          href: ../src/language-description/basic-definitions/objects/eulerconverter.md
         - name: "Matrix"
-          href: ../language-description/basic-definitions/objects/matrix.md
+          href: ../src/language-description/basic-definitions/objects/matrix.md
         - name: "NCChannel"
-          href: ../language-description/basic-definitions/objects/ncchannel.md
+          href: ../src/language-description/basic-definitions/objects/ncchannel.md
         - name: "Point3D"
-          href: ../language-description/basic-definitions/objects/point3d.md
+          href: ../src/language-description/basic-definitions/objects/point3d.md
         - name: "Quaternion4d"
-          href: ../language-description/basic-definitions/objects/quaternion4d.md
+          href: ../src/language-description/basic-definitions/objects/quaternion4d.md
         - name: "StringHelper"
-          href: ../language-description/basic-definitions/objects/stringhelper.md
+          href: ../src/language-description/basic-definitions/objects/stringhelper.md
     - name: "Operators"
-      href: ../language-description/operators/readme-operators.md
+      href: ../src/language-description/operators/readme-operators.md
       items:
       - name: "The processing program start operator PROGRAM"
-        href: ../language-description/operators/processing-program-start-operator-program.md
+        href: ../src/language-description/operators/processing-program-start-operator-program.md
       - name: "The statement of assignment"
-        href: ../language-description/operators/statement-of-assignment.md
+        href: ../src/language-description/operators/statement-of-assignment.md
       - name: "The output statement PRINT"
-        href: ../language-description/operators/output-statement-print.md
+        href: ../src/language-description/operators/output-statement-print.md
       - name: "The input statement INPUT"
-        href: ../language-description/operators/input-statement-input/readme-input-statement-input.md
+        href: ../src/language-description/operators/input-statement-input/readme-input-statement-input.md
         items:
         - name: "The input from file"
-          href: ../language-description/operators/input-statement-input/input-from-file.md
+          href: ../src/language-description/operators/input-statement-input/input-from-file.md
         - name: "The input from keyboard"
-          href: ../language-description/operators/input-statement-input/input-from-keyboard.md
+          href: ../src/language-description/operators/input-statement-input/input-from-keyboard.md
       - name: "Conditional statement IF"
-        href: ../language-description/operators/conditional-statement-if.md
+        href: ../src/language-description/operators/conditional-statement-if.md
       - name: "Statement of the multiconditional execution CASE"
-        href: ../language-description/operators/statement-of-the-multiconditional-execution-case.md
+        href: ../src/language-description/operators/statement-of-the-multiconditional-execution-case.md
       - name: "JUMP statement"
-        href: ../language-description/operators/jump-statement.md
+        href: ../src/language-description/operators/jump-statement.md
       - name: "The cycle statement FOR"
-        href: ../language-description/operators/cycle-statement-for/readme-cycle-statement-for.md
+        href: ../src/language-description/operators/cycle-statement-for/readme-cycle-statement-for.md
         items:
         - name: "Statement CONTINUE"
-          href: ../language-description/operators/cycle-statement-for/statement-continue.md
+          href: ../src/language-description/operators/cycle-statement-for/statement-continue.md
         - name: "Statement BREAK"
-          href: ../language-description/operators/cycle-statement-for/statement-break.md
+          href: ../src/language-description/operators/cycle-statement-for/statement-break.md
       - name: "The cycle statement REPEAT"
-        href: ../language-description/operators/cycle-statement-repeat.md
+        href: ../src/language-description/operators/cycle-statement-repeat.md
       - name: "The cycle statement WHILE"
-        href: ../language-description/operators/cycle-statement-while.md
+        href: ../src/language-description/operators/cycle-statement-while.md
       - name: "Composite statement BEGIN...END"
-        href: ../language-description/operators/composite-statement.md
+        href: ../src/language-description/operators/composite-statement.md
       - name: "Statement to call a subprogram CALL"
-        href: ../language-description/operators/statement-to-call-a-subprogram-call.md
+        href: ../src/language-description/operators/statement-to-call-a-subprogram-call.md
       - name: "The statement of the subprogram start SUB"
-        href: ../language-description/operators/statement-of-the-subprogram-start-sub.md
+        href: ../src/language-description/operators/statement-of-the-subprogram-start-sub.md
       - name: "The statement of the subprogram end SUBEND"
-        href: ../language-description/operators/statement-of-the-subprogram-end-subend.md
+        href: ../src/language-description/operators/statement-of-the-subprogram-end-subend.md
       - name: "The statement of the procedure start PROC"
-        href: ../language-description/operators/statement-of-the-procedure-start-proc.md
+        href: ../src/language-description/operators/statement-of-the-procedure-start-proc.md
       - name: "The RETURN from a procedure statement"
-        href: ../language-description/operators/return-from-a-procedure-statement.md
+        href: ../src/language-description/operators/return-from-a-procedure-statement.md
       - name: "The block output statement OUTBLOCK"
-        href: ../language-description/operators/block-output-statement-outblock.md
+        href: ../src/language-description/operators/block-output-statement-outblock.md
       - name: "The block forming statement FORMBLOCK"
-        href: ../language-description/operators/block-forming-statement-formblock.md
+        href: ../src/language-description/operators/block-forming-statement-formblock.md
       - name: "Statement of direct output into the block OUTPUT"
-        href: ../language-description/operators/statement-of-direct-output-into-the-block-output.md
+        href: ../src/language-description/operators/statement-of-direct-output-into-the-block-output.md
       - name: "The replace statement of the substring in a string REPLACE"
-        href: ../language-description/operators/replace-statement-of-the-substring-in-a-string-replace.md
+        href: ../src/language-description/operators/replace-statement-of-the-substring-in-a-string-replace.md
       - name: "The statement to form the block by mask MASK"
-        href: ../language-description/operators/statement-to-form-the-block-by-mask-mask.md
+        href: ../src/language-description/operators/statement-to-form-the-block-by-mask-mask.md
       - name: "Change current NC-file operator"
-        href: ../language-description/operators/change-current-nc-file-operator.md
+        href: ../src/language-description/operators/change-current-nc-file-operator.md
       - name: "External task call operator"
-        href: ../language-description/operators/external-task-call-operator.md
+        href: ../src/language-description/operators/external-task-call-operator.md
       - name: "CustomData access operator CAM system"
-        href: ../language-description/operators/customdata-access-operator-cam-system.md
+        href: ../src/language-description/operators/customdata-access-operator-cam-system.md
       - name: "Operators of work with NC-subroutines"
-        href: ../language-description/operators/operators-of-work-with-nc-subroutines/readme-operators-of-work-with-nc-subroutines.md
+        href: ../src/language-description/operators/operators-of-work-with-nc-subroutines/readme-operators-of-work-with-nc-subroutines.md
         items:
         - name: "The operator of a output of NC-subroutine NCSUB.OUTPUT"
-          href: ../language-description/operators/operators-of-work-with-nc-subroutines/operator-of-a-output-of-nc-subroutine.md
+          href: ../src/language-description/operators/operators-of-work-with-nc-subroutines/operator-of-a-output-of-nc-subroutine.md
         - name: "NCSUB.OUTPUTALL operator"
-          href: ../language-description/operators/operators-of-work-with-nc-subroutines/operator.md
+          href: ../src/language-description/operators/operators-of-work-with-nc-subroutines/operator.md
         - name: "The operator of definition of an initial marker of NC-subroutine NCSUB.STARTLABEL"
-          href: ../language-description/operators/operators-of-work-with-nc-subroutines/operator-of-definition-of-an-initial-marker-of-nc-subroutine.md
+          href: ../src/language-description/operators/operators-of-work-with-nc-subroutines/operator-of-definition-of-an-initial-marker-of-nc-subroutine.md
         - name: "The operator of definition of a final marker of NC-subroutine NCSUB.ENDLABEL"
-          href: ../language-description/operators/operators-of-work-with-nc-subroutines/operator-of-definition-of-a-final-marker-of-nc-subroutine.md
+          href: ../src/language-description/operators/operators-of-work-with-nc-subroutines/operator-of-definition-of-a-final-marker-of-nc-subroutine.md
         - name: "The operator of definition of a name of NC-subroutine NCSUB.NAME"
-          href: ../language-description/operators/operators-of-work-with-nc-subroutines/operator-of-definition-of-a-name-of-nc-subroutine.md
+          href: ../src/language-description/operators/operators-of-work-with-nc-subroutines/operator-of-definition-of-a-name-of-nc-subroutine.md
         - name: "Technique of work with NC-subroutines"
-          href: ../language-description/operators/operators-of-work-with-nc-subroutines/technique-of-work-with-nc-subroutines.md
+          href: ../src/language-description/operators/operators-of-work-with-nc-subroutines/technique-of-work-with-nc-subroutines.md
       - name: "ReplNCStr operator to replace strings at NC-file"
-        href: ../language-description/operators/replncstr-operator-to-replace-strings-at-nc-file.md
+        href: ../src/language-description/operators/replncstr-operator-to-replace-strings-at-nc-file.md
   - name: "CLData"
     href: ../../cldata/cldata.md
     items:

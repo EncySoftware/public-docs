@@ -6,7 +6,7 @@ When cycle machining the values of F, S and T defined before the G73 frame or di
 
 The first roughing cut offset is defined as (U/2 + I) along the X axis and (W + K) along the Z axis. Every following roughing cut approaches the last roughing cut contour by (I/(D-1)) along the X axis and (K/(D-1)) along the Z axis. The last roughing cut always leaves stock material U/2 for the X axis and W for the Z axis.
 
-![f_clip0295](../../../sppx/images/download/attachments/142669110/f_clip0295.png)
+![f_clip0295](../../../sppx/src/images/download/attachments/142669110/f_clip0295.png)
 
 **LATHEFINISH** canned cycle is also used to form lathe finishing cycle G70 along the contour. If stocks are zero and there is only one cut then the lathe finishing G70 cycle is called.
 
