@@ -76,6 +76,8 @@ Threadmilling can be performed by several passes. Use the **Roughing passes coun
 
 The **Number of spiral turns** parameter is used to machine threads with pitch smaller than the distance between the tool's teeth. This parameter is generally unused (equals 1).
 
+The **Start angular position** parameter specifies the initial angular position of the spindle in degrees at which thread milling starts.
+
 ## Parameters
 
 | CLD array | CLD name | Description |
@@ -109,6 +111,7 @@ The **Number of spiral turns** parameter is used to machine threads with pitch s
 | CLD[28] | CLD.CLParams(26) | Method of forming a spiral: 0 – continuously through the entire depth of the holes, 1 – with transition for multitoothed tool |
 | CLD[29] | CLD.CLParams(27) | The length of the working part of cutters (determined by the number of teeth). This value determines the length of the transition to the method of forming a spiral "with transition". |
 | CLD[30] | CLD.CLParams(28) | The number of revolutions of the spiral to the method of forming a spiral "with transition" (usually equal to 1, but can be greater than 1 when milling the thread with step smaller than cutter step). |
+| CLD[31] | CLD.CLParams(29) | The initial angular position of the spindle in degrees |
 
 ## Access from .NET
 
