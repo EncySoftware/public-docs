@@ -1,6 +1,6 @@
 ﻿# The output statement PRINT
 
-This statement is designed to write the results on the display (in the debug window) during the trial NC-program generation. If the run-time postprocessor (`InpD.dll` or `SprutPP.exe`) generates the NC-program, it ignores this operator.
+This statement is designed to write the results on the display (in the debug window) during the trial NC-program generation. If the run-time postprocessor (`Inp.exe`) generates the NC-program, it ignores this operator.
 
 **Format**
 
