@@ -30,7 +30,7 @@ A composite curve is assembled through a sequence of calls: it is opened from a 
 
 - `Close` — when `true`, the curve is closed.
 
-![Composite 2D curve](../images/curve-2d.svg)
+![Composite 2D curve](images/curve-2d.svg)
 
 **Spatial (3D).** Built in space and extended with line segments.
 
@@ -47,4 +47,4 @@ A composite curve is assembled through a sequence of calls: it is opened from a 
 
 - `IsClosed` — when `true`, the curve is closed.
 
-![Composite 3D curve](../images/curve-3d.svg)
+![Composite 3D curve](images/curve-3d.svg)

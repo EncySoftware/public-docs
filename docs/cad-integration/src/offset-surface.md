@@ -6,4 +6,4 @@
 - `Surf` — identifier of the source surface;
 - `Offset` — signed offset distance along the normal (`> 0` — along the normal `N`, `< 0` — against it).
 
-![Offset surface](../images/surface-offset.svg)
+![Offset surface](images/surface-offset.svg)

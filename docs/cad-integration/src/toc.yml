@@ -1,4 +1,6 @@
-﻿- name: Introduction
+﻿- name: Creating a CAM-system Add-in
+  href: index.md
+- name: Introduction
   href: introduction.md
   items:
   - name: Glossary

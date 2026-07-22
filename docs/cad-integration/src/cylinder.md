@@ -10,4 +10,4 @@
 - `Hmin`, `Hmax` — height bounds (along the axis);
 - `Amin`, `Amax` — angular sector bounds (a full cylinder runs from `0` to `2π`).
 
-![Cylinder](../images/surface-cylinder.svg)
+![Cylinder](images/surface-cylinder.svg)

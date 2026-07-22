@@ -2,7 +2,7 @@
 
 An Add-in consists of two parts: the Translator (`<Translator>.exe`) and the Toolbar (a plugin in the CAD). They interact with three external participants — the Add-ins Wizard, the CAD system, and the CAM system.
 
-![Add-in components](../images/components.svg)
+![Add-in components](images/components.svg)
 
 The Add-in components and its environment, as well as the distribution files, are described below:
 

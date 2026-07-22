@@ -1,0 +1,38 @@
+﻿- name: CAM system documentation
+  href: index.md
+
+- name: XMLProperties framework
+  href: xml-properties/readme-xml-framework.md
+  items:
+    - name: Framework overview
+      href: xml-properties/framework-overview.md
+    - name: Descriptor syntax
+      href: xml-properties/descriptor-syntax.md
+    - name: Expression language
+      href: xml-properties/expression-language.md
+    - name: Using XML properties from code
+      href: xml-properties/using-from-code.md
+    - name: User defaults
+      href: xml-properties/user-defaults.md
+
+- name: Operation XML descriptors
+  href: operations/readme-operations.md
+  items:
+    - name: Operation XML descriptors
+      href: operations/operation-xml-descriptors.md
+    - name: Operation hierarchy reference
+      href: operations/operation-hierarchy.md
+
+- name: Machine descriptors
+  href: machines/readme-machines.md
+  items:
+    - name: Machine descriptors
+      href: machines/machine-descriptors.md
+    - name: Machine node reference
+      href: machines/node-reference.md
+    - name: Machine Setup parameters reference
+      href: machines/machine-setup-parameters.md
+    - name: Advanced machine topics
+      href: machines/advanced-topics.md
+    - name: 3D models for machines
+      href: machines/3d-models.md

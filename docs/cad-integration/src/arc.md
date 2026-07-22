@@ -9,4 +9,4 @@
 - `vZ` — Z axis; 
 - `vX` — X axis.
 
-![CreateArc](../images/curve-arc.svg)
+![CreateArc](images/curve-arc.svg)

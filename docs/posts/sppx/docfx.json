@@ -1,0 +1,21 @@
+{
+  "build": {
+    "content": [
+      { "src": ".", "dest": "sppx", "files": [ "src/**/*.{md,yml}" ] },
+      { "src": "../cldata", "dest": "cldata", "files": [ "**/*.{md,yml}" ] }
+    ],
+    "resource": [
+      { "src": ".", "dest": "sppx", "files": [ "src/images/**", "src/attachments/**" ] }
+    ],
+    "dest": "out/html",
+    "globalMetadata": {
+      "_appName": "Postprocessors generator (sppx postprocessors)",
+      "_appTitle": "Postprocessors generator (sppx postprocessors)",
+      "_enableSearch": true,
+      "_disableContribution": true
+    },
+    "postProcessors": [ "ExtractSearchIndex" ],
+    "template": [ "statictoc", "../../_common/templates/custom" ],
+    "markdownEngineName": "markdig"
+  }
+}

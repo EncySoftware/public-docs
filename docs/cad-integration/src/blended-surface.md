@@ -18,7 +18,7 @@ The spine is built as the intersection curve of two **offset surfaces** — the 
 
 The fields `p1`/`L1` and `p2`/`L2` are specified (boundary type `L`) only in degenerate cases — when the spine is periodic but the blended edge has ends (for example, the spine is elliptical and the blend degenerates). In the ordinary case the boundaries are unbounded (type `U`).
 
-![Blend surface](../images/surface-blend.png)
+![Blend surface](images/surface-blend.png)
 
 `TSTBlendedType` and `TSTLimitType` are **SGF** types, not CAD system types. Therefore the parameter class uses the add-in's own enumerations, and before calling `CreateBlendedSurface` they are **cast** to SGF types (just as points are cast to `TST3DPoint`).
 

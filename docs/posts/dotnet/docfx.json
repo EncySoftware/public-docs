@@ -1,0 +1,22 @@
+{
+  "build": {
+    "content": [
+      { "src": ".", "dest": "dotnet", "files": [ "src/**/*.{md,yml}" ] },
+      { "src": "../cldata", "dest": "cldata", "files": [ "**/*.{md,yml}" ] }
+    ],
+    "resource": [
+      { "src": ".", "dest": "dotnet", "files": [ "src/images/**", "src/attachments/**" ] },
+      { "src": "../sppx", "dest": "sppx", "files": [ "src/images/**" ] }
+    ],
+    "dest": "out/html",
+    "globalMetadata": {
+      "_appName": ".NET postprocessors",
+      "_appTitle": ".NET postprocessors",
+      "_enableSearch": true,
+      "_disableContribution": true
+    },
+    "postProcessors": [ "ExtractSearchIndex" ],
+    "template": [ "statictoc", "../../_common/templates/custom" ],
+    "markdownEngineName": "markdig"
+  }
+}

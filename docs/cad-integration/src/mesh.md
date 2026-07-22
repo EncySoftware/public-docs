@@ -17,7 +17,7 @@ A polygonal mesh is formed by a set of triangles, each consisting of three verti
 
 **`CloseMesh()`** — finish building the mesh.
 
-![Polygonal mesh](../images/surface-mesh.svg)
+![Polygonal mesh](images/surface-mesh.svg)
 
 **Example of importing a polygonal mesh.** Each vertex is added once — by its index (repeated indices from different triangles are skipped), then triangles are added by these indices.
 

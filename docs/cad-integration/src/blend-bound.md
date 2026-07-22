@@ -8,4 +8,4 @@ In the Parasolid XT format this is an auxiliary (construction) surface `blend_bo
 - `Blend` — identifier of the blend surface (`ID` from `CreateBlendedSurface`, see [Blend surface](blended-surface.md));
 - `Boundary` — index of the supporting surface of the blend (`0` or `1`).
 
-![Blend boundary](../images/curve-blendbound.png)
+![Blend boundary](images/curve-blendbound.png)

@@ -30,7 +30,7 @@ The `TSTLimitType` enumeration specifies the **boundary type** at the ends of th
 
 The same boundary types are also used when creating a blended surface (`CreateBlendedSurface`, see [Blended surface](blended-surface.md)).
 
-![Intersection curve of two surfaces](../images/curve-intersection.svg)
+![Intersection curve of two surfaces](images/curve-intersection.svg)
 
 **Example of importing an intersection curve.** It is assumed that both surfaces are already saved, and the curve points and boundary parameters have been obtained from CAD. The curve is written as a sequence of points; for boundaries of type `T` (terminators), explicit boundary points are additionally added.
 

@@ -4,7 +4,7 @@ Describes a thread object for PMI. An instance is returned by the `ISTGeomReceiv
 
 Each property is accessed through a pair of `Get<Name>` / `Set<Name>` methods (for example, `GetPitch` / `SetPitch`).
 
-![Thread (PMI): object parameters](../images/pmi-thread.svg)
+![Thread (PMI): object parameters](images/pmi-thread.svg)
 
 | Property | Type | Purpose |
 |----------|-----|-----------|

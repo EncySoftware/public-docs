@@ -1,6 +1,6 @@
 ﻿# Installing the Add-in
 
-![Installing the Add-in](../images/install.svg)
+![Installing the Add-in](images/install.svg)
 
 1. The user opens the Add-in wizard in the CAM system. 
 2. The Add-in wizard scans the standard folder and shows a list of the Add-ins found.
