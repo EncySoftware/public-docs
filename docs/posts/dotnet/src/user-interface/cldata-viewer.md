@@ -23,7 +23,7 @@ The main menu of CLData Viewer looks like the one shown in the picture below.
 
 ![CLData viewer main menu](../images/Post/CLDViewerMainMenu.png)
 
-- **Open project...** — allows you to open the CAM system project (*.stc file) with a CLData which will be used to debug postprocessors. A standard file open dialog will be shown.
+- **Open project...** — allows you to open the CAM system project (*.stcp file) with a CLData which will be used to debug postprocessors. A standard file open dialog will be shown.
 - **Close project** — closes the opened CAM system project.
 - **Reopen project** — shows the list of recently loaded CAM system projects to open them quickly.
 - **Create new postprocessor** — helps to create a new postprocessor based on the selected template.
@@ -55,7 +55,7 @@ The popup menu of the CLData tab looks like this one.
 - **Collapse all** — collapses all CLData nodes in the tree.
 - **Clear breakpoints** — deletes all CLData breakpoints from CLData Viewer.
 - **Disable breakpoint** — temporarily deactivates a CLData breakpoint on the selected command until you enable it again.
-- **Open project...** — allows you to open the CAM system project (*.stc file) with a CLData which will be used to debug postprocessors. A standard file open dialog will be shown.
+- **Open project...** — allows you to open the CAM system project (*.stcp file) with a CLData which will be used to debug postprocessors. A standard file open dialog will be shown.
 - **Close project** — closes the opened CAM system project.
 - **Reopen project** — shows the list of recently loaded CAM system projects to open them quickly.
 
