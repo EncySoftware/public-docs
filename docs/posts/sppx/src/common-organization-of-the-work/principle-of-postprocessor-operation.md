@@ -1,6 +1,6 @@
 ﻿# The principle of postprocessor operation
 
-Postprocessors generator allows to develop the postprocessor adjustment files for the different NC-systems (*.SPPX files). An import of the files from the previous version of postprocessor (*.SPP, *.INP files) is available also. The postprocessor adjustment file contains the descriptions of all features to generate NC-program for the defined NC-system. The executable system of postprocessor uses this description to generate the NC-programs from the files of technological commands (*.MCD, *.STC, *.STCX files), which can be produced, in turn, by CAM system, for example.
+Postprocessors generator allows to develop the postprocessor adjustment files for the different NC-systems (*.SPPX files). An import of the files from the previous version of postprocessor (*.SPP, *.INP files) is available also. The postprocessor adjustment file contains the descriptions of all features to generate NC-program for the defined NC-system. The executable system of postprocessor uses this description to generate the NC-programs from the files of technological commands (*.MCD, *.STCP, *.STCX files), which can be produced, in turn, by CAM system, for example.
 
 ![Principle of postprocessor operation](../images/principle-of-postprocessor-operation.svg)
 

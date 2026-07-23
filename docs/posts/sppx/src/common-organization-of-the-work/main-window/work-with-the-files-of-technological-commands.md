@@ -1,6 +1,6 @@
 ﻿# The work with the files of technological commands
 
-The files of technological commands can be loaded from the CAM system project (*.stc, *.stcx). The pressing the button or the choosing the corresponding item in the main or context menu loads the file.
+The files of technological commands can be loaded from the CAM system project (*.stcp, *.stcx). The pressing the button or the choosing the corresponding item in the main or context menu loads the file.
 
 When the files of the technological commands are loaded from the CAM system project, the project name, which contains these files, will be displayed on the [main panel](main-toolbar.md).
 
