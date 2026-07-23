@@ -32,6 +32,7 @@ Boring canned cycle G86 consists of:
 | CLD[13] | CLD.CLParams(11) | Return feed measurements: 0 – mm/rev, 1 – mm/min |
 | CLD[14] | CLD.CLParams(12) | Return feed value |
 | CLD[15] | CLD.CLParams(13) | Delay at the bottom level in seconds |
+| CLD[16] | CLD.CLParams(14) | Delay at the top level in seconds |
 | CLD[17] | CLD.CLParams(15) | The state of the oriented spindle stop at the bottom of the hole: 0 - off, 1 - enabled. |
 | CLD[18] | CLD.CLParams(16) | The angular position of the spindle when stopping at the bottom of the hole (degrees) |
 | CLD[19] | CLD.CLParams(17) | The value of tool shift for the X coordinate after oriented spindle stop at the bottom of the hole. |
