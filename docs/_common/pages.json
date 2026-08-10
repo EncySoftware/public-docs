@@ -1,0 +1,11 @@
+{
+  "version": "v3",
+  "language": "en",
+  "siteTitle": "Technical documentation",
+  "versionTitle": "Version 3 documentation",
+  "sectionTitle": "Postprocessing documentation",
+  "unitTitles": {
+    "dotnet": ".NET postprocessors",
+    "sppx": "Postprocessors generator (SPPX)"
+  }
+}
