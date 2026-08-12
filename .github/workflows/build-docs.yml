@@ -1,0 +1,39 @@
+name: Build documentation
+
+on:
+  pull_request:
+  push:
+    branches:
+      - v3/develop
+      - v3/features/**
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install DocFX
+        run: dotnet tool install --global docfx --version 2.78.2
+
+      - name: Build Pages site
+        run: python docs/_common/build_pages.py . _site docs/_common/pages.json --latest
+
+      - name: Upload preview artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: documentation-preview-v3
+          path: _site
+          if-no-files-found: error
