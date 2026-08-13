@@ -478,3 +478,62 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start);
   else start();
 })();
+
+/* Add a route back from a versioned DocFX page to its documentation portal. */
+(function () {
+  'use strict';
+
+  function addDocumentationHomeLink() {
+    if (document.querySelector('.documentation-home-link')) return;
+
+    var segments = window.location.pathname.split('/');
+    var versionIndex = -1;
+    for (var i = 0; i < segments.length; i++) {
+      if (/^v[1-9][0-9]*$/.test(segments[i])) {
+        versionIndex = i;
+        break;
+      }
+    }
+    if (versionIndex === -1) return;
+
+    var header = document.querySelector('#autocollapse .navbar-header');
+    if (!header) return;
+
+    var labelMeta = document.querySelector('meta[name="documentation-portal-label"]');
+    var label = labelMeta && labelMeta.getAttribute('content');
+    if (!label) {
+      label = (document.documentElement.lang || '').toLowerCase().indexOf('ru') === 0
+        ? 'Центр документации'
+        : 'Documentation center';
+    }
+
+    var homePath = segments.slice(0, versionIndex + 1).join('/') + '/';
+    var link = document.createElement('a');
+    link.className = 'documentation-home-link';
+    link.href = homePath;
+    link.title = label;
+    link.setAttribute('aria-label', label);
+
+    var arrow = document.createElement('span');
+    arrow.className = 'documentation-home-link__arrow';
+    arrow.setAttribute('aria-hidden', 'true');
+    arrow.textContent = '←';
+
+    var text = document.createElement('span');
+    text.className = 'documentation-home-link__label';
+    text.textContent = label;
+
+    link.appendChild(arrow);
+    link.appendChild(text);
+
+    var brand = header.querySelector('.navbar-brand');
+    if (brand && brand.nextSibling) header.insertBefore(link, brand.nextSibling);
+    else header.appendChild(link);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', addDocumentationHomeLink);
+  } else {
+    addDocumentationHomeLink();
+  }
+})();

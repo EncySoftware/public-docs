@@ -404,6 +404,61 @@ def _write(path, content):
         stream.write(content)
 
 
+def _prepare_docfx_html(directory, config):
+    language = _attr(config["language"])
+    portal_label = _attr(config["labels"]["home"])
+    marker = 'name="documentation-portal-label"'
+
+    for root, _, files in os.walk(directory):
+        for name in files:
+            if not name.lower().endswith(".html"):
+                continue
+
+            path = os.path.join(root, name)
+            with open(path, "rb") as stream:
+                raw = stream.read()
+            has_bom = raw.startswith(b"\xef\xbb\xbf")
+            document = raw.decode("utf-8-sig")
+
+            def set_language(match):
+                attributes = match.group(1)
+                if re.search(r"\blang\s*=", attributes, re.IGNORECASE):
+                    attributes = re.sub(
+                        r"\blang\s*=\s*([\"']).*?\1",
+                        'lang="%s"' % language,
+                        attributes,
+                        count=1,
+                        flags=re.IGNORECASE,
+                    )
+                else:
+                    attributes += ' lang="%s"' % language
+                return "<html%s>" % attributes
+
+            updated, html_count = re.subn(
+                r"<html([^>]*)>", set_language, document, count=1, flags=re.IGNORECASE
+            )
+            if not html_count:
+                raise SystemExit("missing html element: " + path)
+
+            if marker not in updated:
+                newline = "\r\n" if "\r\n" in updated else "\n"
+                meta = (
+                    '    <meta name="documentation-portal-label" content="%s">%s'
+                    % (portal_label, newline)
+                )
+                updated, head_count = re.subn(
+                    r"</head>", meta + "</head>", updated, count=1, flags=re.IGNORECASE
+                )
+                if not head_count:
+                    raise SystemExit("missing head element: " + path)
+
+            encoded = updated.encode("utf-8")
+            if has_bom:
+                encoded = b"\xef\xbb\xbf" + encoded
+            with open(path, "wb") as stream:
+                stream.write(encoded)
+
+
 def _svg(content, class_name=""):
     class_attr = ' class="%s"' % html.escape(class_name, quote=True) if class_name else ""
     return (
@@ -848,6 +903,7 @@ def build_site(repo, output, config_path, latest):
     for entry in entries:
         destination = os.path.join(version_dir, *entry["output"].split("/"))
         shutil.copytree(built[entry["source"]], destination)
+        _prepare_docfx_html(destination, config)
 
     os.makedirs(output, exist_ok=True)
     _write_assets(output, config)

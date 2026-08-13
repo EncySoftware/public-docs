@@ -89,6 +89,47 @@ header .navbar {
   border-bottom-color: #3c3c3c;
 }
 
+.documentation-home-link {
+  float: left;
+  min-height: 50px;
+  padding: 0 15px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #d4d4d4;
+  border-left: 1px solid #3c3c3c;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.documentation-home-link:hover,
+.documentation-home-link:focus {
+  color: #ffffff;
+  background-color: #2d2d2d;
+  text-decoration: none;
+}
+
+.documentation-home-link__arrow {
+  color: #4fc1ff;
+  font-size: 18px;
+  line-height: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .documentation-home-link {
+    width: 44px;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .documentation-home-link__label {
+    display: none;
+  }
+}
+
 /* --- Sidebar / TOC dark --- */
 .sidenav, .fixed_header, .toc,
 .sidetoc, .sidefilter {
