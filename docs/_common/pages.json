@@ -1,15 +1,22 @@
 {
   "version": "v3",
   "language": "en",
-  "siteTitle": "Technical documentation",
-  "siteDescription": "Developer guides and reference materials for extending, integrating, and configuring the CAM system.",
-  "versionTitle": "Version 3 documentation",
-  "versionDescription": "Technical guides for postprocessor development, CAD integration, and advanced system configuration.",
+  "siteTitle": "ENCY technical documentation",
+  "siteDescription": "Developer guides and reference materials for extending, integrating, and configuring ENCY.",
+  "versionTitle": "ENCY 3 technical documentation",
+  "versionDescription": "Technical guides for ENCY postprocessor development, CAD integration, and advanced configuration.",
   "repositoryUrl": "https://github.com/EncySoftware/public-docs",
+  "brand": {
+    "name": "ENCY",
+    "websiteUrl": "https://encycam.com/",
+    "websiteLabel": "encycam.com",
+    "logo": "portal-logo.svg",
+    "variant": "dark"
+  },
   "theme": {
-    "primary": "#00A88F",
-    "deep": "#075C66",
-    "accent": "#7CF2D2"
+    "primary": "#00CB9A",
+    "deep": "#252935",
+    "accent": "#1269D9"
   },
   "labels": {
     "home": "Documentation center",

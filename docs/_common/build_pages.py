@@ -101,17 +101,13 @@ a { color: inherit; }
   gap: 12px;
   text-decoration: none;
 }
-.brand__mark {
-  width: 40px;
-  height: 40px;
+.brand__logo-shell {
+  min-width: 44px;
+  height: 44px;
   display: grid;
   place-items: center;
-  border-radius: 13px;
-  color: white;
-  background: linear-gradient(145deg, var(--brand), var(--brand-deep));
-  box-shadow: 0 10px 24px color-mix(in srgb, var(--brand) 28%, transparent);
 }
-.brand__mark svg { width: 23px; height: 23px; }
+.brand__logo { display: block; width: auto; max-width: 108px; max-height: 34px; }
 .brand__copy { display: grid; line-height: 1.15; }
 .brand__copy strong { font-size: 15px; letter-spacing: .01em; }
 .brand__copy span { margin-top: 4px; color: var(--muted); font-size: 12px; }
@@ -176,6 +172,17 @@ a { color: inherit; }
   opacity: .16;
 }
 .hero__content { position: relative; z-index: 1; width: 100%; min-width: 0; max-width: 770px; }
+.hero__brand-art {
+  position: absolute;
+  z-index: 0;
+  width: min(33vw, 390px);
+  right: 6%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: .09;
+  pointer-events: none;
+}
+.hero__brand-art img { display: block; width: 100%; max-height: 250px; object-fit: contain; }
 .eyebrow {
   display: inline-flex;
   align-items: center;
@@ -374,6 +381,114 @@ a { color: inherit; }
   font-size: 13px;
 }
 .site-footer a { color: var(--brand-deep); font-weight: 700; text-decoration: none; }
+.site-footer__links { display: flex; flex-wrap: wrap; gap: 18px; }
+
+/* Dark graphite composition with a turquoise-to-blue signature gradient. */
+.theme-dark {
+  --ink: #252935;
+  --muted: #68707f;
+  --line: #dfe2e7;
+  --canvas: #eeeff1;
+  --shadow: 0 24px 60px rgba(37, 41, 53, .14);
+  font-family: Montserrat, "Segoe UI", Arial, sans-serif;
+}
+.theme-dark .site-header { background: rgba(255,255,255,.94); border-bottom-color: #e4e7eb; }
+.theme-dark .brand__logo-shell { min-width: 90px; justify-content: start; }
+.theme-dark .brand__logo { width: 82px; max-width: 82px; }
+.theme-dark .site-nav a { border-radius: 999px; }
+.theme-dark .site-nav a:last-child { padding-inline: 20px; color: white; background: #252935; }
+.theme-dark .site-nav a:last-child:hover { background: #13151b; }
+.theme-dark .hero { min-height: 480px; background: #252935; box-shadow: 0 30px 75px rgba(37,41,53,.2); }
+.theme-dark .hero::before {
+  width: 100%; height: 6px; left: 0; right: 0; top: auto; bottom: 0;
+  border: 0; border-radius: 0; background: linear-gradient(90deg, #00cb9a, #1269d9); box-shadow: none;
+}
+.theme-dark .hero::after {
+  width: 520px; height: 520px; right: -150px; bottom: -280px;
+  border: 1px solid rgba(255,255,255,.09); background: transparent;
+  box-shadow: 0 0 0 76px rgba(255,255,255,.025), 0 0 0 152px rgba(255,255,255,.018);
+  filter: none; opacity: 1;
+}
+.theme-dark .hero__brand-art { right: 5%; opacity: .115; filter: saturate(.8); }
+.theme-dark .eyebrow { padding: 7px 12px; border: 1px solid rgba(255,255,255,.14); border-radius: 999px; letter-spacing: .05em; text-transform: none; }
+.theme-dark .hero h1 { max-width: 790px; font-weight: 650; }
+.theme-dark .button { border-radius: 999px; }
+.theme-dark .button--primary { color: white; background: linear-gradient(95deg, #00cb9a, #1269d9); }
+.theme-dark .button--primary:hover { box-shadow: 0 12px 28px rgba(0,203,154,.2); }
+.theme-dark .card-icon { color: #1269d9; background: linear-gradient(135deg, rgba(0,203,154,.14), rgba(18,105,217,.13)); }
+.theme-dark .section-card:hover,
+.theme-dark .guide-card:hover { border-color: #00cb9a; }
+.theme-dark .card-link,
+.theme-dark .breadcrumbs a,
+.theme-dark .site-footer a { color: #1269d9; }
+
+/* Light modular composition with the red product accent. */
+.theme-light {
+  --ink: #1f1f1f;
+  --muted: #68727b;
+  --line: #e1e5e7;
+  --surface: #ffffff;
+  --canvas: #f4f6f7;
+  --shadow: 0 24px 65px rgba(9,8,9,.09);
+  font-family: Onest, "Segoe UI", Arial, sans-serif;
+  background: #f4f6f7;
+}
+.theme-light .site-header { padding-top: 8px; border: 0; background: transparent; backdrop-filter: none; }
+.theme-light .site-header__inner { width: min(1280px, calc(100% - 40px)); }
+.theme-light .brand { padding: 6px 18px 6px 7px; border-radius: 15px; background: #eceff0; }
+.theme-light .brand__logo-shell { width: 48px; min-width: 48px; height: 48px; border-radius: 12px; background: white; }
+.theme-light .brand__logo { width: 28px; max-height: 31px; }
+.theme-light .site-nav { padding: 5px; border-radius: 15px; background: #eceff0; }
+.theme-light .site-nav a { min-height: 42px; padding-inline: 16px; display: inline-flex; align-items: center; border-radius: 11px; }
+.theme-light .site-nav a:hover { color: #1f1f1f; background: white; }
+.theme-light .site-nav a:last-child { padding-inline: 20px; color: white; background: #ff3333; }
+.theme-light .site-nav a:last-child:hover { color: white; background: #e72424; }
+.theme-light .page { padding-top: 44px; }
+.theme-light .breadcrumbs { margin-bottom: 4px; }
+.theme-light .breadcrumbs a { color: #1f1f1f; }
+.theme-light .hero {
+  min-height: 455px; padding-top: 60px; padding-bottom: 60px; justify-items: center;
+  color: #1f1f1f; background: transparent; border-radius: 0; box-shadow: none; text-align: center;
+}
+.theme-light .hero::before {
+  width: 410px; height: 410px; top: 16px; right: -130px;
+  border: 1px solid rgba(9,30,51,.08);
+  box-shadow: 0 0 0 58px rgba(255,255,255,.42), 0 0 0 116px rgba(9,30,51,.025);
+}
+.theme-light .hero::after {
+  width: 14px; height: 14px; right: 8%; bottom: 18%; background: #ff3333;
+  box-shadow: 0 0 0 16px rgba(255,51,51,.09); filter: none; opacity: 1;
+}
+.theme-light .hero__content { max-width: 900px; }
+.theme-light .hero__brand-art { width: 240px; right: 2%; opacity: .045; }
+.theme-light .eyebrow { margin-bottom: 24px; padding: 8px 14px; color: #4c555c; background: #eceff0; border-radius: 999px; letter-spacing: .02em; text-transform: none; }
+.theme-light .eyebrow::before { background: #ff3333; box-shadow: none; }
+.theme-light .hero h1 { max-width: 970px; font-weight: 500; letter-spacing: -.035em; }
+.theme-light .hero__lead { margin-inline: auto; color: #59636c; }
+.theme-light .hero__actions,
+.theme-light .hero__stats { justify-content: center; }
+.theme-light .button { min-height: 52px; padding-inline: 22px; border-radius: 14px; }
+.theme-light .button--primary { color: white; background: #ff3333; }
+.theme-light .button--primary:hover { background: #e72424; }
+.theme-light .button--ghost { color: #1f1f1f; border-color: #d8dddf; background: white; }
+.theme-light .button--ghost:hover { background: #eceff0; }
+.theme-light .stat { color: #1f1f1f; border-color: #dfe3e5; background: white; }
+.theme-light .stat span { color: #68727b; }
+.theme-light .content-section { padding-top: 54px; }
+.theme-light .section-heading { max-width: 830px; }
+.theme-light .section-heading h2 { font-weight: 500; }
+.theme-light .section-card,
+.theme-light .guide-card { border-color: transparent; border-radius: 20px; box-shadow: none; }
+.theme-light .section-card:hover,
+.theme-light .guide-card:hover { border-color: #ff3333; box-shadow: var(--shadow); }
+.theme-light .card-icon { color: #1f1f1f; background: #eceff0; border-radius: 13px; }
+.theme-light .card-count,
+.theme-light .guide-card__meta { color: #5b646b; background: #eceff0; }
+.theme-light .card-link,
+.theme-light .site-footer a { color: #e72424; }
+.theme-light .versions { border: 0; border-radius: 20px; }
+.theme-light .version-chip:hover,
+.theme-light .version-chip--current { border-color: #ff3333; background: #fff5f5; }
 @media (max-width: 760px) {
   .site-header__inner, .page, .site-footer__inner { width: min(1180px, calc(100% - 24px)); }
   .site-header__inner { min-height: 66px; }
@@ -381,6 +496,9 @@ a { color: inherit; }
   .site-nav a { padding: 8px; }
   .page { padding-top: 20px; }
   .hero { min-height: 0; padding: 34px 25px; border-radius: 22px; }
+  .theme-dark .hero, .theme-light .hero { min-height: 0; }
+  .theme-light .hero { padding: 42px 20px; border-radius: 0; }
+  .hero__brand-art { display: none; }
   .hero__stats { flex-wrap: wrap; }
   .stat { min-width: 105px; }
   .content-section { padding-top: 46px; }
@@ -507,7 +625,7 @@ def _load_config(path):
 
     required = (
         "version", "language", "siteTitle", "siteDescription", "versionTitle",
-        "versionDescription", "repositoryUrl", "theme", "labels", "sections",
+        "versionDescription", "repositoryUrl", "brand", "theme", "labels", "sections",
     )
     missing = [key for key in required if key not in config]
     if missing:
@@ -531,6 +649,17 @@ def _load_config(path):
         value = config["theme"].get(key)
         if not isinstance(value, str) or not COLOR_RE.match(value):
             raise SystemExit("theme.%s must be a six-digit hex color" % key)
+
+    brand_keys = ("name", "websiteUrl", "websiteLabel", "logo", "variant")
+    missing_brand = [key for key in brand_keys if key not in config["brand"]]
+    if missing_brand:
+        raise SystemExit("missing brand keys: " + ", ".join(missing_brand))
+    if config["brand"]["variant"] not in ("dark", "light"):
+        raise SystemExit("brand.variant must be dark or light")
+    if not re.match(r"^[a-z0-9][a-z0-9-]*\.svg$", config["brand"]["logo"]):
+        raise SystemExit("brand.logo must be a simple lowercase SVG filename")
+    if not config["brand"]["websiteUrl"].startswith("https://"):
+        raise SystemExit("brand.websiteUrl must use https")
 
     section_slugs = set()
     output_paths = set()
@@ -646,14 +775,15 @@ def _document(config, title, description, body, home_href, latest_href, asset_hr
   <title>{page_title}</title>
   <link rel="stylesheet" href="{asset_href}portal.css">
 </head>
-<body>
+<body class="theme-{variant}">
   <header class="site-header">
     <div class="site-header__inner">
       <a class="brand" href="{home_href}">
-        <span class="brand__mark">{brand_icon}</span>
+        <span class="brand__logo-shell"><img class="brand__logo" src="{logo_href}" alt="{brand_name}"></span>
         <span class="brand__copy"><strong>{site_title}</strong><span>{home_label}</span></span>
       </a>
       <nav class="site-nav" aria-label="Primary">
+        <a href="{website_url}" target="_blank" rel="noreferrer">{website_label}</a>
         <a href="{latest_href}">{latest_label}</a>
         <a href="{repository_url}" target="_blank" rel="noreferrer">{source_label}</a>
       </nav>
@@ -666,7 +796,7 @@ def _document(config, title, description, body, home_href, latest_href, asset_hr
   <footer class="site-footer">
     <div class="site-footer__inner">
       <span>{footer}</span>
-      <a href="{repository_url}" target="_blank" rel="noreferrer">{source_label}</a>
+      <span class="site-footer__links"><a href="{website_url}" target="_blank" rel="noreferrer">{website_label}</a><a href="{repository_url}" target="_blank" rel="noreferrer">{source_label}</a></span>
     </div>
   </footer>
 </body>
@@ -677,9 +807,13 @@ def _document(config, title, description, body, home_href, latest_href, asset_hr
         theme=_attr(config["theme"]["primary"]),
         page_title=_safe(page_title),
         asset_href=_attr(asset_href),
+        variant=_attr(config["brand"]["variant"]),
         home_href=_attr(home_href),
         latest_href=_attr(latest_href),
-        brand_icon=_icon("book"),
+        logo_href=_attr(asset_href + config["brand"]["logo"]),
+        brand_name=_attr(config["brand"]["name"]),
+        website_url=_attr(config["brand"]["websiteUrl"]),
+        website_label=_safe(config["brand"]["websiteLabel"]),
         site_title=_safe(config["siteTitle"]),
         home_label=_safe(labels["home"]),
         latest_label=_safe(labels["latest"]),
@@ -691,7 +825,7 @@ def _document(config, title, description, body, home_href, latest_href, asset_hr
     )
 
 
-def _hero(config, title, description, eyebrow, primary_href=None, compact=False, stats=True):
+def _hero(config, title, description, eyebrow, primary_href=None, compact=False, stats=True, asset_href="assets/"):
     labels = config["labels"]
     actions = ""
     if primary_href:
@@ -720,9 +854,10 @@ def _hero(config, title, description, eyebrow, primary_href=None, compact=False,
     return (
         '<section class="%s"><div class="hero__content">'
         '<span class="eyebrow">%s</span><h1>%s</h1><p class="hero__lead">%s</p>%s'
-        '</div>%s</section>'
+        '</div><div class="hero__brand-art" aria-hidden="true"><img src="%s%s" alt=""></div>%s</section>'
     ) % (
-        classes, _safe(eyebrow), _safe(title), _safe(description), actions, stats_html,
+        classes, _safe(eyebrow), _safe(title), _safe(description), actions,
+        _attr(asset_href), _attr(config["brand"]["logo"]), stats_html,
     )
 
 
@@ -792,7 +927,7 @@ def _write_site_index(output, config):
         _hero(
             config, config["siteTitle"], config["siteDescription"],
             "%s · %s" % (config["version"], config["labels"]["current"]),
-            config["version"] + "/",
+            config["version"] + "/", asset_href="assets/",
         )
         + _sections_block(config, config["version"] + "/")
         + _versions_block(config, output)
@@ -811,7 +946,7 @@ def _write_version_index(version_dir, config):
         _hero(
             config, config["versionTitle"], config["versionDescription"],
             "%s · %s" % (config["version"], config["labels"]["current"]),
-            "#documentation",
+            "#documentation", asset_href="../assets/",
         )
         + _sections_block(config, "")
     )
@@ -843,7 +978,7 @@ def _write_section_index(version_dir, config, section):
     body = (
         _hero(
             config, section["title"], section["description"],
-            config["version"], None, compact=True, stats=False,
+            config["version"], None, compact=True, stats=False, asset_href="../../assets/",
         )
         + '<section class="content-section"><div class="guide-grid">%s</div></section>'
         % "".join(cards)
@@ -877,12 +1012,16 @@ def _redirect(target, title, language):
 """.format(language=_attr(language), target=escaped_target, title=_safe(title))
 
 
-def _write_assets(output, config):
+def _write_assets(output, config, repo):
     css = CSS
     css = css.replace("__PRIMARY__", config["theme"]["primary"])
     css = css.replace("__DEEP__", config["theme"]["deep"])
     css = css.replace("__ACCENT__", config["theme"]["accent"])
     _write(os.path.join(output, "assets", "portal.css"), css.strip() + "\n")
+    logo_source = os.path.join(repo, "docs", "_common", config["brand"]["logo"])
+    if not os.path.isfile(logo_source):
+        raise SystemExit("missing portal logo: " + logo_source)
+    shutil.copy2(logo_source, os.path.join(output, "assets", config["brand"]["logo"]))
 
 
 def build_site(repo, output, config_path, latest):
@@ -906,7 +1045,7 @@ def build_site(repo, output, config_path, latest):
         _prepare_docfx_html(destination, config)
 
     os.makedirs(output, exist_ok=True)
-    _write_assets(output, config)
+    _write_assets(output, config, repo)
     _write_version_index(version_dir, config)
     for section in config["sections"]:
         if not section.get("direct"):
