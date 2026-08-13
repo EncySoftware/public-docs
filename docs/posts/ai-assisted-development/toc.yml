@@ -1,0 +1,20 @@
+﻿- name: "AI-assisted postprocessor development"
+  href: index.md
+- name: "How the system works"
+  href: how-it-works.md
+- name: "CAM Agent"
+  href: cam-agent.md
+- name: "Visual Studio Code workflow"
+  href: vscode.md
+- name: "SPPX workflow"
+  href: sppx-workflow.md
+- name: ".NET workflow"
+  href: dotnet-workflow.md
+- name: "Review and verify"
+  href: review-and-verify.md
+- name: "Troubleshooting"
+  href: troubleshooting.md
+- name: "Advanced setup"
+  href: advanced-setup.md
+- name: "Available skills"
+  href: index.md#available-skills
