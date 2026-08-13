@@ -132,13 +132,13 @@
 
   function getLabelColor(type) {
     switch (type) {
-      case 'method': return '#dcdcaa';
-      case 'property': return '#9cdcfe';
-      case 'field': return '#4fc1ff';
-      case 'event': return '#c586c0';
-      case 'type': return '#4ec9b0';
-      case 'namespace': return '#569cd6';
-      default: return '#d4d4d4';
+      case 'method': return '#795e26';
+      case 'property': return '#001080';
+      case 'field': return '#0066a1';
+      case 'event': return '#8b3a8f';
+      case 'type': return '#267f99';
+      case 'namespace': return '#365f91';
+      default: return '#3f474d';
     }
   }
 
@@ -174,11 +174,11 @@
     resultsContainer = document.createElement('div');
     resultsContainer.id = 'toc-member-results';
     resultsContainer.style.cssText =
-      'display:none;position:fixed;z-index:99999;background:#252526;' +
-      'border:1px solid #3c3c3c;border-top:none;max-height:400px;' +
+      'display:none;position:fixed;z-index:99999;background:#ffffff;' +
+      'border:1px solid #dce5e7;border-top:none;max-height:400px;' +
       'overflow-y:auto;box-sizing:border-box;' +
-      'scrollbar-width:thin;scrollbar-color:#424242 transparent;' +
-      'box-shadow:0 4px 12px rgba(0,0,0,0.5);';
+      'scrollbar-width:thin;scrollbar-color:#c2ced1 transparent;' +
+      'box-shadow:0 12px 30px rgba(9,32,35,0.14);';
 
     document.body.appendChild(resultsContainer);
 
@@ -218,8 +218,8 @@
       link.className = 'toc-member-result';
       link.style.cssText =
         'display:flex;align-items:center;gap:8px;padding:5px 10px;' +
-        'color:#cccccc;text-decoration:none;font-size:12px;' +
-        'border-bottom:1px solid #2d2d2d;white-space:nowrap;overflow:hidden;' +
+        'color:#39484e;text-decoration:none;font-size:12px;' +
+        'border-bottom:1px solid #eaf0f1;white-space:nowrap;overflow:hidden;' +
         'text-overflow:ellipsis;';
       if (href) link.href = href;
 
@@ -250,10 +250,10 @@
     filterTagsContainer.id = 'toc-filter-tags';
     filterTagsContainer.style.cssText =
       'display:none;position:fixed;z-index:100000;' +
-      'padding:8px 10px;background:#252526;' +
-      'border:1px solid #3c3c3c;border-radius:4px;' +
+      'padding:8px 10px;background:#ffffff;' +
+      'border:1px solid #dce5e7;border-radius:4px;' +
       'gap:6px;flex-wrap:wrap;justify-content:center;' +
-      'box-shadow:0 4px 12px rgba(0,0,0,0.6);';
+      'box-shadow:0 12px 30px rgba(9,32,35,0.14);';
 
     var tags = [
       { key: 'namespace', label: 'N', title: 'Namespaces' },
@@ -274,7 +274,7 @@
       btn.style.cssText =
         'border:1px solid ' + getLabelColor(tag.key) + ';' +
         'background:' + getLabelColor(tag.key) + ';' +
-        'color:#1e1e1e;font-size:12px;font-weight:bold;' +
+        'color:#ffffff;font-size:12px;font-weight:bold;' +
         'padding:4px 10px;cursor:pointer;border-radius:3px;' +
         'min-width:30px;text-align:center;transition:all 0.15s;' +
         'line-height:1;';
@@ -302,13 +302,13 @@
     var color = getLabelColor(key);
     if (activeFilters[key]) {
       button.style.background = color;
-      button.style.color = '#1e1e1e';
+      button.style.color = '#ffffff';
       button.style.borderColor = color;
       button.style.opacity = '1';
     } else {
       button.style.background = 'transparent';
-      button.style.color = '#555555';
-      button.style.borderColor = '#555555';
+      button.style.color = '#839097';
+      button.style.borderColor = '#a3b0b5';
       button.style.opacity = '0.5';
     }
   }
@@ -354,10 +354,10 @@
     // Styles
     var style = document.createElement('style');
     style.textContent =
-      '.toc-member-result:hover{background:#2d2d2d !important;color:#ffffff !important;}' +
+      '.toc-member-result:hover{background:#ecfbf7 !important;color:#17212b !important;}' +
       '#toc-member-results::-webkit-scrollbar{width:6px;}' +
       '#toc-member-results::-webkit-scrollbar-track{background:transparent;}' +
-      '#toc-member-results::-webkit-scrollbar-thumb{background:#424242;border-radius:3px;}' +
+      '#toc-member-results::-webkit-scrollbar-thumb{background:#c2ced1;border-radius:3px;}' +
       '.filter-tag:hover{opacity:0.8 !important;}';
     document.head.appendChild(style);
 
