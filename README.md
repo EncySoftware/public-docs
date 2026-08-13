@@ -40,6 +40,7 @@ This page contains links to public documentation for various ENCY CAD/CAM system
 - [MachineMaker: Milling CNC](https://docs.encycam.com/MachineMaker/1/mill/en/1.html)
 
 ## Software module development
+- [ENCY 3 API](https://docs.encycam.com/CAMAPI/3/en/)
 - [ENCY 2 API](https://docs.encycam.com/CAMAPI/2/en/)
 - [ENCY 1 API](https://docs.encycam.com/CAMAPI/1/en/)
 - [Creating an Add-in (integration with CAD systems)](docs/cad-integration/index.md)
