@@ -15,7 +15,7 @@ External links, the generated SDK **API reference**, and example postprocessors 
 
 The .NET postprocessing SDK API reference is generated automatically from the source code.
 
-- [.NET postprocessing SDK API reference](https://docs.encycam.com/CAMAPI/3/en/)
+- [.NET postprocessing SDK API reference](https://docs.encycam.com/CAMAPI/3/en/api/DotnetPostprocessing.SDK.html)
 
 ## External links
 
