@@ -4,25 +4,6 @@ items:
     href: ../src/contents.md
   - name: "External references and examples"
     href: ../src/references.md
-  - name: "AI-assisted postprocessor development"
-    href: ../../ai-assisted-development/index.md
-    items:
-    - name: "How the system works"
-      href: ../../ai-assisted-development/how-it-works.md
-    - name: "CAM Agent"
-      href: ../../ai-assisted-development/cam-agent.md
-    - name: "Visual Studio Code workflow"
-      href: ../../ai-assisted-development/vscode.md
-    - name: "SPPX workflow"
-      href: ../../ai-assisted-development/sppx-workflow.md
-    - name: ".NET workflow"
-      href: ../../ai-assisted-development/dotnet-workflow.md
-    - name: "Review and verify"
-      href: ../../ai-assisted-development/review-and-verify.md
-    - name: "Troubleshooting"
-      href: ../../ai-assisted-development/troubleshooting.md
-    - name: "Advanced setup"
-      href: ../../ai-assisted-development/advanced-setup.md
   - name: ".NET postprocessors"
     href: ../src/index.md
   - name: "Introduction"
@@ -47,6 +28,25 @@ items:
     items:
     - name: "How to prepare the computer to start writing the postprocessors"
       href: ../src/how-to/prepare-the-computer.md
+  - name: "AI-assisted postprocessor development"
+    href: ../../ai-assisted-development/index.md
+    items:
+    - name: "How the system works"
+      href: ../../ai-assisted-development/how-it-works.md
+    - name: "CAM Agent"
+      href: ../../ai-assisted-development/cam-agent.md
+    - name: "Visual Studio Code workflow"
+      href: ../../ai-assisted-development/vscode.md
+    - name: "SPPX workflow"
+      href: ../../ai-assisted-development/sppx-workflow.md
+    - name: ".NET workflow"
+      href: ../../ai-assisted-development/dotnet-workflow.md
+    - name: "Review and verify"
+      href: ../../ai-assisted-development/review-and-verify.md
+    - name: "Troubleshooting"
+      href: ../../ai-assisted-development/troubleshooting.md
+    - name: "Advanced setup"
+      href: ../../ai-assisted-development/advanced-setup.md
   - name: "CLData"
     href: ../../cldata/cldata.md
     items:
