@@ -1,11 +1,94 @@
 {
   "version": "v3",
   "language": "en",
-  "siteTitle": "Technical documentation",
-  "versionTitle": "Version 3 documentation",
-  "sectionTitle": "Postprocessing documentation",
-  "unitTitles": {
-    "dotnet": ".NET postprocessors",
-    "sppx": "Postprocessors generator (SPPX)"
-  }
+  "siteTitle": "ENCY technical documentation",
+  "siteDescription": "Developer guides and reference materials for extending, integrating, and configuring ENCY.",
+  "versionTitle": "ENCY 3 technical documentation",
+  "versionDescription": "Technical guides for ENCY postprocessor development, CAD integration, and advanced configuration.",
+  "repositoryUrl": "https://github.com/EncySoftware/public-docs",
+  "brand": {
+    "name": "ENCY",
+    "websiteUrl": "https://encycam.com/",
+    "websiteLabel": "encycam.com",
+    "logo": "portal-logo.svg",
+    "variant": "dark"
+  },
+  "theme": {
+    "primary": "#00CB9A",
+    "deep": "#252935",
+    "accent": "#1269D9"
+  },
+  "labels": {
+    "home": "Documentation center",
+    "latest": "Latest version",
+    "source": "View source",
+    "browse": "Browse documentation",
+    "current": "Current stable version",
+    "exploreTitle": "Explore the documentation",
+    "exploreDescription": "Choose an area to open a complete guide with navigation, full-text search, examples, and reference materials.",
+    "versionsTitle": "Available versions",
+    "versionsDescription": "Stable documentation remains available at a permanent versioned address.",
+    "open": "Open documentation",
+    "guide": "Guide",
+    "collection": "Collection",
+    "guideCount": "guides",
+    "sectionCount": "areas",
+    "footer": "Technical documentation built from version-controlled sources."
+  },
+  "sections": [
+    {
+      "slug": "postprocessing",
+      "title": "Postprocessing",
+      "description": "Create, debug, and maintain postprocessors that transform toolpath data into NC programs.",
+      "icon": "code",
+      "units": [
+        {
+          "slug": "dotnet",
+          "source": "posts/dotnet",
+          "title": ".NET postprocessors",
+          "description": "Modern postprocessor development with C#, Visual Studio Code, debugging tools, registers, and the shared CLData reference.",
+          "meta": ".NET · C#"
+        },
+        {
+          "slug": "sppx",
+          "source": "posts/sppx",
+          "title": "Postprocessors generator",
+          "description": "The built-in SPPX environment, language, masks, registers, commands, and the shared CLData reference.",
+          "meta": "SPPX"
+        }
+      ]
+    },
+    {
+      "slug": "cad-integration",
+      "title": "CAD integration and add-ins",
+      "description": "Connect CAD systems and other geometry sources to the CAM system and transfer models through the SGF API.",
+      "icon": "integration",
+      "direct": true,
+      "units": [
+        {
+          "slug": "guide",
+          "source": "cad-integration",
+          "title": "Creating a CAM-system add-in",
+          "description": "Architecture, installation, geometry import, SGF structures, assemblies, parts, curves, surfaces, and metadata.",
+          "meta": "SGF API · CAD"
+        }
+      ]
+    },
+    {
+      "slug": "xml-customization",
+      "title": "Advanced XML configuration",
+      "description": "Customize operations, machines, properties, expressions, and defaults through the declarative XML framework.",
+      "icon": "settings",
+      "direct": true,
+      "units": [
+        {
+          "slug": "reference",
+          "source": "xml-customization",
+          "title": "CAM system customization reference",
+          "description": "XMLProperties fundamentals, operation descriptors, machine configuration, user defaults, and extension rules.",
+          "meta": "XMLProperties"
+        }
+      ]
+    }
+  ]
 }
