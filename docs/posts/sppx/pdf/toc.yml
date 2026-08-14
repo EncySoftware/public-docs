@@ -214,9 +214,11 @@ items:
     items:
     - name: "How the system works"
       href: ../../ai-assisted-development/how-it-works.md
-    - name: "CAM Agent"
+    - name: "Set up the tools"
+      href: ../../ai-assisted-development/setup.md
+    - name: "Develop with CAM Agent"
       href: ../../ai-assisted-development/cam-agent.md
-    - name: "Visual Studio Code workflow"
+    - name: "Develop in Visual Studio Code"
       href: ../../ai-assisted-development/vscode.md
     - name: "SPPX workflow"
       href: ../../ai-assisted-development/sppx-workflow.md
