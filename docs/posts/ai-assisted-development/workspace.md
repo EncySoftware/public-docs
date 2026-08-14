@@ -59,9 +59,15 @@ When a documented detail contradicts the installed product, the product wins —
 
 ## Two ways to keep history
 
-**Folders and copies.** Perfectly workable, and nothing here forces you to change it. Copy the postprocessor before a substantial change, keep the reference NC programs, and let dated folders be your history. The cost is that "what exactly changed since Friday" and "when did this break" become questions nobody can answer precisely.
+### Way 1. Folders and copies — you keep the history yourself
 
-**Git.** The same folder, with every state recoverable and every change explained. What it gives you in this work:
+You keep the files in ordinary folders and take care of their past by hand: before a substantial change you copy the postprocessor, you keep the reference NC programs next to the test projects, and dated folders serve as the history. This is a legitimate way to work, plenty of people work exactly like this, and nothing here forces you out of it.
+
+What you pay for it is that the history depends on you remembering. Forget one copy and the previous state is gone, and questions like "what exactly changed since Friday" or "when did this break" have no precise answer any more.
+
+### Way 2. Git — a tool keeps the history for you
+
+The same folder, but the past is looked after by a tool made for exactly that, and used by software developers everywhere. What it gives you in this work:
 
 - an exact answer to *what changed* between two states, down to the block;
 - an exact answer to *when* a behaviour broke, and *what else* changed in that step;
