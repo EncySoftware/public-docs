@@ -2,6 +2,8 @@
 
 You talk to a chat. Behind it, three kinds of things do the work: servers that let the assistant read the data and drive the postprocessor, extensions that show you what it found and produced, and the postprocessor runtime that turns CLData into an NC program.
 
+The servers are reached over MCP — the Model Context Protocol, the standard way a chat client is given access to tools. That is why the same servers work in CAM Agent and in any chat extension you connect them to.
+
 ```text
         you
          |

@@ -1,6 +1,6 @@
 ﻿# AI-assisted postprocessor development
 
-This guide explains how to develop and maintain postprocessors with an AI assistant: how to get the tools running, what to ask for, and how to check the result. It applies to both postprocessing subsystems — SPPX postprocessors and .NET postprocessors — because both read the same input data, [CLData](../cldata/cldata.md).
+This guide explains how to develop and maintain postprocessors with the help of artificial intelligence (AI): how to get the tools running, what to ask the assistant for, and how to check the result. It applies to both postprocessing subsystems — SPPX postprocessors and .NET postprocessors — because both read the same input data, [CLData](../cldata/cldata.md).
 
 The assistant reads the actual project data, changes the postprocessor code, compiles it and generates a test NC program. It does not decide whether the NC program is correct for your machine. That decision stays with you.
 
