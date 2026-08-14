@@ -47,7 +47,13 @@ A task is not finished when the postprocessor works. It is finished when what yo
 
 ## Documentation next to the sources
 
-The assistant can search the product documentation through the knowledge server, and that is the quickest way to find one page. Keep a copy of this documentation in the workspace as well — see [Advanced setup](advanced-setup.md#documentation-and-skills-for-the-assistant): a copy is fixed at a revision you know, needs no network, and is what the assistant reads when it has to work through a whole section rather than look one thing up. Update it now and then; when a documented detail contradicts the installed product, the product wins and the note about it goes into `notes\`.
+Two kinds of knowledge live side by side here, and it is worth keeping them apart.
+
+The **published documentation** is a snapshot: the assistant can search it through the knowledge server, and a copy in the workspace serves the same purpose offline and at a revision you know — see [Advanced setup](advanced-setup.md#documentation-and-skills-for-the-assistant). It answers what the product does, and it changes only when a new version is released.
+
+Your **own documentation** — `notes\` above — is the living half, and the only one that knows your machines, your projects and the decisions your team has made. It grows every time you solve something. The published snapshot cannot contain it, and neither can the assistant: nobody but you writes this part.
+
+When a documented detail contradicts the installed product, the product wins — and the note about it goes into `notes\`, which is exactly the kind of thing the living half is for.
 
 ## Two ways to keep history
 

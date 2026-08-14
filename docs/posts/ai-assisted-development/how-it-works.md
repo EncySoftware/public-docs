@@ -30,7 +30,7 @@ You talk to a chat. Behind it, three kinds of things do the work: servers that l
 | CLData MCP | Lets the assistant read the input data: files, sections, commands, parameters, machine. It never changes anything |
 | InP MCP | Lets the assistant work with an SPPX postprocessor: structure, code, registers, compile, run |
 | CAM MCP | Optional. Lets the assistant look into the source project — machine, operations, tools — and prepare the input: recalculate toolpaths, export CLData, create a test project |
-| Knowledge MCP | Optional. Searches the product documentation and the published skills, and reads a page in full, instead of the assistant guessing or reading whole folders |
+| Knowledge MCP | Optional. Searches a snapshot of the published documentation and of the skills — what the product does. What your team decided lives in your own notes instead |
 | CLData Inspector | Shows you the commands and parameters the assistant is talking about |
 | SPPX Tools | Editing support for `*.sppx` and the **Generate NC** panel |
 | DotNet Posts | The same for C# postprocessors: navigation, build, run |

@@ -26,10 +26,13 @@ CAM tools are secondary here, but they answer what CLData cannot: the machine co
 ## Trust order for facts
 
 1. Values read from the actual project and results of actual runs.
-2. The official documentation for the installed release, and the templates shipped with it.
-3. Distributed postprocessors supplied with the product.
-4. Patterns seen repeatedly across an internal postprocessor corpus — evidence, not specification.
-5. General knowledge, only when marked as an assumption.
+2. The official documentation for the installed release, and the templates shipped with it — authoritative for what the product does.
+3. The user's own written practices and decisions in the workspace — authoritative for the conventions of their machines and their team, which no published documentation covers. Where the two seem to disagree, the documentation describes the product and the notes describe this shop; say which one you followed.
+4. Distributed postprocessors supplied with the product.
+5. Patterns seen repeatedly across an internal postprocessor corpus — evidence, not specification.
+6. General knowledge, only when marked as an assumption.
+
+The published documentation, whether searched through the knowledge server or read from a local checkout, is a snapshot: it does not know this shop. The workspace notes are the living part, and keeping them current is part of your work — see the `prepare-workspace` skill.
 
 A CLData command name never determines its parameter values. Read the project.
 
