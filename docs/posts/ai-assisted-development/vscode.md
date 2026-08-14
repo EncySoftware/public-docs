@@ -12,14 +12,18 @@ Any assistant that meets three conditions will do, and the choice is yours:
 - it may run commands in your workspace, which is how it builds, installs and opens things for you;
 - it has a place for standing instructions, so the rules of your project apply to every request.
 
-**The recommended starting point is Kilo Code.** It is open source, it has the most developed tooling for configuring skills — which is how the procedures published with this guide reach the assistant — it can be driven remotely, and it works as a router across model providers instead of tying you to one. That last point matters in practice: the provider you may use for postprocessor work is a decision you keep, not one the tool makes for you.
+**The recommended starting point is Kilo Code.** Three of its properties matter for this work:
+
+- **Skills are a first-class mechanism.** A skill is a folder with a `SKILL.md` file, and Kilo Code picks it up from `.kilo/skills/` in the project or `~/.kilo/skills/` for all projects — which is exactly the shape of the skills published with this guide, so they drop in unchanged. New skills are discovered when a session starts, or on `/reload` in an open session.
+- **It is not tied to one model provider.** Requests go through a gateway that reaches models from every major provider through one endpoint, and you can bring your own API keys, so the choice of provider stays yours.
+- **It is open source** (MIT-licensed), and its sessions can be monitored and steered remotely, including from a phone.
 
 Others that work with this toolset:
 
 | Chat extension | Standing instructions | Notes |
 |---|---|---|
-| Kilo Code | The client's rules file; a dedicated skills configuration | Open source, provider router, remote control |
-| Cline, Roo Code | The client's rules file, for example `.clinerules` | Same MCP configuration UI as Kilo Code |
+| Kilo Code | `AGENTS.md` in the project root; project instructions in `kilo.jsonc` | Loads the published skills as they are |
+| Cline, Roo Code | The client's rules file | Same origin, so the panels look familiar |
 | Claude Code | `CLAUDE.md`; loads the published skills as they are | Runs commands after you approve them |
 | GitHub Copilot Chat | `.github/copilot-instructions.md` | MCP and command execution require its agent mode |
 | Codex CLI | `AGENTS.md` | Works from the terminal, alongside VS Code |

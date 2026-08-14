@@ -47,14 +47,16 @@ MCP is what gives the assistant the ability to act. Any MCP-capable client works
 
 Use absolute paths, and mind that JSON needs backslashes doubled. Where the configuration goes depends on the client:
 
-| Client | File |
+| Client | Where the configuration goes |
 |---|---|
+| Kilo Code | `kilo.jsonc` in the project root or `.kilo/kilo.jsonc`; globally `~/.config/kilo/kilo.jsonc`. The UI writes it for you: settings icon → **Agent Behaviour** → **MCP Servers** |
+| Roo Code | `.roo/mcp.json` in the project, or the global `mcp_settings.json` — **MCP Servers → Edit Project MCP** / **Edit Global MCP** |
+| Cline | `cline_mcp_settings.json` — **MCP Servers → Configure** |
 | Claude Code | `.mcp.json` in the project root, or `claude mcp add` |
-| Kilo Code, Cline, Roo Code | `cline_mcp_settings.json` — **MCP Servers → Configure** |
 | Copilot Chat in VS Code | `.vscode/mcp.json`, `servers` section |
 | Codex CLI | `~/.codex/config.toml`, section `[mcp_servers.inpcld]` with `command = "…"` |
 
-The client has to be restarted after the file changes. Such a file contains local absolute paths, so keep it out of a shared repository.
+Where a client supports both levels, the project file takes precedence over the global one. The client has to be restarted after the file changes. Such a file contains local absolute paths, so keep it out of a shared repository.
 
 Both servers are plain stdio executables: a client only needs the path to the file, with no port, service or account of its own. That is why one configuration fits any client, and why a server that cannot be reached is a path or permission problem rather than a network one.
 
@@ -69,7 +71,7 @@ Besides the tools, the assistant needs the reference material.
 - **Local Markdown.** This documentation is published as a Markdown repository; its address is on the [External references and examples](xref:posts-external-references) page. Clone it with `git clone --depth 1 <url>` and point the assistant at the `docs/posts` folder — as a second workspace folder, or by naming the path in the client's instruction file. Update it with `git pull`.
 - **A retrieval service.** CAM Agent answers from an indexed copy of the documentation and skills, with an offline cache. A separate retrieval server for VS Code clients is planned; until it ships, use the local checkout.
 
-The five skills published with this guide live in the `skills` folder of this module: `postprocessor-development`, `inspect-cldata`, `develop-sppx-postprocessor`, `develop-dotnet-postprocessor` and `verify-nc-program`. Each is a folder with a `SKILL.md` file. How to enable them depends on the client — a workspace or user skills folder, an agent configuration entry, or manual inclusion. If your client has no skill mechanism, paste the relevant `SKILL.md` into the chat or reference it from the client's instruction file (`CLAUDE.md`, `AGENTS.md`, `.clinerules` and similar). CAM Agent manages its own set and keeps yours alongside it.
+The five skills published with this guide live in the `skills` folder of this module: `postprocessor-development`, `inspect-cldata`, `develop-sppx-postprocessor`, `develop-dotnet-postprocessor` and `verify-nc-program`. Each is a folder with a `SKILL.md` file. In Kilo Code, copy the folders into `.kilo/skills/` in the project, or into `~/.kilo/skills/` (`%USERPROFILE%\.kilo\skills\` on Windows) to have them in every project; a new session picks them up, and `/reload` does it without restarting. In other clients it depends on the client — a workspace or user skills folder, an agent configuration entry, or manual inclusion. If your client has no skill mechanism, paste the relevant `SKILL.md` into the chat or reference it from the client's instruction file (`CLAUDE.md`, `AGENTS.md`, `.clinerules` and similar). CAM Agent manages its own set and keeps yours alongside it.
 
 Whichever way they are provided, check that they are loaded: ask the assistant which skills and tools it currently sees.
 
