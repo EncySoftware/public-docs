@@ -4,7 +4,7 @@ Three things have to be in place: the VS Code extensions that show you data and 
 
 ## Install the VS Code extensions
 
-Visual Studio Code 1.85 or newer is required.
+Visual Studio Code 1.85 or newer is required, with its command-line launcher `code` available on `PATH` — the installer uses it, and reports an error if it is missing.
 
 1. Download the tools bundle archive — its name starts with `posts-vscode-extensions-`. The download location for your product edition is listed on the external references page of this documentation set.
 2. Unpack the archive. Next to the `.vsix` files it contains `install.cmd`, a `readme.md` with the exact contents of that build, and the update manifest.
