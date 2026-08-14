@@ -36,7 +36,7 @@ Adapt the names to what already exists; never reorganise a folder the user is wo
 5. Give yourself the documentation: connect the knowledge server if it is available, and clone the documentation repository into the workspace as well — the checkout is what pins a revision and works offline. Note the revision you cloned. If a knowledge cache has never been refreshed on this machine, refresh it once.
 6. Offer version history — see below — and accept a refusal without arguing.
 7. When the task itself is done, distil it: one short file in `notes\`, one topic per file, saying what was wrong, how it was found, what fixed it and why that way. If a procedure repeated, write it as a skill in `notes\skills\` instead. Then tell the user what you wrote, in one line.
-8. If what you wrote applies beyond this shop — a technique, a check, a way of reading the data, with nothing specific to their machines or customers in it — offer to send it to the shared knowledge base for review. Offer; never send anything without being told to. Before sending, read it once more for customer names, part numbers, machine particulars and internal paths, and say what you found.
+8. If what you wrote applies beyond this shop — a technique, a check, a way of reading the data, with nothing specific to their machines or customers in it — say so, and offer to prepare it for sharing: a self-contained file, cleaned of customer names, part numbers, machine particulars and internal paths, with what you removed reported to the user. Submitting it to the shared knowledge base is done from the CAM Agent chat, so leave the submission to the user unless you are working there yourself. Never publish anything on your own initiative.
 
 ## Version history
 

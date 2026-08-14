@@ -30,6 +30,8 @@ For .NET postprocessors the agent works with the project and the batch runner, s
 
 CAM Agent answers from an indexed copy of the product documentation and of the official skills, with an offline cache, and it keeps your own skills alongside them. It does not clone the documentation repository into your project; if you want the agent to read a specific local copy of the documentation, say so explicitly and give the path.
 
+This is also where a skill of your own is shared: ask CAM Agent to submit it, and it goes into the review queue for the published set — see [Organize your workspace](workspace.md).
+
 ## Limits
 
 The agent does not replace a postprocessing engineer. Two rules are worth stating plainly: do not let it change a production postprocessor without your review, and do not let it send an NC program to a machine. A run that ended with code 0 means the tools worked, not that the program is safe.
