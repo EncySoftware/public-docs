@@ -6,7 +6,7 @@ For the language and the mask reference, see the Postprocessors generator docume
 
 ## The cycle
 
-1. **Prepare.** Copy the postprocessor, or commit the current state, so the comparison has a baseline. Generate the NC program once before any change and keep it.
+1. **Prepare.** Work from the closest postprocessor that already exists — the one in use for this machine, or a distributed one for a similar control system — rather than from an empty file. Copy it, or commit the current state, so the comparison has a baseline. Generate the NC program once before any change and keep it.
 2. **Find the data.** Identify the CLData command behind the NC blocks you want to change, and read its actual parameters from the test project. The command name alone is not enough: the same command carries different values in different projects.
 3. **Find the handler.** The postprocessor structure lists handlers, subroutines and objects. The handler named after the command is where processing starts, but the output may be produced further down — in a subroutine, a mask, or on the next modal state change.
 4. **Read before writing.** The assistant must read the current source of the item it is about to change, and the register definitions if registers are involved. Editing what it has not read is how unrelated code disappears.

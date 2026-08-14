@@ -4,14 +4,17 @@ A .NET postprocessor is a C# project built against the postprocessing SDK: typed
 
 For the API, see the .NET postprocessors documentation; for the input data, see the [CLData reference](../cldata/cldata.md).
 
-## Start from the installed template
+## Where to start
 
-The normative starting point for a new postprocessor is the template shipped with the installed CAM system, in `Supplement/Postprocessor/DotNet/Templates` — `EmptyPost` or `SimplePost`.
+Most of the time, not from scratch. Take the closest postprocessor that already exists — one supplied with the CAM system, or one written earlier for a similar machine or control system — copy it, and adapt it. You start from code that already works, and the differences you have to reason about are the ones that actually matter.
 
-1. Copy the template folder to a new working folder and put it under version control.
-2. Rename the folder and the `.csproj` consistently. Leave the SDK package reference, the target framework and the project settings as the template has them: they belong to the installed release, and a version chosen from memory produces a project that builds and then fails at run time.
-3. Build the unchanged copy first and keep the result as the baseline. If the untouched template does not build, no later diagnosis is worth anything.
-4. Generate an NC program from that unchanged copy, and keep it as the reference for comparison.
+If a new postprocessor really is needed, create it in the CLData Viewer: **CLData viewer → Create new postprocessor → Simple postprocessor…**, then pick an empty folder — its name becomes the name of the postprocessor. The project is created for you, and its context menu opens it in VS Code. The .NET postprocessors documentation describes this in "How to prepare the computer to start writing the postprocessors". Ask the assistant only if you want it done from the templates instead — that is its job, not yours.
+
+Either way, start from a known state:
+
+1. Put the postprocessor under version control before changing anything.
+2. Build it unchanged. If it does not build as it is, no later diagnosis is worth anything.
+3. Generate an NC program from it and keep that as the baseline for comparison.
 
 ## The cycle
 

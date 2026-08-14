@@ -11,14 +11,17 @@ Work on a C# postprocessor: typed handlers, an SDK project, a compiled postproce
 
 There is no dedicated MCP server for .NET postprocessors. You work with the C# project through the ordinary file and build tools, and the postprocessor-specific parts through the DotNet Posts extension or the batch runner.
 
-## Start from the installed template
+## Choose the starting point
 
-New postprocessors start as a copy of a template shipped with the installed CAM system, in `Supplement/Postprocessor/DotNet/Templates` — `EmptyPost` or `SimplePost`.
+Adapting an existing postprocessor is the normal case; creating one from a template is the exception. Decide explicitly, and say which you chose and why.
 
-1. Copy the template folder, then rename the folder and the `.csproj` consistently.
-2. Keep the SDK package reference, the target framework and the project settings exactly as the template has them. Never choose a version from memory: the installed release decides it.
-3. Build the unchanged copy and record framework, warnings and output assembly. If the untouched template does not build, stop and report that — nothing after it is diagnosable.
-4. Generate an NC program from the unchanged copy and keep it as the baseline.
+1. **Closest existing postprocessor — prefer this.** A distributed postprocessor supplied with the CAM system, or one from the user's own corpus, for a similar machine and control system. Copy it, then work from its actual code: it already builds and produces output, so the baseline is real. Never carry over machine-specific behaviour without checking it against this project's data.
+2. **New from a template — only when nothing close exists.** The user creates postprocessors in the CLData Viewer UI, which copies and renames a template for them. When you are asked to do it instead, copy a template from `Supplement/Postprocessor/DotNet/Templates` (`EmptyPost` or `SimplePost`) yourself: copy the folder, rename the folder and the `.csproj` consistently, and keep the SDK package reference, the target framework and the project settings exactly as the template has them. Never choose a version from memory — the installed release decides it. Do not ask the user to copy and rename files by hand.
+
+Then, whichever way you started:
+
+3. Build the project unchanged and record framework, warnings and output assembly. If it does not build as it is, stop and report that — nothing after it is diagnosable.
+4. Generate an NC program from the unchanged project and keep it as the baseline.
 
 ## Tools
 
