@@ -24,6 +24,8 @@ In CAM Agent you can start straight away: it comes with an introductory allowanc
 
 Through a chat extension in Visual Studio Code, your provider account is what makes it work from the very first request. There is no introductory allowance in this case — the model is billed by the provider you connected, on the terms you agreed with it.
 
+If the work must stay inside your own network, the model can live there too. Current tooling makes it practical to run one on your own hardware, and any client that can be pointed at a local model will use it. Nothing else in this guide changes: the servers, the extensions and the postprocessor itself are local anyway, so no project data has to leave the network. What you give up is the online half of the knowledge server — searching the published documentation goes through an online service, and in an isolated network it is not available, although skills stay searchable once their cache has been refreshed. The documentation in your workspace works regardless, as do your own notes; that is one more reason to keep a local copy even when everything else is connected.
+
 ## Two ways to work
 
 | | CAM Agent | Visual Studio Code |
