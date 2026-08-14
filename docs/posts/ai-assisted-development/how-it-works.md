@@ -4,6 +4,8 @@ You talk to a chat. Behind it, three kinds of things do the work: servers that l
 
 The servers are reached over MCP — the Model Context Protocol, the standard way a chat client is given access to tools. That is why the same servers work in CAM Agent and in any chat extension you connect them to.
 
+Do not read too much into the word *server* here. These are ordinary programs on your own computer, started by the chat client when it needs them; they exist so that the tools can talk to it, and nothing of yours is published or listens on the network. The one that does reach outside is the knowledge server, which queries the documentation service — and even that keeps a local cache.
+
 ```text
         you
          |

@@ -87,7 +87,7 @@ Use absolute paths, and mind that JSON needs backslashes doubled. Where the conf
 
 Where a client supports both levels, the project file takes precedence over the global one. The client has to be restarted after the file changes. Such a file contains local absolute paths, so keep it out of a shared repository.
 
-Both servers are plain stdio executables: a client only needs the path to the file, with no port, service or account of its own. That is why one configuration fits any client, and why a server that cannot be reached is a path or permission problem rather than a network one.
+These are plain executables on the same computer: the client starts one and talks to it directly over its standard input and output, so none of them needs a port, a service or an account of its own — the word "server" says nothing about the network here. That is why one configuration fits any client, and why a server that does not answer is a path or a permission problem. The knowledge server is the exception that proves it: documentation search goes out to an online service, while everything it has cached keeps working without one.
 
 ## Check the connection
 
