@@ -27,19 +27,19 @@ Do not read too much into the word *server* here. These are ordinary programs on
 
 ## The parts
 
-| Part | What it gives you |
-|---|---|
-| CAM Agent | The chat inside the CAM system, with access to the project and the postprocessor |
-| Skills | Instructions in plain language that the assistant follows, so the cycle is the same every time |
-| CLData MCP | Lets the assistant read the input data: files, sections, commands, parameters, machine. It never changes anything |
-| InP MCP | Lets the assistant work with an SPPX postprocessor: structure, code, registers, compile, run |
-| CAM MCP | Optional. Lets the assistant look into the source project — machine, operations, tools — and prepare the input: recalculate toolpaths, export CLData, create a test project |
-| Knowledge MCP | Optional. Searches a snapshot of the published documentation and of the skills — what the product does. What your team decided lives in your own notes instead |
-| CLData Inspector | Shows you the commands and parameters the assistant is talking about |
-| SPPX Tools | Editing support for `*.sppx` and the **Generate NC** panel |
-| DotNet Posts | The same for C# postprocessors: navigation, build, run |
-| InP | Runs SPPX postprocessors; also the IDE you can watch |
-| `InpCore.exe` | Runs .NET postprocessors |
+| Part | What it is | What it gives you |
+|---|---|---|
+| CAM Agent | An extension of the CAM system | The chat inside the CAM system, with access to the project and the postprocessor |
+| Skills | Text files | Instructions in plain language that the assistant follows, so the cycle is the same every time |
+| CLData MCP | A program on your computer, started by the chat client | Lets the assistant read the input data: files, sections, commands, parameters, machine. It never changes anything |
+| InP MCP | The same | Lets the assistant work with an SPPX postprocessor: structure, code, registers, compile, run |
+| CAM MCP | The same, optional | Lets the assistant look into the source project — machine, operations, tools — and prepare the input: recalculate toolpaths, export CLData, create a test project |
+| Knowledge MCP | The same, optional; the only one that goes online | Searches a snapshot of the published documentation and of the skills — what the product does. What your team decided lives in your own notes instead |
+| CLData Inspector | A Visual Studio Code extension | Shows you the commands and parameters the assistant is talking about |
+| SPPX Tools | A Visual Studio Code extension | Editing support for `*.sppx` and the **Generate NC** panel |
+| DotNet Posts | A Visual Studio Code extension | The same for C# postprocessors: navigation, build, run |
+| InP | An application of the CAM system | Runs SPPX postprocessors; also the IDE you can watch |
+| `InpCore.exe` | A program of the CAM system, run without a window | Runs .NET postprocessors |
 
 Two names are worth keeping apart when you read a message: `InP.exe` executes SPPX postprocessors, `InpCore.exe` executes .NET ones. And InP MCP is not InP itself — it drives an InP instance, so it reports a clear error when no instance is available.
 
