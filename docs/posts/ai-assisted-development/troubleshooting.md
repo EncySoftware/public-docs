@@ -34,7 +34,7 @@ Extracting the default settings from the assembly requires a recent batch runner
 
 It waits for a keypress, so a window that closed immediately means it was not the script that ran. Run it from a command prompt in the unpacked folder to keep the output visible. The script does not use PowerShell, so the execution policy is not involved.
 
-If it reports that the `code` command was not found, the VS Code command-line launcher is not on `PATH`: enable it from VS Code, or install the `.vsix` files through **Extensions → Install from VSIX…**.
+If it reports that the `code` command was not found, the VS Code command-line launcher is not on `PATH`. The VS Code installer normally adds it; otherwise add the folder containing it to `PATH`, or install the `.vsix` files through **Extensions → Install from VSIX…**.
 
 ## The updater does not offer anything
 
