@@ -1,12 +1,81 @@
 ﻿# Advanced setup
 
-This page is for the cases the basic setup does not cover: a team that needs repeatable results, an automated check, or a manual configuration when the automatic one is unavailable.
+This page is the full setup procedure and the reference for checking what was done. Hand it to the assistant as described in [Set up the tools](setup.md), follow it by hand when automatic setup is unavailable, or read it when a team needs repeatable results.
 
-## Manual setup when there is no automatic one
+Record the versions when you report a problem: the CAM system, the extensions bundle, CAM Agent, the MCP servers and the AI client. Most "it worked yesterday" reports are version differences.
 
-The automatic setup offered by CAM Agent or by your client configures what it knows about. Everything else is done by hand, and everything can be done by hand: install the extensions from the bundle, set the installation folder of each extension, write the MCP configuration for your client, and point the assistant at the documentation. [Set up the tools](setup.md) covers each of those steps with the concrete file names and settings; nothing on this page replaces them.
+## Install the extensions
 
-When you report a problem, record the versions: the CAM system, the extensions bundle, CAM Agent, the MCP servers and the AI client. Most "it worked yesterday" reports are version differences.
+Visual Studio Code 1.85 or newer is required. In the unpacked bundle, `install.cmd` installs every `.vsix` next to it and replaces older versions; it needs the `code` command on `PATH`, which the VS Code installer adds by default. Without the script, install each file with `code --install-extension <file>.vsix`, or through **Extensions → Install from VSIX…** in VS Code. Then reload the window: `F1` (or `Ctrl+Shift+P`) opens the command palette, where **Developer: Reload Window** is run. Every command written in bold with a colon on this page is a VS Code command, run the same way.
+
+The bundle holds four extensions: **SPPX Postprocessor Tools**, **CLData Inspector**, **DotNet Posts** and the updater.
+
+## Point the extensions at the CAM installation
+
+Each extension needs the folder where the CAM system is installed, because that is where the executables it drives live. This is the first setting on each extension's settings page:
+
+| Setting | Needed by | Executable |
+|---|---|---|
+| `sppx.installationFolder` | SPPX Tools | `InP.exe` |
+| `cldata.installationFolder` | CLData Inspector | `InpCoreMCP.exe` |
+| `dotnetPosts.installationFolder` | DotNet Posts | `InpCore.exe` |
+
+Both the product folder and its `Bin64` subfolder are accepted, and a path pasted with quotation marks is accepted as well. Instead of typing it, run the extension's command — for example **DotNet Posts: Select Installation Folder…** — and pick the folder in the dialog; the settings page offers the same picker as a link. SPPX Tools and CLData Inspector borrow each other's value while their own setting is empty, so in a normal installation the path is set once.
+
+## Connect the MCP servers
+
+MCP is what gives the assistant the ability to act. Any MCP-capable client works, and the configuration is the same everywhere except for the file it goes into.
+
+**CLData MCP** — `InpCoreMCP.exe`, in the `Bin64` folder of the CAM installation. It works on its own: it opens a project (`*.stcp`, `*.stc`) or a single `*.inpcld` file and needs no running CAM system, and it never modifies the data.
+
+**InP MCP** — `inp-mcp-server.exe`, shipped with CAM Agent; in a default installation `%LOCALAPPDATA%\CamAgent3\bin\inp-mcp-server.exe`. It drives the postprocessor IDE, and can either start an instance itself, windowed or headless, or attach to one you opened from the CAM system.
+
+```json
+{
+  "mcpServers": {
+    "inpcld": {
+      "command": "C:\\Program Files\\<CAM installation>\\Bin64\\InpCoreMCP.exe",
+      "args": []
+    },
+    "inp": {
+      "command": "C:\\Users\\<user>\\AppData\\Local\\CamAgent3\\bin\\inp-mcp-server.exe",
+      "args": []
+    }
+  }
+}
+```
+
+Use absolute paths, and mind that JSON needs backslashes doubled. Where the configuration goes depends on the client:
+
+| Client | File |
+|---|---|
+| Claude Code | `.mcp.json` in the project root, or `claude mcp add` |
+| Cline, Roo Code, Kilo Code | `cline_mcp_settings.json` — **MCP Servers → Configure** |
+| Copilot Chat in VS Code | `.vscode/mcp.json`, `servers` section |
+| Codex CLI | `~/.codex/config.toml`, section `[mcp_servers.inpcld]` with `command = "…"` |
+
+The client has to be restarted after the file changes. Such a file contains local absolute paths, so keep it out of a shared repository.
+
+Both servers are plain stdio executables: a client only needs the path to the file, with no port, service or account of its own. That is why one configuration fits any client, and why a server that cannot be reached is a path or permission problem rather than a network one.
+
+## Check the connection
+
+Use a non-production project and a small read-only request for each server: the files of a CLData project, and a ping of InP with the structure of the open postprocessor. Compare the answers with the project you named. Never include a write, a source edit, an NC transmission or a machine connection in a connectivity test.
+
+## Documentation and skills for the assistant
+
+Besides the tools, the assistant needs the reference material.
+
+- **Local Markdown.** This documentation is published as a Markdown repository; its address is on the [External references and examples](xref:posts-external-references) page. Clone it with `git clone --depth 1 <url>` and point the assistant at the `docs/posts` folder — as a second workspace folder, or by naming the path in the client's instruction file. Update it with `git pull`.
+- **A retrieval service.** CAM Agent answers from an indexed copy of the documentation and skills, with an offline cache. A separate retrieval server for VS Code clients is planned; until it ships, use the local checkout.
+
+The five skills published with this guide live in the `skills` folder of this module: `postprocessor-development`, `inspect-cldata`, `develop-sppx-postprocessor`, `develop-dotnet-postprocessor` and `verify-nc-program`. Each is a folder with a `SKILL.md` file. How to enable them depends on the client — a workspace or user skills folder, an agent configuration entry, or manual inclusion. If your client has no skill mechanism, paste the relevant `SKILL.md` into the chat or reference it from the client's instruction file (`CLAUDE.md`, `AGENTS.md`, `.clinerules` and similar). CAM Agent manages its own set and keeps yours alongside it.
+
+Whichever way they are provided, check that they are loaded: ask the assistant which skills and tools it currently sees.
+
+## Updates on demand
+
+The panels offer an update action when a new version is available. The same check runs from the palette: **Postprocessor Tools: Check for Updates**, then **Postprocessor Tools: Install Available Updates**, then **Developer: Reload Window**. Updates are configured by the bundle, so extensions installed by hand from separate `.vsix` files are never offered any.
 
 ## Several CAM installations on one computer
 

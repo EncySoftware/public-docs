@@ -39,7 +39,7 @@ A skill is a Markdown file with a procedure the assistant follows: which tool to
 | Develop .NET postprocessors | `skills/develop-dotnet-postprocessor` | Template, build, run and inspect a C# postprocessor |
 | Verify NC programs | `skills/verify-nc-program` | Reviews the generated NC program before it is accepted |
 
-How to install them depends on the client — see [Set up the tools](setup.md#give-the-assistant-the-documentation-and-skills). If your client has no skill mechanism, open the `SKILL.md` file and paste it into the chat as instructions: the content is plain Markdown and works either way.
+How to install them depends on the client — see [Advanced setup](advanced-setup.md#documentation-and-skills-for-the-assistant). If your client has no skill mechanism, open the `SKILL.md` file and paste it into the chat as instructions: the content is plain Markdown and works either way.
 
 ## What stays with you
 

@@ -20,7 +20,7 @@ CLData indexes are valid for one revision of the data. When the project is regen
 
 ## An extension says the installation folder is not set
 
-Set it in the extension's settings, or run its **Select Installation Folder…** command and pick the folder. Both the product folder and its `Bin64` subfolder are accepted, and quotation marks around a pasted path are tolerated. With several CAM versions installed, make sure it points at the one you actually want to test against — this is the most common cause of "it works differently than in the CAM system".
+Set it in the extension's settings, or run its **Select Installation Folder…** command from the command palette (`F1`) and pick the folder. Both the product folder and its `Bin64` subfolder are accepted, and quotation marks around a pasted path are tolerated. With several CAM versions installed, make sure it points at the one you actually want to test against — this is the most common cause of "it works differently than in the CAM system".
 
 ## Generate NC produces no file
 
