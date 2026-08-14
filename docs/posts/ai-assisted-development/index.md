@@ -1,10 +1,10 @@
 ﻿# AI-assisted postprocessor development
 
-This guide explains how to develop and maintain postprocessors with an AI assistant: how to set the tools up, what the assistant can do on its own, and how to check the result. It applies to both postprocessing subsystems — SPPX postprocessors and .NET postprocessors — because both read the same input data, [CLData](../cldata/cldata.md).
+This guide explains how to develop and maintain postprocessors with an AI assistant: how to get the tools running, what to ask for, and how to check the result. It applies to both postprocessing subsystems — SPPX postprocessors and .NET postprocessors — because both read the same input data, [CLData](../cldata/cldata.md).
 
 The assistant reads the actual project data, changes the postprocessor code, compiles it and generates a test NC program. It does not decide whether the NC program is correct for your machine. That decision stays with you.
 
-This is a beta guide for a beta toolset. Command names and panels may change between releases; the reference for what is installed on your computer is always the release notes of your CAM system and of the tools bundle.
+The toolset is in beta: command names and panels may still change.
 
 ## Two ways to work
 
@@ -20,16 +20,16 @@ The two are not exclusive. Asking the agent in the CAM system to investigate the
 
 ## Read in this order
 
-1. [How the system works](how-it-works.md) — the components, what each one does, and where the boundaries are.
-2. [Set up the tools](setup.md) — install the extensions, connect the MCP servers, give the assistant the documentation.
+1. [How the system works](how-it-works.md) — the parts you will be dealing with, and which one does what.
+2. [Set up the tools](setup.md) — download the bundle and let the assistant do the setup.
 3. [Develop with CAM Agent](cam-agent.md) or [Develop in Visual Studio Code](vscode.md) — pick your entry point.
 4. [SPPX workflow](sppx-workflow.md) or [.NET workflow](dotnet-workflow.md) — the development cycle for your postprocessor type.
 5. [Review and verify](review-and-verify.md) — what to check before the NC program is used.
-6. [Troubleshooting](troubleshooting.md) and [Advanced setup](advanced-setup.md) — when something does not work, and how to set this up for a team.
+6. [Troubleshooting](troubleshooting.md) and [Advanced setup](advanced-setup.md) — when something does not work, and the full setup procedure.
 
 ## Skills for the assistant
 
-A skill is a Markdown file with a procedure the assistant follows: which tool to call, in which order, what to check, and when the work is finished. Five skills are published with this guide, in the `skills` folder of this documentation module:
+Skills are ready-made procedures for the assistant: which tool to call, in which order, what to check, and when the work is finished. Five are published with this guide, in the `skills` folder of this documentation module:
 
 | Skill | Folder | What it does |
 |---|---|---|
@@ -39,7 +39,7 @@ A skill is a Markdown file with a procedure the assistant follows: which tool to
 | Develop .NET postprocessors | `skills/develop-dotnet-postprocessor` | Template, build, run and inspect a C# postprocessor |
 | Verify NC programs | `skills/verify-nc-program` | Reviews the generated NC program before it is accepted |
 
-How to install them depends on the client — see [Advanced setup](advanced-setup.md#documentation-and-skills-for-the-assistant). If your client has no skill mechanism, open the `SKILL.md` file and paste it into the chat as instructions: the content is plain Markdown and works either way.
+Loading them is part of the setup — see [Advanced setup](advanced-setup.md#documentation-and-skills-for-the-assistant).
 
 ## What stays with you
 

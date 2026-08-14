@@ -18,15 +18,13 @@ For the language and the mask reference, see the Postprocessors generator docume
 
 ## What the assistant can and cannot change
 
-Handlers are fixed: there is one per CLData command, and they can be edited but not created or deleted. Subroutines and objects can be created. Deleting an item is irreversible, so the assistant asks before doing it — read the request before you confirm.
-
-An edit replaces the whole body of an item. This is why read-before-write matters: the assistant must send back the code it read with your change applied, not a fragment.
+There is one handler per CLData command: handlers can be edited but not created or deleted. Subroutines and objects can be created. Deleting an item is irreversible, so the assistant asks first — read the request before you confirm.
 
 ## Watching it work
 
-Ask the assistant to work in a **windowed** InP instance when you want to see the IDE: it opens the handler it edited, and the compile messages and the generated program are in front of you. A **headless** instance is for batch checks and parallel runs — nothing appears on screen.
+Ask for a **windowed** InP instance when you want to see the IDE: the handler it edited, the compile messages and the generated program are in front of you. A **headless** instance is for batch checks and parallel runs — nothing appears on screen. With several InP windows open, tell it which one to work in.
 
-If several InP instances are running, the assistant has to address one explicitly; an ambiguous request fails rather than picking one at random. In VS Code you can also ask it to open the changed handler in the editor, or to prepare a **Generate NC** run so you see the panel, the parameters and the diffs yourself.
+In VS Code you can also ask it to open the changed handler in the editor, or to prepare a **Generate NC** run so you see the panel, the parameters and the diffs yourself.
 
 ## What to check in the code
 

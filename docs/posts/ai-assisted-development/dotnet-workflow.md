@@ -13,8 +13,6 @@ The normative starting point for a new postprocessor is the template shipped wit
 3. Build the unchanged copy first and keep the result as the baseline. If the untouched template does not build, no later diagnosis is worth anything.
 4. Generate an NC program from that unchanged copy, and keep it as the reference for comparison.
 
-Copying a template and renaming it is the supported way to start a postprocessor.
-
 ## The cycle
 
 1. Inspect the test project's CLData and find the command you need. The Inspector shows every command in the typed .NET projection as well — the interface, the handler name and the property values — and can copy a parameter name in the form you paste into C# code.
@@ -30,13 +28,11 @@ DotNet Posts drives the run and reports it back in the **Generate NC** panel, th
 
 `dotnetPosts.autoBuild` makes the extension build the project before a run, so an edit is never tested against a stale assembly. The panel also has the commands the assistant uses to work with you: listing and opening handlers, highlighting a range of code, reporting where your cursor is, and opening the current CLData in the Inspector.
 
-## The batch runner
+## Running a postprocessor you have no sources for
 
-Underneath, a run is `InpCore.exe` processing the project in batch mode. Two of its modes matter here.
+A postprocessor carries its default settings inside the assembly, and the runner can write them out as a `Settings.xml` next to the input — which is what makes **Generate NC Program from DLL…** possible. Use the file the runner produced; the format is not the same as the SPPX one, so a hand-written file will not do. If settings cannot be extracted, the installed CAM system is older than this workflow needs — check its version before suspecting the postprocessor.
 
-**Extracting the settings.** A postprocessor carries its default settings inside the assembly. The runner can write them out as a `Settings.xml` next to the input, which is what makes it possible to run a postprocessor you have no sources for. If the installed runner does not support this, it is an older build than this workflow needs — check the version before concluding that the postprocessor is at fault. Note that the settings format is not identical to the SPPX one; use the file the runner produced rather than a hand-written one.
-
-**Processing a project.** The runner reports progress as a stream of events — start, progress, the output file, and a final event with the result code — and its process exit code repeats the outcome. A run is successful only when both the final event and the exit code say so; a runner that ended silently produced nothing worth comparing.
+A run counts as finished only when the report and the process result agree. A run that ended silently produced nothing worth comparing.
 
 ## What to check in the code
 
