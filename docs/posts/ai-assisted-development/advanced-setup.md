@@ -50,7 +50,7 @@ Use absolute paths, and mind that JSON needs backslashes doubled. Where the conf
 | Client | File |
 |---|---|
 | Claude Code | `.mcp.json` in the project root, or `claude mcp add` |
-| Cline, Roo Code, Kilo Code | `cline_mcp_settings.json` — **MCP Servers → Configure** |
+| Kilo Code, Cline, Roo Code | `cline_mcp_settings.json` — **MCP Servers → Configure** |
 | Copilot Chat in VS Code | `.vscode/mcp.json`, `servers` section |
 | Codex CLI | `~/.codex/config.toml`, section `[mcp_servers.inpcld]` with `command = "…"` |
 

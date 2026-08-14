@@ -12,16 +12,19 @@ Any assistant that meets three conditions will do, and the choice is yours:
 - it may run commands in your workspace, which is how it builds, installs and opens things for you;
 - it has a place for standing instructions, so the rules of your project apply to every request.
 
-Tested with this toolset:
+**The recommended starting point is Kilo Code.** It is open source, it has the most developed tooling for configuring skills — which is how the procedures published with this guide reach the assistant — it can be driven remotely, and it works as a router across model providers instead of tying you to one. That last point matters in practice: the provider you may use for postprocessor work is a decision you keep, not one the tool makes for you.
+
+Others that work with this toolset:
 
 | Chat extension | Standing instructions | Notes |
 |---|---|---|
+| Kilo Code | The client's rules file; a dedicated skills configuration | Open source, provider router, remote control |
+| Cline, Roo Code | The client's rules file, for example `.clinerules` | Same MCP configuration UI as Kilo Code |
 | Claude Code | `CLAUDE.md`; loads the published skills as they are | Runs commands after you approve them |
-| Cline, Roo Code, Kilo Code | The client's rules file, for example `.clinerules` | Convenient MCP configuration UI |
 | GitHub Copilot Chat | `.github/copilot-instructions.md` | MCP and command execution require its agent mode |
 | Codex CLI | `AGENTS.md` | Works from the terminal, alongside VS Code |
 
-Recommendation: start with a client that loads skills directly — you then get the whole procedure, not just the tools. With any other client, name the relevant `SKILL.md` in the standing instructions or paste it into the chat; the content is plain Markdown and works either way.
+Whichever you choose, prefer a client that loads skills directly — you then get the whole procedure, not just the tools. With a client that has no skill mechanism, name the relevant `SKILL.md` in the standing instructions or paste it into the chat; the content is plain Markdown and works either way.
 
 Where each client keeps its MCP configuration is listed in [Advanced setup](advanced-setup.md#connect-the-mcp-servers).
 

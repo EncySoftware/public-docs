@@ -23,9 +23,10 @@ The two are not exclusive. Asking the agent in the CAM system to investigate the
 1. [How the system works](how-it-works.md) — the parts you will be dealing with, and which one does what.
 2. [Set up the tools](setup.md) — download the bundle and let the assistant do the setup.
 3. [Develop with CAM Agent](cam-agent.md) or [Develop in Visual Studio Code](vscode.md) — pick your entry point.
-4. [SPPX workflow](sppx-workflow.md) or [.NET workflow](dotnet-workflow.md) — the development cycle for your postprocessor type.
-5. [Review and verify](review-and-verify.md) — what to check before the NC program is used.
-6. [Troubleshooting](troubleshooting.md) and [Advanced setup](advanced-setup.md) — when something does not work, and the full setup procedure.
+4. [What the extensions give you](extensions.md) — the panels and commands you will be using, and where they are.
+5. [SPPX workflow](sppx-workflow.md) or [.NET workflow](dotnet-workflow.md) — the development cycle for your postprocessor type.
+6. [Review and verify](review-and-verify.md) — what to check before the NC program is used.
+7. [Troubleshooting](troubleshooting.md) and [Advanced setup](advanced-setup.md) — when something does not work, and the full setup procedure.
 
 ## Skills for the assistant
 

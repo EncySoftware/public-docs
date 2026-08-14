@@ -8,6 +8,8 @@
   href: cam-agent.md
 - name: "Develop in Visual Studio Code"
   href: vscode.md
+- name: "What the extensions give you"
+  href: extensions.md
 - name: "SPPX workflow"
   href: sppx-workflow.md
 - name: ".NET workflow"

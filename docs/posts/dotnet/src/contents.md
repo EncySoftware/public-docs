@@ -20,6 +20,7 @@ The **.NET postprocessors** subsystem builds postprocessors in .NET (C#). This p
   - [Set up the tools](../../ai-assisted-development/setup.md)
   - [Develop with CAM Agent](../../ai-assisted-development/cam-agent.md)
   - [Develop in Visual Studio Code](../../ai-assisted-development/vscode.md)
+  - [What the extensions give you](../../ai-assisted-development/extensions.md)
   - [SPPX workflow](../../ai-assisted-development/sppx-workflow.md)
   - [.NET workflow](../../ai-assisted-development/dotnet-workflow.md)
   - [Review and verify](../../ai-assisted-development/review-and-verify.md)

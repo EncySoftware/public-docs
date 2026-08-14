@@ -37,6 +37,8 @@
     href: ../../ai-assisted-development/cam-agent.md
   - name: "Develop in Visual Studio Code"
     href: ../../ai-assisted-development/vscode.md
+  - name: "What the extensions give you"
+    href: ../../ai-assisted-development/extensions.md
   - name: "SPPX workflow"
     href: ../../ai-assisted-development/sppx-workflow.md
   - name: ".NET workflow"
