@@ -63,12 +63,16 @@ MCP is what gives the assistant the ability to act. Any MCP-capable client works
     "cam": {
       "command": "C:\\Users\\<user>\\AppData\\Local\\CamAgent3\\bin\\cam-mcp-server.exe",
       "args": []
+    },
+    "knowledge": {
+      "command": "C:\\Users\\<user>\\AppData\\Local\\CamAgent3\\bin\\rag-mcp-server.exe",
+      "args": []
     }
   }
 }
 ```
 
-Leave the `cam` entry out if you do not need it; the first two are what postprocessor work runs on.
+The first two are what postprocessor work runs on; `cam` and `knowledge` are useful additions — leave out what you do not need.
 
 Use absolute paths, and mind that JSON needs backslashes doubled. Where the configuration goes depends on the client:
 
@@ -93,8 +97,8 @@ Use a non-production project and a small read-only request for each server: the 
 
 Besides the tools, the assistant needs the reference material.
 
-- **Local Markdown.** This documentation is published as a Markdown repository; its address is on the [External references and examples](xref:posts-external-references) page. Clone it with `git clone --depth 1 <url>` and point the assistant at the `docs/posts` folder — as a second workspace folder, or by naming the path in the client's instruction file. Update it with `git pull`.
-- **A retrieval service.** CAM Agent answers from an indexed copy of the documentation and skills, with an offline cache. A separate retrieval server for VS Code clients is planned; until it ships, use the local checkout.
+- **The knowledge server** — `rag-mcp-server.exe`, in the CAM Agent folder next to the other servers. Add it to the MCP configuration the same way; it needs nothing else. It searches the product documentation by keyword and by meaning, reads a page in full, lists and searches the published skills, and can index a CAM project so that its operations, tools and machine can be searched too. This is what CAM Agent answers from, and the same server works for any MCP client. It keeps a local cache, so ask the assistant to refresh it once — after that the skills are searchable offline.
+- **Local Markdown.** This documentation is published as a Markdown repository; its address is on the [External references and examples](xref:posts-external-references) page. Clone it with `git clone --depth 1 <url>` and point the assistant at the `docs/posts` folder — as a second workspace folder, or by naming the path in the client's instruction file. Update it with `git pull`. Keep this even with the knowledge server connected: a checkout is what pins a known revision, holds this guide before it is indexed, and works with no network at all.
 
 The skills published with this guide live in the `skills` folder of this documentation module — each one a folder with a `SKILL.md` file inside it. Take the whole set; it grows with the toolset, and an assistant only uses the skill that fits the task in front of it. In Kilo Code, copy the folders into `.kilo/skills/` in the project, or into `~/.kilo/skills/` (`%USERPROFILE%\.kilo\skills\` on Windows) to have them in every project; a new session picks them up, and `/reload` does it without restarting. In other clients it depends on the client — a workspace or user skills folder, an agent configuration entry, or manual inclusion. If your client has no skill mechanism, paste the relevant `SKILL.md` into the chat or reference it from the client's instruction file (`CLAUDE.md`, `AGENTS.md`, `.clinerules` and similar). CAM Agent manages its own set and keeps yours alongside it.
 

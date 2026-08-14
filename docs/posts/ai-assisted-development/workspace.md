@@ -47,7 +47,7 @@ A task is not finished when the postprocessor works. It is finished when what yo
 
 ## Documentation next to the sources
 
-Keep a copy of this documentation in the workspace, so the assistant can read the reference for a CLData command or the language without leaving the folder — see [Advanced setup](advanced-setup.md#documentation-and-skills-for-the-assistant). Update it now and then; when a documented detail contradicts the installed product, the product wins and the note about it goes into `notes\`.
+The assistant can search the product documentation through the knowledge server, and that is the quickest way to find one page. Keep a copy of this documentation in the workspace as well — see [Advanced setup](advanced-setup.md#documentation-and-skills-for-the-assistant): a copy is fixed at a revision you know, needs no network, and is what the assistant reads when it has to work through a whole section rather than look one thing up. Update it now and then; when a documented detail contradicts the installed product, the product wins and the note about it goes into `notes\`.
 
 ## Two ways to keep history
 

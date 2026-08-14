@@ -33,7 +33,7 @@ Adapt the names to what already exists; never reorganise a folder the user is wo
 2. Propose the layout as a short plan, in the user's terms, and say what each part is for. Create only what they agree to, and move nothing without permission.
 3. Draft `AGENTS.md` from what you can already see and what they tell you: machines and control systems, which postprocessor serves which, conventions that always apply, where test projects and reference programs live, the rules of engagement (read the actual CLData before editing, run and compare before reporting done, never touch a production postprocessor unasked). Keep it to about a page: it is read in full every session. Details belong in `notes\`.
 4. Record standing constraints **in the user's own words**, quoted. A rejected option with the reason for rejecting it is worth more than a description of the chosen one.
-5. Make the documentation available locally, or confirm that a retrieval service covers it. Note the revision you cloned.
+5. Give yourself the documentation: connect the knowledge server if it is available, and clone the documentation repository into the workspace as well — the checkout is what pins a revision and works offline. Note the revision you cloned. If a knowledge cache has never been refreshed on this machine, refresh it once.
 6. Offer version history — see below — and accept a refusal without arguing.
 7. When the task itself is done, distil it: one short file in `notes\`, one topic per file, saying what was wrong, how it was found, what fixed it and why that way. If a procedure repeated, write it as a skill in `notes\skills\` instead. Then tell the user what you wrote, in one line.
 
