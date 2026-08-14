@@ -39,12 +39,21 @@ Two things the assistant cannot do for you: reload the editor window, and restar
 
 ## 4. Check that it worked
 
-Ask for two read-only things on a test project:
+Two requests in the chat are enough. Both are safe: the assistant only reads, changes nothing and runs nothing on a machine.
 
-- the files of a CLData project — the answer should name the machine, the units and the files;
-- a ping of InP with the structure of the open postprocessor — handlers, subroutines and objects.
+**Reading the data.** Take any CAM project — a `*.stcp` file, preferably a small test one — and write in your own words, roughly:
 
-Compare them with the project you named. If a tool does not answer, the setup is incomplete: an assistant without tools falls back to guessing from documentation, which is exactly what the tools are there to prevent.
+> Read the CLData of the project `D:\Test\Sample.stcp` and tell me the machine, the units, and how many command files there are.
+
+A good answer names the machine, the units, and lists the files with the number of commands in each — facts from your file. Compare them with the project: if the machine is not the one you expected, you gave the wrong path.
+
+**Reading a postprocessor.** Take a `*.sppx` file and write:
+
+> Read the postprocessor `D:\Posts\Sample.sppx` and list its handlers, subroutines and registers.
+
+A good answer is a list of names taken from that file. For SPPX the assistant needs a working InP: it will either start one itself or ask you to open the postprocessor in it.
+
+**How to spot a failure.** An assistant without tools does not go quiet — it reasons instead: it lists "typical" handlers such as `OnRapid` and `OnLine`, explains how CLData is usually arranged, or asks you to paste the file contents. All of that means the tool it needed is not connected — go back to step 3, or to [Advanced setup](advanced-setup.md).
 
 ## 5. Updates
 
