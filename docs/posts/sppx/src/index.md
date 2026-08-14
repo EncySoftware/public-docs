@@ -103,6 +103,7 @@ The **Postprocessors generator** is the subsystem for building postprocessors in
 - [AI-assisted postprocessor development](../../ai-assisted-development/index.md)
   - [How the system works](../../ai-assisted-development/how-it-works.md)
   - [Set up the tools](../../ai-assisted-development/setup.md)
+  - [Organize your workspace](../../ai-assisted-development/workspace.md)
   - [Develop with CAM Agent](../../ai-assisted-development/cam-agent.md)
   - [Develop in Visual Studio Code](../../ai-assisted-development/vscode.md)
   - [What the extensions give you](../../ai-assisted-development/extensions.md)

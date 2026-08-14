@@ -22,19 +22,21 @@ The two are not exclusive. Asking the agent in the CAM system to investigate the
 
 1. [How the system works](how-it-works.md) — the parts you will be dealing with, and which one does what.
 2. [Set up the tools](setup.md) — download the bundle and let the assistant do the setup.
-3. [Develop with CAM Agent](cam-agent.md) or [Develop in Visual Studio Code](vscode.md) — pick your entry point.
-4. [What the extensions give you](extensions.md) — the panels and commands you will be using, and where they are.
-5. [SPPX workflow](sppx-workflow.md) or [.NET workflow](dotnet-workflow.md) — the development cycle for your postprocessor type.
-6. [Review and verify](review-and-verify.md) — what to check before the NC program is used.
-7. [Troubleshooting](troubleshooting.md) and [Advanced setup](advanced-setup.md) — when something does not work, and the full setup procedure.
+3. [Organize your workspace](workspace.md) — the folder that gives the assistant a memory.
+4. [Develop with CAM Agent](cam-agent.md) or [Develop in Visual Studio Code](vscode.md) — pick your entry point.
+5. [What the extensions give you](extensions.md) — the panels and commands you will be using, and where they are.
+6. [SPPX workflow](sppx-workflow.md) or [.NET workflow](dotnet-workflow.md) — the development cycle for your postprocessor type.
+7. [Review and verify](review-and-verify.md) — what to check before the NC program is used.
+8. [Troubleshooting](troubleshooting.md) and [Advanced setup](advanced-setup.md) — when something does not work, and the full setup procedure.
 
 ## Skills for the assistant
 
-Skills are ready-made procedures for the assistant: which tool to call, in which order, what to check, and when the work is finished. Five are published with this guide, in the `skills` folder of this documentation module:
+Skills are ready-made procedures for the assistant: which tool to call, in which order, what to check, and when the work is finished. Six are published with this guide, in the `skills` folder of this documentation module:
 
 | Skill | Folder | What it does |
 |---|---|---|
 | Postprocessor development | `skills/postprocessor-development` | Chooses the postprocessor type and the tools, then runs the whole cycle |
+| Prepare the workspace | `skills/prepare-workspace` | Sets up the folder, the standing brief, the local documentation, the notes and the history |
 | Inspect CLData | `skills/inspect-cldata` | Reads the real project data instead of guessing from documentation |
 | Develop SPPX postprocessors | `skills/develop-sppx-postprocessor` | Read, edit, compile, run and compare an SPPX postprocessor |
 | Develop .NET postprocessors | `skills/develop-dotnet-postprocessor` | Template, build, run and inspect a C# postprocessor |

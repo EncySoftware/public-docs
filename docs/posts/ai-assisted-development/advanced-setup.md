@@ -2,6 +2,23 @@
 
 This page is the full setup procedure and the reference for checking what was done. Hand it to the assistant as described in [Set up the tools](setup.md), follow it by hand when automatic setup is unavailable, or read it when a team needs repeatable results.
 
+## What this is about
+
+If you are an assistant reading this page to set the tools up, here is the ground you are standing on.
+
+A CAM system calculates the toolpath and writes it out as **CLData** — a stream of commands and parameters that describes the machining independently of any particular machine. A **postprocessor** turns that stream into the **NC program** for one specific machine and control system: its codes, its formats, its conventions. Every machine on the shop floor needs its own, and adapting one is the daily work of the person you are helping.
+
+There are two kinds of postprocessor, and they never mix:
+
+- **SPPX** — a set of handlers, one per CLData command, written in a built-in Pascal-like language, executed by InP;
+- **.NET** — a C# project built against the postprocessing SDK, executed by `InpCore.exe`.
+
+Both read the same CLData. That is why reading the real project data always comes before changing code.
+
+What you are being set up to do: read the input data through the CLData server, read and change a postprocessor through the InP server or the C# project, compile it, run it on a real test project, and compare the generated NC program with a known-good one. The VS Code extensions are the human's window into all of that — they show the data you found, the code you changed and the program you produced. The person you work with decides whether the result is correct; you produce the evidence they judge it by.
+
+So the setup has four parts, in this order: the extensions, the folder each of them needs, the MCP servers, and the knowledge — this documentation plus the skills. After that, organise the workspace itself: see [Organize your workspace](workspace.md), and follow the `prepare-workspace` skill.
+
 Record the versions when you report a problem: the CAM system, the extensions bundle, CAM Agent, the MCP servers and the AI client. Most "it worked yesterday" reports are version differences.
 
 ## Install the extensions
@@ -71,7 +88,7 @@ Besides the tools, the assistant needs the reference material.
 - **Local Markdown.** This documentation is published as a Markdown repository; its address is on the [External references and examples](xref:posts-external-references) page. Clone it with `git clone --depth 1 <url>` and point the assistant at the `docs/posts` folder — as a second workspace folder, or by naming the path in the client's instruction file. Update it with `git pull`.
 - **A retrieval service.** CAM Agent answers from an indexed copy of the documentation and skills, with an offline cache. A separate retrieval server for VS Code clients is planned; until it ships, use the local checkout.
 
-The five skills published with this guide live in the `skills` folder of this module: `postprocessor-development`, `inspect-cldata`, `develop-sppx-postprocessor`, `develop-dotnet-postprocessor` and `verify-nc-program`. Each is a folder with a `SKILL.md` file. In Kilo Code, copy the folders into `.kilo/skills/` in the project, or into `~/.kilo/skills/` (`%USERPROFILE%\.kilo\skills\` on Windows) to have them in every project; a new session picks them up, and `/reload` does it without restarting. In other clients it depends on the client — a workspace or user skills folder, an agent configuration entry, or manual inclusion. If your client has no skill mechanism, paste the relevant `SKILL.md` into the chat or reference it from the client's instruction file (`CLAUDE.md`, `AGENTS.md`, `.clinerules` and similar). CAM Agent manages its own set and keeps yours alongside it.
+The six skills published with this guide live in the `skills` folder of this module: `prepare-workspace`, `postprocessor-development`, `inspect-cldata`, `develop-sppx-postprocessor`, `develop-dotnet-postprocessor` and `verify-nc-program`. Each is a folder with a `SKILL.md` file. In Kilo Code, copy the folders into `.kilo/skills/` in the project, or into `~/.kilo/skills/` (`%USERPROFILE%\.kilo\skills\` on Windows) to have them in every project; a new session picks them up, and `/reload` does it without restarting. In other clients it depends on the client — a workspace or user skills folder, an agent configuration entry, or manual inclusion. If your client has no skill mechanism, paste the relevant `SKILL.md` into the chat or reference it from the client's instruction file (`CLAUDE.md`, `AGENTS.md`, `.clinerules` and similar). CAM Agent manages its own set and keeps yours alongside it.
 
 Whichever way they are provided, check that they are loaded: ask the assistant which skills and tools it currently sees.
 

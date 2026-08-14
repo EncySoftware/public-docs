@@ -33,6 +33,8 @@
     href: ../../ai-assisted-development/how-it-works.md
   - name: "Set up the tools"
     href: ../../ai-assisted-development/setup.md
+  - name: "Organize your workspace"
+    href: ../../ai-assisted-development/workspace.md
   - name: "Develop with CAM Agent"
     href: ../../ai-assisted-development/cam-agent.md
   - name: "Develop in Visual Studio Code"

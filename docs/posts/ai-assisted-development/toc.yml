@@ -4,6 +4,8 @@
   href: how-it-works.md
 - name: "Set up the tools"
   href: setup.md
+- name: "Organize your workspace"
+  href: workspace.md
 - name: "Develop with CAM Agent"
   href: cam-agent.md
 - name: "Develop in Visual Studio Code"
