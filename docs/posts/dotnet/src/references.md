@@ -11,6 +11,15 @@ External links, the generated SDK **API reference**, and example postprocessors 
 | .NET postprocessing guide (ENCY 1) | <https://docs.encycam.com/Inp.Net/1/en/> |
 | ENCY Academy — training courses | <https://learn.encycam.com/> |
 
+## AI-assisted development
+
+Download locations for the tools described in [AI-assisted postprocessor development](../../ai-assisted-development/index.md).
+
+| Reference | URL |
+|---|---|
+| Postprocessor tools for VS Code — releases | <https://github.com/EncySoftware/postprocessor-tools/releases> |
+| This documentation as a Markdown repository | <https://github.com/EncySoftware/public-docs> |
+
 ## API reference
 
 The .NET postprocessing SDK API reference is generated automatically from the source code.
