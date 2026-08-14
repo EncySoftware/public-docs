@@ -27,6 +27,8 @@ The CLData MCP server (`InpCoreMCP.exe`) is read-only and works without a runnin
 
 If no CLData tools are available, say so and ask for a reduced export; do not reconstruct the data from documentation.
 
+When the answer is not in the CLData at all — how the machine is configured, what an operation was set to, which tool is mounted — and CAM tools are available, read it from the source project instead of inferring it. The same tools can prepare the input when the fixture you need does not exist yet: recalculate the toolpaths, export the CLData of the active project, create or open a test project. Say when you did this: regenerated data invalidates every command index you reported earlier.
+
 ## Workflow
 
 1. `cld_open_project` on the project you were given. Record the project id, machine, units and file list, and report them — a mismatch here means you are inspecting the wrong data.

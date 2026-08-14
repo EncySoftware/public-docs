@@ -47,6 +47,8 @@ MCP is what gives the assistant the ability to act. Any MCP-capable client works
 
 **InP MCP** — `inp-mcp-server.exe`, shipped with CAM Agent; in a default installation `%LOCALAPPDATA%\CamAgent3\bin\inp-mcp-server.exe`. It drives the postprocessor IDE, and can either start an instance itself, windowed or headless, or attach to one you opened from the CAM system.
 
+**CAM MCP** — `cam-mcp-server.exe`, next to the previous one. Optional, and not a postprocessor tool: it drives the running CAM system. Connect it when the answers you need are in the source project rather than in the CLData — the machine and its schema, the parameters of an operation, the tools and their properties, the coordinate systems and the workpiece setup. It can also produce the input you postprocess: recalculate the toolpaths, export the CLData of the active project, or create and open a test project. Useful when a test case has to be built or adjusted rather than merely read.
+
 ```json
 {
   "mcpServers": {
@@ -57,10 +59,16 @@ MCP is what gives the assistant the ability to act. Any MCP-capable client works
     "inp": {
       "command": "C:\\Users\\<user>\\AppData\\Local\\CamAgent3\\bin\\inp-mcp-server.exe",
       "args": []
+    },
+    "cam": {
+      "command": "C:\\Users\\<user>\\AppData\\Local\\CamAgent3\\bin\\cam-mcp-server.exe",
+      "args": []
     }
   }
 }
 ```
+
+Leave the `cam` entry out if you do not need it; the first two are what postprocessor work runs on.
 
 Use absolute paths, and mind that JSON needs backslashes doubled. Where the configuration goes depends on the client:
 

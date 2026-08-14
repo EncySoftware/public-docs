@@ -19,7 +19,9 @@ Before planning anything, know these five things. Ask for what is missing instea
 4. **The requested change**, expressed in NC output: which block is wrong, what it should be, on which machine and control system.
 5. **A reference** — the current NC program, and a known-good program if one exists.
 
-Then check which tools you actually have: CLData tools (`cld_*`), InP tools (`pp_*`), the VS Code extension commands, a `dotnet` build tool, documentation as local Markdown or through a retrieval service. Report what is missing rather than substituting a guess for it.
+Then check which tools you actually have: CLData tools (`cld_*`), InP tools (`pp_*`), CAM tools if the CAM server is connected, the VS Code extension commands, a `dotnet` build tool, documentation as local Markdown or through a retrieval service. Report what is missing rather than substituting a guess for it.
+
+CAM tools are secondary here, but they answer what CLData cannot: the machine configuration, an operation's parameters, the tool that is mounted. They can also build the input — recalculate the toolpaths, export CLData, create a test project — when the fixture you need does not exist yet.
 
 ## Trust order for facts
 
