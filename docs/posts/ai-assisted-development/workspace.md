@@ -43,6 +43,8 @@ Two habits keep this useful:
 
 When a procedure repeats — the same check, the same sequence for a family of machines — write it as your own skill in `notes\skills\` and point the assistant at it. The published skills are ordinary Markdown files; yours look the same.
 
+And when one of them turns out to be useful beyond your own shop, you can share it: ask the assistant to send that skill to the shared knowledge base. It goes into a review queue rather than straight into the published set, and once a reviewer accepts it, everyone using these tools gets it. Only send what you are willing to publish — a skill that names customers, part numbers or the particulars of your machines belongs in `notes\` and nowhere else.
+
 A task is not finished when the postprocessor works. It is finished when what you learned is in `notes\`.
 
 ## Documentation next to the sources
