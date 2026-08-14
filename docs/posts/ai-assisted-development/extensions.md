@@ -14,7 +14,7 @@ If VS Code restores an old folding layout and the file looks wrong, run **SPPX: 
 
 ### Generating an NC program
 
-The **Generate NC** panel is the main working surface. It opens from the button in the editor title bar of a `*.sppx` file, or with **SPPX: Generate NC Program**.
+The **Generate NC** panel is the main working surface. With a `*.sppx` file open, it opens from the triangular play button in the editor title bar — hover it and the tooltip reads **SPPX: Generate NC Program** — or from the command of the same name in the palette.
 
 In the panel:
 
@@ -45,7 +45,7 @@ For C# postprocessors, with the same **Generate NC** panel as SPPX Tools — con
 
 Two ways to start a generation:
 
-- **DotNet Posts: Generate NC Program**, or the button in the editor title bar of a C# file — works with the postprocessor project open in the workspace and finds the built assembly itself;
+- **DotNet Posts: Generate NC Program**, or the triangular play button in the editor title bar of a C# file (its tooltip carries the same name) — works with the postprocessor project open in the workspace and finds the built assembly itself;
 - **DotNet Posts: Generate NC Program from DLL…**, or a right-click on a `.dll` in the **Explorer** — runs a compiled postprocessor without any sources. Several postprocessors can be kept in separate panel tabs and compared on the same project.
 
 **DotNet Posts: Reveal Postprocessor Handler** opens the handler that processes a given command. The `dotnetPosts.autoBuild` setting builds the project before each run, so a change is never tested against a stale assembly.
