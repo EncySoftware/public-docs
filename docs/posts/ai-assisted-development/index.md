@@ -2,9 +2,19 @@
 
 This guide explains how to develop and maintain postprocessors with the help of artificial intelligence (AI): how to get the tools running, what to ask the assistant for, and how to check the result. It applies to both postprocessing subsystems — SPPX postprocessors and .NET postprocessors — because both read the same input data, [CLData](../cldata/cldata.md).
 
-The assistant reads the actual project data, changes the postprocessor code, compiles it and generates a test NC program. It does not decide whether the NC program is correct for your machine. That decision stays with you.
-
 The toolset is in beta: command names and panels may still change.
+
+## What the work looks like
+
+You write in the chat, in your own words:
+
+> On this machine the coolant does not come on after a tool change. Find out why and fix it.
+
+Then you watch. The assistant opens the test project, finds the command that should have produced that block, finds the handler that processes it, reads the code, makes a small change, compiles the postprocessor, runs it on the same project, and shows you the NC program it got and how it differs from the previous one.
+
+You read the result and answer the same way — "right, but M08 has to come before the spindle starts" — and it goes round again.
+
+That is the whole loop. Nothing to memorise, no commands to type, and you do not have to write the code yourself, although you can look at every change and edit it by hand whenever you prefer. What cannot be handed over is the judgement: whether the program is correct for your machine and safe on it is decided by you. Everything in this guide about checking the result exists for that reason.
 
 ## Two ways to work
 
