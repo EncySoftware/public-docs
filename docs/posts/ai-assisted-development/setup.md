@@ -1,10 +1,16 @@
 ﻿# Set up the tools
 
-The setup itself is the assistant's job. Your part is to put two things on disk and hand them over: the archive with the extensions and the setup instruction it should follow. Everything after that — installing the extensions, connecting the MCP servers, pointing the extensions at the CAM installation, loading the skills — the assistant does and reports back.
+The setup itself is the assistant's job. Your part is small: install the chat you are going to talk to, put two files on disk, and hand them over. Everything after that — installing the extensions, connecting the MCP servers, pointing them at the CAM installation, loading the skills — the assistant does and reports back.
 
-If you work only through the CAM Agent chat, install CAM Agent from the Extension Store and run its own setup instead — see [Develop with CAM Agent](cam-agent.md).
+## 1. Install the assistant
 
-## 1. Get the two files
+**In the CAM system.** CAM Agent is installed from the CAM system's own **Extension Store**: open the store, install **CAM Agent**, restart the CAM system if it asks. Nothing else is needed to start — see [Develop with CAM Agent](cam-agent.md).
+
+**In Visual Studio Code.** The chat is an extension like any other: open the **Extensions** view (`Ctrl+Shift+X`), find the one you want by name in the Marketplace, and install it. Which one to take, and what makes a client suitable for this work, is in [Develop in Visual Studio Code](vscode.md#which-chat-extension-to-use); a client that lives in the terminal is installed its own way instead. You also need an account with an AI provider — see [What it costs](index.md#what-it-costs).
+
+If you work only through CAM Agent, the rest of this page still applies to the knowledge and skills it uses; the tools bundle below is for the VS Code way of working.
+
+## 2. Get the two files
 
 Both addresses are on the [External references and examples](xref:posts-external-references) page.
 
@@ -13,9 +19,9 @@ Both addresses are on the [External references and examples](xref:posts-external
 
 If your client is already connected to a documentation service, the second file is unnecessary: the assistant can find the page by name.
 
-## 2. Hand both to the assistant
+## 3. Hand both to the assistant
 
-Open the AI chat in VS Code, allow it to run commands in your workspace, and give it the task. Adjust the paths and paste:
+Open the chat, allow it to run commands in your workspace, and give it the task. Adjust the paths and paste:
 
 ```text
 Set up the postprocessor tools for me, following the instruction in
@@ -31,7 +37,7 @@ Then tell me what you changed and which tools you can now see.
 
 Two things the assistant cannot do for you: reload the editor window, and restart the chat client after the MCP configuration changes. It will tell you when either is needed.
 
-## 3. Check that it worked
+## 4. Check that it worked
 
 Ask for two read-only things on a test project:
 
@@ -40,7 +46,7 @@ Ask for two read-only things on a test project:
 
 Compare them with the project you named. If a tool does not answer, the setup is incomplete: an assistant without tools falls back to guessing from documentation, which is exactly what the tools are there to prevent.
 
-## 4. Updates
+## 5. Updates
 
 When a new version is available, the postprocessor panels show an update action — that is the only thing you need to notice. Accept it, then reload the window.
 
