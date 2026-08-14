@@ -31,18 +31,11 @@ The two are not exclusive. Asking the agent in the CAM system to investigate the
 
 ## Skills for the assistant
 
-Skills are ready-made procedures for the assistant: which tool to call, in which order, what to check, and when the work is finished. Six are published with this guide, in the `skills` folder of this documentation module:
+Skills are ready-made procedures for the assistant: which tool to call, in which order, what to check, and when the work is finished. They cover setting up the workspace, inspecting the input data, the SPPX and .NET development cycles, and verifying a generated NC program.
 
-| Skill | Folder | What it does |
-|---|---|---|
-| Postprocessor development | `skills/postprocessor-development` | Chooses the postprocessor type and the tools, then runs the whole cycle |
-| Prepare the workspace | `skills/prepare-workspace` | Sets up the folder, the standing brief, the local documentation, the notes and the history |
-| Inspect CLData | `skills/inspect-cldata` | Reads the real project data instead of guessing from documentation |
-| Develop SPPX postprocessors | `skills/develop-sppx-postprocessor` | Read, edit, compile, run and compare an SPPX postprocessor |
-| Develop .NET postprocessors | `skills/develop-dotnet-postprocessor` | Template, build, run and inspect a C# postprocessor |
-| Verify NC programs | `skills/verify-nc-program` | Reviews the generated NC program before it is accepted |
+They are published with this guide, in the `skills` folder of this documentation module — one folder each, with a `SKILL.md` file inside. The set grows as the toolset does; take all of it and let the assistant pick what fits the task. Loading them is part of the setup — see [Advanced setup](advanced-setup.md#documentation-and-skills-for-the-assistant).
 
-Loading them is part of the setup — see [Advanced setup](advanced-setup.md#documentation-and-skills-for-the-assistant).
+You can add your own alongside them: they are plain Markdown, and the practices your team accumulates belong in the same form — see [Organize your workspace](workspace.md).
 
 ## What stays with you
 
