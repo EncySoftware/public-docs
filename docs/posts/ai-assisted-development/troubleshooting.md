@@ -38,7 +38,7 @@ If it reports that the `code` command was not found, the VS Code command-line la
 
 ## The updater does not offer anything
 
-The update feed comes from the manifest inside the bundle you installed from, so an installation assembled by hand from separate `.vsix` files has no feed. Reinstall from a current bundle with `install.cmd`, then run **Postprocessor Tools: Check for Updates**.
+Updates are configured by the bundle, so extensions installed by hand from separate `.vsix` files are never offered any. Reinstall with `install.cmd` from the unpacked archive, then run **Postprocessor Tools: Check for Updates**.
 
 ## The assistant answers from documentation instead of the project
 

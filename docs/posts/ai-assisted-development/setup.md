@@ -36,7 +36,7 @@ Both the product folder and its `Bin64` subfolder are accepted, and a path paste
 
 ## Keep the extensions up to date
 
-The updater reads the release feed configured in the bundle you installed from, so it always looks at the right edition. It checks on startup and when a postprocessor panel is activated; when a new version is available, the panels show an update action.
+The updater checks for new versions on startup and when a postprocessor panel is activated; when one is available, the panels show an update action.
 
 You can also run it yourself: **Postprocessor Tools: Check for Updates** and **Postprocessor Tools: Install Available Updates**. After an update, reload the window.
 
