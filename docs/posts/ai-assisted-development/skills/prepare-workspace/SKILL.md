@@ -22,7 +22,7 @@ work\
 ├── projects\      test CAM projects and reference NC programs
 ├── docs\          a copy of the postprocessing documentation
 └── notes\         the user's own practices and solved cases
-    └── skills\    their own procedures, in the same format as the published ones
+    └── skills\    their own skills, in the same format as the published ones
 ```
 
 Adapt the names to what already exists; never reorganise a folder the user is working in without asking first.
@@ -35,7 +35,7 @@ Adapt the names to what already exists; never reorganise a folder the user is wo
 4. Record standing constraints **in the user's own words**, quoted. A rejected option with the reason for rejecting it is worth more than a description of the chosen one.
 5. Give yourself the documentation: connect the knowledge server if it is available, and clone the documentation repository into the workspace as well — the checkout is what pins a revision and works offline. Note the revision you cloned. If a knowledge cache has never been refreshed on this machine, refresh it once.
 6. Offer version history — see below — and accept a refusal without arguing.
-7. When the task itself is done, distil it: one short file in `notes\`, one topic per file, saying what was wrong, how it was found, what fixed it and why that way. If a procedure repeated, write it as a skill in `notes\skills\` instead. Then tell the user what you wrote, in one line.
+7. When the task itself is done, distil it: one short file in `notes\`, one topic per file, saying what was wrong, how it was found, what fixed it and why that way. If a way of working repeated, write it down as a skill in `notes\skills\` instead. Then tell the user what you wrote, in one line.
 8. If what you wrote applies beyond this shop — a technique, a check, a way of reading the data, with nothing specific to their machines or customers in it — say so, and offer to prepare it for sharing: a self-contained file, cleaned of customer names, part numbers, machine particulars and internal paths, with what you removed reported to the user. Submitting it to the shared knowledge base is done from the CAM Agent chat, so leave the submission to the user unless you are working there yourself. Never publish anything on your own initiative.
 
 ## Version history

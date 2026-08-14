@@ -31,7 +31,9 @@ The two are not exclusive. Asking the agent in the CAM system to investigate the
 
 ## Skills for the assistant
 
-Skills are ready-made procedures for the assistant: which tool to call, in which order, what to check, and when the work is finished. They cover setting up the workspace, inspecting the input data, the SPPX and .NET development cycles, and verifying a generated NC program.
+A skill is a short instruction in plain language: what to do, in what order, what to check, and when the work counts as finished. There is no code in it — it is a text file the assistant reads and follows, much like a sensible briefing given to a new colleague. Anyone who can explain a way of working in words can write or correct one.
+
+The skills that come with this guide cover setting up the workspace, inspecting the input data, the SPPX and .NET development cycles, and verifying a generated NC program.
 
 They are published with this guide, in the `skills` folder of this documentation module — one folder each, with a `SKILL.md` file inside. The set grows as the toolset does; take all of it and let the assistant pick what fits the task. Loading them is part of the setup — see [Advanced setup](advanced-setup.md#documentation-and-skills-for-the-assistant).
 

@@ -28,7 +28,7 @@ Others that work with this toolset:
 | GitHub Copilot Chat | `.github/copilot-instructions.md` | MCP and command execution require its agent mode |
 | Codex CLI | `AGENTS.md` | Works from the terminal, alongside VS Code |
 
-Whichever you choose, prefer a client that loads skills directly — you then get the whole procedure, not just the tools. With a client that has no skill mechanism, name the relevant `SKILL.md` in the standing instructions or paste it into the chat; the content is plain Markdown and works either way.
+Whichever you choose, prefer a client that loads skills directly — you then get the way of working as well, not just the tools. With a client that has no skill mechanism, name the relevant `SKILL.md` in the standing instructions or paste it into the chat; the content is plain Markdown and works either way.
 
 Where each client keeps its MCP configuration is listed in [Advanced setup](advanced-setup.md#connect-the-mcp-servers).
 

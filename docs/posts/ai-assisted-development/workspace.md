@@ -15,7 +15,7 @@ work\
 ├── projects\      test CAM projects and reference NC programs
 ├── docs\          a copy of this documentation
 └── notes\         your own practices and solved cases
-    └── skills\    your own procedures for the assistant
+    └── skills\    your own skills - instructions for the assistant
 ```
 
 The names do not matter; the separation does. Sources apart from test data, your own knowledge apart from the official documentation.
@@ -41,7 +41,7 @@ Two habits keep this useful:
 - **one topic per file**, not one growing file — you want to find things, and a small file is cheap to read;
 - **describe the current state**. Historical asides ("it used to be like this") rot; if you keep the folder in git, the history is already there.
 
-When a procedure repeats — the same check, the same sequence for a family of machines — write it as your own skill in `notes\skills\` and point the assistant at it. The published skills are ordinary Markdown files; yours look the same.
+When a way of working repeats — the same check, the same sequence for a family of machines — write it down as your own skill in `notes\skills\` and point the assistant at it. The published skills are ordinary Markdown files; yours look the same.
 
 And when one of them turns out to be useful beyond your own shop, you can share it. Sharing goes through CAM Agent: open its chat and ask it to send that skill to the shared knowledge base. It goes into a review queue rather than straight into the published set, and once a reviewer accepts it, everyone using these tools gets it. Only send what you are willing to publish — a skill that names customers, part numbers or the particulars of your machines belongs in `notes\` and nowhere else.
 

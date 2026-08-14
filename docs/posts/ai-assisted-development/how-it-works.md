@@ -28,7 +28,7 @@ The servers are reached over MCP — the Model Context Protocol, the standard wa
 | Part | What it gives you |
 |---|---|
 | CAM Agent | The chat inside the CAM system, with access to the project and the postprocessor |
-| Skills | Ready-made procedures the assistant follows, so the cycle is the same every time |
+| Skills | Instructions in plain language that the assistant follows, so the cycle is the same every time |
 | CLData MCP | Lets the assistant read the input data: files, sections, commands, parameters, machine. It never changes anything |
 | InP MCP | Lets the assistant work with an SPPX postprocessor: structure, code, registers, compile, run |
 | CAM MCP | Optional. Lets the assistant look into the source project — machine, operations, tools — and prepare the input: recalculate toolpaths, export CLData, create a test project |
