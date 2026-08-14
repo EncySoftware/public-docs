@@ -1,4 +1,8 @@
-﻿# External references and examples (Postprocessors generator / sppx)
+﻿---
+uid: posts-external-references
+---
+
+# External references and examples (Postprocessors generator / sppx)
 
 External resources for authoring `.sppx` postprocessors with the Postprocessors generator.
 

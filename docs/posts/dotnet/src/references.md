@@ -1,4 +1,8 @@
-﻿# External references and examples (.NET postprocessors)
+﻿---
+uid: posts-external-references
+---
+
+# External references and examples (.NET postprocessors)
 
 External links, the generated SDK **API reference**, and example postprocessors for the .NET postprocessing subsystem.
 
