@@ -1,36 +1,43 @@
 ﻿# .NET workflow
 
-Use this workflow for C# postprocessors based on the .NET postprocessing API. The workflow is object-oriented and typed, but it still consumes the same CLData hierarchy as SPPX.
+A .NET postprocessor is a C# project built against the postprocessing SDK: typed handlers, a `.csproj`, and a compiled assembly that the batch runner executes. The assistant works here as it does in any C# project — with the C# extension providing the language service and `dotnet` doing the build — and the postprocessor-specific parts are the template, the settings file and the runner.
 
-## Start from the SDK template
+For the API, see the .NET postprocessors documentation; for the input data, see the [CLData reference](../cldata/cldata.md).
 
-Copy the .NET postprocessor template supplied with the installed CAM system or SDK into a new working folder. Treat the untouched copy as the baseline. Do not assume a fixed .NET SDK version: use the version and project settings required by the installed template and product release. Preserve the template's project files, package references, generated files, and build instructions unless the documentation for that release says otherwise.
+## Start from the installed template
 
-1. Copy the template to a new folder and place it under version control.
-2. Open the copied folder in Visual Studio Code.
-3. Build the unmodified template first and retain its output as the baseline.
-4. Locate the handler for the CLData command to change.
-5. Ask for a small typed change and include the expected output.
-6. Build, debug with representative CLData, and inspect the generated NC program.
+The normative starting point for a new postprocessor is the template shipped with the installed CAM system, in `Supplement/Postprocessor/DotNet/Templates` — `EmptyPost` or `SimplePost`.
 
-## API boundaries
+1. Copy the template folder to a new working folder and put it under version control.
+2. Rename the folder and the `.csproj` consistently. Leave the SDK package reference, the target framework and the project settings as the template has them: they belong to the installed release, and a version chosen from memory produces a project that builds and then fails at run time.
+3. Build the unchanged copy first and keep the result as the baseline. If the untouched template does not build, no later diagnosis is worth anything.
+4. Generate an NC program from that unchanged copy, and keep it as the reference for comparison.
 
-Use .NET property and method names from the installed SDK reference. Do not infer a typed property from a raw CLD index when the SDK provides a named value. Keep compatibility decisions tied to the copied template and installed SDK rather than hard-coding a version in this guide.
+There is no project-creation wizard yet, and none is needed: copy and rename is the supported way.
 
-## Beta runner requirements
+## The cycle
 
-For the current beta, the InpCore fallback must support `-settingsdump` and
-produce the required JSONL settings output. Check the installed executable by
-running its documented help or settings-dump procedure before a workflow that
-depends on it. A missing switch or non-JSONL result is an unsupported runner;
-record the limitation instead of guessing an alternative.
+1. Inspect the test project's CLData and find the command you need. The Inspector shows every command in the typed .NET projection as well — the interface, the handler name and the property values — and can copy a parameter name in the form you paste into C# code.
+2. Locate the typed handler for that command. Ask the assistant to list the handlers of the project and open the relevant one.
+3. Make one small change, with the expected NC output stated in advance. Use the named typed properties from the SDK rather than raw indexes when the SDK provides them.
+4. Build. Treat warnings as information about your change, not as noise to be silenced.
+5. Run on the test project and read the run report: the NC file it produced, the messages, the result code.
+6. Compare the generated program with the baseline and continue with [Review and verify](review-and-verify.md).
 
-DotNet Posts 0.2.0 API operations must be used in the order advertised by the
-installed integration: discover/status, setup when needed, then inspection,
-build/run, and diagnostics. Keep the agent/client configuration separate from
-the postprocessor project's `.csproj` and source files. Do not add tool wiring
-to the template unless the installed integration explicitly requires it.
+## Running from VS Code
 
-## AI-specific checks
+DotNet Posts drives the run and reports it back in the **Generate NC** panel, the same way SPPX Tools does. Two entry points cover both situations: **Generate NC Program** works with the postprocessor project open in the workspace and finds the built assembly itself, and **Generate NC Program from DLL…** takes a compiled postprocessor you point at, without any sources — which also means you can keep several postprocessors in separate **Generate NC** tabs and compare their output on the same project.
 
-Review null and boundary handling, file encoding, culture-sensitive formatting, modal state, tool compensation, coordinate transformations, and exception paths. Generated C# must be compiled and exercised with representative operations before it is trusted.
+`dotnetPosts.autoBuild` makes the extension build the project before a run, so an edit is never tested against a stale assembly. The panel also has the commands the assistant uses to work with you: listing and opening handlers, highlighting a range of code, reporting where your cursor is, and opening the current CLData in the Inspector.
+
+## The batch runner
+
+Underneath, a run is `InpCore.exe` processing the project in batch mode. Two of its modes matter here.
+
+**Extracting the settings.** A postprocessor carries its default settings inside the assembly. The runner can write them out as a `Settings.xml` next to the input, which is what makes it possible to run a postprocessor you have no sources for. If the installed runner does not support this, it is an older build than this workflow needs — check the version before concluding that the postprocessor is at fault. Note that the settings format is not identical to the SPPX one; use the file the runner produced rather than a hand-written one.
+
+**Processing a project.** The runner reports progress as a stream of events — start, progress, the output file, and a final event with the result code — and its process exit code repeats the outcome. A run is successful only when both the final event and the exit code say so; a runner that ended silently produced nothing worth comparing.
+
+## What to check in the code
+
+Review null handling and boundary values, units, culture-sensitive number formatting, the encoding and line endings of the output file, modal state kept between commands, tool compensation, coordinate transformations, and the exception paths. Generated C# has to be built and exercised on representative data before it is trusted — for a typed API the compiler catches a smaller share of the real mistakes than it appears to.

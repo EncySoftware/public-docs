@@ -2,9 +2,11 @@
   href: index.md
 - name: "How the system works"
   href: how-it-works.md
-- name: "CAM Agent"
+- name: "Set up the tools"
+  href: setup.md
+- name: "Develop with CAM Agent"
   href: cam-agent.md
-- name: "Visual Studio Code workflow"
+- name: "Develop in Visual Studio Code"
   href: vscode.md
 - name: "SPPX workflow"
   href: sppx-workflow.md
@@ -16,5 +18,3 @@
   href: troubleshooting.md
 - name: "Advanced setup"
   href: advanced-setup.md
-- name: "Available skills"
-  href: index.md#available-skills

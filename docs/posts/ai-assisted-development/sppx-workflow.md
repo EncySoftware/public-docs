@@ -1,23 +1,35 @@
 ﻿# SPPX workflow
 
-Use this workflow for mask-based postprocessors written in SPPX. SPPX reads the same CLData as .NET, but uses its own commands, masks, registers, and language syntax.
+An SPPX postprocessor is a set of **handlers** — one per CLData command — plus subroutines, objects and registers, written in the built-in Pascal-like language, with output formatting described by masks. The assistant works on exactly these items through the InP MCP server, and the cycle is always the same: read, change, compile, run, compare.
 
-## Develop a change
+For the language and the mask reference, see the Postprocessors generator documentation; for the meaning of the input commands, see the [CLData reference](../cldata/cldata.md).
 
-1. Identify the CLData command and its parameters.
-2. Find the existing SPPX program or mask that handles the command.
-3. Ask the assistant to explain the current path before changing it.
-4. Request a minimal mask or program change with an explicit example of expected NC output.
-5. Discover the installed Postprocessors generator and its advertised SPPX operations; use the supported UI or local runner when no SPPX MCP operation is available.
-6. Generate test NC code with that supported path.
-7. Compare the result with the expected blocks, then test omitted, repeated, and boundary values.
+## The cycle
 
-Do not mix .NET property names with SPPX syntax. The shared CLData pages describe the command semantics; the SPPX pages describe the access form.
+1. **Prepare.** Copy the postprocessor, or commit the current state, so the comparison has a baseline. Generate the NC program once before any change and keep it.
+2. **Find the data.** Identify the CLData command behind the NC blocks you want to change, and read its actual parameters from the test project. The command name alone is not enough: the same command carries different values in different projects.
+3. **Find the handler.** The postprocessor structure lists handlers, subroutines and objects. The handler named after the command is where processing starts, but the output may be produced further down — in a subroutine, a mask, or on the next modal state change.
+4. **Read before writing.** The assistant must read the current source of the item it is about to change, and the register definitions if registers are involved. Editing what it has not read is how unrelated code disappears.
+5. **Change the minimum.** Preserve register order and formatting, modal behaviour, separators, the state kept in `Common` and local variables, and the existing subprogram conventions. Adapted donor code from another postprocessor has to be checked against this project's data, not pasted.
+6. **Compile.** Every reported error must be fixed before going further; there is no point in running a postprocessor that did not compile.
+7. **Run.** Interpret the same test project and get the NC program. A change that was never run is not finished, whatever the code looks like.
+8. **Compare.** Diff the new NC program against the baseline, then against the reference program from the machine. Trace every difference to a command and a handler — including differences you did not expect.
+9. **Verify.** Continue with [Review and verify](review-and-verify.md).
 
-## AI-specific checks
+## What the assistant can and cannot change
 
-Ask the assistant to preserve register formatting, modal behavior, subprogram handling, and existing mask conventions. Review every conditional branch and every direct output operation. If the SPPX service, selected instance, or runner is unavailable, fall back to the installed UI/documented local tool and record that path. A plausible-looking mask can still emit unsafe or incomplete machine code.
+Handlers are fixed: there is one per CLData command, and they can be edited but not created or deleted. Subroutines and objects can be created. Deleting an item is irreversible, so the assistant asks before doing it — read the request before you confirm.
 
-## Useful context
+An edit replaces the whole body of an item. This is why read-before-write matters: the assistant must send back the code it read with your change applied, not a fragment.
 
-Provide the relevant mask, the command description, a short CLData listing, and a known-good output sample. Do not provide an entire customer project when a reduced example is sufficient.
+## Watching it work
+
+Ask the assistant to work in a **windowed** InP instance when you want to see the IDE: it opens the handler it edited, and the compile messages and the generated program are in front of you. A **headless** instance is for batch checks and parallel runs — nothing appears on screen.
+
+If several InP instances are running, the assistant has to address one explicitly; an ambiguous request fails rather than picking one at random. In VS Code you can also ask it to open the changed handler in the editor, or to prepare a **Generate NC** run so you see the panel, the parameters and the diffs yourself.
+
+## What to check in the code
+
+Register formatting and modal output are where AI-drafted handlers usually go wrong: a value written unconditionally instead of on change, a modal register left set, an axis word emitted with the wrong sign or in the wrong order. Review every conditional branch and every direct output statement, and test the values the fixture does not contain — omitted parameters, repeated commands, boundary and maximum values, and the transitions at program start and end.
+
+Do not let .NET property names appear in SPPX code. The two subsystems read the same data with different syntax: the CLData pages describe the meaning, the SPPX pages describe the access form, and index bases differ between them.

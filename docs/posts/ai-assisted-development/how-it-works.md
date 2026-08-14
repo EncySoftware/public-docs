@@ -1,63 +1,62 @@
-﻿# How AI-assisted development works
+﻿# How the system works
 
-AI-assisted development combines a human developer, an editor, a model, local documentation, and the postprocessor tools. The model suggests text or code; the local tools and the developer decide whether that suggestion is correct.
-
-## Component and role map
+Four kinds of components take part. Knowing which is which saves most of the confusion when something does not work.
 
 ```text
-Developer
-   |
-   v
-AI client (for example, VS Code chat) <---- local public-docs fallback
-   |
-   +--> CAM Agent --------------------------> CAM host / project context
-   |       |                                 (windowed or headless InP)
-   |       +--> InP MCP --------------------> InP operations and inspection
-   |       +--> Postprocessor Tools --------> SPPX and .NET postprocessing
-   |       +--> CLData MCP -----------------> read-only CLData inspection
-   |
-   +--> .NET Posts / InpCore or SPPX runner -> generated NC
-                                               |
-                                               v
-                                      simulator + human review
+        you
+         |
+   AI chat client                        knowledge
+   (CAM Agent, or an     <-------------  skills + this documentation
+    extension in VS Code)                (as local Markdown, or from a RAG service)
+         |
+         |  MCP tools                    what the assistant can do
+         +--> CLData MCP  (InpCoreMCP.exe)      read the input data
+         +--> InP MCP     (inp-mcp-server.exe)  read, edit, compile and run an SPPX postprocessor
+         |
+         |  VS Code commands and links    what you see
+         +--> CLData Inspector                  the actual commands and parameters
+         +--> SPPX Tools                        the postprocessor code, Generate NC
+         +--> DotNet Posts                      the C# project, Generate NC
+         |
+         v
+   InP / InpCore.exe  ------------------> the generated NC program
+                                                |
+                                                v
+                                          simulation and your review
 ```
 
-CAM Agent is the host integration. InP MCP is the tool interface for InP; it is
-not the same thing as either windowed InP or headless InP. CLData MCP reads the
-input model. Postprocessor Tools and the subsystem runners build or execute a
-postprocessor. The developer remains responsible for approving changes.
+## The components
 
-## Current beta components
+| Component | What it is | What it is not |
+|---|---|---|
+| AI chat client | Where you state the task and see the answer: the CAM Agent chat, or a chat extension in VS Code | Not a postprocessor tool by itself; without MCP servers it can only talk |
+| Skills | Markdown procedures that tell the assistant which tools to call and what to check | Not a replacement for the language and CLData reference |
+| CLData MCP (`InpCoreMCP.exe`) | Read-only access to the input data: files, sections, commands, named parameters, machine information | It never changes CLData and never runs a postprocessor |
+| InP MCP (`inp-mcp-server.exe`) | Drives the postprocessor IDE: structure, source code, registers, compile, interpret | Not the IDE itself, and not a .NET postprocessor tool |
+| CLData Inspector | The VS Code panel that shows you what the assistant found in the data | Not a data editor |
+| SPPX Tools | The VS Code extension for `*.sppx`: highlighting, outline, navigation, Generate NC | Not the compiler; it drives the installed generator |
+| DotNet Posts | The VS Code extension for C# postprocessors: setup, navigation, build and run | Not a C# language service; that is the C# extension |
+| InP | The postprocessor IDE and runtime for SPPX; runs windowed or headless | Not a CAM system and not a simulator |
+| `InpCore.exe` | The batch runner for .NET postprocessors: extracts settings, processes a project | Unrelated to SPPX postprocessors |
 
-| Component | Role in this guide | Beta boundary |
-| --- | --- | --- |
-| CAM Agent | Connects the AI client with the CAM host and project context | Availability depends on the supported host and installation |
-| Windowed InP | UI-backed project selection and visual inspection | Requires a host UI; it is not a batch runner |
-| Headless InP | Repeatable file and batch operations | Has no UI context and does not provide safety approval |
-| InP MCP | Exposes supported InP operations to an AI client | Use only commands advertised by the installed service |
-| CLData MCP | Read-only command, structure, and parameter inspection | It does not change CLData or prove machine safety |
-| Postprocessor Tools 0.9.27 | SPPX and .NET postprocessor development support | Check installed capabilities before relying on an example |
-| DotNet Posts 0.2.0 | .NET postprocessor setup, navigation, and execution integration | Use the installed API and separate agent configuration |
+Two mistakes are worth naming, because they cost the most time. **InP MCP is not InP**: the server is an adapter that drives an InP instance, and it fails with a clear error when no instance is available. **`InpCore.exe` is not headless InP**: `InP.exe` runs SPPX postprocessors, `InpCore.exe` runs .NET postprocessors, and each has its own batch mode.
 
-Versions and capabilities are installation facts. Record them with test results.
+## Windowed and headless
 
-## Architecture
+An SPPX postprocessor is executed by InP, which the assistant can start in either of two modes.
 
-1. You describe a small task in the editor or agent interface.
-2. The assistant receives only the selected or explicitly available context.
-3. The assistant uses documentation, source files, and tool output to form a draft.
-4. You inspect the proposed changes and apply only the useful parts.
-5. SPPX or .NET tools compile, run, or debug the postprocessor.
-6. You compare output with the expected toolpath and verify the result in simulation.
+**Windowed** opens the IDE you can watch. Use it whenever you want to see what the assistant is doing: the code it changed, the compile messages, the NC program it produced. This is the default and the right choice when you are at the computer.
 
-The central data contract is CLData. Both postprocessing subsystems consume the same commands and parameters, although SPPX and .NET use different access syntax. The AI should therefore reason from the CLData command and parameter description, not invent a second input model.
+**Headless** starts a worker without a window. Use it for batch checks and for several parallel runs. There is nothing to look at, and nothing to approve — a headless run is exactly as trustworthy as the review you do afterwards.
 
-## Hybrid workflows
+Both modes need a CAM installation new enough to ship the instance manager. If the assistant reports that the manager is unavailable, open InP from the CAM system yourself and let the assistant connect to it.
 
-Use the workflow that matches the task. Ask an assistant to explain a CLData command, use SPPX for an existing mask-based postprocessor, and use .NET for typed code, debugging, or larger integrations. A single project can use both subsystems, but their source files, APIs, and build steps must remain distinct.
+## CLData is the contract
 
-Local context is preferred for customer-specific work. The public documentation in this module is a fallback reference when a connected documentation service is unavailable. It is not a live view of every installed product version.
+Both postprocessing subsystems consume the same commands and parameters. The difference is only in how the code addresses them: the SPPX language and the .NET SDK use different syntax and different index bases for the same values. This is why the assistant should always read the actual project through CLData MCP rather than reason from a command name: the documentation explains what a command means, and the project says what it actually contains.
 
-## What the assistant can and cannot do
+## What the assistant does well, and what it cannot do
 
-The assistant can summarize documentation, propose a handler or mask change, identify likely missing cases, and help write tests or review checklists. It cannot know machine behavior that is not represented in the supplied context, guarantee syntactically valid output, operate a CNC safely, or approve a postprocessor for production.
+It is good at finding the command that produced a given NC block, explaining an unfamiliar handler, drafting a small change with the conventions of the surrounding code, listing the cases a handler forgets, and comparing two NC programs block by block.
+
+It cannot know machine behaviour that is not in the data or the documentation, guarantee that generated code compiles, judge whether a motion is safe, or take responsibility for a postprocessor released to production. Compilation and a successful run prove that the software worked, not that the program is correct.

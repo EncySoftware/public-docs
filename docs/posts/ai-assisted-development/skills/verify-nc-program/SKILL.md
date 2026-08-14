@@ -1,44 +1,45 @@
 ﻿---
 name: verify-nc-program
-description: Independently review generated NC code and its source change; require simulation and human approval before production use.
+description: Review a generated NC program and the change behind it, state how far the check went, and leave production approval to a qualified person.
 ---
 
 # Verify NC programs
 
-## Trigger and when to use
+## When to use
 
-Use this skill for every generated or changed NC program before acceptance, regardless of whether the source is SPPX or .NET and regardless of build success.
+Before any generated or changed NC program is presented as a result — SPPX or .NET, regardless of how cleanly it built.
 
-## Prerequisites and tool discovery
+## What you need
 
-- Obtain the source diff, postprocessor/tool versions, actual CLData fixture, baseline NC, new NC, machine/controller context, and expected behavior.
-- Discover the available generator/runner, CLData-to-output trace, simulator, machine-specific verification, and diff tools. Record their versions and do not claim unsupported checks.
-- Ensure a qualified human reviewer can approve the result; simulation and review are not delegated to the agent.
+The source diff, the postprocessor and tool versions, the project the program was generated from, the baseline NC program, the new NC program, the machine and control system, and the expected behaviour. If the baseline is missing, generate one from the unchanged postprocessor before comparing.
 
-## Safe workflow
+## State how far the check went
 
-1. Confirm the diff contains only the requested change and that source, encoding, line endings, output names, and error handling are appropriate.
-2. Re-run or reproduce the postprocessor from the recorded fixture. Test normal, empty, omitted, repeated, maximum, unsupported, and boundary inputs as relevant.
-3. Compare baseline and new NC, starting at the first differing block. Trace differences to CLData commands and handlers.
-4. Review headers, tool changes, spindle, coolant, feeds, work offsets, units, coordinate transforms, compensation, retracts, rotary axes, limits, subprograms, synchronization, program end, and error behavior.
-5. Run the complete result through the appropriate simulator and machine-specific verification. Investigate warnings rather than suppressing them.
-6. Have a human inspect and approve the evidence before production use; record reviewer, date, fixture, source revision, and tool versions.
+Report exactly one of these, and never upgrade it without the evidence:
 
-Classify each check as **Verified** (reproduced with recorded evidence),
-**Partially verified** (some evidence exists but a required case or tool is
-missing), **Unverified** (not run or inferred), or **Blocked** (a required
-check failed or evidence is missing). Compilation, a successful runner exit,
-and a text comparison are not machine-safety verification.
+| State | Requires |
+|---|---|
+| **Not verified** | Only a plan, a diff or a build exists |
+| **Technically verified** | The run completed, and the log, result code and generated file are kept; the NC content has not been reviewed |
+| **Verified on a test project** | Baseline and new program compared on the test and boundary sections, machine parameters checked |
+| **Approved for production** | A qualified person confirmed it for a specific machine and control system — you cannot assign this state |
 
-## Prohibited and unsafe actions
+## Workflow
 
-- Do not certify NC from compilation, a zero exit code, a text diff, or a visual plausibility check alone.
-- Do not skip simulation, ignore warnings, bypass interlocks, change machine configuration to make output pass, transmit code to a controller, or authorize production autonomously.
+1. Check that the diff contains the requested change and nothing else, and that output file name, encoding, line endings and error handling are as expected.
+2. Reproduce the run from the recorded project. Exercise the cases the fixture does not cover as far as the data allows: omitted, repeated, maximum and unsupported values.
+3. Diff the programs and start at the first differing block. Trace each difference to a CLData command and the code that produced it. Unintended differences matter more than intended ones.
+4. Review the program as a whole: machine, control system, units and work coordinate system; program start and end; tool changes, spindle, feeds, coolant, safe positions; signs, axis order, compensation, work offsets, retracts; cycles, subprograms, rotary motion, limits, synchronization; and whether the program still corresponds to the original toolpath.
+5. Name what only a person or a simulator can settle, and say so plainly instead of implying it was covered.
+6. Report the state from the table, with the evidence and its location.
 
-## Completion criteria
+## Rules
 
-Completion requires source and NC diffs, representative edge-case results, command-level investigation of differences, successful applicable simulation/machine verification, and explicit human approval. If any item is unavailable, mark the program not accepted.
+- Compilation, a zero exit code, a plausible-looking listing and a matching text diff are not verification.
+- Do not suppress warnings to make output pass, and do not change machine configuration or postprocessor settings to make a comparison succeed.
+- Do not transmit a program to a control system, and do not describe a result as safe or production-ready.
+- Do not claim simulation or machine checks that were not run.
 
-## User-visible presentation
+## Done means
 
-Present a pass/fail checklist, first differences and their causes, safety-relevant observations, simulator and machine-verification results, evidence locations, reviewer, and any blocked or unverified item. State plainly that passing this skill is not a substitute for site procedures.
+The source and NC diffs were reviewed, differences are explained at command level, the reachable edge cases were exercised, the verification state is stated with its evidence, and the checks left to the user — simulation, machine verification, approval — are named explicitly.

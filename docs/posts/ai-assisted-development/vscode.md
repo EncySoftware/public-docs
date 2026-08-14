@@ -1,46 +1,41 @@
-﻿# Visual Studio Code workflow
+﻿# Develop in Visual Studio Code
 
-Visual Studio Code is the common editing surface for AI-assisted postprocessor work. The SPPX workflow uses its source and mask files; the .NET workflow uses a copied SDK template and C# source.
+In VS Code you stay in control of the code: you see every diff, run the generator yourself when you want to, and keep the postprocessor in version control as usual. The assistant is a chat extension of your choice; the postprocessor-specific work is done through the MCP servers, and the results are shown to you by the three extensions from the tools bundle.
 
-## Install the working bundle
+Install everything first — see [Set up the tools](setup.md).
 
-Use the automatic setup first when the CAM Agent or AI client offers it. The
-intended bundle is Postprocessor Tools, the AI chat client, CLData MCP for
-read-only CLData inspection, and InP MCP for supported InP operations. These
-have different roles: CLData MCP reads input data, while InP MCP operates the
-advertised CAM/InP context. Confirm actual capabilities after installation.
+## The working cycle
 
-For a manual setup, install or enable each component using its own documented
-instructions, then configure the AI client to use the installed services. Do
-not copy configuration from another release. If the client needs the .NET
-posts location, use `dotnetPosts.installationFolder` and set it to the folder
-containing the installed DotNet Posts integration; verify the path locally.
+1. Work on a copy or a branch of the postprocessor, never on the production file.
+2. Open only the folders that matter: the postprocessor, and the documentation checkout if you use one. A workspace with unrelated repositories in it wastes the assistant's attention.
+3. Open a small test project. Ask the assistant to inspect it — the CLData Inspector then shows you the same commands it read.
+4. State one bounded task, with the expected NC output. Ask for a plan and the evidence behind it before any file is written.
+5. Review the diff as soon as it appears. Reject reformatting and rewrites you did not ask for.
+6. Let it compile and run, or run **Generate NC** yourself. Compare the generated program with the previous run and with the reference program.
+7. Verify the result — see [Review and verify](review-and-verify.md).
 
-## Connectivity smoke test
+For the details of each postprocessor type, continue with the [SPPX workflow](sppx-workflow.md) or the [.NET workflow](dotnet-workflow.md).
 
-Use a non-production project and a small read-only request for each connected
-service. CLData MCP should return a project/file or command summary. InP MCP
-should return only an advertised status or read-only context result. A failed
-or unavailable service is a setup issue, not a reason to substitute guessed
-commands. Never include a write, source edit, NC transmission, or machine
-connection in a connectivity test.
+## How the assistant shows you things
 
-## Recommended sequence
+An assistant running outside VS Code does not know about your editor windows, so the extensions give it a way to point at things. In practice this means:
 
-1. Create a working copy or branch of the postprocessor.
-2. Open only the relevant folders in the workspace.
-3. Read the applicable documentation and existing handlers before asking for a change.
-4. Give the assistant one bounded task with the expected input, output, and constraints.
-5. Review the proposed diff immediately. Reject unrelated formatting or broad rewrites.
-6. Run the native compiler, generator, or test command for the subsystem.
-7. Inspect the NC output and verify the toolpath in simulation.
+- When it finds a command in the data, it can open it in the CLData Inspector — the exact file, command and parameter, in the sidebar or in an editor tab.
+- When it changes a handler, it can open that handler at the relevant line, and highlight a range with a short note attached. Highlights disappear as soon as the file is edited.
+- When it wants to show you a run, it can open the **Generate NC** panel with a configuration prepared and, if you asked for it, start the generation.
 
-Use workspace instructions to state naming, output format, and safety requirements. Do not place passwords, tokens, machine credentials, or unnecessary customer files in prompts or repository instructions.
+Ask for this when a report is hard to follow: "show me that command in the inspector", "open the handler where you changed the offset". It is faster to read than a quoted fragment, and it shows the code as it actually is now.
 
-## Context selection
+The panel run and the assistant's own run are not the same thing. Through MCP the assistant runs the postprocessor silently and reads the output itself — that is how it checks its own work. The **Generate NC** panel is for you: the configuration, the post input parameters, the progress, the errors in **Problems** with links into the handler code, and the diffs against the previous run and against the reference program.
 
-Prefer a small set of authoritative files: the relevant CLData page, the existing handler, the machine-specific conventions, and a representative test input. If a local public-docs checkout is available, use it as a fallback reference. Mark assumptions when the installed documentation or SDK differs from the checkout. A future RAG MCP may provide retrieval, but it is outside the current beta boundary and is not required for this workflow.
+## Let the assistant keep its own run configuration
 
-## Safe editing
+The **Generate NC** panel stores named configurations: which project to process, where to write the NC file, which post input parameters to use. Ask the assistant to create its own — for example `Agent check` — instead of reusing yours. It can clone the active configuration, set the project, the output path and the parameter values, and run it. Your own settings then stay untouched, and the two runs can be compared.
 
-Ask for a plan before a multi-file change. Keep generated output outside source directories when possible. Use version control to inspect every change, and never let an assistant directly send NC code to a machine.
+## Context and safety
+
+Give the assistant a small set of authoritative sources: the handler in question, the relevant page of the CLData reference, a reduced test project, and a known-good NC program. A whole customer project rarely improves the answer.
+
+Use the workspace instruction file (`CLAUDE.md`, `AGENTS.md`, `.clinerules`, depending on the client) to state the conventions that always apply: naming, output format, the machines involved, the requirement to run the postprocessor before reporting success. Do not put credentials, tokens or customer archives there, and keep generated NC output out of the source folders.
+
+Ask for a plan before a multi-file change, keep every change in version control, and never let an assistant transmit a program to a machine.

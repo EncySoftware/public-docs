@@ -1,31 +1,48 @@
 ﻿# Review and verify
 
-AI assistance changes how drafts are produced, not how postprocessors are approved. Use an independent review path for every source change.
+AI assistance changes how a draft is produced. It does not change how a postprocessor is accepted. A successful build and a clean run prove that the tools worked — nothing more.
 
-## Source review
+## Say how far the check went
 
-- Confirm that the diff contains only the requested change.
-- Check the command, parameter names, units, coordinate systems, and modal assumptions against CLData documentation.
-- Compile or generate the postprocessor with the installed tools.
-- Exercise normal, empty, repeated, maximum, and unsupported inputs.
-- Check file encoding, line endings, output file names, and error handling.
+Use one of four states, and keep the evidence for it. The point is to make an unfinished check visible instead of calling everything "done".
 
-Classify evidence instead of using a single pass label:
+| State | What it means |
+|---|---|
+| **Not verified** | There is a plan, a diff or a build, but the postprocessor was not run on a recorded project |
+| **Technically verified** | The run completed as expected and the log, result code and generated file are kept; the content of the NC program has not been reviewed |
+| **Verified on a test project** | The baseline and the new NC program were compared on the test and boundary sections, and the machine parameters were checked |
+| **Approved for production** | A qualified engineer confirmed the program for a specific machine, control system and application |
 
-- **Verified**: reproduced with the recorded tool, fixture, and version.
-- **Partially verified**: some checks passed, but a required input, runner, or
-  edge case was unavailable.
-- **Unverified**: inferred, mocked, or not run.
-- **Blocked**: the result cannot be accepted because a required check failed or
-  evidence is missing.
+Only the last state allows production use, and only a person can grant it. Never describe a result as ready or safe on the strength of a process exit code.
 
-Compilation, a successful tool exit, and a matching text sample are source or
-functional evidence only. They are not machine-safety verification.
+## Review the source change
 
-## NC and machine review
+- The diff contains the requested change and nothing else — no reformatting, no unrelated rewrites.
+- Command names, parameters, units, coordinate systems and modal assumptions match the CLData reference and the actual project data.
+- The postprocessor compiles, and the compile messages were read rather than skipped.
+- Normal, omitted, repeated, maximum and unsupported inputs were exercised, not only the one case in the fixture.
+- Output file name, encoding, line endings and error handling are as the machine expects.
 
-Compare generated blocks with a known-good result. Inspect tool changes, spindle and coolant states, compensation, work offsets, retracts, rotary motion, subprogram calls, and program end. Run the result through the appropriate simulator and machine-specific verification. Mark each result with the classification above; missing simulation or machine verification is **Blocked**, not passed.
+## Review the NC program
 
-## Trust boundaries
+Compare against a known-good program and start at the first differing block; a difference early in the program often explains everything after it. Trace each difference back to the CLData command and the handler that produced it.
 
-Do not allow an assistant to approve code, change machine configuration, bypass a safety check, or transmit a program to a controller. Keep human approval between generated output and production use. Record the tool versions, source revision, test input, and reviewer when the change matters operationally.
+Check the program as a whole:
+
+- the selected machine, control system, units and work coordinate system;
+- program start and end, including the final positioning and program stop;
+- tool changes, spindle, feeds, coolant and safe positions;
+- signs, axis order, compensation, work offsets and retracts;
+- cycles, subprograms, rotary motion, limits and synchronization;
+- no unexpected motion, no missing commands, no leftover blocks;
+- the program still corresponds to the original toolpath, on the test section and on the boundary cases.
+
+Then run it through the simulator and through the machine-specific verification you normally use. Investigate warnings instead of suppressing them.
+
+## Keep the evidence
+
+Store the source diff, the input project, the postprocessor version, the run report and the generated program together, and record who reviewed it and when. When a problem surfaces later, this is what makes it possible to tell a postprocessor change from a data change.
+
+## What the assistant must not do
+
+It must not approve code, change machine configuration to make output pass, bypass a check, or transmit a program to a control system. Human approval stays between the generated output and production use.

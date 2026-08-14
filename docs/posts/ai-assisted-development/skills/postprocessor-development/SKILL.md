@@ -1,44 +1,54 @@
 ﻿---
 name: postprocessor-development
-description: Plan and coordinate safe AI-assisted development of SPPX or .NET postprocessors from real CLData through reviewed NC output.
+description: Coordinate AI-assisted development of an SPPX or .NET postprocessor — from the real CLData through a reviewed NC program. Use this first, then the type-specific skill.
 ---
 
 # Postprocessor development
 
-## Trigger and when to use
+## When to use
 
-Use this skill when a user wants to create, adapt, debug, or review an SPPX or .NET postprocessor, or when the requested NC behavior is not yet mapped to a handler. Use it as the coordinator before invoking the more specific inspection, SPPX, .NET, or NC-verification skills.
+The user wants to create, adapt, debug or review a postprocessor, or asks why an NC program looks the way it does. Start here, then hand over to `inspect-cldata`, `develop-sppx-postprocessor`, `develop-dotnet-postprocessor` and `verify-nc-program`.
 
-## Prerequisites and tool discovery
+## Establish the facts first
 
-- Identify the CAM release, machine/controller context, post type, source location, representative project or CLData, and expected NC change.
-- Discover the tools actually available in the current client: documentation/RAG or local Markdown, CLData inspection, SPPX tools, .NET Posts, a generic C#/.NET build tool, and InPCore or another supported runner.
-- Ask each tool for its advertised commands and capabilities. Do not assume a future MCP, a particular command name, or a headless feature exists.
-- Prefer, in order, real project/runtime values, current official documentation and installed templates, public distributable posts, then carefully marked general knowledge.
-- Request the smallest representative fixture and known-good NC sample; remove credentials, machine secrets, and unnecessary customer data.
+Before planning anything, know these five things. Ask for what is missing instead of assuming it.
 
-## Safe workflow
+1. **Postprocessor type** — SPPX (`*.sppx`, `*.spp`, `*.inp`) or .NET (a C# project or a compiled assembly). The tools and the whole workflow differ.
+2. **The postprocessor** — the file or project path, and whether it is a copy you may change.
+3. **A test project** — a CAM project (`*.stcp`, `*.stc`) or a `*.inpcld` file with a short, representative toolpath.
+4. **The requested change**, expressed in NC output: which block is wrong, what it should be, on which machine and control system.
+5. **A reference** — the current NC program, and a known-good program if one exists.
 
-1. State the target post type and the requested observable NC behavior.
-2. Read the relevant CLData documentation and inspect the actual project before proposing code.
-3. Trace the command to its existing SPPX mask/program or .NET handler; explain that path before editing.
-4. Choose the smallest compatible change and define expected blocks, modal transitions, and edge cases.
-5. Apply the type-specific development skill. Preserve existing formatting, registers, modal state, coordinate and compensation conventions.
-6. Build or compile with installed tools, then run a reduced fixture and compare generated output with the expected and known-good output.
-7. Use the verification skill for an independent NC review, including simulation where available.
-8. Present changed files, tool/runtime versions, test input, output location, deviations, and unresolved risks. Keep human approval before production use.
+Then check which tools you actually have: CLData tools (`cld_*`), InP tools (`pp_*`), the VS Code extension commands, a `dotnet` build tool, documentation as local Markdown or through a retrieval service. Report what is missing rather than substituting a guess for it.
 
-## Prohibited and unsafe actions
+## Trust order for facts
 
-- Do not invent CLData mappings, SDK properties, tool signatures, register defaults, or machine behavior.
-- Do not replace a full customer project with an unreviewed fixture, silently change machine configuration, bypass safety checks, transmit NC, or approve production use.
-- Do not treat compilation, a successful runner exit, or plausible-looking NC as proof of safe motion.
-- Do not expose secrets or commit unrelated/generated files.
+1. Values read from the actual project and results of actual runs.
+2. The official documentation for the installed release, and the templates shipped with it.
+3. Distributed postprocessors supplied with the product.
+4. Patterns seen repeatedly across an internal postprocessor corpus — evidence, not specification.
+5. General knowledge, only when marked as an assumption.
 
-## Completion criteria
+A CLData command name never determines its parameter values. Read the project.
 
-The task is complete only when the requested source change is minimal and explainable, actual CLData was inspected, the selected tool path was built/run or its limitation recorded, representative NC was reviewed, and independent human/simulation verification remains explicit.
+## Workflow
 
-## User-visible presentation
+1. Restate the task as an observable difference in the NC program, and name the acceptance check.
+2. Run `inspect-cldata` to find the command and its real parameters in the test project.
+3. Locate the code that processes it — an SPPX handler or a typed .NET handler — and explain the current path to the output before changing anything.
+4. Plan the smallest change that produces the expected output. State the expected blocks, the modal transitions and the edge cases.
+5. Apply the type-specific skill to make the change, compile it and run it.
+6. Run `verify-nc-program` on the result.
+7. Report: files changed, evidence from the project, build and run results, the NC differences with their causes, verification state, and what remains for the user to check.
 
-Report the plan, evidence from the real project, exact files changed, build/run results, first differing or relevant NC blocks, verification status, and risks. Separate verified facts from assumptions and clearly mark anything that still requires user or machine-specific review.
+## Rules
+
+- Do not invent CLData mappings, parameter names, SDK properties, tool signatures or register defaults.
+- Do not edit an item without reading its current content first.
+- Do not change machine configuration, delete items to make something pass, or transmit an NC program anywhere.
+- Do not call the task done without a run: compilation and a zero exit code are not results.
+- Do not use a full customer project where a reduced fixture works, and keep credentials and customer data out of the conversation.
+
+## Done means
+
+The change is minimal and explainable, it is based on data actually read from the project, the postprocessor compiled and ran, the generated NC program was compared with the baseline and reviewed, the verification state is stated explicitly, and the remaining human checks are named.

@@ -1,34 +1,41 @@
 ﻿# Advanced setup
 
-Advanced setup is for teams that need repeatable context and controlled automation. It does not add capabilities that are not provided by the installed tools.
+This page is for the cases the basic setup does not cover: a team that needs repeatable results, an automated check, or a manual configuration when the automatic one is unavailable.
 
-## Automatic, then manual setup
+## Manual setup when there is no automatic one
 
-Run the installed CAM Agent or AI client's automatic setup/check first. Then
-perform the read-only connectivity smoke tests described in the VS Code page.
-If setup does not cover a component, configure it manually from the installed
-release documentation. Record the client, CAM Agent, MCP services, and tool
-versions; do not assume that a successful setup check means a postprocessor is
-correct.
+The automatic setup offered by CAM Agent or by your client configures what it knows about. Everything else is done by hand, and everything can be done by hand: install the extensions from the bundle, set the installation folder of each extension, write the MCP configuration for your client, and point the assistant at the documentation. [Set up the tools](setup.md) covers each of those steps with the concrete file names and settings; nothing on this page replaces them.
 
-## Local documentation fallback
+When you report a problem, record the versions: the CAM system, the extensions bundle, CAM Agent, the MCP servers and the AI client. Most "it worked yesterday" reports are version differences.
 
-Keep a read-only checkout of `public-docs` near the development workspace. Point the assistant or tool at the smallest relevant module, such as `docs/posts/cldata`, `docs/posts/sppx`, `docs/posts/dotnet`, or this module. Record the checkout revision when documentation is used for a release decision.
+## Several CAM installations on one computer
 
-## Controlled context
+Each extension points at one installation folder, and the assistant runs whatever is in it. With a released version and a beta version side by side, decide which one the postprocessor is being developed against and set all three settings to it. When you switch, switch all of them — a mixed configuration where CLData is read by one version and the postprocessor is run by another produces results that cannot be reproduced.
 
-Separate source, test projects, generated NC output, and machine configuration. Use allowlisted workspace folders and exclude credentials, customer archives, and unrelated repositories. Prefer reduced CLData fixtures over full projects.
+## Pin the documentation
 
-## Headless automation
+For work that has to be reproducible, keep the documentation checkout at a known revision instead of pulling it constantly, and record that revision together with the postprocessor version. A retrieval service always answers from the current index, which is convenient for exploration and unhelpful when you need to explain why an answer changed.
 
-Run headless checks in a disposable workspace with fixed inputs and captured logs. Give the process the minimum file permissions it needs. Review generated diffs and NC output outside the automation step. Do not connect headless automation directly to a CNC controller.
+## Give the assistant its own workspace
 
-## Service boundaries
+- Its own run configuration in the **Generate NC** panel, so your settings stay as you left them.
+- Its own output folder for generated NC programs, outside the source tree.
+- A branch or a copy of the postprocessor, never the production file.
+- A reduced test project instead of the full customer project. Smaller data means a readable diff and a faster cycle.
+- No credentials, tokens, customer archives or unrelated repositories in the workspace or in the instruction files.
 
-Keep CLData MCP read-only and use it for CLData evidence. Use InP MCP only for
-the InP capabilities it advertises. Postprocessor Tools and DotNet Posts are
-the postprocessor-specific tools; neither replaces simulation or human review.
+## Automated checks
 
-## Future retrieval services
+A headless run is suitable for a repeatable check: a fixed input project, a fixed postprocessor revision, captured logs and a stored NC program. Two rules keep it useful. Run it in a disposable working folder, so a failed run cannot leave a half-modified postprocessor behind. And review the diffs and the NC output outside the automation — an automated pipeline can tell you that output changed, never that the change is correct.
 
-A RAG MCP could later retrieve versioned CLData, SPPX, .NET, and machine documentation. That service is outside this beta's boundary: it is not described as available, authoritative, or safe by default, and it must not silently replace local evidence. Until it is implemented and validated, local public-docs content and installed product documentation remain the fallback sources.
+Do not connect an automated chain to a control system, and do not give it write access to production postprocessors.
+
+## Rules worth writing into the instruction file
+
+Put the requirements that always apply where the assistant always reads them — the workspace instruction file, or the skills. The ones that pay off in practice:
+
+- read the actual project data before proposing a change, and cite the values used;
+- read the current source of an item before editing it;
+- compile, then run, then compare with the baseline — before reporting anything as done;
+- keep the change minimal and explain what it does not cover;
+- never send a program to a machine, and never change machine configuration.

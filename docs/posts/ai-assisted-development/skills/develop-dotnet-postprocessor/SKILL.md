@@ -1,41 +1,62 @@
 ﻿---
 name: develop-dotnet-postprocessor
-description: Develop a compatible C# postprocessor from an installed template, build it, run it through verified DotNet Posts or InpCore, and inspect NC output.
+description: Develop a C# postprocessor from the installed template — build it, run it through DotNet Posts or the batch runner, and inspect the NC output.
 ---
 
 # Develop .NET postprocessors
 
-## Trigger and when to use
+## When to use
 
-Use this skill for C#/.NET postprocessor handlers, SDK projects, and typed CLData behavior. Use it after CLData inspection and before NC verification.
+Work on a C# postprocessor: typed handlers, an SDK project, a compiled postprocessor assembly. Run `inspect-cldata` first and `verify-nc-program` afterwards.
 
-## Prerequisites and tool discovery
+There is no dedicated MCP server for .NET postprocessors. You work with the C# project through the ordinary file and build tools, and the postprocessor-specific parts through the DotNet Posts extension or the batch runner.
 
-- Locate the installed CAM templates, normally under `Supplement/Postprocessor/DotNet/Templates`, and choose `EmptyPost` or `SimplePost` as appropriate.
-- Discover the available generic C#/.NET build tool and the current DotNet Posts integration. DotNet Posts 0.2.0 operations are ordered: discover/status, setup when needed, then inspection, build/run, and diagnostics. Its supported API may include `dotnetPosts.status`, `setup`, `run`, `cancel`, `symbols`, `goto`, `whereAmI`, `inspectCldata`, and `highlight`; query availability rather than assuming every command or argument.
-- Preserve the copied template's framework, SDK/package references, generated files, configuration, and build instructions. Do not select versions from memory.
+## Start from the installed template
 
-## Safe workflow
+New postprocessors start as a copy of a template shipped with the installed CAM system, in `Supplement/Postprocessor/DotNet/Templates` — `EmptyPost` or `SimplePost`.
 
-1. Copy the installed template to a new working folder and rename the folder and `.csproj` consistently. Preserve the template SDK reference.
-2. Open the copy and build the unchanged template with the generic C#/.NET build tool. Record framework, SDK, warnings, and output assembly.
-3. Use `status` to discover DotNet Posts availability, then `setup` only when setup is needed. Do not confuse status with opening or mutating a panel.
-4. Locate the typed handler using the installed SDK reference and `symbols`/navigation if available. Use named typed properties rather than guessed raw CLD indexes.
-5. Make one small change with an explicit expected NC result. Review nulls, units, culture formatting, modal state, compensation, coordinate transforms, output encoding, and exception paths.
-6. Build again. If DotNet Posts `run` is available, run the reduced project/CLData fixture and capture its structured report; use `goto`, `whereAmI`, or `inspectCldata` for diagnosis.
-7. Otherwise use the supported `InpCore.exe` fallback and its documented settings/project invocation. The current beta requires the `-settingsdump` procedure and JSONL output for settings discovery. Verify the installed runtime first; do not invent command-line switches or treat another output format as equivalent.
-8. Compare generated NC with the baseline and pass it to NC verification. Cancel a long run through the advertised `cancel` operation when supported.
+1. Copy the template folder, then rename the folder and the `.csproj` consistently.
+2. Keep the SDK package reference, the target framework and the project settings exactly as the template has them. Never choose a version from memory: the installed release decides it.
+3. Build the unchanged copy and record framework, warnings and output assembly. If the untouched template does not build, stop and report that — nothing after it is diagnosable.
+4. Generate an NC program from the unchanged copy and keep it as the baseline.
 
-## Prohibited and unsafe actions
+## Tools
 
-- Do not hard-code framework or SDK versions, replace template references with guessed packages, or assume a structured API is installed.
-- Keep DotNet Posts agent configuration separate from the copied template, `.csproj`, and postprocessor source.
-- Do not edit before compiling the unchanged template, use unverified SDK properties, ignore build/runtime failures, alter machine settings, transmit NC, or treat a successful exit code as safety certification.
+DotNet Posts commands, available in VS Code and callable by an agent that can execute commands:
 
-## Completion criteria
+| Command | Purpose |
+|---|---|
+| `dotnetPosts.status` | Configurations, paths and post input parameters; read-only, does not open or change the panel |
+| `dotnetPosts.setup` | Prepare a run configuration without starting it |
+| `dotnetPosts.run` | Run the configured generation |
+| `dotnetPosts.cancel` | Cancel a running generation |
+| `dotnetPosts.symbols` / `dotnetPosts.goto` | List the postprocessor handlers; open one |
+| `dotnetPosts.highlight` / `dotnetPosts.whereAmI` | Mark a range of code; report where the user's cursor is |
+| `dotnetPosts.inspectCldata` | Open the configured CLData in the Inspector |
+| `dotnetPosts.generateNC` / `dotnetPosts.generateNCFromDll` | Generate from the workspace project, or from an assembly you point at |
 
-The template copy builds unchanged, its SDK reference is preserved, the typed change builds, a supported DotNet Posts or InpCore run produces inspectable results (or the limitation is recorded), and representative NC has been reviewed.
+`dotnetPosts.autoBuild` builds the project before a run, which prevents testing an edit against a stale assembly. `dotnetPosts.installationFolder` must point at the CAM installation containing the batch runner.
 
-## User-visible presentation
+The batch runner is `InpCore.exe`. It has two modes that matter here: writing the postprocessor's default settings out as a `Settings.xml` next to the input, which is what makes running an assembly without sources possible, and processing a CAM project in batch mode. It reports progress as a stream of events ending with a result code, and the process exit code repeats the outcome — a run counts as successful only when both agree. The settings format is not the SPPX one; use the file the runner produced. If the installed runner does not support extracting settings, report the version limitation instead of hand-writing a settings file.
 
-Report template and SDK provenance, project files changed, build command/results, discovered API capabilities, run/fallback used, output path and report, relevant NC comparison, and unresolved compatibility or safety risks.
+## Workflow
+
+1. Get the command and its real parameter values from `inspect-cldata`, in the `dotnet` path dialect.
+2. `dotnetPosts.symbols` to list the handlers, `dotnetPosts.goto` to open the relevant one. Read the current implementation before changing it.
+3. Make one small change and state the expected NC output. Prefer named typed properties from the SDK over raw indexes wherever the SDK provides them.
+4. Build. Read the warnings that concern your change.
+5. `dotnetPosts.status` to see the configuration, then `dotnetPosts.run` on the reduced project. Capture the report: output file, messages, result code. Use `dotnetPosts.generateNCFromDll` when there are no sources, and `dotnetPosts.cancel` to stop a long run.
+6. If DotNet Posts is unavailable, run `InpCore.exe` directly in batch mode with the settings file produced by the runner, and report that you used the fallback.
+7. Compare the generated program with the baseline, then hand over to `verify-nc-program`.
+
+## Rules
+
+- Do not hard-code framework or SDK versions, and do not replace template package references with guessed ones.
+- Do not edit before the unchanged template builds.
+- Keep your run configuration separate from the project sources: no agent wiring in the `.csproj`, no generated NC inside the source tree.
+- Do not treat a zero exit code as verification, and do not report success without an NC file you compared.
+- Do not change machine settings and do not transmit an NC program.
+
+## Done means
+
+The template copy builds unchanged with its SDK reference preserved, the typed change builds, a run through DotNet Posts or the batch runner produced an inspectable report and an NC file (or the limitation is recorded), the output was compared with the baseline, and the remaining verification is stated as still required.

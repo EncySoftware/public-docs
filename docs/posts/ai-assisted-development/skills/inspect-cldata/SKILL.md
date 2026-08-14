@@ -1,42 +1,57 @@
 ﻿---
 name: inspect-cldata
-description: Inspect actual CLData files, commands, structure, and named parameters without guessing from documentation or raw indexes.
+description: Read the actual CLData of a project — files, sections, commands and named parameters — instead of guessing from documentation. Use before changing any postprocessor code.
 ---
 
 # Inspect CLData
 
-## Trigger and when to use
+## When to use
 
-Use this skill whenever a task depends on a CLData file, command, section, parameter, machine, operation, or project setting. Use it before changing an SPPX mask or .NET handler.
+Whenever the task depends on the input data: a CLData command, a section, a parameter, the machine, the units, or the reason a block appears in the NC program. Always before editing an SPPX handler or a .NET handler.
 
-## Prerequisites and tool discovery
+## Tools
 
-- Obtain a representative `.stcp` project or CLData file and confirm the CAM version, units, machine, enabled files, and data sensitivity.
-- Discover the available CLData MCP/Inspector commands and their current schemas. Prefer named/typed access supplied by the tool over guessed indexes.
-- If no inspector is available, use documented local tools or a reduced exported listing; state the limitation.
+The CLData MCP server (`InpCoreMCP.exe`) is read-only and works without a running CAM system. The calls used below:
 
-## Safe workflow
+| Call | Purpose |
+|---|---|
+| `cld_open_project` | Open a `*.stcp` / `*.stc` project or a `*.inpcld` file; returns the project id, the machine, the units and the file list |
+| `cld_list_files` | Files of the project with their command counts |
+| `cld_get_skeleton` | Section tree of one file plus a histogram of command types inside each section |
+| `cld_list_commands` | A range of commands as a listing, with `include_names` / `exclude_names` filters |
+| `cld_get_command` | One command in full: raw array, named parameters, typed projection |
+| `cld_find_command` | Find a command by name, optionally filtered by values |
+| `cld_get_unique_command_names` | Which commands the project contains at all — that is, which handlers the postprocessor needs |
+| `cld_find_parameter` / `cld_get_parameter` | Locate a parameter by name, then read it by exact path |
+| `cld_get_machine_info` / `cld_get_project_parameter` | Machine description and project-level settings |
 
-1. Open the project with the available CLData tool and record its project identity and machine information.
-2. List files and command counts. Do not begin by dumping a large file.
-3. Read the file skeleton/structure first. Use the skeleton to locate sections and command families.
-4. List a small, relevant command range with indentation; exclude high-volume motion points when they are not relevant.
-5. Fetch specific commands and named parameters, using the syntax dialect required by the target postprocessor. Inspect project parameters separately when needed.
-6. Record actual values, units, coordinate systems, presence/absence, ordering, repetition, and boundary cases. Correlate them with the official CLData command page.
-7. Reduce the fixture to only the commands needed to reproduce the behavior and retain a known-good output sample.
-8. Give the development skill a factual map: command, handler, parameters, values, structure, and unknowns.
+If no CLData tools are available, say so and ask for a reduced export; do not reconstruct the data from documentation.
 
-## Prohibited and unsafe actions
+## Workflow
 
-- Do not skip skeleton-first inspection on a large file or infer structure from a random command sample.
-- Do not treat raw CLD positions as universal mappings, substitute .NET properties for SPPX names, or claim a parameter exists because documentation lists it.
-- Do not modify source, project settings, machine configuration, or CLData while inspecting.
-- Do not disclose full customer projects when a reduced fixture is sufficient.
+1. `cld_open_project` on the project you were given. Record the project id, machine, units and file list, and report them — a mismatch here means you are inspecting the wrong data.
+2. `cld_list_files` and check `command_count`. Never start by dumping a large file.
+3. `cld_get_skeleton` for the file of interest. The skeleton shows the section tree and, in NC-subroutine files, the subroutine boundaries, with a per-section histogram. Note that it is order-free: read a range for order. On files with hundreds of thousands of commands this call is heavy but worth it — it also makes later indented listings cheap.
+4. `cld_list_commands` over a bounded range to see order and context. Exclude the high-volume motion commands when they are not the subject (`exclude_names: ["GOTO"]`), or include only what you are looking for.
+5. `cld_get_command` for the command itself. For a large parameter tree, use `cld_find_parameter` to locate the path and `cld_get_parameter` to read it, extending the path level by level instead of dumping the whole tree.
+6. Choose the path dialect for the code you are going to write: `sppx` for the postprocessor language, `dotnet` for the .NET SDK. The same value has different index bases in the two dialects — 1-based in the SPPX form, 0-based in the typed .NET form. Returned paths are paste-ready in the dialect you asked for; do not translate them by hand.
+7. Record what you found: file, section, command index, parameter paths, actual values, units, and what is absent. Absence in one fixture is not proof that a command never carries the parameter.
+8. Show it to the user when it matters. The CLData Inspector opens the exact command:
 
-## Completion criteria
+   ```text
+   vscode://postprocessor-tools.cldata-inspector/reveal?project=<path>&file=<index|name>&command=<index>&parameter=<name>&where=both
+   ```
 
-Inspection is complete when the relevant real file and machine are identified, the skeleton and command range were examined, required values were obtained through verified paths, and all missing or ambiguous data is explicitly listed.
+   Run it with `code --open-url "<link>"` and URL-encode the values. Inside VS Code the `cldata.reveal` command does the same and returns what was selected.
 
-## User-visible presentation
+## Rules
 
-Present a compact evidence table or equivalent containing file/section, command, parameter path, actual value, units, and source/tool used. Include the exact next handler or postprocessor path only when verified, plus fixture limits and unresolved questions.
+- No full-file scans without a skeleton and a bounded range.
+- Do not guess a subtype, an array index, a parameter name or a collection position — read it.
+- Command indexes belong to one revision of the data. After the project is regenerated the server rereads it and asks you to repeat the call; results captured earlier are stale. Always report indexes together with the project.
+- Never modify the project, its settings or the CLData while inspecting.
+- Do not disclose unrelated customer data; ask for a reduced fixture instead.
+
+## Done means
+
+The project, file, section and command are identified; the required values were read through verified calls and reported with their paths and dialect; units and machine are known; and everything still unknown is listed as unknown, not filled in from documentation.

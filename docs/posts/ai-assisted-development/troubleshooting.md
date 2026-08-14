@@ -1,25 +1,51 @@
 ﻿# Troubleshooting
 
-## The extension is not available
+## The assistant does not see the postprocessor tools
 
-Confirm that CAM Agent was installed from the CAM Agent Extension Store, restart the host application, and check extension and host versions. If the Store is unavailable, do not install an unverified package; use the documented local workflow instead.
+Ask it which tools it currently has. If the CLData or InP tools are missing, the MCP configuration did not load: check that you edited the file your client actually reads, that the paths are absolute and exist, that backslashes are doubled in JSON, and restart the client. A client started before the configuration was saved keeps the old set.
 
-## The agent cannot read the project
+## The assistant cannot reach InP
 
-Check the selected workspace, file permissions, and the active windowed or headless role. Reduce the request to a small readable file. A headless role cannot use UI-only context.
+InP MCP drives a running instance of the postprocessor IDE. Let the assistant start one itself, or open InP from the CAM system with the postprocessor loaded and ask it to connect. If it reports that the instance manager is unavailable, the installed CAM system does not support starting instances — open InP by hand.
 
-## The answer uses the wrong API
+A headless instance that fails to compile or run with an error about focusing an invisible window is an older InP build. Use a windowed instance instead.
 
-State whether the target is SPPX or .NET and provide the relevant existing source. For .NET, include the copied template's project files and installed SDK information. For SPPX, include the mask or program and the expected register behavior.
+## Several InP instances are running
 
-## Documentation is missing
+The assistant has to address one of them explicitly, and a request that does not is rejected rather than sent to an arbitrary instance. Close the instances you do not need, or tell it which one to work in — this is normal when you deliberately run several postprocessors in parallel.
 
-Use the local `public-docs` checkout as a fallback and note its revision. It may not contain release-specific or private material. Verify version-sensitive details against the installed product and SDK.
+## Command indexes no longer match the data
 
-## The generated code builds but output is wrong
+CLData indexes are valid for one revision of the data. When the project is regenerated, the server rereads it and asks for the call to be repeated; results captured earlier point at different commands. Always keep the project together with the indexes, and repeat the inspection after regenerating CLData.
 
-Inspect the first differing NC block and trace it to the CLData command and handler. Check units, coordinate transforms, modal state, tool compensation, and omitted commands. Reproduce with the smallest input that shows the error, then run simulation before accepting a fix.
+## An extension says the installation folder is not set
 
-## RAG MCP is unavailable
+Set it in the extension's settings, or run its **Select Installation Folder…** command and pick the folder. Both the product folder and its `Bin64` subfolder are accepted, and quotation marks around a pasted path are tolerated. With several CAM versions installed, make sure it points at the one you actually want to test against — this is the most common cause of "it works differently than in the CAM system".
 
-This beta guide does not require a RAG MCP. Use local documentation and explicit files instead. Do not claim that an index, retrieval service, or automatic project graph exists unless it is installed and has been verified.
+## Generate NC produces no file
+
+Read the errors in **Problems** first: a postprocessor that failed to compile or stopped on a run-time error produces nothing. Then check that the output path is writable and that the configuration names the project you think it does. For .NET, check that the assembly was rebuilt after the last edit — `dotnetPosts.autoBuild` does that for you.
+
+## Settings cannot be extracted from a .NET postprocessor
+
+Extracting the default settings from the assembly requires a recent batch runner. If the installed one does not support it, use a project that has its settings file, or update the CAM system; do not hand-write a settings file to work around it.
+
+## install.cmd closes before I can read it
+
+It waits for a keypress, so a window that closed immediately means it was not the script that ran. Run it from a command prompt in the unpacked folder to keep the output visible. The script does not use PowerShell, so the execution policy is not involved; if it still does not run, install the `.vsix` files manually with `code --install-extension`.
+
+## The updater does not offer anything
+
+The update feed comes from the manifest inside the bundle you installed from, so an installation assembled by hand from separate `.vsix` files has no feed. Reinstall from a current bundle with `install.cmd`, then run **Postprocessor Tools: Check for Updates**.
+
+## The assistant answers from documentation instead of the project
+
+This is what happens when the tools are unavailable, when the request named no project, or when the answer is not required to cite the data. Give it the project, ask which command and which parameter values it actually read, and let the skills do their job — they require inspection before editing.
+
+## The assistant reports success without running anything
+
+Compilation is not a result. Ask for the generated NC program and the comparison with the baseline; if there is none, the state is **Not verified** — see [Review and verify](review-and-verify.md).
+
+## The documentation the assistant reads is outdated
+
+A local checkout is a snapshot: update it with `git pull` and note the revision when it informs a release decision. Version-sensitive details — SDK versions, command names, panels — should be confirmed against the installed product rather than the checkout.

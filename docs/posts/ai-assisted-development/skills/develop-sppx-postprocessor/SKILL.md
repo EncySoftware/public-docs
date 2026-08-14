@@ -1,40 +1,67 @@
 ﻿---
 name: develop-sppx-postprocessor
-description: Safely adapt, compile, run, and compare an SPPX postprocessor using verified CLData and current SPPX tools.
+description: Read, edit, compile and run an SPPX postprocessor through the InP MCP server — read-before-write, compile clean, run, compare with the baseline.
 ---
 
 # Develop SPPX postprocessors
 
-## Trigger and when to use
+## When to use
 
-Use this skill for SPPX masks, processing programs, registers, separators, modal logic, or subprogram behavior. Use it after CLData inspection and before NC verification.
+Changes to an SPPX postprocessor: a command handler, a subroutine, an object, registers, masks, modal output, separators or subprogram behaviour. Run `inspect-cldata` first and `verify-nc-program` afterwards.
 
-## Prerequisites and tool discovery
+## Tools and the order they go in
 
-- Identify the current SPPX source, installed CAM/Postprocessor generator, target machine/controller, reduced CLData fixture, and expected NC blocks.
-- Discover current SPPX MCP/tool capabilities. The names and signatures below describe a safe pattern, not a promise of exact arguments. If the service is unavailable, use the installed UI or documented local runner and record the fallback.
-- Confirm that the tool can perform the relevant operations before invoking them; if a capability is absent, use the installed UI or documented runner and report it.
+The InP MCP server (`inp-mcp-server.exe`) drives the postprocessor IDE. `pp_ping` first, always — it reports the server, the known instances and the default target.
 
-## Safe workflow
+| Call | Purpose |
+|---|---|
+| `pp_ping` | Health and instance list; call before anything else |
+| `pp_launch` | Start an instance: `mode="windowed"` (default) or `"headless"`; `post_path` opens a postprocessor at once |
+| `pp_instances` / `pp_select_instance` | List instances and pick a default; every call also takes `pid` |
+| `pp_open_post` / `pp_create_post` | Open or create a postprocessor in the connected instance |
+| `pp_get_structure` | Handlers, subroutines, objects, channels — item names come from here |
+| `pp_get_code` / `pp_set_code` | Read an item; replace its full body |
+| `pp_get_registers` / `pp_set_registers` | Register definitions |
+| `pp_translate` | **Compile.** Run after every edit and fix every reported error before continuing |
+| `pp_open_cld` + `pp_run` | Load a CLData project, then interpret it; `pp_run` returns the NC output |
+| `pp_close` / `pp_kill` / `pp_delete` | Close an instance; force it down; delete an item — the last two are destructive |
 
-1. Read the existing mask/program and relevant documentation before writing anything. Explain the current command-to-handler path.
-2. Use the available `pp_ping` capability to confirm the SPPX service, then query available `instances` and select the intended installation explicitly.
-3. Open or select the postprocessor and inspect its `structure` before editing. Read relevant source, registers, masks, and programs.
-4. Inspect the real CLData fixture using `get`/inspection access; use `translate` only as a controlled baseline or comparison operation. Do not assume a fixed signature.
-5. Define expected output for normal, omitted, repeated, and boundary values. Make the smallest source change and preserve register order, formatting, modal state, separators, local/Common/register state, and subprogram conventions.
-6. Write only after the read-before-write review. Use the available `set`/edit operation or the supported local editor; retain a diff and do not overwrite unrelated content.
-7. Compile with the installed SPPX tool, then use the available `open_cld` and `run` pattern (or the documented equivalent) on the reduced fixture. Capture diagnostics and generated files.
-8. Compare output blocks to the baseline and expected result, trace every difference to a command/handler, and hand the result to NC verification.
+Item kinds: `0` handler, `1` subroutine, `2` object. Handlers exist one per CLData command: they can be edited but not created or deleted. Only subroutines and objects can be created (`create=true`) or deleted.
 
-## Prohibited and unsafe actions
+If no instance is running, prefer `pp_launch` windowed when a person is watching, headless for batch work. If the server reports that the instance manager is unavailable, ask the user to open InP from the CAM system. If several instances are running, pass `pid` explicitly — an ambiguous call fails by design. Calls to one instance are serialized; `pp_translate` and `pp_run` can take minutes.
 
-- Never write before reading the target source and structure. Never invent exact MCP signatures, old HTTP endpoints, CLD mappings, or universal register defaults.
-- Do not mix .NET property syntax into SPPX, rewrite a whole post for a local change, deploy automatically, bypass compile/runtime errors, or infer machine safety from output text.
+## Workflow
 
-## Completion criteria
+1. `pp_ping`. Get an instance, then `pp_open_post` if the postprocessor is not already open.
+2. `pp_get_structure`. Find the handler for the CLData command from `inspect-cldata`. Remember that output may be emitted further down — in a subroutine, a mask or on the next modal change.
+3. **Read before writing.** `pp_get_code` for every item you will change, `pp_get_registers` if registers are involved. Explain the current path from command to NC block before proposing an edit.
+4. Generate the baseline if there is none: `pp_open_cld` then `pp_run`, and keep the NC output for comparison.
+5. Plan the smallest edit and state the expected NC blocks, including the omitted, repeated and boundary cases.
+6. `pp_set_code` with the full body — the code you read, with your change applied. It overwrites; a fragment destroys the rest of the item. Preserve register order and formatting, modal behaviour, separators, the state kept in `Common` and in local variables, and the existing subprogram conventions. Donor code from another postprocessor must be adapted to this project's actual data.
+7. `pp_translate`. Fix every error. Report errors in postprocessor terms — frame, register, handler, G/M code — not as software stack traces.
+8. `pp_open_cld` + `pp_run`. Compare the new NC output with the baseline and with the reference program, and trace every difference, including unintended ones, to a command and a handler.
+9. Show the user what changed and hand over to `verify-nc-program`.
 
-The source diff is minimal, read-before-write is evidenced, the selected instance and actual CLData are known, compile/run results are captured, expected and actual NC are compared, and remaining verification risk is explicit.
+## Showing your work in VS Code
 
-## User-visible presentation
+```text
+vscode://postprocessor-tools.sppx-tools/goto?post=<path>&handler=<name>&line=<n>&beside=true
+vscode://postprocessor-tools.sppx-tools/highlight?handler=<name>&line=3&endLine=7&message=<text>
+vscode://postprocessor-tools.sppx-tools/run?post=<path>&config=Agent%20check&create=true&cldata=<path>&ncFilePath=<path>
+```
 
-Show the selected instance/tool versions, changed mask/program and rationale, concise diff, compile and run diagnostics, baseline-versus-new NC blocks, and any unavailable operation or required human review.
+Run links with `code --open-url "<link>"` and URL-encode the values. Address code by `handler` plus `line` or `find`, not by a raw file line. Highlights are cleared by any edit, so set them after the edit, not before. Inside VS Code the same actions are available as the `sppx.goto`, `sppx.highlight`, `sppx.symbols`, `sppx.whereAmI`, `sppx.status` and `sppx.run` commands, which return their result instead of just opening a view.
+
+`pp_run` is your own silent check; the **Generate NC** panel is what the user watches. Create your own run configuration (`create=true`) rather than modifying the user's, and read `sppx.status` first to learn the post input parameter keys before setting values.
+
+## Rules
+
+- Never edit an item you have not read in this session.
+- Never claim completion without `pp_run` output that you compared.
+- Do not rewrite a whole postprocessor for a local fix, and do not silence a compile error by deleting code.
+- `pp_delete` and `pp_kill` are irreversible: ask the user first, and prefer `pp_close`.
+- Do not put .NET property syntax into SPPX code, and do not carry register defaults or CLD mappings over from another postprocessor unchecked.
+
+## Done means
+
+Read-before-write is evidenced, the diff is minimal, compilation is clean, `pp_run` produced NC output on the recorded project, the output was compared with the baseline and the reference, every difference is explained, and the remaining verification is stated as still required.

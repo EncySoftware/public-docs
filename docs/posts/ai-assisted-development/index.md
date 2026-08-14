@@ -1,38 +1,46 @@
 ﻿# AI-assisted postprocessor development
 
-This beta guide explains how to use AI assistance when developing and maintaining CAM postprocessors. It covers both the SPPX postprocessor workflow and the .NET postprocessor workflow. AI can help you understand CLData, draft code, and review changes, but it does not replace simulation, machine documentation, or human approval.
+This guide explains how to develop and maintain postprocessors with an AI assistant: how to set the tools up, what the assistant can do on its own, and how to check the result. It applies to both postprocessing subsystems — SPPX postprocessors and .NET postprocessors — because both read the same input data, [CLData](../cldata/cldata.md).
 
-## Start here
+The assistant reads the actual project data, changes the postprocessor code, compiles it and generates a test NC program. It does not decide whether the NC program is correct for your machine. That decision stays with you.
 
-- [How the system works](how-it-works.md) — the architecture, boundaries, and request flow.
-- [CAM Agent](cam-agent.md) — the CAM Agent Extension Store installation and operating modes.
-- [Visual Studio Code workflow](vscode.md) — the common editor workflow.
-- [SPPX workflow](sppx-workflow.md) — assisted work with masks and SPPX source.
-- [.NET workflow](dotnet-workflow.md) — assisted work with C# postprocessors.
-- [Review and verify](review-and-verify.md) — checks required before using generated NC code.
-- [Troubleshooting](troubleshooting.md) — common setup and response problems.
-- [Advanced setup](advanced-setup.md) — controlled local context and team setup.
+This is a beta guide for a beta toolset. Command names and panels may change between releases; the reference for what is installed on your computer is always the release notes of your CAM system and of the tools bundle.
 
-## Available skills
+## Two ways to work
 
-These reusable skills are shipped with this documentation module. Open the
-resource-relative `SKILL.md` page for the skill instructions:
+| | CAM Agent | Visual Studio Code |
+|---|---|---|
+| Where you work | The agent chat inside the CAM system | VS Code with an AI chat extension |
+| What you see | The task, the plan, the result; optionally the postprocessor IDE | The code, the diffs, the CLData, the generated NC program |
+| Best for | Getting a result without opening the code | Developing, debugging and version-controlling a postprocessor |
+| SPPX | Full cycle: read, edit, compile, run | Full cycle, with the code visible in the editor |
+| .NET | Task-oriented use; the agent works with the project and the runner | The natural choice: C# language service, build, debugging |
 
-- [Postprocessor development](skills/postprocessor-development/SKILL.md)
-- [Inspect CLData](skills/inspect-cldata/SKILL.md)
-- [Develop SPPX postprocessors](skills/develop-sppx-postprocessor/SKILL.md)
-- [Develop .NET postprocessors](skills/develop-dotnet-postprocessor/SKILL.md)
-- [Verify NC programs](skills/verify-nc-program/SKILL.md)
+The two are not exclusive. Asking the agent in the CAM system to investigate the data and then finishing the code in VS Code is a normal way to work.
 
-Skill installation depends on the AI client and CAM Agent. If the client can
-load skills, install or enable these paths through its documented mechanism.
-Otherwise use the pages manually as checklists and prompts. Do not assume that
-linking to a skill installs it.
+## Read in this order
 
-## Beta status
+1. [How the system works](how-it-works.md) — the components, what each one does, and where the boundaries are.
+2. [Set up the tools](setup.md) — install the extensions, connect the MCP servers, give the assistant the documentation.
+3. [Develop with CAM Agent](cam-agent.md) or [Develop in Visual Studio Code](vscode.md) — pick your entry point.
+4. [SPPX workflow](sppx-workflow.md) or [.NET workflow](dotnet-workflow.md) — the development cycle for your postprocessor type.
+5. [Review and verify](review-and-verify.md) — what to check before the NC program is used.
+6. [Troubleshooting](troubleshooting.md) and [Advanced setup](advanced-setup.md) — when something does not work, and how to set this up for a team.
 
-This module documents the currently supported workflow. It does not promise an automatic code-writing service, a hosted knowledge base, or a production RAG MCP. A future RAG MCP may provide indexed documentation and project context, but that capability is not assumed here.
+## Skills for the assistant
 
-## Safety rule
+A skill is a Markdown file with a procedure the assistant follows: which tool to call, in which order, what to check, and when the work is finished. Five skills are published with this guide, in the `skills` folder of this documentation module:
 
-Treat every AI response as an untrusted draft. Do not expose credentials, customer data, machine secrets, or proprietary files unnecessarily. Review the diff, compile or run the relevant tools, inspect the generated NC program, and verify it in simulation before production use.
+| Skill | Folder | What it does |
+|---|---|---|
+| Postprocessor development | `skills/postprocessor-development` | Chooses the postprocessor type and the tools, then runs the whole cycle |
+| Inspect CLData | `skills/inspect-cldata` | Reads the real project data instead of guessing from documentation |
+| Develop SPPX postprocessors | `skills/develop-sppx-postprocessor` | Read, edit, compile, run and compare an SPPX postprocessor |
+| Develop .NET postprocessors | `skills/develop-dotnet-postprocessor` | Template, build, run and inspect a C# postprocessor |
+| Verify NC programs | `skills/verify-nc-program` | Reviews the generated NC program before it is accepted |
+
+How to install them depends on the client — see [Set up the tools](setup.md#give-the-assistant-the-documentation-and-skills). If your client has no skill mechanism, open the `SKILL.md` file and paste it into the chat as instructions: the content is plain Markdown and works either way.
+
+## What stays with you
+
+Treat every answer as a draft. The assistant sees only what you give it: it cannot know undocumented machine behaviour, and a plausible-looking NC program can still be wrong. Review the diff, compile, run the postprocessor, read the generated NC program, and verify it in simulation before it goes to a machine. Do not put credentials, customer archives or machine secrets into the chat.
