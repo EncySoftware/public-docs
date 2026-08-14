@@ -6,6 +6,8 @@ CAM Agent is the chat inside the CAM system. It is the shortest path from a task
 
 CAM Agent is a regular CAM system extension: open the **Extension Store** in the CAM system, install **CAM Agent**, and restart the CAM system if the store asks for it. Its own documentation, available from the store entry, covers the chat itself; this page covers only postprocessor work.
 
+An introductory allowance comes with the agent, so the first sessions need nothing else from you; its size and conditions may change over time. After that, connect your own account with an AI provider in the agent's settings and the work continues on that provider's terms — see [What it costs](index.md#what-it-costs).
+
 ## The working cycle
 
 1. Open a project that contains a short, representative piece of the toolpath. A small test project makes every following step faster and the comparison readable.

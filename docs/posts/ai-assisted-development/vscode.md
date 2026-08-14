@@ -6,6 +6,8 @@ Install everything first — see [Set up the tools](setup.md).
 
 ## Which chat extension to use
 
+Whichever you pick, it runs on your own account with an AI provider and is billed by that provider from the first request — see [What it costs](index.md#what-it-costs).
+
 Any assistant that meets three conditions will do, and the choice is yours:
 
 - it connects to MCP servers, which is how it reads CLData and drives the postprocessor;

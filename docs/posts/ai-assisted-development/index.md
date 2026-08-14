@@ -16,6 +16,14 @@ You read the result and answer the same way — "right, but M08 has to come befo
 
 That is the whole loop. Nothing to memorise, no commands to type, and you do not have to write the code yourself, although you can look at every change and edit it by hand whenever you prefer. What cannot be handed over is the judgement: whether the program is correct for your machine and safe on it is decided by you. Everything in this guide about checking the result exists for that reason.
 
+## What it costs
+
+The tools and the knowledge are part of the product: the servers, the extensions, this documentation and the skills. The model that answers you is not — an AI assistant is a service of whoever provides the model, and it is paid for by the volume of text it processes.
+
+In CAM Agent you can start straight away: it comes with an introductory allowance, enough to get a feel for what this can do. Its size and conditions may change over time. When it is used up, connect your own account with any of the publicly available AI providers; from then on the work goes on that provider's terms and at its prices, while the CAM system keeps supplying the tools and the knowledge.
+
+Through a chat extension in Visual Studio Code, your provider account is what makes it work from the very first request. There is no introductory allowance in this case — the model is billed by the provider you connected, on the terms you agreed with it.
+
 ## Two ways to work
 
 | | CAM Agent | Visual Studio Code |
