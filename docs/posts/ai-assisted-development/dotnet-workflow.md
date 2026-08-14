@@ -13,7 +13,7 @@ The normative starting point for a new postprocessor is the template shipped wit
 3. Build the unchanged copy first and keep the result as the baseline. If the untouched template does not build, no later diagnosis is worth anything.
 4. Generate an NC program from that unchanged copy, and keep it as the reference for comparison.
 
-There is no project-creation wizard yet, and none is needed: copy and rename is the supported way.
+Copying a template and renaming it is the supported way to start a postprocessor.
 
 ## The cycle
 

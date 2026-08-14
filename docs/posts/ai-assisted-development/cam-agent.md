@@ -4,7 +4,7 @@ CAM Agent is the chat inside the CAM system. It is the shortest path from a task
 
 ## Install it
 
-CAM Agent is a regular CAM system extension: open the **Extension Store** in the CAM system, install **CAM Agent**, and restart the CAM system if the store asks for it. There is no separate installer to download any more. Its own documentation, available from the store entry, covers the chat itself; this page covers only postprocessor work.
+CAM Agent is a regular CAM system extension: open the **Extension Store** in the CAM system, install **CAM Agent**, and restart the CAM system if the store asks for it. Its own documentation, available from the store entry, covers the chat itself; this page covers only postprocessor work.
 
 CAM Agent brings `inp-mcp-server.exe` with it, which is also the InP MCP server used by VS Code clients — see [Advanced setup](advanced-setup.md#connect-the-mcp-servers).
 
