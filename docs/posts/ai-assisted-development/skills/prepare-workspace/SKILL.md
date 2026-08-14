@@ -40,7 +40,7 @@ Adapt the names to what already exists; never reorganise a folder the user is wo
 
 ## Version history
 
-Ask once, plainly: keep history in git, or keep working with folders and copies? Both are legitimate. If they decline, help them the other way — a copy of the postprocessor before a substantial change, reference NC programs kept next to the test projects — and do not raise it again in that session.
+Ask once, plainly: keep history in git, or keep working with folders and copies? Both are legitimate. If the user is uneasy about letting you edit their files, say the useful part rather than reassuring them: under version control nothing you do is irreversible, and any state can be brought back. If they decline, help them the other way — a copy of the postprocessor before a substantial change, reference NC programs kept next to the test projects — and do not raise it again in that session.
 
 If they accept, do all of it yourself:
 

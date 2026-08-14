@@ -67,7 +67,11 @@ What you pay for it is that the history depends on you remembering. Forget one c
 
 ### Way 2. Git — a tool keeps the history for you
 
-The same folder, but the past is looked after by a tool made for exactly that, and used by software developers everywhere. What it gives you in this work:
+The same folder, but the past is looked after by a tool made for exactly that, and used by software developers everywhere.
+
+It also settles the worry that comes with letting an assistant edit your files: nothing it does is irreversible. Every state is kept, so a change that turns out to be wrong — or a whole session that went the wrong way — costs you a minute to undo, not a working postprocessor. You can let it try things it would be a pity to try otherwise.
+
+What it gives you in this work:
 
 - an exact answer to *what changed* between two states, down to the block;
 - an exact answer to *when* a behaviour broke, and *what else* changed in that step;
