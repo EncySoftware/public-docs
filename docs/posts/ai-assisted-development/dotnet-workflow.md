@@ -10,6 +10,8 @@ Most of the time, not from scratch. Take the closest postprocessor that already 
 
 If a new postprocessor really is needed, create it in the CLData Viewer: **CLData viewer → Create new postprocessor → Simple postprocessor…**, then pick an empty folder — its name becomes the name of the postprocessor. The project is created for you, and its context menu opens it in VS Code. The .NET postprocessors documentation describes this in "How to prepare the computer to start writing the postprocessors". Ask the assistant only if you want it done from the templates instead — that is its job, not yours.
 
+One rule survives every copy: the folder name and the `.csproj` name must be identical. The build task and the debug launch that come with the template take the project and the assembly name from the folder, so a mismatch breaks both. If you copy a postprocessor into a folder with a new name, rename the `.csproj` with it.
+
 Work on it with VS Code opened on the postprocessor's own folder — the C# language service, the build and the debugger expect that. Keeping your standing brief and your notes reachable from there takes one arrangement, described in [Organize your workspace](workspace.md#when-the-open-folder-has-to-be-the-postprocessor).
 
 Either way, start from a known state:
