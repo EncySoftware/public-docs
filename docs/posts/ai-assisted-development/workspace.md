@@ -93,11 +93,10 @@ If git is not installed, ask the assistant to install it — the official downlo
 
 ## When the open folder has to be the postprocessor
 
-For a .NET postprocessor, VS Code has to be opened on the postprocessor's own folder — that is what makes the C# language service, the build and the debugger work. The standing brief and your notes then lie outside the folder that is open. Three arrangements keep them within reach, and they combine:
+For a .NET postprocessor, VS Code has to be opened on the postprocessor's own folder — that is what makes the C# language service, the build and the debugger work. The standing brief and your notes then lie outside the folder that is open. Two arrangements are enough:
 
-- **Keep everything in one repository.** Let `work\` as a whole be the repository and keep the postprocessor folders inside it. Git then works from any folder below it — it finds the repository that contains the folder you are in — so the history is one, whichever folder is open. Clients that look for their instruction and skill files up the folder tree stop at the repository root and find yours there.
-- **Leave a short `AGENTS.md` in the postprocessor folder.** Two lines are enough: that the rules are in `..\..\AGENTS.md` and the notes in `..\..\notes\`. A client that only looks in the folder it was given finds this file, and through it everything else.
-- **Or open a workspace of several folders.** VS Code can hold more than one root: add the postprocessor folder — required for C# to work — and the folder with your notes and documentation. Save that as a workspace file and open it instead of the bare folder.
+- **Keep everything in one repository.** Let `work\` as a whole be the repository and keep the postprocessor folders inside it. Git then works from any folder below it — it finds the repository that contains the folder you are in — so the history is one, whichever folder is open.
+- **Leave a short `AGENTS.md` in the postprocessor folder.** Two lines are enough: that the rules are in `..\..\AGENTS.md` and the notes in `..\..\notes\`. This is needed because chat extensions read the standing brief in the folder they were opened on and do not look above it. Skills are easier: installed for the user rather than for one project, they are available whatever folder is open, so they only have to be put in place once.
 
 For SPPX none of this is needed: `work\` can be opened as it is.
 
