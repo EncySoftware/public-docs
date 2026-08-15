@@ -1,4 +1,8 @@
-﻿# External references and examples (Postprocessors generator / sppx)
+﻿---
+uid: posts-external-references
+---
+
+# External references and examples (Postprocessors generator / sppx)
 
 External resources for authoring `.sppx` postprocessors with the Postprocessors generator.
 
@@ -10,6 +14,16 @@ External resources for authoring `.sppx` postprocessors with the Postprocessors 
 | Postprocessor Generator user manual (ENCY 2) | <https://docs.encycam.com/Inp/2/en/10001.html> |
 | Postprocessor Generator user manual (ENCY 1) | <https://docs.encycam.com/Inp/1/en/10001.html> |
 | ENCY Academy — training courses | <https://learn.encycam.com/> |
+
+## AI-assisted development
+
+Download locations for the tools described in [AI-assisted postprocessor development](../../ai-assisted-development/index.md).
+
+| Reference | URL |
+|---|---|
+| Postprocessor tools for VS Code — releases | <https://github.com/EncySoftware/postprocessor-tools/releases> |
+| This documentation as a Markdown repository — for the assistant | <https://github.com/EncySoftware/public-docs> |
+| The same documentation as a site — for reading | <https://encysoftware.github.io/public-docs/latest> |
 
 ## See also
 

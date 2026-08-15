@@ -207,6 +207,31 @@
         href: language-description/operators/operators-of-work-with-nc-subroutines/technique-of-work-with-nc-subroutines.md
     - name: "ReplNCStr operator to replace strings at NC-file"
       href: language-description/operators/replncstr-operator-to-replace-strings-at-nc-file.md
+- name: "AI-assisted postprocessor development"
+  href: ../../ai-assisted-development/index.md
+  items:
+  - name: "How the system works"
+    href: ../../ai-assisted-development/how-it-works.md
+  - name: "Set up the tools"
+    href: ../../ai-assisted-development/setup.md
+  - name: "Organize your workspace"
+    href: ../../ai-assisted-development/workspace.md
+  - name: "Develop with CAM Agent"
+    href: ../../ai-assisted-development/cam-agent.md
+  - name: "Develop in Visual Studio Code"
+    href: ../../ai-assisted-development/vscode.md
+  - name: "What the extensions give you"
+    href: ../../ai-assisted-development/extensions.md
+  - name: "SPPX workflow"
+    href: ../../ai-assisted-development/sppx-workflow.md
+  - name: ".NET workflow"
+    href: ../../ai-assisted-development/dotnet-workflow.md
+  - name: "Review and verify"
+    href: ../../ai-assisted-development/review-and-verify.md
+  - name: "Troubleshooting"
+    href: ../../ai-assisted-development/troubleshooting.md
+  - name: "Advanced setup"
+    href: ../../ai-assisted-development/advanced-setup.md
 - name: "CLData"
   href: ../../cldata/cldata.md
   items:
