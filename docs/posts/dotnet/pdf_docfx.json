@@ -1,12 +1,14 @@
-{
+﻿{
   "build": {
     "content": [
       { "src": ".", "dest": "dotnet", "files": [ "src/**/*.{md,yml}", "pdf/toc.yml" ] },
-      { "src": "../cldata", "dest": "cldata", "files": [ "**/*.{md,yml}" ] }
+      { "src": "../cldata", "dest": "cldata", "files": [ "**/*.{md,yml}" ] },
+      { "src": "../ai-assisted-development", "dest": "ai-assisted-development", "files": [ "*.md", "toc.yml" ] }
     ],
     "resource": [
       { "src": ".", "dest": "dotnet", "files": [ "src/images/**", "src/attachments/**" ] },
-      { "src": "../sppx", "dest": "sppx", "files": [ "src/images/**" ] }
+      { "src": "../sppx", "dest": "sppx", "files": [ "src/images/**" ] },
+      { "src": "../ai-assisted-development", "dest": "ai-assisted-development", "files": [ "skills/**" ] }
     ],
     "dest": "out/pdf",
     "template": [ "default", "modern" ]

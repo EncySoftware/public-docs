@@ -1,0 +1,24 @@
+﻿- name: "AI-assisted postprocessor development"
+  href: index.md
+- name: "How the system works"
+  href: how-it-works.md
+- name: "Set up the tools"
+  href: setup.md
+- name: "Organize your workspace"
+  href: workspace.md
+- name: "Develop with CAM Agent"
+  href: cam-agent.md
+- name: "Develop in Visual Studio Code"
+  href: vscode.md
+- name: "What the extensions give you"
+  href: extensions.md
+- name: "SPPX workflow"
+  href: sppx-workflow.md
+- name: ".NET workflow"
+  href: dotnet-workflow.md
+- name: "Review and verify"
+  href: review-and-verify.md
+- name: "Troubleshooting"
+  href: troubleshooting.md
+- name: "Advanced setup"
+  href: advanced-setup.md
