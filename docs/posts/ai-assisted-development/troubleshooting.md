@@ -24,7 +24,9 @@ Set it in the extension's settings, or run its **Select Installation Folder…**
 
 ## The result does not match what the CAM system produces
 
-With more than one CAM version installed, the run may have gone through a different one. Check that all three extension settings point at the version you are developing against, and for a .NET postprocessor check the `InpCoreDir` environment variable as well: the CLData Viewer writes it at startup, so it holds whichever installation's viewer ran last, and debugging from the editor follows it. Nothing warns you about this — the run succeeds and simply produces different output. If you change the variable, programs already running keep the old value; signing out of Windows and back in is what makes the new one take effect everywhere.
+With more than one CAM version installed, the run may have gone through a different one — nothing warns you, because it succeeds and simply produces different output. Check that all three extension settings point at the version you are developing against.
+
+For a .NET postprocessor, the extension keeps debugging on the same installation as the panels, and says so when it has to override the `InpCoreDir` environment variable. If you run the postprocessor outside the extension — from a terminal, or from a configuration of your own — that variable decides instead, and it holds whichever installation's CLData Viewer started last. Changing it does not affect programs that are already running; signing out of Windows and back in is what makes a new value take effect everywhere.
 
 ## Generate NC produces no file
 

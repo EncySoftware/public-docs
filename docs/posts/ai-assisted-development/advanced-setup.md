@@ -118,7 +118,9 @@ The panels offer an update action when a new version is available. The same chec
 
 Each extension points at one installation folder, and the assistant runs whatever is in it. With a released version and a beta version side by side, decide which one the postprocessor is being developed against and set all three settings to it. When you switch, switch all of them — a mixed configuration where CLData is read by one version and the postprocessor is run by another produces results that cannot be reproduced.
 
-One path is not covered by those settings. The `InpCoreDir` environment variable is written by the CLData Viewer when it starts, so it holds whichever installation's viewer ran last, and the debug configuration that comes with the .NET template launches `${env:InpCoreDir}/InpCore.exe` — debugging can therefore run a different version than the panels do, with no warning, because the run simply succeeds and gives different output. If you keep several versions, check that variable when results stop making sense. Changing it is not instant either: programs already running keep the old value, and in practice it takes signing out of Windows and back in for the new one to reach everything.
+There is one path the settings do not own: the `InpCoreDir` environment variable, written by the CLData Viewer when it starts, so it holds whichever installation's viewer ran last. The debug configuration that comes with the .NET template is written in terms of that variable, but DotNet Posts substitutes the folder from its own setting when a debug session starts and warns once when the two disagree — so debugging follows the same installation as the panels. The variable is used only when the setting is empty.
+
+Changing the variable is not instant, which is worth knowing when you do rely on it: programs already running keep the old value, and in practice it takes signing out of Windows and back in for a new one to reach everything.
 
 ## Pin the documentation
 
