@@ -44,6 +44,38 @@ DotNet Posts commands, available in VS Code and callable by an agent that can ex
 
 The batch runner is `InpCore.exe`. It has two modes that matter here: writing the postprocessor's default settings out as a `Settings.xml` next to the input, which is what makes running an assembly without sources possible, and processing a CAM project in batch mode. It reports progress as a stream of events ending with a result code, and the process exit code repeats the outcome — a run counts as successful only when both agree. The settings format is not the SPPX one; use the file the runner produced. If the installed runner does not support extracting settings, report the version limitation instead of hand-writing a settings file.
 
+## Command lines
+
+There is no MCP server for .NET postprocessors, so when DotNet Posts is unavailable you drive the same programs yourself. `InpCore.exe` lives in the CAM installation (`dotnetPosts.installationFolder`, its `Bin64`); the `InpCoreDir` environment variable points at the same place. Quote any path that contains spaces.
+
+**Build.**
+
+```text
+dotnet build "<folder>\<Name>.csproj"
+```
+
+The template's own build task adds `/property:GenerateFullPaths=true /consoleloggerparameters:NoSummary`, which makes the compiler report full paths and stops duplicate error summaries — use the same flags when you intend to parse the output.
+
+**Extract `Settings.xml` from a compiled postprocessor.** Needed when you have the DLL but no sources; a project of your own already carries its settings file.
+
+```text
+InpCore.exe -settingsdump -postfile:"<folder>\bin\Debug\<Name>.dll" -settingsfile:"<folder>\Settings.xml"
+```
+
+A non-zero exit code, or a settings file that is not there afterwards, means the extraction failed — report the version limitation instead of writing a settings file by hand.
+
+**Generate an NC program.**
+
+```text
+InpCore.exe -batchmode -postfile:"<...>\<Name>.dll" -cldfile:"<project>.stcp" -settingsfile:"<...>\Settings.xml"
+```
+
+Progress and results are written as JSONL next to the settings file, as `<settings file>.events.jsonl`: one JSON object per line, with `event`, and depending on it `percent`, `severity`, `text`, `path`, `success`, `resultCode` and `durationMs`. The `file` event carries the path of what was written; the closing `done` event carries `success` and `resultCode`. Read that file rather than the console output.
+
+Two rules about the result. A run counts as successful only when `done.success` is true **and** the process exit code is 0; if events appeared but no `done` did, the runner stopped early and the NC file, if any, is not to be trusted. And the output path is not a command-line argument: the NC file name and directory are parameters of the settings file, so set them there before the run.
+
+Where the human is meant to watch instead, the template's `F5` configuration runs `InpCore.exe -cldviewermode -sharedfile:STInpCoreOfDebugger -postfile:...` with the build task in front of it. That is the debugging path, not a batch run — do not mix the two.
+
 ## Workflow
 
 1. Get the command and its real parameter values from `inspect-cldata`, in the `dotnet` path dialect.
