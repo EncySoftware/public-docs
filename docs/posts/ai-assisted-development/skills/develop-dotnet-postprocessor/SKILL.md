@@ -46,7 +46,9 @@ The batch runner is `InpCore.exe`. It has two modes that matter here: writing th
 
 ## Command lines
 
-There is no MCP server for .NET postprocessors, so when DotNet Posts is unavailable you drive the same programs yourself. `InpCore.exe` lives in the CAM installation (`dotnetPosts.installationFolder`, its `Bin64`); the `InpCoreDir` environment variable points at the same place. Quote any path that contains spaces.
+There is no MCP server for .NET postprocessors, so when DotNet Posts is unavailable you drive the same programs yourself. `InpCore.exe` lives in the CAM installation — the folder in `dotnetPosts.installationFolder`, or its `Bin64`. Quote any path that contains spaces.
+
+Take that path from the setting or from what the user tells you, and name the executable you used in your report. There is also an `InpCoreDir` environment variable, but treat it as a hint, not as the answer: the CLData Viewer writes it when it starts, so on a computer with several CAM versions installed it holds whichever installation's viewer ran last — which may not be the one the user is working with. The trap is quiet, because a run against the wrong version usually succeeds and merely produces different output. Note also that the template's `F5` configuration launches `${env:InpCoreDir}/InpCore.exe`, so debugging follows that variable rather than the extension setting; and that changing the variable does not reach programs that are already running — in practice it takes signing out of Windows and back in.
 
 **Build.**
 

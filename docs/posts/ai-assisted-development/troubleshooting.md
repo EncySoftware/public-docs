@@ -22,6 +22,10 @@ CLData indexes are valid for one revision of the data. When the project is regen
 
 Set it in the extension's settings, or run its **Select Installation Folder…** command from the command palette (`F1`) and pick the folder. Both the product folder and its `Bin64` subfolder are accepted, and quotation marks around a pasted path are tolerated. With several CAM versions installed, make sure it points at the one you actually want to test against — this is the most common cause of "it works differently than in the CAM system".
 
+## The result does not match what the CAM system produces
+
+With more than one CAM version installed, the run may have gone through a different one. Check that all three extension settings point at the version you are developing against, and for a .NET postprocessor check the `InpCoreDir` environment variable as well: the CLData Viewer writes it at startup, so it holds whichever installation's viewer ran last, and debugging from the editor follows it. Nothing warns you about this — the run succeeds and simply produces different output. If you change the variable, programs already running keep the old value; signing out of Windows and back in is what makes the new one take effect everywhere.
+
 ## Generate NC produces no file
 
 Read the errors in **Problems** first: a postprocessor that failed to compile or stopped on a run-time error produces nothing. Then check that the output path is writable and that the configuration names the project you think it does. For .NET, check that the assembly was rebuilt after the last edit — `dotnetPosts.autoBuild` does that for you.

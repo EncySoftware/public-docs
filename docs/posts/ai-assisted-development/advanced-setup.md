@@ -118,6 +118,8 @@ The panels offer an update action when a new version is available. The same chec
 
 Each extension points at one installation folder, and the assistant runs whatever is in it. With a released version and a beta version side by side, decide which one the postprocessor is being developed against and set all three settings to it. When you switch, switch all of them — a mixed configuration where CLData is read by one version and the postprocessor is run by another produces results that cannot be reproduced.
 
+One path is not covered by those settings. The `InpCoreDir` environment variable is written by the CLData Viewer when it starts, so it holds whichever installation's viewer ran last, and the debug configuration that comes with the .NET template launches `${env:InpCoreDir}/InpCore.exe` — debugging can therefore run a different version than the panels do, with no warning, because the run simply succeeds and gives different output. If you keep several versions, check that variable when results stop making sense. Changing it is not instant either: programs already running keep the old value, and in practice it takes signing out of Windows and back in for the new one to reach everything.
+
 ## Pin the documentation
 
 For work that has to be reproducible, keep the documentation checkout at a known revision instead of pulling it constantly, and record that revision together with the postprocessor version. A retrieval service always answers from the current index, which is convenient for exploration and unhelpful when you need to explain why an answer changed.
