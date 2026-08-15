@@ -53,6 +53,8 @@ Two kinds of knowledge live side by side here, and it is worth keeping them apar
 
 The **published documentation** is a snapshot: the assistant can search it through the knowledge server, and a copy in the workspace serves the same purpose offline and at a revision you know — see [Advanced setup](advanced-setup.md#documentation-and-skills-for-the-assistant). It answers what the product does, and it changes only when a new version is released.
 
+It comes in two forms, and this is worth knowing before the addresses confuse you. What you are most likely reading now is the **site** — the documentation assembled into pages, with navigation and search, made for people. The same documentation also exists as its **source**: a public repository of Markdown files, from which that site is built automatically. Both hold the same text; only the address and the form differ. Give the assistant the source, not the site — it reads whole files, follows the links between them, can be pinned to a revision and works with no network, while a web page gives it one screen at a time. Both addresses are on the [External references and examples](xref:posts-external-references) page: the repository is the one to clone, the site is the one to read yourself.
+
 Your **own documentation** — `notes\` above — is the living half, and the only one that knows your machines, your projects and the decisions your team has made. It grows every time you solve something. The published snapshot cannot contain it, and neither can the assistant: nobody but you writes this part.
 
 When a documented detail contradicts the installed product, the product wins — and the note about it goes into `notes\`, which is exactly the kind of thing the living half is for.

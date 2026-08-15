@@ -22,7 +22,8 @@ Download locations for the tools described in [AI-assisted postprocessor develop
 | Reference | URL |
 |---|---|
 | Postprocessor tools for VS Code — releases | <https://github.com/EncySoftware/postprocessor-tools/releases> |
-| This documentation as a Markdown repository | <https://github.com/EncySoftware/public-docs> |
+| This documentation as a Markdown repository — for the assistant | <https://github.com/EncySoftware/public-docs> |
+| The same documentation as a site — for reading | <https://encysoftware.github.io/public-docs/latest> |
 
 ## See also
 
