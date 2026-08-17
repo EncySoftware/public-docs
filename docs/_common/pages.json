@@ -37,6 +37,22 @@
   },
   "sections": [
     {
+      "slug": "camagent",
+      "title": "CAM Agent",
+      "description": "AI assistant for the CAM system: drive machining through chat — calculation, simulation, tooling, and NC program generation.",
+      "icon": "book",
+      "direct": true,
+      "units": [
+        {
+          "slug": "guide",
+          "source": "camagent",
+          "title": "CAM Agent user guide",
+          "description": "Installation, sign-in, features, task workflows, slash commands, and the full catalog of agent tools.",
+          "meta": "AI assistant"
+        }
+      ]
+    },
+    {
       "slug": "postprocessing",
       "title": "Postprocessing",
       "description": "Create, debug, and maintain postprocessors that transform toolpath data into NC programs.",

@@ -1,0 +1,40 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "build/**",
+          "pdf/**",
+          "out/**",
+          "obj/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "src/images/**",
+          "src/attachments/**"
+        ]
+      }
+    ],
+    "dest": "out/html",
+    "globalMetadata": {
+      "_appName": "CAM Agent",
+      "_appTitle": "CAM Agent",
+      "_enableSearch": true,
+      "_disableContribution": true
+    },
+    "postProcessors": [
+      "ExtractSearchIndex"
+    ],
+    "template": [
+      "statictoc",
+      "../_common/templates/custom"
+    ],
+    "markdownEngineName": "markdig"
+  }
+}
