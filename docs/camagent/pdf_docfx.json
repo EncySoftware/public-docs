@@ -1,0 +1,12 @@
+{
+  "build": {
+    "content": [
+      { "files": [ "src/**/*.{md,yml}", "pdf/toc.yml" ] }
+    ],
+    "resource": [
+      { "files": [ "src/images/**", "src/attachments/**" ] }
+    ],
+    "dest": "out/pdf",
+    "template": [ "default", "modern" ]
+  }
+}

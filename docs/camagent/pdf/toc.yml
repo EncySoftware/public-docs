@@ -1,0 +1,16 @@
+﻿pdf: true
+items:
+  - name: CAM Agent
+    href: ../src/index.md
+  - name: Getting started
+    href: ../src/getting-started.md
+  - name: Features
+    href: ../src/features.md
+  - name: Workflows and commands
+    href: ../src/workflows.md
+  - name: Agent tools
+    href: ../src/mcp-tools.md
+  - name: FAQ
+    href: ../src/faq.md
+  - name: External references
+    href: ../src/references.md
