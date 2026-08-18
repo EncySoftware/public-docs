@@ -1,6 +1,6 @@
 ﻿# Agent tools
 
-The agent drives the CAM system through **126 tools** grouped by area. You normally do not
+The agent drives the CAM system through **158 tools** grouped by area. You normally do not
 call them yourself — the agent picks the right tool for a request and shows every call in the
 chat for approval — but the catalog below tells you what the assistant is capable of.
 
@@ -34,6 +34,25 @@ chat for approval — but the catalog below tells you what the assistant is capa
 | **Operator** | ask_human, ask_human_choice |
 | **Health** | cam_ping, cam_is_alive, rag_ping |
 
-The CAM system ships an additional CLData inspection server that CAM Agent picks up
-automatically: 15 tools (listed as cld_ in the chat) for inspecting CLData projects —
-project list, skeleton, command and parameter lookup, machine info.
+## Postprocessor development (pp_)
+
+17 tools for driving the postprocessor IDE: open or create a postprocessor, read and edit
+its structure and code, compile it, run it over CLData, and manage IDE instances.
+
+| Category | Tools |
+|----------|-------|
+| **Postprocessor** | pp_open_post, pp_create_post, pp_get_structure, pp_get_code, pp_set_code, pp_delete, pp_get_registers, pp_set_registers, pp_open_cld, pp_translate, pp_run |
+| **IDE instances** | pp_launch, pp_instances, pp_select_instance, pp_close, pp_kill |
+| **Health** | pp_ping |
+
+## CLData inspection (cld_)
+
+15 tools for inspecting CLData projects: structure, commands, parameters, machine info.
+
+| Category | Tools |
+|----------|-------|
+| **Projects** | cld_open_project, cld_close_project, cld_list_projects |
+| **Structure** | cld_list_files, cld_get_skeleton, cld_get_unique_command_names |
+| **Commands** | cld_list_commands, cld_get_command, cld_find_command, cld_command_code |
+| **Parameters** | cld_get_parameter, cld_find_parameter, cld_get_project_parameter |
+| **Machine & export** | cld_get_machine_info, cld_dump_json |

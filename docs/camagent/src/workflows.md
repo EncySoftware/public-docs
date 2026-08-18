@@ -22,7 +22,7 @@ the chat area, and a dedicated system prompt that focuses the agent on the task.
 
 | Command | Action |
 |---------|--------|
-| `/open` | Load a STEP/IGES file |
+| `/open` | Open a 3D model or project file |
 | `/camdir` | Select the CAM system executable |
 | `/index` | Scan the project structure |
 | `/explain` | Describe the current configuration |
