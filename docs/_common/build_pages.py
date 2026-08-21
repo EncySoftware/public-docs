@@ -6,6 +6,7 @@ Usage:
 """
 import argparse
 from concurrent.futures import ThreadPoolExecutor
+import hashlib
 import html
 import json
 import os
@@ -742,6 +743,16 @@ def _prepare_docfx_html(directory, config):
     language = _attr(config["language"])
     portal_label = _attr(config["labels"]["home"])
     marker = 'name="documentation-portal-label"'
+    main_js_path = os.path.join(directory, "styles", "main.js")
+    if not os.path.isfile(main_js_path):
+        raise SystemExit("missing DocFX custom script: " + main_js_path)
+    with open(main_js_path, "rb") as stream:
+        main_js_version = hashlib.sha256(stream.read()).hexdigest()[:12]
+    main_css_path = os.path.join(directory, "styles", "main.css")
+    if not os.path.isfile(main_css_path):
+        raise SystemExit("missing DocFX custom stylesheet: " + main_css_path)
+    with open(main_css_path, "rb") as stream:
+        main_css_version = hashlib.sha256(stream.read()).hexdigest()[:12]
 
     for root, _, files in os.walk(directory):
         for name in files:
@@ -785,6 +796,19 @@ def _prepare_docfx_html(directory, config):
                 )
                 if not head_count:
                     raise SystemExit("missing head element: " + path)
+
+            updated = re.sub(
+                r'(src=["\'][^"\']*styles/main\.js)(?:\?[^"\']*)?(["\'])',
+                r'\1?v=' + main_js_version + r'\2',
+                updated,
+                flags=re.IGNORECASE,
+            )
+            updated = re.sub(
+                r'(href=["\'][^"\']*styles/main\.css)(?:\?[^"\']*)?(["\'])',
+                r'\1?v=' + main_css_version + r'\2',
+                updated,
+                flags=re.IGNORECASE,
+            )
 
             encoded = updated.encode("utf-8")
             if has_bom:

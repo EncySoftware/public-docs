@@ -501,7 +501,9 @@
 
     results.forEach(function (result) {
       var item = result.item;
-      var href = new URL(item.href, indexUrl).href;
+      var target = new URL(item.href, indexUrl);
+      target.search = '?q=' + encodeURIComponent(query);
+      var href = target.href;
       var node = $('<div>').addClass('sr-item');
       var title = $('<div>').addClass('item-title');
       $('<a>').attr('href', href).text(item.title).appendTo(title);
@@ -509,6 +511,11 @@
       node.append($('<div>').addClass('item-href').text(href));
       node.append($('<div>').addClass('item-brief').text(makeSnippet(item.keywords, result.terms)));
       list.append(node);
+      if ($.fn.mark) {
+        result.terms.forEach(function (term) {
+          node.find('.item-title, .item-brief').mark(term, { separateWordSearch: false });
+        });
+      }
     });
   }
 
@@ -535,6 +542,16 @@
     input.setAttribute('aria-label', labels.search);
     search.show();
     $(window).trigger('resize');
+
+    var currentQuery = new URLSearchParams(window.location.search).get('q');
+    if (currentQuery) {
+      input.value = currentQuery;
+      if ($.fn.mark && !$('article mark').length) {
+        normalize(currentQuery).split(/\s+/).filter(Boolean).forEach(function (term) {
+          $('article').mark(term, { separateWordSearch: false });
+        });
+      }
+    }
 
     function scheduleSearch(event) {
       if (event && event.type === 'keyup') event.stopImmediatePropagation();
