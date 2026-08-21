@@ -1,7 +1,8 @@
 ﻿# Features
 
-- **CAM tools** — calculation, simulation, operation management, geometry, tools, NC code,
-  coordinate systems, and more. Full list — [Agent tools](mcp-tools.md).
+- **CAM tools** — calculation, simulation, operation management (create, reorder, delete),
+  geometry, tools, NC code, coordinate systems, and more. Full list —
+  [Agent tools](mcp-tools.md).
 - **Semantic search** across the CAM system documentation — the agent finds relevant
   documentation sections by the meaning of a query, not just keywords.
 - **Feature recognition** — a built-in 3D viewer that classifies STEP file faces into 48
