@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
   'use strict';
 
   var xrefData = null;
@@ -422,6 +422,168 @@
     init();
   }
 })();
+
+/* Keep full-text search independent from the optional top-level navbar.
+   Native DocFX leaves #search hidden when docfx:navrel is empty, and its Lunr
+   trimmer drops Cyrillic tokens. Search the generated index.json directly so
+   the same field works for every guide and language. */
+(function ($) {
+  'use strict';
+  if (!$) return;
+
+  var indexPromise = null;
+  var timer = null;
+
+  function normalize(value) {
+    return String(value || '').toLocaleLowerCase();
+  }
+
+  function loadIndex(indexUrl) {
+    if (!indexPromise) {
+      indexPromise = fetch(indexUrl, { credentials: 'same-origin' })
+        .then(function (response) {
+          if (!response.ok) throw new Error('Search index: ' + response.status);
+          return response.json();
+        })
+        .then(function (payload) {
+          return Object.keys(payload || {}).map(function (key) { return payload[key]; });
+        });
+    }
+    return indexPromise;
+  }
+
+  function findResults(items, query) {
+    var terms = normalize(query).split(/\s+/).filter(Boolean);
+    return items.map(function (item) {
+      var title = normalize(item.title);
+      var keywords = normalize(item.keywords);
+      var score = 0;
+      for (var i = 0; i < terms.length; i++) {
+        var term = terms[i];
+        if (title.indexOf(term) !== -1) score += title.indexOf(term) === 0 ? 80 : 45;
+        else if (keywords.indexOf(term) !== -1) score += 6;
+        else return null;
+      }
+      return { item: item, score: score, terms: terms };
+    }).filter(Boolean).sort(function (left, right) {
+      return right.score - left.score || left.item.title.localeCompare(right.item.title);
+    }).slice(0, 30);
+  }
+
+  function makeSnippet(value, terms) {
+    var text = String(value || '').replace(/\s+/g, ' ').trim();
+    if (!text) return '';
+    var normalized = normalize(text);
+    var offset = text.length;
+    terms.forEach(function (term) {
+      var found = normalized.indexOf(term);
+      if (found >= 0 && found < offset) offset = found;
+    });
+    if (offset === text.length) offset = 0;
+    var start = Math.max(0, offset - 90);
+    var end = Math.min(text.length, start + 260);
+    return (start ? '…' : '') + text.slice(start, end) + (end < text.length ? '…' : '');
+  }
+
+  function renderResults(results, query, indexUrl, labels) {
+    $('.hide-when-search').hide();
+    var root = $('#search-results').show();
+    var heading = root.find('.search-list').empty();
+    heading.append(document.createTextNode(labels.results + ' '));
+    $('<span>').text('"' + query + '"').appendTo(heading);
+
+    var list = root.find('.sr-items').empty();
+    root.find('#pagination').empty().hide();
+    if (!results.length) {
+      $('<p>').text(labels.empty).appendTo(list);
+      return;
+    }
+
+    results.forEach(function (result) {
+      var item = result.item;
+      var target = new URL(item.href, indexUrl);
+      target.search = '?q=' + encodeURIComponent(query);
+      var href = target.href;
+      var node = $('<div>').addClass('sr-item');
+      var title = $('<div>').addClass('item-title');
+      $('<a>').attr('href', href).text(item.title).appendTo(title);
+      node.append(title);
+      node.append($('<div>').addClass('item-href').text(href));
+      node.append($('<div>').addClass('item-brief').text(makeSnippet(item.keywords, result.terms)));
+      list.append(node);
+      if ($.fn.mark) {
+        result.terms.forEach(function (term) {
+          node.find('.item-title, .item-brief').mark(term, { separateWordSearch: false });
+        });
+      }
+    });
+  }
+
+  function showContents() {
+    $('#search-results').hide();
+    $('.hide-when-search').show();
+  }
+
+  $(function () {
+    var search = $('#search');
+    var input = document.getElementById('search-query');
+    var relHref = $("meta[property='docfx\\:rel']").attr('content');
+    if (!search.length || !input || !$('#search-results').length || !relHref || !window.fetch) return;
+
+    var labelSource = document.title + ' ' +
+      ($('meta[name="documentation-portal-label"]').attr('content') || '');
+    var isRussian = /[\u0400-\u04ff]/.test(labelSource);
+    var labels = isRussian
+      ? { search: 'Поиск по документации', results: 'Результаты поиска для', empty: 'Ничего не найдено' }
+      : { search: 'Search documentation', results: 'Search results for', empty: 'No results found' };
+    var indexUrl = new URL(relHref + 'index.json', window.location.href).href;
+
+    input.placeholder = labels.search;
+    input.setAttribute('aria-label', labels.search);
+    search.show();
+    $(window).trigger('resize');
+
+    var currentQuery = new URLSearchParams(window.location.search).get('q');
+    if (currentQuery) {
+      input.value = currentQuery;
+      if ($.fn.mark && !$('article mark').length) {
+        normalize(currentQuery).split(/\s+/).filter(Boolean).forEach(function (term) {
+          $('article').mark(term, { separateWordSearch: false });
+        });
+      }
+    }
+
+    function scheduleSearch(event) {
+      if (event && event.type === 'keyup') event.stopImmediatePropagation();
+      window.clearTimeout(timer);
+      var query = input.value.trim();
+      if (query.length < 2) {
+        showContents();
+        return;
+      }
+      timer = window.setTimeout(function () {
+        loadIndex(indexUrl).then(function (items) {
+          if (input.value.trim() === query) {
+            renderResults(findResults(items, query), query, indexUrl, labels);
+          }
+        }).catch(function () {
+          if (input.value.trim() === query) renderResults([], query, indexUrl, labels);
+        });
+      }, 180);
+    }
+
+    input.addEventListener('input', scheduleSearch);
+    input.addEventListener('keyup', scheduleSearch, true);
+    input.addEventListener('keydown', function (event) {
+      if (event.key === 'Enter') event.preventDefault();
+      if (event.key === 'Escape') {
+        input.value = '';
+        showContents();
+      }
+    }, true);
+    search.on('submit', function (event) { event.preventDefault(); });
+  });
+})(window.jQuery);
 
 /* =============================================================
    Track the current page in the left TOC: highlight it and keep

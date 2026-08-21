@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Build and add one documentation version to a Pages staging site.
 
 Usage:
@@ -6,6 +6,7 @@ Usage:
 """
 import argparse
 from concurrent.futures import ThreadPoolExecutor
+import hashlib
 import html
 import json
 import os
@@ -62,6 +63,17 @@ CSS = r"""
   --shadow: 0 18px 50px rgba(20, 32, 51, .10);
 }
 * { box-sizing: border-box; }
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
 html { scroll-behavior: smooth; }
 body {
   margin: 0;
@@ -111,7 +123,69 @@ a { color: inherit; }
 .brand__copy { display: grid; line-height: 1.15; }
 .brand__copy strong { font-size: 15px; letter-spacing: .01em; }
 .brand__copy span { margin-top: 4px; color: var(--muted); font-size: 12px; }
-.site-nav { display: flex; align-items: center; gap: 8px; }
+.site-search {
+  position: relative;
+  flex: 1 1 320px;
+  max-width: 360px;
+  margin-left: auto;
+}
+.site-search__field {
+  height: 42px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 0 13px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #f8fafc;
+  transition: border-color .18s ease, box-shadow .18s ease, background .18s ease;
+}
+.site-search:focus-within .site-search__field {
+  border-color: var(--brand);
+  background: white;
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--brand) 15%, transparent);
+}
+.site-search__field svg { width: 18px; height: 18px; flex: 0 0 auto; color: var(--muted); }
+.site-search input {
+  width: 100%;
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  color: var(--ink);
+  background: transparent;
+  font: inherit;
+  font-size: 14px;
+}
+.site-search input::placeholder { color: #87909f; }
+.site-search__results {
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  z-index: 30;
+  width: min(520px, calc(100vw - 32px));
+  max-height: min(540px, calc(100vh - 110px));
+  overflow-y: auto;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 24px 60px rgba(20, 32, 51, .18);
+}
+.site-search__results[hidden] { display: none; }
+.site-search__summary { padding: 12px 15px; color: var(--muted); font-size: 12px; font-weight: 750; }
+.site-search__result {
+  display: grid;
+  gap: 3px;
+  padding: 12px 15px;
+  border-top: 1px solid #edf0f4;
+  text-decoration: none;
+}
+.site-search__result:hover,
+.site-search__result:focus,
+.site-search__result.is-active { outline: 0; background: color-mix(in srgb, var(--brand) 8%, white); }
+.site-search__result strong { color: var(--ink); font-size: 14px; line-height: 1.35; }
+.site-search__result span { color: var(--muted); font-size: 12px; }
+.site-nav { flex: 0 0 auto; display: flex; align-items: center; gap: 8px; }
 .site-nav a {
   padding: 9px 13px;
   color: #475467;
@@ -489,10 +563,16 @@ a { color: inherit; }
 .theme-light .versions { border: 0; border-radius: 20px; }
 .theme-light .version-chip:hover,
 .theme-light .version-chip--current { border-color: #ff3333; background: #fff5f5; }
+@media (max-width: 980px) {
+  .site-header__inner { gap: 12px; }
+  .site-nav a:first-child { display: none; }
+  .site-search { flex-basis: 250px; }
+}
 @media (max-width: 760px) {
   .site-header__inner, .page, .site-footer__inner { width: min(1180px, calc(100% - 24px)); }
   .site-header__inner { min-height: 66px; }
-  .brand__copy span, .site-nav a:first-child { display: none; }
+  .brand__copy { display: none; }
+  .site-search { max-width: none; }
   .site-nav a { padding: 8px; }
   .page { padding-top: 20px; }
   .hero { min-height: 0; padding: 34px 25px; border-radius: 22px; }
@@ -508,11 +588,148 @@ a { color: inherit; }
 }
 @media (max-width: 520px) {
   .site-nav { display: none; }
+  .site-search { margin-left: 0; }
   .brand__copy strong { font-size: 14px; }
   .hero__actions { display: grid; grid-template-columns: minmax(0, 1fr); }
   .hero__actions .button { width: 100%; max-width: 100%; }
   .hero h1, .hero__lead { overflow-wrap: anywhere; }
 }
+"""
+
+PORTAL_JS = r"""
+(function () {
+  "use strict";
+
+  var form = document.querySelector(".site-search[data-search-index]");
+  if (!form || !window.fetch) return;
+
+  var input = form.querySelector("input[type=search]");
+  var panel = form.querySelector(".site-search__results");
+  var indexPromise = null;
+  var activeIndex = -1;
+  var visibleLinks = [];
+
+  function loadIndex() {
+    if (!indexPromise) {
+      indexPromise = fetch(form.getAttribute("data-search-index"), { credentials: "same-origin" })
+        .then(function (response) {
+          if (!response.ok) throw new Error("Search index: " + response.status);
+          return response.json();
+        })
+        .then(function (payload) { return Array.isArray(payload.items) ? payload.items : []; });
+    }
+    return indexPromise;
+  }
+
+  function normalize(value) {
+    return String(value || "").toLocaleLowerCase();
+  }
+
+  function find(items, query) {
+    var terms = normalize(query).split(/\s+/).filter(Boolean);
+    if (!terms.length) return [];
+    return items.map(function (item) {
+      var title = normalize(item.title);
+      var guide = normalize(item.guide);
+      var keywords = normalize(item.keywords);
+      var score = 0;
+      for (var i = 0; i < terms.length; i++) {
+        var term = terms[i];
+        if (title.indexOf(term) !== -1) score += title.indexOf(term) === 0 ? 80 : 45;
+        else if (guide.indexOf(term) !== -1) score += 18;
+        else if (keywords.indexOf(term) !== -1) score += 4;
+        else return null;
+      }
+      return { item: item, score: score };
+    }).filter(Boolean).sort(function (left, right) {
+      return right.score - left.score || left.item.title.localeCompare(right.item.title);
+    }).slice(0, 24);
+  }
+
+  function clearPanel() {
+    panel.hidden = true;
+    panel.textContent = "";
+    activeIndex = -1;
+    visibleLinks = [];
+  }
+
+  function render(results) {
+    panel.textContent = "";
+    activeIndex = -1;
+    visibleLinks = [];
+
+    var summary = document.createElement("div");
+    summary.className = "site-search__summary";
+    summary.textContent = results.length
+      ? form.getAttribute("data-search-results")
+      : form.getAttribute("data-search-empty");
+    panel.appendChild(summary);
+
+    var root = new URL(form.getAttribute("data-search-root"), window.location.href);
+    results.forEach(function (result) {
+      var item = result.item;
+      var link = document.createElement("a");
+      link.className = "site-search__result";
+      link.href = new URL(item.href, root).href;
+
+      var title = document.createElement("strong");
+      title.textContent = item.title;
+      var guide = document.createElement("span");
+      guide.textContent = item.guide;
+      link.appendChild(title);
+      link.appendChild(guide);
+      panel.appendChild(link);
+      visibleLinks.push(link);
+    });
+    panel.hidden = false;
+  }
+
+  function runSearch() {
+    var query = input.value.trim();
+    if (query.length < 2) {
+      clearPanel();
+      return;
+    }
+    form.setAttribute("aria-busy", "true");
+    loadIndex().then(function (items) {
+      if (input.value.trim() === query) render(find(items, query));
+    }).catch(function () {
+      if (input.value.trim() === query) render([]);
+    }).then(function () {
+      form.removeAttribute("aria-busy");
+    });
+  }
+
+  function selectResult(next) {
+    if (!visibleLinks.length) return;
+    if (activeIndex >= 0) visibleLinks[activeIndex].classList.remove("is-active");
+    activeIndex = (next + visibleLinks.length) % visibleLinks.length;
+    visibleLinks[activeIndex].classList.add("is-active");
+    visibleLinks[activeIndex].scrollIntoView({ block: "nearest" });
+  }
+
+  var timer = null;
+  input.addEventListener("input", function () {
+    window.clearTimeout(timer);
+    timer = window.setTimeout(runSearch, 180);
+  });
+  input.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") clearPanel();
+    else if (event.key === "ArrowDown") { event.preventDefault(); selectResult(activeIndex + 1); }
+    else if (event.key === "ArrowUp") { event.preventDefault(); selectResult(activeIndex - 1); }
+    else if (event.key === "Enter" && activeIndex >= 0) {
+      event.preventDefault();
+      visibleLinks[activeIndex].click();
+    }
+  });
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    if (visibleLinks.length) visibleLinks[Math.max(activeIndex, 0)].click();
+  });
+  document.addEventListener("click", function (event) {
+    if (!form.contains(event.target)) clearPanel();
+  });
+})();
 """
 
 
@@ -526,6 +743,16 @@ def _prepare_docfx_html(directory, config):
     language = _attr(config["language"])
     portal_label = _attr(config["labels"]["home"])
     marker = 'name="documentation-portal-label"'
+    main_js_path = os.path.join(directory, "styles", "main.js")
+    if not os.path.isfile(main_js_path):
+        raise SystemExit("missing DocFX custom script: " + main_js_path)
+    with open(main_js_path, "rb") as stream:
+        main_js_version = hashlib.sha256(stream.read()).hexdigest()[:12]
+    main_css_path = os.path.join(directory, "styles", "main.css")
+    if not os.path.isfile(main_css_path):
+        raise SystemExit("missing DocFX custom stylesheet: " + main_css_path)
+    with open(main_css_path, "rb") as stream:
+        main_css_version = hashlib.sha256(stream.read()).hexdigest()[:12]
 
     for root, _, files in os.walk(directory):
         for name in files:
@@ -569,6 +796,19 @@ def _prepare_docfx_html(directory, config):
                 )
                 if not head_count:
                     raise SystemExit("missing head element: " + path)
+
+            updated = re.sub(
+                r'(src=["\'][^"\']*styles/main\.js)(?:\?[^"\']*)?(["\'])',
+                r'\1?v=' + main_js_version + r'\2',
+                updated,
+                flags=re.IGNORECASE,
+            )
+            updated = re.sub(
+                r'(href=["\'][^"\']*styles/main\.css)(?:\?[^"\']*)?(["\'])',
+                r'\1?v=' + main_css_version + r'\2',
+                updated,
+                flags=re.IGNORECASE,
+            )
 
             encoded = updated.encode("utf-8")
             if has_bom:
@@ -639,6 +879,7 @@ def _load_config(path):
         "home", "latest", "source", "browse", "current", "exploreTitle",
         "exploreDescription", "versionsTitle", "versionsDescription", "open",
         "guide", "collection", "guideCount", "sectionCount", "footer",
+        "search", "searchResults", "searchNoResults",
     )
     missing_labels = [key for key in label_keys if key not in config["labels"]]
     if missing_labels:
@@ -746,6 +987,43 @@ def _build_unit(repo, entry):
     return entry["source"], source
 
 
+def _write_search_index(version_dir, entries, built):
+    items = []
+    for entry in entries:
+        index_path = os.path.join(built[entry["source"]], "index.json")
+        if not os.path.isfile(index_path):
+            raise SystemExit("missing DocFX search index: " + index_path)
+        with open(index_path, encoding="utf-8-sig") as stream:
+            source_index = json.load(stream)
+        if not isinstance(source_index, dict):
+            raise SystemExit("DocFX search index must be an object: " + index_path)
+        for source_item in source_index.values():
+            if not isinstance(source_item, dict):
+                continue
+            href = source_item.get("href")
+            title = source_item.get("title")
+            if not isinstance(href, str) or not href or not isinstance(title, str) or not title:
+                continue
+            normalized_href = href.replace("\\", "/")
+            while normalized_href.startswith("./"):
+                normalized_href = normalized_href[2:]
+            if (not normalized_href or normalized_href.startswith(("/", "../"))
+                    or "://" in normalized_href):
+                continue
+            items.append({
+                "href": entry["output"] + "/" + normalized_href,
+                "title": title,
+                "guide": entry["title"],
+                "keywords": source_item.get("keywords", ""),
+            })
+    items.sort(key=lambda item: (item["title"].casefold(), item["href"]))
+    payload = {"items": items}
+    _write(
+        os.path.join(version_dir, "search-index.json"),
+        json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n",
+    )
+
+
 def _breadcrumbs(items):
     if not items:
         return ""
@@ -761,7 +1039,9 @@ def _breadcrumbs(items):
     return '<nav class="breadcrumbs" aria-label="Breadcrumb">%s</nav>' % "".join(parts)
 
 
-def _document(config, title, description, body, home_href, latest_href, asset_href, crumbs=None):
+def _document(
+        config, title, description, body, home_href, latest_href, asset_href,
+        search_index_href, search_root_href, crumbs=None):
     labels = config["labels"]
     page_title = title if title == config["siteTitle"] else "%s · %s" % (title, config["siteTitle"])
     return """<!DOCTYPE html>
@@ -782,6 +1062,16 @@ def _document(config, title, description, body, home_href, latest_href, asset_hr
         <span class="brand__logo-shell"><img class="brand__logo" src="{logo_href}" alt="{brand_name}"></span>
         <span class="brand__copy"><strong>{site_title}</strong><span>{home_label}</span></span>
       </a>
+      <form class="site-search" role="search" data-search-index="{search_index_href}"
+            data-search-root="{search_root_href}" data-search-results="{search_results}"
+            data-search-empty="{search_empty}">
+        <label class="site-search__field">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
+          <span class="sr-only">{search_label}</span>
+          <input type="search" placeholder="{search_label}" autocomplete="off" aria-label="{search_label}" aria-controls="portal-search-results">
+        </label>
+        <div class="site-search__results" id="portal-search-results" aria-live="polite" hidden></div>
+      </form>
       <nav class="site-nav" aria-label="Primary">
         <a href="{website_url}" target="_blank" rel="noreferrer">{website_label}</a>
         <a href="{latest_href}">{latest_label}</a>
@@ -799,6 +1089,7 @@ def _document(config, title, description, body, home_href, latest_href, asset_hr
       <span class="site-footer__links"><a href="{website_url}" target="_blank" rel="noreferrer">{website_label}</a><a href="{repository_url}" target="_blank" rel="noreferrer">{source_label}</a></span>
     </div>
   </footer>
+  <script src="{asset_href}portal.js" defer></script>
 </body>
 </html>
 """.format(
@@ -819,6 +1110,11 @@ def _document(config, title, description, body, home_href, latest_href, asset_hr
         latest_label=_safe(labels["latest"]),
         repository_url=_attr(config["repositoryUrl"]),
         source_label=_safe(labels["source"]),
+        search_index_href=_attr(search_index_href),
+        search_root_href=_attr(search_root_href),
+        search_label=_safe(labels["search"]),
+        search_results=_attr(labels["searchResults"]),
+        search_empty=_attr(labels["searchNoResults"]),
         breadcrumbs=_breadcrumbs(crumbs or []),
         body=body,
         footer=_safe(labels["footer"]),
@@ -936,7 +1232,8 @@ def _write_site_index(output, config):
         os.path.join(output, "index.html"),
         _document(
             config, config["siteTitle"], config["siteDescription"], body,
-            "./", "latest/", "assets/",
+            "./", "latest/", "assets/", config["version"] + "/search-index.json",
+            config["version"] + "/",
         ),
     )
 
@@ -955,7 +1252,7 @@ def _write_version_index(version_dir, config):
         os.path.join(version_dir, "index.html"),
         _document(
             config, config["versionTitle"], config["versionDescription"], body,
-            "../", "../latest/", "../assets/", crumbs,
+            "../", "../latest/", "../assets/", "search-index.json", "./", crumbs,
         ),
     )
 
@@ -992,7 +1289,7 @@ def _write_section_index(version_dir, config, section):
         os.path.join(version_dir, section["slug"], "index.html"),
         _document(
             config, section["title"], section["description"], body,
-            "../../", "../../latest/", "../../assets/", crumbs,
+            "../../", "../../latest/", "../../assets/", "../search-index.json", "../", crumbs,
         ),
     )
 
@@ -1018,6 +1315,7 @@ def _write_assets(output, config, repo):
     css = css.replace("__DEEP__", config["theme"]["deep"])
     css = css.replace("__ACCENT__", config["theme"]["accent"])
     _write(os.path.join(output, "assets", "portal.css"), css.strip() + "\n")
+    _write(os.path.join(output, "assets", "portal.js"), PORTAL_JS.strip() + "\n")
     logo_source = os.path.join(repo, "docs", "_common", config["brand"]["logo"])
     if not os.path.isfile(logo_source):
         raise SystemExit("missing portal logo: " + logo_source)
@@ -1045,6 +1343,7 @@ def build_site(repo, output, config_path, latest):
         _prepare_docfx_html(destination, config)
 
     os.makedirs(output, exist_ok=True)
+    _write_search_index(version_dir, entries, built)
     _write_assets(output, config, repo)
     _write_version_index(version_dir, config)
     for section in config["sections"]:

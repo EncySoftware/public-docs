@@ -1,4 +1,4 @@
-{
+﻿{
   "version": "v3",
   "language": "en",
   "siteTitle": "ENCY technical documentation",
@@ -33,6 +33,9 @@
     "collection": "Collection",
     "guideCount": "guides",
     "sectionCount": "areas",
+    "search": "Search all documentation",
+    "searchResults": "Search results",
+    "searchNoResults": "No results found",
     "footer": "Technical documentation built from version-controlled sources."
   },
   "sections": [

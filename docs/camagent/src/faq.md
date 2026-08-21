@@ -24,3 +24,10 @@ selected.
 **How do I machine a part automatically?**
 Type `/yolo` — from model to NC program with minimal interaction. For a step-by-step guided
 workflow, type `/wizard`.
+
+**Can the assistant reorder or delete an operation?**
+Yes — ask it to move an operation after another one, make it the first, or delete it. Before
+deleting, the assistant names the operation and waits for your confirmation: a deletion cannot
+be undone from the chat, and once the project is saved the only way back is building the
+operation again. Reordering does not recalculate toolpaths — ask for a recalculation when the
+new order changes what a later operation machines.
