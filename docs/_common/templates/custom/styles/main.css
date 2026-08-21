@@ -1,4 +1,4 @@
-/* =============================================
+﻿/* =============================================
    VS CODE DARK THEME + COLORED HEADERS + AFFIX FIX
    ============================================= */
 
@@ -1045,6 +1045,14 @@ pre,
 /* Search results rendered by main.js */
 #search-results {
   color: var(--ency-ink);
+}
+
+#search-results mark,
+article mark {
+  padding: 0 .08em;
+  color: inherit;
+  background: #ffe783;
+  border-radius: 2px;
 }
 
 .search-results-container {
