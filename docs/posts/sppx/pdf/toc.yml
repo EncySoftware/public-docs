@@ -40,6 +40,8 @@ items:
         href: ../src/common-organization-of-the-work/main-window/programs-for-the-cldata-commands-processing.md
       - name: "Subprograms"
         href: ../src/common-organization-of-the-work/main-window/subprograms.md
+      - name: "Importing commands, subprograms, and objects"
+        href: ../src/common-organization-of-the-work/main-window/import-commands-subprograms-objects.md
       - name: "The command processing programs compilation"
         href: ../src/common-organization-of-the-work/main-window/command-processing-programs-compilation.md
       - name: "The work with the files of technological commands"
