@@ -9,6 +9,12 @@ description: Read, edit, compile and run an SPPX postprocessor through the InP M
 
 Changes to an SPPX postprocessor: a command handler, a subroutine, an object, registers, masks, modal output, separators or subprogram behaviour. Run `inspect-cldata` first and `verify-nc-program` afterwards.
 
+## Language foundation
+
+Load `sppx-language-foundations` before interpreting or planning SPPX code. It provides compact language foundations for state, objects, runtime data, registers and output; it does not replace actual CLData, current postprocessor code, or versioned documentation.
+
+Use the foundation for ordinary language forms. If the foundation, current code and actual CLData do not prove a required SPPX/InP semantic, follow the change-critical-unknowns workflow below: read the relevant documentation page before planning or editing.
+
 ## Tools and the order they go in
 
 The InP MCP server (`inp-mcp-server.exe`) drives the postprocessor IDE. `pp_ping` first, always — it reports the server, the known instances and the default target.
@@ -35,12 +41,13 @@ If no instance is running, prefer `pp_launch` windowed when a person is watching
 1. `pp_ping`. Get an instance, then `pp_open_post` if the postprocessor is not already open.
 2. `pp_get_structure`. Find the handler for the CLData command from `inspect-cldata`. Remember that output may be emitted further down — in a subroutine, a mask or on the next modal change.
 3. **Read before writing.** `pp_get_code` for every item you will change, `pp_get_registers` if registers are involved. Explain the current path from command to NC block before proposing an edit.
-4. Generate the baseline if there is none: `pp_open_cld` then `pp_run`, and keep the NC output for comparison.
-5. Plan the smallest edit and state the expected NC blocks, including the omitted, repeated and boundary cases.
-6. `pp_set_code` with the full body — the code you read, with your change applied. It overwrites; a fragment destroys the rest of the item. Preserve register order and formatting, modal behaviour, separators, the state kept in `Common` and in local variables, and the existing subprogram conventions. Donor code from another postprocessor must be adapted to this project's actual data.
-7. `pp_translate`. Fix every error. Report errors in postprocessor terms — frame, register, handler, G/M code — not as software stack traces.
-8. `pp_open_cld` + `pp_run`. Compare the new NC output with the baseline and with the reference program, and trace every difference, including unintended ones, to a command and a handler.
-9. Show the user what changed and hand over to `verify-nc-program`.
+4. **Resolve change-critical unknowns.** Before planning an edit, make a short internal list of every fact the edit depends on but that is not yet evidenced: unclear request terms, unexplained code paths or side effects, unfamiliar SPPX constructs, CLData-to-output mapping, register/mask/format semantics, modal and reset lifecycle, version-sensitive InP behaviour, and conflicts between project data, code, notes or donor postprocessors. For each item, keep the unresolved fact, why it matters, required evidence, fact found and source, and status: `resolved`, `not applicable`, or `blocked`. Use actual CLData for input values, current code and a baseline run for current behaviour, authoritative documentation for SPPX/InP semantics, workspace notes for local conventions, and donor code only as a candidate example. Resolve every change-critical item before planning. For an unfamiliar SPPX construct, built-in object, method, syntax form or InP semantic, an item becomes `resolved` only after `cam_read_doc` has returned a documentation page and the agent has obtained a specific applicable fact from it. Use semantic documentation search for an unfamiliar concept and keyword search for an exact known term, then read the returned page in full. A search snippet, an intended lookup, general programming knowledge, the task description or a similar donor fragment does not resolve the item. Do not produce an implementation plan that names or relies on such a construct before this read succeeds. If the required documentation cannot be read, mark the item `blocked` and report the concrete limitation rather than proposing syntax. Do not plan or make an edit that depends on a `blocked` item. Keep this list internal unless it blocks safe completion.
+5. Generate the baseline if there is none: `pp_open_cld` then `pp_run`, and keep the NC output separately from any reference NC program. Record the InP version, instance or `pid`, postprocessor path, CLData project path, baseline output location, and translation/run messages.
+6. Plan the smallest edit and state the expected NC blocks. Cover omitted, repeated and boundary values plus every applicable state transition: first use, modal repeat/change, operation or tool boundary, subprogram boundary and reset.
+7. `pp_set_code` with the full body — the code you read, with your change applied. It overwrites; a fragment destroys the rest of the item. Preserve register order and formatting, modal behaviour, separators, the state kept in `Common` and in local variables, and the existing subprogram conventions. Before borrowing code, verify its CLData input, register/mask meanings, modal-state assumptions and target control-system output against the current project.
+8. `pp_translate`. Fix every error. Report errors in postprocessor terms — frame, register, handler, G/M code — not as software stack traces. If `pp_set_code` or `pp_translate` fails, reread the saved item before the next change and compare it with the body read before editing; do not assume a failed call left it unchanged.
+9. `pp_open_cld` + `pp_run`. Record the changed output location and messages. Compare the new NC output with the baseline and with the reference program, and trace every difference, including unintended ones, to a command and a handler. Maintain the compact internal chain `CLData command and values -> changed SPPX item -> expected NC block -> observed NC difference -> evidence location`; reopen an assumption when generated NC contradicts its expected result.
+10. Show the user what changed and hand over to `verify-nc-program`.
 
 ## Showing your work in VS Code
 
