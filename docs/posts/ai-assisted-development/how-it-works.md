@@ -4,7 +4,7 @@ You talk to a chat. Behind it, three kinds of things do the work: servers that l
 
 The servers are reached over MCP — the Model Context Protocol, the standard way a chat client is given access to tools. That is why the same servers work in CAM Agent and in any chat extension you connect them to.
 
-Do not read too much into the word *server* here. These are ordinary programs on your own computer, started by the chat client when it needs them; they exist so that the tools can talk to it, and nothing of yours is published or listens on the network. The one that does reach outside is the knowledge server, which queries the documentation service — and even that keeps a local cache.
+Do not read too much into the word *server* here. These are ordinary programs on your own computer, started by the chat client when it needs them so its tools can communicate with it. They do not publish the files of your project or accept incoming network connections. The knowledge server is the exception: it queries the documentation service and keeps a local cache.
 
 ```text
         you
@@ -41,7 +41,7 @@ Do not read too much into the word *server* here. These are ordinary programs on
 | InP | An application of the CAM system | Runs SPPX postprocessors; also the IDE you can watch |
 | `InpCore.exe` | A program of the CAM system, run without a window | Runs .NET postprocessors |
 
-Two names are worth keeping apart when you read a message: `InP.exe` executes SPPX postprocessors, `InpCore.exe` executes .NET ones. And InP MCP is not InP itself — it drives an InP instance, so it reports a clear error when no instance is available.
+Do not confuse these three names: `InP.exe` is the IDE and executor for SPPX postprocessors; `InpCore.exe` is the batch executor for .NET postprocessors; InP MCP is the server that lets the assistant control an InP instance. If that instance is unavailable, InP MCP reports the problem instead of silently starting a different postprocessor.
 
 ## Windowed and headless
 

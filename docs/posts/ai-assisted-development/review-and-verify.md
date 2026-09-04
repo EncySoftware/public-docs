@@ -10,7 +10,7 @@ Use one of four states, and keep the evidence for it. The point is to make an un
 |---|---|
 | **Not verified** | There is a plan, a diff or a build, but the postprocessor was not run on a recorded project |
 | **Technically verified** | The run completed as expected and the log, result code and generated file are kept; the content of the NC program has not been reviewed |
-| **Verified on a test project** | The baseline and the new NC program were compared on the test and boundary sections, and the machine parameters were checked |
+| **Verified on a test project** | The baseline and the new NC program were compared on the normal test operations and applicable boundary cases — such as program start and end, operation or tool transitions, repeated modal commands, and minimum or maximum parameter values — and the machine parameters were checked |
 | **Approved for production** | A qualified engineer confirmed the program for a specific machine, control system and application |
 
 Only the last state allows production use, and only a person can grant it. Never describe a result as ready or safe on the strength of a process exit code.

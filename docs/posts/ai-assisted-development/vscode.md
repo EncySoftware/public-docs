@@ -48,7 +48,7 @@ For the details of each postprocessor type, continue with the [SPPX workflow](sp
 
 ## Ask it to show you things
 
-The assistant can open exactly what it is talking about, which is faster to read than a quoted fragment and always shows the current state:
+The assistant can open the exact item it is referring to, so you see the current source or input data rather than a fragment quoted in chat:
 
 - a command in the CLData Inspector — the exact file, command and parameter;
 - a handler at the relevant line, with a range highlighted and a short note attached;
