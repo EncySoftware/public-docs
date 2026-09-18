@@ -40,6 +40,22 @@
   },
   "sections": [
     {
+      "slug": "hyper",
+      "title": "ENCY Hyper",
+      "description": "Robotic cell setup, project management, programming, simulation, and execution.",
+      "icon": "book",
+      "direct": true,
+      "units": [
+        {
+          "slug": "guide",
+          "source": "hyper",
+          "title": "ENCY Hyper user manual",
+          "description": "Robotic cell setup, project management, programming, simulation, and execution.",
+          "meta": "User manual"
+        }
+      ]
+    },
+    {
       "slug": "camagent",
       "title": "CAM Agent",
       "description": "AI assistant for the CAM system: drive machining through chat — calculation, simulation, tooling, and NC program generation.",
