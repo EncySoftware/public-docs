@@ -1,0 +1,38 @@
+﻿/* Shared reading layout for the ENCY Hyper manual. */
+#ht-wrap-container .ht-content { max-width: 1040px; box-sizing: border-box; }
+#ht-wrap-container .ht-content .ht-content-header { margin-bottom: 20px; }
+#ht-wrap-container .ht-content .ht-content-header h1 { font: 600 22px/1.35 Arial, sans-serif; margin: 0 0 16px; }
+#ht-wrap-container .ht-content #main-content { font-family: Arial, sans-serif !important; font-size: 16px !important; line-height: 1.6 !important; color: #28323d; max-width: 960px; }
+#main-content p { margin: 0 0 14px; }
+#main-content h1, #main-content h2, #main-content h3, #main-content h4, #main-content h5, #main-content h6 { color: #243447; font-weight: 600; line-height: 1.35; padding: 0; }
+#main-content h1 { font-size: 20px; margin: 24px 0 10px; }
+#main-content h2 { font-size: 19px; margin: 22px 0 10px; }
+#main-content h3 { font-size: 18px; margin: 20px 0 8px; }
+#main-content h4, #main-content h5, #main-content h6 { font-size: 16px; margin: 18px 0 8px; }
+#main-content strong, #main-content b { font-weight: 700; color: #18222d; }
+#main-content ul, #main-content ol { margin: 0 0 16px; padding-left: 26px; }
+#main-content li { margin: 6px 0; }
+#main-content li > p { margin: 0 0 8px; }
+#main-content .section, #main-content section { margin: 0; padding: 0; }
+#main-content img.manual-image { max-width: 100% !important; height: auto !important; box-sizing: border-box; vertical-align: middle; margin: 6px 8px 12px 0; }
+#main-content img.manual-screenshot { border: 1px solid #dce2e8; border-radius: 5px; background: #fff; }
+#main-content img.manual-icon { border: 0; border-radius: 0; margin: 0 4px; }
+#main-content .scroll-expand-container { margin: 8px 0 18px; }
+#main-content .scroll-expand-control { padding: 7px 0; width: auto; }
+#main-content .scroll-expand-control-text { font-size: 14px; }
+#main-content .scroll-expand-content { margin: 8px 0 16px; padding: 0 0 0 16px; border-left: 2px solid #e2e8ef; }
+#main-content .manual-image-pair { display: flex; gap: 16px; align-items: flex-start; margin: 10px 0 18px; }
+#main-content .manual-image-pair > div { flex: 0 1 auto !important; min-width: 0; }
+#main-content table { max-width: 100%; border-collapse: collapse; border: 1px solid #dce2e8; }
+#main-content td, #main-content th { border-color: #dce2e8; padding: 10px 12px; }
+@media (max-width: 640px) {
+  #ht-wrap-container .ht-content .ht-content-header h1 { font-size: 21px; }
+  #main-content .scroll-expand-content { padding-left: 10px; }
+  #main-content .manual-image-pair { flex-wrap: wrap; }
+}
+
+/* Native disclosure controls retain nested sections without the export's JavaScript. */
+#main-content summary { display: list-item; cursor: pointer; color: #0052cc; }
+#main-content details > .scroll-expand-content { margin: 8px 0 16px; }
+#main-content img { max-width: 100%; height: auto; }
+@media print { #main-content details > .scroll-expand-content { display: block !important; } }
