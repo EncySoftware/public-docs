@@ -1,0 +1,30 @@
+﻿- name: "ENCY Hyper user manual"
+  href: index.md
+- name: "Introduction to ENCY Hyper"
+  href: introduction.md
+- name: "License activation"
+  href: license-activation.md
+- name: "Home page"
+  href: home-page.md
+  items:
+    - name: "Project library"
+      href: project-library.md
+- name: "System's main window"
+  href: main-window.md
+  items:
+    - name: "Mode panel"
+      href: mode-panel.md
+      items:
+        - name: "Cell Mode"
+          href: cell-mode.md
+        - name: "Parts Mode"
+          href: parts-mode.md
+        - name: "Programming Mode"
+          href: programming-mode.md
+          items:
+            - name: "The navigation for robot movement in space"
+              href: robot-navigation.md
+        - name: "Run Mode"
+          href: run-mode.md
+    - name: "Main menu"
+      href: main-menu.md
