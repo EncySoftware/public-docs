@@ -1,0 +1,110 @@
+﻿/* Shared reading layout. Images retain their aspect ratio and original files. */
+#ht-wrap-container #ht-content {
+  box-sizing: border-box;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 80px 48px 48px;
+}
+#ht-wrap-container #ht-content .ht-content-header {
+  margin-bottom: 28px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e2e7ed;
+}
+#ht-wrap-container #ht-content .ht-content-header h1,
+main.doc-standalone h1 {
+  color: #243245;
+  font: 600 32px/1.25 "Segoe UI", Arial, sans-serif;
+  letter-spacing: -.5px;
+}
+#ht-wrap-container #ht-content #ht-breadcrumb { margin-bottom: 12px; line-height: 1.5; }
+#ht-wrap-container #ht-content #main-content,
+main.doc-standalone {
+  color: #303b49;
+  font-family: "Segoe UI", Arial, sans-serif !important;
+  font-size: 16px !important;
+  line-height: 1.7 !important;
+  overflow-wrap: break-word;
+}
+#main-content p { margin: 0 0 16px; }
+#main-content h1, #main-content h2, #main-content h3, #main-content h4 {
+  color: #243245;
+  font-weight: 600;
+  line-height: 1.35;
+  scroll-margin-top: 80px;
+}
+#main-content h2 { font-size: 23px; margin: 40px 0 18px; padding-top: 20px; border-top: 1px solid #e2e7ed; }
+#main-content h3 { font-size: 19px; margin: 28px 0 14px; }
+#main-content h4 { font-size: 17px; margin: 24px 0 12px; }
+#main-content ul, #main-content ol { margin: 16px 0 24px; padding-left: 28px; }
+#main-content li { margin: 0 0 10px; padding-left: 4px; }
+#main-content li > p { margin: 0 0 8px; }
+#main-content li > :last-child { margin-bottom: 0; }
+#main-content li ul, #main-content li ol { margin: 10px 0; }
+#main-content a { text-underline-offset: 3px; }
+#main-content a:focus-visible { outline: 2px solid #277b9c; outline-offset: 4px; }
+#main-content code { padding: 2px 5px; border-radius: 4px; background: #f2f5f8; font-size: .9em; }
+#main-content figure { margin: 28px 0 32px; }
+#main-content img.doc-image {
+  display: block !important;
+  box-sizing: border-box;
+  width: var(--doc-image-width) !important;
+  max-width: 100% !important;
+  height: auto !important;
+  margin: 24px auto !important;
+  border: 1px solid #dce2e8 !important;
+  border-radius: 6px;
+  box-shadow: 0 3px 12px rgb(35 50 69 / 5%);
+}
+#main-content figure img.doc-image { margin: 0 auto !important; }
+#main-content a.doc-image-link { cursor: zoom-in; }
+#main-content figcaption {
+  max-width: 800px;
+  margin: 12px auto 0;
+  color: #657284;
+  font-size: 14px;
+  line-height: 1.55;
+  text-align: center;
+}
+#main-content img.doc-inline {
+  display: inline-block !important;
+  width: var(--doc-image-width);
+  max-width: 100%;
+  height: auto;
+  margin: 0 3px !important;
+  vertical-align: middle;
+  border: 0 !important;
+  box-shadow: none;
+}
+#main-content .doc-table { overflow-x: auto; margin: 22px 0 28px; }
+#main-content table { border-collapse: collapse; width: 100%; margin: 0; border: 1px solid #dce2e8; font-size: 15px; }
+#main-content th, #main-content td { padding: 11px 14px; border: 1px solid #dce2e8; text-align: left; vertical-align: top; }
+#main-content th { background: #f2f5f8; color: #243245; font-weight: 600; }
+#main-content td p, #main-content th p { margin: 0 0 8px; }
+#main-content td > :last-child, #main-content th > :last-child { margin-bottom: 0; }
+#main-content .confbox { margin: 24px 0; border-color: #dce2e8; border-radius: 6px; }
+#main-content blockquote { margin: 24px 0; padding: 8px 20px; border-left: 3px solid #d9b94d; background: #faf9f4; }
+#ht-wrap-container #ht-post-nav { box-sizing: border-box; max-width: 1000px; margin: 0 auto; padding: 0 48px 80px; }
+main.doc-standalone { box-sizing: border-box; max-width: 1000px; padding: 44px 48px; }
+@media (max-width: 700px) {
+  #ht-wrap-container #ht-content { padding: 72px 20px 36px; }
+  #ht-wrap-container #ht-content .ht-content-header h1, main.doc-standalone h1 { font-size: 27px; }
+  #main-content h2 { font-size: 21px; margin-top: 32px; }
+  #main-content img.doc-image { margin: 20px auto !important; }
+  #main-content th, #main-content td { padding: 9px 10px; }
+  #ht-wrap-container #ht-post-nav { padding: 0 20px 64px; }
+  main.doc-standalone { margin: 0; padding: 28px 20px; }
+}
+@media print {
+  #ht-wrap-container #ht-content, main.doc-standalone { max-width: none; padding: 0; }
+  #main-content img.doc-image { box-shadow: none; }
+  #main-content figure, #main-content tr { break-inside: avoid; }
+}
+
+/* Embed the reviewed article in the portal's own navigation shell. */
+#ht-wrap-container #ht-content { max-width: none; padding: 0; margin: 0; }
+#main-content summary { display: list-item; cursor: pointer; color: #0052cc; }
+#main-content details { margin: 18px 0; }
+#main-content details > .scroll-expand-content { margin: 12px 0 20px; }
+#main-content img { max-width: 100%; height: auto; }
+
+@media (max-width: 768px) { .sidenav { margin-left: 0 !important; margin-right: 0 !important; width: auto !important; max-width: 100%; box-sizing: border-box; } }
