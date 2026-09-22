@@ -147,5 +147,11 @@
         }
       ]
     }
+  ],
+  "staticAssets": [
+    {
+      "source": "machinemaker/_media",
+      "output": "machinemaker/media"
+    }
   ]
 }
