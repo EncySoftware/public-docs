@@ -1342,6 +1342,18 @@ def build_site(repo, output, config_path, latest):
         shutil.copytree(built[entry["source"]], destination)
         _prepare_docfx_html(destination, config)
 
+    # Optional shared binary assets can serve more than one localized portal.
+    for index, asset in enumerate(config.get("staticAssets", [])):
+        _validate_source(asset["source"], "staticAssets[%d].source" % index)
+        _validate_source(asset["output"], "staticAssets[%d].output" % index)
+        source = os.path.join(repo, "docs", *asset["source"].split("/"))
+        destination = os.path.join(version_dir, *asset["output"].split("/"))
+        if not os.path.isdir(source):
+            raise SystemExit("missing static asset directory: " + source)
+        if os.path.exists(destination):
+            raise SystemExit("static assets overlap a published section: " + destination)
+        shutil.copytree(source, destination)
+
     os.makedirs(output, exist_ok=True)
     _write_search_index(version_dir, entries, built)
     _write_assets(output, config, repo)
