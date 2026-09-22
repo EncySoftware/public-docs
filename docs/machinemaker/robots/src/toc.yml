@@ -1,0 +1,99 @@
+﻿- name: "MachineMaker — Robots"
+  href: index.md
+- name: "Introduction to MachineMaker"
+  href: introduction-to-machinemaker.md
+- name: "Interface"
+  href: interface.md
+  items:
+    - name: "Main window"
+      href: main-window.md
+    - name: "3D navigation"
+      href: 3d-navigation.md
+    - name: "Toolbar"
+      href: toolbar.md
+    - name: "Application Settings"
+      href: application-settings.md
+- name: "Getting Started"
+  href: getting-started.md
+  items:
+    - name: "Creating a project"
+      href: creating-a-project.md
+    - name: "Adding a mechanism"
+      href: adding-a-mechanism.md
+    - name: "Prepare and import 3D objects"
+      href: prepare-and-import-3d-objects.md
+    - name: "Grouping elements into nodes"
+      href: grouping-elements-into-nodes.md
+    - name: "Building a kinematic scheme"
+      href: building-a-kinematic-scheme.md
+      items:
+        - name: "Industrial Robots"
+          href: industrial-robots.md
+        - name: "Cobot"
+          href: cobot.md
+        - name: "Heavy-Duty Robots"
+          href: heavy-duty-robots.md
+        - name: "Flexible Heavy-Duty Robot"
+          href: flexible-heavy-duty-robot.md
+        - name: "Tables and Positioners"
+          href: tables-and-positioners.md
+        - name: "Rails and Portals"
+          href: rails-and-portals.md
+        - name: "Composite End effectors"
+          href: composite-end-effectors.md
+    - name: "Assemblies"
+      href: assemblies.md
+      items:
+        - name: "Assembly Simulation and Validation"
+          href: assembly-simulation-and-validation.md
+        - name: "Table calibration"
+          href: table-calibration.md
+        - name: "Receiving assemblies from CAM system"
+          href: receiving-assemblies-from-cam-system.md
+        - name: "Assembly options"
+          href: assembly-options.md
+        - name: "Additional options"
+          href: additional-options.md
+        - name: "Collision"
+          href: collision.md
+        - name: "Links/Leads"
+          href: links-leads.md
+    - name: "Coloring"
+      href: coloring.md
+    - name: "Mechanism Simulation and Validation"
+      href: mechanism-simulation-and-validation.md
+    - name: "End effectors and TCP calibration"
+      href: end-effectors-and-tcp-calibration.md
+    - name: "Mechanisms Library"
+      href: mechanisms-library.md
+- name: "Examples: Robot cell"
+  href: examples-robot-cell.md
+  items:
+    - name: "Simple robot"
+      href: simple-robot.md
+    - name: "Heavy-Duty robot"
+      href: heavy-duty-robot.md
+    - name: "Flexible Heavy-Duty Robot"
+      href: flexible-heavy-duty-robot2.md
+    - name: "Cobot"
+      href: cobot2.md
+    - name: "End Effectors"
+      href: end-effectors.md
+    - name: "External Tools"
+      href: external-tools.md
+    - name: "Composite End Effector"
+      href: composite-end-effector.md
+    - name: "Composite EndEffector: Spot Welding"
+      href: composite-endeffector-spot-welding.md
+    - name: "Tables and User CS"
+      href: tables-and-user-cs.md
+    - name: "Rail"
+      href: rail.md
+    - name: "H-bot (Portal)"
+      href: h-bot-portal.md
+    - name: "SCARA Robot"
+      href: scara-robot.md
+    - name: "Column-type robot"
+      href: column-type-robot.md
+- name: "Simplifier"
+  href: simplifier.md
