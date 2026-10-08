@@ -40,44 +40,6 @@
   },
   "sections": [
     {
-      "slug": "machinemaker",
-      "title": "MachineMaker",
-      "icon": "settings",
-      "description": "Machine and robot setup guides.",
-      "units": [
-        {
-          "slug": "machines",
-          "source": "machinemaker/machines",
-          "title": "MachineMaker — Machines",
-          "description": "Machine models, kinematics, tooling and simulation.",
-          "meta": "User manual"
-        },
-        {
-          "slug": "robots",
-          "source": "machinemaker/robots",
-          "title": "MachineMaker — Robots",
-          "description": "Robot models, cells, end effectors and calibration.",
-          "meta": "User manual"
-        }
-      ]
-    },
-    {
-      "slug": "hyper",
-      "title": "ENCY Hyper",
-      "description": "Robotic cell setup, project management, programming, simulation, and execution.",
-      "icon": "book",
-      "direct": true,
-      "units": [
-        {
-          "slug": "guide",
-          "source": "hyper",
-          "title": "ENCY Hyper user manual",
-          "description": "Robotic cell setup, project management, programming, simulation, and execution.",
-          "meta": "User manual"
-        }
-      ]
-    },
-    {
       "slug": "camagent",
       "title": "CAM Agent",
       "description": "AI assistant for the CAM system: drive machining through chat — calculation, simulation, tooling, and NC program generation.",
@@ -146,12 +108,6 @@
           "meta": "XMLProperties"
         }
       ]
-    }
-  ],
-  "staticAssets": [
-    {
-      "source": "machinemaker/_media",
-      "output": "machinemaker/media"
     }
   ]
 }
