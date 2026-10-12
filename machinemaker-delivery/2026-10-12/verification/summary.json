@@ -1,5 +1,5 @@
 {
-  "assembled_at": "2026-10-12T07:11:01.664035+00:00",
+  "assembled_at": "2026-10-12T10:56:18.886201+00:00",
   "guide_count": 6,
   "page_count": 208,
   "guides": [
@@ -53,7 +53,7 @@
     }
   ],
   "html_files": 1181,
-  "html_bytes": 1109327513,
+  "html_bytes": 1111574751,
   "browser_page_checks": 416,
   "internal_errors": [],
   "browser_errors": [],
@@ -64,7 +64,7 @@
   "local_collection_ready": true,
   "remote_publication_performed": false,
   "publication_owner": "Administrator, after the user's handoff and content review",
-  "content_revision": "2026-10-12T06:39:10.285611+00:00",
+  "content_revision": "2026-10-12T10:52:32.106762+00:00",
   "user_decisions": {
     "legacy_kb_links": "Replace with corresponding internal chapters where available; otherwise remove the obsolete referral",
     "restricted_video": "Remove the Custom Imported Robot Cell link and its list entry",
@@ -72,7 +72,7 @@
     "kuka_download_center": "Retain the link and instructional text unchanged, as requested by the user",
     "turnmill_en_docfx": "Convert the recovered English book to the shared DocFX template, preserve the 25 remaining article URLs and content, exclude Trevisan"
   },
-  "revision_browser_page_checks": 12,
+  "revision_browser_page_checks": 14,
   "turnmill_en_docfx_conversion": {
     "pages": 25,
     "removed_chapters": [
@@ -84,5 +84,12 @@
     ],
     "errors": 0,
     "warnings": 0
+  },
+  "robots_en_branding_revision": {
+    "revised_at": "2026-10-12T10:50:11.362185+00:00",
+    "images": 2,
+    "caption": "ENCY axes map compatibility mode",
+    "evidence": "robots-en-branding-revision.json",
+    "browser_checks": "robots-en-branding-browser-checks.json"
   }
 }

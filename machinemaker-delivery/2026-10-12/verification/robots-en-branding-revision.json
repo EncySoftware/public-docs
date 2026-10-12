@@ -1,0 +1,50 @@
+{
+  "revised_at": "2026-10-12T10:50:11.362185+00:00",
+  "authorization": "User asked to replace SprutCAM with ENCY in both Robots EN screenshots.",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: text-localization. Edit target: the supplied existing MachineMaker interface screenshot. Make exactly one text substitution in the checkbox caption near the bottom: replace the word 'SprutCAM' with 'ENCY', so the complete caption reads verbatim 'ENCY axes map compatibility mode'. Match the original small dark-gray UI font, weight, baseline and antialiasing; move the following words left naturally after the shorter brand name. Leave the checkbox in its exact original position. Preserve the entire screenshot, original dimensions and framing, panels, all other text, all numeric values and signs, tabs, controls, colored indicators, existing red annotation if present, background and every other pixel as faithfully as possible. Do not redraw or redesign the interface. Do not add callouts, watermarks, extra text, borders or labels. The only requested visual change is SprutCAM to ENCY in that one caption.",
+  "old_page_sha256": "188a77cc1f49167c53dbb6980e18266ab6acef7cf432fd985ebd38ce527960e6",
+  "old_delivery": {
+    "checked_at": "2026-10-12T07:11:29.527835+00:00",
+    "archive_entries": 1225,
+    "site_files": 1181,
+    "archive_crc_ok": true,
+    "guide_count": 6,
+    "page_count": 208,
+    "package_bytes": 1066192592,
+    "package_sha256": "2cb626d22146872be57dec647528e675be325f654b14c105437131b94b7ea318"
+  },
+  "images": [
+    {
+      "name": "limits",
+      "old_filename": "3575d6a240d0d00e23009b9abb76f3f16071aebbeeeea8d8bd895f743dad82a5.png",
+      "old_sha256": "3575d6a240d0d00e23009b9abb76f3f16071aebbeeeea8d8bd895f743dad82a5",
+      "new_filename": "5b94d8c33dbff5cdc855e7035caa17106b541a5d974cf4ea464cc1e34b6ad8bc.png",
+      "new_sha256": "5b94d8c33dbff5cdc855e7035caa17106b541a5d974cf4ea464cc1e34b6ad8bc",
+      "generated_copy": "E:\\astra\\video\\publication-work\\robots-en-ency-screenshots-2026-10-12\\images\\limits-ency.png",
+      "rendered_width": 414,
+      "rendered_height": 503,
+      "caption": "ENCY axes map compatibility mode"
+    },
+    {
+      "name": "axis-options",
+      "old_filename": "3416680d67cea5b40aefd0fea069ff2eeafcecc7fa47ed5c8231fde19da3ff51.png",
+      "old_sha256": "3416680d67cea5b40aefd0fea069ff2eeafcecc7fa47ed5c8231fde19da3ff51",
+      "new_filename": "8e00fe69468457b11d8f1a62eb79864def53f0a882a5f2e2409b2bd62ae717b8.png",
+      "new_sha256": "8e00fe69468457b11d8f1a62eb79864def53f0a882a5f2e2409b2bd62ae717b8",
+      "generated_copy": "E:\\astra\\video\\publication-work\\robots-en-ency-screenshots-2026-10-12\\images\\axis-options-ency.png",
+      "rendered_width": 692,
+      "rendered_height": 501,
+      "caption": "ENCY axes map compatibility mode"
+    }
+  ],
+  "new_page_sha256": "64ef26d100726c479f49cb4d378a22965e3ef64e962823d2752a2761806fab51",
+  "article_text_preserved": true,
+  "anchors_preserved": true,
+  "text_links_preserved": true,
+  "docfx_warnings": 0,
+  "docfx_errors": 0,
+  "ocr_ency_captions": 2,
+  "ocr_sprutcam_findings": 0,
+  "rendering": "Original display widths; automatic height preserves image aspect ratio on mobile."
+}

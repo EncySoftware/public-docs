@@ -1,0 +1,980 @@
+{
+  "checked_at_utc": "2026-10-12T10:29:22.982548+00:00",
+  "external_checked_at_utc": "2026-10-12T10:27:48.195213+00:00",
+  "internal_references_checked": 6362,
+  "internal_errors": [],
+  "brand_url_references": [
+    {
+      "url": "https://download.sprutcam.com/download/sprutcam/MachineMaker/version_16/examples/3AxesMillingMachine/Milling_machine_3ax.zip",
+      "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/milling/docs/machinemaker/machines/src/3-axes-milling-machine.md",
+      "scope": "committed_source",
+      "kind": "a.href"
+    },
+    {
+      "url": "https://download.sprutcam.com/download/sprutcam/MachineMaker/version_16/examples/3AxesMillingMachine/Milling_machine.zip",
+      "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/milling/docs/machinemaker/machines/src/3-axes-milling-machine.md",
+      "scope": "committed_source",
+      "kind": "a.href"
+    }
+  ],
+  "external_unique_urls": 37,
+  "external_built_urls": 25,
+  "external_source_only_urls": 12,
+  "external_results": [
+    {
+      "url": "https://docs.encycam.com/MachineMaker/1/robots/en/90.html",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://docs.encycam.com/MachineMaker/1/robots/en/90.html",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/milling/en/src/prepare-and-import-3d-objects.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/milling/docs/machinemaker/machines/src/prepare-and-import-3d-objects.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/turnmill/en/13.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/turnmill/main/13.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        }
+      ],
+      "title": "Simplifier - ENCY MachineMaker : Robots",
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://download.sprutcam.com/download/sprutcam/MachineMaker/version_16/examples/3AxesMillingMachine/Milling_machine.zip",
+      "status": 206,
+      "redirects": [],
+      "final_url": "https://download.sprutcam.com/download/sprutcam/MachineMaker/version_16/examples/3AxesMillingMachine/Milling_machine.zip",
+      "content_type": "application/zip",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/milling/docs/machinemaker/machines/src/3-axes-milling-machine.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        }
+      ],
+      "brand_findings": {
+        "url": "https://download.sprutcam.com/download/sprutcam/MachineMaker/version_16/examples/3AxesMillingMachine/Milling_machine.zip",
+        "final_url": "https://download.sprutcam.com/download/sprutcam/MachineMaker/version_16/examples/3AxesMillingMachine/Milling_machine.zip"
+      },
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://download.sprutcam.com/download/sprutcam/MachineMaker/version_16/examples/3AxesMillingMachine/Milling_machine_3ax.zip",
+      "status": 206,
+      "redirects": [],
+      "final_url": "https://download.sprutcam.com/download/sprutcam/MachineMaker/version_16/examples/3AxesMillingMachine/Milling_machine_3ax.zip",
+      "content_type": "application/zip",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/milling/docs/machinemaker/machines/src/3-axes-milling-machine.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        }
+      ],
+      "brand_findings": {
+        "url": "https://download.sprutcam.com/download/sprutcam/MachineMaker/version_16/examples/3AxesMillingMachine/Milling_machine_3ax.zip",
+        "final_url": "https://download.sprutcam.com/download/sprutcam/MachineMaker/version_16/examples/3AxesMillingMachine/Milling_machine_3ax.zip"
+      },
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/3D_models_Hanwha_XD10-442fcff663.zip",
+      "status": 206,
+      "redirects": [
+        {
+          "status": 302,
+          "to": "https://release-assets.githubusercontent.com/github-production-release-asset/1286189495/68fef838-7259-4bea-9d2c-54335ff2c0af"
+        }
+      ],
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1286189495/68fef838-7259-4bea-9d2c-54335ff2c0af",
+      "content_type": "application/octet-stream",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/milling/docs/machinemaker/machines/src/swiss-type-machine.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        }
+      ],
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/5AxesMillingMachine-34140c2b09.zip",
+      "status": 206,
+      "redirects": [
+        {
+          "status": 302,
+          "to": "https://release-assets.githubusercontent.com/github-production-release-asset/1286189495/497980d1-5fbc-4c79-8c56-a0bae816fb4f"
+        }
+      ],
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1286189495/497980d1-5fbc-4c79-8c56-a0bae816fb4f",
+      "content_type": "application/octet-stream",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/milling/docs/machinemaker/machines/src/5-axes-milling-machine.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        }
+      ],
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/Lathe_milling_machine-b093694fe9.zip",
+      "status": 206,
+      "redirects": [
+        {
+          "status": 302,
+          "to": "https://release-assets.githubusercontent.com/github-production-release-asset/1286189495/5512792a-5d3b-43b3-ba40-55fcd38441c7"
+        }
+      ],
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1286189495/5512792a-5d3b-43b3-ba40-55fcd38441c7",
+      "content_type": "application/octet-stream",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/milling/docs/machinemaker/machines/src/lathe-milling-machine-with-a-dual-row-turret.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        }
+      ],
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/MachineSchema-b0d2a4c49e.zip",
+      "status": 206,
+      "redirects": [
+        {
+          "status": 302,
+          "to": "https://release-assets.githubusercontent.com/github-production-release-asset/1286189495/b38a8a75-8352-4095-96f7-699f94a96962"
+        }
+      ],
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1286189495/b38a8a75-8352-4095-96f7-699f94a96962",
+      "content_type": "application/octet-stream",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/milling/docs/machinemaker/machines/src/swiss-type-machine.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        }
+      ],
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/Machine_equipment_1-6623c43908.rar",
+      "status": 206,
+      "redirects": [
+        {
+          "status": 302,
+          "to": "https://release-assets.githubusercontent.com/github-production-release-asset/1286189495/88832661-f0a9-48d9-affa-c2cf4e65281f"
+        }
+      ],
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1286189495/88832661-f0a9-48d9-affa-c2cf4e65281f",
+      "content_type": "application/octet-stream",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/milling/docs/machinemaker/machines/src/machine-equipment-configuration.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        }
+      ],
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/Machine_equipment_2-e22c4bff05.rar",
+      "status": 206,
+      "redirects": [
+        {
+          "status": 302,
+          "to": "https://release-assets.githubusercontent.com/github-production-release-asset/1286189495/3ba127d0-e4b5-4a3e-bb2e-af0d8c949106"
+        }
+      ],
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1286189495/3ba127d0-e4b5-4a3e-bb2e-af0d8c949106",
+      "content_type": "application/octet-stream",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/milling/docs/machinemaker/machines/src/machine-equipment-configuration.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        }
+      ],
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/Milling_Machine-23e984538a.zip",
+      "status": 206,
+      "redirects": [
+        {
+          "status": 302,
+          "to": "https://release-assets.githubusercontent.com/github-production-release-asset/1286189495/8b3c46d5-5968-4102-b332-5cca914c9e32"
+        }
+      ],
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1286189495/8b3c46d5-5968-4102-b332-5cca914c9e32",
+      "content_type": "application/octet-stream",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/milling/docs/machinemaker/machines/src/3-axes-milling-machine.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        }
+      ],
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/Milling_machine-62966e00df.rar",
+      "status": 206,
+      "redirects": [
+        {
+          "status": 302,
+          "to": "https://release-assets.githubusercontent.com/github-production-release-asset/1286189495/f571d684-7f77-4341-b604-a5fb720e1ef4"
+        }
+      ],
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1286189495/f571d684-7f77-4341-b604-a5fb720e1ef4",
+      "content_type": "application/octet-stream",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/milling/docs/machinemaker/machines/src/machine-equipment-configuration.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        }
+      ],
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/Samsung_PL-20MC-cf9ed9ddf8.zip",
+      "status": 206,
+      "redirects": [
+        {
+          "status": 302,
+          "to": "https://release-assets.githubusercontent.com/github-production-release-asset/1286189495/20bb5354-d690-4df0-96b1-f131699c3ad2"
+        }
+      ],
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1286189495/20bb5354-d690-4df0-96b1-f131699c3ad2",
+      "content_type": "application/octet-stream",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/milling/docs/machinemaker/machines/src/lathe-milling-machine.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        }
+      ],
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/Trevisan_Machine-4953ecb98e.zip",
+      "status": 206,
+      "redirects": [
+        {
+          "status": 302,
+          "to": "https://release-assets.githubusercontent.com/github-production-release-asset/1286189495/cb0640f8-892c-4148-9806-ba369d98a4f4"
+        }
+      ],
+      "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1286189495/cb0640f8-892c-4148-9806-ba369d98a4f4",
+      "content_type": "application/octet-stream",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/milling/docs/machinemaker/machines/src/trevisan-machine.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        }
+      ],
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.kuka.com/en-de/services/downloads",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.kuka.com/en-de/services/downloads",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/robots/en/src/content/131903495.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/robots/main/src/content/131903495.md",
+          "scope": "committed_source",
+          "kind": "markdown-link"
+        }
+      ],
+      "title": "Download Center | KUKA Germany",
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0Q0UWthjqHA",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.youtube.com/watch?v=0Q0UWthjqHA",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/milling/en/src/5-axes-milling-machine.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/milling/en/src/trevisan-machine.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/milling/docs/machinemaker/machines/src/5-axes-milling-machine.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/milling/docs/machinemaker/machines/src/trevisan-machine.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        }
+      ],
+      "title": "MachineMaker18: Creating 5-Axes Milling Machine - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating 5-Axes Milling Machine",
+      "video_author": "ENCY Software",
+      "playability_status": "OK",
+      "playability_reason": null,
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=5pfjNPZR50A",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.youtube.com/watch?v=5pfjNPZR50A",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/milling/en/src/lathe-milling-machine-with-a-dual-row-turret.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/milling/docs/machinemaker/machines/src/lathe-milling-machine-with-a-dual-row-turret.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/turnmill/en/30_1.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/turnmill/en/82.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/turnmill/main/30_1.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/turnmill/main/82.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        }
+      ],
+      "title": "MachineMaker 18: Creating lathe milling machine with a dual-row turret - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker 18: Creating lathe milling machine with a dual-row turret",
+      "video_author": "ENCY Software",
+      "playability_status": "OK",
+      "playability_reason": null,
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=6Jfg9K4_3oU",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.youtube.com/watch?v=6Jfg9K4_3oU",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/robots/en/src/content/129930510.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/robots/main/src/content/129930510.md",
+          "scope": "committed_source",
+          "kind": "markdown-link"
+        }
+      ],
+      "title": "Construction of a Simple Robot Cell, using Mechanisms Library | Tutorial 8 | ENCY Robot: Get Started - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "Construction of a Simple Robot Cell, using Mechanisms Library | Tutorial 8 | ENCY Robot: Get Started",
+      "video_author": "ENCY Software",
+      "playability_status": "OK",
+      "playability_reason": null,
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=EIswSr_5KuM",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.youtube.com/watch?v=EIswSr_5KuM",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/milling/en/src/multi-tool-head.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/milling/en/src/trevisan-machine.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/milling/docs/machinemaker/machines/src/multi-tool-head.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/milling/docs/machinemaker/machines/src/trevisan-machine.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/turnmill/en/35.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/turnmill/main/35.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        }
+      ],
+      "title": "MachineMaker 18: Creating Trevisan Machine with MultiTool Head - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker 18: Creating Trevisan Machine with MultiTool Head",
+      "video_author": "ENCY Software",
+      "playability_status": "OK",
+      "playability_reason": null,
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=EjC59wW5CPY",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.youtube.com/watch?v=EjC59wW5CPY",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/robots/en/src/content/129930510.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/robots/main/src/content/129930510.md",
+          "scope": "committed_source",
+          "kind": "markdown-link"
+        }
+      ],
+      "title": "MachineMaker for Robots | Intro to Tutorials 8, 9, 10, 11 | ENCY Robot: Get Started - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker for Robots | Intro to Tutorials 8, 9, 10, 11 | ENCY Robot: Get Started",
+      "video_author": "ENCY Software",
+      "playability_status": "OK",
+      "playability_reason": null,
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=EsDmbyQoe9U",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.youtube.com/watch?v=EsDmbyQoe9U",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/robots/en/src/content/129937042.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/robots/main/src/content/129937042.md",
+          "scope": "committed_source",
+          "kind": "markdown-link"
+        }
+      ],
+      "title": "MachineMaker18: Creating Portal - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating Portal",
+      "video_author": "ENCY Software",
+      "playability_status": "OK",
+      "playability_reason": null,
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=HP1lFXwK6_M",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.youtube.com/watch?v=HP1lFXwK6_M",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/robots/en/src/content/129933030.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/robots/main/src/content/129933030.md",
+          "scope": "committed_source",
+          "kind": "markdown-link"
+        }
+      ],
+      "title": "MachineMaker 18: Creating Flexible Heavy Duty robot - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker 18: Creating Flexible Heavy Duty robot",
+      "video_author": "ENCY Software",
+      "playability_status": "OK",
+      "playability_reason": null,
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=L-k6n-61InU",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.youtube.com/watch?v=L-k6n-61InU",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/robots/en/src/content/129933035.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/robots/main/src/content/129933035.md",
+          "scope": "committed_source",
+          "kind": "markdown-link"
+        }
+      ],
+      "title": "MachineMaker18: Creating Cobot - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating Cobot",
+      "video_author": "ENCY Software",
+      "playability_status": "OK",
+      "playability_reason": null,
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=MryE2rtbBwc",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.youtube.com/watch?v=MryE2rtbBwc",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/robots/en/src/content/129930510.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/robots/main/src/content/129930510.md",
+          "scope": "committed_source",
+          "kind": "markdown-link"
+        }
+      ],
+      "title": "Construction of a More Complex Robot Cell | Tutorial 9 | ENCY Robot: Get Started - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "Construction of a More Complex Robot Cell | Tutorial 9 | ENCY Robot: Get Started",
+      "video_author": "ENCY Software",
+      "playability_status": "OK",
+      "playability_reason": null,
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=PO9aYKcBq7I",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.youtube.com/watch?v=PO9aYKcBq7I",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/robots/en/src/content/137005116.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/robots/main/src/content/137005116.md",
+          "scope": "committed_source",
+          "kind": "markdown-link"
+        }
+      ],
+      "title": "Scara Robot - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "Scara Robot",
+      "video_author": "ENCY Software",
+      "playability_status": "OK",
+      "playability_reason": null,
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=UyZhu-L0vzM",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.youtube.com/watch?v=UyZhu-L0vzM",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/robots/en/src/content/129937003.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/robots/main/src/content/129937003.md",
+          "scope": "committed_source",
+          "kind": "markdown-link"
+        }
+      ],
+      "title": "MachineMaker18: Creating Grinder - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating Grinder",
+      "video_author": "ENCY Software",
+      "playability_status": "OK",
+      "playability_reason": null,
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=VIPtYMMuK_U",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.youtube.com/watch?v=VIPtYMMuK_U",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/robots/en/src/content/129936988.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/robots/main/src/content/129936988.md",
+          "scope": "committed_source",
+          "kind": "markdown-link"
+        }
+      ],
+      "title": "MachineMaker 18: Creating EndEffector - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker 18: Creating EndEffector",
+      "video_author": "ENCY Software",
+      "playability_status": "OK",
+      "playability_reason": null,
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=bWhaaIspP6A",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.youtube.com/watch?v=bWhaaIspP6A",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/milling/en/src/3-axes-milling-machine.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/milling/docs/machinemaker/machines/src/3-axes-milling-machine.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        }
+      ],
+      "title": "MachineMaker18: Creating 3-Axis Milling Machine - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating 3-Axis Milling Machine",
+      "video_author": "ENCY Software",
+      "playability_status": "OK",
+      "playability_reason": null,
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ebTyYWPnZf0",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.youtube.com/watch?v=ebTyYWPnZf0",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/milling/en/src/lathe-milling-machine.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/milling/docs/machinemaker/machines/src/lathe-milling-machine.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/turnmill/en/81.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/turnmill/main/81.md",
+          "scope": "committed_source",
+          "kind": "a.href"
+        }
+      ],
+      "title": "MachineMaker18: Creating Lathe milling machine - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating Lathe milling machine",
+      "video_author": "ENCY Software",
+      "playability_status": "OK",
+      "playability_reason": null,
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=iGrTD3ob8sU",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.youtube.com/watch?v=iGrTD3ob8sU",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/robots/en/src/content/157870578.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/robots/main/src/content/157870578.md",
+          "scope": "committed_source",
+          "kind": "markdown-link"
+        }
+      ],
+      "title": "MachineMaker: Creating a column-type SCARA robot. - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker: Creating a column-type SCARA robot.",
+      "video_author": "ENCY Software",
+      "playability_status": "OK",
+      "playability_reason": null,
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ivX0qSCFiRs",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.youtube.com/watch?v=ivX0qSCFiRs",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/robots/en/src/content/129932169.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/robots/main/src/content/129932169.md",
+          "scope": "committed_source",
+          "kind": "markdown-link"
+        }
+      ],
+      "title": "MachineMaker18: Creating Heavy Duty robot - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating Heavy Duty robot",
+      "video_author": "ENCY Software",
+      "playability_status": "OK",
+      "playability_reason": null,
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=kWY08cTzzOA",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.youtube.com/watch?v=kWY08cTzzOA",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/robots/en/src/content/129937034.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/robots/main/src/content/129937034.md",
+          "scope": "committed_source",
+          "kind": "markdown-link"
+        }
+      ],
+      "title": "MachineMaker18: Creating Rail - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating Rail",
+      "video_author": "ENCY Software",
+      "playability_status": "OK",
+      "playability_reason": null,
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qGQi2DBdtdk",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.youtube.com/watch?v=qGQi2DBdtdk",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/robots/en/src/content/129930510.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/robots/main/src/content/129930510.md",
+          "scope": "committed_source",
+          "kind": "markdown-link"
+        }
+      ],
+      "title": "Saving and Transferring MachineMaker Robot Cell to ENCY | Tutorial 11 | ENCY Robot: Get Started - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "Saving and Transferring MachineMaker Robot Cell to ENCY | Tutorial 11 | ENCY Robot: Get Started",
+      "video_author": "ENCY Software",
+      "playability_status": "OK",
+      "playability_reason": null,
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=sVA2ds63cKg",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.youtube.com/watch?v=sVA2ds63cKg",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/robots/en/src/content/129935339.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/robots/main/src/content/129935339.md",
+          "scope": "committed_source",
+          "kind": "markdown-link"
+        }
+      ],
+      "title": "MachineMaker 18: Creating Composite Linear EndEffector - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker 18: Creating Composite Linear EndEffector",
+      "video_author": "ENCY Software",
+      "playability_status": "OK",
+      "playability_reason": null,
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=u1T05RAbqvA",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.youtube.com/watch?v=u1T05RAbqvA",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/robots/en/src/content/129937016.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/robots/main/src/content/129937016.md",
+          "scope": "committed_source",
+          "kind": "markdown-link"
+        }
+      ],
+      "title": "MachineMaker18: Creating Spot Welding - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating Spot Welding",
+      "video_author": "ENCY Software",
+      "playability_status": "OK",
+      "playability_reason": null,
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xXju3fLEgFU",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.youtube.com/watch?v=xXju3fLEgFU",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/robots/en/src/content/129932078.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/robots/main/src/content/129932078.md",
+          "scope": "committed_source",
+          "kind": "markdown-link"
+        }
+      ],
+      "title": "MachineMaker18: Creating simple robot - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating simple robot",
+      "video_author": "ENCY Software",
+      "playability_status": "OK",
+      "playability_reason": null,
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zHQKJ3JOpGE",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.youtube.com/watch?v=zHQKJ3JOpGE",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/robots/en/src/content/129935339.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/robots/main/src/content/129935339.md",
+          "scope": "committed_source",
+          "kind": "markdown-link"
+        }
+      ],
+      "title": "MachineMaker18: Creating CompositeEndEffectorRotary - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating CompositeEndEffectorRotary",
+      "video_author": "ENCY Software",
+      "playability_status": "OK",
+      "playability_reason": null,
+      "redirect_brand_findings": []
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zqBhFWM0OL8",
+      "status": 200,
+      "redirects": [],
+      "final_url": "https://www.youtube.com/watch?v=zqBhFWM0OL8",
+      "content_type": "text/html; charset=utf-8",
+      "references": [
+        {
+          "path": "publication-work/machinemaker-six-2026-10-12/html/robots/en/src/content/129937026.html",
+          "scope": "built_html",
+          "kind": "a.href"
+        },
+        {
+          "path": "publication-work/machinemaker-commit-2026-10-12/en/machinemaker-delivery/2026-10-12/source/robots/main/src/content/129937026.md",
+          "scope": "committed_source",
+          "kind": "markdown-link"
+        }
+      ],
+      "title": "MachineMaker18: Creating Tables - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating Tables",
+      "video_author": "ENCY Software",
+      "playability_status": "OK",
+      "playability_reason": null,
+      "redirect_brand_findings": []
+    }
+  ],
+  "other_schemes": [],
+  "limits": [
+    "Built English HTML links, resource attributes, CSS URLs, per-book navigation/search JSON and shared search entries are checked locally, including fragments and case-sensitive spelling.",
+    "All external addresses from those files and committed English Markdown are fetched with redirects followed. Query strings from remote responses are discarded; only public YouTube video IDs are retained.",
+    "Source-only addresses are reported separately from active delivered links.",
+    "Video metadata and player status are inspected; full video playback and downloadable binary project contents are outside this check."
+  ]
+}

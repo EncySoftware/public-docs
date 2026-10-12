@@ -1,5 +1,5 @@
 {
-  "revised_at": "2026-10-12T06:39:10.285611+00:00",
+  "revised_at": "2026-10-12T10:52:32.106762+00:00",
   "authorization": "User decisions of 2026-10-12 in this conversation",
   "changes": [
     {
@@ -68,6 +68,18 @@
       "before_sha256": "a05d4c80d51a9237521d7fde9d4126432ae4738e2694ba0fa006dbaa04aa62e8",
       "after_sha256": "9e28c66529791602af08c183e762649ab3b42602b87bab62e685644020d6f624",
       "previous_revision_sha256": "3f32a4f63f67cadf83e7fae7151d37a5dda376853ac2b8e7c0d7c7b4694f8216"
+    },
+    {
+      "path": "html/robots/en/src/content/131903495.html",
+      "action": "robots-screenshot-branding-sprutcam-to-ency",
+      "before_sha256": "188a77cc1f49167c53dbb6980e18266ab6acef7cf432fd985ebd38ce527960e6",
+      "after_sha256": "64ef26d100726c479f49cb4d378a22965e3ef64e962823d2752a2761806fab51"
+    },
+    {
+      "path": "build-work/robots-en/main/src/content/131903495.md",
+      "action": "robots-screenshot-branding-sprutcam-to-ency",
+      "before_sha256": "092b24d86c881296f14358f91f39ce9fb1895462dfa543acfb533c978effc748",
+      "after_sha256": "969e857afea673530c7df407c05abe9ea15d09567cfe81b2a548d15116de01e9"
     }
   ],
   "decisions": {
@@ -91,5 +103,10 @@
       "before_sha256": "79a0db44380734b6725b9c32ea1231cef5d1016a675ceebffc508e7d29a26b70",
       "after_sha256": "f0ab139df4e359511d8189cbcd75d4771b9cda3c937c3d2ba984411144bf0a5a"
     }
-  ]
+  ],
+  "previous_revised_at": "2026-10-12T06:39:10.285611+00:00",
+  "robots_en_screenshot_branding": {
+    "authorization": "User requested SprutCAM -> ENCY in both screenshots.",
+    "evidence": "robots-en-branding-revision.json"
+  }
 }

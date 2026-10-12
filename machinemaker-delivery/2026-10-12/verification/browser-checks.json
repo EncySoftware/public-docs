@@ -964,7 +964,8 @@
           "broken": [],
           "overflow": false,
           "page": "src/content/131903495.html",
-          "width": 1440
+          "width": 1440,
+          "rechecked_at": "2026-10-12T10:55:29.916710+00:00"
         },
         {
           "title": "Cobot | MachineMaker — Robots",
@@ -1293,7 +1294,8 @@
           "broken": [],
           "overflow": false,
           "page": "src/content/131903495.html",
-          "width": 390
+          "width": 390,
+          "rechecked_at": "2026-10-12T10:55:29.916710+00:00"
         },
         {
           "title": "Cobot | MachineMaker — Robots",
@@ -2963,5 +2965,10 @@
     "robots-en",
     "robots-ru",
     "turnmill-ru"
-  ]
+  ],
+  "robots_en_branding_revision": {
+    "checked_at": "2026-10-12T10:55:29.916710+00:00",
+    "page": "robots/en/src/content/131903495.html",
+    "checks": 2
+  }
 }

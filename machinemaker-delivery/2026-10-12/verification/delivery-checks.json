@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-10-12T07:11:29.527835+00:00",
-  "archive_entries": 1225,
+  "checked_at": "2026-10-12T10:57:02.009088+00:00",
+  "archive_entries": 1231,
   "site_files": 1181,
   "archive_crc_ok": true,
   "guide_count": 6,
   "page_count": 208,
-  "package_bytes": 1066192592,
-  "package_sha256": "2cb626d22146872be57dec647528e675be325f654b14c105437131b94b7ea318"
+  "package_bytes": 1068825428,
+  "package_sha256": "513241f4f0ab16743274fb5d22238056b040f9a56ef10558ecc654cd6eea7e15"
 }

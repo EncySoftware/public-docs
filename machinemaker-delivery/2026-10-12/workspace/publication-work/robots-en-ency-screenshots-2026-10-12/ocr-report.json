@@ -1,0 +1,31 @@
+﻿{
+    "checked_frames":  2,
+    "errors":  [
+
+               ],
+    "findings":  [
+
+                 ],
+    "results":  [
+                    {
+                        "image":  "5b94d8c33dbff5cdc855e7035caa17106b541a5d974cf4ea464cc1e34b6ad8bc.png",
+                        "frame":  0,
+                        "articles":  [
+                                         "robots/en/src/content/131903495.html"
+                                     ],
+                        "text":  "Limits Max 185 148 179 120 179 Unlim J3 J5 O O O Min -185 -130 -120 -179 -120 -179 ENCY axes map compatibility mode",
+                        "brand_match":  false,
+                        "sprut_match":  false
+                    },
+                    {
+                        "image":  "8e00fe69468457b11d8f1a62eb79864def53f0a882a5f2e2409b2bd62ae717b8.png",
+                        "frame":  0,
+                        "articles":  [
+                                         "robots/en/src/content/131903495.html"
+                                     ],
+                        "text":  "Limits J2 J3 J4 J3 options Model position Control Has brake 90 Continuous Min -185 -130 -120 -179 -120 -179 Max 185 148 179 120 179 Unlim Edit axis arameters ENCY axes map compatibility mode Shortest path rotation Scale step Increment 0.000001",
+                        "brand_match":  false,
+                        "sprut_match":  false
+                    }
+                ]
+}

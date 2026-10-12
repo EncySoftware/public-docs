@@ -2130,11 +2130,6 @@
     "sha256": "336ee9e061a2046519bebb0d876f763bb5959a38c44d91067c7baa6f99a658dc"
   },
   {
-    "path": "robots/en/src/assets/3416680d67cea5b40aefd0fea069ff2eeafcecc7fa47ed5c8231fde19da3ff51.png",
-    "bytes": 51048,
-    "sha256": "3416680d67cea5b40aefd0fea069ff2eeafcecc7fa47ed5c8231fde19da3ff51"
-  },
-  {
     "path": "robots/en/src/assets/341a345875f95e69e72da27f700a8a6ba44ca8a1d249a73ae7f932092b0b8a6c.zip",
     "bytes": 2465384,
     "sha256": "341a345875f95e69e72da27f700a8a6ba44ca8a1d249a73ae7f932092b0b8a6c"
@@ -2143,11 +2138,6 @@
     "path": "robots/en/src/assets/3512459428b560a405c55754fe50fe8a155c57179b7b4860c76452d233f8d0b0.png",
     "bytes": 44595,
     "sha256": "3512459428b560a405c55754fe50fe8a155c57179b7b4860c76452d233f8d0b0"
-  },
-  {
-    "path": "robots/en/src/assets/3575d6a240d0d00e23009b9abb76f3f16071aebbeeeea8d8bd895f743dad82a5.png",
-    "bytes": 32073,
-    "sha256": "3575d6a240d0d00e23009b9abb76f3f16071aebbeeeea8d8bd895f743dad82a5"
   },
   {
     "path": "robots/en/src/assets/36caffe501541e15c7aced9d6e592520aa0a9c5186e769e420c19f5b8caf9044.png",
@@ -2298,6 +2288,11 @@
     "path": "robots/en/src/assets/5b7c8fd155eb5b19c52bbf110701996ca61a479e82abc479d86f8ea1547d0e0f.png",
     "bytes": 445968,
     "sha256": "5b7c8fd155eb5b19c52bbf110701996ca61a479e82abc479d86f8ea1547d0e0f"
+  },
+  {
+    "path": "robots/en/src/assets/5b94d8c33dbff5cdc855e7035caa17106b541a5d974cf4ea464cc1e34b6ad8bc.png",
+    "bytes": 1140852,
+    "sha256": "5b94d8c33dbff5cdc855e7035caa17106b541a5d974cf4ea464cc1e34b6ad8bc"
   },
   {
     "path": "robots/en/src/assets/5cb0412089442d56cd60863b5f215e89b88432348790cf033f545f25b6f99a7c.png",
@@ -2488,6 +2483,11 @@
     "path": "robots/en/src/assets/8bf41095f626c9b1a91bba7d2e8a41ce2f7c65890c22ab8e307770e15b9e8d10.webp",
     "bytes": 2592978,
     "sha256": "8bf41095f626c9b1a91bba7d2e8a41ce2f7c65890c22ab8e307770e15b9e8d10"
+  },
+  {
+    "path": "robots/en/src/assets/8e00fe69468457b11d8f1a62eb79864def53f0a882a5f2e2409b2bd62ae717b8.png",
+    "bytes": 1189443,
+    "sha256": "8e00fe69468457b11d8f1a62eb79864def53f0a882a5f2e2409b2bd62ae717b8"
   },
   {
     "path": "robots/en/src/assets/909e25df753e6234cc7dea39d459bca13d197c41f1fb51378c47fe7be252c2a5.png",
@@ -3056,8 +3056,8 @@
   },
   {
     "path": "robots/en/src/content/131903495.html",
-    "bytes": 19840,
-    "sha256": "188a77cc1f49167c53dbb6980e18266ab6acef7cf432fd985ebd38ce527960e6"
+    "bytes": 19904,
+    "sha256": "64ef26d100726c479f49cb4d378a22965e3ef64e962823d2752a2761806fab51"
   },
   {
     "path": "robots/en/src/content/131903654.html",

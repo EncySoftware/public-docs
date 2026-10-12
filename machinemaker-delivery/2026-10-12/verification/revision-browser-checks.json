@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-12T07:01:46.029553+00:00",
+  "checked_at": "2026-10-12T10:55:29.916710+00:00",
   "checks": [
     {
       "page": "milling/en/src/toolbar.html",
@@ -96,6 +96,234 @@
       "broken": [],
       "overflow": false,
       "obsoleteLinks": []
+    },
+    {
+      "title": "Building a kinematic scheme | MachineMaker — Robots",
+      "broken": [],
+      "overflow": false,
+      "images": [
+        {
+          "src": "../assets/181002605c075db8b63d0e7db7a63eb394d78e67c907f73429e2b0fa5ef6f5fa.png",
+          "width": 503,
+          "height": 31,
+          "naturalWidth": 503,
+          "naturalHeight": 31
+        },
+        {
+          "src": "../assets/feb588f8b95c7f7e444c0945cc856aaaa75d45ede7f0f1945bd54215e5ea09fb.png",
+          "width": 808.5625,
+          "height": 388.984375,
+          "naturalWidth": 1480,
+          "naturalHeight": 712
+        },
+        {
+          "src": "../assets/b83a3c8acfb90fda72f8044ecaed65eb3947d6b587c9771ee832218fc2b215ce.png",
+          "width": 808.5625,
+          "height": 458.703125,
+          "naturalWidth": 1315,
+          "naturalHeight": 746
+        },
+        {
+          "src": "../assets/cd136751c485ebd1b8147f644a5767fa8a32d0e6b9a6a5ce8199e75f31e2375e.webp",
+          "width": 686,
+          "height": 582,
+          "naturalWidth": 686,
+          "naturalHeight": 582
+        },
+        {
+          "src": "../assets/49dc2681156a5b4cee87710e20c1b3b037ee7ef30e5dec14ddade3cb15065f88.webp",
+          "width": 800,
+          "height": 522,
+          "naturalWidth": 800,
+          "naturalHeight": 522
+        },
+        {
+          "src": "../assets/02ef14c6dd70ec35108b4faa1f61f19506cc8d3a9739a82352a74bffc4563aaf.webp",
+          "width": 588,
+          "height": 586,
+          "naturalWidth": 588,
+          "naturalHeight": 586
+        },
+        {
+          "src": "../assets/5b94d8c33dbff5cdc855e7035caa17106b541a5d974cf4ea464cc1e34b6ad8bc.png",
+          "width": 414,
+          "height": 504.375,
+          "naturalWidth": 1136,
+          "naturalHeight": 1384
+        },
+        {
+          "src": "../assets/6c59a094cd250c4fcd58e13298dabc1fa6723ba6ff1aec344458a6e3147516de.png",
+          "width": 808.5625,
+          "height": 512.90625,
+          "naturalWidth": 897,
+          "naturalHeight": 569
+        },
+        {
+          "src": "../assets/c45e2e07001793d6a25a758c04a1fe9d6116a1d4a21b30fc2c0f45b1f355da64.png",
+          "width": 29,
+          "height": 29,
+          "naturalWidth": 29,
+          "naturalHeight": 29
+        },
+        {
+          "src": "../assets/144342ce11bbcae09ab205cc57cff96225f5f7087ddf416c9b52da38688dd72c.png",
+          "width": 29,
+          "height": 29,
+          "naturalWidth": 29,
+          "naturalHeight": 29
+        },
+        {
+          "src": "../assets/597d827ee7204691973a2afb52a8f405d0f942d7c4665f6533c646162baf821e.png",
+          "width": 327,
+          "height": 106,
+          "naturalWidth": 327,
+          "naturalHeight": 106
+        },
+        {
+          "src": "../assets/04ea6d89a8e4c528484acf26cce1ff672aec9cc1e7b069563f158c592b2cda27.png",
+          "width": 803,
+          "height": 376,
+          "naturalWidth": 803,
+          "naturalHeight": 376
+        },
+        {
+          "src": "../assets/73102d22d24d53fff62e8ef6b49b69cbda13bf9ad921671c1be21edc8baed996.png",
+          "width": 753,
+          "height": 713,
+          "naturalWidth": 753,
+          "naturalHeight": 713
+        },
+        {
+          "src": "../assets/8e00fe69468457b11d8f1a62eb79864def53f0a882a5f2e2409b2bd62ae717b8.png",
+          "width": 692,
+          "height": 500.921875,
+          "naturalWidth": 1474,
+          "naturalHeight": 1067
+        },
+        {
+          "src": "../assets/a613f46d52e6a2b03fa9ad125995df95e6610368bd006e0626c112cb6bfe23ff.png",
+          "width": 746,
+          "height": 930,
+          "naturalWidth": 746,
+          "naturalHeight": 930
+        }
+      ],
+      "page": "robots/en/src/content/131903495.html",
+      "width": 1440
+    },
+    {
+      "title": "Building a kinematic scheme | MachineMaker — Robots",
+      "broken": [],
+      "overflow": false,
+      "images": [
+        {
+          "src": "../assets/181002605c075db8b63d0e7db7a63eb394d78e67c907f73429e2b0fa5ef6f5fa.png",
+          "width": 325.78125,
+          "height": 20.078125,
+          "naturalWidth": 503,
+          "naturalHeight": 31
+        },
+        {
+          "src": "../assets/feb588f8b95c7f7e444c0945cc856aaaa75d45ede7f0f1945bd54215e5ea09fb.png",
+          "width": 325.984375,
+          "height": 156.828125,
+          "naturalWidth": 1480,
+          "naturalHeight": 712
+        },
+        {
+          "src": "../assets/b83a3c8acfb90fda72f8044ecaed65eb3947d6b587c9771ee832218fc2b215ce.png",
+          "width": 325.984375,
+          "height": 184.9375,
+          "naturalWidth": 1315,
+          "naturalHeight": 746
+        },
+        {
+          "src": "../assets/cd136751c485ebd1b8147f644a5767fa8a32d0e6b9a6a5ce8199e75f31e2375e.webp",
+          "width": 325.96875,
+          "height": 276.5625,
+          "naturalWidth": 686,
+          "naturalHeight": 582
+        },
+        {
+          "src": "../assets/49dc2681156a5b4cee87710e20c1b3b037ee7ef30e5dec14ddade3cb15065f88.webp",
+          "width": 325.96875,
+          "height": 212.703125,
+          "naturalWidth": 800,
+          "naturalHeight": 522
+        },
+        {
+          "src": "../assets/02ef14c6dd70ec35108b4faa1f61f19506cc8d3a9739a82352a74bffc4563aaf.webp",
+          "width": 325.984375,
+          "height": 324.890625,
+          "naturalWidth": 588,
+          "naturalHeight": 586
+        },
+        {
+          "src": "../assets/5b94d8c33dbff5cdc855e7035caa17106b541a5d974cf4ea464cc1e34b6ad8bc.png",
+          "width": 326,
+          "height": 397.15625,
+          "naturalWidth": 1136,
+          "naturalHeight": 1384
+        },
+        {
+          "src": "../assets/6c59a094cd250c4fcd58e13298dabc1fa6723ba6ff1aec344458a6e3147516de.png",
+          "width": 325.96875,
+          "height": 206.78125,
+          "naturalWidth": 897,
+          "naturalHeight": 569
+        },
+        {
+          "src": "../assets/c45e2e07001793d6a25a758c04a1fe9d6116a1d4a21b30fc2c0f45b1f355da64.png",
+          "width": 29,
+          "height": 29,
+          "naturalWidth": 29,
+          "naturalHeight": 29
+        },
+        {
+          "src": "../assets/144342ce11bbcae09ab205cc57cff96225f5f7087ddf416c9b52da38688dd72c.png",
+          "width": 29,
+          "height": 29,
+          "naturalWidth": 29,
+          "naturalHeight": 29
+        },
+        {
+          "src": "../assets/597d827ee7204691973a2afb52a8f405d0f942d7c4665f6533c646162baf821e.png",
+          "width": 325.984375,
+          "height": 105.671875,
+          "naturalWidth": 327,
+          "naturalHeight": 106
+        },
+        {
+          "src": "../assets/04ea6d89a8e4c528484acf26cce1ff672aec9cc1e7b069563f158c592b2cda27.png",
+          "width": 325.984375,
+          "height": 152.640625,
+          "naturalWidth": 803,
+          "naturalHeight": 376
+        },
+        {
+          "src": "../assets/73102d22d24d53fff62e8ef6b49b69cbda13bf9ad921671c1be21edc8baed996.png",
+          "width": 325.984375,
+          "height": 308.671875,
+          "naturalWidth": 753,
+          "naturalHeight": 713
+        },
+        {
+          "src": "../assets/8e00fe69468457b11d8f1a62eb79864def53f0a882a5f2e2409b2bd62ae717b8.png",
+          "width": 326,
+          "height": 235.984375,
+          "naturalWidth": 1474,
+          "naturalHeight": 1067
+        },
+        {
+          "src": "../assets/a613f46d52e6a2b03fa9ad125995df95e6610368bd006e0626c112cb6bfe23ff.png",
+          "width": 325.984375,
+          "height": 406.40625,
+          "naturalWidth": 746,
+          "naturalHeight": 930
+        }
+      ],
+      "page": "robots/en/src/content/131903495.html",
+      "width": 390
     }
   ],
   "errors": [],
@@ -110,5 +338,7 @@
     "shared"
   ],
   "legacy_examples_unchanged": true,
-  "kuka_paragraph_unchanged": true
+  "kuka_paragraph_unchanged": true,
+  "previous_checked_at": "2026-10-12T10:53:28.097016+00:00",
+  "robots_en_branding_revision": "robots-en-branding-browser-checks.json"
 }

@@ -31,7 +31,15 @@ deployment pipeline. Each source project can be built independently using its ow
 
 The previous local checks passed: 208 article/link checks, 416 browser page checks, all six book
 searches and shared search, original English article-text/resource comparisons, and ZIP CRC.
-The full delivery archive SHA256 is `2cb626d22146872be57dec647528e675be325f654b14c105437131b94b7ea318`.
+The full delivery archive SHA256 is `513241f4f0ab16743274fb5d22238056b040f9a56ef10558ecc654cd6eea7e15`.
 
-This feature branch records local commits only. Publication routes and CI integration are a
+This feature branch records the reviewed source and verification files. Publication routes and CI integration are a
 separate administrator step. No stable or develop branch is changed by this snapshot commit.
+
+## Local screenshot revision after the snapshot commit
+
+Two Robots EN screenshots in Building a kinematic scheme now read "ENCY axes map compatibility mode", as explicitly requested by the user. The source and verification files include this approved revision. Originals are archived outside this source tree. Focused browser checks at 1440/390 px, OCR and the standalone DocFX build passed. The delivery archive and its SHA256 are updated in verification/.
+
+## Server handoff
+
+The ready-made six-manual HTML/admin ZIP is supplied separately as a GitHub draft release asset, tag `machinemaker-six-manuals-2026-10-12`. It is not stored in Git. The checksum above is the current reviewed delivery. Static-site publication remains an administrator step.

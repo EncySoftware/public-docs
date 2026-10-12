@@ -21,6 +21,8 @@ revision_browser_path = ADMIN / "revision-browser-checks.json"
 revision_browser = json.loads(revision_browser_path.read_text(encoding="utf-8")) if revision_browser_path.exists() else None
 conversion_path = ADMIN / "turnmill-en-docfx-conversion.json"
 conversion = json.loads(conversion_path.read_text(encoding="utf-8")) if conversion_path.exists() else None
+branding_path = ADMIN / "robots-en-branding-revision.json"
+branding = json.loads(branding_path.read_text(encoding="utf-8")) if branding_path.exists() else None
 if internal["errors"] or browser["errors"] or browser["http_failures"]:
     raise RuntimeError("The local collection has unresolved verification failures")
 if revision and (not revision_browser or revision_browser["errors"] or revision_browser["http_failures"]):
@@ -60,6 +62,8 @@ if revision:
 if conversion:
     summary["turnmill_en_docfx_conversion"] = {"pages": len(conversion["pages"]), "removed_chapters": conversion["removed"],
                                               "errors": conversion["build_errors"], "warnings": conversion["build_warnings"]}
+if branding:
+    summary["robots_en_branding_revision"] = {"revised_at": branding["revised_at"], "images": len(branding["images"]), "caption": "ENCY axes map compatibility mode", "evidence": "robots-en-branding-revision.json", "browser_checks": "robots-en-branding-browser-checks.json"}
 (ADMIN / "summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
 
 text = ["# Администратору: локальный комплект из шести руководств MachineMaker", "",
@@ -134,6 +138,11 @@ if conversion:
 text += ["",
          "## Доказательства", "",
          "inputs.json — исходные снимки; internal-checks.json — локальные ссылки и контроль исходных/согласованно изменённых статей; browser-checks.json — исходная полная проверка браузером; revision-browser-checks.json — проверка правок от 12 октября; content-changes.json — согласованные изменения; external-checks.json — внешние ссылки и история устранённых замечаний; localized-resources.json — локальные копии общих файлов и подтверждение совместимости примеров; files-sha256.json — все файлы сайта и SHA256; *-build.log — логи исходных сборок."]
+if branding:
+    text += ["", "## Robots EN: надпись на иллюстрациях", "",
+             "По поручению пользователя на двух иллюстрациях главы Building a kinematic scheme (131903495.html), разделы Limits и Model Position, слово SprutCAM заменено на ENCY. Новая надпись: ENCY axes map compatibility mode.",
+             "Исходные изображения сохранены вне публикуемого сайта. Новые изображения включены в английские исходники и HTML; ширина отображения сохранена, высота адаптируется к узкому экрану. Текст главы, якоря и текстовые ссылки сохранены.",
+             "Доказательства: robots-en-branding-revision.json, robots-en-branding-browser-checks.json и content-changes.json. OCR подтверждает ENCY в обеих надписях; страница проверена на 1440 и 390 px."]
 text = [line.replace("209", str(summary["page_count"])).replace("418", str(summary["browser_page_checks"])) for line in text]
 if conversion:
     text = [

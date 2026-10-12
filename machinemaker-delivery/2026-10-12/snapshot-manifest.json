@@ -1,5 +1,5 @@
 {
-  "saved_at": "2026-10-12T07:32:23.783367+00:00",
+  "saved_at": "2026-10-12T11:11:37.370372+00:00",
   "language": "en",
   "pages": 103,
   "files": [
@@ -23,9 +23,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 2403,
-      "sha256": "5dd8b4b8b9e7cf0309c714379aa719c54361f2caead14b0c3f2369dfa9651182",
-      "git_blob": "3f0ec4bde154d4330cb267681ac089d3ee71326a"
+      "bytes": 3187,
+      "sha256": "e18ed315443bb270a8459ec5b2cf6087b7d591f4bd19ef5afa34a9c2fdcf4079",
+      "git_blob": "c62ebcb5962537ca796809feb7055c38d1c82a8a"
     },
     {
       "path": "shared-resources/examples/3D_models_Hanwha_XD10-442fcff663.zip",
@@ -2122,12 +2122,6 @@
       "git_blob": "92894b4059e6a92ee9f9c7b7412e5882d28bf2a2"
     },
     {
-      "path": "source/robots/main/src/assets/3416680d67cea5b40aefd0fea069ff2eeafcecc7fa47ed5c8231fde19da3ff51.png",
-      "bytes": 51048,
-      "sha256": "3416680d67cea5b40aefd0fea069ff2eeafcecc7fa47ed5c8231fde19da3ff51",
-      "git_blob": "a295e944e705f9f8684c6f924e193ee4f155e046"
-    },
-    {
       "path": "source/robots/main/src/assets/341a345875f95e69e72da27f700a8a6ba44ca8a1d249a73ae7f932092b0b8a6c.zip",
       "bytes": 2465384,
       "sha256": "341a345875f95e69e72da27f700a8a6ba44ca8a1d249a73ae7f932092b0b8a6c",
@@ -2138,12 +2132,6 @@
       "bytes": 44595,
       "sha256": "3512459428b560a405c55754fe50fe8a155c57179b7b4860c76452d233f8d0b0",
       "git_blob": "23f78d548a45bcce0957e8d5bafa4b1d7a47ab79"
-    },
-    {
-      "path": "source/robots/main/src/assets/3575d6a240d0d00e23009b9abb76f3f16071aebbeeeea8d8bd895f743dad82a5.png",
-      "bytes": 32073,
-      "sha256": "3575d6a240d0d00e23009b9abb76f3f16071aebbeeeea8d8bd895f743dad82a5",
-      "git_blob": "256c9ecf565820996e1e2162be74c1454010752b"
     },
     {
       "path": "source/robots/main/src/assets/36caffe501541e15c7aced9d6e592520aa0a9c5186e769e420c19f5b8caf9044.png",
@@ -2324,6 +2312,12 @@
       "bytes": 445968,
       "sha256": "5b7c8fd155eb5b19c52bbf110701996ca61a479e82abc479d86f8ea1547d0e0f",
       "git_blob": "0574fea3005529a9dc5850540c0515f7d4032364"
+    },
+    {
+      "path": "source/robots/main/src/assets/5b94d8c33dbff5cdc855e7035caa17106b541a5d974cf4ea464cc1e34b6ad8bc.png",
+      "bytes": 1140852,
+      "sha256": "5b94d8c33dbff5cdc855e7035caa17106b541a5d974cf4ea464cc1e34b6ad8bc",
+      "git_blob": "d9c6bc2af79c469ecb4c2e3dc198955d3836a669"
     },
     {
       "path": "source/robots/main/src/assets/5cb0412089442d56cd60863b5f215e89b88432348790cf033f545f25b6f99a7c.png",
@@ -2552,6 +2546,12 @@
       "bytes": 2592978,
       "sha256": "8bf41095f626c9b1a91bba7d2e8a41ce2f7c65890c22ab8e307770e15b9e8d10",
       "git_blob": "55dd495717153f0a50fbd68cd754110637121081"
+    },
+    {
+      "path": "source/robots/main/src/assets/8e00fe69468457b11d8f1a62eb79864def53f0a882a5f2e2409b2bd62ae717b8.png",
+      "bytes": 1189443,
+      "sha256": "8e00fe69468457b11d8f1a62eb79864def53f0a882a5f2e2409b2bd62ae717b8",
+      "git_blob": "9fb5b6db387cae8b722c152728c1fe6dd210f03a"
     },
     {
       "path": "source/robots/main/src/assets/909e25df753e6234cc7dea39d459bca13d197c41f1fb51378c47fe7be252c2a5.png",
@@ -3233,9 +3233,9 @@
     },
     {
       "path": "source/robots/main/src/content/131903495.md",
-      "bytes": 3766,
-      "sha256": "092b24d86c881296f14358f91f39ce9fb1895462dfa543acfb533c978effc748",
-      "git_blob": "3c1fd32a7475c08553078fb14dfa0db9cb1ddb28"
+      "bytes": 3858,
+      "sha256": "969e857afea673530c7df407c05abe9ea15d09567cfe81b2a548d15116de01e9",
+      "git_blob": "6315ebf881522c7de440456ebf383b6442e83989"
     },
     {
       "path": "source/robots/main/src/content/131903654.md",
@@ -4157,33 +4157,33 @@
     },
     {
       "path": "verification/ADMIN-HANDOFF-RU.md",
-      "bytes": 12723,
-      "sha256": "7377e6489c2f1f0ca883026f96472018b39a54631a17c552b0c0d02149d60614",
-      "git_blob": "91b9c53d15a2017c477b17dc462a44826795d417"
+      "bytes": 13755,
+      "sha256": "9c18d57e61b315b31e4e075f47b650f123f4622ef7f51e45bc3afb88ce234bcb",
+      "git_blob": "2f77024b3546a812b2660dc660f26c087ee78a22"
     },
     {
       "path": "verification/browser-checks.json",
-      "bytes": 101883,
-      "sha256": "363cbfb21f11accfd66177fc37e75e8d846d0a8a9e5efde5edcc110fbc576b26",
-      "git_blob": "0dc241e1ac37b8278beffff4639727fe131f37fb"
+      "bytes": 102176,
+      "sha256": "5e6b620042c7797c5cead7fa27ef74838a3b7ee4208aa91d300ecc29b7fa2688",
+      "git_blob": "d1b83cafccae4ca56f4783774ee69560e511f027"
     },
     {
       "path": "verification/content-changes.json",
-      "bytes": 4814,
-      "sha256": "b2dd97d6ec4c7026f38fc96b3965cc89362b4e4c2f53e8662d5fd8ce3f2cb84d",
-      "git_blob": "b2867aa9a60b89d3ab3ed3bfa5c01432401dad9d"
+      "bytes": 5699,
+      "sha256": "01ed3c55d44a1a5dbec14c9ea6b83444be96091f11ffcb433edc82c1131a9c6b",
+      "git_blob": "618ba96cc8507e42a8ce462f86781ba8c756cce7"
     },
     {
       "path": "verification/delivery-checks.json",
       "bytes": 298,
-      "sha256": "67c0d8abab639ca9c79b37189a40aeda925f232e2536957458a4b85186ed57f3",
-      "git_blob": "76ce167d254a7eeef8f1a24251c0ac8cdd48a116"
+      "sha256": "d09ecc7d5f5d2104f18c17897394c45877bcb953bc3352b08ec76a66f4ad879d",
+      "git_blob": "7296e1c97f94c54dc364f1a583809130423d1999"
     },
     {
       "path": "verification/delivery.zip.sha256",
       "bytes": 107,
-      "sha256": "b5d0f53cdfab4f894d40b399144e45c20242b2270a768ac633a91091727deed4",
-      "git_blob": "939e932d45c485dd97ac0e18546654a52fff94f4"
+      "sha256": "d5db7aead32fca5800c7cc9f4034478bcb8b651e7f31889980ab8809dabdbce9",
+      "git_blob": "fc0b904526519b97fabe2c3635d8505cbb5ea49a"
     },
     {
       "path": "verification/external-checks.json",
@@ -4193,9 +4193,9 @@
     },
     {
       "path": "verification/files-sha256.json",
-      "bytes": 236354,
-      "sha256": "ee5710851308625359a5af7ffc14245074fa21f28662619714bcb53a0845ed0d",
-      "git_blob": "29bc25169fd276f6ea0d1eef541c18673f88e110"
+      "bytes": 236358,
+      "sha256": "6cff9c834fbf764821e922368223c72d31419260ca445150412472d87ff695c5",
+      "git_blob": "fe32eecd9f4684938855e1bd4c5cec31774fd3c0"
     },
     {
       "path": "verification/internal-checks.json",
@@ -4217,21 +4217,33 @@
     },
     {
       "path": "verification/revision-browser-checks.json",
-      "bytes": 3285,
-      "sha256": "bdfab9f4b714f7ff8e05553fc97b7c05a4c34bb81bd8595966ec7d24841b684f",
-      "git_blob": "ed3ef888630648c48b3d164a5ab182e7d8033f2d"
+      "bytes": 11239,
+      "sha256": "0e3fbdafaf10eb9575d3e68555f1b4a98a2d171b6d8a36b83523558bd0104c20",
+      "git_blob": "0e67addfc1cd87505c08d5185f818003817a9ce2"
+    },
+    {
+      "path": "verification/robots-en-branding-browser-checks.json",
+      "bytes": 8032,
+      "sha256": "e7e0c29cb4492246882db35759d4f9ded6dace53edb7d795613e7ee0f3c94776",
+      "git_blob": "b1a5c9e09c45c99a879e6b2ff4573694dd225fae"
+    },
+    {
+      "path": "verification/robots-en-branding-revision.json",
+      "bytes": 3271,
+      "sha256": "31e13af8728298c51e526ed8ced5c2d8675f1892343c88f699f6b410c3f61f9d",
+      "git_blob": "34bdec63ecbd446492403f67ba202dc04ed592ed"
     },
     {
       "path": "verification/robots-en-build.log",
-      "bytes": 643,
-      "sha256": "bda11c3491e8e1e091236d31e40f024d94fab41538f5086ff1020bed26d7b762",
-      "git_blob": "42e93a015ea2f6b12ca134b931879fd517487bca"
+      "bytes": 1288,
+      "sha256": "16a7f1181ccb0166afb0242e2bf85a52ee083a772718adba3b58480dff59aefa",
+      "git_blob": "81a05b7ca1b7c962b3a5fa08c51f1e72a7ca8b60"
     },
     {
       "path": "verification/summary.json",
-      "bytes": 3340,
-      "sha256": "c44b6e01b53df4a66a5a3587091b18c0b3a0d4e8b7ff347efa6eaa34c2d1d392",
-      "git_blob": "f2710027ad5d4cfa7ba9c3e99ee91472781d555f"
+      "bytes": 3624,
+      "sha256": "e5e86c553878812c566f6f7a34de870b381d162d7b408bb40c4c3b7f0793711d",
+      "git_blob": "ced58ff69df39905ab359d51364aeb394abfa97f"
     },
     {
       "path": "verification/turnmill-en-build.log",
@@ -4259,15 +4271,15 @@
     },
     {
       "path": "workspace/MachineMaker-progress-2026-10-12.md",
-      "bytes": 4919,
-      "sha256": "77a558410e6a203535b94fedf7286551e87d74612a451f14511e49e62fc8a070",
-      "git_blob": "bd2a8212841510690c0974e8256d3ebde5934b1f"
+      "bytes": 5296,
+      "sha256": "7844c48eb074d8fb8fd06af21138178a7b482fc552735c9e90be31bfaa295798",
+      "git_blob": "8068c637a962f6ed7383f5ff5788ed03f3afe91e"
     },
     {
       "path": "workspace/MachineMaker-session-handoff.md",
-      "bytes": 66950,
-      "sha256": "cb3d54a7d3b44877de05517e98a088fad4b3debbc183e3c72b208121040af16e",
-      "git_blob": "f69439060155ec51035045ea66335a1a76655425"
+      "bytes": 71949,
+      "sha256": "b3d956e688c317ca150f67148f50ad077cbc614aa0573c6d171372559133925b",
+      "git_blob": "c385b1dcb971140b406e34901b7304f3596bbe29"
     },
     {
       "path": "workspace/publication-work/commit_machinemaker_snapshot.py",
@@ -4292,6 +4304,18 @@
       "bytes": 1253,
       "sha256": "1a3803cddf9f8536df876251b57f2dedb276a65f3a947d20af4c412a139d080c",
       "git_blob": "de936802e1964b11ed62bcc6780bbfdbb8f96572"
+    },
+    {
+      "path": "workspace/publication-work/machinemaker-commit-2026-10-12/prepare_push.py",
+      "bytes": 4735,
+      "sha256": "b5b2e714f20dae80e7383e37cea208848c57080eb9c64d1effc5d76906d744fe",
+      "git_blob": "938d7f00e57b29a470260b6b378202931916f99e"
+    },
+    {
+      "path": "workspace/publication-work/machinemaker-commit-2026-10-12/server_delivery.py",
+      "bytes": 7083,
+      "sha256": "41168d1a991581a81f5e06ef9bea58496b9833b77aa29b3a3d748905de16ff15",
+      "git_blob": "6551544d99f08ab52dcb95c966a48dcec6795a86"
     },
     {
       "path": "workspace/publication-work/machinemaker-six-2026-10-12/build_collection.py",
@@ -4337,9 +4361,9 @@
     },
     {
       "path": "workspace/publication-work/machinemaker-six-2026-10-12/package_collection.py",
-      "bytes": 23883,
-      "sha256": "39a4bea1cddd2724178699215ce482f333eee7ed79bac59bdf05b8230492b537",
-      "git_blob": "2818de6b09df1829f0f14e2dcc6bcfd67bd78cf0"
+      "bytes": 25448,
+      "sha256": "1f6025d9ae5f887a3e8211f950f854cccf4c3c62213d09ca1cd43f8e15a7b13b",
+      "git_blob": "b575d7c4d82483ac3a05d5b7748433d9176116a6"
     },
     {
       "path": "workspace/publication-work/machinemaker-six-2026-10-12/rebuild_turnmill_docfx.py",
@@ -4354,10 +4378,112 @@
       "git_blob": "3c5421ed14df7d0a2e8b4b2207c6ecf2b8d8798b"
     },
     {
+      "path": "workspace/publication-work/machinemaker-sprutcam-audit-2026-10-12/audit.py",
+      "bytes": 9355,
+      "sha256": "76c92d3f5f468bf5c149c5d10a0b5345c6e5767e0393e55549cd8edbc722a017",
+      "git_blob": "007434386590aaf081c7180a379a000813b1cc6a"
+    },
+    {
+      "path": "workspace/publication-work/machinemaker-sprutcam-audit-2026-10-12/links-report.json",
+      "bytes": 42390,
+      "sha256": "11062f148575f2b630b0fb76738e1648854360852229dac741793238a3a0179a",
+      "git_blob": "16e0af915c1b6b6d619d85291932b27a52b5ce97"
+    },
+    {
+      "path": "workspace/publication-work/machinemaker-sprutcam-audit-2026-10-12/links.py",
+      "bytes": 10492,
+      "sha256": "c9ef14e2a84134145aab25ee671905de466594d07538375ffee457daaccf8fd7",
+      "git_blob": "5e982aaaf990247e7228357067804e1cf63aceea"
+    },
+    {
+      "path": "workspace/publication-work/machinemaker-sprutcam-audit-2026-10-12/ocr-report.json",
+      "bytes": 411116,
+      "sha256": "51b251f0f3352edb04423b42ac23f782ce5d55ce83566452408683b9a2d135cc",
+      "git_blob": "a6a946c2de3bd58751bc26383b68309e5546eff3"
+    },
+    {
+      "path": "workspace/publication-work/machinemaker-sprutcam-audit-2026-10-12/ocr.ps1",
+      "bytes": 3407,
+      "sha256": "98ca8ffaef64d265ad0ab32d991d09cfdc25750e4b9c7d8f947e1a6829dc8f58",
+      "git_blob": "db76f83ca91fb84a680db726215b21d492694705"
+    },
+    {
+      "path": "workspace/publication-work/machinemaker-sprutcam-audit-2026-10-12/REPORT-RU.md",
+      "bytes": 9295,
+      "sha256": "a0308806aa9ee526b418c36366bdb8c5874730aef332e4079447677b4f287323",
+      "git_blob": "ba45073237ea8528c25244748c54e004db52ce9d"
+    },
+    {
+      "path": "workspace/publication-work/machinemaker-sprutcam-audit-2026-10-12/screenshots.py",
+      "bytes": 5396,
+      "sha256": "207c2e6f93c3bf9adb4639b63af6780bb884e8d95c799e65ae4a4585570222e3",
+      "git_blob": "6e2556e4091db3f0279604a3cacde7867633ce39"
+    },
+    {
+      "path": "workspace/publication-work/machinemaker-sprutcam-audit-2026-10-12/text-report.json",
+      "bytes": 280979,
+      "sha256": "972957f13d500f93685f7bd6760ca611efe44f1de9e49ce064bb9a4320acc9af",
+      "git_blob": "4afb18260c2269be3fbdb7777264828b391f18c0"
+    },
+    {
       "path": "workspace/publication-work/prepare_six_rebuild_2026_10_12.py",
       "bytes": 3215,
       "sha256": "afa959dde17db6e59107b482f6ecc7bec5443dc251c6c0d9db065397b645a010",
       "git_blob": "04154d6173eb99c6ebd987fad0bf83c52df3d46c"
+    },
+    {
+      "path": "workspace/publication-work/robots-en-ency-screenshots-2026-10-12/apply_revision.py",
+      "bytes": 5063,
+      "sha256": "e667a993839639a6675fbba967ca4e87891396158b5ebdfb04944f53c8a12288",
+      "git_blob": "d85475981fb01a13cb375eb6cc1094ebeacce8d3"
+    },
+    {
+      "path": "workspace/publication-work/robots-en-ency-screenshots-2026-10-12/browser-checks.json",
+      "bytes": 8032,
+      "sha256": "e7e0c29cb4492246882db35759d4f9ded6dace53edb7d795613e7ee0f3c94776",
+      "git_blob": "b1a5c9e09c45c99a879e6b2ff4573694dd225fae"
+    },
+    {
+      "path": "workspace/publication-work/robots-en-ency-screenshots-2026-10-12/check_revision.py",
+      "bytes": 4740,
+      "sha256": "a674054950335a5f72fe81e637975bfd60d1998e28e056ebf5fa977695337bb9",
+      "git_blob": "86d48b2201d7f115fdf17320135d0edaeabc4e66"
+    },
+    {
+      "path": "workspace/publication-work/robots-en-ency-screenshots-2026-10-12/docfx-build.log",
+      "bytes": 1288,
+      "sha256": "16a7f1181ccb0166afb0242e2bf85a52ee083a772718adba3b58480dff59aefa",
+      "git_blob": "81a05b7ca1b7c962b3a5fa08c51f1e72a7ca8b60"
+    },
+    {
+      "path": "workspace/publication-work/robots-en-ency-screenshots-2026-10-12/finalize_revision.py",
+      "bytes": 11316,
+      "sha256": "fa3732389e6da94a06879df947d2a14e97c3315a5bc65f379abb43b0e6289663",
+      "git_blob": "15394641369db46334f9a30044c87edc8c252107"
+    },
+    {
+      "path": "workspace/publication-work/robots-en-ency-screenshots-2026-10-12/ocr-report.json",
+      "bytes": 1487,
+      "sha256": "4051121fe3cc839bcda7dfaae795a944b8d793b62c7574f58cfe67dfef588902",
+      "git_blob": "15c716f6e9dcb0161cdd492d1db9060bfad80a21"
+    },
+    {
+      "path": "workspace/publication-work/robots-en-ency-screenshots-2026-10-12/prompts.md",
+      "bytes": 1031,
+      "sha256": "b56e556db3bc1226e6b7d1e57a28fe586a7c89379ea768fb4f2ead2ac293a8cd",
+      "git_blob": "115ac42897e54ace52880ff3c4f985fa21f66378"
+    },
+    {
+      "path": "workspace/publication-work/robots-en-ency-screenshots-2026-10-12/README-RU.md",
+      "bytes": 2251,
+      "sha256": "36080993a504e7cba871d97574bcd933e316f56e6b050dc18f2974c964d19dc0",
+      "git_blob": "e248ccf1f597dbee046e966c871625ef953eeeb1"
+    },
+    {
+      "path": "workspace/publication-work/robots-en-ency-screenshots-2026-10-12/revision.json",
+      "bytes": 3683,
+      "sha256": "a12ee32ff98f225f02071cc34251dfe9a51f5db90be0e97493ca94fc13489be7",
+      "git_blob": "3050ed32144ecf3d454af269230ea42ca2616b9a"
     }
   ]
 }

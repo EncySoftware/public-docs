@@ -1,0 +1,5 @@
+# Image edit prompt
+
+Tool: built-in image_gen. Applied separately to each of the two input screenshots.
+
+Use case: text-localization. Edit target: the supplied existing MachineMaker interface screenshot. Make exactly one text substitution in the checkbox caption near the bottom: replace the word 'SprutCAM' with 'ENCY', so the complete caption reads verbatim 'ENCY axes map compatibility mode'. Match the original small dark-gray UI font, weight, baseline and antialiasing; move the following words left naturally after the shorter brand name. Leave the checkbox in its exact original position. Preserve the entire screenshot, original dimensions and framing, panels, all other text, all numeric values and signs, tabs, controls, colored indicators, existing red annotation if present, background and every other pixel as faithfully as possible. Do not redraw or redesign the interface. Do not add callouts, watermarks, extra text, borders or labels. The only requested visual change is SprutCAM to ENCY in that one caption.

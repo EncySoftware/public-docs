@@ -100,3 +100,9 @@ python -m http.server 8000 --bind 127.0.0.1
 ## Доказательства
 
 inputs.json — исходные снимки; internal-checks.json — локальные ссылки и контроль исходных/согласованно изменённых статей; browser-checks.json — исходная полная проверка браузером; revision-browser-checks.json — проверка правок от 12 октября; content-changes.json — согласованные изменения; external-checks.json — внешние ссылки и история устранённых замечаний; localized-resources.json — локальные копии общих файлов и подтверждение совместимости примеров; files-sha256.json — все файлы сайта и SHA256; *-build.log — логи исходных сборок.
+
+## Robots EN: надпись на иллюстрациях
+
+По поручению пользователя на двух иллюстрациях главы Building a kinematic scheme (131903495.html), разделы Limits и Model Position, слово SprutCAM заменено на ENCY. Новая надпись: ENCY axes map compatibility mode.
+Исходные изображения сохранены вне публикуемого сайта. Новые изображения включены в английские исходники и HTML; ширина отображения сохранена, высота адаптируется к узкому экрану. Текст главы, якоря и текстовые ссылки сохранены.
+Доказательства: robots-en-branding-revision.json, robots-en-branding-browser-checks.json и content-changes.json. OCR подтверждает ENCY в обеих надписях; страница проверена на 1440 и 390 px.
