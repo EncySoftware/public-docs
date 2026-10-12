@@ -1,0 +1,856 @@
+{
+  "converted_at": "2026-10-12T06:59:45.057752+00:00",
+  "source": "previous-turnmill-en-html/",
+  "source_origin": "https://docs.encycam.com/MachineMaker/1/turnmill/en/1.html",
+  "template": "Same custom DocFX template as turnmill-ru",
+  "removed": [
+    {
+      "file": "73.html",
+      "title": "Trevisan Machine",
+      "sha256": "1a89c1aff39f1c26671dd237b5b520df8712d9d81b0e37d7b0fa7d1e19bbbf80"
+    }
+  ],
+  "pages": [
+    {
+      "file": "1.html",
+      "title": "MachineMaker User Manual",
+      "source_sha256": "928870c718d4e00d8226ff069dcc840729de7f46365c30474cc3714c682672f6",
+      "body_sha256": "078c77a7ea58c1539dd1f0ee431a6c3a2a05e43c7b36e853f0aea921525cd3cf",
+      "ids": [],
+      "heading_id": "src-131898309",
+      "image_sources": [
+        "images/download/attachments/131898309/image2024-8-3_9-29-32.png",
+        "images/download/attachments/131898309/image2024-8-3_9-32-0.png"
+      ],
+      "links": [],
+      "rendered_sha256": "917aed2b5d345e3f90299cd7869c214c6f39ff3f43df583f148dc86e2b6be407"
+    },
+    {
+      "file": "2.html",
+      "title": "Introduction to MachineMaker",
+      "source_sha256": "196a6bd6c9acd1414441aabcefdac14e85bd6a2e0fcb826bafe0c504a8fcd531",
+      "body_sha256": "6c7990b5c462bf99f58d293fc9e5ff2d39cf5384a8ef192ca7f1a8870335dc14",
+      "ids": [],
+      "heading_id": "src-131898310",
+      "image_sources": [
+        "images/download/attachments/131898310/image2024-8-3_9-29-32.png",
+        "images/download/attachments/131898310/image2024-8-3_9-32-0.png"
+      ],
+      "links": [],
+      "rendered_sha256": "db368cf66546dacbade1e26657cf79cad20d54b39b2947a9eeb425af5ccbfb6f"
+    },
+    {
+      "file": "3.html",
+      "title": "Interface",
+      "source_sha256": "c08eb9e7b6c5ce95ed35dc07b0a63b3e673b128a47be99a139064f62bbdabdf0",
+      "body_sha256": "fa42aa6a108c9e52221dd53d7ddd002ce009336875f424143819f6f4a8b23fe2",
+      "ids": [],
+      "heading_id": "src-131898333",
+      "image_sources": [],
+      "links": [],
+      "rendered_sha256": "7c09363752983209405cc6682ec0e2bdef04d33e150251808b19913a33c3bf40"
+    },
+    {
+      "file": "4.html",
+      "title": "Main window",
+      "source_sha256": "8256c4e1e16672bd8f1ea06f0585e49b9fa6152d8a431003240ae68f75e64e8e",
+      "body_sha256": "de457c01ebd6d323ccccc222ab158dfc836f1964388723a5565795dd711014af",
+      "ids": [],
+      "heading_id": "src-131898334",
+      "image_sources": [
+        "images/download/attachments/131898334/image2024-8-3_9-37-39.png",
+        "images/download/attachments/131898334/image2024-8-3_9-43-43.png"
+      ],
+      "links": [],
+      "rendered_sha256": "74d26c129e4c6cb5570abf57547a583d90aa6928f3bfabbdf5ab95ebcfdb4c78"
+    },
+    {
+      "file": "5.html",
+      "title": "3D navigation",
+      "source_sha256": "05ae45249c0cb9059b0d7576c9b60b51ad99287a2b1514fec828aae757c1740a",
+      "body_sha256": "4ae7c69613a17d55c18a9910b80f581aa3e05d45cf7a8b7e2bd32981e29a9f71",
+      "ids": [
+        "src-131898350_id-3Dnavigation-Interactivepan",
+        "src-131898350_id-3Dnavigation-Interactiverotate",
+        "src-131898350_id-3Dnavigation-Interactivezoominandout",
+        "src-131898350_id-3Dnavigation-Visualizationmode"
+      ],
+      "heading_id": "src-131898350",
+      "image_sources": [
+        "images/download/attachments/131898350/image2021-5-7_14-29-59.png",
+        "images/download/thumbnails/131898350/image2023-10-27_15-55-42.png",
+        "images/download/attachments/131898350/Lathemillingmachine.gif",
+        "images/download/attachments/131898350/image2021-5-7_14-20-38.png",
+        "images/download/attachments/131898350/LatheMillingMachineGlobalCS.gif",
+        "images/download/attachments/131898350/%D0%B2%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%D1%82%D0%BE%D0%BA%D1%84%D1%80%D0%B5%D0%B7.gif"
+      ],
+      "links": [],
+      "rendered_sha256": "a89bdfcc9962a32714efe2ad33fd6fc46e50a303713d38e2e4af68f6bea861ad"
+    },
+    {
+      "file": "6.html",
+      "title": "Toolbar",
+      "source_sha256": "e8203249fd0727a13a5f7411cf2f1e6a09e0eeeb05ba8cb96a28528183de32b5",
+      "body_sha256": "fb4b2dec5f14bdfb0c7541b178f8ae5c12f71f211a3206affbfb1b0a7fd517f4",
+      "ids": [
+        "src-131898380_Toolbar-Feedbackandhelp",
+        "src-131898380_safe-id-VG9vbGJhci1Bc3NlbWJseXNldHRpbmdzKDYp",
+        "src-131898380_safe-id-VG9vbGJhci1Db250ZXh0c3dpdGNoZXIoMTAp",
+        "src-131898380_safe-id-VG9vbGJhci1NYWlubWVudSgxKQ",
+        "src-131898380_safe-id-VG9vbGJhci1NZWNoYW5pc21zTGlicmFyeSg1KQ",
+        "src-131898380_safe-id-VG9vbGJhci1Qcm9qZWN0bmFtZSg5KQ",
+        "src-131898380_safe-id-VG9vbGJhci1TaW11bGF0aW9uKDcp"
+      ],
+      "heading_id": "src-131898380",
+      "image_sources": [
+        "images/download/attachments/131898380/image2024-8-12_12-0-26.png",
+        "images/download/attachments/131898380/image2024-8-12_12-1-9.png",
+        "images/download/attachments/131898380/image2024-8-12_12-10-50.png",
+        "images/download/attachments/131898380/image2024-4-16_15-42-50.png",
+        "images/download/attachments/131898380/mpjctname.gif",
+        "images/download/attachments/131898380/image2024-8-12_12-21-9.png",
+        "images/download/attachments/131898380/image2024-8-12_12-21-44.png"
+      ],
+      "links": [],
+      "rendered_sha256": "fffb7c733ef65de5f66112c069fa486974cd65a02099a692d937bae3a8b4c31b"
+    },
+    {
+      "file": "7.html",
+      "title": "Application Settings",
+      "source_sha256": "833e6efae9ffa39d3151a077b6d7e0eb2f7f8f0f08a7bfbab67afbbda5c69294",
+      "body_sha256": "01c1207192dee82f01f84e1a8e4bb824060708175b09fb8c317a9316f692a009",
+      "ids": [],
+      "heading_id": "src-131898442",
+      "image_sources": [
+        "images/download/attachments/131898442/image2024-8-12_12-23-31.png"
+      ],
+      "links": [],
+      "rendered_sha256": "cf73ba39ddd425f836da88b18c30b61b7acd20d05f3f4f79efc1673e1002606d"
+    },
+    {
+      "file": "10.html",
+      "title": "Getting Started",
+      "source_sha256": "4174cdbf856f567f9fe7b0f706881c35b04379ec716292d7500a86f050c777b4",
+      "body_sha256": "a964aab5e025d9b2b98c202b115ed0109935aee15e2867319b2f9b8dc2bfdd1a",
+      "ids": [],
+      "heading_id": "src-131898451",
+      "image_sources": [],
+      "links": [],
+      "rendered_sha256": "f2f0d7c14f5f77f750199390adec0d49b66a6a9d4840de0e79b1caa5cc82ec5f"
+    },
+    {
+      "file": "11.html",
+      "title": "Creating a project",
+      "source_sha256": "8905e3115aa17fb184943c8c58dee0341f45021915945cf8fd2e018f76836d68",
+      "body_sha256": "cabe2ab0262bd10fbd27e50809a3696acdf9a5270d219fe9d2943ba3ec8b2ec2",
+      "ids": [
+        "src-131898452_Creatingaproject-Creatingaproject",
+        "src-131898452_Creatingaproject-StartingMachineMaker"
+      ],
+      "heading_id": "src-131898452",
+      "image_sources": [
+        "images/download/attachments/131898452/image2024-8-12_12-26-51.png",
+        "images/download/attachments/131898452/image2024-8-12_12-29-42.png"
+      ],
+      "links": [],
+      "rendered_sha256": "a63b5725ced092857f44337ef7cd22d9ce1040bb20fcd5eb1f519a6af4c61ca9"
+    },
+    {
+      "file": "12.html",
+      "title": "Adding a mechanism",
+      "source_sha256": "bb19e7dfcb0594b88eb92c83514adcd1a47b57ebcbbc36664430d8659ba08026",
+      "body_sha256": "f46b894825e88d8aa3aa95cc66a4e2ff68da0896db6c79f32d3fc1698a77b62a",
+      "ids": [
+        "src-131898466_Addingamechanism-Supportedmechanismtypes"
+      ],
+      "heading_id": "src-131898466",
+      "image_sources": [
+        "images/download/attachments/131898466/image2024-8-12_12-37-12.png",
+        "images/download/attachments/131898466/image2024-8-12_12-42-17.png"
+      ],
+      "links": [],
+      "rendered_sha256": "e77873c64a9bfd16ee3dbcf127dc0f58d4f14070ace5bc2871eabce966fec735"
+    },
+    {
+      "file": "13.html",
+      "title": "Supported 3D model formats",
+      "source_sha256": "8b00cf58d781c177fd685131484187cf2f7181b76d99d6b60bc026f9007a3446",
+      "body_sha256": "00de459a3088f5e29f1c71311b496f812adae4f04016f8264e62328005d26c7d",
+      "ids": [],
+      "heading_id": "src-131898481",
+      "image_sources": [
+        "images/download/attachments/131898481/%D0%B2%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%D1%82%D0%BE%D0%BA%D0%B0%D1%80%D0%BD%D0%BE%D1%84%D1%80%D0%B5%D0%B7.gif",
+        "images/download/attachments/131898481/Screen1.png",
+        "images/download/attachments/131898481/image2021-5-8_13-27-1.png",
+        "images/download/attachments/131898481/Screen3.png",
+        "images/download/attachments/131898481/image2024-8-13_9-54-8.png"
+      ],
+      "links": [
+        "https://docs.encycam.com/MachineMaker/1/robots/en/90.html"
+      ],
+      "rendered_sha256": "7270269098c49edaeb07efc3d2785b9a273bd9fee73f6052d3a5440896b2b996"
+    },
+    {
+      "file": "14.html",
+      "title": "Grouping elements into nodes",
+      "source_sha256": "f0ab139df4e359511d8189cbcd75d4771b9cda3c937c3d2ba984411144bf0a5a",
+      "body_sha256": "d131191d6e633433f2bc7267b0224b88072bcc450d037dcbcc74b7e28323ecd5",
+      "ids": [
+        "src-131898519_Groupingelementsintonodes-Groupingelements",
+        "src-131898519_Groupingelementsintonodes-WorldCSposition"
+      ],
+      "heading_id": "src-131898519",
+      "image_sources": [
+        "images/download/attachments/131898519/%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B%D1%82%D0%BE%D0%BA%D0%B0%D1%80%D0%BA%D0%B8.gif",
+        "images/download/attachments/131898519/%D0%BA%D1%80%D0%B0%D1%81%D0%B8%D1%82%D1%8C%D1%82%D0%BE%D0%BA%D0%B0%D1%80%D0%BA%D0%B0.gif",
+        "images/download/attachments/131898519/%D0%B0%D0%BD%D0%BC%D0%B0%D1%80%D0%BA%D1%82%D0%BE%D0%BA%D0%B0%D1%80%D0%BA%D0%B0.gif",
+        "images/download/attachments/131898519/image2024-2-9_15-31-9.png",
+        "images/download/attachments/131898519/image2024-2-9_15-32-6.png",
+        "images/download/attachments/131898519/image2024-4-17_14-12-34.png",
+        "images/download/attachments/131898519/%D1%82%D0%BE%D1%87%D0%BA%D0%B0%D1%82%D0%BE%D0%BA%D0%B0%D1%80%D0%BA%D0%B0.gif"
+      ],
+      "links": [],
+      "rendered_sha256": "45c9ed7adc5c18409ca659fabfa4d029fa909dce410be1ca91f335359fe12bf1"
+    },
+    {
+      "file": "20.html",
+      "title": "Building a kinematic scheme",
+      "source_sha256": "0f83d4ae92e1bbf085e626b89de3a822d517fd17ee3d9c314b192074de46e7c0",
+      "body_sha256": "90f8df79c09cd312ee313b295ab1d2a0b2b0f71207a3ed1629832d575c8512cf",
+      "ids": [
+        "src-131898568_Buildingakinematicscheme-Kinematics"
+      ],
+      "heading_id": "src-131898568",
+      "image_sources": [
+        "images/download/attachments/131898568/Click_kinematic.PNG",
+        "images/download/attachments/131898568/%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D0%BA%D0%B0%D1%81%D1%82%D0%BE%D0%BC%D1%82%D0%BE%D0%BA%D0%B0%D1%80%D0%BA%D0%B0.gif",
+        "images/download/attachments/131898568/%D0%BA%D0%B8%D0%BD%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%D1%82%D0%BE%D0%BA%D0%B0%D1%80%D0%BA%D0%B0.gif",
+        "images/download/attachments/131898568/image2024-4-24_11-14-42.png"
+      ],
+      "links": [],
+      "rendered_sha256": "65d71c458ba1aec397767ebeaf08c9e6668203dab8bdb540f49d469b7c2fffd4"
+    },
+    {
+      "file": "28.html",
+      "title": "Chuck connector",
+      "source_sha256": "6c0ed23b7e5de4b72b186ab3eab46eb502dbec1d375ff897ddb21007b4b64c08",
+      "body_sha256": "5bf157c2a285705daa44fcc09f9cdba5cbb3b9df4325b903f25f9b284c45d232",
+      "ids": [],
+      "heading_id": "src-131898650",
+      "image_sources": [
+        "images/download/attachments/131898650/image2024-4-24_13-26-44.png",
+        "images/download/attachments/131898650/image2024-4-24_13-46-24.png",
+        "images/download/attachments/131898650/ChuckConnectorGifka.gif"
+      ],
+      "links": [],
+      "rendered_sha256": "e37cdcf37527c7aa35babea0e85fe36027088b08ce9db78e07a162bbdc5b75bf"
+    },
+    {
+      "file": "29.html",
+      "title": "Tool block",
+      "source_sha256": "4227e13cbff04162d79da8458512ea5d616eea8b3be11ad3f205c01baaf691a9",
+      "body_sha256": "e82a02dbbfa856ac0d487950d489c16cf9289d9db79d09a265fe4b92f5624e18",
+      "ids": [],
+      "heading_id": "src-131898654",
+      "image_sources": [
+        "images/download/attachments/131898654/image2024-8-13_11-27-32.png",
+        "images/download/attachments/131898654/image2024-4-24_15-13-2.png",
+        "images/download/attachments/131898654/image2024-4-24_15-17-41.png",
+        "images/download/attachments/131898654/image2024-4-24_15-24-16.png",
+        "images/download/attachments/131898654/image2024-4-24_15-26-23.png",
+        "images/download/attachments/131898654/image2024-4-24_15-34-18.png",
+        "images/download/attachments/131898654/image2024-4-24_15-40-3.png"
+      ],
+      "links": [],
+      "rendered_sha256": "57badd252f8645b41b2c0c6bb6b16af79214cb240cc2a6b9622795131ab46d0a"
+    },
+    {
+      "file": "30.html",
+      "title": "Turret head node",
+      "source_sha256": "7f9d6550b3163c3fa1d090c747d8cd58a835cd6980a94c62b37ba566710c373b",
+      "body_sha256": "3834ef27bb27f03ec5d4226ec44ba83650f72db71bf4eee51b9e7e0ec2b38297",
+      "ids": [],
+      "heading_id": "src-131898663",
+      "image_sources": [
+        "images/download/attachments/131898663/image2024-5-2_10-29-5.png",
+        "images/download/attachments/131898663/CSTURRET.gif",
+        "images/download/attachments/131898663/interturret.gif",
+        "images/download/attachments/131898663/nakonectoturretheadkrug.gif",
+        "images/download/attachments/131898663/applyturrethead.gif"
+      ],
+      "links": [],
+      "rendered_sha256": "1dc217c12ae5175875280615e22d5f4c44fc1234a2010add67c26ba64500ba9b"
+    },
+    {
+      "file": "30_1.html",
+      "title": "Dual-row tool turret",
+      "source_sha256": "aa930b99f09226e38d15d519a0e1c35a991304521b669af09944ff14d049b602",
+      "body_sha256": "3957bcc8ce89ed5d60e4553e2c15d3d84ae4c0e82be5a78295f2ab334ab0444f",
+      "ids": [],
+      "heading_id": "src-142647526",
+      "image_sources": [
+        "images/download/attachments/142647526/image2025-6-9_14-53-52.png",
+        "images/download/attachments/142647526/image2025-6-9_15-6-7.png",
+        "images/download/attachments/142647526/image2025-6-9_15-12-59.png",
+        "images/download/attachments/142647526/2row.gif",
+        "images/download/attachments/142647526/setsame.gif"
+      ],
+      "links": [
+        "https://www.youtube.com/watch?v=5pfjNPZR50A&list=PLnaHZJpWJMKPN2hSDvR1DnxmAuFH4tP42&index=17&ab_channel=ENCYSoftware"
+      ],
+      "rendered_sha256": "f920d6b4ac9a2a10deaca4fd6076e7831fbfaa37d49ff73a581fdbfe8f834ea4"
+    },
+    {
+      "file": "31.html",
+      "title": "Coloring",
+      "source_sha256": "8ba1946b1be50680e3a19451f661b2fe1c78acb22e027d24a24b6119c404b108",
+      "body_sha256": "f1b310d4bedb88d19c404286706953879c6ae4a700a2c20c79caca3a7fdf159a",
+      "ids": [],
+      "heading_id": "src-131898674",
+      "image_sources": [
+        "images/download/attachments/131898674/image2024-5-13_9-56-56.png",
+        "images/download/attachments/131898674/Coloring_3.png",
+        "images/download/attachments/131898674/image2024-5-13_10-0-12.png"
+      ],
+      "links": [],
+      "rendered_sha256": "7cc6cbf1ed7eebaa6d8b8963641392953f50fc0b7da036a51284a0651049776e"
+    },
+    {
+      "file": "32.html",
+      "title": "Mechanism Simulation and Validation",
+      "source_sha256": "caf80880d543c2e840693b3a396cdfdfc0afa4473167f5a10e00a8e290788baa",
+      "body_sha256": "c2e3358a424ac6bc17941b9386a13d1242b0872513bbfa4a1bfbcaedffd79f8a",
+      "ids": [],
+      "heading_id": "src-131898694",
+      "image_sources": [
+        "images/download/attachments/131898694/Simulation.png",
+        "images/download/attachments/131898694/SimulationStanok.gif",
+        "images/download/thumbnails/131898694/image2021-5-5_17-21-2.png"
+      ],
+      "links": [],
+      "rendered_sha256": "f0d629c5496408937ea05e915787632403703e4d8b11163222a62ebfd0cc8f1f"
+    },
+    {
+      "file": "34.html",
+      "title": "Machine equipment configuration",
+      "source_sha256": "b477f47bfaf7456ef3c008b745bc53df50ecac75868ffef56ddcc1626d45d8f1",
+      "body_sha256": "bcd0a43e39afefc67054e67b39714826092ddc26163699fdd1be8d3948008f8b",
+      "ids": [],
+      "heading_id": "src-131898709",
+      "image_sources": [
+        "images/download/attachments/131898709/image2024-2-1_12-24-32.png",
+        "images/download/attachments/131898709/image2024-2-1_12-27-55.png",
+        "images/download/attachments/131898709/image2024-8-13_11-42-28.png",
+        "images/download/attachments/131898709/image2024-2-1_12-18-28.png",
+        "images/download/attachments/131898709/image2024-2-1_12-38-12.png",
+        "images/download/attachments/131898709/Machine_equipment1.gif",
+        "images/download/attachments/131898709/Machine_equipment2.gif",
+        "images/download/attachments/131898709/Machine_equipment3.gif",
+        "images/download/attachments/131898709/image2024-8-13_11-43-39.png",
+        "images/download/attachments/131898709/image2024-2-1_12-55-22.png",
+        "images/download/attachments/131898709/Machine_equipment4.gif",
+        "images/download/attachments/131898709/image2024-2-1_13-1-40.png",
+        "images/download/attachments/131898709/MachineEquipment5.gif",
+        "images/download/attachments/131898709/image2024-8-13_12-11-28.png"
+      ],
+      "links": [
+        "attachments/137005879/1/Machine_equipment_1.rar",
+        "attachments/137005878/1/Machine_equipment_2.rar",
+        "attachments/137005877/1/Milling_machine.rar"
+      ],
+      "rendered_sha256": "998f050c1203426f435746131af1100e999825cef37e52e500a935f88cf16502"
+    },
+    {
+      "file": "35.html",
+      "title": "Multi Tool Head",
+      "source_sha256": "000083762d627cd5405b6a34ebe82170a5ea18871510a2a5dab9436a450ce52b",
+      "body_sha256": "f1b3a8822212778ded70b7352b9cac89a0ec61b9a1c2a1e56d4cd18d60e392c3",
+      "ids": [],
+      "heading_id": "src-142647539",
+      "image_sources": [
+        "images/download/attachments/142647539/image2025-5-23_14-58-18.png",
+        "images/download/attachments/142647539/image2025-5-23_15-6-50.png",
+        "images/download/attachments/142647539/settingsto4kiformultitoolhead.gif",
+        "images/download/attachments/142647539/image2025-5-23_15-32-16.png",
+        "images/download/attachments/142647539/image2025-5-23_15-38-9.png",
+        "images/download/attachments/142647539/image2025-5-23_15-44-7.png",
+        "images/download/attachments/142647539/ExportMultiToolHead.gif"
+      ],
+      "links": [
+        "https://www.youtube.com/watch?v=EIswSr_5KuM&ab_channel=ENCYSoftware"
+      ],
+      "rendered_sha256": "d2f4a9e68d57b4264505c23cace6b41caa3004ab8ff3929997d456cf25e1a70f"
+    },
+    {
+      "file": "80.html",
+      "title": "Examples: Lathe milling machine",
+      "source_sha256": "2d25db0a6181136e8a30284ee196df59bf04794e45d725b4e89adc4aeb3aeb04",
+      "body_sha256": "166a138cb2a88d8046734afdb2f27683ec9c05ca8ca2c33e189a84b2ad7a6fd1",
+      "ids": [],
+      "heading_id": "src-131898737",
+      "image_sources": [],
+      "links": [],
+      "rendered_sha256": "e2cf35424290e72c37479ae478549948a7d46164a17d0db63b4346ae5fc2a4ee"
+    },
+    {
+      "file": "81.html",
+      "title": "Lathe milling machine",
+      "source_sha256": "90d01a34e7a55ec3a2f83458f2bb8c5eaa8e14be7fbf2073a1057b8843978776",
+      "body_sha256": "7b5ffc3aa54f2815a4acce8f2189901dba9f74f9c874c0d541c92a3a421d7e1d",
+      "ids": [],
+      "heading_id": "src-131898738",
+      "image_sources": [
+        "images/download/attachments/131898738/image2024-5-13_13-28-53.png"
+      ],
+      "links": [
+        "attachments/142643775/1/Samsung_PL-20MC.zip",
+        "https://www.youtube.com/watch?v=ebTyYWPnZf0&list=PLnaHZJpWJMKPN2hSDvR1DnxmAuFH4tP42&index=11"
+      ],
+      "rendered_sha256": "e26f05237b4b0bce139fa5486377a5b23f9759615b6adac8f0fc215e7284642a"
+    },
+    {
+      "file": "82.html",
+      "title": "Lathe milling machine with a dual-row turret",
+      "source_sha256": "163d209baab9f0ab08719a34c1b0ac68ddcf5a750892658f90b4ea362ac837c3",
+      "body_sha256": "c9e488e4b3493bd5f2ffef70ae357386eca20da8eb3a9f7436101ff4e064057b",
+      "ids": [],
+      "heading_id": "src-142643779",
+      "image_sources": [
+        "images/download/attachments/142643779/image2025-5-7_13-39-19.png"
+      ],
+      "links": [
+        "attachments/142643783/1/Lathe_milling_machine.zip",
+        "https://www.youtube.com/watch?v=5pfjNPZR50A&list=PLnaHZJpWJMKPN2hSDvR1DnxmAuFH4tP42&index=17&ab_channel=ENCYSoftware"
+      ],
+      "rendered_sha256": "ea8cb9f69dcea569deb8fd7ebe8c5d5212081fa77b58c3f36ae2471c03cdff7c"
+    },
+    {
+      "file": "90.html",
+      "title": "Simplifier",
+      "source_sha256": "dc7f84673f6d0a72866d5671a140bcdaf8a6b355576ceceffe089887902c7143",
+      "body_sha256": "f2dd7e3a7f78661463f1b27e551cdef6e7f08bfec404af1510b85a7bf5a3eb64",
+      "ids": [],
+      "heading_id": "src-131898742",
+      "image_sources": [
+        "images/download/attachments/131898742/image2024-8-16_16-42-28.png",
+        "images/download/attachments/131898742/image2024-2-27_11-51-58.png",
+        "images/download/attachments/131898742/rotate.gif",
+        "images/download/attachments/131898742/image2024-2-27_12-42-2.png",
+        "images/download/attachments/131898742/red.gif",
+        "images/download/attachments/131898742/parts.gif",
+        "images/download/attachments/131898742/delete231f.gif"
+      ],
+      "links": [],
+      "rendered_sha256": "4264a6cb42881d6810958a2b742150ea2aa851d47baa6964e80a2b44053d4a02"
+    }
+  ],
+  "resources": {
+    "images/download/attachments/131898309/image2024-8-3_9-29-32.png": {
+      "sha256": "9a1d9b45d0c057612f3e673c9079247e8e39666a4d1c354780ae30ed59f033e4",
+      "bytes": 22508
+    },
+    "images/download/attachments/131898309/image2024-8-3_9-32-0.png": {
+      "sha256": "00836f458b0c0b09af567604da1f726ea28e4010d778c7ca8158dbe1a522909a",
+      "bytes": 71855
+    },
+    "images/download/attachments/131898310/image2024-8-3_9-29-32.png": {
+      "sha256": "9a1d9b45d0c057612f3e673c9079247e8e39666a4d1c354780ae30ed59f033e4",
+      "bytes": 22508
+    },
+    "images/download/attachments/131898310/image2024-8-3_9-32-0.png": {
+      "sha256": "00836f458b0c0b09af567604da1f726ea28e4010d778c7ca8158dbe1a522909a",
+      "bytes": 71855
+    },
+    "images/download/attachments/131898334/image2024-8-3_9-37-39.png": {
+      "sha256": "1e16ef4e15a6e05b70de8c0c9011c57874de81b36cbcaedd55ff90da5faf5c06",
+      "bytes": 188480
+    },
+    "images/download/attachments/131898334/image2024-8-3_9-43-43.png": {
+      "sha256": "81e7e038f30552113f01920c9ab23fe25f20916a10bf49913fa30e87fc3c5032",
+      "bytes": 23900
+    },
+    "images/download/attachments/131898350/image2021-5-7_14-29-59.png": {
+      "sha256": "6d3ced18200b08782d732d05ada41d510d8e08a8273bd7eb1d3f418db748a4c5",
+      "bytes": 864
+    },
+    "images/download/thumbnails/131898350/image2023-10-27_15-55-42.png": {
+      "sha256": "271b6c6f7b4b5c47016f9f9c812812697835da60260de226ee340696ea8202b2",
+      "bytes": 874
+    },
+    "images/download/attachments/131898350/Lathemillingmachine.gif": {
+      "sha256": "6021a464e706c7dba38fb1e3942245d3dca87adef599b2b760d864e5b96ebbaf",
+      "bytes": 9226593
+    },
+    "images/download/attachments/131898350/image2021-5-7_14-20-38.png": {
+      "sha256": "bc79c6bc758ba4400b233576020ccadb7a4950fe26d550c6f447cddf9a00c377",
+      "bytes": 1186
+    },
+    "images/download/attachments/131898350/LatheMillingMachineGlobalCS.gif": {
+      "sha256": "e9e4fb475a0ab8ca2816c71186503b50c1ee17a01b8ba0f7bef74e0dac1bb8e0",
+      "bytes": 8645615
+    },
+    "images/download/attachments/131898350/визуализациятокфрез.gif": {
+      "sha256": "39a3553b8792cd888ac7c53ba18b5f9e901934b075a54f015cabaabf4a816132",
+      "bytes": 3181137
+    },
+    "images/download/attachments/131898380/image2024-8-12_12-0-26.png": {
+      "sha256": "532561caf86bb8179642c11a86a45ae01dd2bc1c9d82848d29ce46c695e11503",
+      "bytes": 14476
+    },
+    "images/download/attachments/131898380/image2024-8-12_12-1-9.png": {
+      "sha256": "18ed27f72026f5b8e6fe73709544fff6a8483a3d7d2d80f6283aba479938b850",
+      "bytes": 31929
+    },
+    "images/download/attachments/131898380/image2024-8-12_12-10-50.png": {
+      "sha256": "72f416a3523d95db47f5d28dfd4e50a31ba7ba1559f754e0784700443ca9c65d",
+      "bytes": 157607
+    },
+    "images/download/attachments/131898380/image2024-4-16_15-42-50.png": {
+      "sha256": "49326404fc1fd7327e47f66b9db1043ac65183aa81a160361ee2210e3874af40",
+      "bytes": 204956
+    },
+    "images/download/attachments/131898380/mpjctname.gif": {
+      "sha256": "4e56c06c0d7ea97a25302b7f1282f094c9f8ffa3a5cb5072e62d7d482c261818",
+      "bytes": 35942
+    },
+    "images/download/attachments/131898380/image2024-8-12_12-21-9.png": {
+      "sha256": "17e8cee9804d4a218d9828d0e706874db07caf9578854098620f8d06405b208a",
+      "bytes": 80622
+    },
+    "images/download/attachments/131898380/image2024-8-12_12-21-44.png": {
+      "sha256": "23c79ed21da930b6a801aa45c61088280947150e2c46145611e95a62daeb8a30",
+      "bytes": 19598
+    },
+    "images/download/attachments/131898442/image2024-8-12_12-23-31.png": {
+      "sha256": "5845ee620ec7945899ad0dcc3000439771084de029055c4ae8a63084d7e1b569",
+      "bytes": 43537
+    },
+    "images/download/attachments/131898452/image2024-8-12_12-26-51.png": {
+      "sha256": "cdbbaff073af9d40f88252e273602bfebf53e0d170bfe547aa3fab081602d0d7",
+      "bytes": 21965
+    },
+    "images/download/attachments/131898452/image2024-8-12_12-29-42.png": {
+      "sha256": "a9ae258a70c6b54f49b0805e1e6fe874092cb50cb22b03a3574277cf5d8df6b4",
+      "bytes": 17989
+    },
+    "images/download/attachments/131898466/image2024-8-12_12-37-12.png": {
+      "sha256": "ab9685e737af106c6fcea8e8036cf1267c2657284047dfa30991dbee28325012",
+      "bytes": 18009
+    },
+    "images/download/attachments/131898466/image2024-8-12_12-42-17.png": {
+      "sha256": "d805ff45f16cbe4457ee5f56b63b2a0a039519a13a3544806f413791430a58d5",
+      "bytes": 26402
+    },
+    "images/download/attachments/131898481/вращениетокарнофрез.gif": {
+      "sha256": "2d544e573584cb86b9b0610803b346121853d213f5862307e351163fbca7ad4a",
+      "bytes": 1746139
+    },
+    "images/download/attachments/131898481/Screen1.png": {
+      "sha256": "5b7c8fd155eb5b19c52bbf110701996ca61a479e82abc479d86f8ea1547d0e0f",
+      "bytes": 445968
+    },
+    "images/download/attachments/131898481/image2021-5-8_13-27-1.png": {
+      "sha256": "a5eb1b6f621ddded16527d38e123cafdc5e3a56f2717cbe4629f7f99ffb8124d",
+      "bytes": 337611
+    },
+    "images/download/attachments/131898481/Screen3.png": {
+      "sha256": "f6b569033a008a4c73ea5125e9ef567bef2b802205643372c56cac8eb38bff6a",
+      "bytes": 352841
+    },
+    "images/download/attachments/131898481/image2024-8-13_9-54-8.png": {
+      "sha256": "db749de0f199f1fbcdc61c738ce82043ad59365686f7eb8255e4c1e3722d75e7",
+      "bytes": 43153
+    },
+    "images/download/attachments/131898519/шаблонытокарки.gif": {
+      "sha256": "bd9df3165cefab454a9cfcb882b73d478ed5572122d6496c017baee91fa393cc",
+      "bytes": 526142
+    },
+    "images/download/attachments/131898519/краситьтокарка.gif": {
+      "sha256": "ba144d377755b47792a4ca94cb4aec21ca09689c788d5efaf64d3f20f136a5e3",
+      "bytes": 2631404
+    },
+    "images/download/attachments/131898519/анмарктокарка.gif": {
+      "sha256": "bf1e1d7022b5c2b5bb743dfd50fb9a77d395eff607b4443a1f475a38fab92a25",
+      "bytes": 2502889
+    },
+    "images/download/attachments/131898519/image2024-2-9_15-31-9.png": {
+      "sha256": "fe9327db1bd79f05fab32b6fc6295a2352b296adf986ff8c9a85a4f5a6f3de17",
+      "bytes": 16659
+    },
+    "images/download/attachments/131898519/image2024-2-9_15-32-6.png": {
+      "sha256": "e8b5d4c29583593559028eedeeb5241ea1a17c4d71416de2a2eed7fdb8d4deab",
+      "bytes": 16386
+    },
+    "images/download/attachments/131898519/image2024-4-17_14-12-34.png": {
+      "sha256": "2bc35bff8107a31f05d762b62c147787c96b7479b9f5cff7027dda720bedddeb",
+      "bytes": 33753
+    },
+    "images/download/attachments/131898519/точкатокарка.gif": {
+      "sha256": "f9749570d8dee1b020bfc5d721237df8fb66372971eed18e243a6b18ffd5efd9",
+      "bytes": 3302960
+    },
+    "images/download/attachments/131898568/Click_kinematic.PNG": {
+      "sha256": "181002605c075db8b63d0e7db7a63eb394d78e67c907f73429e2b0fa5ef6f5fa",
+      "bytes": 3951
+    },
+    "images/download/attachments/131898568/шаблонкастомтокарка.gif": {
+      "sha256": "6d92b83e6e371f4ac6819eb7313dbaa0d22ac23705ba9a777db4799e165621a4",
+      "bytes": 2376851
+    },
+    "images/download/attachments/131898568/кинематикатокарка.gif": {
+      "sha256": "48a3353e7c70327a02020ac3468e3f3ed5d4ae7b06be8c0447d2c88e17bfd4f3",
+      "bytes": 5482801
+    },
+    "images/download/attachments/131898568/image2024-4-24_11-14-42.png": {
+      "sha256": "57de7126c5240083861cf73fa32f2d5c02f2f561d368de325494b8d672e8f451",
+      "bytes": 93660
+    },
+    "images/download/attachments/131898650/image2024-4-24_13-26-44.png": {
+      "sha256": "f2097d831148d57237d38859440a99ddd3d63c71fe83f099cdaa834954a1b904",
+      "bytes": 100878
+    },
+    "images/download/attachments/131898650/image2024-4-24_13-46-24.png": {
+      "sha256": "e54f2609d288782503f2efd330942d8ca5d6bc4a492af4378cdd6eb631739440",
+      "bytes": 113107
+    },
+    "images/download/attachments/131898650/ChuckConnectorGifka.gif": {
+      "sha256": "ee7ba68511d8d0b3941cd5e053c62a198ca675e8c8b2ab022391cd8e329a1320",
+      "bytes": 5527333
+    },
+    "images/download/attachments/131898654/image2024-8-13_11-27-32.png": {
+      "sha256": "8824cdde6e1ac21006c41105eb4adc43cc8ce0363aa19fdbddbd160a35af127f",
+      "bytes": 90307
+    },
+    "images/download/attachments/131898654/image2024-4-24_15-13-2.png": {
+      "sha256": "0d7092744043cce2dcf3e519ad69575a6a210599da4e69f7549bb26a9959ff60",
+      "bytes": 89006
+    },
+    "images/download/attachments/131898654/image2024-4-24_15-17-41.png": {
+      "sha256": "0518d3a39be17a120f0f708aa302f7b86fd72b0a04f65632c077467f97a4b62b",
+      "bytes": 78997
+    },
+    "images/download/attachments/131898654/image2024-4-24_15-24-16.png": {
+      "sha256": "311d5eac86764767665c9cec5f45ad089445e635e0a08ad7aeef86c0e3606a59",
+      "bytes": 24017
+    },
+    "images/download/attachments/131898654/image2024-4-24_15-26-23.png": {
+      "sha256": "26cb3b3f5d6055e96d08084ec77d356ef4c49e79e569f09eef783e94c135ba4c",
+      "bytes": 63967
+    },
+    "images/download/attachments/131898654/image2024-4-24_15-34-18.png": {
+      "sha256": "2c936450daff2fc3b23904938e194b32c2643d26900db8fc89fd1d30389452dc",
+      "bytes": 105586
+    },
+    "images/download/attachments/131898654/image2024-4-24_15-40-3.png": {
+      "sha256": "e9a58d51ad8a60b76af80d354640955efaa354a68ec27e0a5c4c9bad64fb893f",
+      "bytes": 153898
+    },
+    "images/download/attachments/131898663/image2024-5-2_10-29-5.png": {
+      "sha256": "63d331499a1fe8b8552d51d0c51e684573ecca35e584aaa4122a7fb8744293f8",
+      "bytes": 180612
+    },
+    "images/download/attachments/131898663/CSTURRET.gif": {
+      "sha256": "cb9e93932f15b0d475bc0ca514c6ff8405b1623810283dd7f23826330b9c5bee",
+      "bytes": 5277460
+    },
+    "images/download/attachments/131898663/interturret.gif": {
+      "sha256": "b1812f9dba50637ecfcb88a9e1ac693580b2747ddce1244b0d789cccb3e48aa3",
+      "bytes": 3078124
+    },
+    "images/download/attachments/131898663/nakonectoturretheadkrug.gif": {
+      "sha256": "3552e2bf79846e0d969fcbd70895e0af1ed68324f25b7c59e3b9adb5060715e1",
+      "bytes": 422083
+    },
+    "images/download/attachments/131898663/applyturrethead.gif": {
+      "sha256": "c660044ee3adab7e210ccd088071eeab198d8d52a3b8fe2a25f5091f8ee32829",
+      "bytes": 2467314
+    },
+    "images/download/attachments/142647526/image2025-6-9_14-53-52.png": {
+      "sha256": "069838abd4d3187232a1adbac3bb2b82e8482636502a482d6ca5ae711a4e8e8c",
+      "bytes": 182906
+    },
+    "images/download/attachments/142647526/image2025-6-9_15-6-7.png": {
+      "sha256": "95662f9dfe2674eb3b977b55feca8d54be336d1d635c4fff99d71b77159a22b0",
+      "bytes": 325
+    },
+    "images/download/attachments/142647526/image2025-6-9_15-12-59.png": {
+      "sha256": "234a01b1f62dfaa5b953e8c0ee571a06186425f4e7921e91a78d5bcadff44f5a",
+      "bytes": 577
+    },
+    "images/download/attachments/142647526/2row.gif": {
+      "sha256": "3f00e280b7b7cae6adad1cf07d0765c04099345ca8fb5c1ddb2ee90a7ef73ac6",
+      "bytes": 2863532
+    },
+    "images/download/attachments/142647526/setsame.gif": {
+      "sha256": "009822f2005ef48408ad12c28046ab972b29e875ab640df333a11b51f11120ae",
+      "bytes": 647686
+    },
+    "images/download/attachments/131898674/image2024-5-13_9-56-56.png": {
+      "sha256": "3a0f220ed1a232e52fce66455d5af6b6cd0a13dbd78178676b7bf41ca7195aad",
+      "bytes": 126749
+    },
+    "images/download/attachments/131898674/Coloring_3.png": {
+      "sha256": "a31cf0dc1309badbbadb7d08bc772fda2607fc0d8e317fb0bc431fb019491fb8",
+      "bytes": 27146
+    },
+    "images/download/attachments/131898674/image2024-5-13_10-0-12.png": {
+      "sha256": "451a81c0b20998a41aa8c6baa0bb2907f82805540f98dd5c1c0fe2be74815a11",
+      "bytes": 226273
+    },
+    "images/download/attachments/131898694/Simulation.png": {
+      "sha256": "169674e697d0e1e947f300ae6b1beebbfee6bce1f97b4bcbec621d4a86d11fc0",
+      "bytes": 22119
+    },
+    "images/download/attachments/131898694/SimulationStanok.gif": {
+      "sha256": "3edf158d8ff12af8c5e03a6142a622caf2c42bd31872401cca1e7e7e6cb8c294",
+      "bytes": 3647126
+    },
+    "images/download/thumbnails/131898694/image2021-5-5_17-21-2.png": {
+      "sha256": "e99feedf4a3d658647f9663d059f14b2c559fa5af79b297e31a8cd76940825e9",
+      "bytes": 705
+    },
+    "images/download/attachments/131898709/image2024-2-1_12-24-32.png": {
+      "sha256": "5614a412f5adc0db7b35bc44888c673d1b78d0f89c8e5cc13793161f37889ff7",
+      "bytes": 89757
+    },
+    "images/download/attachments/131898709/image2024-2-1_12-27-55.png": {
+      "sha256": "dd1ef6a3bd94f6aca8c09a14ca99d39fb393da02d9b8c63d9f805e1ee9c05d57",
+      "bytes": 150848
+    },
+    "attachments/137005879/1/Machine_equipment_1.rar": {
+      "sha256": "6623c4390824f1a27e9db033b2bfbf11b7b5ea357a48ac20c92cdbfec1722bf7",
+      "bytes": 84551
+    },
+    "attachments/137005878/1/Machine_equipment_2.rar": {
+      "sha256": "e22c4bff05fa667dd3fafe31f4a009b46fa097141b82cf560de17d528d57b49c",
+      "bytes": 11589
+    },
+    "attachments/137005877/1/Milling_machine.rar": {
+      "sha256": "62966e00df7714a156619ba26452944ddc3a15a873abc15055159dcc1f6939b6",
+      "bytes": 22745
+    },
+    "images/download/attachments/131898709/image2024-8-13_11-42-28.png": {
+      "sha256": "18041d99304dc8c8a4bfc7c890e9481ff55e00260ede858920c164fc94b519d1",
+      "bytes": 23148
+    },
+    "images/download/attachments/131898709/image2024-2-1_12-18-28.png": {
+      "sha256": "072e53d6f9c3577e4f2fcc615429acda7d465bad72d1f1238e8dd10f56beb2b1",
+      "bytes": 170491
+    },
+    "images/download/attachments/131898709/image2024-2-1_12-38-12.png": {
+      "sha256": "12b789344221c1022b889b92782d0381d56c9301648f344629bd15deae9e38bf",
+      "bytes": 162645
+    },
+    "images/download/attachments/131898709/Machine_equipment1.gif": {
+      "sha256": "45b3b8a8f353352c495c0f34c9a60298bb5ce8ea5c81ab8783ba6eec4c956e27",
+      "bytes": 2329932
+    },
+    "images/download/attachments/131898709/Machine_equipment2.gif": {
+      "sha256": "a6a446f0f465663ae00dda9ad87e46f19905bf12d9d5e3e7c810340e1ca24a8c",
+      "bytes": 1280093
+    },
+    "images/download/attachments/131898709/Machine_equipment3.gif": {
+      "sha256": "e264d593696d84400e4d09297798eff0f8adc2d4d157d05b08be2f9d5018a635",
+      "bytes": 628504
+    },
+    "images/download/attachments/131898709/image2024-8-13_11-43-39.png": {
+      "sha256": "2064af84464a6f7c7b33468699217adf15298f06762af355135ca6007aae298e",
+      "bytes": 191776
+    },
+    "images/download/attachments/131898709/image2024-2-1_12-55-22.png": {
+      "sha256": "9a86367232d0321116ebde47fa3e5f9064d4e69000dd8319321d16ebacb57fdc",
+      "bytes": 139556
+    },
+    "images/download/attachments/131898709/Machine_equipment4.gif": {
+      "sha256": "d8d1e400952638b191f778a11c47effdec308aea4664a737ce33949f7a9cb305",
+      "bytes": 936114
+    },
+    "images/download/attachments/131898709/image2024-2-1_13-1-40.png": {
+      "sha256": "af0b92febe9a0390ec2aee8426fd71fd2bddf409530dc85464b1f0c16b6c4dc6",
+      "bytes": 102724
+    },
+    "images/download/attachments/131898709/MachineEquipment5.gif": {
+      "sha256": "03d45f98f46fdc9738ac828706e113e3c4b5e01903fbda86609cbcdf8e523aea",
+      "bytes": 1118871
+    },
+    "images/download/attachments/131898709/image2024-8-13_12-11-28.png": {
+      "sha256": "cf487f84d6b051e88cdba28fc7ea381d495849e52d5fea8b25caa88adf92f78f",
+      "bytes": 191897
+    },
+    "images/download/attachments/142647539/image2025-5-23_14-58-18.png": {
+      "sha256": "77b0e8e0b1eaf7d7b3de475aea6314308feae8b53996c5001d9d9a2ea369f7d7",
+      "bytes": 10969
+    },
+    "images/download/attachments/142647539/image2025-5-23_15-6-50.png": {
+      "sha256": "440c5e25e26df14992ac84f312eff112035b0dbf86736f166d3b02b952a8428a",
+      "bytes": 145708
+    },
+    "images/download/attachments/142647539/settingsto4kiformultitoolhead.gif": {
+      "sha256": "eb0d747f25ef9866a3fc99e27fd1d39b432b8b8c3cbb2e8b14a2570e2cd05140",
+      "bytes": 3353747
+    },
+    "images/download/attachments/142647539/image2025-5-23_15-32-16.png": {
+      "sha256": "d985337691b622ffdb41d20aab127d7c98e86dbca061af0a05e9fa89ecbcc2df",
+      "bytes": 18168
+    },
+    "images/download/attachments/142647539/image2025-5-23_15-38-9.png": {
+      "sha256": "c83e22fc1e370391921afd90bd4957071ddb754fa4bd4b65568347d0562181ec",
+      "bytes": 122731
+    },
+    "images/download/attachments/142647539/image2025-5-23_15-44-7.png": {
+      "sha256": "56e1e4f05e7a49746ef1da3a2facffd1155852f6cd6733e2c3db1d51bb5389ea",
+      "bytes": 120665
+    },
+    "images/download/attachments/142647539/ExportMultiToolHead.gif": {
+      "sha256": "d262aadf2a51f8f3938b186ec157c5d0de812caace88110c6153e8a969324a84",
+      "bytes": 2493849
+    },
+    "attachments/142643775/1/Samsung_PL-20MC.zip": {
+      "sha256": "cf9ed9ddf896fdfa801f3dc35f7b3cb5fae2cad9b9256b9ecf5027dcbb3edc82",
+      "bytes": 1990565
+    },
+    "images/download/attachments/131898738/image2024-5-13_13-28-53.png": {
+      "sha256": "5d7c14958b1801eb1a54a399adfe3b9a50054a177f5dda7ce1e8e5458ed8c66b",
+      "bytes": 213093
+    },
+    "attachments/142643783/1/Lathe_milling_machine.zip": {
+      "sha256": "b093694fe92d731f2c614aa2839d473083b405d930ad1e7c5c5e7a436c684bf8",
+      "bytes": 744989
+    },
+    "images/download/attachments/142643779/image2025-5-7_13-39-19.png": {
+      "sha256": "afd153bf91acc420bffc9b99c65ddc39c25e4ec299d17da7cbaef6b11865759c",
+      "bytes": 140054
+    },
+    "images/download/attachments/131898742/image2024-8-16_16-42-28.png": {
+      "sha256": "edbb6da52af6fc734cd4aad704d1049b2bedcfc0855647e7c5a48370b572cdcf",
+      "bytes": 12717
+    },
+    "images/download/attachments/131898742/image2024-2-27_11-51-58.png": {
+      "sha256": "a2a7e9026431873b035a6040a0cc803f94d5923609c5b499d5a40349001fad0c",
+      "bytes": 21977
+    },
+    "images/download/attachments/131898742/rotate.gif": {
+      "sha256": "1e8465b39943a07db8658a084152072de2d0d44e24dda8b0e86baed499b6a5bc",
+      "bytes": 1730260
+    },
+    "images/download/attachments/131898742/image2024-2-27_12-42-2.png": {
+      "sha256": "21cc0ad3ec89d227d0b3bb53443d5ed819b462703d1a67c38727ef302a918543",
+      "bytes": 288842
+    },
+    "images/download/attachments/131898742/red.gif": {
+      "sha256": "9dbb114ec8d091f42f571a7761a6df08fd749ebb1ceddf36fd840dca47dc1177",
+      "bytes": 517468
+    },
+    "images/download/attachments/131898742/parts.gif": {
+      "sha256": "b16fb34cc4d5f9a2fffe87f238b35a524208a63d7f6dc5b710b9298bdd707a1e",
+      "bytes": 1289967
+    },
+    "images/download/attachments/131898742/delete231f.gif": {
+      "sha256": "991881e93dd79b446bb4fbe6ec327f2f65791446fd271266689eb14ddbdb62f2",
+      "bytes": 5681186
+    }
+  },
+  "errors": [],
+  "build_warnings": 0,
+  "build_errors": 0
+}

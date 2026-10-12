@@ -1,0 +1,31 @@
+{
+  "metadata": [],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "src/**/*.{md,yml}",
+          "src/toc.yml"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "src/assets/**"
+        ]
+      }
+    ],
+    "globalMetadata": {
+      "_appTitle": "MachineMaker — Robots",
+      "_appFooter": "MachineMaker — Robots",
+      "_lang": "en"
+    },
+    "dest": "_pdf",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "markdownEngineName": "markdig"
+  }
+}

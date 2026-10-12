@@ -1,0 +1,240 @@
+{
+  "language": "en",
+  "pages": {
+    "129926398": {
+      "id": "129926398",
+      "target": "src/content/129926398.md",
+      "title": "3D navigation"
+    },
+    "129930542": {
+      "id": "129930542",
+      "target": "src/content/129930542.md",
+      "title": "Adding a mechanism"
+    },
+    "129936331": {
+      "id": "129936331",
+      "target": "src/content/129936331.md",
+      "title": "Additional options"
+    },
+    "129930500": {
+      "id": "129930500",
+      "target": "src/content/129930500.md",
+      "title": "Application Settings"
+    },
+    "129931045": {
+      "id": "129931045",
+      "target": "src/content/129931045.md",
+      "title": "Assemblies"
+    },
+    "129935832": {
+      "id": "129935832",
+      "target": "src/content/129935832.md",
+      "title": "Assembly options"
+    },
+    "131904463": {
+      "id": "131904463",
+      "target": "src/content/131904463.md",
+      "title": "Assembly Simulation and Validation"
+    },
+    "131903495": {
+      "id": "131903495",
+      "target": "src/content/131903495.md",
+      "title": "Building a kinematic scheme"
+    },
+    "131903666": {
+      "id": "131903666",
+      "target": "src/content/131903666.md",
+      "title": "Cobot"
+    },
+    "129933035": {
+      "id": "129933035",
+      "target": "src/content/129933035.md",
+      "title": "Cobot"
+    },
+    "129936493": {
+      "id": "129936493",
+      "target": "src/content/129936493.md",
+      "title": "Collision"
+    },
+    "131903745": {
+      "id": "131903745",
+      "target": "src/content/131903745.md",
+      "title": "Coloring"
+    },
+    "157870578": {
+      "id": "157870578",
+      "target": "src/content/157870578.md",
+      "title": "Column-type robot"
+    },
+    "129935339": {
+      "id": "129935339",
+      "target": "src/content/129935339.md",
+      "title": "Composite End Effector"
+    },
+    "131903701": {
+      "id": "131903701",
+      "target": "src/content/131903701.md",
+      "title": "Composite End effectors"
+    },
+    "129937016": {
+      "id": "129937016",
+      "target": "src/content/129937016.md",
+      "title": "Composite EndEffector: Spot Welding"
+    },
+    "129930512": {
+      "id": "129930512",
+      "target": "src/content/129930512.md",
+      "title": "Creating a project"
+    },
+    "129930953": {
+      "id": "129930953",
+      "target": "src/content/129930953.md",
+      "title": "End effectors and TCP calibration"
+    },
+    "129936988": {
+      "id": "129936988",
+      "target": "src/content/129936988.md",
+      "title": "End Effectors"
+    },
+    "131904826": {
+      "id": "131904826",
+      "target": "src/content/131904826.md",
+      "title": "Examples: Robot cell"
+    },
+    "129937003": {
+      "id": "129937003",
+      "target": "src/content/129937003.md",
+      "title": "External Tools"
+    },
+    "129930802": {
+      "id": "129930802",
+      "target": "src/content/129930802.md",
+      "title": "Flexible Heavy-Duty Robot"
+    },
+    "129933030": {
+      "id": "129933030",
+      "target": "src/content/129933030.md",
+      "title": "Flexible Heavy-Duty Robot"
+    },
+    "129930510": {
+      "id": "129930510",
+      "target": "src/content/129930510.md",
+      "title": "Getting Started"
+    },
+    "131903382": {
+      "id": "131903382",
+      "target": "src/content/131903382.md",
+      "title": "Grouping elements"
+    },
+    "129937042": {
+      "id": "129937042",
+      "target": "src/content/129937042.md",
+      "title": "H-bot (Portal)"
+    },
+    "129932169": {
+      "id": "129932169",
+      "target": "src/content/129932169.md",
+      "title": "Heavy-Duty robot"
+    },
+    "131903674": {
+      "id": "131903674",
+      "target": "src/content/131903674.md",
+      "title": "Heavy-Duty Robots"
+    },
+    "129926358": {
+      "id": "129926358",
+      "target": "src/index.md",
+      "title": "MachineMaker — Robots"
+    },
+    "131903654": {
+      "id": "131903654",
+      "target": "src/content/131903654.md",
+      "title": "Industrial Robots"
+    },
+    "129940510": {
+      "id": "129940510",
+      "target": "src/content/129940510.md",
+      "title": "Interface"
+    },
+    "129926359": {
+      "id": "129926359",
+      "target": "src/content/129926359.md",
+      "title": "Introduction to MachineMaker"
+    },
+    "129936705": {
+      "id": "129936705",
+      "target": "src/content/129936705.md",
+      "title": "Links/Leads"
+    },
+    "129926379": {
+      "id": "129926379",
+      "target": "src/content/129926379.md",
+      "title": "Main window"
+    },
+    "131903767": {
+      "id": "131903767",
+      "target": "src/content/131903767.md",
+      "title": "Mechanism Simulation and Validation"
+    },
+    "129932035": {
+      "id": "129932035",
+      "target": "src/content/129932035.md",
+      "title": "Mechanisms Library"
+    },
+    "129930751": {
+      "id": "129930751",
+      "target": "src/content/129930751.md",
+      "title": "Prepare and import 3D objects"
+    },
+    "129937034": {
+      "id": "129937034",
+      "target": "src/content/129937034.md",
+      "title": "Rail"
+    },
+    "131903688": {
+      "id": "131903688",
+      "target": "src/content/131903688.md",
+      "title": "Rails and Portals"
+    },
+    "129933049": {
+      "id": "129933049",
+      "target": "src/content/129933049.md",
+      "title": "Receiving assemblies from CAM system"
+    },
+    "137005116": {
+      "id": "137005116",
+      "target": "src/content/137005116.md",
+      "title": "SCARA Robot"
+    },
+    "129932078": {
+      "id": "129932078",
+      "target": "src/content/129932078.md",
+      "title": "Simple robot"
+    },
+    "129934066": {
+      "id": "129934066",
+      "target": "src/content/129934066.md",
+      "title": "Simplifier"
+    },
+    "129931151": {
+      "id": "129931151",
+      "target": "src/content/129931151.md",
+      "title": "Table calibration"
+    },
+    "129930810": {
+      "id": "129930810",
+      "target": "src/content/129930810.md",
+      "title": "Tables and Positioners"
+    },
+    "129937026": {
+      "id": "129937026",
+      "target": "src/content/129937026.md",
+      "title": "Tables and User CS"
+    },
+    "129930436": {
+      "id": "129930436",
+      "target": "src/content/129930436.md",
+      "title": "Toolbar"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+﻿- name: "MachineMaker — Machines"
+  href: index.md
+- name: "Introduction to MachineMaker"
+  href: introduction-to-machinemaker.md
+- name: "Interface"
+  href: interface.md
+  items:
+    - name: "Main window"
+      href: main-window.md
+    - name: "3D navigation"
+      href: 3d-navigation.md
+    - name: "Toolbar"
+      href: toolbar.md
+    - name: "Application Settings"
+      href: application-settings.md
+- name: "Getting Started"
+  href: getting-started.md
+  items:
+    - name: "Creating a project"
+      href: creating-a-project.md
+    - name: "Adding a mechanism"
+      href: adding-a-mechanism.md
+    - name: "Prepare and import 3D objects"
+      href: prepare-and-import-3d-objects.md
+    - name: "Grouping elements into nodes"
+      href: grouping-elements-into-nodes.md
+    - name: "Building a kinematic scheme"
+      href: building-a-kinematic-scheme.md
+      items:
+        - name: "Chuck connector"
+          href: chuck-connector.md
+        - name: "Tool block"
+          href: tool-block.md
+    - name: "Assemblies"
+      href: assemblies.md
+      items:
+        - name: "Assembly options"
+          href: assembly-options.md
+        - name: "Additional options"
+          href: additional-options.md
+    - name: "Coloring"
+      href: coloring.md
+    - name: "Mechanism Simulation and Validation"
+      href: mechanism-simulation-and-validation.md
+    - name: "Machine equipment configuration"
+      href: machine-equipment-configuration.md
+    - name: "Multi Tool Head"
+      href: multi-tool-head.md
+- name: "Examples: Machines"
+  href: examples-machines.md
+  items:
+    - name: "3-Axes Milling Machine"
+      href: 3-axes-milling-machine.md
+    - name: "5-Axes Milling Machine"
+      href: 5-axes-milling-machine.md
+    - name: "Trevisan Machine"
+      href: trevisan-machine.md
+    - name: "Swiss type machine"
+      href: swiss-type-machine.md
+- name: "Examples: Lathe milling machine"
+  href: examples-lathe-milling-machine.md
+  items:
+    - name: "Lathe milling machine"
+      href: lathe-milling-machine.md
+    - name: "Lathe milling machine with a dual-row turret"
+      href: lathe-milling-machine-with-a-dual-row-turret.md
+- name: "Simplifier"
+  href: simplifier.md

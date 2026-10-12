@@ -1,0 +1,114 @@
+{
+  "checked_at": "2026-10-12T07:01:46.029553+00:00",
+  "checks": [
+    {
+      "page": "milling/en/src/toolbar.html",
+      "width": 1440,
+      "title": "Toolbar | MachineMaker — Milling Machines",
+      "broken": [],
+      "overflow": false,
+      "obsoleteLinks": []
+    },
+    {
+      "page": "milling/en/src/assemblies.html",
+      "width": 1440,
+      "title": "Assemblies | MachineMaker — Milling Machines",
+      "broken": [],
+      "overflow": false,
+      "obsoleteLinks": []
+    },
+    {
+      "page": "milling/en/src/grouping-elements-into-nodes.html",
+      "width": 1440,
+      "title": "Grouping elements into nodes | MachineMaker — Milling Machines",
+      "broken": [],
+      "overflow": false,
+      "obsoleteLinks": []
+    },
+    {
+      "page": "robots/en/src/content/129930510.html",
+      "width": 1440,
+      "title": "Getting Started | MachineMaker — Robots",
+      "broken": [],
+      "overflow": false,
+      "obsoleteLinks": []
+    },
+    {
+      "page": "milling/en/src/assembly-options.html",
+      "width": 1440,
+      "title": "Assembly options | MachineMaker — Milling Machines",
+      "broken": [],
+      "overflow": false,
+      "obsoleteLinks": []
+    },
+    {
+      "page": "milling/en/src/building-a-kinematic-scheme.html",
+      "width": 1440,
+      "title": "Building a kinematic scheme | MachineMaker — Milling Machines",
+      "broken": [],
+      "overflow": false,
+      "obsoleteLinks": []
+    },
+    {
+      "page": "milling/en/src/toolbar.html",
+      "width": 390,
+      "title": "Toolbar | MachineMaker — Milling Machines",
+      "broken": [],
+      "overflow": false,
+      "obsoleteLinks": []
+    },
+    {
+      "page": "milling/en/src/assemblies.html",
+      "width": 390,
+      "title": "Assemblies | MachineMaker — Milling Machines",
+      "broken": [],
+      "overflow": false,
+      "obsoleteLinks": []
+    },
+    {
+      "page": "milling/en/src/grouping-elements-into-nodes.html",
+      "width": 390,
+      "title": "Grouping elements into nodes | MachineMaker — Milling Machines",
+      "broken": [],
+      "overflow": false,
+      "obsoleteLinks": []
+    },
+    {
+      "page": "robots/en/src/content/129930510.html",
+      "width": 390,
+      "title": "Getting Started | MachineMaker — Robots",
+      "broken": [],
+      "overflow": false,
+      "obsoleteLinks": []
+    },
+    {
+      "page": "milling/en/src/assembly-options.html",
+      "width": 390,
+      "title": "Assembly options | MachineMaker — Milling Machines",
+      "broken": [],
+      "overflow": false,
+      "obsoleteLinks": []
+    },
+    {
+      "page": "milling/en/src/building-a-kinematic-scheme.html",
+      "width": 390,
+      "title": "Building a kinematic scheme | MachineMaker — Milling Machines",
+      "broken": [],
+      "overflow": false,
+      "obsoleteLinks": []
+    }
+  ],
+  "errors": [],
+  "http_failures": [],
+  "replacement_links_clicked": [
+    "milling/en/src/assembly-options.html",
+    "milling/en/src/building-a-kinematic-scheme.html"
+  ],
+  "search_interfaces_checked": [
+    "milling-en",
+    "robots-en",
+    "shared"
+  ],
+  "legacy_examples_unchanged": true,
+  "kuka_paragraph_unchanged": true
+}

@@ -1,0 +1,6 @@
+**/obj/
+**/out/
+**/__pycache__/
+*.pyc
+/generated/
+MachineMaker-six-manuals-*.zip

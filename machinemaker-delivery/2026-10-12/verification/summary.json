@@ -1,0 +1,88 @@
+{
+  "assembled_at": "2026-10-12T07:11:01.664035+00:00",
+  "guide_count": 6,
+  "page_count": 208,
+  "guides": [
+    {
+      "key": "milling-en",
+      "label": "Фрезерные станки — EN",
+      "entry": "milling/en/src/index.html",
+      "pages": 31,
+      "source_ref": "EncySoftware/public-docs v3/features/machinemaker-manuals",
+      "source_sha": "673aee9b82d91c283e3d3c7b34390548b317c7af"
+    },
+    {
+      "key": "milling-ru",
+      "label": "Фрезерные станки — RU",
+      "entry": "milling/ru/src/index.html",
+      "pages": 33,
+      "source_ref": "spruttechnology/public-docs v20/features/machinemaker-publication",
+      "source_sha": "c193b5a8f3c0f7b0e623895724c3168a00177cbd"
+    },
+    {
+      "key": "robots-en",
+      "label": "Роботы — EN",
+      "entry": "robots/en/src/index.html",
+      "pages": 47,
+      "source_ref": "docs-work MachineMaker/Robots/en/v3",
+      "source_sha": "76e60785c902c4cc11b3f7b0d3878ae7d1d2ed5b"
+    },
+    {
+      "key": "robots-ru",
+      "label": "Роботы — RU",
+      "entry": "robots/ru/src/index.html",
+      "pages": 47,
+      "source_ref": "docs-work MachineMaker/Robots/ru/v20",
+      "source_sha": "28e11d7f52578fc6e09006bf31a2f63319f9e810"
+    },
+    {
+      "key": "turnmill-en",
+      "label": "Токарно-фрезерные станки — EN",
+      "entry": "turnmill/en/1.html",
+      "pages": 25,
+      "source_ref": "https://docs.encycam.com/MachineMaker/1/turnmill/en/1.html",
+      "source_sha": null
+    },
+    {
+      "key": "turnmill-ru",
+      "label": "Токарно-фрезерные станки — RU",
+      "entry": "turnmill/ru/src/index.html",
+      "pages": 25,
+      "source_ref": "docs-work MachineMaker/Machines/ru/v20",
+      "source_sha": "8962c6af3afd229b2f69b9c5502fa01982975c70"
+    }
+  ],
+  "html_files": 1181,
+  "html_bytes": 1109327513,
+  "browser_page_checks": 416,
+  "internal_errors": [],
+  "browser_errors": [],
+  "http_resource_failures": [],
+  "localized_resource_count": 140,
+  "external_http_issues": [],
+  "video_metadata_issues": [],
+  "local_collection_ready": true,
+  "remote_publication_performed": false,
+  "publication_owner": "Administrator, after the user's handoff and content review",
+  "content_revision": "2026-10-12T06:39:10.285611+00:00",
+  "user_decisions": {
+    "legacy_kb_links": "Replace with corresponding internal chapters where available; otherwise remove the obsolete referral",
+    "restricted_video": "Remove the Custom Imported Robot Cell link and its list entry",
+    "legacy_v16_examples": "Compatibility confirmed by the user; retain the archives and links unchanged",
+    "kuka_download_center": "Retain the link and instructional text unchanged, as requested by the user",
+    "turnmill_en_docfx": "Convert the recovered English book to the shared DocFX template, preserve the 25 remaining article URLs and content, exclude Trevisan"
+  },
+  "revision_browser_page_checks": 12,
+  "turnmill_en_docfx_conversion": {
+    "pages": 25,
+    "removed_chapters": [
+      {
+        "file": "73.html",
+        "title": "Trevisan Machine",
+        "sha256": "1a89c1aff39f1c26671dd237b5b520df8712d9d81b0e37d7b0fa7d1e19bbbf80"
+      }
+    ],
+    "errors": 0,
+    "warnings": 0
+  }
+}

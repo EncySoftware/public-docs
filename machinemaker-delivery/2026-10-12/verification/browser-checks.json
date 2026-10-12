@@ -1,0 +1,2967 @@
+{
+  "guides": {
+    "milling-en": {
+      "checks": [
+        {
+          "title": "3-Axes Milling Machine | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/3-axes-milling-machine.html",
+          "width": 1440
+        },
+        {
+          "title": "3D navigation | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/3d-navigation.html",
+          "width": 1440
+        },
+        {
+          "title": "5-Axes Milling Machine | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/5-axes-milling-machine.html",
+          "width": 1440
+        },
+        {
+          "title": "Adding a mechanism | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/adding-a-mechanism.html",
+          "width": 1440
+        },
+        {
+          "title": "Additional options | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/additional-options.html",
+          "width": 1440
+        },
+        {
+          "title": "Application Settings | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/application-settings.html",
+          "width": 1440
+        },
+        {
+          "title": "Assemblies | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/assemblies.html",
+          "width": 1440
+        },
+        {
+          "title": "Assembly options | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/assembly-options.html",
+          "width": 1440
+        },
+        {
+          "title": "Building a kinematic scheme | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/building-a-kinematic-scheme.html",
+          "width": 1440
+        },
+        {
+          "title": "Chuck connector | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/chuck-connector.html",
+          "width": 1440
+        },
+        {
+          "title": "Coloring | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/coloring.html",
+          "width": 1440
+        },
+        {
+          "title": "Creating a project | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/creating-a-project.html",
+          "width": 1440
+        },
+        {
+          "title": "Examples: Lathe milling machine | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/examples-lathe-milling-machine.html",
+          "width": 1440
+        },
+        {
+          "title": "Examples: Machines | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/examples-machines.html",
+          "width": 1440
+        },
+        {
+          "title": "Getting Started | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/getting-started.html",
+          "width": 1440
+        },
+        {
+          "title": "Grouping elements into nodes | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/grouping-elements-into-nodes.html",
+          "width": 1440
+        },
+        {
+          "title": "MachineMaker — Machines | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/index.html",
+          "width": 1440
+        },
+        {
+          "title": "Interface | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/interface.html",
+          "width": 1440
+        },
+        {
+          "title": "Introduction to MachineMaker | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/introduction-to-machinemaker.html",
+          "width": 1440
+        },
+        {
+          "title": "Lathe milling machine with a dual-row turret | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/lathe-milling-machine-with-a-dual-row-turret.html",
+          "width": 1440
+        },
+        {
+          "title": "Lathe milling machine | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/lathe-milling-machine.html",
+          "width": 1440
+        },
+        {
+          "title": "Machine equipment configuration | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/machine-equipment-configuration.html",
+          "width": 1440
+        },
+        {
+          "title": "Main window | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/main-window.html",
+          "width": 1440
+        },
+        {
+          "title": "Mechanism Simulation and Validation | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/mechanism-simulation-and-validation.html",
+          "width": 1440
+        },
+        {
+          "title": "Multi Tool Head | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/multi-tool-head.html",
+          "width": 1440
+        },
+        {
+          "title": "Supported 3D model formats | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/prepare-and-import-3d-objects.html",
+          "width": 1440
+        },
+        {
+          "title": "Simplifier | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/simplifier.html",
+          "width": 1440
+        },
+        {
+          "title": "Swiss type machine | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/swiss-type-machine.html",
+          "width": 1440
+        },
+        {
+          "title": "Tool block | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/tool-block.html",
+          "width": 1440
+        },
+        {
+          "title": "Toolbar | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/toolbar.html",
+          "width": 1440
+        },
+        {
+          "title": "Trevisan Machine | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/trevisan-machine.html",
+          "width": 1440
+        },
+        {
+          "title": "3-Axes Milling Machine | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/3-axes-milling-machine.html",
+          "width": 390
+        },
+        {
+          "title": "3D navigation | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/3d-navigation.html",
+          "width": 390
+        },
+        {
+          "title": "5-Axes Milling Machine | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/5-axes-milling-machine.html",
+          "width": 390
+        },
+        {
+          "title": "Adding a mechanism | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/adding-a-mechanism.html",
+          "width": 390
+        },
+        {
+          "title": "Additional options | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/additional-options.html",
+          "width": 390
+        },
+        {
+          "title": "Application Settings | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/application-settings.html",
+          "width": 390
+        },
+        {
+          "title": "Assemblies | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/assemblies.html",
+          "width": 390
+        },
+        {
+          "title": "Assembly options | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/assembly-options.html",
+          "width": 390
+        },
+        {
+          "title": "Building a kinematic scheme | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/building-a-kinematic-scheme.html",
+          "width": 390
+        },
+        {
+          "title": "Chuck connector | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/chuck-connector.html",
+          "width": 390
+        },
+        {
+          "title": "Coloring | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/coloring.html",
+          "width": 390
+        },
+        {
+          "title": "Creating a project | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/creating-a-project.html",
+          "width": 390
+        },
+        {
+          "title": "Examples: Lathe milling machine | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/examples-lathe-milling-machine.html",
+          "width": 390
+        },
+        {
+          "title": "Examples: Machines | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/examples-machines.html",
+          "width": 390
+        },
+        {
+          "title": "Getting Started | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/getting-started.html",
+          "width": 390
+        },
+        {
+          "title": "Grouping elements into nodes | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/grouping-elements-into-nodes.html",
+          "width": 390
+        },
+        {
+          "title": "MachineMaker — Machines | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/index.html",
+          "width": 390
+        },
+        {
+          "title": "Interface | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/interface.html",
+          "width": 390
+        },
+        {
+          "title": "Introduction to MachineMaker | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/introduction-to-machinemaker.html",
+          "width": 390
+        },
+        {
+          "title": "Lathe milling machine with a dual-row turret | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/lathe-milling-machine-with-a-dual-row-turret.html",
+          "width": 390
+        },
+        {
+          "title": "Lathe milling machine | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/lathe-milling-machine.html",
+          "width": 390
+        },
+        {
+          "title": "Machine equipment configuration | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/machine-equipment-configuration.html",
+          "width": 390
+        },
+        {
+          "title": "Main window | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/main-window.html",
+          "width": 390
+        },
+        {
+          "title": "Mechanism Simulation and Validation | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/mechanism-simulation-and-validation.html",
+          "width": 390
+        },
+        {
+          "title": "Multi Tool Head | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/multi-tool-head.html",
+          "width": 390
+        },
+        {
+          "title": "Supported 3D model formats | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/prepare-and-import-3d-objects.html",
+          "width": 390
+        },
+        {
+          "title": "Simplifier | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/simplifier.html",
+          "width": 390
+        },
+        {
+          "title": "Swiss type machine | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/swiss-type-machine.html",
+          "width": 390
+        },
+        {
+          "title": "Tool block | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/tool-block.html",
+          "width": 390
+        },
+        {
+          "title": "Toolbar | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/toolbar.html",
+          "width": 390
+        },
+        {
+          "title": "Trevisan Machine | MachineMaker — Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "src/trevisan-machine.html",
+          "width": 390
+        }
+      ],
+      "search_term": "Swiss",
+      "search_results": 4
+    },
+    "milling-ru": {
+      "checks": [
+        {
+          "title": "3-х осевой станок | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/3-axes-milling-machine.html",
+          "width": 1440
+        },
+        {
+          "title": "3D-навигация | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/3d-navigation.html",
+          "width": 1440
+        },
+        {
+          "title": "5-осевой станок | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/5-axes-milling-machine.html",
+          "width": 1440
+        },
+        {
+          "title": "Добавление механизма | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/adding-a-mechanism.html",
+          "width": 1440
+        },
+        {
+          "title": "Дополнительные параметры | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/additional-options.html",
+          "width": 1440
+        },
+        {
+          "title": "Настройки приложения | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/application-settings.html",
+          "width": 1440
+        },
+        {
+          "title": "Сборки | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/assemblies.html",
+          "width": 1440
+        },
+        {
+          "title": "Настройки | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/assembly-options.html",
+          "width": 1440
+        },
+        {
+          "title": "Построение кинематической схемы | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/building-a-kinematic-scheme.html",
+          "width": 1440
+        },
+        {
+          "title": "Шпиндель | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/chuck-connector.html",
+          "width": 1440
+        },
+        {
+          "title": "Окрашивание механизмов | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/coloring.html",
+          "width": 1440
+        },
+        {
+          "title": "Создание проекта | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/creating-a-project.html",
+          "width": 1440
+        },
+        {
+          "title": "Двухрядный револьверный головной узел | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/dual-row-turret.html",
+          "width": 1440
+        },
+        {
+          "title": "Сборка токарно-фрезерного станка | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/examples-lathe-milling-machine.html",
+          "width": 1440
+        },
+        {
+          "title": "Сборки станков | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/examples-machines.html",
+          "width": 1440
+        },
+        {
+          "title": "Приступаем к работе | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/getting-started.html",
+          "width": 1440
+        },
+        {
+          "title": "Группировка элементов в узлы | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/grouping-elements-into-nodes.html",
+          "width": 1440
+        },
+        {
+          "title": "MachineMaker — Станки | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/index.html",
+          "width": 1440
+        },
+        {
+          "title": "Интерфейс | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/interface.html",
+          "width": 1440
+        },
+        {
+          "title": "Вводная часть MachineMaker | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/introduction-to-machinemaker.html",
+          "width": 1440
+        },
+        {
+          "title": "Токарно-фрезерный станок с двухрядным револьвером | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/lathe-milling-machine-with-a-dual-row-turret.html",
+          "width": 1440
+        },
+        {
+          "title": "Токарно-фрезерный станок | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/lathe-milling-machine.html",
+          "width": 1440
+        },
+        {
+          "title": "Машинное оборудование | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/machine-equipment-configuration.html",
+          "width": 1440
+        },
+        {
+          "title": "Главное окно | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/main-window.html",
+          "width": 1440
+        },
+        {
+          "title": "Моделирование механизмов | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/mechanism-simulation-and-validation.html",
+          "width": 1440
+        },
+        {
+          "title": "Многофункциональная головка | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/multi-tool-head.html",
+          "width": 1440
+        },
+        {
+          "title": "Подготовка и импорт 3D-объектов | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/prepare-and-import-3d-objects.html",
+          "width": 1440
+        },
+        {
+          "title": "Упрощатель | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/simplifier.html",
+          "width": 1440
+        },
+        {
+          "title": "Станок Swiss type | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/swiss-type-machine.html",
+          "width": 1440
+        },
+        {
+          "title": "Инструментальный блок | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/tool-block.html",
+          "width": 1440
+        },
+        {
+          "title": "Панель инструментов | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/toolbar.html",
+          "width": 1440
+        },
+        {
+          "title": "Trevisan станок | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/trevisan-machine.html",
+          "width": 1440
+        },
+        {
+          "title": "Револьверный головной узел | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/turret.html",
+          "width": 1440
+        },
+        {
+          "title": "3-х осевой станок | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/3-axes-milling-machine.html",
+          "width": 390
+        },
+        {
+          "title": "3D-навигация | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/3d-navigation.html",
+          "width": 390
+        },
+        {
+          "title": "5-осевой станок | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/5-axes-milling-machine.html",
+          "width": 390
+        },
+        {
+          "title": "Добавление механизма | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/adding-a-mechanism.html",
+          "width": 390
+        },
+        {
+          "title": "Дополнительные параметры | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/additional-options.html",
+          "width": 390
+        },
+        {
+          "title": "Настройки приложения | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/application-settings.html",
+          "width": 390
+        },
+        {
+          "title": "Сборки | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/assemblies.html",
+          "width": 390
+        },
+        {
+          "title": "Настройки | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/assembly-options.html",
+          "width": 390
+        },
+        {
+          "title": "Построение кинематической схемы | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/building-a-kinematic-scheme.html",
+          "width": 390
+        },
+        {
+          "title": "Шпиндель | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/chuck-connector.html",
+          "width": 390
+        },
+        {
+          "title": "Окрашивание механизмов | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/coloring.html",
+          "width": 390
+        },
+        {
+          "title": "Создание проекта | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/creating-a-project.html",
+          "width": 390
+        },
+        {
+          "title": "Двухрядный револьверный головной узел | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/dual-row-turret.html",
+          "width": 390
+        },
+        {
+          "title": "Сборка токарно-фрезерного станка | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/examples-lathe-milling-machine.html",
+          "width": 390
+        },
+        {
+          "title": "Сборки станков | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/examples-machines.html",
+          "width": 390
+        },
+        {
+          "title": "Приступаем к работе | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/getting-started.html",
+          "width": 390
+        },
+        {
+          "title": "Группировка элементов в узлы | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/grouping-elements-into-nodes.html",
+          "width": 390
+        },
+        {
+          "title": "MachineMaker — Станки | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/index.html",
+          "width": 390
+        },
+        {
+          "title": "Интерфейс | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/interface.html",
+          "width": 390
+        },
+        {
+          "title": "Вводная часть MachineMaker | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/introduction-to-machinemaker.html",
+          "width": 390
+        },
+        {
+          "title": "Токарно-фрезерный станок с двухрядным револьвером | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/lathe-milling-machine-with-a-dual-row-turret.html",
+          "width": 390
+        },
+        {
+          "title": "Токарно-фрезерный станок | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/lathe-milling-machine.html",
+          "width": 390
+        },
+        {
+          "title": "Машинное оборудование | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/machine-equipment-configuration.html",
+          "width": 390
+        },
+        {
+          "title": "Главное окно | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/main-window.html",
+          "width": 390
+        },
+        {
+          "title": "Моделирование механизмов | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/mechanism-simulation-and-validation.html",
+          "width": 390
+        },
+        {
+          "title": "Многофункциональная головка | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/multi-tool-head.html",
+          "width": 390
+        },
+        {
+          "title": "Подготовка и импорт 3D-объектов | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/prepare-and-import-3d-objects.html",
+          "width": 390
+        },
+        {
+          "title": "Упрощатель | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/simplifier.html",
+          "width": 390
+        },
+        {
+          "title": "Станок Swiss type | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/swiss-type-machine.html",
+          "width": 390
+        },
+        {
+          "title": "Инструментальный блок | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/tool-block.html",
+          "width": 390
+        },
+        {
+          "title": "Панель инструментов | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/toolbar.html",
+          "width": 390
+        },
+        {
+          "title": "Trevisan станок | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/trevisan-machine.html",
+          "width": 390
+        },
+        {
+          "title": "Револьверный головной узел | MachineMaker — Фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/turret.html",
+          "width": 390
+        }
+      ],
+      "search_term": "станок",
+      "search_results": 13
+    },
+    "robots-en": {
+      "checks": [
+        {
+          "title": "3D navigation | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129926398.html",
+          "width": 1440
+        },
+        {
+          "title": "Adding a mechanism | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930542.html",
+          "width": 1440
+        },
+        {
+          "title": "Additional options | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129936331.html",
+          "width": 1440
+        },
+        {
+          "title": "Application Settings | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930500.html",
+          "width": 1440
+        },
+        {
+          "title": "Assemblies | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129931045.html",
+          "width": 1440
+        },
+        {
+          "title": "Assembly options | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129935832.html",
+          "width": 1440
+        },
+        {
+          "title": "Assembly Simulation and Validation | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131904463.html",
+          "width": 1440
+        },
+        {
+          "title": "Building a kinematic scheme | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903495.html",
+          "width": 1440
+        },
+        {
+          "title": "Cobot | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903666.html",
+          "width": 1440
+        },
+        {
+          "title": "Cobot | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129933035.html",
+          "width": 1440
+        },
+        {
+          "title": "Collision | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129936493.html",
+          "width": 1440
+        },
+        {
+          "title": "Coloring | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903745.html",
+          "width": 1440
+        },
+        {
+          "title": "Column-type robot | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/157870578.html",
+          "width": 1440
+        },
+        {
+          "title": "Composite End Effector | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129935339.html",
+          "width": 1440
+        },
+        {
+          "title": "Composite End effectors | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903701.html",
+          "width": 1440
+        },
+        {
+          "title": "Composite EndEffector: Spot Welding | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129937016.html",
+          "width": 1440
+        },
+        {
+          "title": "Creating a project | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930512.html",
+          "width": 1440
+        },
+        {
+          "title": "End effectors and TCP calibration | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930953.html",
+          "width": 1440
+        },
+        {
+          "title": "End Effectors | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129936988.html",
+          "width": 1440
+        },
+        {
+          "title": "Examples: Robot cell | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131904826.html",
+          "width": 1440
+        },
+        {
+          "title": "External Tools | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129937003.html",
+          "width": 1440
+        },
+        {
+          "title": "Flexible Heavy-Duty Robot | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930802.html",
+          "width": 1440
+        },
+        {
+          "title": "Flexible Heavy-Duty Robot | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129933030.html",
+          "width": 1440
+        },
+        {
+          "title": "Getting Started | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930510.html",
+          "width": 1440
+        },
+        {
+          "title": "Grouping elements | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903382.html",
+          "width": 1440
+        },
+        {
+          "title": "H-bot (Portal) | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129937042.html",
+          "width": 1440
+        },
+        {
+          "title": "Heavy-Duty robot | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129932169.html",
+          "width": 1440
+        },
+        {
+          "title": "Heavy-Duty Robots | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903674.html",
+          "width": 1440
+        },
+        {
+          "title": "MachineMaker — Robots | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/index.html",
+          "width": 1440
+        },
+        {
+          "title": "Industrial Robots | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903654.html",
+          "width": 1440
+        },
+        {
+          "title": "Interface | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129940510.html",
+          "width": 1440
+        },
+        {
+          "title": "Introduction to MachineMaker | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129926359.html",
+          "width": 1440
+        },
+        {
+          "title": "Links/Leads | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129936705.html",
+          "width": 1440
+        },
+        {
+          "title": "Main window | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129926379.html",
+          "width": 1440
+        },
+        {
+          "title": "Mechanism Simulation and Validation | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903767.html",
+          "width": 1440
+        },
+        {
+          "title": "Mechanisms Library | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129932035.html",
+          "width": 1440
+        },
+        {
+          "title": "Prepare and import 3D objects | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930751.html",
+          "width": 1440
+        },
+        {
+          "title": "Rail | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129937034.html",
+          "width": 1440
+        },
+        {
+          "title": "Rails and Portals | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903688.html",
+          "width": 1440
+        },
+        {
+          "title": "Receiving assemblies from CAM system | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129933049.html",
+          "width": 1440
+        },
+        {
+          "title": "SCARA Robot | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/137005116.html",
+          "width": 1440
+        },
+        {
+          "title": "Simple robot | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129932078.html",
+          "width": 1440
+        },
+        {
+          "title": "Simplifier | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129934066.html",
+          "width": 1440
+        },
+        {
+          "title": "Table calibration | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129931151.html",
+          "width": 1440
+        },
+        {
+          "title": "Tables and Positioners | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930810.html",
+          "width": 1440
+        },
+        {
+          "title": "Tables and User CS | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129937026.html",
+          "width": 1440
+        },
+        {
+          "title": "Toolbar | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930436.html",
+          "width": 1440
+        },
+        {
+          "title": "3D navigation | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129926398.html",
+          "width": 390
+        },
+        {
+          "title": "Adding a mechanism | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930542.html",
+          "width": 390
+        },
+        {
+          "title": "Additional options | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129936331.html",
+          "width": 390
+        },
+        {
+          "title": "Application Settings | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930500.html",
+          "width": 390
+        },
+        {
+          "title": "Assemblies | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129931045.html",
+          "width": 390
+        },
+        {
+          "title": "Assembly options | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129935832.html",
+          "width": 390
+        },
+        {
+          "title": "Assembly Simulation and Validation | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131904463.html",
+          "width": 390
+        },
+        {
+          "title": "Building a kinematic scheme | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903495.html",
+          "width": 390
+        },
+        {
+          "title": "Cobot | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903666.html",
+          "width": 390
+        },
+        {
+          "title": "Cobot | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129933035.html",
+          "width": 390
+        },
+        {
+          "title": "Collision | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129936493.html",
+          "width": 390
+        },
+        {
+          "title": "Coloring | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903745.html",
+          "width": 390
+        },
+        {
+          "title": "Column-type robot | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/157870578.html",
+          "width": 390
+        },
+        {
+          "title": "Composite End Effector | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129935339.html",
+          "width": 390
+        },
+        {
+          "title": "Composite End effectors | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903701.html",
+          "width": 390
+        },
+        {
+          "title": "Composite EndEffector: Spot Welding | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129937016.html",
+          "width": 390
+        },
+        {
+          "title": "Creating a project | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930512.html",
+          "width": 390
+        },
+        {
+          "title": "End effectors and TCP calibration | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930953.html",
+          "width": 390
+        },
+        {
+          "title": "End Effectors | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129936988.html",
+          "width": 390
+        },
+        {
+          "title": "Examples: Robot cell | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131904826.html",
+          "width": 390
+        },
+        {
+          "title": "External Tools | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129937003.html",
+          "width": 390
+        },
+        {
+          "title": "Flexible Heavy-Duty Robot | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930802.html",
+          "width": 390
+        },
+        {
+          "title": "Flexible Heavy-Duty Robot | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129933030.html",
+          "width": 390
+        },
+        {
+          "title": "Getting Started | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930510.html",
+          "width": 390
+        },
+        {
+          "title": "Grouping elements | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903382.html",
+          "width": 390
+        },
+        {
+          "title": "H-bot (Portal) | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129937042.html",
+          "width": 390
+        },
+        {
+          "title": "Heavy-Duty robot | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129932169.html",
+          "width": 390
+        },
+        {
+          "title": "Heavy-Duty Robots | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903674.html",
+          "width": 390
+        },
+        {
+          "title": "MachineMaker — Robots | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/index.html",
+          "width": 390
+        },
+        {
+          "title": "Industrial Robots | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903654.html",
+          "width": 390
+        },
+        {
+          "title": "Interface | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129940510.html",
+          "width": 390
+        },
+        {
+          "title": "Introduction to MachineMaker | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129926359.html",
+          "width": 390
+        },
+        {
+          "title": "Links/Leads | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129936705.html",
+          "width": 390
+        },
+        {
+          "title": "Main window | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129926379.html",
+          "width": 390
+        },
+        {
+          "title": "Mechanism Simulation and Validation | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903767.html",
+          "width": 390
+        },
+        {
+          "title": "Mechanisms Library | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129932035.html",
+          "width": 390
+        },
+        {
+          "title": "Prepare and import 3D objects | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930751.html",
+          "width": 390
+        },
+        {
+          "title": "Rail | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129937034.html",
+          "width": 390
+        },
+        {
+          "title": "Rails and Portals | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903688.html",
+          "width": 390
+        },
+        {
+          "title": "Receiving assemblies from CAM system | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129933049.html",
+          "width": 390
+        },
+        {
+          "title": "SCARA Robot | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/137005116.html",
+          "width": 390
+        },
+        {
+          "title": "Simple robot | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129932078.html",
+          "width": 390
+        },
+        {
+          "title": "Simplifier | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129934066.html",
+          "width": 390
+        },
+        {
+          "title": "Table calibration | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129931151.html",
+          "width": 390
+        },
+        {
+          "title": "Tables and Positioners | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930810.html",
+          "width": 390
+        },
+        {
+          "title": "Tables and User CS | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129937026.html",
+          "width": 390
+        },
+        {
+          "title": "Toolbar | MachineMaker — Robots",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930436.html",
+          "width": 390
+        }
+      ],
+      "search_term": "robot",
+      "search_results": 30
+    },
+    "robots-ru": {
+      "checks": [
+        {
+          "title": "3D-навигация | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129926398.html",
+          "width": 1440
+        },
+        {
+          "title": "Добавление механизма | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930542.html",
+          "width": 1440
+        },
+        {
+          "title": "Дополнительные параметры | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129936331.html",
+          "width": 1440
+        },
+        {
+          "title": "Настройки приложения | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930500.html",
+          "width": 1440
+        },
+        {
+          "title": "Сборки | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129931045.html",
+          "width": 1440
+        },
+        {
+          "title": "Настройки | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129935832.html",
+          "width": 1440
+        },
+        {
+          "title": "Моделирование и проверка движений механизмов | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131904463.html",
+          "width": 1440
+        },
+        {
+          "title": "Построение кинематической схемы | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903495.html",
+          "width": 1440
+        },
+        {
+          "title": "Коботы | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903666.html",
+          "width": 1440
+        },
+        {
+          "title": "Кобот | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129933035.html",
+          "width": 1440
+        },
+        {
+          "title": "Столкновения | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129936493.html",
+          "width": 1440
+        },
+        {
+          "title": "Окрашивание механизмов | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903745.html",
+          "width": 1440
+        },
+        {
+          "title": "Робот колонного типа | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/157870578.html",
+          "width": 1440
+        },
+        {
+          "title": "Композитные инструменты | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129935339.html",
+          "width": 1440
+        },
+        {
+          "title": "Композитные инструменты | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903701.html",
+          "width": 1440
+        },
+        {
+          "title": "Композитный инструмент: Точечная сварка | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129937016.html",
+          "width": 1440
+        },
+        {
+          "title": "Создание проекта | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930512.html",
+          "width": 1440
+        },
+        {
+          "title": "Инструменты и калибровка TCP | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930953.html",
+          "width": 1440
+        },
+        {
+          "title": "Инструмент | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129936988.html",
+          "width": 1440
+        },
+        {
+          "title": "Сборки роботизированной ячейки | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131904826.html",
+          "width": 1440
+        },
+        {
+          "title": "Внешние механизмы | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129937003.html",
+          "width": 1440
+        },
+        {
+          "title": "Сверхмощный робот с гибкими частями | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930802.html",
+          "width": 1440
+        },
+        {
+          "title": "Сверхмощный робот с гибкими частями | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129933030.html",
+          "width": 1440
+        },
+        {
+          "title": "Приступаем к работе | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930510.html",
+          "width": 1440
+        },
+        {
+          "title": "Группировка элементов | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903382.html",
+          "width": 1440
+        },
+        {
+          "title": "Портал | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129937042.html",
+          "width": 1440
+        },
+        {
+          "title": "Сверхмощный робот | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129932169.html",
+          "width": 1440
+        },
+        {
+          "title": "Сверхмощные роботы | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903674.html",
+          "width": 1440
+        },
+        {
+          "title": "MachineMaker — Роботы | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/index.html",
+          "width": 1440
+        },
+        {
+          "title": "Промышленные роботы | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903654.html",
+          "width": 1440
+        },
+        {
+          "title": "Интерфейс | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129940510.html",
+          "width": 1440
+        },
+        {
+          "title": "Вводная часть MachineMaker | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129926359.html",
+          "width": 1440
+        },
+        {
+          "title": "Подходы / Отходы | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129936705.html",
+          "width": 1440
+        },
+        {
+          "title": "Главное окно | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129926379.html",
+          "width": 1440
+        },
+        {
+          "title": "Моделирование механизмов | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903767.html",
+          "width": 1440
+        },
+        {
+          "title": "Библиотека механизмов | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129932035.html",
+          "width": 1440
+        },
+        {
+          "title": "Подготовка и импорт 3D-объектов | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930751.html",
+          "width": 1440
+        },
+        {
+          "title": "Рельс | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129937034.html",
+          "width": 1440
+        },
+        {
+          "title": "Рельсы и Порталы | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903688.html",
+          "width": 1440
+        },
+        {
+          "title": "Отправка сборок из CAM-системы | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129933049.html",
+          "width": 1440
+        },
+        {
+          "title": "SCARA Робот | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/137005116.html",
+          "width": 1440
+        },
+        {
+          "title": "Простой робот | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129932078.html",
+          "width": 1440
+        },
+        {
+          "title": "Упрощатель | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129934066.html",
+          "width": 1440
+        },
+        {
+          "title": "Калибровка стола | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129931151.html",
+          "width": 1440
+        },
+        {
+          "title": "Столы, позиционеры и фиксированные объекты | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930810.html",
+          "width": 1440
+        },
+        {
+          "title": "Столы и система координат пользователя | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129937026.html",
+          "width": 1440
+        },
+        {
+          "title": "Панель инструментов | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930436.html",
+          "width": 1440
+        },
+        {
+          "title": "3D-навигация | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129926398.html",
+          "width": 390
+        },
+        {
+          "title": "Добавление механизма | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930542.html",
+          "width": 390
+        },
+        {
+          "title": "Дополнительные параметры | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129936331.html",
+          "width": 390
+        },
+        {
+          "title": "Настройки приложения | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930500.html",
+          "width": 390
+        },
+        {
+          "title": "Сборки | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129931045.html",
+          "width": 390
+        },
+        {
+          "title": "Настройки | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129935832.html",
+          "width": 390
+        },
+        {
+          "title": "Моделирование и проверка движений механизмов | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131904463.html",
+          "width": 390
+        },
+        {
+          "title": "Построение кинематической схемы | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903495.html",
+          "width": 390
+        },
+        {
+          "title": "Коботы | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903666.html",
+          "width": 390
+        },
+        {
+          "title": "Кобот | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129933035.html",
+          "width": 390
+        },
+        {
+          "title": "Столкновения | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129936493.html",
+          "width": 390
+        },
+        {
+          "title": "Окрашивание механизмов | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903745.html",
+          "width": 390
+        },
+        {
+          "title": "Робот колонного типа | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/157870578.html",
+          "width": 390
+        },
+        {
+          "title": "Композитные инструменты | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129935339.html",
+          "width": 390
+        },
+        {
+          "title": "Композитные инструменты | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903701.html",
+          "width": 390
+        },
+        {
+          "title": "Композитный инструмент: Точечная сварка | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129937016.html",
+          "width": 390
+        },
+        {
+          "title": "Создание проекта | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930512.html",
+          "width": 390
+        },
+        {
+          "title": "Инструменты и калибровка TCP | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930953.html",
+          "width": 390
+        },
+        {
+          "title": "Инструмент | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129936988.html",
+          "width": 390
+        },
+        {
+          "title": "Сборки роботизированной ячейки | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131904826.html",
+          "width": 390
+        },
+        {
+          "title": "Внешние механизмы | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129937003.html",
+          "width": 390
+        },
+        {
+          "title": "Сверхмощный робот с гибкими частями | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930802.html",
+          "width": 390
+        },
+        {
+          "title": "Сверхмощный робот с гибкими частями | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129933030.html",
+          "width": 390
+        },
+        {
+          "title": "Приступаем к работе | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930510.html",
+          "width": 390
+        },
+        {
+          "title": "Группировка элементов | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903382.html",
+          "width": 390
+        },
+        {
+          "title": "Портал | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129937042.html",
+          "width": 390
+        },
+        {
+          "title": "Сверхмощный робот | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129932169.html",
+          "width": 390
+        },
+        {
+          "title": "Сверхмощные роботы | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903674.html",
+          "width": 390
+        },
+        {
+          "title": "MachineMaker — Роботы | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/index.html",
+          "width": 390
+        },
+        {
+          "title": "Промышленные роботы | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903654.html",
+          "width": 390
+        },
+        {
+          "title": "Интерфейс | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129940510.html",
+          "width": 390
+        },
+        {
+          "title": "Вводная часть MachineMaker | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129926359.html",
+          "width": 390
+        },
+        {
+          "title": "Подходы / Отходы | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129936705.html",
+          "width": 390
+        },
+        {
+          "title": "Главное окно | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129926379.html",
+          "width": 390
+        },
+        {
+          "title": "Моделирование механизмов | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903767.html",
+          "width": 390
+        },
+        {
+          "title": "Библиотека механизмов | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129932035.html",
+          "width": 390
+        },
+        {
+          "title": "Подготовка и импорт 3D-объектов | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930751.html",
+          "width": 390
+        },
+        {
+          "title": "Рельс | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129937034.html",
+          "width": 390
+        },
+        {
+          "title": "Рельсы и Порталы | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131903688.html",
+          "width": 390
+        },
+        {
+          "title": "Отправка сборок из CAM-системы | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129933049.html",
+          "width": 390
+        },
+        {
+          "title": "SCARA Робот | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/137005116.html",
+          "width": 390
+        },
+        {
+          "title": "Простой робот | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129932078.html",
+          "width": 390
+        },
+        {
+          "title": "Упрощатель | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129934066.html",
+          "width": 390
+        },
+        {
+          "title": "Калибровка стола | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129931151.html",
+          "width": 390
+        },
+        {
+          "title": "Столы, позиционеры и фиксированные объекты | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930810.html",
+          "width": 390
+        },
+        {
+          "title": "Столы и система координат пользователя | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129937026.html",
+          "width": 390
+        },
+        {
+          "title": "Панель инструментов | MachineMaker — Роботы",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/129930436.html",
+          "width": 390
+        }
+      ],
+      "search_term": "робот",
+      "search_results": 30
+    },
+    "turnmill-ru": {
+      "checks": [
+        {
+          "title": "MachineMaker — Токарно-фрезерные станки | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/index.html",
+          "width": 1440
+        },
+        {
+          "title": "Вводная часть MachineMaker | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131907689.html",
+          "width": 1440
+        },
+        {
+          "title": "Интерфейс | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131907712.html",
+          "width": 1440
+        },
+        {
+          "title": "Главное окно | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131907713.html",
+          "width": 1440
+        },
+        {
+          "title": "3D-навигация | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131907731.html",
+          "width": 1440
+        },
+        {
+          "title": "Панель инструментов | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131907772.html",
+          "width": 1440
+        },
+        {
+          "title": "Настройки приложения | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131907849.html",
+          "width": 1440
+        },
+        {
+          "title": "Приступаем к работе | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131907860.html",
+          "width": 1440
+        },
+        {
+          "title": "Создание проекта | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131907861.html",
+          "width": 1440
+        },
+        {
+          "title": "Добавление механизма | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131907877.html",
+          "width": 1440
+        },
+        {
+          "title": "Подготовка и импорт 3D-объектов | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131907899.html",
+          "width": 1440
+        },
+        {
+          "title": "Группировка элементов в узлы | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131907945.html",
+          "width": 1440
+        },
+        {
+          "title": "Построение кинематической схемы | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131908005.html",
+          "width": 1440
+        },
+        {
+          "title": "Шпиндель | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131908103.html",
+          "width": 1440
+        },
+        {
+          "title": "Инструментальный блок | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131908110.html",
+          "width": 1440
+        },
+        {
+          "title": "Револьверный головной узел | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131908125.html",
+          "width": 1440
+        },
+        {
+          "title": "Окрашивание механизмов | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131908144.html",
+          "width": 1440
+        },
+        {
+          "title": "Моделирование механизмов | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131908169.html",
+          "width": 1440
+        },
+        {
+          "title": "Машинное оборудование | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131908188.html",
+          "width": 1440
+        },
+        {
+          "title": "Сборка токарно-фрезерного станка | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131908233.html",
+          "width": 1440
+        },
+        {
+          "title": "Токарно-фрезерный станок | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131908234.html",
+          "width": 1440
+        },
+        {
+          "title": "Упрощатель | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131908238.html",
+          "width": 1440
+        },
+        {
+          "title": "Токарно-фрезерный станок с двухрядным револьвером | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/142644195.html",
+          "width": 1440
+        },
+        {
+          "title": "Двухрядный револьверный головной узел | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/142647569.html",
+          "width": 1440
+        },
+        {
+          "title": "Многофункциональная головка | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/142647582.html",
+          "width": 1440
+        },
+        {
+          "title": "MachineMaker — Токарно-фрезерные станки | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/index.html",
+          "width": 390
+        },
+        {
+          "title": "Вводная часть MachineMaker | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131907689.html",
+          "width": 390
+        },
+        {
+          "title": "Интерфейс | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131907712.html",
+          "width": 390
+        },
+        {
+          "title": "Главное окно | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131907713.html",
+          "width": 390
+        },
+        {
+          "title": "3D-навигация | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131907731.html",
+          "width": 390
+        },
+        {
+          "title": "Панель инструментов | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131907772.html",
+          "width": 390
+        },
+        {
+          "title": "Настройки приложения | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131907849.html",
+          "width": 390
+        },
+        {
+          "title": "Приступаем к работе | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131907860.html",
+          "width": 390
+        },
+        {
+          "title": "Создание проекта | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131907861.html",
+          "width": 390
+        },
+        {
+          "title": "Добавление механизма | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131907877.html",
+          "width": 390
+        },
+        {
+          "title": "Подготовка и импорт 3D-объектов | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131907899.html",
+          "width": 390
+        },
+        {
+          "title": "Группировка элементов в узлы | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131907945.html",
+          "width": 390
+        },
+        {
+          "title": "Построение кинематической схемы | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131908005.html",
+          "width": 390
+        },
+        {
+          "title": "Шпиндель | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131908103.html",
+          "width": 390
+        },
+        {
+          "title": "Инструментальный блок | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131908110.html",
+          "width": 390
+        },
+        {
+          "title": "Револьверный головной узел | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131908125.html",
+          "width": 390
+        },
+        {
+          "title": "Окрашивание механизмов | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131908144.html",
+          "width": 390
+        },
+        {
+          "title": "Моделирование механизмов | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131908169.html",
+          "width": 390
+        },
+        {
+          "title": "Машинное оборудование | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131908188.html",
+          "width": 390
+        },
+        {
+          "title": "Сборка токарно-фрезерного станка | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131908233.html",
+          "width": 390
+        },
+        {
+          "title": "Токарно-фрезерный станок | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131908234.html",
+          "width": 390
+        },
+        {
+          "title": "Упрощатель | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/131908238.html",
+          "width": 390
+        },
+        {
+          "title": "Токарно-фрезерный станок с двухрядным револьвером | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/142644195.html",
+          "width": 390
+        },
+        {
+          "title": "Двухрядный револьверный головной узел | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/142647569.html",
+          "width": 390
+        },
+        {
+          "title": "Многофункциональная головка | MachineMaker — Токарно-фрезерные станки",
+          "broken": [],
+          "overflow": false,
+          "page": "src/content/142647582.html",
+          "width": 390
+        }
+      ],
+      "search_term": "шпиндель",
+      "search_results": 2
+    },
+    "turnmill-en": {
+      "checks": [
+        {
+          "title": "MachineMaker User Manual | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "1.html",
+          "width": 1440
+        },
+        {
+          "title": "Introduction to MachineMaker | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "2.html",
+          "width": 1440
+        },
+        {
+          "title": "Interface | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "3.html",
+          "width": 1440
+        },
+        {
+          "title": "Main window | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "4.html",
+          "width": 1440
+        },
+        {
+          "title": "3D navigation | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "5.html",
+          "width": 1440
+        },
+        {
+          "title": "Toolbar | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "6.html",
+          "width": 1440
+        },
+        {
+          "title": "Application Settings | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "7.html",
+          "width": 1440
+        },
+        {
+          "title": "Getting Started | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "10.html",
+          "width": 1440
+        },
+        {
+          "title": "Creating a project | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "11.html",
+          "width": 1440
+        },
+        {
+          "title": "Adding a mechanism | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "12.html",
+          "width": 1440
+        },
+        {
+          "title": "Supported 3D model formats | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "13.html",
+          "width": 1440
+        },
+        {
+          "title": "Grouping elements into nodes | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "14.html",
+          "width": 1440
+        },
+        {
+          "title": "Building a kinematic scheme | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "20.html",
+          "width": 1440
+        },
+        {
+          "title": "Chuck connector | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "28.html",
+          "width": 1440
+        },
+        {
+          "title": "Tool block | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "29.html",
+          "width": 1440
+        },
+        {
+          "title": "Turret head node | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "30.html",
+          "width": 1440
+        },
+        {
+          "title": "Dual-row tool turret | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "30_1.html",
+          "width": 1440
+        },
+        {
+          "title": "Coloring | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "31.html",
+          "width": 1440
+        },
+        {
+          "title": "Mechanism Simulation and Validation | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "32.html",
+          "width": 1440
+        },
+        {
+          "title": "Machine equipment configuration | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "34.html",
+          "width": 1440
+        },
+        {
+          "title": "Multi Tool Head | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "35.html",
+          "width": 1440
+        },
+        {
+          "title": "Examples: Lathe milling machine | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "80.html",
+          "width": 1440
+        },
+        {
+          "title": "Lathe milling machine | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "81.html",
+          "width": 1440
+        },
+        {
+          "title": "Lathe milling machine with a dual-row turret | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "82.html",
+          "width": 1440
+        },
+        {
+          "title": "Simplifier | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "90.html",
+          "width": 1440
+        },
+        {
+          "title": "MachineMaker User Manual | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "1.html",
+          "width": 390
+        },
+        {
+          "title": "Introduction to MachineMaker | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "2.html",
+          "width": 390
+        },
+        {
+          "title": "Interface | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "3.html",
+          "width": 390
+        },
+        {
+          "title": "Main window | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "4.html",
+          "width": 390
+        },
+        {
+          "title": "3D navigation | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "5.html",
+          "width": 390
+        },
+        {
+          "title": "Toolbar | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "6.html",
+          "width": 390
+        },
+        {
+          "title": "Application Settings | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "7.html",
+          "width": 390
+        },
+        {
+          "title": "Getting Started | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "10.html",
+          "width": 390
+        },
+        {
+          "title": "Creating a project | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "11.html",
+          "width": 390
+        },
+        {
+          "title": "Adding a mechanism | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "12.html",
+          "width": 390
+        },
+        {
+          "title": "Supported 3D model formats | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "13.html",
+          "width": 390
+        },
+        {
+          "title": "Grouping elements into nodes | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "14.html",
+          "width": 390
+        },
+        {
+          "title": "Building a kinematic scheme | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "20.html",
+          "width": 390
+        },
+        {
+          "title": "Chuck connector | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "28.html",
+          "width": 390
+        },
+        {
+          "title": "Tool block | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "29.html",
+          "width": 390
+        },
+        {
+          "title": "Turret head node | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "30.html",
+          "width": 390
+        },
+        {
+          "title": "Dual-row tool turret | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "30_1.html",
+          "width": 390
+        },
+        {
+          "title": "Coloring | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "31.html",
+          "width": 390
+        },
+        {
+          "title": "Mechanism Simulation and Validation | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "32.html",
+          "width": 390
+        },
+        {
+          "title": "Machine equipment configuration | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "34.html",
+          "width": 390
+        },
+        {
+          "title": "Multi Tool Head | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "35.html",
+          "width": 390
+        },
+        {
+          "title": "Examples: Lathe milling machine | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "80.html",
+          "width": 390
+        },
+        {
+          "title": "Lathe milling machine | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "81.html",
+          "width": 390
+        },
+        {
+          "title": "Lathe milling machine with a dual-row turret | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "82.html",
+          "width": 390
+        },
+        {
+          "title": "Simplifier | MachineMaker — Turn-Milling Machines",
+          "broken": [],
+          "overflow": false,
+          "page": "90.html",
+          "width": 390
+        }
+      ],
+      "search_term": "turret",
+      "search_results": 5,
+      "checked_at": "2026-10-12T07:08:17.576563+00:00"
+    }
+  },
+  "portal": {
+    "english_turnmill_results": 5,
+    "russian_turnmill_results": 6
+  },
+  "errors": [],
+  "http_failures": [],
+  "updated_guide": "turnmill-en",
+  "unchanged_guides_prior_checks_retained": [
+    "milling-en",
+    "milling-ru",
+    "robots-en",
+    "robots-ru",
+    "turnmill-ru"
+  ]
+}

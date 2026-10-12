@@ -1,0 +1,16 @@
+Searching built-in plugins in directory E:\astra\video\publication-work\audit-2026-10-08\tools\docfx\.store\docfx\2.78.2\docfx\2.78.2\tools\net8.0\any\...
+Post processor ExtractSearchIndex loaded.
+7 plug-in(s) loaded.
+Building 103 file(s) in ResourceDocumentProcessor(ValidateResourceMetadata)...
+Building 1 file(s) in TocDocumentProcessor(BuildTocDocument)...
+Building 25 file(s) in ConceptualDocumentProcessor(BuildConceptualDocument=>ValidateConceptualDocumentMetadata)...
+Applying templates to 129 model(s)...
+XRef map exported.
+Extracting index data from 25 html files
+
+
+Build succeeded.
+
+    0 warning(s)
+    0 error(s)
+

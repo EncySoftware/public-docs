@@ -1,0 +1,3 @@
+<a class="navbar-brand" href="{{_appLogoUrl}}{{^_appLogoUrl}}{{_rel}}index.html{{/_appLogoUrl}}">
+  <img id="logo" src="{{_rel}}{{_appLogoPath}}{{^_appLogoPath}}logo.svg{{/_appLogoPath}}" width="40" height="40" alt="{{_appTitle}}">
+</a>

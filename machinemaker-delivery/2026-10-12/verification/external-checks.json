@@ -1,0 +1,793 @@
+{
+  "checked_at": "2026-10-09T18:14:10.659498+00:00",
+  "results": [
+    {
+      "url": "https://docs.encycam.com/MachineMaker/1/robots/en/90.html",
+      "status": 200,
+      "references": [
+        {
+          "guide": "milling-en",
+          "page": "milling/en/src/prepare-and-import-3d-objects.html",
+          "text": "simplifier"
+        },
+        {
+          "guide": "turnmill-en",
+          "page": "turnmill/en/13.html",
+          "text": "simplifier"
+        }
+      ],
+      "query_kept_in_manual": false,
+      "title": "Simplifier - ENCY MachineMaker : Robots"
+    },
+    {
+      "url": "https://rutube.ru/video/private/194f285cbdcbff8d8a5800c91996b8c0/",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-ru",
+          "page": "robots/ru/src/content/129937042.html",
+          "text": "ссылке"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "Добавление и настройка портала",
+      "anonymous_player_options_status": 200,
+      "anonymous_hls_status": 200,
+      "hls_manifest_valid": true
+    },
+    {
+      "url": "https://rutube.ru/video/private/2067c797bf1f6ce7fe1e455f5e096669/",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-ru",
+          "page": "robots/ru/src/content/129933030.html",
+          "text": "ссылке"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "Добавление и настройка сверхмощного робота с гибкими частями",
+      "anonymous_player_options_status": 200,
+      "anonymous_hls_status": 200,
+      "hls_manifest_valid": true
+    },
+    {
+      "url": "https://rutube.ru/video/private/21b456e72f66530dc3fa9a838df06191/",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-ru",
+          "page": "robots/ru/src/content/137005116.html",
+          "text": "ссылке"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "SCARA Робот",
+      "anonymous_player_options_status": 200,
+      "anonymous_hls_status": 200,
+      "hls_manifest_valid": true
+    },
+    {
+      "url": "https://rutube.ru/video/private/5a2ca915ad1965a979f04ccb7157eae5/",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-ru",
+          "page": "robots/ru/src/content/129935339.html",
+          "text": "Линейный композитный инструмент"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "Добавление и настройка композитного линейного инструмента",
+      "anonymous_player_options_status": 200,
+      "anonymous_hls_status": 200,
+      "hls_manifest_valid": true
+    },
+    {
+      "url": "https://rutube.ru/video/private/5b61434201aa12c932f8ef015824ce73/",
+      "status": 200,
+      "references": [
+        {
+          "guide": "milling-ru",
+          "page": "milling/ru/src/dual-row-turret.html",
+          "text": "ссылке"
+        },
+        {
+          "guide": "milling-ru",
+          "page": "milling/ru/src/lathe-milling-machine-with-a-dual-row-turret.html",
+          "text": "ссылке"
+        },
+        {
+          "guide": "turnmill-ru",
+          "page": "turnmill/ru/src/content/142644195.html",
+          "text": "ссылке"
+        },
+        {
+          "guide": "turnmill-ru",
+          "page": "turnmill/ru/src/content/142647569.html",
+          "text": "ссылке"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "Добавление и настройка токарно-фрезерного станка с двухрядным револьвером",
+      "anonymous_player_options_status": 200,
+      "anonymous_hls_status": 200,
+      "hls_manifest_valid": true
+    },
+    {
+      "url": "https://rutube.ru/video/private/5eb57a869e09354706502d375e51d3b9/",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-ru",
+          "page": "robots/ru/src/content/157870578.html",
+          "text": "ссылке"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "Как собрать SCARA робота колонного типа в MachineMaker",
+      "anonymous_player_options_status": 200,
+      "anonymous_hls_status": 200,
+      "hls_manifest_valid": true
+    },
+    {
+      "url": "https://rutube.ru/video/private/88423acd58653cba4f3f996cf7392e40/",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-ru",
+          "page": "robots/ru/src/content/129935339.html",
+          "text": "Поворотный композитный инструмент"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "Добавление и настройка композитного поворотного инструмента",
+      "anonymous_player_options_status": 200,
+      "anonymous_hls_status": 200,
+      "hls_manifest_valid": true
+    },
+    {
+      "url": "https://rutube.ru/video/private/941eea7b3362e99cce88fdf561ccf99d/",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-ru",
+          "page": "robots/ru/src/content/129933035.html",
+          "text": "ссылке"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "Добавление и настройка кобота",
+      "anonymous_player_options_status": 200,
+      "anonymous_hls_status": 200,
+      "hls_manifest_valid": true
+    },
+    {
+      "url": "https://rutube.ru/video/private/972cc0b9212d639d64ba0d17dc697f42/",
+      "status": 200,
+      "references": [
+        {
+          "guide": "milling-ru",
+          "page": "milling/ru/src/multi-tool-head.html",
+          "text": "ссылке"
+        },
+        {
+          "guide": "milling-ru",
+          "page": "milling/ru/src/trevisan-machine.html",
+          "text": "ссылке"
+        },
+        {
+          "guide": "turnmill-ru",
+          "page": "turnmill/ru/src/content/142647582.html",
+          "text": "ссылке"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "Как собрать фрезерный станок с многофункциональной головкой в MachineMaker",
+      "anonymous_player_options_status": 200,
+      "anonymous_hls_status": 200,
+      "hls_manifest_valid": true
+    },
+    {
+      "url": "https://rutube.ru/video/private/9f97f2a4339bf2405333f17ffd9961d2/",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-ru",
+          "page": "robots/ru/src/content/129932078.html",
+          "text": "ссылке"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "Добавление и настройка простого робота",
+      "anonymous_player_options_status": 200,
+      "anonymous_hls_status": 200,
+      "hls_manifest_valid": true
+    },
+    {
+      "url": "https://rutube.ru/video/private/ab7c7f3ef2cb9723185f3c477e623197/",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-ru",
+          "page": "robots/ru/src/content/129932169.html",
+          "text": "ссылке"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "Добавление и настройка сверхмощного робота",
+      "anonymous_player_options_status": 200,
+      "anonymous_hls_status": 200,
+      "hls_manifest_valid": true
+    },
+    {
+      "url": "https://rutube.ru/video/private/bb2ff02995fef159d664a283e2206573/",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-ru",
+          "page": "robots/ru/src/content/129936988.html",
+          "text": "ссылке"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "Добавление и настройка инструментов",
+      "anonymous_player_options_status": 200,
+      "anonymous_hls_status": 200,
+      "hls_manifest_valid": true
+    },
+    {
+      "url": "https://rutube.ru/video/private/be3b45e991053c8f73bea9c306461b24/",
+      "status": 200,
+      "references": [
+        {
+          "guide": "milling-ru",
+          "page": "milling/ru/src/3-axes-milling-machine.html",
+          "text": "ссылке"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "Добавление и настройка 3-х осевого фрезерного станка",
+      "anonymous_player_options_status": 200,
+      "anonymous_hls_status": 200,
+      "hls_manifest_valid": true
+    },
+    {
+      "url": "https://rutube.ru/video/private/c3890bf793b970f15130f14cb50ddd5e/",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-ru",
+          "page": "robots/ru/src/content/129937026.html",
+          "text": "ссылке"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "Добавление и настройка позиционеров",
+      "anonymous_player_options_status": 200,
+      "anonymous_hls_status": 200,
+      "hls_manifest_valid": true
+    },
+    {
+      "url": "https://rutube.ru/video/private/d0be7bbdfdf2b45840d4da13a53bd0f2/",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-ru",
+          "page": "robots/ru/src/content/129937034.html",
+          "text": "ссылке"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "Добавление и настройка рельсы",
+      "anonymous_player_options_status": 200,
+      "anonymous_hls_status": 200,
+      "hls_manifest_valid": true
+    },
+    {
+      "url": "https://rutube.ru/video/private/e15fe49d7f8ecdae95c0cbf2efe02895/",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-ru",
+          "page": "robots/ru/src/content/129937003.html",
+          "text": "ссылке"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "Добавление и настройка шлифовального станка в ячейку",
+      "anonymous_player_options_status": 200,
+      "anonymous_hls_status": 200,
+      "hls_manifest_valid": true
+    },
+    {
+      "url": "https://www.kuka.com/en-de/services/downloads",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-en",
+          "page": "robots/en/src/content/131903495.html",
+          "text": "Kuka download center"
+        }
+      ],
+      "query_kept_in_manual": false,
+      "title": "Download Center | KUKA Germany"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0Q0UWthjqHA",
+      "status": 200,
+      "references": [
+        {
+          "guide": "milling-en",
+          "page": "milling/en/src/5-axes-milling-machine.html",
+          "text": "link"
+        },
+        {
+          "guide": "milling-en",
+          "page": "milling/en/src/trevisan-machine.html",
+          "text": "l"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "MachineMaker18: Creating 5-Axes Milling Machine - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating 5-Axes Milling Machine",
+      "video_author": "ENCY Software"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=5pfjNPZR50A",
+      "status": 200,
+      "references": [
+        {
+          "guide": "milling-en",
+          "page": "milling/en/src/lathe-milling-machine-with-a-dual-row-turret.html",
+          "text": "link"
+        },
+        {
+          "guide": "turnmill-en",
+          "page": "turnmill/en/30_1.html",
+          "text": "link"
+        },
+        {
+          "guide": "turnmill-en",
+          "page": "turnmill/en/82.html",
+          "text": "link"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "MachineMaker 18: Creating lathe milling machine with a dual-row turret - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker 18: Creating lathe milling machine with a dual-row turret",
+      "video_author": "ENCY Software"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=6Jfg9K4_3oU",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-en",
+          "page": "robots/en/src/content/129930510.html",
+          "text": "Construction of a Simple Robot Cell, using Mechanisms Library"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "Construction of a Simple Robot Cell, using Mechanisms Library | Tutorial 8 | ENCY Robot: Get Started - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "Construction of a Simple Robot Cell, using Mechanisms Library | Tutorial 8 | ENCY Robot: Get Started",
+      "video_author": "ENCY Software"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=EIswSr_5KuM",
+      "status": 200,
+      "references": [
+        {
+          "guide": "milling-en",
+          "page": "milling/en/src/multi-tool-head.html",
+          "text": "link"
+        },
+        {
+          "guide": "milling-en",
+          "page": "milling/en/src/trevisan-machine.html",
+          "text": "ink"
+        },
+        {
+          "guide": "turnmill-en",
+          "page": "turnmill/en/35.html",
+          "text": "link"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "MachineMaker 18: Creating Trevisan Machine with MultiTool Head - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker 18: Creating Trevisan Machine with MultiTool Head",
+      "video_author": "ENCY Software"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=EjC59wW5CPY",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-en",
+          "page": "robots/en/src/content/129930510.html",
+          "text": "MachineMaker for Robots"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "MachineMaker for Robots | Intro to Tutorials 8, 9, 10, 11 | ENCY Robot: Get Started - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker for Robots | Intro to Tutorials 8, 9, 10, 11 | ENCY Robot: Get Started",
+      "video_author": "ENCY Software"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=EsDmbyQoe9U",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-en",
+          "page": "robots/en/src/content/129937042.html",
+          "text": "link"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "MachineMaker18: Creating Portal - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating Portal",
+      "video_author": "ENCY Software"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=HP1lFXwK6_M",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-en",
+          "page": "robots/en/src/content/129933030.html",
+          "text": "link"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "MachineMaker 18: Creating Flexible Heavy Duty robot - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker 18: Creating Flexible Heavy Duty robot",
+      "video_author": "ENCY Software"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=L-k6n-61InU",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-en",
+          "page": "robots/en/src/content/129933035.html",
+          "text": "link"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "MachineMaker18: Creating Cobot - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating Cobot",
+      "video_author": "ENCY Software"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=MryE2rtbBwc",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-en",
+          "page": "robots/en/src/content/129930510.html",
+          "text": "Construction of a More Complex Robot Cell"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "Construction of a More Complex Robot Cell | Tutorial 9 | ENCY Robot: Get Started - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "Construction of a More Complex Robot Cell | Tutorial 9 | ENCY Robot: Get Started",
+      "video_author": "ENCY Software"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=PO9aYKcBq7I",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-en",
+          "page": "robots/en/src/content/137005116.html",
+          "text": "link"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "Scara Robot - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "Scara Robot",
+      "video_author": "ENCY Software"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=UyZhu-L0vzM",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-en",
+          "page": "robots/en/src/content/129937003.html",
+          "text": "link"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "MachineMaker18: Creating Grinder - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating Grinder",
+      "video_author": "ENCY Software"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=VIPtYMMuK_U",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-en",
+          "page": "robots/en/src/content/129936988.html",
+          "text": "link"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "MachineMaker 18: Creating EndEffector - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker 18: Creating EndEffector",
+      "video_author": "ENCY Software"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=bWhaaIspP6A",
+      "status": 200,
+      "references": [
+        {
+          "guide": "milling-en",
+          "page": "milling/en/src/3-axes-milling-machine.html",
+          "text": "link"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "MachineMaker18: Creating 3-Axis Milling Machine - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating 3-Axis Milling Machine",
+      "video_author": "ENCY Software"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ebTyYWPnZf0",
+      "status": 200,
+      "references": [
+        {
+          "guide": "milling-en",
+          "page": "milling/en/src/lathe-milling-machine.html",
+          "text": "link"
+        },
+        {
+          "guide": "turnmill-en",
+          "page": "turnmill/en/81.html",
+          "text": "link"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "MachineMaker18: Creating Lathe milling machine - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating Lathe milling machine",
+      "video_author": "ENCY Software"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=iGrTD3ob8sU",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-en",
+          "page": "robots/en/src/content/157870578.html",
+          "text": "link"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "MachineMaker: Creating a column-type SCARA robot. - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker: Creating a column-type SCARA robot.",
+      "video_author": "ENCY Software"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ivX0qSCFiRs",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-en",
+          "page": "robots/en/src/content/129932169.html",
+          "text": "link"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "MachineMaker18: Creating Heavy Duty robot - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating Heavy Duty robot",
+      "video_author": "ENCY Software"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=kWY08cTzzOA",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-en",
+          "page": "robots/en/src/content/129937034.html",
+          "text": "link"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "MachineMaker18: Creating Rail - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating Rail",
+      "video_author": "ENCY Software"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qGQi2DBdtdk",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-en",
+          "page": "robots/en/src/content/129930510.html",
+          "text": "Saving and Transferring MachineMaker Robot Cell to CAM system"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "Saving and Transferring MachineMaker Robot Cell to ENCY | Tutorial 11 | ENCY Robot: Get Started - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "Saving and Transferring MachineMaker Robot Cell to ENCY | Tutorial 11 | ENCY Robot: Get Started",
+      "video_author": "ENCY Software"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=sVA2ds63cKg",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-en",
+          "page": "robots/en/src/content/129935339.html",
+          "text": "linear"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "MachineMaker 18: Creating Composite Linear EndEffector - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker 18: Creating Composite Linear EndEffector",
+      "video_author": "ENCY Software"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=u1T05RAbqvA",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-en",
+          "page": "robots/en/src/content/129937016.html",
+          "text": "link"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "MachineMaker18: Creating Spot Welding - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating Spot Welding",
+      "video_author": "ENCY Software"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=xXju3fLEgFU",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-en",
+          "page": "robots/en/src/content/129932078.html",
+          "text": "link"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "MachineMaker18: Creating simple robot - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating simple robot",
+      "video_author": "ENCY Software"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zHQKJ3JOpGE",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-en",
+          "page": "robots/en/src/content/129935339.html",
+          "text": "rotary"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "MachineMaker18: Creating CompositeEndEffectorRotary - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating CompositeEndEffectorRotary",
+      "video_author": "ENCY Software"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=zqBhFWM0OL8",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-en",
+          "page": "robots/en/src/content/129937026.html",
+          "text": "link"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "MachineMaker18: Creating Tables - YouTube",
+      "video_metadata_status": 200,
+      "video_title": "MachineMaker18: Creating Tables",
+      "video_author": "ENCY Software"
+    }
+  ],
+  "limitations": [
+    "Query strings except the public YouTube video ID are omitted from this audit file; the links in the manuals are preserved.",
+    "Video metadata and anonymous Rutube HLS manifest access were checked, not full playback or technical content."
+  ],
+  "resolved_issues": [
+    {
+      "url": "https://kb.sprutcam.com/display/MMUMAU/Assembly+parameters",
+      "status": 404,
+      "references": [
+        {
+          "guide": "milling-en",
+          "page": "milling/en/src/toolbar.html",
+          "text": ""
+        },
+        {
+          "guide": "turnmill-en",
+          "page": "turnmill/en/6.html",
+          "text": ""
+        }
+      ],
+      "query_kept_in_manual": false,
+      "resolved_at": "2026-10-12",
+      "resolution": "Removed from the delivery or replaced by an internal chapter, as requested by the user"
+    },
+    {
+      "url": "https://kb.sprutcam.com/display/MMUMAU15/Build+kinematic+schema",
+      "status": 404,
+      "references": [
+        {
+          "guide": "milling-en",
+          "page": "milling/en/src/assemblies.html",
+          "text": "kinematics panel"
+        }
+      ],
+      "query_kept_in_manual": false,
+      "resolved_at": "2026-10-12",
+      "resolution": "Removed from the delivery or replaced by an internal chapter, as requested by the user"
+    },
+    {
+      "url": "https://kb.sprutcam.com/display/MMUMAU15/Prepare+and+import+3D+objects",
+      "status": 404,
+      "references": [
+        {
+          "guide": "milling-en",
+          "page": "milling/en/src/grouping-elements-into-nodes.html",
+          "text": "fix your CAD models"
+        },
+        {
+          "guide": "turnmill-en",
+          "page": "turnmill/en/14.html",
+          "text": "fix your CAD models"
+        }
+      ],
+      "query_kept_in_manual": false,
+      "resolved_at": "2026-10-12",
+      "resolution": "Removed from the delivery or replaced by an internal chapter, as requested by the user"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=JHGeWdbgWj0",
+      "status": 200,
+      "references": [
+        {
+          "guide": "robots-en",
+          "page": "robots/en/src/content/129930510.html",
+          "text": "MachineMaker Custom Imported Robot Cell"
+        }
+      ],
+      "query_kept_in_manual": true,
+      "title": "- YouTube",
+      "video_metadata_status": 403,
+      "playability_status": "LOGIN_REQUIRED",
+      "video_reason": "Видео с ограниченным доступом",
+      "resolved_at": "2026-10-12",
+      "resolution": "Removed from the delivery or replaced by an internal chapter, as requested by the user"
+    }
+  ],
+  "references_updated_at": "2026-10-12",
+  "rebuild_note": "References reconciled with the complete local rebuild; external availability check dates remain unchanged."
+}

@@ -1,0 +1,39 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "*.md",
+          "toc.yml"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+          "attachments/**",
+          "assets/**"
+        ]
+      }
+    ],
+    "globalMetadata": {
+      "_appName": "MachineMaker — Turn-Milling Machines",
+      "_appTitle": "MachineMaker — Turn-Milling Machines",
+      "_appFooter": "MachineMaker — Turn-Milling Machines",
+      "_lang": "en",
+      "_enableSearch": true,
+      "_disableContribution": true,
+      "_appLogoPath": "assets/machinemaker.png",
+      "_appFaviconPath": "assets/machinemaker.png"
+    },
+    "postProcessors": [
+      "ExtractSearchIndex"
+    ],
+    "template": [
+      "statictoc",
+      "template/custom"
+    ],
+    "markdownEngineName": "markdig"
+  }
+}

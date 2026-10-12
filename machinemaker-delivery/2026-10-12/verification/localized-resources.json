@@ -1,0 +1,2651 @@
+{
+  "resources": {
+    "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/Milling_Machine-23e984538a.zip": {
+      "path": "_shared/examples/Milling_Machine-23e984538a.zip",
+      "sha256": "23e984538a409c06fd2439edeece7bfdc38bcdf7f193b842cb167152bf6fe1e8",
+      "bytes": 9263462,
+      "kind": "release",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://download.sprutcam.com/download/sprutcam/MachineMaker/version_16/examples/3AxesMillingMachine/Milling_machine_3ax.zip": {
+      "path": "_shared/examples/legacy-v16/Milling_machine_3ax.zip",
+      "sha256": "5bb1db5f4f3356ecc711af4234685a19c15039b79b1c41fc72e2f1699338f8ea",
+      "bytes": 76006,
+      "kind": "legacy",
+      "legacy_version_compatibility_confirmed": true,
+      "compatibility_confirmation": {
+        "by": "user",
+        "date": "2026-10-12",
+        "method": "User confirmation; no new application test performed"
+      }
+    },
+    "https://download.sprutcam.com/download/sprutcam/MachineMaker/version_16/examples/3AxesMillingMachine/Milling_machine.zip": {
+      "path": "_shared/examples/legacy-v16/Milling_machine.zip",
+      "sha256": "35d5f69200d53465cf624e85785ef2cd37983fe3b9d114dc68656d2e2fbee98b",
+      "bytes": 67506,
+      "kind": "legacy",
+      "legacy_version_compatibility_confirmed": true,
+      "compatibility_confirmation": {
+        "by": "user",
+        "date": "2026-10-12",
+        "method": "User confirmation; no new application test performed"
+      }
+    },
+    "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/5AxesMillingMachine-34140c2b09.zip": {
+      "path": "_shared/examples/5AxesMillingMachine-34140c2b09.zip",
+      "sha256": "34140c2b09aec3e280e506ffa687b9ca56572cc269beb6d4e7b397b8162196b4",
+      "bytes": 5301974,
+      "kind": "release",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/Lathe_milling_machine-b093694fe9.zip": {
+      "path": "_shared/examples/Lathe_milling_machine-b093694fe9.zip",
+      "sha256": "b093694fe92d731f2c614aa2839d473083b405d930ad1e7c5c5e7a436c684bf8",
+      "bytes": 744989,
+      "kind": "release",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/Samsung_PL-20MC-cf9ed9ddf8.zip": {
+      "path": "_shared/examples/Samsung_PL-20MC-cf9ed9ddf8.zip",
+      "sha256": "cf9ed9ddf896fdfa801f3dc35f7b3cb5fae2cad9b9256b9ecf5027dcbb3edc82",
+      "bytes": 1990565,
+      "kind": "release",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/Machine_equipment_1-6623c43908.rar": {
+      "path": "_shared/examples/Machine_equipment_1-6623c43908.rar",
+      "sha256": "6623c4390824f1a27e9db033b2bfbf11b7b5ea357a48ac20c92cdbfec1722bf7",
+      "bytes": 84551,
+      "kind": "release",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/Machine_equipment_2-e22c4bff05.rar": {
+      "path": "_shared/examples/Machine_equipment_2-e22c4bff05.rar",
+      "sha256": "e22c4bff05fa667dd3fafe31f4a009b46fa097141b82cf560de17d528d57b49c",
+      "bytes": 11589,
+      "kind": "release",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/Milling_machine-62966e00df.rar": {
+      "path": "_shared/examples/Milling_machine-62966e00df.rar",
+      "sha256": "62966e00df7714a156619ba26452944ddc3a15a873abc15055159dcc1f6939b6",
+      "bytes": 22745,
+      "kind": "release",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/3D_models_Hanwha_XD10-442fcff663.zip": {
+      "path": "_shared/examples/3D_models_Hanwha_XD10-442fcff663.zip",
+      "sha256": "442fcff663927f6b32249c6a0bfad0b11cc5714d5b459ad30944453afad71e81",
+      "bytes": 1181703,
+      "kind": "release",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/MachineSchema-b0d2a4c49e.zip": {
+      "path": "_shared/examples/MachineSchema-b0d2a4c49e.zip",
+      "sha256": "b0d2a4c49e6f8461543dd781d2139584dba84f8c42ee0aba2be900f92dae0135",
+      "bytes": 583101,
+      "kind": "release",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/Trevisan_Machine-4953ecb98e.zip": {
+      "path": "_shared/examples/Trevisan_Machine-4953ecb98e.zip",
+      "sha256": "4953ecb98e6db95add7a6856bf9b7c3d7a3b09d4fd8b1c6c0f0b8b92d957d146",
+      "bytes": 806731,
+      "kind": "release",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/f1d891ea06259807f42f645a73cbe395a016d245023bc15eac09f1cdd25796a6.png": {
+      "path": "_shared/media/f1d891ea06259807f42f645a73cbe395a016d245023bc15eac09f1cdd25796a6.png",
+      "sha256": "f1d891ea06259807f42f645a73cbe395a016d245023bc15eac09f1cdd25796a6",
+      "bytes": 141549,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/frezernyy-stanok-80ac7b5215.zip": {
+      "path": "_shared/examples/frezernyy-stanok-80ac7b5215.zip",
+      "sha256": "80ac7b5215b50e98f535949050f2e5084bee0e2af584d3459cb8844135c7efab",
+      "bytes": 9263504,
+      "kind": "release",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/frezernyystanok3osi-75a00409f0.zip": {
+      "path": "_shared/examples/frezernyystanok3osi-75a00409f0.zip",
+      "sha256": "75a00409f0f6381829dc34c742a9580ae32332a389c6b96973a23d950bec219b",
+      "bytes": 80585,
+      "kind": "release",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/frezernyystanok-79f6640dd7.zip": {
+      "path": "_shared/examples/frezernyystanok-79f6640dd7.zip",
+      "sha256": "79f6640dd76cc5ccd76dfacfb8d6dc005343e9a3c8aaf2803165b645eae6bfb4",
+      "bytes": 70746,
+      "kind": "release",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6d3ced18200b08782d732d05ada41d510d8e08a8273bd7eb1d3f418db748a4c5.png": {
+      "path": "_shared/media/6d3ced18200b08782d732d05ada41d510d8e08a8273bd7eb1d3f418db748a4c5.png",
+      "sha256": "6d3ced18200b08782d732d05ada41d510d8e08a8273bd7eb1d3f418db748a4c5",
+      "bytes": 864,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/271b6c6f7b4b5c47016f9f9c812812697835da60260de226ee340696ea8202b2.png": {
+      "path": "_shared/media/271b6c6f7b4b5c47016f9f9c812812697835da60260de226ee340696ea8202b2.png",
+      "sha256": "271b6c6f7b4b5c47016f9f9c812812697835da60260de226ee340696ea8202b2",
+      "bytes": 874,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/74bd53e541a9962c08f31feff3625f54d32258e1bb35f3bd416783a0bf8bb956.webp": {
+      "path": "_shared/media/74bd53e541a9962c08f31feff3625f54d32258e1bb35f3bd416783a0bf8bb956.webp",
+      "sha256": "74bd53e541a9962c08f31feff3625f54d32258e1bb35f3bd416783a0bf8bb956",
+      "bytes": 2785832,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/07c82504426e2425ed2b5e5facb2f82990a48cb1ed816c2c58f893501852108c.png": {
+      "path": "_shared/media/07c82504426e2425ed2b5e5facb2f82990a48cb1ed816c2c58f893501852108c.png",
+      "sha256": "07c82504426e2425ed2b5e5facb2f82990a48cb1ed816c2c58f893501852108c",
+      "bytes": 1584,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4d5ea19e86b25979b9c79ee059ea7c6d9ceac3961b9fbbdc3d99768c75d72f60.png": {
+      "path": "_shared/media/4d5ea19e86b25979b9c79ee059ea7c6d9ceac3961b9fbbdc3d99768c75d72f60.png",
+      "sha256": "4d5ea19e86b25979b9c79ee059ea7c6d9ceac3961b9fbbdc3d99768c75d72f60",
+      "bytes": 3476,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/f6eafaf332b78a4c690003fe836cfe44b2016b15b1c41ad8d781374e4f5552ab.webp": {
+      "path": "_shared/media/f6eafaf332b78a4c690003fe836cfe44b2016b15b1c41ad8d781374e4f5552ab.webp",
+      "sha256": "f6eafaf332b78a4c690003fe836cfe44b2016b15b1c41ad8d781374e4f5552ab",
+      "bytes": 2457128,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/5c10cccba53903843ad6cca2eb8c386475c711ce347455cdedfbe5fa0adc1d02.webp": {
+      "path": "_shared/media/5c10cccba53903843ad6cca2eb8c386475c711ce347455cdedfbe5fa0adc1d02.webp",
+      "sha256": "5c10cccba53903843ad6cca2eb8c386475c711ce347455cdedfbe5fa0adc1d02",
+      "bytes": 764700,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/a2ce381922ddb3b2ed4ff51cc58ddd6f68b0304d0d76dbafecc5badcfec35c94.png": {
+      "path": "_shared/media/a2ce381922ddb3b2ed4ff51cc58ddd6f68b0304d0d76dbafecc5badcfec35c94.png",
+      "sha256": "a2ce381922ddb3b2ed4ff51cc58ddd6f68b0304d0d76dbafecc5badcfec35c94",
+      "bytes": 308650,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/5-osevoy-stanok-8ade33856f.zip": {
+      "path": "_shared/examples/5-osevoy-stanok-8ade33856f.zip",
+      "sha256": "8ade33856f11413d1a4c48ab9f62082c7fe3f0ec9cf1425a21ce7b2be712d706",
+      "bytes": 5301842,
+      "kind": "release",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/94759f236b5dbb4dbde38d6d42eb04b5291a3899eb08d0125a1d730b37bb7809.png": {
+      "path": "_shared/media/94759f236b5dbb4dbde38d6d42eb04b5291a3899eb08d0125a1d730b37bb7809.png",
+      "sha256": "94759f236b5dbb4dbde38d6d42eb04b5291a3899eb08d0125a1d730b37bb7809",
+      "bytes": 16467,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/3a1791e7395011803de4fdaf8e44a5caf7762b3f78fab72ff1c7e95b71c72510.png": {
+      "path": "_shared/media/3a1791e7395011803de4fdaf8e44a5caf7762b3f78fab72ff1c7e95b71c72510.png",
+      "sha256": "3a1791e7395011803de4fdaf8e44a5caf7762b3f78fab72ff1c7e95b71c72510",
+      "bytes": 285,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/835df348294d2a29e328d2106b304173066fa1256801e425339a437600379d23.png": {
+      "path": "_shared/media/835df348294d2a29e328d2106b304173066fa1256801e425339a437600379d23.png",
+      "sha256": "835df348294d2a29e328d2106b304173066fa1256801e425339a437600379d23",
+      "bytes": 35637,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/7f5aece4fa0c495df96a0a266b5c169a910742746c40c6368df45dcbd4f81bb4.png": {
+      "path": "_shared/media/7f5aece4fa0c495df96a0a266b5c169a910742746c40c6368df45dcbd4f81bb4.png",
+      "sha256": "7f5aece4fa0c495df96a0a266b5c169a910742746c40c6368df45dcbd4f81bb4",
+      "bytes": 47631,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/b65c64d812e514058d79fbc9cf11e8bd54219ce9ca022196dd8c624dec9a4e7b.png": {
+      "path": "_shared/media/b65c64d812e514058d79fbc9cf11e8bd54219ce9ca022196dd8c624dec9a4e7b.png",
+      "sha256": "b65c64d812e514058d79fbc9cf11e8bd54219ce9ca022196dd8c624dec9a4e7b",
+      "bytes": 69950,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9a165e8c6e8b23b4c3abec7405c07757f22d773aa4ff3a568bba6671bf231e31.png": {
+      "path": "_shared/media/9a165e8c6e8b23b4c3abec7405c07757f22d773aa4ff3a568bba6671bf231e31.png",
+      "sha256": "9a165e8c6e8b23b4c3abec7405c07757f22d773aa4ff3a568bba6671bf231e31",
+      "bytes": 118334,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6d57ea7fc4cccd67564ce90207046869325d4677581e860d6841a4cde818ed43.png": {
+      "path": "_shared/media/6d57ea7fc4cccd67564ce90207046869325d4677581e860d6841a4cde818ed43.png",
+      "sha256": "6d57ea7fc4cccd67564ce90207046869325d4677581e860d6841a4cde818ed43",
+      "bytes": 401789,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/e61a8daf9c3737bd7e5504dfd2e2edcab58de28dbc0abc1d85bb8aa5b58ff4c6.png": {
+      "path": "_shared/media/e61a8daf9c3737bd7e5504dfd2e2edcab58de28dbc0abc1d85bb8aa5b58ff4c6.png",
+      "sha256": "e61a8daf9c3737bd7e5504dfd2e2edcab58de28dbc0abc1d85bb8aa5b58ff4c6",
+      "bytes": 181,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/cb4f73867c3fffd0acfa43130042fe44c90d1981b07c0cc2dffbfea8a6ea9c6d.png": {
+      "path": "_shared/media/cb4f73867c3fffd0acfa43130042fe44c90d1981b07c0cc2dffbfea8a6ea9c6d.png",
+      "sha256": "cb4f73867c3fffd0acfa43130042fe44c90d1981b07c0cc2dffbfea8a6ea9c6d",
+      "bytes": 35594,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/11e78de8efaeebc62e4f7cdaacdd060145af77477b2d00d8dcedfab93847d7c7.png": {
+      "path": "_shared/media/11e78de8efaeebc62e4f7cdaacdd060145af77477b2d00d8dcedfab93847d7c7.png",
+      "sha256": "11e78de8efaeebc62e4f7cdaacdd060145af77477b2d00d8dcedfab93847d7c7",
+      "bytes": 281,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/292878a1c45eb0a94a40afb59ddc85fab9fc8b619edf763d348c8157671dae2f.png": {
+      "path": "_shared/media/292878a1c45eb0a94a40afb59ddc85fab9fc8b619edf763d348c8157671dae2f.png",
+      "sha256": "292878a1c45eb0a94a40afb59ddc85fab9fc8b619edf763d348c8157671dae2f",
+      "bytes": 40864,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/8f8abc959b6b42a4a9b7bb01138fcb6e795274af6dab1328dc2e08dcc5445cde.webp": {
+      "path": "_shared/media/8f8abc959b6b42a4a9b7bb01138fcb6e795274af6dab1328dc2e08dcc5445cde.webp",
+      "sha256": "8f8abc959b6b42a4a9b7bb01138fcb6e795274af6dab1328dc2e08dcc5445cde",
+      "bytes": 2864204,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/26dca9313d0c2fa99f471babf3ba9dd6641b60da058cae58069f6f229cda714e.png": {
+      "path": "_shared/media/26dca9313d0c2fa99f471babf3ba9dd6641b60da058cae58069f6f229cda714e.png",
+      "sha256": "26dca9313d0c2fa99f471babf3ba9dd6641b60da058cae58069f6f229cda714e",
+      "bytes": 166731,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/a5a1b994deed7000698afcc3812b621dc64657973b430a392ef96540bc9c5f5d.webp": {
+      "path": "_shared/media/a5a1b994deed7000698afcc3812b621dc64657973b430a392ef96540bc9c5f5d.webp",
+      "sha256": "a5a1b994deed7000698afcc3812b621dc64657973b430a392ef96540bc9c5f5d",
+      "bytes": 1444240,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4942ec764d73c1258926647d326344a5612412b98cb04f23d8fa9bc6d346f363.png": {
+      "path": "_shared/media/4942ec764d73c1258926647d326344a5612412b98cb04f23d8fa9bc6d346f363.png",
+      "sha256": "4942ec764d73c1258926647d326344a5612412b98cb04f23d8fa9bc6d346f363",
+      "bytes": 628,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/3db635ad8fe49e94ee82e7cd7986830080429d1d7a9a9d78f6c10c00cb49a61e.png": {
+      "path": "_shared/media/3db635ad8fe49e94ee82e7cd7986830080429d1d7a9a9d78f6c10c00cb49a61e.png",
+      "sha256": "3db635ad8fe49e94ee82e7cd7986830080429d1d7a9a9d78f6c10c00cb49a61e",
+      "bytes": 355,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/8451c6dc2391fe060250e35e089297d9fe5c472f5398016831bb5f8f756d9c38.webp": {
+      "path": "_shared/media/8451c6dc2391fe060250e35e089297d9fe5c472f5398016831bb5f8f756d9c38.webp",
+      "sha256": "8451c6dc2391fe060250e35e089297d9fe5c472f5398016831bb5f8f756d9c38",
+      "bytes": 431954,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/1c565a5181273ca4432533b8329f0b73b25200697d625ed1b36965a07f63284a.png": {
+      "path": "_shared/media/1c565a5181273ca4432533b8329f0b73b25200697d625ed1b36965a07f63284a.png",
+      "sha256": "1c565a5181273ca4432533b8329f0b73b25200697d625ed1b36965a07f63284a",
+      "bytes": 659,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6812d46cfeab07fcd589da51ace652887a4b30dee3f72b157e86fb5c21c23b58.png": {
+      "path": "_shared/media/6812d46cfeab07fcd589da51ace652887a4b30dee3f72b157e86fb5c21c23b58.png",
+      "sha256": "6812d46cfeab07fcd589da51ace652887a4b30dee3f72b157e86fb5c21c23b58",
+      "bytes": 121103,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/0ceefe2b9a31519dad6a5edd8a5b5f0469e4901b4f04004c55cfe49e2af4a1d5.png": {
+      "path": "_shared/media/0ceefe2b9a31519dad6a5edd8a5b5f0469e4901b4f04004c55cfe49e2af4a1d5.png",
+      "sha256": "0ceefe2b9a31519dad6a5edd8a5b5f0469e4901b4f04004c55cfe49e2af4a1d5",
+      "bytes": 4380,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4c6fd19a964fd4461c24da199217ed0c901adf2659799e378c146fe4235c8249.webp": {
+      "path": "_shared/media/4c6fd19a964fd4461c24da199217ed0c901adf2659799e378c146fe4235c8249.webp",
+      "sha256": "4c6fd19a964fd4461c24da199217ed0c901adf2659799e378c146fe4235c8249",
+      "bytes": 1375762,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/bc014087dc4e1072bc996ab907cb0706747565c509ca9d78b09bfd673815a19b.png": {
+      "path": "_shared/media/bc014087dc4e1072bc996ab907cb0706747565c509ca9d78b09bfd673815a19b.png",
+      "sha256": "bc014087dc4e1072bc996ab907cb0706747565c509ca9d78b09bfd673815a19b",
+      "bytes": 92592,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/497951c171fc80364300ffae946170eae5f21b39743b066f92a78daf487acf46.png": {
+      "path": "_shared/media/497951c171fc80364300ffae946170eae5f21b39743b066f92a78daf487acf46.png",
+      "sha256": "497951c171fc80364300ffae946170eae5f21b39743b066f92a78daf487acf46",
+      "bytes": 37998,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/01e326e7e28fc640696bcf1edf28efdeb0fb4c971da8f7b2dba181335883a049.png": {
+      "path": "_shared/media/01e326e7e28fc640696bcf1edf28efdeb0fb4c971da8f7b2dba181335883a049.png",
+      "sha256": "01e326e7e28fc640696bcf1edf28efdeb0fb4c971da8f7b2dba181335883a049",
+      "bytes": 12437,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/783696111fd824b917aaeffaedfde0343bde7308d8b23ccc22284060d759fb31.png": {
+      "path": "_shared/media/783696111fd824b917aaeffaedfde0343bde7308d8b23ccc22284060d759fb31.png",
+      "sha256": "783696111fd824b917aaeffaedfde0343bde7308d8b23ccc22284060d759fb31",
+      "bytes": 17176,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/d90fbf0be6e586d392f648f49f81eac2cd56502a8c58739ec245083a90d0928c.webp": {
+      "path": "_shared/media/d90fbf0be6e586d392f648f49f81eac2cd56502a8c58739ec245083a90d0928c.webp",
+      "sha256": "d90fbf0be6e586d392f648f49f81eac2cd56502a8c58739ec245083a90d0928c",
+      "bytes": 1987944,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/047153ce37e4f84cd017c99e536bd3d533c31f17c77a730d5394c06f8e725804.webp": {
+      "path": "_shared/media/047153ce37e4f84cd017c99e536bd3d533c31f17c77a730d5394c06f8e725804.webp",
+      "sha256": "047153ce37e4f84cd017c99e536bd3d533c31f17c77a730d5394c06f8e725804",
+      "bytes": 7741394,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/de22d1d2780170403bb0c98d9958c33cd461f2cb62bdbecaa443637984ead358.webp": {
+      "path": "_shared/media/de22d1d2780170403bb0c98d9958c33cd461f2cb62bdbecaa443637984ead358.webp",
+      "sha256": "de22d1d2780170403bb0c98d9958c33cd461f2cb62bdbecaa443637984ead358",
+      "bytes": 7722428,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4b192f500f109ae01448ec87dea55621549946eb1b581a1d6fe2eda7f0b0a9b2.png": {
+      "path": "_shared/media/4b192f500f109ae01448ec87dea55621549946eb1b581a1d6fe2eda7f0b0a9b2.png",
+      "sha256": "4b192f500f109ae01448ec87dea55621549946eb1b581a1d6fe2eda7f0b0a9b2",
+      "bytes": 110564,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/493ba744598ac036187c92da619e25b054a9183a84de5037d1db3512837f662e.png": {
+      "path": "_shared/media/493ba744598ac036187c92da619e25b054a9183a84de5037d1db3512837f662e.png",
+      "sha256": "493ba744598ac036187c92da619e25b054a9183a84de5037d1db3512837f662e",
+      "bytes": 110232,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/049ca1d69245afe8a021d4af36c6c2762f6b1c01e8f4dea29a1deea6f9fba470.webp": {
+      "path": "_shared/media/049ca1d69245afe8a021d4af36c6c2762f6b1c01e8f4dea29a1deea6f9fba470.webp",
+      "sha256": "049ca1d69245afe8a021d4af36c6c2762f6b1c01e8f4dea29a1deea6f9fba470",
+      "bytes": 6282668,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/e8cdfa755dacd19df1f62463f285a4cc387b893a0c382406e226cc7dbbda4b04.webp": {
+      "path": "_shared/media/e8cdfa755dacd19df1f62463f285a4cc387b893a0c382406e226cc7dbbda4b04.webp",
+      "sha256": "e8cdfa755dacd19df1f62463f285a4cc387b893a0c382406e226cc7dbbda4b04",
+      "bytes": 595406,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/c25c90858d5b7a3c604ac8b119c3f725ead7e2e9405d233d071bd00599cbaa65.png": {
+      "path": "_shared/media/c25c90858d5b7a3c604ac8b119c3f725ead7e2e9405d233d071bd00599cbaa65.png",
+      "sha256": "c25c90858d5b7a3c604ac8b119c3f725ead7e2e9405d233d071bd00599cbaa65",
+      "bytes": 13743,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9c7c0dbdb164a45fc6b08793f51cb83f96a8620e0230d07d7d55ba3773a8d912.png": {
+      "path": "_shared/media/9c7c0dbdb164a45fc6b08793f51cb83f96a8620e0230d07d7d55ba3773a8d912.png",
+      "sha256": "9c7c0dbdb164a45fc6b08793f51cb83f96a8620e0230d07d7d55ba3773a8d912",
+      "bytes": 17408,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6fa392fb3f7adc3fe34e56eb8a9e311735cb9a4d42f816866ad7e960092a90ca.png": {
+      "path": "_shared/media/6fa392fb3f7adc3fe34e56eb8a9e311735cb9a4d42f816866ad7e960092a90ca.png",
+      "sha256": "6fa392fb3f7adc3fe34e56eb8a9e311735cb9a4d42f816866ad7e960092a90ca",
+      "bytes": 191786,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/d593eb6803563d83be5b1f9acebca9f7b3d24a0321d1f1df860f608163cc6f08.png": {
+      "path": "_shared/media/d593eb6803563d83be5b1f9acebca9f7b3d24a0321d1f1df860f608163cc6f08.png",
+      "sha256": "d593eb6803563d83be5b1f9acebca9f7b3d24a0321d1f1df860f608163cc6f08",
+      "bytes": 292,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6bf158759ce92ac4647f8bbffea2b6a9af3894995a7aeb6283d45c21238b1be2.png": {
+      "path": "_shared/media/6bf158759ce92ac4647f8bbffea2b6a9af3894995a7aeb6283d45c21238b1be2.png",
+      "sha256": "6bf158759ce92ac4647f8bbffea2b6a9af3894995a7aeb6283d45c21238b1be2",
+      "bytes": 450,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/55f919e8827105d999b42453625d49290c39724d403560f0dcc6af47041d9c9f.webp": {
+      "path": "_shared/media/55f919e8827105d999b42453625d49290c39724d403560f0dcc6af47041d9c9f.webp",
+      "sha256": "55f919e8827105d999b42453625d49290c39724d403560f0dcc6af47041d9c9f",
+      "bytes": 3307458,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/f0d69519479f76712bfe4cfde05ad5a60a83b1b1badcf6f5744049fc72d28c25.webp": {
+      "path": "_shared/media/f0d69519479f76712bfe4cfde05ad5a60a83b1b1badcf6f5744049fc72d28c25.webp",
+      "sha256": "f0d69519479f76712bfe4cfde05ad5a60a83b1b1badcf6f5744049fc72d28c25",
+      "bytes": 1262608,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/ed27533c794d0acbf39e6c2b7841146cc98422f8d444a1b9c40c48d1704bddbf.webp": {
+      "path": "_shared/media/ed27533c794d0acbf39e6c2b7841146cc98422f8d444a1b9c40c48d1704bddbf.webp",
+      "sha256": "ed27533c794d0acbf39e6c2b7841146cc98422f8d444a1b9c40c48d1704bddbf",
+      "bytes": 587628,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/2da51117bcdd994d884cad3ccd08a0c617b530d63fdb082a5379ef47f6a1d3b0.png": {
+      "path": "_shared/media/2da51117bcdd994d884cad3ccd08a0c617b530d63fdb082a5379ef47f6a1d3b0.png",
+      "sha256": "2da51117bcdd994d884cad3ccd08a0c617b530d63fdb082a5379ef47f6a1d3b0",
+      "bytes": 18004,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/893e35a51dec5bb81bf432ecd348e43eab51c8e0ee810c7a394cb82bcd4ae3d0.png": {
+      "path": "_shared/media/893e35a51dec5bb81bf432ecd348e43eab51c8e0ee810c7a394cb82bcd4ae3d0.png",
+      "sha256": "893e35a51dec5bb81bf432ecd348e43eab51c8e0ee810c7a394cb82bcd4ae3d0",
+      "bytes": 18621,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/f659e975581f4cfa66e3c9f21498d49e7361dd6aa00d8d82b48521ae3b56dc8f.png": {
+      "path": "_shared/media/f659e975581f4cfa66e3c9f21498d49e7361dd6aa00d8d82b48521ae3b56dc8f.png",
+      "sha256": "f659e975581f4cfa66e3c9f21498d49e7361dd6aa00d8d82b48521ae3b56dc8f",
+      "bytes": 30524,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4e5481858dd4421a1be48a8efdd2c5dea254c2c8f9333547fbb1fa70612e0b41.webp": {
+      "path": "_shared/media/4e5481858dd4421a1be48a8efdd2c5dea254c2c8f9333547fbb1fa70612e0b41.webp",
+      "sha256": "4e5481858dd4421a1be48a8efdd2c5dea254c2c8f9333547fbb1fa70612e0b41",
+      "bytes": 5884978,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/737d12268bdf3129c4a5528e56186bce44777965594a9d63e8459ecf9e4d74ee.png": {
+      "path": "_shared/media/737d12268bdf3129c4a5528e56186bce44777965594a9d63e8459ecf9e4d74ee.png",
+      "sha256": "737d12268bdf3129c4a5528e56186bce44777965594a9d63e8459ecf9e4d74ee",
+      "bytes": 21823,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6f82577408730bddc2439b7a7b9ad73367f2de7ebffe95bfad2a0cf6b5b26fc4.png": {
+      "path": "_shared/media/6f82577408730bddc2439b7a7b9ad73367f2de7ebffe95bfad2a0cf6b5b26fc4.png",
+      "sha256": "6f82577408730bddc2439b7a7b9ad73367f2de7ebffe95bfad2a0cf6b5b26fc4",
+      "bytes": 11097,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/786d4ceca7f970eabc84c65e611559a771a0d65432e99d12adb75c1c947c8933.png": {
+      "path": "_shared/media/786d4ceca7f970eabc84c65e611559a771a0d65432e99d12adb75c1c947c8933.png",
+      "sha256": "786d4ceca7f970eabc84c65e611559a771a0d65432e99d12adb75c1c947c8933",
+      "bytes": 134185,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/tokarno-frezernyy-stanok-256ab65cc2.zip": {
+      "path": "_shared/examples/tokarno-frezernyy-stanok-256ab65cc2.zip",
+      "sha256": "256ab65cc2a4fff31b775d7a1429ca4a02a894ecd8310b00e2532afdf8aa7964",
+      "bytes": 749560,
+      "kind": "release",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/5d7c14958b1801eb1a54a399adfe3b9a50054a177f5dda7ce1e8e5458ed8c66b.png": {
+      "path": "_shared/media/5d7c14958b1801eb1a54a399adfe3b9a50054a177f5dda7ce1e8e5458ed8c66b.png",
+      "sha256": "5d7c14958b1801eb1a54a399adfe3b9a50054a177f5dda7ce1e8e5458ed8c66b",
+      "bytes": 213093,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/tokarno-frezernyy-stanok-0b7481e299.zip": {
+      "path": "_shared/examples/tokarno-frezernyy-stanok-0b7481e299.zip",
+      "sha256": "0b7481e299d6b7eccc2f914150df02df7ef93deaca9c046afc59d9b7a0fd181e",
+      "bytes": 1472943,
+      "kind": "release",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/b9e466e97fecd8a22de53f8d444903fe03e8dd4e6d11858bf9f3bd94ce53fd16.png": {
+      "path": "_shared/media/b9e466e97fecd8a22de53f8d444903fe03e8dd4e6d11858bf9f3bd94ce53fd16.png",
+      "sha256": "b9e466e97fecd8a22de53f8d444903fe03e8dd4e6d11858bf9f3bd94ce53fd16",
+      "bytes": 159,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/ae07ec1079e83e47b67edd7453c1d085bb8dd3003d32347b517873a313dcdf9e.png": {
+      "path": "_shared/media/ae07ec1079e83e47b67edd7453c1d085bb8dd3003d32347b517873a313dcdf9e.png",
+      "sha256": "ae07ec1079e83e47b67edd7453c1d085bb8dd3003d32347b517873a313dcdf9e",
+      "bytes": 49755,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/d98792aec4b4ba6affe7fca62ae00eb831ce26ccc60c2c2fbca5635aaca27cab.png": {
+      "path": "_shared/media/d98792aec4b4ba6affe7fca62ae00eb831ce26ccc60c2c2fbca5635aaca27cab.png",
+      "sha256": "d98792aec4b4ba6affe7fca62ae00eb831ce26ccc60c2c2fbca5635aaca27cab",
+      "bytes": 108798,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4d9d1128acf46f76a5e010d9a913a71f8b9a24d267fb45ba80d9bdd4f4599620.png": {
+      "path": "_shared/media/4d9d1128acf46f76a5e010d9a913a71f8b9a24d267fb45ba80d9bdd4f4599620.png",
+      "sha256": "4d9d1128acf46f76a5e010d9a913a71f8b9a24d267fb45ba80d9bdd4f4599620",
+      "bytes": 25096,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/760bd104e4728d4856e1b6a8b3169cd9e8bc9df19cb931c5db402aca1c8103f5.png": {
+      "path": "_shared/media/760bd104e4728d4856e1b6a8b3169cd9e8bc9df19cb931c5db402aca1c8103f5.png",
+      "sha256": "760bd104e4728d4856e1b6a8b3169cd9e8bc9df19cb931c5db402aca1c8103f5",
+      "bytes": 93957,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4f048a7af73d26245032945cfd08445b12ab2023b277df1c8cdac89bd9d43982.png": {
+      "path": "_shared/media/4f048a7af73d26245032945cfd08445b12ab2023b277df1c8cdac89bd9d43982.png",
+      "sha256": "4f048a7af73d26245032945cfd08445b12ab2023b277df1c8cdac89bd9d43982",
+      "bytes": 109770,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/a3057c7447a2f95dec338f5ce64b25eb5ef9ba6b8a6ac20ab5f6793d0b9f9640.webp": {
+      "path": "_shared/media/a3057c7447a2f95dec338f5ce64b25eb5ef9ba6b8a6ac20ab5f6793d0b9f9640.webp",
+      "sha256": "a3057c7447a2f95dec338f5ce64b25eb5ef9ba6b8a6ac20ab5f6793d0b9f9640",
+      "bytes": 2669372,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/43ff8997c3c33167fdcceb4a34a62636c8565f35b8758e8364529bced7ff739c.webp": {
+      "path": "_shared/media/43ff8997c3c33167fdcceb4a34a62636c8565f35b8758e8364529bced7ff739c.webp",
+      "sha256": "43ff8997c3c33167fdcceb4a34a62636c8565f35b8758e8364529bced7ff739c",
+      "bytes": 1481734,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/dfb9edf2956a5587bd5a7e89d13ab07217e7e44c5c5824ec455ff736dcfad302.png": {
+      "path": "_shared/media/dfb9edf2956a5587bd5a7e89d13ab07217e7e44c5c5824ec455ff736dcfad302.png",
+      "sha256": "dfb9edf2956a5587bd5a7e89d13ab07217e7e44c5c5824ec455ff736dcfad302",
+      "bytes": 170757,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9421213613f05d616726ab5a97e830c7efdf777eb403560d7eb4b65466f240e1.png": {
+      "path": "_shared/media/9421213613f05d616726ab5a97e830c7efdf777eb403560d7eb4b65466f240e1.png",
+      "sha256": "9421213613f05d616726ab5a97e830c7efdf777eb403560d7eb4b65466f240e1",
+      "bytes": 230308,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/f105b09b0488cfa28448d97d8ea25d820cb7846dad1c2216eeb13adfbc5daa74.png": {
+      "path": "_shared/media/f105b09b0488cfa28448d97d8ea25d820cb7846dad1c2216eeb13adfbc5daa74.png",
+      "sha256": "f105b09b0488cfa28448d97d8ea25d820cb7846dad1c2216eeb13adfbc5daa74",
+      "bytes": 147408,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/1dbb0793c31dab26f052c185177cd45ae94e0d19745c35eb64a7858f451a0231.png": {
+      "path": "_shared/media/1dbb0793c31dab26f052c185177cd45ae94e0d19745c35eb64a7858f451a0231.png",
+      "sha256": "1dbb0793c31dab26f052c185177cd45ae94e0d19745c35eb64a7858f451a0231",
+      "bytes": 95225,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/e84f07e54559f02656f31494d9eb83d1097262accfe7ae3d705e41762f58b4f6.webp": {
+      "path": "_shared/media/e84f07e54559f02656f31494d9eb83d1097262accfe7ae3d705e41762f58b4f6.webp",
+      "sha256": "e84f07e54559f02656f31494d9eb83d1097262accfe7ae3d705e41762f58b4f6",
+      "bytes": 300682,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9e2824747ee4e20db8d3dfe27b0ac189b8b94ba68ff521484c6e22ce6dc0c11f.png": {
+      "path": "_shared/media/9e2824747ee4e20db8d3dfe27b0ac189b8b94ba68ff521484c6e22ce6dc0c11f.png",
+      "sha256": "9e2824747ee4e20db8d3dfe27b0ac189b8b94ba68ff521484c6e22ce6dc0c11f",
+      "bytes": 201409,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/frezernyy-stanok-24f30ceb2e.rar": {
+      "path": "_shared/examples/frezernyy-stanok-24f30ceb2e.rar",
+      "sha256": "24f30ceb2e016dc5aa9a856e4405695cfcb6b5409e2e571451751a023d8d8c3a",
+      "bytes": 23043,
+      "kind": "release",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/mashinnoe-oborudovanie-1-54ffbc1f31.rar": {
+      "path": "_shared/examples/mashinnoe-oborudovanie-1-54ffbc1f31.rar",
+      "sha256": "54ffbc1f3187cf54cea78aff97584d18fe5bd6eab295951266edeccc30088983",
+      "bytes": 85073,
+      "kind": "release",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/mashinnoe-oborudovanie-2-8a6fd707cc.rar": {
+      "path": "_shared/examples/mashinnoe-oborudovanie-2-8a6fd707cc.rar",
+      "sha256": "8a6fd707ccc8cb926d91c4b8e4b13298641092ed8e610bc9b9aa737a0629175d",
+      "bytes": 11824,
+      "kind": "release",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/c9f9db60cda723cb81f34d3e2384249c5ff120c0b8b8ab75d389d65b89f5893f.png": {
+      "path": "_shared/media/c9f9db60cda723cb81f34d3e2384249c5ff120c0b8b8ab75d389d65b89f5893f.png",
+      "sha256": "c9f9db60cda723cb81f34d3e2384249c5ff120c0b8b8ab75d389d65b89f5893f",
+      "bytes": 157295,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/41c584698921f351d2ffad6250d324964fbb7264057e999bf3ab28b484d20c5c.png": {
+      "path": "_shared/media/41c584698921f351d2ffad6250d324964fbb7264057e999bf3ab28b484d20c5c.png",
+      "sha256": "41c584698921f351d2ffad6250d324964fbb7264057e999bf3ab28b484d20c5c",
+      "bytes": 25690,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/2fc4ce8b2f1402c6f3aa4d1fda58918a1c1c9c72158fba074f77df3ec512b4db.png": {
+      "path": "_shared/media/2fc4ce8b2f1402c6f3aa4d1fda58918a1c1c9c72158fba074f77df3ec512b4db.png",
+      "sha256": "2fc4ce8b2f1402c6f3aa4d1fda58918a1c1c9c72158fba074f77df3ec512b4db",
+      "bytes": 30847,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/b416cf5d1c5b4ec67e784019e3321780a964b5a99b3419225538f0dcc5dbf0df.png": {
+      "path": "_shared/media/b416cf5d1c5b4ec67e784019e3321780a964b5a99b3419225538f0dcc5dbf0df.png",
+      "sha256": "b416cf5d1c5b4ec67e784019e3321780a964b5a99b3419225538f0dcc5dbf0df",
+      "bytes": 19644,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/cfebb7106889717bec581ba76a833367a7d4d0ca65aa0e0dd8ffc613311e2179.png": {
+      "path": "_shared/media/cfebb7106889717bec581ba76a833367a7d4d0ca65aa0e0dd8ffc613311e2179.png",
+      "sha256": "cfebb7106889717bec581ba76a833367a7d4d0ca65aa0e0dd8ffc613311e2179",
+      "bytes": 184100,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/f01bd8beb1a71770c39ce6ab2d93903a48fa2df3e6985e52535797079f5577d9.webp": {
+      "path": "_shared/media/f01bd8beb1a71770c39ce6ab2d93903a48fa2df3e6985e52535797079f5577d9.webp",
+      "sha256": "f01bd8beb1a71770c39ce6ab2d93903a48fa2df3e6985e52535797079f5577d9",
+      "bytes": 1463940,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/d0dd08644a82801f06b5874d8904073687f72163c2b9f26184ca3c2db8453ffc.png": {
+      "path": "_shared/media/d0dd08644a82801f06b5874d8904073687f72163c2b9f26184ca3c2db8453ffc.png",
+      "sha256": "d0dd08644a82801f06b5874d8904073687f72163c2b9f26184ca3c2db8453ffc",
+      "bytes": 18150,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/67945ad97613b523ffbf6df56166254ca4c2512d58c40315171fd54078dbade1.png": {
+      "path": "_shared/media/67945ad97613b523ffbf6df56166254ca4c2512d58c40315171fd54078dbade1.png",
+      "sha256": "67945ad97613b523ffbf6df56166254ca4c2512d58c40315171fd54078dbade1",
+      "bytes": 121689,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/c8fd513a0ccc51748d190f11284f7a3246db5658ad6705e8ff50b828507bdfa9.png": {
+      "path": "_shared/media/c8fd513a0ccc51748d190f11284f7a3246db5658ad6705e8ff50b828507bdfa9.png",
+      "sha256": "c8fd513a0ccc51748d190f11284f7a3246db5658ad6705e8ff50b828507bdfa9",
+      "bytes": 147237,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9f7f5dfec0992470e2035fd3e9a8c78b374660b244d6c2f21eb073cee44b8aa5.webp": {
+      "path": "_shared/media/9f7f5dfec0992470e2035fd3e9a8c78b374660b244d6c2f21eb073cee44b8aa5.webp",
+      "sha256": "9f7f5dfec0992470e2035fd3e9a8c78b374660b244d6c2f21eb073cee44b8aa5",
+      "bytes": 1701822,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/413c1c95df39087a08dd95d4c129bdc0b18802a4dbfda6f4742176e3f72b091c.webp": {
+      "path": "_shared/media/413c1c95df39087a08dd95d4c129bdc0b18802a4dbfda6f4742176e3f72b091c.webp",
+      "sha256": "413c1c95df39087a08dd95d4c129bdc0b18802a4dbfda6f4742176e3f72b091c",
+      "bytes": 1670774,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/8f03525555c39305e2cd2664fff42004f10f58670ffd1a533742887d64ab750c.png": {
+      "path": "_shared/media/8f03525555c39305e2cd2664fff42004f10f58670ffd1a533742887d64ab750c.png",
+      "sha256": "8f03525555c39305e2cd2664fff42004f10f58670ffd1a533742887d64ab750c",
+      "bytes": 455961,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/524ac5152557e6ec1fb5334a6f4be89339b7238e639d1325844b155151078dc2.png": {
+      "path": "_shared/media/524ac5152557e6ec1fb5334a6f4be89339b7238e639d1325844b155151078dc2.png",
+      "sha256": "524ac5152557e6ec1fb5334a6f4be89339b7238e639d1325844b155151078dc2",
+      "bytes": 334973,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/922c00314c668fee9669c88dafcbec2270446652a67965d69e2a2d7d2c1d5fe9.png": {
+      "path": "_shared/media/922c00314c668fee9669c88dafcbec2270446652a67965d69e2a2d7d2c1d5fe9.png",
+      "sha256": "922c00314c668fee9669c88dafcbec2270446652a67965d69e2a2d7d2c1d5fe9",
+      "bytes": 357132,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6b29b23cfb3531a82f6072b4da85900ce061feae7f396fe76c24e2dc42849bd8.png": {
+      "path": "_shared/media/6b29b23cfb3531a82f6072b4da85900ce061feae7f396fe76c24e2dc42849bd8.png",
+      "sha256": "6b29b23cfb3531a82f6072b4da85900ce061feae7f396fe76c24e2dc42849bd8",
+      "bytes": 47260,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/3a8d550da45632f2dff757290112b1f3c9e3e8134f048fac951bec967fead4f9.png": {
+      "path": "_shared/media/3a8d550da45632f2dff757290112b1f3c9e3e8134f048fac951bec967fead4f9.png",
+      "sha256": "3a8d550da45632f2dff757290112b1f3c9e3e8134f048fac951bec967fead4f9",
+      "bytes": 12139,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/7ffb4054e63e6a84b8210082cc4c76c2bb4c01dd701c196f3471ce43f548a247.png": {
+      "path": "_shared/media/7ffb4054e63e6a84b8210082cc4c76c2bb4c01dd701c196f3471ce43f548a247.png",
+      "sha256": "7ffb4054e63e6a84b8210082cc4c76c2bb4c01dd701c196f3471ce43f548a247",
+      "bytes": 19464,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/b194758daa7b53992378cc168cad1125b34296e0aad5cebddc4115aeda2e93f3.png": {
+      "path": "_shared/media/b194758daa7b53992378cc168cad1125b34296e0aad5cebddc4115aeda2e93f3.png",
+      "sha256": "b194758daa7b53992378cc168cad1125b34296e0aad5cebddc4115aeda2e93f3",
+      "bytes": 56603,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/cdda3571580b0b5d28b08ce65cf17d36c0babbb2f47ddf543c13fa3da1376461.png": {
+      "path": "_shared/media/cdda3571580b0b5d28b08ce65cf17d36c0babbb2f47ddf543c13fa3da1376461.png",
+      "sha256": "cdda3571580b0b5d28b08ce65cf17d36c0babbb2f47ddf543c13fa3da1376461",
+      "bytes": 142940,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9dd41187ff93313a174b1c9561265ef4676aaccf4e9d41bac7d7b519562dd05e.jpg": {
+      "path": "_shared/media/9dd41187ff93313a174b1c9561265ef4676aaccf4e9d41bac7d7b519562dd05e.jpg",
+      "sha256": "9dd41187ff93313a174b1c9561265ef4676aaccf4e9d41bac7d7b519562dd05e",
+      "bytes": 75046,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/567afd0a7198cced7a9e22f17e6b3e6840a6fa6ff7eb737c85e0b6d814a5c78f.png": {
+      "path": "_shared/media/567afd0a7198cced7a9e22f17e6b3e6840a6fa6ff7eb737c85e0b6d814a5c78f.png",
+      "sha256": "567afd0a7198cced7a9e22f17e6b3e6840a6fa6ff7eb737c85e0b6d814a5c78f",
+      "bytes": 67791,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/476417165247fba0120f8c2a93eb8d9d78ce5ac7e2a166c84cb727e56091c412.png": {
+      "path": "_shared/media/476417165247fba0120f8c2a93eb8d9d78ce5ac7e2a166c84cb727e56091c412.png",
+      "sha256": "476417165247fba0120f8c2a93eb8d9d78ce5ac7e2a166c84cb727e56091c412",
+      "bytes": 59929,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/694a23b21497edd8b902de15f70ff91d8540486f43c3d0ee6ae3457930cb9603.png": {
+      "path": "_shared/media/694a23b21497edd8b902de15f70ff91d8540486f43c3d0ee6ae3457930cb9603.png",
+      "sha256": "694a23b21497edd8b902de15f70ff91d8540486f43c3d0ee6ae3457930cb9603",
+      "bytes": 126114,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/531f17b4b5a6fa40705ff20ee717cf3fa2d60cae0e5ac54aed200b333c4eeb6d.png": {
+      "path": "_shared/media/531f17b4b5a6fa40705ff20ee717cf3fa2d60cae0e5ac54aed200b333c4eeb6d.png",
+      "sha256": "531f17b4b5a6fa40705ff20ee717cf3fa2d60cae0e5ac54aed200b333c4eeb6d",
+      "bytes": 54861,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4f8e0e9fce9e0ba65fd4584d18f8dbcab450792741f20aee59ff1136998b5d78.png": {
+      "path": "_shared/media/4f8e0e9fce9e0ba65fd4584d18f8dbcab450792741f20aee59ff1136998b5d78.png",
+      "sha256": "4f8e0e9fce9e0ba65fd4584d18f8dbcab450792741f20aee59ff1136998b5d78",
+      "bytes": 60887,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/bcb2c827c432a58c72ee6f1921b7e5727de3552871bd036159c2b608ec029337.png": {
+      "path": "_shared/media/bcb2c827c432a58c72ee6f1921b7e5727de3552871bd036159c2b608ec029337.png",
+      "sha256": "bcb2c827c432a58c72ee6f1921b7e5727de3552871bd036159c2b608ec029337",
+      "bytes": 99203,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/0263f6b0d34a659d25e59d0bd572c7456f11fa6774898d85d24edbc2c707a728.png": {
+      "path": "_shared/media/0263f6b0d34a659d25e59d0bd572c7456f11fa6774898d85d24edbc2c707a728.png",
+      "sha256": "0263f6b0d34a659d25e59d0bd572c7456f11fa6774898d85d24edbc2c707a728",
+      "bytes": 135080,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/db2d0f019dee00c53ef1c496b116573c29f3abfce05d58145de77596dad20efd.png": {
+      "path": "_shared/media/db2d0f019dee00c53ef1c496b116573c29f3abfce05d58145de77596dad20efd.png",
+      "sha256": "db2d0f019dee00c53ef1c496b116573c29f3abfce05d58145de77596dad20efd",
+      "bytes": 62826,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/e2e9c0984eb356a080f0142a1789148c875530365264de0124126f99c2b66609.png": {
+      "path": "_shared/media/e2e9c0984eb356a080f0142a1789148c875530365264de0124126f99c2b66609.png",
+      "sha256": "e2e9c0984eb356a080f0142a1789148c875530365264de0124126f99c2b66609",
+      "bytes": 116260,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9a4b79906ef1eed33130a126c4f75db3b715f7c1075cbc4d2f0e8052cf603333.png": {
+      "path": "_shared/media/9a4b79906ef1eed33130a126c4f75db3b715f7c1075cbc4d2f0e8052cf603333.png",
+      "sha256": "9a4b79906ef1eed33130a126c4f75db3b715f7c1075cbc4d2f0e8052cf603333",
+      "bytes": 137883,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/51f3c2978074c97d53916f720227b2790870ebfeeca2f3a859b132a2005a5da0.png": {
+      "path": "_shared/media/51f3c2978074c97d53916f720227b2790870ebfeeca2f3a859b132a2005a5da0.png",
+      "sha256": "51f3c2978074c97d53916f720227b2790870ebfeeca2f3a859b132a2005a5da0",
+      "bytes": 102836,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4122e4c569011940715f3888f980d37dc098184100d3197a5598fbf39a4b3a58.png": {
+      "path": "_shared/media/4122e4c569011940715f3888f980d37dc098184100d3197a5598fbf39a4b3a58.png",
+      "sha256": "4122e4c569011940715f3888f980d37dc098184100d3197a5598fbf39a4b3a58",
+      "bytes": 208202,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/b0790b151369c6480731d27de084677cb9e0259eb839453a798819ccc39c7be5.png": {
+      "path": "_shared/media/b0790b151369c6480731d27de084677cb9e0259eb839453a798819ccc39c7be5.png",
+      "sha256": "b0790b151369c6480731d27de084677cb9e0259eb839453a798819ccc39c7be5",
+      "bytes": 16990,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/15894bd310c211bed74ff980ecca6aca15bce9820e80b837b24f704ad5091558.png": {
+      "path": "_shared/media/15894bd310c211bed74ff980ecca6aca15bce9820e80b837b24f704ad5091558.png",
+      "sha256": "15894bd310c211bed74ff980ecca6aca15bce9820e80b837b24f704ad5091558",
+      "bytes": 35052,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/3419ea427c82da7f20816b07d16113c6be1b3cccd2cde31dd14dcc440926bdd6.png": {
+      "path": "_shared/media/3419ea427c82da7f20816b07d16113c6be1b3cccd2cde31dd14dcc440926bdd6.png",
+      "sha256": "3419ea427c82da7f20816b07d16113c6be1b3cccd2cde31dd14dcc440926bdd6",
+      "bytes": 258855,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/b4285ace6ec2dd684ee7c69a83d35ff3a6d0f7eabd55ad08bf7b1d2384199808.png": {
+      "path": "_shared/media/b4285ace6ec2dd684ee7c69a83d35ff3a6d0f7eabd55ad08bf7b1d2384199808.png",
+      "sha256": "b4285ace6ec2dd684ee7c69a83d35ff3a6d0f7eabd55ad08bf7b1d2384199808",
+      "bytes": 182798,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/d62e1fcfdd320d758f36d0a79503d4d58cb762701d203bc005a0f532834b881b.webp": {
+      "path": "_shared/media/d62e1fcfdd320d758f36d0a79503d4d58cb762701d203bc005a0f532834b881b.webp",
+      "sha256": "d62e1fcfdd320d758f36d0a79503d4d58cb762701d203bc005a0f532834b881b",
+      "bytes": 29540,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9c807a1dc3dc33598dd98cb643d809164d6c8a1392eb292a5e7e4774a253e971.png": {
+      "path": "_shared/media/9c807a1dc3dc33598dd98cb643d809164d6c8a1392eb292a5e7e4774a253e971.png",
+      "sha256": "9c807a1dc3dc33598dd98cb643d809164d6c8a1392eb292a5e7e4774a253e971",
+      "bytes": 12120,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/26c3c0218f6dddab04b3893c2519736be3b2d796c29187320cc931ddd1060fd8.png": {
+      "path": "_shared/media/26c3c0218f6dddab04b3893c2519736be3b2d796c29187320cc931ddd1060fd8.png",
+      "sha256": "26c3c0218f6dddab04b3893c2519736be3b2d796c29187320cc931ddd1060fd8",
+      "bytes": 22550,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/5c672422fde2b55f87f94f079eb13f03cb98b0bea8170fdf18884f688cb4e16b.png": {
+      "path": "_shared/media/5c672422fde2b55f87f94f079eb13f03cb98b0bea8170fdf18884f688cb4e16b.png",
+      "sha256": "5c672422fde2b55f87f94f079eb13f03cb98b0bea8170fdf18884f688cb4e16b",
+      "bytes": 945,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/82a739a1fbb24f8549cadfac20637ccc2cb1c78b94b78ec126507f0a6c3a6b9f.png": {
+      "path": "_shared/media/82a739a1fbb24f8549cadfac20637ccc2cb1c78b94b78ec126507f0a6c3a6b9f.png",
+      "sha256": "82a739a1fbb24f8549cadfac20637ccc2cb1c78b94b78ec126507f0a6c3a6b9f",
+      "bytes": 128276,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/frezernyy-stanok-s-mnogofunktsionalnoy-golovkoy-54c1699bc7.zip": {
+      "path": "_shared/examples/frezernyy-stanok-s-mnogofunktsionalnoy-golovkoy-54c1699bc7.zip",
+      "sha256": "54c1699bc75a53fb0bb496dd777c23dafd056e062a1c16aabf177008ce9fe200",
+      "bytes": 813116,
+      "kind": "release",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/c69620ae03da175dee6cd774e66cfbcceec59bee749ebc306d7a3bbe1442cd21.png": {
+      "path": "_shared/media/c69620ae03da175dee6cd774e66cfbcceec59bee749ebc306d7a3bbe1442cd21.png",
+      "sha256": "c69620ae03da175dee6cd774e66cfbcceec59bee749ebc306d7a3bbe1442cd21",
+      "bytes": 58634,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/0a1e6d8204430981a9ddff57e05466c8b55d481e6a77c901863a463f3fc44da1.png": {
+      "path": "_shared/media/0a1e6d8204430981a9ddff57e05466c8b55d481e6a77c901863a463f3fc44da1.png",
+      "sha256": "0a1e6d8204430981a9ddff57e05466c8b55d481e6a77c901863a463f3fc44da1",
+      "bytes": 174307,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/300e515bc8ac0db96e5a445d5abfc1136a1196f3f3b6f3459bcc47ec96c2bbc4.webp": {
+      "path": "_shared/media/300e515bc8ac0db96e5a445d5abfc1136a1196f3f3b6f3459bcc47ec96c2bbc4.webp",
+      "sha256": "300e515bc8ac0db96e5a445d5abfc1136a1196f3f3b6f3459bcc47ec96c2bbc4",
+      "bytes": 4026550,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9e1f5e92fb10d6034d51b559d5369442a38d0f2f9f33d1bcdd753858463bd3d2.webp": {
+      "path": "_shared/media/9e1f5e92fb10d6034d51b559d5369442a38d0f2f9f33d1bcdd753858463bd3d2.webp",
+      "sha256": "9e1f5e92fb10d6034d51b559d5369442a38d0f2f9f33d1bcdd753858463bd3d2",
+      "bytes": 2839778,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/47feaa5a084681b4f8d922711ce463f39e3a8f2f3fb270ca10fac743136ea21a.webp": {
+      "path": "_shared/media/47feaa5a084681b4f8d922711ce463f39e3a8f2f3fb270ca10fac743136ea21a.webp",
+      "sha256": "47feaa5a084681b4f8d922711ce463f39e3a8f2f3fb270ca10fac743136ea21a",
+      "bytes": 507580,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    },
+    "https://encysoftware.github.io/public-docs/v3/machinemaker/media/d9e7224f3fcbf32e7214133a50d3ca85098d89d4da64e0b9e106bf3e84d7a6d9.webp": {
+      "path": "_shared/media/d9e7224f3fcbf32e7214133a50d3ca85098d89d4da64e0b9e106bf3e84d7a6d9.webp",
+      "sha256": "d9e7224f3fcbf32e7214133a50d3ca85098d89d4da64e0b9e106bf3e84d7a6d9",
+      "bytes": 1531104,
+      "kind": "media",
+      "legacy_version_compatibility_confirmed": null
+    }
+  },
+  "changes": [
+    {
+      "file": "milling/en/src/3-axes-milling-machine.html",
+      "source_url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/Milling_Machine-23e984538a.zip",
+      "local_url": "../../../_shared/examples/Milling_Machine-23e984538a.zip"
+    },
+    {
+      "file": "milling/en/src/3-axes-milling-machine.html",
+      "source_url": "https://download.sprutcam.com/download/sprutcam/MachineMaker/version_16/examples/3AxesMillingMachine/Milling_machine_3ax.zip",
+      "local_url": "../../../_shared/examples/legacy-v16/Milling_machine_3ax.zip"
+    },
+    {
+      "file": "milling/en/src/3-axes-milling-machine.html",
+      "source_url": "https://download.sprutcam.com/download/sprutcam/MachineMaker/version_16/examples/3AxesMillingMachine/Milling_machine.zip",
+      "local_url": "../../../_shared/examples/legacy-v16/Milling_machine.zip"
+    },
+    {
+      "file": "milling/en/src/5-axes-milling-machine.html",
+      "source_url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/5AxesMillingMachine-34140c2b09.zip",
+      "local_url": "../../../_shared/examples/5AxesMillingMachine-34140c2b09.zip"
+    },
+    {
+      "file": "milling/en/src/lathe-milling-machine-with-a-dual-row-turret.html",
+      "source_url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/Lathe_milling_machine-b093694fe9.zip",
+      "local_url": "../../../_shared/examples/Lathe_milling_machine-b093694fe9.zip"
+    },
+    {
+      "file": "milling/en/src/lathe-milling-machine.html",
+      "source_url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/Samsung_PL-20MC-cf9ed9ddf8.zip",
+      "local_url": "../../../_shared/examples/Samsung_PL-20MC-cf9ed9ddf8.zip"
+    },
+    {
+      "file": "milling/en/src/machine-equipment-configuration.html",
+      "source_url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/Machine_equipment_1-6623c43908.rar",
+      "local_url": "../../../_shared/examples/Machine_equipment_1-6623c43908.rar"
+    },
+    {
+      "file": "milling/en/src/machine-equipment-configuration.html",
+      "source_url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/Machine_equipment_2-e22c4bff05.rar",
+      "local_url": "../../../_shared/examples/Machine_equipment_2-e22c4bff05.rar"
+    },
+    {
+      "file": "milling/en/src/machine-equipment-configuration.html",
+      "source_url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/Milling_machine-62966e00df.rar",
+      "local_url": "../../../_shared/examples/Milling_machine-62966e00df.rar"
+    },
+    {
+      "file": "milling/en/src/swiss-type-machine.html",
+      "source_url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/3D_models_Hanwha_XD10-442fcff663.zip",
+      "local_url": "../../../_shared/examples/3D_models_Hanwha_XD10-442fcff663.zip"
+    },
+    {
+      "file": "milling/en/src/swiss-type-machine.html",
+      "source_url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/MachineSchema-b0d2a4c49e.zip",
+      "local_url": "../../../_shared/examples/MachineSchema-b0d2a4c49e.zip"
+    },
+    {
+      "file": "milling/en/src/trevisan-machine.html",
+      "source_url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/Trevisan_Machine-4953ecb98e.zip",
+      "local_url": "../../../_shared/examples/Trevisan_Machine-4953ecb98e.zip"
+    },
+    {
+      "file": "milling/ru/src/3-axes-milling-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/f1d891ea06259807f42f645a73cbe395a016d245023bc15eac09f1cdd25796a6.png",
+      "local_url": "../../../_shared/media/f1d891ea06259807f42f645a73cbe395a016d245023bc15eac09f1cdd25796a6.png"
+    },
+    {
+      "file": "milling/ru/src/3-axes-milling-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/f1d891ea06259807f42f645a73cbe395a016d245023bc15eac09f1cdd25796a6.png",
+      "local_url": "../../../_shared/media/f1d891ea06259807f42f645a73cbe395a016d245023bc15eac09f1cdd25796a6.png"
+    },
+    {
+      "file": "milling/ru/src/3-axes-milling-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/f1d891ea06259807f42f645a73cbe395a016d245023bc15eac09f1cdd25796a6.png",
+      "local_url": "../../../_shared/media/f1d891ea06259807f42f645a73cbe395a016d245023bc15eac09f1cdd25796a6.png"
+    },
+    {
+      "file": "milling/ru/src/3-axes-milling-machine.html",
+      "source_url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/frezernyy-stanok-80ac7b5215.zip",
+      "local_url": "../../../_shared/examples/frezernyy-stanok-80ac7b5215.zip"
+    },
+    {
+      "file": "milling/ru/src/3-axes-milling-machine.html",
+      "source_url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/frezernyystanok3osi-75a00409f0.zip",
+      "local_url": "../../../_shared/examples/frezernyystanok3osi-75a00409f0.zip"
+    },
+    {
+      "file": "milling/ru/src/3-axes-milling-machine.html",
+      "source_url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/frezernyystanok-79f6640dd7.zip",
+      "local_url": "../../../_shared/examples/frezernyystanok-79f6640dd7.zip"
+    },
+    {
+      "file": "milling/ru/src/3d-navigation.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6d3ced18200b08782d732d05ada41d510d8e08a8273bd7eb1d3f418db748a4c5.png",
+      "local_url": "../../../_shared/media/6d3ced18200b08782d732d05ada41d510d8e08a8273bd7eb1d3f418db748a4c5.png"
+    },
+    {
+      "file": "milling/ru/src/3d-navigation.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6d3ced18200b08782d732d05ada41d510d8e08a8273bd7eb1d3f418db748a4c5.png",
+      "local_url": "../../../_shared/media/6d3ced18200b08782d732d05ada41d510d8e08a8273bd7eb1d3f418db748a4c5.png"
+    },
+    {
+      "file": "milling/ru/src/3d-navigation.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/271b6c6f7b4b5c47016f9f9c812812697835da60260de226ee340696ea8202b2.png",
+      "local_url": "../../../_shared/media/271b6c6f7b4b5c47016f9f9c812812697835da60260de226ee340696ea8202b2.png"
+    },
+    {
+      "file": "milling/ru/src/3d-navigation.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/271b6c6f7b4b5c47016f9f9c812812697835da60260de226ee340696ea8202b2.png",
+      "local_url": "../../../_shared/media/271b6c6f7b4b5c47016f9f9c812812697835da60260de226ee340696ea8202b2.png"
+    },
+    {
+      "file": "milling/ru/src/3d-navigation.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/74bd53e541a9962c08f31feff3625f54d32258e1bb35f3bd416783a0bf8bb956.webp",
+      "local_url": "../../../_shared/media/74bd53e541a9962c08f31feff3625f54d32258e1bb35f3bd416783a0bf8bb956.webp"
+    },
+    {
+      "file": "milling/ru/src/3d-navigation.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/74bd53e541a9962c08f31feff3625f54d32258e1bb35f3bd416783a0bf8bb956.webp",
+      "local_url": "../../../_shared/media/74bd53e541a9962c08f31feff3625f54d32258e1bb35f3bd416783a0bf8bb956.webp"
+    },
+    {
+      "file": "milling/ru/src/3d-navigation.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/07c82504426e2425ed2b5e5facb2f82990a48cb1ed816c2c58f893501852108c.png",
+      "local_url": "../../../_shared/media/07c82504426e2425ed2b5e5facb2f82990a48cb1ed816c2c58f893501852108c.png"
+    },
+    {
+      "file": "milling/ru/src/3d-navigation.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/07c82504426e2425ed2b5e5facb2f82990a48cb1ed816c2c58f893501852108c.png",
+      "local_url": "../../../_shared/media/07c82504426e2425ed2b5e5facb2f82990a48cb1ed816c2c58f893501852108c.png"
+    },
+    {
+      "file": "milling/ru/src/3d-navigation.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4d5ea19e86b25979b9c79ee059ea7c6d9ceac3961b9fbbdc3d99768c75d72f60.png",
+      "local_url": "../../../_shared/media/4d5ea19e86b25979b9c79ee059ea7c6d9ceac3961b9fbbdc3d99768c75d72f60.png"
+    },
+    {
+      "file": "milling/ru/src/3d-navigation.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4d5ea19e86b25979b9c79ee059ea7c6d9ceac3961b9fbbdc3d99768c75d72f60.png",
+      "local_url": "../../../_shared/media/4d5ea19e86b25979b9c79ee059ea7c6d9ceac3961b9fbbdc3d99768c75d72f60.png"
+    },
+    {
+      "file": "milling/ru/src/3d-navigation.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/f6eafaf332b78a4c690003fe836cfe44b2016b15b1c41ad8d781374e4f5552ab.webp",
+      "local_url": "../../../_shared/media/f6eafaf332b78a4c690003fe836cfe44b2016b15b1c41ad8d781374e4f5552ab.webp"
+    },
+    {
+      "file": "milling/ru/src/3d-navigation.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/f6eafaf332b78a4c690003fe836cfe44b2016b15b1c41ad8d781374e4f5552ab.webp",
+      "local_url": "../../../_shared/media/f6eafaf332b78a4c690003fe836cfe44b2016b15b1c41ad8d781374e4f5552ab.webp"
+    },
+    {
+      "file": "milling/ru/src/3d-navigation.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/5c10cccba53903843ad6cca2eb8c386475c711ce347455cdedfbe5fa0adc1d02.webp",
+      "local_url": "../../../_shared/media/5c10cccba53903843ad6cca2eb8c386475c711ce347455cdedfbe5fa0adc1d02.webp"
+    },
+    {
+      "file": "milling/ru/src/3d-navigation.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/5c10cccba53903843ad6cca2eb8c386475c711ce347455cdedfbe5fa0adc1d02.webp",
+      "local_url": "../../../_shared/media/5c10cccba53903843ad6cca2eb8c386475c711ce347455cdedfbe5fa0adc1d02.webp"
+    },
+    {
+      "file": "milling/ru/src/5-axes-milling-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/a2ce381922ddb3b2ed4ff51cc58ddd6f68b0304d0d76dbafecc5badcfec35c94.png",
+      "local_url": "../../../_shared/media/a2ce381922ddb3b2ed4ff51cc58ddd6f68b0304d0d76dbafecc5badcfec35c94.png"
+    },
+    {
+      "file": "milling/ru/src/5-axes-milling-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/a2ce381922ddb3b2ed4ff51cc58ddd6f68b0304d0d76dbafecc5badcfec35c94.png",
+      "local_url": "../../../_shared/media/a2ce381922ddb3b2ed4ff51cc58ddd6f68b0304d0d76dbafecc5badcfec35c94.png"
+    },
+    {
+      "file": "milling/ru/src/5-axes-milling-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/a2ce381922ddb3b2ed4ff51cc58ddd6f68b0304d0d76dbafecc5badcfec35c94.png",
+      "local_url": "../../../_shared/media/a2ce381922ddb3b2ed4ff51cc58ddd6f68b0304d0d76dbafecc5badcfec35c94.png"
+    },
+    {
+      "file": "milling/ru/src/5-axes-milling-machine.html",
+      "source_url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/5-osevoy-stanok-8ade33856f.zip",
+      "local_url": "../../../_shared/examples/5-osevoy-stanok-8ade33856f.zip"
+    },
+    {
+      "file": "milling/ru/src/adding-a-mechanism.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/94759f236b5dbb4dbde38d6d42eb04b5291a3899eb08d0125a1d730b37bb7809.png",
+      "local_url": "../../../_shared/media/94759f236b5dbb4dbde38d6d42eb04b5291a3899eb08d0125a1d730b37bb7809.png"
+    },
+    {
+      "file": "milling/ru/src/adding-a-mechanism.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/94759f236b5dbb4dbde38d6d42eb04b5291a3899eb08d0125a1d730b37bb7809.png",
+      "local_url": "../../../_shared/media/94759f236b5dbb4dbde38d6d42eb04b5291a3899eb08d0125a1d730b37bb7809.png"
+    },
+    {
+      "file": "milling/ru/src/adding-a-mechanism.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/94759f236b5dbb4dbde38d6d42eb04b5291a3899eb08d0125a1d730b37bb7809.png",
+      "local_url": "../../../_shared/media/94759f236b5dbb4dbde38d6d42eb04b5291a3899eb08d0125a1d730b37bb7809.png"
+    },
+    {
+      "file": "milling/ru/src/additional-options.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/3a1791e7395011803de4fdaf8e44a5caf7762b3f78fab72ff1c7e95b71c72510.png",
+      "local_url": "../../../_shared/media/3a1791e7395011803de4fdaf8e44a5caf7762b3f78fab72ff1c7e95b71c72510.png"
+    },
+    {
+      "file": "milling/ru/src/additional-options.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/3a1791e7395011803de4fdaf8e44a5caf7762b3f78fab72ff1c7e95b71c72510.png",
+      "local_url": "../../../_shared/media/3a1791e7395011803de4fdaf8e44a5caf7762b3f78fab72ff1c7e95b71c72510.png"
+    },
+    {
+      "file": "milling/ru/src/additional-options.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/835df348294d2a29e328d2106b304173066fa1256801e425339a437600379d23.png",
+      "local_url": "../../../_shared/media/835df348294d2a29e328d2106b304173066fa1256801e425339a437600379d23.png"
+    },
+    {
+      "file": "milling/ru/src/additional-options.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/835df348294d2a29e328d2106b304173066fa1256801e425339a437600379d23.png",
+      "local_url": "../../../_shared/media/835df348294d2a29e328d2106b304173066fa1256801e425339a437600379d23.png"
+    },
+    {
+      "file": "milling/ru/src/additional-options.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/835df348294d2a29e328d2106b304173066fa1256801e425339a437600379d23.png",
+      "local_url": "../../../_shared/media/835df348294d2a29e328d2106b304173066fa1256801e425339a437600379d23.png"
+    },
+    {
+      "file": "milling/ru/src/application-settings.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/7f5aece4fa0c495df96a0a266b5c169a910742746c40c6368df45dcbd4f81bb4.png",
+      "local_url": "../../../_shared/media/7f5aece4fa0c495df96a0a266b5c169a910742746c40c6368df45dcbd4f81bb4.png"
+    },
+    {
+      "file": "milling/ru/src/application-settings.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/7f5aece4fa0c495df96a0a266b5c169a910742746c40c6368df45dcbd4f81bb4.png",
+      "local_url": "../../../_shared/media/7f5aece4fa0c495df96a0a266b5c169a910742746c40c6368df45dcbd4f81bb4.png"
+    },
+    {
+      "file": "milling/ru/src/application-settings.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/7f5aece4fa0c495df96a0a266b5c169a910742746c40c6368df45dcbd4f81bb4.png",
+      "local_url": "../../../_shared/media/7f5aece4fa0c495df96a0a266b5c169a910742746c40c6368df45dcbd4f81bb4.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/b65c64d812e514058d79fbc9cf11e8bd54219ce9ca022196dd8c624dec9a4e7b.png",
+      "local_url": "../../../_shared/media/b65c64d812e514058d79fbc9cf11e8bd54219ce9ca022196dd8c624dec9a4e7b.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/b65c64d812e514058d79fbc9cf11e8bd54219ce9ca022196dd8c624dec9a4e7b.png",
+      "local_url": "../../../_shared/media/b65c64d812e514058d79fbc9cf11e8bd54219ce9ca022196dd8c624dec9a4e7b.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/b65c64d812e514058d79fbc9cf11e8bd54219ce9ca022196dd8c624dec9a4e7b.png",
+      "local_url": "../../../_shared/media/b65c64d812e514058d79fbc9cf11e8bd54219ce9ca022196dd8c624dec9a4e7b.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9a165e8c6e8b23b4c3abec7405c07757f22d773aa4ff3a568bba6671bf231e31.png",
+      "local_url": "../../../_shared/media/9a165e8c6e8b23b4c3abec7405c07757f22d773aa4ff3a568bba6671bf231e31.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9a165e8c6e8b23b4c3abec7405c07757f22d773aa4ff3a568bba6671bf231e31.png",
+      "local_url": "../../../_shared/media/9a165e8c6e8b23b4c3abec7405c07757f22d773aa4ff3a568bba6671bf231e31.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9a165e8c6e8b23b4c3abec7405c07757f22d773aa4ff3a568bba6671bf231e31.png",
+      "local_url": "../../../_shared/media/9a165e8c6e8b23b4c3abec7405c07757f22d773aa4ff3a568bba6671bf231e31.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6d57ea7fc4cccd67564ce90207046869325d4677581e860d6841a4cde818ed43.png",
+      "local_url": "../../../_shared/media/6d57ea7fc4cccd67564ce90207046869325d4677581e860d6841a4cde818ed43.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6d57ea7fc4cccd67564ce90207046869325d4677581e860d6841a4cde818ed43.png",
+      "local_url": "../../../_shared/media/6d57ea7fc4cccd67564ce90207046869325d4677581e860d6841a4cde818ed43.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6d57ea7fc4cccd67564ce90207046869325d4677581e860d6841a4cde818ed43.png",
+      "local_url": "../../../_shared/media/6d57ea7fc4cccd67564ce90207046869325d4677581e860d6841a4cde818ed43.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/e61a8daf9c3737bd7e5504dfd2e2edcab58de28dbc0abc1d85bb8aa5b58ff4c6.png",
+      "local_url": "../../../_shared/media/e61a8daf9c3737bd7e5504dfd2e2edcab58de28dbc0abc1d85bb8aa5b58ff4c6.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/e61a8daf9c3737bd7e5504dfd2e2edcab58de28dbc0abc1d85bb8aa5b58ff4c6.png",
+      "local_url": "../../../_shared/media/e61a8daf9c3737bd7e5504dfd2e2edcab58de28dbc0abc1d85bb8aa5b58ff4c6.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/cb4f73867c3fffd0acfa43130042fe44c90d1981b07c0cc2dffbfea8a6ea9c6d.png",
+      "local_url": "../../../_shared/media/cb4f73867c3fffd0acfa43130042fe44c90d1981b07c0cc2dffbfea8a6ea9c6d.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/cb4f73867c3fffd0acfa43130042fe44c90d1981b07c0cc2dffbfea8a6ea9c6d.png",
+      "local_url": "../../../_shared/media/cb4f73867c3fffd0acfa43130042fe44c90d1981b07c0cc2dffbfea8a6ea9c6d.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/cb4f73867c3fffd0acfa43130042fe44c90d1981b07c0cc2dffbfea8a6ea9c6d.png",
+      "local_url": "../../../_shared/media/cb4f73867c3fffd0acfa43130042fe44c90d1981b07c0cc2dffbfea8a6ea9c6d.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/11e78de8efaeebc62e4f7cdaacdd060145af77477b2d00d8dcedfab93847d7c7.png",
+      "local_url": "../../../_shared/media/11e78de8efaeebc62e4f7cdaacdd060145af77477b2d00d8dcedfab93847d7c7.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/11e78de8efaeebc62e4f7cdaacdd060145af77477b2d00d8dcedfab93847d7c7.png",
+      "local_url": "../../../_shared/media/11e78de8efaeebc62e4f7cdaacdd060145af77477b2d00d8dcedfab93847d7c7.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/292878a1c45eb0a94a40afb59ddc85fab9fc8b619edf763d348c8157671dae2f.png",
+      "local_url": "../../../_shared/media/292878a1c45eb0a94a40afb59ddc85fab9fc8b619edf763d348c8157671dae2f.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/292878a1c45eb0a94a40afb59ddc85fab9fc8b619edf763d348c8157671dae2f.png",
+      "local_url": "../../../_shared/media/292878a1c45eb0a94a40afb59ddc85fab9fc8b619edf763d348c8157671dae2f.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/292878a1c45eb0a94a40afb59ddc85fab9fc8b619edf763d348c8157671dae2f.png",
+      "local_url": "../../../_shared/media/292878a1c45eb0a94a40afb59ddc85fab9fc8b619edf763d348c8157671dae2f.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/8f8abc959b6b42a4a9b7bb01138fcb6e795274af6dab1328dc2e08dcc5445cde.webp",
+      "local_url": "../../../_shared/media/8f8abc959b6b42a4a9b7bb01138fcb6e795274af6dab1328dc2e08dcc5445cde.webp"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/8f8abc959b6b42a4a9b7bb01138fcb6e795274af6dab1328dc2e08dcc5445cde.webp",
+      "local_url": "../../../_shared/media/8f8abc959b6b42a4a9b7bb01138fcb6e795274af6dab1328dc2e08dcc5445cde.webp"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/26dca9313d0c2fa99f471babf3ba9dd6641b60da058cae58069f6f229cda714e.png",
+      "local_url": "../../../_shared/media/26dca9313d0c2fa99f471babf3ba9dd6641b60da058cae58069f6f229cda714e.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/26dca9313d0c2fa99f471babf3ba9dd6641b60da058cae58069f6f229cda714e.png",
+      "local_url": "../../../_shared/media/26dca9313d0c2fa99f471babf3ba9dd6641b60da058cae58069f6f229cda714e.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/26dca9313d0c2fa99f471babf3ba9dd6641b60da058cae58069f6f229cda714e.png",
+      "local_url": "../../../_shared/media/26dca9313d0c2fa99f471babf3ba9dd6641b60da058cae58069f6f229cda714e.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/a5a1b994deed7000698afcc3812b621dc64657973b430a392ef96540bc9c5f5d.webp",
+      "local_url": "../../../_shared/media/a5a1b994deed7000698afcc3812b621dc64657973b430a392ef96540bc9c5f5d.webp"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/a5a1b994deed7000698afcc3812b621dc64657973b430a392ef96540bc9c5f5d.webp",
+      "local_url": "../../../_shared/media/a5a1b994deed7000698afcc3812b621dc64657973b430a392ef96540bc9c5f5d.webp"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4942ec764d73c1258926647d326344a5612412b98cb04f23d8fa9bc6d346f363.png",
+      "local_url": "../../../_shared/media/4942ec764d73c1258926647d326344a5612412b98cb04f23d8fa9bc6d346f363.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4942ec764d73c1258926647d326344a5612412b98cb04f23d8fa9bc6d346f363.png",
+      "local_url": "../../../_shared/media/4942ec764d73c1258926647d326344a5612412b98cb04f23d8fa9bc6d346f363.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/3db635ad8fe49e94ee82e7cd7986830080429d1d7a9a9d78f6c10c00cb49a61e.png",
+      "local_url": "../../../_shared/media/3db635ad8fe49e94ee82e7cd7986830080429d1d7a9a9d78f6c10c00cb49a61e.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/3db635ad8fe49e94ee82e7cd7986830080429d1d7a9a9d78f6c10c00cb49a61e.png",
+      "local_url": "../../../_shared/media/3db635ad8fe49e94ee82e7cd7986830080429d1d7a9a9d78f6c10c00cb49a61e.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/8451c6dc2391fe060250e35e089297d9fe5c472f5398016831bb5f8f756d9c38.webp",
+      "local_url": "../../../_shared/media/8451c6dc2391fe060250e35e089297d9fe5c472f5398016831bb5f8f756d9c38.webp"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/8451c6dc2391fe060250e35e089297d9fe5c472f5398016831bb5f8f756d9c38.webp",
+      "local_url": "../../../_shared/media/8451c6dc2391fe060250e35e089297d9fe5c472f5398016831bb5f8f756d9c38.webp"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/1c565a5181273ca4432533b8329f0b73b25200697d625ed1b36965a07f63284a.png",
+      "local_url": "../../../_shared/media/1c565a5181273ca4432533b8329f0b73b25200697d625ed1b36965a07f63284a.png"
+    },
+    {
+      "file": "milling/ru/src/assemblies.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/1c565a5181273ca4432533b8329f0b73b25200697d625ed1b36965a07f63284a.png",
+      "local_url": "../../../_shared/media/1c565a5181273ca4432533b8329f0b73b25200697d625ed1b36965a07f63284a.png"
+    },
+    {
+      "file": "milling/ru/src/assembly-options.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/3a1791e7395011803de4fdaf8e44a5caf7762b3f78fab72ff1c7e95b71c72510.png",
+      "local_url": "../../../_shared/media/3a1791e7395011803de4fdaf8e44a5caf7762b3f78fab72ff1c7e95b71c72510.png"
+    },
+    {
+      "file": "milling/ru/src/assembly-options.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/3a1791e7395011803de4fdaf8e44a5caf7762b3f78fab72ff1c7e95b71c72510.png",
+      "local_url": "../../../_shared/media/3a1791e7395011803de4fdaf8e44a5caf7762b3f78fab72ff1c7e95b71c72510.png"
+    },
+    {
+      "file": "milling/ru/src/assembly-options.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6812d46cfeab07fcd589da51ace652887a4b30dee3f72b157e86fb5c21c23b58.png",
+      "local_url": "../../../_shared/media/6812d46cfeab07fcd589da51ace652887a4b30dee3f72b157e86fb5c21c23b58.png"
+    },
+    {
+      "file": "milling/ru/src/assembly-options.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6812d46cfeab07fcd589da51ace652887a4b30dee3f72b157e86fb5c21c23b58.png",
+      "local_url": "../../../_shared/media/6812d46cfeab07fcd589da51ace652887a4b30dee3f72b157e86fb5c21c23b58.png"
+    },
+    {
+      "file": "milling/ru/src/assembly-options.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6812d46cfeab07fcd589da51ace652887a4b30dee3f72b157e86fb5c21c23b58.png",
+      "local_url": "../../../_shared/media/6812d46cfeab07fcd589da51ace652887a4b30dee3f72b157e86fb5c21c23b58.png"
+    },
+    {
+      "file": "milling/ru/src/building-a-kinematic-scheme.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/0ceefe2b9a31519dad6a5edd8a5b5f0469e4901b4f04004c55cfe49e2af4a1d5.png",
+      "local_url": "../../../_shared/media/0ceefe2b9a31519dad6a5edd8a5b5f0469e4901b4f04004c55cfe49e2af4a1d5.png"
+    },
+    {
+      "file": "milling/ru/src/building-a-kinematic-scheme.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/0ceefe2b9a31519dad6a5edd8a5b5f0469e4901b4f04004c55cfe49e2af4a1d5.png",
+      "local_url": "../../../_shared/media/0ceefe2b9a31519dad6a5edd8a5b5f0469e4901b4f04004c55cfe49e2af4a1d5.png"
+    },
+    {
+      "file": "milling/ru/src/building-a-kinematic-scheme.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/0ceefe2b9a31519dad6a5edd8a5b5f0469e4901b4f04004c55cfe49e2af4a1d5.png",
+      "local_url": "../../../_shared/media/0ceefe2b9a31519dad6a5edd8a5b5f0469e4901b4f04004c55cfe49e2af4a1d5.png"
+    },
+    {
+      "file": "milling/ru/src/building-a-kinematic-scheme.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4c6fd19a964fd4461c24da199217ed0c901adf2659799e378c146fe4235c8249.webp",
+      "local_url": "../../../_shared/media/4c6fd19a964fd4461c24da199217ed0c901adf2659799e378c146fe4235c8249.webp"
+    },
+    {
+      "file": "milling/ru/src/building-a-kinematic-scheme.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4c6fd19a964fd4461c24da199217ed0c901adf2659799e378c146fe4235c8249.webp",
+      "local_url": "../../../_shared/media/4c6fd19a964fd4461c24da199217ed0c901adf2659799e378c146fe4235c8249.webp"
+    },
+    {
+      "file": "milling/ru/src/building-a-kinematic-scheme.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/bc014087dc4e1072bc996ab907cb0706747565c509ca9d78b09bfd673815a19b.png",
+      "local_url": "../../../_shared/media/bc014087dc4e1072bc996ab907cb0706747565c509ca9d78b09bfd673815a19b.png"
+    },
+    {
+      "file": "milling/ru/src/building-a-kinematic-scheme.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/bc014087dc4e1072bc996ab907cb0706747565c509ca9d78b09bfd673815a19b.png",
+      "local_url": "../../../_shared/media/bc014087dc4e1072bc996ab907cb0706747565c509ca9d78b09bfd673815a19b.png"
+    },
+    {
+      "file": "milling/ru/src/building-a-kinematic-scheme.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/bc014087dc4e1072bc996ab907cb0706747565c509ca9d78b09bfd673815a19b.png",
+      "local_url": "../../../_shared/media/bc014087dc4e1072bc996ab907cb0706747565c509ca9d78b09bfd673815a19b.png"
+    },
+    {
+      "file": "milling/ru/src/building-a-kinematic-scheme.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/497951c171fc80364300ffae946170eae5f21b39743b066f92a78daf487acf46.png",
+      "local_url": "../../../_shared/media/497951c171fc80364300ffae946170eae5f21b39743b066f92a78daf487acf46.png"
+    },
+    {
+      "file": "milling/ru/src/building-a-kinematic-scheme.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/497951c171fc80364300ffae946170eae5f21b39743b066f92a78daf487acf46.png",
+      "local_url": "../../../_shared/media/497951c171fc80364300ffae946170eae5f21b39743b066f92a78daf487acf46.png"
+    },
+    {
+      "file": "milling/ru/src/building-a-kinematic-scheme.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/497951c171fc80364300ffae946170eae5f21b39743b066f92a78daf487acf46.png",
+      "local_url": "../../../_shared/media/497951c171fc80364300ffae946170eae5f21b39743b066f92a78daf487acf46.png"
+    },
+    {
+      "file": "milling/ru/src/building-a-kinematic-scheme.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/01e326e7e28fc640696bcf1edf28efdeb0fb4c971da8f7b2dba181335883a049.png",
+      "local_url": "../../../_shared/media/01e326e7e28fc640696bcf1edf28efdeb0fb4c971da8f7b2dba181335883a049.png"
+    },
+    {
+      "file": "milling/ru/src/building-a-kinematic-scheme.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/01e326e7e28fc640696bcf1edf28efdeb0fb4c971da8f7b2dba181335883a049.png",
+      "local_url": "../../../_shared/media/01e326e7e28fc640696bcf1edf28efdeb0fb4c971da8f7b2dba181335883a049.png"
+    },
+    {
+      "file": "milling/ru/src/building-a-kinematic-scheme.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/01e326e7e28fc640696bcf1edf28efdeb0fb4c971da8f7b2dba181335883a049.png",
+      "local_url": "../../../_shared/media/01e326e7e28fc640696bcf1edf28efdeb0fb4c971da8f7b2dba181335883a049.png"
+    },
+    {
+      "file": "milling/ru/src/building-a-kinematic-scheme.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/783696111fd824b917aaeffaedfde0343bde7308d8b23ccc22284060d759fb31.png",
+      "local_url": "../../../_shared/media/783696111fd824b917aaeffaedfde0343bde7308d8b23ccc22284060d759fb31.png"
+    },
+    {
+      "file": "milling/ru/src/building-a-kinematic-scheme.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/783696111fd824b917aaeffaedfde0343bde7308d8b23ccc22284060d759fb31.png",
+      "local_url": "../../../_shared/media/783696111fd824b917aaeffaedfde0343bde7308d8b23ccc22284060d759fb31.png"
+    },
+    {
+      "file": "milling/ru/src/building-a-kinematic-scheme.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/783696111fd824b917aaeffaedfde0343bde7308d8b23ccc22284060d759fb31.png",
+      "local_url": "../../../_shared/media/783696111fd824b917aaeffaedfde0343bde7308d8b23ccc22284060d759fb31.png"
+    },
+    {
+      "file": "milling/ru/src/building-a-kinematic-scheme.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/d90fbf0be6e586d392f648f49f81eac2cd56502a8c58739ec245083a90d0928c.webp",
+      "local_url": "../../../_shared/media/d90fbf0be6e586d392f648f49f81eac2cd56502a8c58739ec245083a90d0928c.webp"
+    },
+    {
+      "file": "milling/ru/src/building-a-kinematic-scheme.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/d90fbf0be6e586d392f648f49f81eac2cd56502a8c58739ec245083a90d0928c.webp",
+      "local_url": "../../../_shared/media/d90fbf0be6e586d392f648f49f81eac2cd56502a8c58739ec245083a90d0928c.webp"
+    },
+    {
+      "file": "milling/ru/src/building-a-kinematic-scheme.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/047153ce37e4f84cd017c99e536bd3d533c31f17c77a730d5394c06f8e725804.webp",
+      "local_url": "../../../_shared/media/047153ce37e4f84cd017c99e536bd3d533c31f17c77a730d5394c06f8e725804.webp"
+    },
+    {
+      "file": "milling/ru/src/building-a-kinematic-scheme.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/047153ce37e4f84cd017c99e536bd3d533c31f17c77a730d5394c06f8e725804.webp",
+      "local_url": "../../../_shared/media/047153ce37e4f84cd017c99e536bd3d533c31f17c77a730d5394c06f8e725804.webp"
+    },
+    {
+      "file": "milling/ru/src/building-a-kinematic-scheme.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/de22d1d2780170403bb0c98d9958c33cd461f2cb62bdbecaa443637984ead358.webp",
+      "local_url": "../../../_shared/media/de22d1d2780170403bb0c98d9958c33cd461f2cb62bdbecaa443637984ead358.webp"
+    },
+    {
+      "file": "milling/ru/src/building-a-kinematic-scheme.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/de22d1d2780170403bb0c98d9958c33cd461f2cb62bdbecaa443637984ead358.webp",
+      "local_url": "../../../_shared/media/de22d1d2780170403bb0c98d9958c33cd461f2cb62bdbecaa443637984ead358.webp"
+    },
+    {
+      "file": "milling/ru/src/chuck-connector.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4b192f500f109ae01448ec87dea55621549946eb1b581a1d6fe2eda7f0b0a9b2.png",
+      "local_url": "../../../_shared/media/4b192f500f109ae01448ec87dea55621549946eb1b581a1d6fe2eda7f0b0a9b2.png"
+    },
+    {
+      "file": "milling/ru/src/chuck-connector.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4b192f500f109ae01448ec87dea55621549946eb1b581a1d6fe2eda7f0b0a9b2.png",
+      "local_url": "../../../_shared/media/4b192f500f109ae01448ec87dea55621549946eb1b581a1d6fe2eda7f0b0a9b2.png"
+    },
+    {
+      "file": "milling/ru/src/chuck-connector.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4b192f500f109ae01448ec87dea55621549946eb1b581a1d6fe2eda7f0b0a9b2.png",
+      "local_url": "../../../_shared/media/4b192f500f109ae01448ec87dea55621549946eb1b581a1d6fe2eda7f0b0a9b2.png"
+    },
+    {
+      "file": "milling/ru/src/chuck-connector.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/493ba744598ac036187c92da619e25b054a9183a84de5037d1db3512837f662e.png",
+      "local_url": "../../../_shared/media/493ba744598ac036187c92da619e25b054a9183a84de5037d1db3512837f662e.png"
+    },
+    {
+      "file": "milling/ru/src/chuck-connector.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/493ba744598ac036187c92da619e25b054a9183a84de5037d1db3512837f662e.png",
+      "local_url": "../../../_shared/media/493ba744598ac036187c92da619e25b054a9183a84de5037d1db3512837f662e.png"
+    },
+    {
+      "file": "milling/ru/src/chuck-connector.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/493ba744598ac036187c92da619e25b054a9183a84de5037d1db3512837f662e.png",
+      "local_url": "../../../_shared/media/493ba744598ac036187c92da619e25b054a9183a84de5037d1db3512837f662e.png"
+    },
+    {
+      "file": "milling/ru/src/chuck-connector.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/049ca1d69245afe8a021d4af36c6c2762f6b1c01e8f4dea29a1deea6f9fba470.webp",
+      "local_url": "../../../_shared/media/049ca1d69245afe8a021d4af36c6c2762f6b1c01e8f4dea29a1deea6f9fba470.webp"
+    },
+    {
+      "file": "milling/ru/src/chuck-connector.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/049ca1d69245afe8a021d4af36c6c2762f6b1c01e8f4dea29a1deea6f9fba470.webp",
+      "local_url": "../../../_shared/media/049ca1d69245afe8a021d4af36c6c2762f6b1c01e8f4dea29a1deea6f9fba470.webp"
+    },
+    {
+      "file": "milling/ru/src/coloring.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/e8cdfa755dacd19df1f62463f285a4cc387b893a0c382406e226cc7dbbda4b04.webp",
+      "local_url": "../../../_shared/media/e8cdfa755dacd19df1f62463f285a4cc387b893a0c382406e226cc7dbbda4b04.webp"
+    },
+    {
+      "file": "milling/ru/src/coloring.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/e8cdfa755dacd19df1f62463f285a4cc387b893a0c382406e226cc7dbbda4b04.webp",
+      "local_url": "../../../_shared/media/e8cdfa755dacd19df1f62463f285a4cc387b893a0c382406e226cc7dbbda4b04.webp"
+    },
+    {
+      "file": "milling/ru/src/creating-a-project.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/c25c90858d5b7a3c604ac8b119c3f725ead7e2e9405d233d071bd00599cbaa65.png",
+      "local_url": "../../../_shared/media/c25c90858d5b7a3c604ac8b119c3f725ead7e2e9405d233d071bd00599cbaa65.png"
+    },
+    {
+      "file": "milling/ru/src/creating-a-project.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/c25c90858d5b7a3c604ac8b119c3f725ead7e2e9405d233d071bd00599cbaa65.png",
+      "local_url": "../../../_shared/media/c25c90858d5b7a3c604ac8b119c3f725ead7e2e9405d233d071bd00599cbaa65.png"
+    },
+    {
+      "file": "milling/ru/src/creating-a-project.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/c25c90858d5b7a3c604ac8b119c3f725ead7e2e9405d233d071bd00599cbaa65.png",
+      "local_url": "../../../_shared/media/c25c90858d5b7a3c604ac8b119c3f725ead7e2e9405d233d071bd00599cbaa65.png"
+    },
+    {
+      "file": "milling/ru/src/creating-a-project.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9c7c0dbdb164a45fc6b08793f51cb83f96a8620e0230d07d7d55ba3773a8d912.png",
+      "local_url": "../../../_shared/media/9c7c0dbdb164a45fc6b08793f51cb83f96a8620e0230d07d7d55ba3773a8d912.png"
+    },
+    {
+      "file": "milling/ru/src/creating-a-project.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9c7c0dbdb164a45fc6b08793f51cb83f96a8620e0230d07d7d55ba3773a8d912.png",
+      "local_url": "../../../_shared/media/9c7c0dbdb164a45fc6b08793f51cb83f96a8620e0230d07d7d55ba3773a8d912.png"
+    },
+    {
+      "file": "milling/ru/src/creating-a-project.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9c7c0dbdb164a45fc6b08793f51cb83f96a8620e0230d07d7d55ba3773a8d912.png",
+      "local_url": "../../../_shared/media/9c7c0dbdb164a45fc6b08793f51cb83f96a8620e0230d07d7d55ba3773a8d912.png"
+    },
+    {
+      "file": "milling/ru/src/dual-row-turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6fa392fb3f7adc3fe34e56eb8a9e311735cb9a4d42f816866ad7e960092a90ca.png",
+      "local_url": "../../../_shared/media/6fa392fb3f7adc3fe34e56eb8a9e311735cb9a4d42f816866ad7e960092a90ca.png"
+    },
+    {
+      "file": "milling/ru/src/dual-row-turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6fa392fb3f7adc3fe34e56eb8a9e311735cb9a4d42f816866ad7e960092a90ca.png",
+      "local_url": "../../../_shared/media/6fa392fb3f7adc3fe34e56eb8a9e311735cb9a4d42f816866ad7e960092a90ca.png"
+    },
+    {
+      "file": "milling/ru/src/dual-row-turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6fa392fb3f7adc3fe34e56eb8a9e311735cb9a4d42f816866ad7e960092a90ca.png",
+      "local_url": "../../../_shared/media/6fa392fb3f7adc3fe34e56eb8a9e311735cb9a4d42f816866ad7e960092a90ca.png"
+    },
+    {
+      "file": "milling/ru/src/dual-row-turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/d593eb6803563d83be5b1f9acebca9f7b3d24a0321d1f1df860f608163cc6f08.png",
+      "local_url": "../../../_shared/media/d593eb6803563d83be5b1f9acebca9f7b3d24a0321d1f1df860f608163cc6f08.png"
+    },
+    {
+      "file": "milling/ru/src/dual-row-turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/d593eb6803563d83be5b1f9acebca9f7b3d24a0321d1f1df860f608163cc6f08.png",
+      "local_url": "../../../_shared/media/d593eb6803563d83be5b1f9acebca9f7b3d24a0321d1f1df860f608163cc6f08.png"
+    },
+    {
+      "file": "milling/ru/src/dual-row-turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6bf158759ce92ac4647f8bbffea2b6a9af3894995a7aeb6283d45c21238b1be2.png",
+      "local_url": "../../../_shared/media/6bf158759ce92ac4647f8bbffea2b6a9af3894995a7aeb6283d45c21238b1be2.png"
+    },
+    {
+      "file": "milling/ru/src/dual-row-turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6bf158759ce92ac4647f8bbffea2b6a9af3894995a7aeb6283d45c21238b1be2.png",
+      "local_url": "../../../_shared/media/6bf158759ce92ac4647f8bbffea2b6a9af3894995a7aeb6283d45c21238b1be2.png"
+    },
+    {
+      "file": "milling/ru/src/dual-row-turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/55f919e8827105d999b42453625d49290c39724d403560f0dcc6af47041d9c9f.webp",
+      "local_url": "../../../_shared/media/55f919e8827105d999b42453625d49290c39724d403560f0dcc6af47041d9c9f.webp"
+    },
+    {
+      "file": "milling/ru/src/dual-row-turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/55f919e8827105d999b42453625d49290c39724d403560f0dcc6af47041d9c9f.webp",
+      "local_url": "../../../_shared/media/55f919e8827105d999b42453625d49290c39724d403560f0dcc6af47041d9c9f.webp"
+    },
+    {
+      "file": "milling/ru/src/dual-row-turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/f0d69519479f76712bfe4cfde05ad5a60a83b1b1badcf6f5744049fc72d28c25.webp",
+      "local_url": "../../../_shared/media/f0d69519479f76712bfe4cfde05ad5a60a83b1b1badcf6f5744049fc72d28c25.webp"
+    },
+    {
+      "file": "milling/ru/src/dual-row-turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/f0d69519479f76712bfe4cfde05ad5a60a83b1b1badcf6f5744049fc72d28c25.webp",
+      "local_url": "../../../_shared/media/f0d69519479f76712bfe4cfde05ad5a60a83b1b1badcf6f5744049fc72d28c25.webp"
+    },
+    {
+      "file": "milling/ru/src/grouping-elements-into-nodes.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/ed27533c794d0acbf39e6c2b7841146cc98422f8d444a1b9c40c48d1704bddbf.webp",
+      "local_url": "../../../_shared/media/ed27533c794d0acbf39e6c2b7841146cc98422f8d444a1b9c40c48d1704bddbf.webp"
+    },
+    {
+      "file": "milling/ru/src/grouping-elements-into-nodes.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/ed27533c794d0acbf39e6c2b7841146cc98422f8d444a1b9c40c48d1704bddbf.webp",
+      "local_url": "../../../_shared/media/ed27533c794d0acbf39e6c2b7841146cc98422f8d444a1b9c40c48d1704bddbf.webp"
+    },
+    {
+      "file": "milling/ru/src/grouping-elements-into-nodes.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/2da51117bcdd994d884cad3ccd08a0c617b530d63fdb082a5379ef47f6a1d3b0.png",
+      "local_url": "../../../_shared/media/2da51117bcdd994d884cad3ccd08a0c617b530d63fdb082a5379ef47f6a1d3b0.png"
+    },
+    {
+      "file": "milling/ru/src/grouping-elements-into-nodes.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/2da51117bcdd994d884cad3ccd08a0c617b530d63fdb082a5379ef47f6a1d3b0.png",
+      "local_url": "../../../_shared/media/2da51117bcdd994d884cad3ccd08a0c617b530d63fdb082a5379ef47f6a1d3b0.png"
+    },
+    {
+      "file": "milling/ru/src/grouping-elements-into-nodes.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/2da51117bcdd994d884cad3ccd08a0c617b530d63fdb082a5379ef47f6a1d3b0.png",
+      "local_url": "../../../_shared/media/2da51117bcdd994d884cad3ccd08a0c617b530d63fdb082a5379ef47f6a1d3b0.png"
+    },
+    {
+      "file": "milling/ru/src/grouping-elements-into-nodes.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/893e35a51dec5bb81bf432ecd348e43eab51c8e0ee810c7a394cb82bcd4ae3d0.png",
+      "local_url": "../../../_shared/media/893e35a51dec5bb81bf432ecd348e43eab51c8e0ee810c7a394cb82bcd4ae3d0.png"
+    },
+    {
+      "file": "milling/ru/src/grouping-elements-into-nodes.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/893e35a51dec5bb81bf432ecd348e43eab51c8e0ee810c7a394cb82bcd4ae3d0.png",
+      "local_url": "../../../_shared/media/893e35a51dec5bb81bf432ecd348e43eab51c8e0ee810c7a394cb82bcd4ae3d0.png"
+    },
+    {
+      "file": "milling/ru/src/grouping-elements-into-nodes.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/893e35a51dec5bb81bf432ecd348e43eab51c8e0ee810c7a394cb82bcd4ae3d0.png",
+      "local_url": "../../../_shared/media/893e35a51dec5bb81bf432ecd348e43eab51c8e0ee810c7a394cb82bcd4ae3d0.png"
+    },
+    {
+      "file": "milling/ru/src/grouping-elements-into-nodes.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/f659e975581f4cfa66e3c9f21498d49e7361dd6aa00d8d82b48521ae3b56dc8f.png",
+      "local_url": "../../../_shared/media/f659e975581f4cfa66e3c9f21498d49e7361dd6aa00d8d82b48521ae3b56dc8f.png"
+    },
+    {
+      "file": "milling/ru/src/grouping-elements-into-nodes.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/f659e975581f4cfa66e3c9f21498d49e7361dd6aa00d8d82b48521ae3b56dc8f.png",
+      "local_url": "../../../_shared/media/f659e975581f4cfa66e3c9f21498d49e7361dd6aa00d8d82b48521ae3b56dc8f.png"
+    },
+    {
+      "file": "milling/ru/src/grouping-elements-into-nodes.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/f659e975581f4cfa66e3c9f21498d49e7361dd6aa00d8d82b48521ae3b56dc8f.png",
+      "local_url": "../../../_shared/media/f659e975581f4cfa66e3c9f21498d49e7361dd6aa00d8d82b48521ae3b56dc8f.png"
+    },
+    {
+      "file": "milling/ru/src/grouping-elements-into-nodes.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4e5481858dd4421a1be48a8efdd2c5dea254c2c8f9333547fbb1fa70612e0b41.webp",
+      "local_url": "../../../_shared/media/4e5481858dd4421a1be48a8efdd2c5dea254c2c8f9333547fbb1fa70612e0b41.webp"
+    },
+    {
+      "file": "milling/ru/src/grouping-elements-into-nodes.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4e5481858dd4421a1be48a8efdd2c5dea254c2c8f9333547fbb1fa70612e0b41.webp",
+      "local_url": "../../../_shared/media/4e5481858dd4421a1be48a8efdd2c5dea254c2c8f9333547fbb1fa70612e0b41.webp"
+    },
+    {
+      "file": "milling/ru/src/introduction-to-machinemaker.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/737d12268bdf3129c4a5528e56186bce44777965594a9d63e8459ecf9e4d74ee.png",
+      "local_url": "../../../_shared/media/737d12268bdf3129c4a5528e56186bce44777965594a9d63e8459ecf9e4d74ee.png"
+    },
+    {
+      "file": "milling/ru/src/introduction-to-machinemaker.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/737d12268bdf3129c4a5528e56186bce44777965594a9d63e8459ecf9e4d74ee.png",
+      "local_url": "../../../_shared/media/737d12268bdf3129c4a5528e56186bce44777965594a9d63e8459ecf9e4d74ee.png"
+    },
+    {
+      "file": "milling/ru/src/introduction-to-machinemaker.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/737d12268bdf3129c4a5528e56186bce44777965594a9d63e8459ecf9e4d74ee.png",
+      "local_url": "../../../_shared/media/737d12268bdf3129c4a5528e56186bce44777965594a9d63e8459ecf9e4d74ee.png"
+    },
+    {
+      "file": "milling/ru/src/introduction-to-machinemaker.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6f82577408730bddc2439b7a7b9ad73367f2de7ebffe95bfad2a0cf6b5b26fc4.png",
+      "local_url": "../../../_shared/media/6f82577408730bddc2439b7a7b9ad73367f2de7ebffe95bfad2a0cf6b5b26fc4.png"
+    },
+    {
+      "file": "milling/ru/src/introduction-to-machinemaker.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6f82577408730bddc2439b7a7b9ad73367f2de7ebffe95bfad2a0cf6b5b26fc4.png",
+      "local_url": "../../../_shared/media/6f82577408730bddc2439b7a7b9ad73367f2de7ebffe95bfad2a0cf6b5b26fc4.png"
+    },
+    {
+      "file": "milling/ru/src/introduction-to-machinemaker.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6f82577408730bddc2439b7a7b9ad73367f2de7ebffe95bfad2a0cf6b5b26fc4.png",
+      "local_url": "../../../_shared/media/6f82577408730bddc2439b7a7b9ad73367f2de7ebffe95bfad2a0cf6b5b26fc4.png"
+    },
+    {
+      "file": "milling/ru/src/lathe-milling-machine-with-a-dual-row-turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/786d4ceca7f970eabc84c65e611559a771a0d65432e99d12adb75c1c947c8933.png",
+      "local_url": "../../../_shared/media/786d4ceca7f970eabc84c65e611559a771a0d65432e99d12adb75c1c947c8933.png"
+    },
+    {
+      "file": "milling/ru/src/lathe-milling-machine-with-a-dual-row-turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/786d4ceca7f970eabc84c65e611559a771a0d65432e99d12adb75c1c947c8933.png",
+      "local_url": "../../../_shared/media/786d4ceca7f970eabc84c65e611559a771a0d65432e99d12adb75c1c947c8933.png"
+    },
+    {
+      "file": "milling/ru/src/lathe-milling-machine-with-a-dual-row-turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/786d4ceca7f970eabc84c65e611559a771a0d65432e99d12adb75c1c947c8933.png",
+      "local_url": "../../../_shared/media/786d4ceca7f970eabc84c65e611559a771a0d65432e99d12adb75c1c947c8933.png"
+    },
+    {
+      "file": "milling/ru/src/lathe-milling-machine-with-a-dual-row-turret.html",
+      "source_url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/tokarno-frezernyy-stanok-256ab65cc2.zip",
+      "local_url": "../../../_shared/examples/tokarno-frezernyy-stanok-256ab65cc2.zip"
+    },
+    {
+      "file": "milling/ru/src/lathe-milling-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/5d7c14958b1801eb1a54a399adfe3b9a50054a177f5dda7ce1e8e5458ed8c66b.png",
+      "local_url": "../../../_shared/media/5d7c14958b1801eb1a54a399adfe3b9a50054a177f5dda7ce1e8e5458ed8c66b.png"
+    },
+    {
+      "file": "milling/ru/src/lathe-milling-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/5d7c14958b1801eb1a54a399adfe3b9a50054a177f5dda7ce1e8e5458ed8c66b.png",
+      "local_url": "../../../_shared/media/5d7c14958b1801eb1a54a399adfe3b9a50054a177f5dda7ce1e8e5458ed8c66b.png"
+    },
+    {
+      "file": "milling/ru/src/lathe-milling-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/5d7c14958b1801eb1a54a399adfe3b9a50054a177f5dda7ce1e8e5458ed8c66b.png",
+      "local_url": "../../../_shared/media/5d7c14958b1801eb1a54a399adfe3b9a50054a177f5dda7ce1e8e5458ed8c66b.png"
+    },
+    {
+      "file": "milling/ru/src/lathe-milling-machine.html",
+      "source_url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/tokarno-frezernyy-stanok-0b7481e299.zip",
+      "local_url": "../../../_shared/examples/tokarno-frezernyy-stanok-0b7481e299.zip"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/b9e466e97fecd8a22de53f8d444903fe03e8dd4e6d11858bf9f3bd94ce53fd16.png",
+      "local_url": "../../../_shared/media/b9e466e97fecd8a22de53f8d444903fe03e8dd4e6d11858bf9f3bd94ce53fd16.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/b9e466e97fecd8a22de53f8d444903fe03e8dd4e6d11858bf9f3bd94ce53fd16.png",
+      "local_url": "../../../_shared/media/b9e466e97fecd8a22de53f8d444903fe03e8dd4e6d11858bf9f3bd94ce53fd16.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/ae07ec1079e83e47b67edd7453c1d085bb8dd3003d32347b517873a313dcdf9e.png",
+      "local_url": "../../../_shared/media/ae07ec1079e83e47b67edd7453c1d085bb8dd3003d32347b517873a313dcdf9e.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/ae07ec1079e83e47b67edd7453c1d085bb8dd3003d32347b517873a313dcdf9e.png",
+      "local_url": "../../../_shared/media/ae07ec1079e83e47b67edd7453c1d085bb8dd3003d32347b517873a313dcdf9e.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/ae07ec1079e83e47b67edd7453c1d085bb8dd3003d32347b517873a313dcdf9e.png",
+      "local_url": "../../../_shared/media/ae07ec1079e83e47b67edd7453c1d085bb8dd3003d32347b517873a313dcdf9e.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/d98792aec4b4ba6affe7fca62ae00eb831ce26ccc60c2c2fbca5635aaca27cab.png",
+      "local_url": "../../../_shared/media/d98792aec4b4ba6affe7fca62ae00eb831ce26ccc60c2c2fbca5635aaca27cab.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/d98792aec4b4ba6affe7fca62ae00eb831ce26ccc60c2c2fbca5635aaca27cab.png",
+      "local_url": "../../../_shared/media/d98792aec4b4ba6affe7fca62ae00eb831ce26ccc60c2c2fbca5635aaca27cab.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/d98792aec4b4ba6affe7fca62ae00eb831ce26ccc60c2c2fbca5635aaca27cab.png",
+      "local_url": "../../../_shared/media/d98792aec4b4ba6affe7fca62ae00eb831ce26ccc60c2c2fbca5635aaca27cab.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4d9d1128acf46f76a5e010d9a913a71f8b9a24d267fb45ba80d9bdd4f4599620.png",
+      "local_url": "../../../_shared/media/4d9d1128acf46f76a5e010d9a913a71f8b9a24d267fb45ba80d9bdd4f4599620.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4d9d1128acf46f76a5e010d9a913a71f8b9a24d267fb45ba80d9bdd4f4599620.png",
+      "local_url": "../../../_shared/media/4d9d1128acf46f76a5e010d9a913a71f8b9a24d267fb45ba80d9bdd4f4599620.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4d9d1128acf46f76a5e010d9a913a71f8b9a24d267fb45ba80d9bdd4f4599620.png",
+      "local_url": "../../../_shared/media/4d9d1128acf46f76a5e010d9a913a71f8b9a24d267fb45ba80d9bdd4f4599620.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/760bd104e4728d4856e1b6a8b3169cd9e8bc9df19cb931c5db402aca1c8103f5.png",
+      "local_url": "../../../_shared/media/760bd104e4728d4856e1b6a8b3169cd9e8bc9df19cb931c5db402aca1c8103f5.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/760bd104e4728d4856e1b6a8b3169cd9e8bc9df19cb931c5db402aca1c8103f5.png",
+      "local_url": "../../../_shared/media/760bd104e4728d4856e1b6a8b3169cd9e8bc9df19cb931c5db402aca1c8103f5.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/760bd104e4728d4856e1b6a8b3169cd9e8bc9df19cb931c5db402aca1c8103f5.png",
+      "local_url": "../../../_shared/media/760bd104e4728d4856e1b6a8b3169cd9e8bc9df19cb931c5db402aca1c8103f5.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4f048a7af73d26245032945cfd08445b12ab2023b277df1c8cdac89bd9d43982.png",
+      "local_url": "../../../_shared/media/4f048a7af73d26245032945cfd08445b12ab2023b277df1c8cdac89bd9d43982.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4f048a7af73d26245032945cfd08445b12ab2023b277df1c8cdac89bd9d43982.png",
+      "local_url": "../../../_shared/media/4f048a7af73d26245032945cfd08445b12ab2023b277df1c8cdac89bd9d43982.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4f048a7af73d26245032945cfd08445b12ab2023b277df1c8cdac89bd9d43982.png",
+      "local_url": "../../../_shared/media/4f048a7af73d26245032945cfd08445b12ab2023b277df1c8cdac89bd9d43982.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/a3057c7447a2f95dec338f5ce64b25eb5ef9ba6b8a6ac20ab5f6793d0b9f9640.webp",
+      "local_url": "../../../_shared/media/a3057c7447a2f95dec338f5ce64b25eb5ef9ba6b8a6ac20ab5f6793d0b9f9640.webp"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/a3057c7447a2f95dec338f5ce64b25eb5ef9ba6b8a6ac20ab5f6793d0b9f9640.webp",
+      "local_url": "../../../_shared/media/a3057c7447a2f95dec338f5ce64b25eb5ef9ba6b8a6ac20ab5f6793d0b9f9640.webp"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/43ff8997c3c33167fdcceb4a34a62636c8565f35b8758e8364529bced7ff739c.webp",
+      "local_url": "../../../_shared/media/43ff8997c3c33167fdcceb4a34a62636c8565f35b8758e8364529bced7ff739c.webp"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/43ff8997c3c33167fdcceb4a34a62636c8565f35b8758e8364529bced7ff739c.webp",
+      "local_url": "../../../_shared/media/43ff8997c3c33167fdcceb4a34a62636c8565f35b8758e8364529bced7ff739c.webp"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/dfb9edf2956a5587bd5a7e89d13ab07217e7e44c5c5824ec455ff736dcfad302.png",
+      "local_url": "../../../_shared/media/dfb9edf2956a5587bd5a7e89d13ab07217e7e44c5c5824ec455ff736dcfad302.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/dfb9edf2956a5587bd5a7e89d13ab07217e7e44c5c5824ec455ff736dcfad302.png",
+      "local_url": "../../../_shared/media/dfb9edf2956a5587bd5a7e89d13ab07217e7e44c5c5824ec455ff736dcfad302.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/dfb9edf2956a5587bd5a7e89d13ab07217e7e44c5c5824ec455ff736dcfad302.png",
+      "local_url": "../../../_shared/media/dfb9edf2956a5587bd5a7e89d13ab07217e7e44c5c5824ec455ff736dcfad302.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9421213613f05d616726ab5a97e830c7efdf777eb403560d7eb4b65466f240e1.png",
+      "local_url": "../../../_shared/media/9421213613f05d616726ab5a97e830c7efdf777eb403560d7eb4b65466f240e1.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9421213613f05d616726ab5a97e830c7efdf777eb403560d7eb4b65466f240e1.png",
+      "local_url": "../../../_shared/media/9421213613f05d616726ab5a97e830c7efdf777eb403560d7eb4b65466f240e1.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9421213613f05d616726ab5a97e830c7efdf777eb403560d7eb4b65466f240e1.png",
+      "local_url": "../../../_shared/media/9421213613f05d616726ab5a97e830c7efdf777eb403560d7eb4b65466f240e1.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/f105b09b0488cfa28448d97d8ea25d820cb7846dad1c2216eeb13adfbc5daa74.png",
+      "local_url": "../../../_shared/media/f105b09b0488cfa28448d97d8ea25d820cb7846dad1c2216eeb13adfbc5daa74.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/f105b09b0488cfa28448d97d8ea25d820cb7846dad1c2216eeb13adfbc5daa74.png",
+      "local_url": "../../../_shared/media/f105b09b0488cfa28448d97d8ea25d820cb7846dad1c2216eeb13adfbc5daa74.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/f105b09b0488cfa28448d97d8ea25d820cb7846dad1c2216eeb13adfbc5daa74.png",
+      "local_url": "../../../_shared/media/f105b09b0488cfa28448d97d8ea25d820cb7846dad1c2216eeb13adfbc5daa74.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/1dbb0793c31dab26f052c185177cd45ae94e0d19745c35eb64a7858f451a0231.png",
+      "local_url": "../../../_shared/media/1dbb0793c31dab26f052c185177cd45ae94e0d19745c35eb64a7858f451a0231.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/1dbb0793c31dab26f052c185177cd45ae94e0d19745c35eb64a7858f451a0231.png",
+      "local_url": "../../../_shared/media/1dbb0793c31dab26f052c185177cd45ae94e0d19745c35eb64a7858f451a0231.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/1dbb0793c31dab26f052c185177cd45ae94e0d19745c35eb64a7858f451a0231.png",
+      "local_url": "../../../_shared/media/1dbb0793c31dab26f052c185177cd45ae94e0d19745c35eb64a7858f451a0231.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/e84f07e54559f02656f31494d9eb83d1097262accfe7ae3d705e41762f58b4f6.webp",
+      "local_url": "../../../_shared/media/e84f07e54559f02656f31494d9eb83d1097262accfe7ae3d705e41762f58b4f6.webp"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/e84f07e54559f02656f31494d9eb83d1097262accfe7ae3d705e41762f58b4f6.webp",
+      "local_url": "../../../_shared/media/e84f07e54559f02656f31494d9eb83d1097262accfe7ae3d705e41762f58b4f6.webp"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9e2824747ee4e20db8d3dfe27b0ac189b8b94ba68ff521484c6e22ce6dc0c11f.png",
+      "local_url": "../../../_shared/media/9e2824747ee4e20db8d3dfe27b0ac189b8b94ba68ff521484c6e22ce6dc0c11f.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9e2824747ee4e20db8d3dfe27b0ac189b8b94ba68ff521484c6e22ce6dc0c11f.png",
+      "local_url": "../../../_shared/media/9e2824747ee4e20db8d3dfe27b0ac189b8b94ba68ff521484c6e22ce6dc0c11f.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9e2824747ee4e20db8d3dfe27b0ac189b8b94ba68ff521484c6e22ce6dc0c11f.png",
+      "local_url": "../../../_shared/media/9e2824747ee4e20db8d3dfe27b0ac189b8b94ba68ff521484c6e22ce6dc0c11f.png"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/frezernyy-stanok-24f30ceb2e.rar",
+      "local_url": "../../../_shared/examples/frezernyy-stanok-24f30ceb2e.rar"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/mashinnoe-oborudovanie-1-54ffbc1f31.rar",
+      "local_url": "../../../_shared/examples/mashinnoe-oborudovanie-1-54ffbc1f31.rar"
+    },
+    {
+      "file": "milling/ru/src/machine-equipment-configuration.html",
+      "source_url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/mashinnoe-oborudovanie-2-8a6fd707cc.rar",
+      "local_url": "../../../_shared/examples/mashinnoe-oborudovanie-2-8a6fd707cc.rar"
+    },
+    {
+      "file": "milling/ru/src/main-window.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/c9f9db60cda723cb81f34d3e2384249c5ff120c0b8b8ab75d389d65b89f5893f.png",
+      "local_url": "../../../_shared/media/c9f9db60cda723cb81f34d3e2384249c5ff120c0b8b8ab75d389d65b89f5893f.png"
+    },
+    {
+      "file": "milling/ru/src/main-window.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/c9f9db60cda723cb81f34d3e2384249c5ff120c0b8b8ab75d389d65b89f5893f.png",
+      "local_url": "../../../_shared/media/c9f9db60cda723cb81f34d3e2384249c5ff120c0b8b8ab75d389d65b89f5893f.png"
+    },
+    {
+      "file": "milling/ru/src/main-window.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/c9f9db60cda723cb81f34d3e2384249c5ff120c0b8b8ab75d389d65b89f5893f.png",
+      "local_url": "../../../_shared/media/c9f9db60cda723cb81f34d3e2384249c5ff120c0b8b8ab75d389d65b89f5893f.png"
+    },
+    {
+      "file": "milling/ru/src/main-window.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/41c584698921f351d2ffad6250d324964fbb7264057e999bf3ab28b484d20c5c.png",
+      "local_url": "../../../_shared/media/41c584698921f351d2ffad6250d324964fbb7264057e999bf3ab28b484d20c5c.png"
+    },
+    {
+      "file": "milling/ru/src/main-window.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/41c584698921f351d2ffad6250d324964fbb7264057e999bf3ab28b484d20c5c.png",
+      "local_url": "../../../_shared/media/41c584698921f351d2ffad6250d324964fbb7264057e999bf3ab28b484d20c5c.png"
+    },
+    {
+      "file": "milling/ru/src/main-window.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/41c584698921f351d2ffad6250d324964fbb7264057e999bf3ab28b484d20c5c.png",
+      "local_url": "../../../_shared/media/41c584698921f351d2ffad6250d324964fbb7264057e999bf3ab28b484d20c5c.png"
+    },
+    {
+      "file": "milling/ru/src/mechanism-simulation-and-validation.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/2fc4ce8b2f1402c6f3aa4d1fda58918a1c1c9c72158fba074f77df3ec512b4db.png",
+      "local_url": "../../../_shared/media/2fc4ce8b2f1402c6f3aa4d1fda58918a1c1c9c72158fba074f77df3ec512b4db.png"
+    },
+    {
+      "file": "milling/ru/src/mechanism-simulation-and-validation.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/2fc4ce8b2f1402c6f3aa4d1fda58918a1c1c9c72158fba074f77df3ec512b4db.png",
+      "local_url": "../../../_shared/media/2fc4ce8b2f1402c6f3aa4d1fda58918a1c1c9c72158fba074f77df3ec512b4db.png"
+    },
+    {
+      "file": "milling/ru/src/mechanism-simulation-and-validation.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/2fc4ce8b2f1402c6f3aa4d1fda58918a1c1c9c72158fba074f77df3ec512b4db.png",
+      "local_url": "../../../_shared/media/2fc4ce8b2f1402c6f3aa4d1fda58918a1c1c9c72158fba074f77df3ec512b4db.png"
+    },
+    {
+      "file": "milling/ru/src/multi-tool-head.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/b416cf5d1c5b4ec67e784019e3321780a964b5a99b3419225538f0dcc5dbf0df.png",
+      "local_url": "../../../_shared/media/b416cf5d1c5b4ec67e784019e3321780a964b5a99b3419225538f0dcc5dbf0df.png"
+    },
+    {
+      "file": "milling/ru/src/multi-tool-head.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/b416cf5d1c5b4ec67e784019e3321780a964b5a99b3419225538f0dcc5dbf0df.png",
+      "local_url": "../../../_shared/media/b416cf5d1c5b4ec67e784019e3321780a964b5a99b3419225538f0dcc5dbf0df.png"
+    },
+    {
+      "file": "milling/ru/src/multi-tool-head.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/b416cf5d1c5b4ec67e784019e3321780a964b5a99b3419225538f0dcc5dbf0df.png",
+      "local_url": "../../../_shared/media/b416cf5d1c5b4ec67e784019e3321780a964b5a99b3419225538f0dcc5dbf0df.png"
+    },
+    {
+      "file": "milling/ru/src/multi-tool-head.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/cfebb7106889717bec581ba76a833367a7d4d0ca65aa0e0dd8ffc613311e2179.png",
+      "local_url": "../../../_shared/media/cfebb7106889717bec581ba76a833367a7d4d0ca65aa0e0dd8ffc613311e2179.png"
+    },
+    {
+      "file": "milling/ru/src/multi-tool-head.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/cfebb7106889717bec581ba76a833367a7d4d0ca65aa0e0dd8ffc613311e2179.png",
+      "local_url": "../../../_shared/media/cfebb7106889717bec581ba76a833367a7d4d0ca65aa0e0dd8ffc613311e2179.png"
+    },
+    {
+      "file": "milling/ru/src/multi-tool-head.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/cfebb7106889717bec581ba76a833367a7d4d0ca65aa0e0dd8ffc613311e2179.png",
+      "local_url": "../../../_shared/media/cfebb7106889717bec581ba76a833367a7d4d0ca65aa0e0dd8ffc613311e2179.png"
+    },
+    {
+      "file": "milling/ru/src/multi-tool-head.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/f01bd8beb1a71770c39ce6ab2d93903a48fa2df3e6985e52535797079f5577d9.webp",
+      "local_url": "../../../_shared/media/f01bd8beb1a71770c39ce6ab2d93903a48fa2df3e6985e52535797079f5577d9.webp"
+    },
+    {
+      "file": "milling/ru/src/multi-tool-head.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/f01bd8beb1a71770c39ce6ab2d93903a48fa2df3e6985e52535797079f5577d9.webp",
+      "local_url": "../../../_shared/media/f01bd8beb1a71770c39ce6ab2d93903a48fa2df3e6985e52535797079f5577d9.webp"
+    },
+    {
+      "file": "milling/ru/src/multi-tool-head.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/d0dd08644a82801f06b5874d8904073687f72163c2b9f26184ca3c2db8453ffc.png",
+      "local_url": "../../../_shared/media/d0dd08644a82801f06b5874d8904073687f72163c2b9f26184ca3c2db8453ffc.png"
+    },
+    {
+      "file": "milling/ru/src/multi-tool-head.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/d0dd08644a82801f06b5874d8904073687f72163c2b9f26184ca3c2db8453ffc.png",
+      "local_url": "../../../_shared/media/d0dd08644a82801f06b5874d8904073687f72163c2b9f26184ca3c2db8453ffc.png"
+    },
+    {
+      "file": "milling/ru/src/multi-tool-head.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/d0dd08644a82801f06b5874d8904073687f72163c2b9f26184ca3c2db8453ffc.png",
+      "local_url": "../../../_shared/media/d0dd08644a82801f06b5874d8904073687f72163c2b9f26184ca3c2db8453ffc.png"
+    },
+    {
+      "file": "milling/ru/src/multi-tool-head.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/67945ad97613b523ffbf6df56166254ca4c2512d58c40315171fd54078dbade1.png",
+      "local_url": "../../../_shared/media/67945ad97613b523ffbf6df56166254ca4c2512d58c40315171fd54078dbade1.png"
+    },
+    {
+      "file": "milling/ru/src/multi-tool-head.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/67945ad97613b523ffbf6df56166254ca4c2512d58c40315171fd54078dbade1.png",
+      "local_url": "../../../_shared/media/67945ad97613b523ffbf6df56166254ca4c2512d58c40315171fd54078dbade1.png"
+    },
+    {
+      "file": "milling/ru/src/multi-tool-head.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/67945ad97613b523ffbf6df56166254ca4c2512d58c40315171fd54078dbade1.png",
+      "local_url": "../../../_shared/media/67945ad97613b523ffbf6df56166254ca4c2512d58c40315171fd54078dbade1.png"
+    },
+    {
+      "file": "milling/ru/src/multi-tool-head.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/c8fd513a0ccc51748d190f11284f7a3246db5658ad6705e8ff50b828507bdfa9.png",
+      "local_url": "../../../_shared/media/c8fd513a0ccc51748d190f11284f7a3246db5658ad6705e8ff50b828507bdfa9.png"
+    },
+    {
+      "file": "milling/ru/src/multi-tool-head.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/c8fd513a0ccc51748d190f11284f7a3246db5658ad6705e8ff50b828507bdfa9.png",
+      "local_url": "../../../_shared/media/c8fd513a0ccc51748d190f11284f7a3246db5658ad6705e8ff50b828507bdfa9.png"
+    },
+    {
+      "file": "milling/ru/src/multi-tool-head.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/c8fd513a0ccc51748d190f11284f7a3246db5658ad6705e8ff50b828507bdfa9.png",
+      "local_url": "../../../_shared/media/c8fd513a0ccc51748d190f11284f7a3246db5658ad6705e8ff50b828507bdfa9.png"
+    },
+    {
+      "file": "milling/ru/src/multi-tool-head.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9f7f5dfec0992470e2035fd3e9a8c78b374660b244d6c2f21eb073cee44b8aa5.webp",
+      "local_url": "../../../_shared/media/9f7f5dfec0992470e2035fd3e9a8c78b374660b244d6c2f21eb073cee44b8aa5.webp"
+    },
+    {
+      "file": "milling/ru/src/multi-tool-head.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9f7f5dfec0992470e2035fd3e9a8c78b374660b244d6c2f21eb073cee44b8aa5.webp",
+      "local_url": "../../../_shared/media/9f7f5dfec0992470e2035fd3e9a8c78b374660b244d6c2f21eb073cee44b8aa5.webp"
+    },
+    {
+      "file": "milling/ru/src/prepare-and-import-3d-objects.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/413c1c95df39087a08dd95d4c129bdc0b18802a4dbfda6f4742176e3f72b091c.webp",
+      "local_url": "../../../_shared/media/413c1c95df39087a08dd95d4c129bdc0b18802a4dbfda6f4742176e3f72b091c.webp"
+    },
+    {
+      "file": "milling/ru/src/prepare-and-import-3d-objects.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/413c1c95df39087a08dd95d4c129bdc0b18802a4dbfda6f4742176e3f72b091c.webp",
+      "local_url": "../../../_shared/media/413c1c95df39087a08dd95d4c129bdc0b18802a4dbfda6f4742176e3f72b091c.webp"
+    },
+    {
+      "file": "milling/ru/src/prepare-and-import-3d-objects.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/8f03525555c39305e2cd2664fff42004f10f58670ffd1a533742887d64ab750c.png",
+      "local_url": "../../../_shared/media/8f03525555c39305e2cd2664fff42004f10f58670ffd1a533742887d64ab750c.png"
+    },
+    {
+      "file": "milling/ru/src/prepare-and-import-3d-objects.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/8f03525555c39305e2cd2664fff42004f10f58670ffd1a533742887d64ab750c.png",
+      "local_url": "../../../_shared/media/8f03525555c39305e2cd2664fff42004f10f58670ffd1a533742887d64ab750c.png"
+    },
+    {
+      "file": "milling/ru/src/prepare-and-import-3d-objects.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/8f03525555c39305e2cd2664fff42004f10f58670ffd1a533742887d64ab750c.png",
+      "local_url": "../../../_shared/media/8f03525555c39305e2cd2664fff42004f10f58670ffd1a533742887d64ab750c.png"
+    },
+    {
+      "file": "milling/ru/src/prepare-and-import-3d-objects.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/524ac5152557e6ec1fb5334a6f4be89339b7238e639d1325844b155151078dc2.png",
+      "local_url": "../../../_shared/media/524ac5152557e6ec1fb5334a6f4be89339b7238e639d1325844b155151078dc2.png"
+    },
+    {
+      "file": "milling/ru/src/prepare-and-import-3d-objects.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/524ac5152557e6ec1fb5334a6f4be89339b7238e639d1325844b155151078dc2.png",
+      "local_url": "../../../_shared/media/524ac5152557e6ec1fb5334a6f4be89339b7238e639d1325844b155151078dc2.png"
+    },
+    {
+      "file": "milling/ru/src/prepare-and-import-3d-objects.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/524ac5152557e6ec1fb5334a6f4be89339b7238e639d1325844b155151078dc2.png",
+      "local_url": "../../../_shared/media/524ac5152557e6ec1fb5334a6f4be89339b7238e639d1325844b155151078dc2.png"
+    },
+    {
+      "file": "milling/ru/src/prepare-and-import-3d-objects.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/922c00314c668fee9669c88dafcbec2270446652a67965d69e2a2d7d2c1d5fe9.png",
+      "local_url": "../../../_shared/media/922c00314c668fee9669c88dafcbec2270446652a67965d69e2a2d7d2c1d5fe9.png"
+    },
+    {
+      "file": "milling/ru/src/prepare-and-import-3d-objects.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/922c00314c668fee9669c88dafcbec2270446652a67965d69e2a2d7d2c1d5fe9.png",
+      "local_url": "../../../_shared/media/922c00314c668fee9669c88dafcbec2270446652a67965d69e2a2d7d2c1d5fe9.png"
+    },
+    {
+      "file": "milling/ru/src/prepare-and-import-3d-objects.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/922c00314c668fee9669c88dafcbec2270446652a67965d69e2a2d7d2c1d5fe9.png",
+      "local_url": "../../../_shared/media/922c00314c668fee9669c88dafcbec2270446652a67965d69e2a2d7d2c1d5fe9.png"
+    },
+    {
+      "file": "milling/ru/src/prepare-and-import-3d-objects.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6b29b23cfb3531a82f6072b4da85900ce061feae7f396fe76c24e2dc42849bd8.png",
+      "local_url": "../../../_shared/media/6b29b23cfb3531a82f6072b4da85900ce061feae7f396fe76c24e2dc42849bd8.png"
+    },
+    {
+      "file": "milling/ru/src/prepare-and-import-3d-objects.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6b29b23cfb3531a82f6072b4da85900ce061feae7f396fe76c24e2dc42849bd8.png",
+      "local_url": "../../../_shared/media/6b29b23cfb3531a82f6072b4da85900ce061feae7f396fe76c24e2dc42849bd8.png"
+    },
+    {
+      "file": "milling/ru/src/prepare-and-import-3d-objects.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/6b29b23cfb3531a82f6072b4da85900ce061feae7f396fe76c24e2dc42849bd8.png",
+      "local_url": "../../../_shared/media/6b29b23cfb3531a82f6072b4da85900ce061feae7f396fe76c24e2dc42849bd8.png"
+    },
+    {
+      "file": "milling/ru/src/simplifier.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/3a8d550da45632f2dff757290112b1f3c9e3e8134f048fac951bec967fead4f9.png",
+      "local_url": "../../../_shared/media/3a8d550da45632f2dff757290112b1f3c9e3e8134f048fac951bec967fead4f9.png"
+    },
+    {
+      "file": "milling/ru/src/simplifier.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/3a8d550da45632f2dff757290112b1f3c9e3e8134f048fac951bec967fead4f9.png",
+      "local_url": "../../../_shared/media/3a8d550da45632f2dff757290112b1f3c9e3e8134f048fac951bec967fead4f9.png"
+    },
+    {
+      "file": "milling/ru/src/simplifier.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/3a8d550da45632f2dff757290112b1f3c9e3e8134f048fac951bec967fead4f9.png",
+      "local_url": "../../../_shared/media/3a8d550da45632f2dff757290112b1f3c9e3e8134f048fac951bec967fead4f9.png"
+    },
+    {
+      "file": "milling/ru/src/simplifier.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/7ffb4054e63e6a84b8210082cc4c76c2bb4c01dd701c196f3471ce43f548a247.png",
+      "local_url": "../../../_shared/media/7ffb4054e63e6a84b8210082cc4c76c2bb4c01dd701c196f3471ce43f548a247.png"
+    },
+    {
+      "file": "milling/ru/src/simplifier.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/7ffb4054e63e6a84b8210082cc4c76c2bb4c01dd701c196f3471ce43f548a247.png",
+      "local_url": "../../../_shared/media/7ffb4054e63e6a84b8210082cc4c76c2bb4c01dd701c196f3471ce43f548a247.png"
+    },
+    {
+      "file": "milling/ru/src/simplifier.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/7ffb4054e63e6a84b8210082cc4c76c2bb4c01dd701c196f3471ce43f548a247.png",
+      "local_url": "../../../_shared/media/7ffb4054e63e6a84b8210082cc4c76c2bb4c01dd701c196f3471ce43f548a247.png"
+    },
+    {
+      "file": "milling/ru/src/simplifier.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/b194758daa7b53992378cc168cad1125b34296e0aad5cebddc4115aeda2e93f3.png",
+      "local_url": "../../../_shared/media/b194758daa7b53992378cc168cad1125b34296e0aad5cebddc4115aeda2e93f3.png"
+    },
+    {
+      "file": "milling/ru/src/simplifier.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/b194758daa7b53992378cc168cad1125b34296e0aad5cebddc4115aeda2e93f3.png",
+      "local_url": "../../../_shared/media/b194758daa7b53992378cc168cad1125b34296e0aad5cebddc4115aeda2e93f3.png"
+    },
+    {
+      "file": "milling/ru/src/simplifier.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/b194758daa7b53992378cc168cad1125b34296e0aad5cebddc4115aeda2e93f3.png",
+      "local_url": "../../../_shared/media/b194758daa7b53992378cc168cad1125b34296e0aad5cebddc4115aeda2e93f3.png"
+    },
+    {
+      "file": "milling/ru/src/simplifier.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/cdda3571580b0b5d28b08ce65cf17d36c0babbb2f47ddf543c13fa3da1376461.png",
+      "local_url": "../../../_shared/media/cdda3571580b0b5d28b08ce65cf17d36c0babbb2f47ddf543c13fa3da1376461.png"
+    },
+    {
+      "file": "milling/ru/src/simplifier.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/cdda3571580b0b5d28b08ce65cf17d36c0babbb2f47ddf543c13fa3da1376461.png",
+      "local_url": "../../../_shared/media/cdda3571580b0b5d28b08ce65cf17d36c0babbb2f47ddf543c13fa3da1376461.png"
+    },
+    {
+      "file": "milling/ru/src/simplifier.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/cdda3571580b0b5d28b08ce65cf17d36c0babbb2f47ddf543c13fa3da1376461.png",
+      "local_url": "../../../_shared/media/cdda3571580b0b5d28b08ce65cf17d36c0babbb2f47ddf543c13fa3da1376461.png"
+    },
+    {
+      "file": "milling/ru/src/swiss-type-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9dd41187ff93313a174b1c9561265ef4676aaccf4e9d41bac7d7b519562dd05e.jpg",
+      "local_url": "../../../_shared/media/9dd41187ff93313a174b1c9561265ef4676aaccf4e9d41bac7d7b519562dd05e.jpg"
+    },
+    {
+      "file": "milling/ru/src/swiss-type-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9dd41187ff93313a174b1c9561265ef4676aaccf4e9d41bac7d7b519562dd05e.jpg",
+      "local_url": "../../../_shared/media/9dd41187ff93313a174b1c9561265ef4676aaccf4e9d41bac7d7b519562dd05e.jpg"
+    },
+    {
+      "file": "milling/ru/src/swiss-type-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/567afd0a7198cced7a9e22f17e6b3e6840a6fa6ff7eb737c85e0b6d814a5c78f.png",
+      "local_url": "../../../_shared/media/567afd0a7198cced7a9e22f17e6b3e6840a6fa6ff7eb737c85e0b6d814a5c78f.png"
+    },
+    {
+      "file": "milling/ru/src/swiss-type-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/567afd0a7198cced7a9e22f17e6b3e6840a6fa6ff7eb737c85e0b6d814a5c78f.png",
+      "local_url": "../../../_shared/media/567afd0a7198cced7a9e22f17e6b3e6840a6fa6ff7eb737c85e0b6d814a5c78f.png"
+    },
+    {
+      "file": "milling/ru/src/swiss-type-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/476417165247fba0120f8c2a93eb8d9d78ce5ac7e2a166c84cb727e56091c412.png",
+      "local_url": "../../../_shared/media/476417165247fba0120f8c2a93eb8d9d78ce5ac7e2a166c84cb727e56091c412.png"
+    },
+    {
+      "file": "milling/ru/src/swiss-type-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/476417165247fba0120f8c2a93eb8d9d78ce5ac7e2a166c84cb727e56091c412.png",
+      "local_url": "../../../_shared/media/476417165247fba0120f8c2a93eb8d9d78ce5ac7e2a166c84cb727e56091c412.png"
+    },
+    {
+      "file": "milling/ru/src/swiss-type-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/694a23b21497edd8b902de15f70ff91d8540486f43c3d0ee6ae3457930cb9603.png",
+      "local_url": "../../../_shared/media/694a23b21497edd8b902de15f70ff91d8540486f43c3d0ee6ae3457930cb9603.png"
+    },
+    {
+      "file": "milling/ru/src/swiss-type-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/694a23b21497edd8b902de15f70ff91d8540486f43c3d0ee6ae3457930cb9603.png",
+      "local_url": "../../../_shared/media/694a23b21497edd8b902de15f70ff91d8540486f43c3d0ee6ae3457930cb9603.png"
+    },
+    {
+      "file": "milling/ru/src/swiss-type-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/531f17b4b5a6fa40705ff20ee717cf3fa2d60cae0e5ac54aed200b333c4eeb6d.png",
+      "local_url": "../../../_shared/media/531f17b4b5a6fa40705ff20ee717cf3fa2d60cae0e5ac54aed200b333c4eeb6d.png"
+    },
+    {
+      "file": "milling/ru/src/swiss-type-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/531f17b4b5a6fa40705ff20ee717cf3fa2d60cae0e5ac54aed200b333c4eeb6d.png",
+      "local_url": "../../../_shared/media/531f17b4b5a6fa40705ff20ee717cf3fa2d60cae0e5ac54aed200b333c4eeb6d.png"
+    },
+    {
+      "file": "milling/ru/src/swiss-type-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4f8e0e9fce9e0ba65fd4584d18f8dbcab450792741f20aee59ff1136998b5d78.png",
+      "local_url": "../../../_shared/media/4f8e0e9fce9e0ba65fd4584d18f8dbcab450792741f20aee59ff1136998b5d78.png"
+    },
+    {
+      "file": "milling/ru/src/swiss-type-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4f8e0e9fce9e0ba65fd4584d18f8dbcab450792741f20aee59ff1136998b5d78.png",
+      "local_url": "../../../_shared/media/4f8e0e9fce9e0ba65fd4584d18f8dbcab450792741f20aee59ff1136998b5d78.png"
+    },
+    {
+      "file": "milling/ru/src/swiss-type-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/bcb2c827c432a58c72ee6f1921b7e5727de3552871bd036159c2b608ec029337.png",
+      "local_url": "../../../_shared/media/bcb2c827c432a58c72ee6f1921b7e5727de3552871bd036159c2b608ec029337.png"
+    },
+    {
+      "file": "milling/ru/src/swiss-type-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/bcb2c827c432a58c72ee6f1921b7e5727de3552871bd036159c2b608ec029337.png",
+      "local_url": "../../../_shared/media/bcb2c827c432a58c72ee6f1921b7e5727de3552871bd036159c2b608ec029337.png"
+    },
+    {
+      "file": "milling/ru/src/swiss-type-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/0263f6b0d34a659d25e59d0bd572c7456f11fa6774898d85d24edbc2c707a728.png",
+      "local_url": "../../../_shared/media/0263f6b0d34a659d25e59d0bd572c7456f11fa6774898d85d24edbc2c707a728.png"
+    },
+    {
+      "file": "milling/ru/src/swiss-type-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/0263f6b0d34a659d25e59d0bd572c7456f11fa6774898d85d24edbc2c707a728.png",
+      "local_url": "../../../_shared/media/0263f6b0d34a659d25e59d0bd572c7456f11fa6774898d85d24edbc2c707a728.png"
+    },
+    {
+      "file": "milling/ru/src/swiss-type-machine.html",
+      "source_url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/3D_models_Hanwha_XD10-442fcff663.zip",
+      "local_url": "../../../_shared/examples/3D_models_Hanwha_XD10-442fcff663.zip"
+    },
+    {
+      "file": "milling/ru/src/swiss-type-machine.html",
+      "source_url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/MachineSchema-b0d2a4c49e.zip",
+      "local_url": "../../../_shared/examples/MachineSchema-b0d2a4c49e.zip"
+    },
+    {
+      "file": "milling/ru/src/tool-block.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/db2d0f019dee00c53ef1c496b116573c29f3abfce05d58145de77596dad20efd.png",
+      "local_url": "../../../_shared/media/db2d0f019dee00c53ef1c496b116573c29f3abfce05d58145de77596dad20efd.png"
+    },
+    {
+      "file": "milling/ru/src/tool-block.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/db2d0f019dee00c53ef1c496b116573c29f3abfce05d58145de77596dad20efd.png",
+      "local_url": "../../../_shared/media/db2d0f019dee00c53ef1c496b116573c29f3abfce05d58145de77596dad20efd.png"
+    },
+    {
+      "file": "milling/ru/src/tool-block.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/db2d0f019dee00c53ef1c496b116573c29f3abfce05d58145de77596dad20efd.png",
+      "local_url": "../../../_shared/media/db2d0f019dee00c53ef1c496b116573c29f3abfce05d58145de77596dad20efd.png"
+    },
+    {
+      "file": "milling/ru/src/tool-block.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/e2e9c0984eb356a080f0142a1789148c875530365264de0124126f99c2b66609.png",
+      "local_url": "../../../_shared/media/e2e9c0984eb356a080f0142a1789148c875530365264de0124126f99c2b66609.png"
+    },
+    {
+      "file": "milling/ru/src/tool-block.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/e2e9c0984eb356a080f0142a1789148c875530365264de0124126f99c2b66609.png",
+      "local_url": "../../../_shared/media/e2e9c0984eb356a080f0142a1789148c875530365264de0124126f99c2b66609.png"
+    },
+    {
+      "file": "milling/ru/src/tool-block.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/e2e9c0984eb356a080f0142a1789148c875530365264de0124126f99c2b66609.png",
+      "local_url": "../../../_shared/media/e2e9c0984eb356a080f0142a1789148c875530365264de0124126f99c2b66609.png"
+    },
+    {
+      "file": "milling/ru/src/tool-block.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9a4b79906ef1eed33130a126c4f75db3b715f7c1075cbc4d2f0e8052cf603333.png",
+      "local_url": "../../../_shared/media/9a4b79906ef1eed33130a126c4f75db3b715f7c1075cbc4d2f0e8052cf603333.png"
+    },
+    {
+      "file": "milling/ru/src/tool-block.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9a4b79906ef1eed33130a126c4f75db3b715f7c1075cbc4d2f0e8052cf603333.png",
+      "local_url": "../../../_shared/media/9a4b79906ef1eed33130a126c4f75db3b715f7c1075cbc4d2f0e8052cf603333.png"
+    },
+    {
+      "file": "milling/ru/src/tool-block.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9a4b79906ef1eed33130a126c4f75db3b715f7c1075cbc4d2f0e8052cf603333.png",
+      "local_url": "../../../_shared/media/9a4b79906ef1eed33130a126c4f75db3b715f7c1075cbc4d2f0e8052cf603333.png"
+    },
+    {
+      "file": "milling/ru/src/tool-block.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/51f3c2978074c97d53916f720227b2790870ebfeeca2f3a859b132a2005a5da0.png",
+      "local_url": "../../../_shared/media/51f3c2978074c97d53916f720227b2790870ebfeeca2f3a859b132a2005a5da0.png"
+    },
+    {
+      "file": "milling/ru/src/tool-block.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/51f3c2978074c97d53916f720227b2790870ebfeeca2f3a859b132a2005a5da0.png",
+      "local_url": "../../../_shared/media/51f3c2978074c97d53916f720227b2790870ebfeeca2f3a859b132a2005a5da0.png"
+    },
+    {
+      "file": "milling/ru/src/tool-block.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/51f3c2978074c97d53916f720227b2790870ebfeeca2f3a859b132a2005a5da0.png",
+      "local_url": "../../../_shared/media/51f3c2978074c97d53916f720227b2790870ebfeeca2f3a859b132a2005a5da0.png"
+    },
+    {
+      "file": "milling/ru/src/tool-block.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4122e4c569011940715f3888f980d37dc098184100d3197a5598fbf39a4b3a58.png",
+      "local_url": "../../../_shared/media/4122e4c569011940715f3888f980d37dc098184100d3197a5598fbf39a4b3a58.png"
+    },
+    {
+      "file": "milling/ru/src/tool-block.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4122e4c569011940715f3888f980d37dc098184100d3197a5598fbf39a4b3a58.png",
+      "local_url": "../../../_shared/media/4122e4c569011940715f3888f980d37dc098184100d3197a5598fbf39a4b3a58.png"
+    },
+    {
+      "file": "milling/ru/src/tool-block.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/4122e4c569011940715f3888f980d37dc098184100d3197a5598fbf39a4b3a58.png",
+      "local_url": "../../../_shared/media/4122e4c569011940715f3888f980d37dc098184100d3197a5598fbf39a4b3a58.png"
+    },
+    {
+      "file": "milling/ru/src/toolbar.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/b0790b151369c6480731d27de084677cb9e0259eb839453a798819ccc39c7be5.png",
+      "local_url": "../../../_shared/media/b0790b151369c6480731d27de084677cb9e0259eb839453a798819ccc39c7be5.png"
+    },
+    {
+      "file": "milling/ru/src/toolbar.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/b0790b151369c6480731d27de084677cb9e0259eb839453a798819ccc39c7be5.png",
+      "local_url": "../../../_shared/media/b0790b151369c6480731d27de084677cb9e0259eb839453a798819ccc39c7be5.png"
+    },
+    {
+      "file": "milling/ru/src/toolbar.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/b0790b151369c6480731d27de084677cb9e0259eb839453a798819ccc39c7be5.png",
+      "local_url": "../../../_shared/media/b0790b151369c6480731d27de084677cb9e0259eb839453a798819ccc39c7be5.png"
+    },
+    {
+      "file": "milling/ru/src/toolbar.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/15894bd310c211bed74ff980ecca6aca15bce9820e80b837b24f704ad5091558.png",
+      "local_url": "../../../_shared/media/15894bd310c211bed74ff980ecca6aca15bce9820e80b837b24f704ad5091558.png"
+    },
+    {
+      "file": "milling/ru/src/toolbar.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/15894bd310c211bed74ff980ecca6aca15bce9820e80b837b24f704ad5091558.png",
+      "local_url": "../../../_shared/media/15894bd310c211bed74ff980ecca6aca15bce9820e80b837b24f704ad5091558.png"
+    },
+    {
+      "file": "milling/ru/src/toolbar.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/15894bd310c211bed74ff980ecca6aca15bce9820e80b837b24f704ad5091558.png",
+      "local_url": "../../../_shared/media/15894bd310c211bed74ff980ecca6aca15bce9820e80b837b24f704ad5091558.png"
+    },
+    {
+      "file": "milling/ru/src/toolbar.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/3419ea427c82da7f20816b07d16113c6be1b3cccd2cde31dd14dcc440926bdd6.png",
+      "local_url": "../../../_shared/media/3419ea427c82da7f20816b07d16113c6be1b3cccd2cde31dd14dcc440926bdd6.png"
+    },
+    {
+      "file": "milling/ru/src/toolbar.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/3419ea427c82da7f20816b07d16113c6be1b3cccd2cde31dd14dcc440926bdd6.png",
+      "local_url": "../../../_shared/media/3419ea427c82da7f20816b07d16113c6be1b3cccd2cde31dd14dcc440926bdd6.png"
+    },
+    {
+      "file": "milling/ru/src/toolbar.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/3419ea427c82da7f20816b07d16113c6be1b3cccd2cde31dd14dcc440926bdd6.png",
+      "local_url": "../../../_shared/media/3419ea427c82da7f20816b07d16113c6be1b3cccd2cde31dd14dcc440926bdd6.png"
+    },
+    {
+      "file": "milling/ru/src/toolbar.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/b4285ace6ec2dd684ee7c69a83d35ff3a6d0f7eabd55ad08bf7b1d2384199808.png",
+      "local_url": "../../../_shared/media/b4285ace6ec2dd684ee7c69a83d35ff3a6d0f7eabd55ad08bf7b1d2384199808.png"
+    },
+    {
+      "file": "milling/ru/src/toolbar.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/b4285ace6ec2dd684ee7c69a83d35ff3a6d0f7eabd55ad08bf7b1d2384199808.png",
+      "local_url": "../../../_shared/media/b4285ace6ec2dd684ee7c69a83d35ff3a6d0f7eabd55ad08bf7b1d2384199808.png"
+    },
+    {
+      "file": "milling/ru/src/toolbar.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/b4285ace6ec2dd684ee7c69a83d35ff3a6d0f7eabd55ad08bf7b1d2384199808.png",
+      "local_url": "../../../_shared/media/b4285ace6ec2dd684ee7c69a83d35ff3a6d0f7eabd55ad08bf7b1d2384199808.png"
+    },
+    {
+      "file": "milling/ru/src/toolbar.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/d62e1fcfdd320d758f36d0a79503d4d58cb762701d203bc005a0f532834b881b.webp",
+      "local_url": "../../../_shared/media/d62e1fcfdd320d758f36d0a79503d4d58cb762701d203bc005a0f532834b881b.webp"
+    },
+    {
+      "file": "milling/ru/src/toolbar.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/d62e1fcfdd320d758f36d0a79503d4d58cb762701d203bc005a0f532834b881b.webp",
+      "local_url": "../../../_shared/media/d62e1fcfdd320d758f36d0a79503d4d58cb762701d203bc005a0f532834b881b.webp"
+    },
+    {
+      "file": "milling/ru/src/toolbar.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9c807a1dc3dc33598dd98cb643d809164d6c8a1392eb292a5e7e4774a253e971.png",
+      "local_url": "../../../_shared/media/9c807a1dc3dc33598dd98cb643d809164d6c8a1392eb292a5e7e4774a253e971.png"
+    },
+    {
+      "file": "milling/ru/src/toolbar.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9c807a1dc3dc33598dd98cb643d809164d6c8a1392eb292a5e7e4774a253e971.png",
+      "local_url": "../../../_shared/media/9c807a1dc3dc33598dd98cb643d809164d6c8a1392eb292a5e7e4774a253e971.png"
+    },
+    {
+      "file": "milling/ru/src/toolbar.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9c807a1dc3dc33598dd98cb643d809164d6c8a1392eb292a5e7e4774a253e971.png",
+      "local_url": "../../../_shared/media/9c807a1dc3dc33598dd98cb643d809164d6c8a1392eb292a5e7e4774a253e971.png"
+    },
+    {
+      "file": "milling/ru/src/toolbar.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/26c3c0218f6dddab04b3893c2519736be3b2d796c29187320cc931ddd1060fd8.png",
+      "local_url": "../../../_shared/media/26c3c0218f6dddab04b3893c2519736be3b2d796c29187320cc931ddd1060fd8.png"
+    },
+    {
+      "file": "milling/ru/src/toolbar.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/26c3c0218f6dddab04b3893c2519736be3b2d796c29187320cc931ddd1060fd8.png",
+      "local_url": "../../../_shared/media/26c3c0218f6dddab04b3893c2519736be3b2d796c29187320cc931ddd1060fd8.png"
+    },
+    {
+      "file": "milling/ru/src/toolbar.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/26c3c0218f6dddab04b3893c2519736be3b2d796c29187320cc931ddd1060fd8.png",
+      "local_url": "../../../_shared/media/26c3c0218f6dddab04b3893c2519736be3b2d796c29187320cc931ddd1060fd8.png"
+    },
+    {
+      "file": "milling/ru/src/toolbar.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/5c672422fde2b55f87f94f079eb13f03cb98b0bea8170fdf18884f688cb4e16b.png",
+      "local_url": "../../../_shared/media/5c672422fde2b55f87f94f079eb13f03cb98b0bea8170fdf18884f688cb4e16b.png"
+    },
+    {
+      "file": "milling/ru/src/toolbar.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/5c672422fde2b55f87f94f079eb13f03cb98b0bea8170fdf18884f688cb4e16b.png",
+      "local_url": "../../../_shared/media/5c672422fde2b55f87f94f079eb13f03cb98b0bea8170fdf18884f688cb4e16b.png"
+    },
+    {
+      "file": "milling/ru/src/trevisan-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/82a739a1fbb24f8549cadfac20637ccc2cb1c78b94b78ec126507f0a6c3a6b9f.png",
+      "local_url": "../../../_shared/media/82a739a1fbb24f8549cadfac20637ccc2cb1c78b94b78ec126507f0a6c3a6b9f.png"
+    },
+    {
+      "file": "milling/ru/src/trevisan-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/82a739a1fbb24f8549cadfac20637ccc2cb1c78b94b78ec126507f0a6c3a6b9f.png",
+      "local_url": "../../../_shared/media/82a739a1fbb24f8549cadfac20637ccc2cb1c78b94b78ec126507f0a6c3a6b9f.png"
+    },
+    {
+      "file": "milling/ru/src/trevisan-machine.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/82a739a1fbb24f8549cadfac20637ccc2cb1c78b94b78ec126507f0a6c3a6b9f.png",
+      "local_url": "../../../_shared/media/82a739a1fbb24f8549cadfac20637ccc2cb1c78b94b78ec126507f0a6c3a6b9f.png"
+    },
+    {
+      "file": "milling/ru/src/trevisan-machine.html",
+      "source_url": "https://github.com/EncySoftware/public-docs/releases/download/machinemaker-examples-2026-09-22/frezernyy-stanok-s-mnogofunktsionalnoy-golovkoy-54c1699bc7.zip",
+      "local_url": "../../../_shared/examples/frezernyy-stanok-s-mnogofunktsionalnoy-golovkoy-54c1699bc7.zip"
+    },
+    {
+      "file": "milling/ru/src/turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/c69620ae03da175dee6cd774e66cfbcceec59bee749ebc306d7a3bbe1442cd21.png",
+      "local_url": "../../../_shared/media/c69620ae03da175dee6cd774e66cfbcceec59bee749ebc306d7a3bbe1442cd21.png"
+    },
+    {
+      "file": "milling/ru/src/turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/c69620ae03da175dee6cd774e66cfbcceec59bee749ebc306d7a3bbe1442cd21.png",
+      "local_url": "../../../_shared/media/c69620ae03da175dee6cd774e66cfbcceec59bee749ebc306d7a3bbe1442cd21.png"
+    },
+    {
+      "file": "milling/ru/src/turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/c69620ae03da175dee6cd774e66cfbcceec59bee749ebc306d7a3bbe1442cd21.png",
+      "local_url": "../../../_shared/media/c69620ae03da175dee6cd774e66cfbcceec59bee749ebc306d7a3bbe1442cd21.png"
+    },
+    {
+      "file": "milling/ru/src/turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/0a1e6d8204430981a9ddff57e05466c8b55d481e6a77c901863a463f3fc44da1.png",
+      "local_url": "../../../_shared/media/0a1e6d8204430981a9ddff57e05466c8b55d481e6a77c901863a463f3fc44da1.png"
+    },
+    {
+      "file": "milling/ru/src/turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/0a1e6d8204430981a9ddff57e05466c8b55d481e6a77c901863a463f3fc44da1.png",
+      "local_url": "../../../_shared/media/0a1e6d8204430981a9ddff57e05466c8b55d481e6a77c901863a463f3fc44da1.png"
+    },
+    {
+      "file": "milling/ru/src/turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/0a1e6d8204430981a9ddff57e05466c8b55d481e6a77c901863a463f3fc44da1.png",
+      "local_url": "../../../_shared/media/0a1e6d8204430981a9ddff57e05466c8b55d481e6a77c901863a463f3fc44da1.png"
+    },
+    {
+      "file": "milling/ru/src/turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/300e515bc8ac0db96e5a445d5abfc1136a1196f3f3b6f3459bcc47ec96c2bbc4.webp",
+      "local_url": "../../../_shared/media/300e515bc8ac0db96e5a445d5abfc1136a1196f3f3b6f3459bcc47ec96c2bbc4.webp"
+    },
+    {
+      "file": "milling/ru/src/turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/300e515bc8ac0db96e5a445d5abfc1136a1196f3f3b6f3459bcc47ec96c2bbc4.webp",
+      "local_url": "../../../_shared/media/300e515bc8ac0db96e5a445d5abfc1136a1196f3f3b6f3459bcc47ec96c2bbc4.webp"
+    },
+    {
+      "file": "milling/ru/src/turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9e1f5e92fb10d6034d51b559d5369442a38d0f2f9f33d1bcdd753858463bd3d2.webp",
+      "local_url": "../../../_shared/media/9e1f5e92fb10d6034d51b559d5369442a38d0f2f9f33d1bcdd753858463bd3d2.webp"
+    },
+    {
+      "file": "milling/ru/src/turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/9e1f5e92fb10d6034d51b559d5369442a38d0f2f9f33d1bcdd753858463bd3d2.webp",
+      "local_url": "../../../_shared/media/9e1f5e92fb10d6034d51b559d5369442a38d0f2f9f33d1bcdd753858463bd3d2.webp"
+    },
+    {
+      "file": "milling/ru/src/turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/47feaa5a084681b4f8d922711ce463f39e3a8f2f3fb270ca10fac743136ea21a.webp",
+      "local_url": "../../../_shared/media/47feaa5a084681b4f8d922711ce463f39e3a8f2f3fb270ca10fac743136ea21a.webp"
+    },
+    {
+      "file": "milling/ru/src/turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/47feaa5a084681b4f8d922711ce463f39e3a8f2f3fb270ca10fac743136ea21a.webp",
+      "local_url": "../../../_shared/media/47feaa5a084681b4f8d922711ce463f39e3a8f2f3fb270ca10fac743136ea21a.webp"
+    },
+    {
+      "file": "milling/ru/src/turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/d9e7224f3fcbf32e7214133a50d3ca85098d89d4da64e0b9e106bf3e84d7a6d9.webp",
+      "local_url": "../../../_shared/media/d9e7224f3fcbf32e7214133a50d3ca85098d89d4da64e0b9e106bf3e84d7a6d9.webp"
+    },
+    {
+      "file": "milling/ru/src/turret.html",
+      "source_url": "https://encysoftware.github.io/public-docs/v3/machinemaker/media/d9e7224f3fcbf32e7214133a50d3ca85098d89d4da64e0b9e106bf3e84d7a6d9.webp",
+      "local_url": "../../../_shared/media/d9e7224f3fcbf32e7214133a50d3ca85098d89d4da64e0b9e106bf3e84d7a6d9.webp"
+    }
+  ]
+}

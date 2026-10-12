@@ -1,0 +1,95 @@
+{
+  "revised_at": "2026-10-12T06:39:10.285611+00:00",
+  "authorization": "User decisions of 2026-10-12 in this conversation",
+  "changes": [
+    {
+      "path": "html/milling/en/src/toolbar.html",
+      "action": "assembly-local",
+      "before_sha256": "99d0c5b96a6737cf9594ec87f2aa65529b541dd3c0966226a2710f1468b5ac7a",
+      "after_sha256": "82f0c46c607dfdcf5f93e149706b93d8087b93f602be3c010692a7ede85bc40c"
+    },
+    {
+      "path": "html/milling/en/src/assemblies.html",
+      "action": "kinematic-local",
+      "before_sha256": "5d3c1f0c1f76f18baa55445ccdd76d03714833185f00be1e53832874a748f429",
+      "after_sha256": "f158413d33ef81f92af1b967e49fb70034e0bdc0424c3a4ed4fc00c45823bfe5"
+    },
+    {
+      "path": "html/milling/en/src/grouping-elements-into-nodes.html",
+      "action": "cad-reference-remove",
+      "before_sha256": "e5f4824285a8013924be6502e37de33b8635f117ee8697ffafcd0a5961812d3a",
+      "after_sha256": "72ed11eccfd83793421412221479978a0b28523837b1969237ef849cef2b61ff"
+    },
+    {
+      "path": "html/robots/en/src/content/129930510.html",
+      "action": "video-remove",
+      "before_sha256": "66fda17ba26e94172b372d0cacce7d533f7f06ad58bd79bccaf4312d2b79faea",
+      "after_sha256": "ed957d97156d0e5d91c14687f0954687b5772e5d5cb3a3e3496c8b3208d5d88b"
+    },
+    {
+      "path": "build-work/milling-en/docs/machinemaker/machines/src/toolbar.md",
+      "action": "assembly-local",
+      "before_sha256": "869353efc6436dda70d8c9adfc098a9f740f87529dbe9454e767c894268e0679",
+      "after_sha256": "51721a2c0d710ee04c46f501f9b1e4a32f339615e29159c51efa6d05c9f67355"
+    },
+    {
+      "path": "build-work/milling-en/docs/machinemaker/machines/src/assemblies.md",
+      "action": "kinematic-local",
+      "before_sha256": "b109ae905ab9ab85841d02bd3aa471c58b0e318ab222bb25aac1d15557944bc3",
+      "after_sha256": "526aee995eed3b8e89924b5225f91c8b19c7ba3d539037bef5ce08ca61f7d072"
+    },
+    {
+      "path": "build-work/milling-en/docs/machinemaker/machines/src/grouping-elements-into-nodes.md",
+      "action": "cad-reference-remove",
+      "before_sha256": "9511a910d9a4f30dff0800a1865e10455135236c2c5b62e5a5b568a3bdb088fc",
+      "after_sha256": "0a84a6145c374abbe8b77e34338a224569ae64eae4b930ee6bbef102a5d2610a"
+    },
+    {
+      "path": "build-work/robots-en/main/src/content/129930510.md",
+      "action": "video-source-remove",
+      "before_sha256": "552619cc63fad95db1a51dd278da9cc30b7a45e18f692376000e9eb9d0f01b61",
+      "after_sha256": "98ba247df2b5315d12a9c98d9a38bade09093db6b4ce64d35fca8c7f38e78544"
+    },
+    {
+      "path": "html/robots/en/index.json",
+      "action": "refresh-book-search",
+      "before_sha256": "ea972162b71a6f509d47c6a5572ab3da4b92f6d89da791f54287deafbf2a7dea",
+      "after_sha256": "24fee02ce15ca9d9ca5def3482c80ddabbcf044c43ae02267b8616b6451f75cb"
+    },
+    {
+      "path": "html/milling/en/index.json",
+      "action": "refresh-book-search",
+      "before_sha256": "61691db5d8fb095b1b39bd3d1e5aa74a5fbdea9a53227e451ac78353b85c82a2",
+      "after_sha256": "f99d7ba270fb01adbd6b67f939035787fecf529bdfbd69faaa68433a16e66808"
+    },
+    {
+      "path": "html/search-index.json",
+      "action": "refresh-shared-search",
+      "before_sha256": "a05d4c80d51a9237521d7fde9d4126432ae4738e2694ba0fa006dbaa04aa62e8",
+      "after_sha256": "9e28c66529791602af08c183e762649ab3b42602b87bab62e685644020d6f624",
+      "previous_revision_sha256": "3f32a4f63f67cadf83e7fae7151d37a5dda376853ac2b8e7c0d7c7b4694f8216"
+    }
+  ],
+  "decisions": {
+    "legacy_kb_links": "Replace with corresponding internal chapters where available; otherwise remove the obsolete referral",
+    "restricted_video": "Remove the Custom Imported Robot Cell link and its list entry",
+    "legacy_v16_examples": "Compatibility confirmed by the user; retain the archives and links unchanged",
+    "kuka_download_center": "Retain the link and instructional text unchanged, as requested by the user",
+    "turnmill_en_docfx": "Convert the recovered English book to the shared DocFX template, preserve the 25 remaining article URLs and content, exclude Trevisan"
+  },
+  "original_source_snapshots_modified": false,
+  "superseded_by_docfx_conversion": [
+    {
+      "path": "html/turnmill/en/6.html",
+      "action": "assembly-unlink",
+      "before_sha256": "cf793d7b4e883d6357d36e96b99f8b995b1e7c6a5a4e2d5493db2fb3afa4a1ea",
+      "after_sha256": "e8203249fd0727a13a5f7411cf2f1e6a09e0eeeb05ba8cb96a28528183de32b5"
+    },
+    {
+      "path": "html/turnmill/en/14.html",
+      "action": "cad-reference-remove",
+      "before_sha256": "79a0db44380734b6725b9c32ea1231cef5d1016a675ceebffc508e7d29a26b70",
+      "after_sha256": "f0ab139df4e359511d8189cbcd75d4771b9cda3c937c3d2ba984411144bf0a5a"
+    }
+  ]
+}
