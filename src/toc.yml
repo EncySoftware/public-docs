@@ -1,0 +1,52 @@
+pdf: true
+items:
+- name: MachineMaker — Milling Machines
+  href: index.md
+- name: Introduction to MachineMaker
+  href: content/128546572.md
+- name: Interface
+  href: content/128546586.md
+  items:
+  - name: Main window
+    href: content/128546587.md
+  - name: 3D navigation
+    href: content/128546599.md
+  - name: Toolbar
+    href: content/128546624.md
+  - name: Application Settings
+    href: content/128546673.md
+- name: Getting Started
+  href: content/129940180.md
+  items:
+  - name: Creating a project
+    href: content/129940181.md
+  - name: Adding a mechanism
+    href: content/129940195.md
+  - name: Prepare and import 3D objects
+    href: content/129940210.md
+  - name: Grouping elements into nodes
+    href: content/129940248.md
+  - name: Building a kinematic scheme
+    href: content/129940297.md
+  - name: Assemblies
+    href: content/150674458.md
+    items:
+    - name: Assembly options
+      href: content/150674516.md
+    - name: Additional options
+      href: content/150674530.md
+  - name: Coloring
+    href: content/129940403.md
+  - name: Mechanism Simulation and Validation
+    href: content/129940423.md
+  - name: Machine equipment configuration
+    href: content/129940438.md
+- name: 'Examples: Machines'
+  href: content/128546971.md
+  items:
+  - name: 3-Axes Milling Machine
+    href: content/128546972.md
+  - name: 5-Axes Milling Machine
+    href: content/128546976.md
+- name: Simplifier
+  href: content/128546984.md
