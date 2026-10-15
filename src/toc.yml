@@ -1,0 +1,58 @@
+pdf: true
+items:
+- name: MachineMaker — Turn-Milling Machines
+  href: 1.md
+- name: Introduction to MachineMaker
+  href: 2.md
+- name: Interface
+  href: 3.md
+  items:
+  - name: Main window
+    href: 4.md
+  - name: 3D navigation
+    href: 5.md
+  - name: Toolbar
+    href: 6.md
+  - name: Application Settings
+    href: 7.md
+- name: Getting Started
+  href: 10.md
+  items:
+  - name: Creating a project
+    href: 11.md
+  - name: Adding a mechanism
+    href: 12.md
+  - name: Supported 3D model formats
+    href: 13.md
+  - name: Grouping elements into nodes
+    href: 14.md
+  - name: Building a kinematic scheme
+    href: 20.md
+    items:
+    - name: Chuck connector
+      href: 28.md
+    - name: Tool block
+      href: 29.md
+    - name: Turret head node
+      href: 30.md
+    - name: Dual-row tool turret
+      href: 30_1.md
+  - name: Coloring
+    href: 31.md
+  - name: Mechanism Simulation and Validation
+    href: 32.md
+  - name: Machine equipment configuration
+    href: 34.md
+  - name: Multi Tool Head
+    href: 35.md
+- name: 'Examples: Lathe milling machine'
+  href: 80.md
+  items:
+  - name: Lathe milling machine
+    href: 81.md
+  - name: Lathe milling machine with a dual-row turret
+    href: 82.md
+  - name: Swiss type machine
+    href: 2026092101.md
+- name: Simplifier
+  href: 90.md
