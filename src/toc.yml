@@ -1,0 +1,101 @@
+﻿pdf: true
+items:
+  - name: Home
+    href: index.md
+  - name: Introduction to MachineMaker
+    href: content/129926359.md
+  - name: Interface
+    href: content/129940510.md
+    items:
+    - name: Main window
+      href: content/129926379.md
+    - name: 3D navigation
+      href: content/129926398.md
+    - name: Toolbar
+      href: content/129930436.md
+    - name: Application Settings
+      href: content/129930500.md
+  - name: Getting Started
+    href: content/129930510.md
+    items:
+    - name: Creating a project
+      href: content/129930512.md
+    - name: Adding a mechanism
+      href: content/129930542.md
+    - name: Prepare and import 3D objects
+      href: content/129930751.md
+    - name: Grouping elements into nodes
+      href: content/131903382.md
+    - name: Building a kinematic scheme
+      href: content/131903495.md
+      items:
+      - name: Industrial Robots
+        href: content/131903654.md
+      - name: Cobot
+        href: content/131903666.md
+      - name: Heavy-Duty Robots
+        href: content/131903674.md
+      - name: Flexible Heavy-Duty Robot
+        href: content/129930802.md
+      - name: Tables and Positioners
+        href: content/129930810.md
+      - name: Rails and Portals
+        href: content/131903688.md
+      - name: Composite End effectors
+        href: content/131903701.md
+    - name: Assemblies
+      href: content/129931045.md
+      items:
+      - name: Assembly Simulation and Validation
+        href: content/131904463.md
+      - name: Table calibration
+        href: content/129931151.md
+      - name: Receiving assemblies from CAM system
+        href: content/129933049.md
+      - name: Assembly options
+        href: content/129935832.md
+      - name: Additional options
+        href: content/129936331.md
+      - name: Collision
+        href: content/129936493.md
+      - name: Links/Leads
+        href: content/129936705.md
+    - name: Coloring
+      href: content/131903745.md
+    - name: Mechanism Simulation and Validation
+      href: content/131903767.md
+    - name: End effectors and TCP calibration
+      href: content/129930953.md
+    - name: Mechanisms Library
+      href: content/129932035.md
+  - name: 'Examples: Robot cell'
+    href: content/131904826.md
+    items:
+    - name: Simple robot
+      href: content/129932078.md
+    - name: Heavy-Duty robot
+      href: content/129932169.md
+    - name: Flexible Heavy-Duty Robot
+      href: content/129933030.md
+    - name: Cobot
+      href: content/129933035.md
+    - name: End Effectors
+      href: content/129936988.md
+    - name: External Tools
+      href: content/129937003.md
+    - name: Composite End Effector
+      href: content/129935339.md
+    - name: 'Composite EndEffector: Spot Welding'
+      href: content/129937016.md
+    - name: Tables and User CS
+      href: content/129937026.md
+    - name: Rail
+      href: content/129937034.md
+    - name: H-bot (Portal)
+      href: content/129937042.md
+    - name: SCARA Robot
+      href: content/137005116.md
+    - name: Column-type robot
+      href: content/157870578.md
+  - name: Simplifier
+    href: content/129934066.md
