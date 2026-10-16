@@ -1,0 +1,2262 @@
+{
+  "metadata": [],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "*.md", "toc.yml"
+        ],
+        "exclude": [
+          "_pdf/**",
+          "template/**",
+          "README.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "assets/**"
+        ]
+      }
+    ],
+    "fileMetadata": {
+      "_inlineImageWidth": {
+        "1118119.md": 40,
+        "742.md": 40
+      },
+      "_releaseNotes": {
+        "10003.md": true
+      },
+      "_documentationGuide": {
+        "301.md": true,
+        "10156.md": true,
+        "102121.md": true,
+        "707.md": true,
+        "10151.md": true,
+        "10153.md": true,
+        "10154.md": true,
+        "10152.md": true,
+        "102012.md": true,
+        "806.md": true,
+        "705.md": true,
+        "406.md": true,
+        "706.md": true,
+        "610.md": true,
+        "407.md": true,
+        "10158.md": true,
+        "100152.md": true,
+        "101231.md": true
+      },
+      "_figureLayout": {
+        "10135.md": {
+          "images/download/attachments/157864347/By_regions_on.png": {
+            "leftPx": 80,
+            "topPx": 0
+          },
+          "images/download/attachments/157864347/By_regions_off.png": {
+            "leftPx": 80,
+            "topPx": 0
+          }
+        },
+        "201112.md": {
+          "images/download/attachments/157868164/image2026-9-14_12-5-3.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              432
+            ]
+          }
+        },
+        "100321.md": {
+          "images/download/attachments/157859166/IMG_20240621_093631.jpg": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              239
+            ]
+          },
+          "images/download/attachments/157859166/image2024-6-20_16-41-18.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              265
+            ]
+          },
+          "images/download/attachments/157859166/image2024-6-20_16-31-32.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              398
+            ]
+          },
+          "images/download/attachments/157859166/image2024-6-20_16-27-11.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              337
+            ]
+          }
+        },
+        "12452.md": {
+          "images/download/attachments/157860785/image2025-5-20_8-51-14.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              454
+            ]
+          },
+          "images/download/attachments/157860785/image2025-5-20_8-51-38.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              516
+            ]
+          },
+          "images/download/attachments/157860785/image2025-5-20_8-52-8.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              536
+            ]
+          },
+          "images/download/attachments/157860785/image2025-5-20_8-52-29.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              465
+            ]
+          },
+          "images/download/attachments/157860785/image2025-5-20_8-52-45.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              459
+            ]
+          },
+          "images/download/attachments/157860785/image2025-5-20_8-53-3.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              424
+            ]
+          },
+          "images/download/attachments/157860785/image2025-5-20_8-53-20.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              403
+            ]
+          },
+          "images/download/attachments/157860785/image2025-5-20_8-53-42.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              490
+            ]
+          },
+          "images/download/attachments/157860785/image2025-5-20_8-58-42.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              430,
+              437
+            ]
+          },
+          "images/download/attachments/157860785/image2025-5-20_9-13-17.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              413
+            ]
+          },
+          "images/download/attachments/157860785/image2025-5-20_9-20-27.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              387,
+              348.984375
+            ]
+          },
+          "images/download/thumbnails/157860785/image2025-5-20_9-26-0.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/thumbnails/157860785/image2025-5-20_9-28-39.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157860785/image2025-5-20_9-30-41.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157860785/image2025-5-20_9-32-27.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              505.99609375,
+              592
+            ]
+          },
+          "images/download/attachments/157860785/image2025-5-20_9-34-4.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              377,
+              315.99609375
+            ]
+          },
+          "images/download/attachments/157860785/image2025-5-21_12-27-55.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              454
+            ]
+          },
+          "images/download/attachments/157860785/image2025-5-21_12-32-55.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              403
+            ]
+          },
+          "images/download/attachments/157860785/image2025-5-21_12-37-12.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              444
+            ]
+          },
+          "images/download/thumbnails/157860785/image2025-5-21_12-42-22.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              281.9921875,
+              202
+            ]
+          },
+          "images/download/thumbnails/157860785/image2025-5-21_12-47-35.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              498,
+              503.984375
+            ]
+          },
+          "images/download/attachments/157860785/image2025-5-21_12-50-26.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              532.98828125,
+              722
+            ]
+          },
+          "images/download/attachments/157860785/image2025-5-21_12-51-50.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              748.59375,
+              649
+            ]
+          }
+        },
+        "12451.md": {
+          "images/download/attachments/157860860/image2026-4-17_14-41-41.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157860860/image2026-4-17_14-50-54.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              347
+            ]
+          },
+          "images/download/thumbnails/157860860/image2026-4-17_14-55-4.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157860860/image2026-4-17_15-49-17.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              361,
+              300
+            ]
+          },
+          "images/download/attachments/157860860/image2026-4-17_15-17-34.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              410,
+              472
+            ]
+          },
+          "images/download/attachments/157860860/image2026-5-7_15-14-35.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157860860/image2026-5-7_15-16-19.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157860860/image2026-4-17_15-26-36.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              361,
+              300
+            ]
+          },
+          "images/download/attachments/157860860/image2025-5-27_9-9-37.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              505.99609375,
+              532
+            ]
+          },
+          "images/download/attachments/157860860/image2025-5-27_9-11-21.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              442,
+              300
+            ]
+          },
+          "images/download/thumbnails/157860860/image2025-5-27_9-13-53.png": [
+            {
+              "leftPx": 0,
+              "topPx": 0,
+              "imageWidths": [
+                291,
+                328.61328125,
+                343.0859375,
+                343.0859375
+              ]
+            },
+            {
+              "leftPx": 60,
+              "topPx": 0,
+              "imageWidths": [
+                252.98828125,
+                289
+              ]
+            }
+          ],
+          "images/download/attachments/157860860/image2025-5-27_9-15-6.png": {
+            "leftPx": 0,
+            "topPx": 0,
+            "imageWidths": [
+              343.0859375,
+              285
+            ]
+          },
+          "images/download/thumbnails/157860860/image2025-5-27_9-22-50.png": [
+            {
+              "leftPx": 60,
+              "topPx": 0,
+              "imageWidths": [
+                287.98828125,
+                206,
+                286.9921875
+              ]
+            },
+            {
+              "leftPx": 60,
+              "topPx": 0,
+              "imageWidths": [
+                287.98828125,
+                203,
+                300
+              ]
+            }
+          ],
+          "images/download/thumbnails/157860860/image2025-5-27_11-27-46.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              232.98828125,
+              378
+            ]
+          },
+          "images/download/attachments/157860860/image2025-5-27_11-28-42.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              748.59375,
+              533
+            ]
+          },
+          "images/download/attachments/157860860/image2025-5-27_11-33-42.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157860860/image2025-5-27_11-48-16.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              459
+            ]
+          },
+          "images/download/attachments/157860860/image2025-5-27_11-48-26.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              470
+            ]
+          },
+          "images/download/attachments/157860860/image2025-5-27_11-51-24.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              454
+            ]
+          },
+          "images/download/attachments/157860860/image2025-5-27_11-52-58.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              546.9921875,
+              522
+            ]
+          },
+          "images/download/thumbnails/157860860/image2025-5-27_15-37-8.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              300,
+              341
+            ]
+          },
+          "images/download/thumbnails/157860860/image2025-5-27_14-53-22.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              265,
+              318
+            ]
+          },
+          "images/download/attachments/157860860/image2025-5-27_14-54-51.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              378
+            ]
+          },
+          "images/download/attachments/157860860/image2025-5-27_12-55-4.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              375,
+              351
+            ]
+          },
+          "images/download/attachments/157860860/image2025-5-27_14-30-3.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              439
+            ]
+          },
+          "images/download/attachments/157860860/image2025-5-26_15-4-11.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157860860/image2026-4-10_14-58-37.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              498.984375,
+              526
+            ]
+          },
+          "images/download/thumbnails/157860860/image2025-5-27_15-2-53.png": [
+            {
+              "leftPx": 60,
+              "topPx": 0
+            },
+            {
+              "leftPx": 60,
+              "topPx": 0,
+              "imageWidths": [
+                300,
+                300,
+                318
+              ]
+            }
+          ],
+          "images/download/thumbnails/157860860/image2025-5-27_15-15-15.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              300,
+              411
+            ]
+          },
+          "images/download/thumbnails/157860860/image2025-5-27_15-18-0.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              300,
+              432
+            ]
+          },
+          "images/download/attachments/157860860/image2025-8-5_9-39-29.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              363.984375,
+              310.99609375,
+              318
+            ]
+          },
+          "images/download/thumbnails/157860860/image2025-6-3_17-19-34.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              311
+            ]
+          },
+          "images/download/attachments/157860860/image2025-5-27_9-34-28.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              493.76953125,
+              493.76953125,
+              493.76953125
+            ]
+          }
+        },
+        "10003.md": {
+          "images/download/attachments/157868164/image2026-9-14_12-5-3.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              432
+            ]
+          },
+          "images/download/attachments/157868164/image2026-6-11_8-21-58.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              533
+            ]
+          },
+          "images/download/attachments/157868164/image2026-6-30_10-7-29.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              394
+            ]
+          },
+          "images/download/attachments/157868164/3D_Surfacing_Plane.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157868164/793afc1f-6ef3-4ea9-a9e7-157900aa71d8.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              298
+            ]
+          },
+          "images/download/attachments/157868164/image2026-5-20_16-43-33.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              384
+            ]
+          },
+          "images/download/attachments/157868164/image2026-6-29_12-33-34.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              452
+            ]
+          },
+          "images/download/attachments/157868164/image2026-8-11_11-25-26.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              373.9930725097656,
+              384
+            ]
+          },
+          "images/download/attachments/157868164/image2026-8-11_11-31-3.png": {
+            "leftPx": 0,
+            "topPx": 0,
+            "imageWidths": [
+              338.9757080078125
+            ]
+          },
+          "images/download/attachments/157868164/image2026-8-17_15-58-55.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              452
+            ]
+          },
+          "images/download/attachments/157868164/image2026-9-8_8-41-36.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              477,
+              477.7778015136719,
+              477.7778015136719
+            ]
+          },
+          "images/download/attachments/157868164/image2026-8-27_8-57-32.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              567,
+              724.670166015625
+            ]
+          },
+          "images/download/attachments/157868164/image2026-9-8_8-56-14.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              405,
+              724.670166015625
+            ]
+          },
+          "images/download/attachments/157868164/image2026-4-17_14-41-41.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              408.9930725097656,
+              407
+            ]
+          },
+          "images/download/attachments/157868164/image2026-5-7_15-16-33.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              473.9930725097656,
+              476
+            ]
+          },
+          "images/download/attachments/157868164/image2026-4-10_14-44-47.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              450.9895935058594,
+              352
+            ]
+          },
+          "images/download/attachments/157868164/image2026-5-22_14-31-31.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              307
+            ]
+          },
+          "images/download/attachments/157868164/image2026-7-31_15-1-13.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              400.0000305175781,
+              498
+            ]
+          },
+          "images/download/attachments/157868164/ChatGPT_Image_30_%D0%B8%D1%8E%D0%BB._2026_%D0%B3.%2C_15_30_41.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              423
+            ]
+          },
+          "images/download/attachments/157868164/Pullback_off.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              350.0000305175781,
+              374
+            ]
+          },
+          "images/download/attachments/157868164/image2026-4-17_12-37-42.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              472,
+              300
+            ]
+          },
+          "images/download/attachments/157868164/image2026-9-1_15-9-19.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              476
+            ]
+          },
+          "images/download/attachments/157868164/image2026-6-3_9-48-16.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              394
+            ]
+          },
+          "images/download/attachments/157868164/image2026-5-22_10-14-56.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              327
+            ]
+          },
+          "images/download/attachments/157868164/image2026-5-22_10-15-26.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              370
+            ]
+          },
+          "images/download/attachments/157868164/image2026-8-11_14-20-47.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157868164/image2026-5-25_16-36-46.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157868164/image2026-6-8_11-47-5.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157868164/image2026-4-23_15-4-43.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157868164/image2026-6-3_8-54-43.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/thumbnails/157868164/image2026-2-19_12-23-43.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157868164/image2026-8-27_9-9-38.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157868164/image2026-8-27_9-10-53.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157868164/image2026-8-27_9-28-34.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157868164/image2026-5-20_15-47-50.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              731
+            ]
+          }
+        },
+        "100133.md": {
+          "images/download/attachments/157862581/Distances_(Short_link_max_distance).png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157862581/Distances_(Short_link_max_angle).png": {
+            "leftPx": 60,
+            "topPx": 0
+          }
+        },
+        "707.md": {
+          "images/download/attachments/157861751/image2025-4-15_10-8-35.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              400
+            ]
+          },
+          "images/download/attachments/157861751/image2025-4-15_10-11-12.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              400
+            ]
+          },
+          "images/download/attachments/157861751/image2025-4-15_10-15-29.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              400
+            ]
+          },
+          "images/download/attachments/157861751/image2025-4-15_10-36-49.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              700
+            ]
+          },
+          "images/download/attachments/157861751/image2025-4-15_11-34-7.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              400
+            ]
+          },
+          "images/download/attachments/157861751/image2025-4-15_11-34-23.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              400
+            ]
+          },
+          "images/download/attachments/157861751/image2025-4-15_10-42-17.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              400,
+              400
+            ]
+          },
+          "images/download/thumbnails/157861751/image2025-4-15_10-47-34.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/thumbnails/157861751/image2025-4-15_10-52-12.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157861751/image2025-4-15_11-44-18.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157861751/image2025-4-15_11-36-13.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/thumbnails/157861751/image2025-4-15_10-56-49.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157861751/image2025-4-15_12-22-17.png": {
+            "leftPx": 60,
+            "topPx": 0
+          }
+        },
+        "10156.md": {
+          "images/download/attachments/157861704/image2025-4-16_8-54-23.png": {
+            "leftPx": 0,
+            "topPx": 0,
+            "imageWidths": [
+              450,
+              500
+            ]
+          },
+          "images/download/attachments/157861704/image2025-4-16_8-21-56.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157861704/image2025-4-16_8-26-3.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/thumbnails/157861704/image2025-4-16_8-43-4.png": {
+            "leftPx": 60,
+            "topPx": 0
+          }
+        },
+        "102121.md": {
+          "images/download/attachments/157861746/image2025-5-23_15-37-18.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              400,
+              400
+            ]
+          },
+          "images/download/attachments/157861746/image2025-4-18_12-2-42.png": {
+            "leftPx": 0,
+            "topPx": 0
+          }
+        },
+        "10331.md": {
+          "images/download/attachments/157867382/RockSolid_Flat_land.png": {
+            "leftPx": 0,
+            "topPx": 0,
+            "imageWidths": [
+              300
+            ]
+          },
+          "images/download/attachments/157867382/RockSolid_Turn_milling.png": {
+            "leftPx": 0,
+            "topPx": 0,
+            "imageWidths": [
+              300
+            ]
+          }
+        },
+        "1052.md": {
+          "images/download/attachments/157869189/planar.png": {
+            "leftPx": 0,
+            "topPx": 0,
+            "imageWidths": [
+              500
+            ]
+          }
+        },
+        "307.md": {
+          "images/download/attachments/157865014/image2024-3-12_11-55-19.png": {
+            "leftPx": 0,
+            "topPx": 0,
+            "imageWidths": [
+              500
+            ]
+          }
+        },
+        "316.md": {
+          "images/download/attachments/157865019/image2024-3-12_11-31-10.png": {
+            "leftPx": 0,
+            "topPx": 0,
+            "imageWidths": [
+              500,
+              500
+            ]
+          }
+        },
+        "10100.md": {
+          "images/download/attachments/157863324/image2023-10-20_16-52-33.png": {
+            "leftPx": 0,
+            "topPx": 0,
+            "imageWidths": [
+              500
+            ]
+          }
+        },
+        "102010.md": {
+          "images/download/attachments/157861425/image2024-5-20_12-6-9.png": {
+            "leftPx": 0,
+            "topPx": 0,
+            "imageWidths": [
+              500,
+              500
+            ]
+          }
+        },
+        "10070.md": {
+          "images/download/attachments/157861409/image2026-6-15_16-41-0.png": {
+            "leftPx": 0,
+            "topPx": 0,
+            "imageWidths": [
+              300
+            ]
+          }
+        },
+        "191214.md": {
+          "images/download/attachments/157861565/image2025-7-22_9-41-47.png": {
+            "leftPx": 0,
+            "topPx": 0,
+            "imageWidths": [
+              500,
+              600
+            ]
+          },
+          "images/download/attachments/157861565/image2025-7-22_9-35-18.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              300
+            ]
+          },
+          "images/download/attachments/157861565/image2025-7-22_9-5-4.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              300
+            ]
+          }
+        },
+        "100125.md": {
+          "images/download/attachments/157862394/image2026-3-24_15-56-6.png": {
+            "leftPx": 0,
+            "topPx": 0,
+            "imageWidths": [
+              500
+            ]
+          },
+          "images/download/attachments/157862394/image2026-3-24_15-56-49.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              600,
+              600
+            ]
+          }
+        },
+        "10171.md": {
+          "images/download/attachments/157864934/image2018-12-24_17-3-0.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              412,
+              423
+            ]
+          }
+        },
+        "1029.md": {
+          "images/download/attachments/157862943/image2024-8-26_11-37-52.png": {
+            "leftPx": 0,
+            "topPx": 0,
+            "imageWidths": [
+              500
+            ]
+          }
+        },
+        "10152.md": {
+          "images/download/attachments/157861979/image2025-4-15_16-12-202.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              300
+            ]
+          },
+          "images/download/attachments/157861979/image2025-4-15_16-13-22.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              300
+            ]
+          },
+          "images/download/attachments/157861979/image2025-4-15_16-14-152.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              300
+            ]
+          },
+          "images/download/attachments/157861979/image2025-4-15_16-15-17.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              300
+            ]
+          },
+          "images/download/attachments/157861979/image2025-4-15_16-12-20.png": {
+            "leftPx": 0,
+            "topPx": 0
+          }
+        },
+        "101231.md": {
+          "images/download/attachments/157862261/image2025-9-22_12-36-53.png": {
+            "leftPx": 60,
+            "topPx": 0,
+            "imageWidths": [
+              400
+            ]
+          },
+          "images/download/attachments/157862261/image2025-4-21_8-44-17.png": {
+            "leftPx": 0,
+            "topPx": 0
+          }
+        },
+        "100128.md": {
+          "images/download/attachments/162957033/image2026-6-25_14-21-1.png": {
+            "leftPx": 0,
+            "topPx": 0,
+            "imageWidths": [
+              808
+            ]
+          }
+        },
+        "100159.md": {
+          "images/download/attachments/157858426/image2026-5-25_15-23-21.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157858426/image2026-5-25_15-30-37.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157858426/image2026-5-25_15-39-43.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157858426/image2026-5-25_16-8-1.png": {
+            "leftPx": 60,
+            "topPx": 0
+          }
+        },
+        "100127.md": {
+          "images/download/attachments/162957622/image2026-6-8_11-47-5.png": {
+            "leftPx": 0,
+            "topPx": 0
+          },
+          "images/download/attachments/162957622/image2024-7-17_19-53-8.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/162957622/image2023-10-16_12-15-43.png": {
+            "leftPx": 60,
+            "topPx": 0
+          }
+        },
+        "100112.md": {
+          "images/download/attachments/157862272/Max_motion_length_Off.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157862272/Max_motion_rotation_off.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157862272/Check_workpiece_(off).png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157862272/Extend__toolpath_off.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157862272/Check_fixtures_(Off).png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157862272/Check_for_gouges_off.png": {
+            "leftPx": 60,
+            "topPx": 0
+          },
+          "images/download/attachments/157862272/Del_chips_(on).png": {
+            "leftPx": 60,
+            "topPx": 0
+          }
+        },
+        "10421.md": {
+          "images/download/attachments/157859753/image2022-12-7_16-45-30.png": {
+            "leftPx": 0,
+            "topPx": 0,
+            "imageWidths": [
+              150
+            ]
+          }
+        }
+      },
+      "_textLayout": {
+        "10135.md": [
+          {
+            "text": "ON. All layers of one region (cavity) are machined before moving to the next region.",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "OFF. One layer is machined across all regions before moving to the next layer.",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "10156.md": [
+          {
+            "text": "Xmin . Adjust the initial U coordinate of the map for the base Plane .",
+            "leftPx": 60,
+            "topPx": 0
+          },
+          {
+            "text": "Xmax . Adjust the final U coordinate of the map for the base Plane .",
+            "leftPx": 60,
+            "topPx": 0
+          },
+          {
+            "text": "Ymin . Adjust the initial V coordinate of the map for the base Plane .",
+            "leftPx": 60,
+            "topPx": 0
+          },
+          {
+            "text": "Ymax . Adjust the final V coordinate of the map for the base Plane .",
+            "leftPx": 60,
+            "topPx": 0
+          },
+          {
+            "text": "Hmin . Adjust the base Cylinder's starting position.",
+            "leftPx": 60,
+            "topPx": 0
+          },
+          {
+            "text": "Hmax . Adjust the end position of the base Cylinder .",
+            "leftPx": 60,
+            "topPx": 0
+          },
+          {
+            "text": "Amin . Adjust the initial angle of the base Cylinder sector.",
+            "leftPx": 60,
+            "topPx": 0
+          },
+          {
+            "text": "Amax . Adjust the final angle of the base Cylinder sector.",
+            "leftPx": 60,
+            "topPx": 0
+          },
+          {
+            "text": "Rotation Angle . Rotate the curve around the map center.",
+            "leftPx": 60,
+            "topPx": 0
+          },
+          {
+            "text": "Preserve ratio . Maintain the proportions between curve elements during transformations.",
+            "leftPx": 60,
+            "topPx": 0
+          }
+        ],
+        "10003.md": [
+          {
+            "text": "GTPO - Gap to prevent overlapping.",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "The appearance of the Home Page has been revised. You can now organize your projects into collections — grouping related projects together as large color-coded cards at the top of the page, while individual project cards are shown below in a redesigned grid. The left navigation panel has been reorganized for quicker access to Recent, Clouds, Local, Extensions, Favorites sections. Details",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "In addition, the License manager is now built directly into the Home Page window instead of opening as a separate window.",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Complex",
+            "leftPx": 228,
+            "topPx": 0
+          },
+          {
+            "text": "Combo Finish (Plane+Waterline strategy)",
+            "leftPx": 150,
+            "topPx": 0
+          },
+          {
+            "text": "Finishing Waterline ( Unsatisfactory tool entry into the workpiece )",
+            "leftPx": 211,
+            "topPx": 0
+          },
+          {
+            "text": "Combo Finish (Allows shifting the start point to ensure smoother tool engagement between two parts.)",
+            "leftPx": 133,
+            "topPx": 0
+          },
+          {
+            "text": "Finishing Waterline ( Spiral machining is not supported )",
+            "leftPx": 196,
+            "topPx": 0
+          },
+          {
+            "text": "Combo Finish (Allows spiral machining)",
+            "leftPx": 206,
+            "topPx": 0
+          }
+        ],
+        "100112.md": [
+          {
+            "text": "ET - Extend toolpath",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "100113.md": [
+          {
+            "text": "DW - Dwell",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "LH - Lift head",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "100116.md": [
+          {
+            "text": "Appr - Approach",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Ret - Return",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Sl - Save level",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "100117.md": [
+          {
+            "text": "Appr - Approach Ret - Return Sl - Safe level",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "100120.md": [
+          {
+            "text": "GF - Go up if farther",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "100127.md": [
+          {
+            "text": "1-Blade Surfaces, 2- Hub Surfaces",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Changing the tool contact point along the pass",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "100130.md": [
+          {
+            "text": "Sps - Start point shift",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "FD - Feed distance LR - Link radius",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "FD - Feed distance LR - Link radius VLR - Vertical Lead Radius",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Entry/Exit links. Defines the general rule of approach/return.",
+            "leftPx": 0,
+            "topPx": 0
+          },
+          {
+            "text": "Short links/Long links. Defines the rule for transition between work moves.",
+            "leftPx": 0,
+            "topPx": 0
+          }
+        ],
+        "100131.md": [
+          {
+            "text": "LD - Leads",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "100132.md": [
+          {
+            "text": "FD - Feed distance SL - Safe level LD - Leads",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "FD - Feed distance LD - Leads",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "100133.md": [
+          {
+            "text": "SLMD - Short link max distance",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "SLMA - Short link max angle",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "SLT - Short link type",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "LLT - Long link type",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "First Link Type. Defines the method for bringing the tool to the first processing hole.",
+            "leftPx": 0,
+            "topPx": 40
+          },
+          {
+            "text": "Last Link Type. Specifies how the tool is retracted from the last processed hole.",
+            "leftPx": 0,
+            "topPx": 0
+          },
+          {
+            "text": "Long Link Type. Defines the method for transitioning the tool between consecutive processing holes when the transition length exceeds the value set in the Short Link Max Distance parameter.",
+            "leftPx": 0,
+            "topPx": 0
+          },
+          {
+            "text": "Short Link Type. Defines the method for transitioning the tool between consecutive processing holes when the transition length is smaller than the value set in the Short Link Max Distance parameter. This option uses the same parameters as the Long Link Type .",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Short Link Type. Defines the method for transitioning the tool between consecutive processing holes when the transition length is smaller than the value set in the Short Link Max Distance parameter. This option uses the same parameters as the Long Link Type.",
+            "leftPx": 0,
+            "topPx": 0
+          }
+        ],
+        "100135.md": [
+          {
+            "text": "Sl - Safe level",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "LD - Leads",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "100136.md": [
+          {
+            "text": "Sl - Safe level",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "LD - Leads",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "100138.md": [
+          {
+            "text": "SL - Safe Surface",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "FD - Feed Distance",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Feed distance (level). The distance measured along the tool axis from the activation of approach feed to the point where it switches to the work feed or engage feed.",
+            "leftPx": 20,
+            "topPx": 0
+          }
+        ],
+        "100139.md": [
+          {
+            "text": "CH - Сlearance height SLMD - Short link max distance",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Feed distance (level). The distance measured along the tool axis from the activation of approach feed to the point where it switches to the work feed or engage feed.",
+            "leftPx": 20,
+            "topPx": 0
+          }
+        ],
+        "100140.md": [
+          {
+            "text": "SL - Safe Surface",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "FD - Feed Distance",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "FD - Feed distance",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "RD - Rapid distance",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Disable Enable",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "MRD - Max retraction distance",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "100141.md": [
+          {
+            "text": "AMSL - Air move safety level",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "AMSL - Air move safety level RD - Rapid distance FD - Feed distance",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "100142.md": [
+          {
+            "text": "Fmin - Full Cut Feed",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Fnot - No Cut Feed",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "100148.md": [
+          {
+            "text": "LI - Lead in",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "LO - Lead out",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "100149.md": [
+          {
+            "text": "Sl - Safe level",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "LD - Leads",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "100152.md": [
+          {
+            "text": "Angle = 45",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "10078.md": [
+          {
+            "text": "Tool base point",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Axial tool overhang",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Overhang for rotary head",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Overhang for 2 rotary heads",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Base tool point on turret",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Straight turning tool overhang",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Boring bit overhang",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Base point for radial milling head",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Base point for axial mill head",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "10100.md": [
+          {
+            "text": "Blue - working feed Yellow - minimum feed Green - medium feed",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "OICH - Offset inside cross-hole",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "101147.md": [
+          {
+            "text": "Sl - Safe level",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "LD - Leads",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "EXO - Exit overlap",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "ENO - Entry overlap",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "CON - Compensation on cut.",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "COF - Compensation on cut.",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Exit overlap. An overlap is used to extend a toolpath beyond the contour itself. To change the overlap value you can either drag the yellow marker with the mouse or click on it and edit the dimension value which appears.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Entry overlap. An overlap is used to extend a toolpath beyond the contour itself. To change the overlap value you can either drag the yellow marker with the mouse or click on it and edit the dimension value which appears.",
+            "leftPx": 20,
+            "topPx": 0
+          }
+        ],
+        "10205.md": [
+          {
+            "text": "S - step",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "LR - Linking radius",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "LESD - Lead Safe Distance",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "1021.md": [
+          {
+            "text": "MCS - Machine Coordinate System",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "WCS - Work Coordinate System",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "10228.md": [
+          {
+            "text": "Where:",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "10271.md": [
+          {
+            "text": "PD - Pullback distance",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "DW - Dwell time",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "1040.md": [
+          {
+            "text": "S - Step H - The height parameter. Сalculated based on the *Step* and *Pass count* .",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "S - Step H - The height parameter. Сalculated automatically based on the model",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "H - The height parameter. Сalculated automatically based on the model",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "10408.md": [
+          {
+            "text": "BO - Bar overhang",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "1052.md": [
+          {
+            "text": "GTPO - Gap to prevent overlapping.",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "1060.md": [
+          {
+            "text": "MP - Move part",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "SD - Safe Diameter",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "F - Feed",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "11211.md": [
+          {
+            "text": "1 - First corner from the wall.",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "2 - Second corner from the second wall.",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Trim Toolpath. The collided segments (red) are excluded from the toolpath.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Frontal Tilting. The tool tilts away from the collision in the frontal plane (in a plane of tool pass).",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Side Tilting. The tool tilts away from the collision sideways (in a plane perpendicular to the toolpath).",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Tilt to Rotary Axis. T he tool deviates from the initial orientation by specified Tilt Angles, in the plane formed by the Rotary Axis and the tool contact point. Works only with 5-axis machines that have a rotary axis around the axis of rotation. For example, the rotary axis on table C.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Tilt Around Rotary Axis. T he tool deviates from the initial orientation by specified Tilt Angles, in the plane perpendicular to Rotary Axis . Works only with machines that do not have a rotary axis around the axis of rotation .",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Adaptive tilting. This feature enables simultaneous angular deviation along two axes.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Offset Along Tool . Th e toolpath shifts along the tool axis within a specified distance to avoid tool holder and workpiece collision. The toolpath remains continuous in this case.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Tool Working Length. Specify the value of the tool's cutting length along its axis (Usable length LU by ISO 13399).",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Tool Radial Clearance . Specify the minimum safe distance between the tool's non-working part and the workpiece in the direction perpendicular to the tool axis.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Tool Angular Clearance. The safety zone around the non-working part of the tool is a truncated cone with a radius at the apex equal to the tool radis plus Tool Radial Clearance and with an angle equal to the Tool Angular Clearance .",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Holder Radial Clearance. Specify the minimum safe distance between the holder and the workpiece in the direction perpendicular to the tool axis.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Holder Axial Clearance. Specify the minimum safe distance between the holder and the workpiece along the tool axis. Hac - Holder Axial Clearance.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Fixed Lead Direction. Fixes the movement of the tool at the selected angle (taking into account the specified gaps in the Check Holder) when approaching an obstacle relative to the selected global coordinate system.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Additional Tilt Angle. Additional clearance angle in Avoid Collisions tilting strategies to guarantee a safe collision-free toolpath.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Max. tilt angle. The maximum allowed tilting angle.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Inertia . The greater the value, the smoother the tool axis tilting is. 0 means no smoothing.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Normal blend distance. The distance between two points of the toolpath used for the calculation of the current tool tilting direction. Use greater values when machining irregular shapes to eliminate unnecessary tool axis oscillations. Use values greater than the holder radius when machining inner corners.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Additional Distance. The displacement of the toolpath along the tool axis to avoid tool holder and workpiece collision.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Max. Distance. The maximal allowed Additional Distance .",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Check Spindle . Parameters controlling collision avoidance between the workpiece and the machine's spindle unit.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Auto . This mode uses 3D models of the machine's scheme to perform collision calculations.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Manual . In this mode, the system monitors collisions between the workpiece and a safety zone comprising a truncated cone and a cylinder. The top Radius , the Angle , and the Max Radius define the cone. The Max Radius define the cylinder.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Spindle Radial Clearance . Specify the minimum safe distance between the spindle node and the workpiece in the direction perpendicular to the tool axis.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Spindle Axial Clearance . Specify the minimum safe distance between the spindle node and the workpiece along the tool axis.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Max Radius . In the Auto mode it is the radius of a cylinder encompassing spindle-adjacent components (such as the spindle head) that might collide with the workpiece during machining. In the Manual mode it is the maximal radius of the safe zone.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Radius . It is the envelope radius of the spindle node.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Angle . The safety zone around the spindle node is a truncated cone with a radius at the apex equal to the Radius plus Spindle Radial Clearance and with an angle equal to the Angle .",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Check links. Function that enables controlled angular deviation of the tool in two directions during transitions between machining passes to prevent collisions with the workpiece.",
+            "leftPx": 20,
+            "topPx": 0
+          }
+        ],
+        "162964210.md": [
+          {
+            "text": "Store page toolbar.",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Extension card in the Store page.",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "164691982.md": [
+          {
+            "text": "Top view. The contour axis points towards the viewer. The disc contacts the edge with its rim; feed is directed along the contour and polishing motion is directed across the edge.",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Top view. Job vectors are perpendicular to the contour axis and define the side from which the tool contacts the part. Reversing the vectors changes the machining side.",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "202012.md": [
+          {
+            "text": "Green circle — real extruded material, black circle — theoretical extruded material.",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "S - Horizontal step",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "d - Step on the plane",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Max dist deviation. Interpolation parameter.",
+            "leftPx": 20,
+            "topPx": 0
+          }
+        ],
+        "312.md": [
+          {
+            "text": "S - Rough step",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "316.md": [
+          {
+            "text": "SD - Safe distance",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Staem - Start entry amount",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Stoem - Stop entry amount",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "54.md": [
+          {
+            "text": "Operations tree example.",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Workpiece setup parameters in the Setup stage operation .",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "735.md": [
+          {
+            "text": "MA - Max angle",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "10009.md": [
+          {
+            "text": "1 — Node name",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "2 — Current position of the axis : You can enter the desired value or use the mouse wheel to set it. This field is shown only for movable machine nodes.",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "3 — Machine node color : Click to open the Select Color dialog.",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "4 — Machine node visibility",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "5 — Switch to Ghost mode : In this mode, only invisible nodes will be shown",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "6 — Machine node painting mode (Wire, Shade, Edge-Shade)",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "7 — Turn on metallic mode",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "8 — Machine node transparency",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "9 — Machine node transparency level",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "10190.md": [
+          {
+            "text": "Sd — Safe distance",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Start — Start entry amount",
+            "leftPx": 40,
+            "topPx": 0
+          },
+          {
+            "text": "Stop — Stop entry amount",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "10406.md": [
+          {
+            "text": "IC- Initial clamp FC - Final clamp",
+            "leftPx": 40,
+            "topPx": 0
+          }
+        ],
+        "100146.md": [
+          {
+            "text": "Feed distance. Distance where vertical motion switch to work feed.",
+            "leftPx": 20,
+            "topPx": 0
+          }
+        ],
+        "100159.md": [
+          {
+            "text": "Save as User default - A separate file with the *.usrdef extension is created in the folder (%userprofile%\\Documents\\ENCY NB\\Version 3\\Operations\\Defaults). This file contains the new default values for all parameters displayed in the inspector row.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Forget user default — forget (delete) the user default. The value for all parameters of the current inspector row is removed from the *.usrdef file. If no defaults remain in the file, the entire file is deleted. The current value in the inspector remains unchanged.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Reset to User default — reset to the user default. The current property value is replaced with the value saved in the user default settings.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Reset to System default — reset to the system default. The current property value is replaced with the value saved in the system default settings.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Copy property name — copy the property name. The unique property name is copied to the clipboard. You can use this name to refer to the property in expressions of other properties, in post‑processors, and in extensions via the API. If multiple properties are displayed in the row, their names are copied, separated by commas.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Edit defaults . A window will open where you can view and edit the expression for the selected property.",
+            "leftPx": 20,
+            "topPx": 0
+          }
+        ],
+        "10122.md": [
+          {
+            "text": "Core radius. Size of the central non-cutting part of the tool.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Step. Step between passes.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Pull back distance. Distance the tool pulls back away from the model.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Additional pass. Creates an additional pass if can't process the item on the current pass. This function is useful when plunge option cannot process corner areas. Step will be ignored for additional passes.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Feed distance. Distance where vertical motion switch to work feed.",
+            "leftPx": 20,
+            "topPx": 0
+          }
+        ],
+        "20046.md": [
+          {
+            "text": "Extension distance. The value to which it is necessary to extend",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Extension type. Extension method",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Equidistant to edges. The original surfaces are extended (due to the fact that some surfaces are twisted, extension is impossible)",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Interpolation of tangent edges. First the edges are extended, then the surface is completed along them.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Surface UV Box. Allows you to create UV space of the surface. This surface has interactive elements to change its area. It is necessary to select a surface.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Alternate front side. Сhoice of which side of the rib to extend the surface.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "With source face. The extended surface forms a single surface with a copy of the original surface",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Hole capping. Closes holes with a \"radius\" below a given value on the original surface",
+            "leftPx": 20,
+            "topPx": 0
+          }
+        ],
+        "294.md": [
+          {
+            "text": "Face. The button adds selected faces to the list. If no faces are selected then the dialog with the geometry model tree appears.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Primitive. Allows you to use different templates to define a workpiece in the form of primitives.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Turn. The turn button makes a revolution solid generated from the specified curves. If no curve is selected the dialog that helps find and select the generating curves for the solid appears.",
+            "leftPx": 20,
+            "topPx": 0
+          },
+          {
+            "text": "Extrude. The extrude is used to make a prism.",
+            "leftPx": 20,
+            "topPx": 0
+          }
+        ]
+      },
+      "_operationReference": {
+        "100126.md": true,
+        "100127.md": true,
+        "100150.md": true,
+        "10100.md": true,
+        "10115.md": true,
+        "10117.md": true,
+        "10118.md": true,
+        "10119.md": true,
+        "10120.md": true,
+        "10121.md": true,
+        "10123.md": true,
+        "10129.md": true,
+        "10135.md": true,
+        "10136.md": true,
+        "10137.md": true,
+        "10138.md": true,
+        "10142.md": true,
+        "10143.md": true,
+        "10144.md": true,
+        "10145.md": true,
+        "10146.md": true,
+        "10176.md": true,
+        "10199.md": true,
+        "102025.md": true,
+        "10205.md": true,
+        "10271.md": true,
+        "10273.md": true,
+        "10274.md": true,
+        "10275.md": true,
+        "10276.md": true,
+        "1040.md": true,
+        "1041.md": true,
+        "1051.md": true,
+        "1052.md": true,
+        "1060.md": true,
+        "164691982.md": true,
+        "21121.md": true,
+        "256.md": true,
+        "307.md": true,
+        "310.md": true,
+        "312.md": true,
+        "313.md": true,
+        "316.md": true,
+        "319.md": true,
+        "404.md": true,
+        "700.md": true,
+        "713.md": true,
+        "714.md": true,
+        "735.md": true,
+        "736.md": true,
+        "759.md": true,
+        "810.md": true,
+        "839.md": true,
+        "841.md": true
+      }
+    },
+    "globalMetadata": {
+      "_lang": "de",
+      "_appTitle": "ENCY 3 Benutzerhandbuch",
+      "_appLogoPath": "assets/branding/application.ico",
+      "_appFaviconPath": "assets/branding/application.ico",
+      "_appFooter": "ENCY 3 Benutzerhandbuch · Maschinell übersetzt.",
+      "_enableSearch": true
+    },
+    "postProcessors": [
+      "ExtractSearchIndex"
+    ],
+    "template": [
+      "statictoc",
+      "template/custom"
+    ],
+    "markdownEngineName": "markdig"
+  }
+}
