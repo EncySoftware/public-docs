@@ -1,0 +1,1375 @@
+pdf: true
+items:
+  - name: "Introdução ao sistema CAM"
+    href: 4.md
+    items:
+      - name: "Requisitos do sistema"
+        href: 284.md
+      - name: "Configurações e opções"
+        href: 261.md
+      - name: "Pacote padrão"
+        href: 10001.md
+      - name: "Instalação e inicialização do programa"
+        href: 280.md
+      - name: "Arquivos do sistema"
+        href: 281.md
+      - name: "Suporte técnico"
+        href: 811.md
+  - name: "Resumo e primeiros passos"
+    href: 10002.md
+    items:
+      - name: "Conceitos do ENCY"
+        href: 282.md
+      - name: "Rápida familiarização com o sistema"
+        href: 88.md
+      - name: "Novidades do ENCY 3.0"
+        href: 10003.md
+  - name: "Informações gerais"
+    href: 10004.md
+    items:
+      - name: "Página inicial"
+        href: 10201021.md
+        items:
+          - name: "Biblioteca de projetos"
+            href: 1020141.md
+      - name: "Janela principal do sistema"
+        href: 45.md
+        items:
+          - name: "Barra de ferramentas do aplicativo"
+            href: 51.md
+            items:
+              - name: "Smart Snap"
+                href: 10005.md
+              - name: "Medição e análise"
+                href: 10006.md
+              - name: "Salvamento automático e instantâneos do projeto"
+                href: 10424.md
+              - name: "Biblioteca de projetos"
+                href: 10426.md
+              - name: "Configuração da máquina (modelo de projeto)"
+                href: 10427.md
+              - name: "Assistente de IA"
+                href: 10428.md
+              - name: "Janela de informações da versão"
+                href: 10429.md
+          - name: "Janela gráfica e controle de visualização"
+            href: 169.md
+            items:
+              - name: "Vistas padrão"
+                href: 728.md
+              - name: "Modo de seleção de objetos"
+                href: 325.md
+              - name: "Zoom da janela"
+                href: 11.md
+              - name: "Rotação interativa"
+                href: 20.md
+              - name: "Deslocamento interativo"
+                href: 19.md
+              - name: "Ampliação e redução interativas"
+                href: 855.md
+              - name: "Zoom para extensão"
+                href: 60.md
+              - name: "Desfazer visualização"
+                href: 358.md
+              - name: "Refazer visualização"
+                href: 332.md
+              - name: "Plano de seção"
+                href: 333.md
+              - name: "Modo de rotação"
+                href: 100166.md
+              - name: "Gimbals"
+                href: 100151.md
+              - name: "Régua interativa de eixo linear"
+                href: 100167.md
+          - name: "Modos de trabalho"
+            href: 86.md
+          - name: "Filtro de seleção"
+            href: 127.md
+          - name: "Painel de visibilidade"
+            href: 359.md
+          - name: "Sistemas de coordenadas geométricos"
+            href: 753.md
+            items:
+              - name: "Criação do sistema de coordenadas pela janela de diálogo"
+                href: 402.md
+              - name: "Criação inteligente de sistemas de coordenadas locais"
+                href: 10007.md
+              - name: "Criação do sistema de coordenadas pelo ponto de origem e dois vetores principais"
+                href: 271.md
+              - name: "Criação do sistema de coordenadas pela direção da vista atual"
+                href: 805.md
+              - name: "Alteração das propriedades de um sistema de coordenadas existente"
+                href: 403.md
+          - name: "Painel de controle dos eixos da máquina"
+            href: 10008.md
+            items:
+              - name: "Controle interativo da máquina"
+                href: 10009.md
+          - name: "Janela de gráficos dos eixos da máquina"
+            href: 10010.md
+          - name: "Verificação de acesso do porta-ferramentas"
+            href: 10011.md
+          - name: "Botão Utilitários do painel principal"
+            href: 10012.md
+          - name: "Botão Ajuda do painel principal"
+            href: 10014.md
+          - name: "Indicador de progresso"
+            href: 35.md
+          - name: "Notificações de eventos do aplicativo"
+            href: 10015.md
+          - name: "Interface multiprojeto"
+            href: 145145.md
+      - name: "Janela de configurações do sistema"
+        href: 90.md
+        items:
+          - name: "Aba Pastas"
+            href: 715.md
+          - name: "Aba Unidades de medida"
+            href: 22.md
+          - name: "Aba Visualização"
+            href: 24.md
+          - name: "Aba Cores"
+            href: 807.md
+          - name: "Aba Importação"
+            href: 264.md
+          - name: "Aba Adicionais"
+            href: 23.md
+          - name: "Aba Usinagem"
+            href: 740.md
+          - name: "Aba Recursos on-line"
+            href: 10016.md
+          - name: "Guia de extensões"
+            href: 10017.md
+          - name: "Guia de conexões PLM"
+            href: 10018.md
+      - name: "Arquivos de intercâmbio"
+        href: 10019.md
+        items:
+          - name: "Arquivos de projetos"
+            href: 77.md
+          - name: "Arquivos importáveis"
+            href: 97.md
+          - name: "Exportação para DXF"
+            href: 297.md
+          - name: "Arquivos de configuração do pós-processador"
+            href: 730.md
+          - name: "Arquivos de programas NC"
+            href: 279.md
+          - name: "Arquivos de interpretador"
+            href: 10020.md
+          - name: "Arquivos de esquema da máquina"
+            href: 10021.md
+          - name: "Contêineres criptografados .stfc"
+            href: 10022.md
+          - name: "Arquivos de configuração da máquina"
+            href: 10430.md
+      - name: "Atualização"
+        href: 10023.md
+      - name: "Gerenciador de contêineres"
+        href: 10024.md
+      - name: "Gerenciador de licenças"
+        href: 10025.md
+      - name: "Registros do sistema"
+        href: 10026.md
+      - name: "Trabalho em equipe na nuvem"
+        href: 100321.md
+  - name: "Preparação do modelo geométrico"
+    href: 717.md
+    items:
+      - name: "Estrutura do modelo geométrico"
+        href: 33.md
+        items:
+          - name: "Tipos de objetos geométricos"
+            href: 10027.md
+            items:
+              - name: "Faces, malhas, curvas e pontos"
+                href: 283.md
+              - name: "Grupos (pastas)"
+                href: 603.md
+              - name: "Pasta ativa"
+                href: 1.md
+              - name: "PMI"
+                href: 10028.md
+          - name: "Janela da estrutura do modelo geométrico"
+            href: 718.md
+          - name: "Seleção de objetos"
+            href: 10.md
+          - name: "Seleção inteligente de objetos"
+            href: 10029.md
+          - name: "Edição da estrutura do modelo geométrico"
+            href: 47.md
+            items:
+              - name: "Criação de um novo grupo"
+                href: 755.md
+              - name: "Atualização da estrutura do modelo geométrico"
+                href: 6231.md
+              - name: "Trabalho com a área de transferência"
+                href: 749.md
+      - name: "Importação de objetos geométricos"
+        href: 109.md
+        items:
+          - name: "Importação de objetos de arquivos IGES"
+            href: 266.md
+            items:
+              - name: "Requisitos para arquivo IGES"
+                href: 102.md
+              - name: "Tipos de objetos importáveis"
+                href: 772.md
+              - name: "Recomendações para configurar a exportação IGES no programa de modelagem"
+                href: 87.md
+          - name: "Importação de objetos de arquivos STEP"
+            href: 10030.md
+          - name: "Importação de objetos de arquivos DXF"
+            href: 802.md
+          - name: "Importação de objetos de arquivos PostScript"
+            href: 268.md
+            items:
+              - name: "Instalação da biblioteca Ghostscript"
+                href: 10031.md
+          - name: "Importação de objetos de arquivos STL"
+            href: 270.md
+          - name: "Importação de objetos de arquivos PLY"
+            href: 10032.md
+          - name: "Importação de objetos de arquivos AMF"
+            href: 10033.md
+          - name: "Importação de objetos de arquivos VRML"
+            href: 721.md
+          - name: "Importação de objetos de arquivos 3dm (Rhinoceros™)"
+            href: 265.md
+          - name: "Importação de objetos de arquivos Parasolid™"
+            href: 267.md
+          - name: "Importação de objetos de arquivos SolidWorks™"
+            href: 10034.md
+          - name: "Importação de objetos de arquivos SolidEdge™"
+            href: 10035.md
+          - name: "Importação de objetos de arquivos SGM"
+            href: 10036.md
+          - name: "Importação de objetos com suplementos do sistema CAM"
+            href: 10037.md
+          - name: "Importação de objetos de arquivos 5DC"
+            href: 10038.md
+          - name: "Suplementos do sistema CAM"
+            href: 10039.md
+            items:
+              - name: "Gerenciador de suplementos"
+                href: 900.md
+              - name: "Lista de suplementos"
+                href: 10040.md
+                items:
+                  - name: "Barra de ferramentas e suplemento de importação do Autodesk Inventor™"
+                    href: 10041.md
+                  - name: "Barra de ferramentas do CADbro™"
+                    href: 10042.md
+                  - name: "Barra de ferramentas e suplemento de importação do FreeCAD™"
+                    href: 10043.md
+                  - name: "Barra de ferramentas e suplemento de importação do Alibre Design™"
+                    href: 10044.md
+                  - name: "Barra de ferramentas do IronCAD™"
+                    href: 10045.md
+                  - name: "Barra de ferramentas e suplemento de importação do NX™"
+                    href: 10047.md
+                  - name: "Barra de ferramentas e suplemento de importação do Rhinoceros"
+                    href: 10048.md
+                  - name: "Barra de ferramentas e suplemento de importação do SolidEdge™"
+                    href: 10049.md
+                  - name: "Barra de ferramentas e suplemento de importação do SOLIDWORKS™"
+                    href: 10050.md
+                  - name: "Barra de ferramentas e suplemento de importação do SpaceClaim™"
+                    href: 10051.md
+                  - name: "Barra de ferramentas e suplemento de importação do ZW3D™"
+                    href: 10053.md
+                  - name: "Conector do Onshape™"
+                    href: 10054.md
+                  - name: "Barra de ferramentas do CAXA 3D™"
+                    href: 10055.md
+                  - name: "Barra de ferramentas do KeyCreator™"
+                    href: 10056.md
+                  - name: "Barra de ferramentas e suplemento de importação do SolidCAM™"
+                    href: 10421.md
+              - name: "Associatividade dos suplementos"
+                href: 10057.md
+      - name: "Edição do modelo geométrico"
+        href: 10058.md
+        items:
+          - name: "Propriedades dos objetos geométricos"
+            href: 57.md
+            items:
+              - name: "Aba Geral"
+                href: 725.md
+              - name: "Aba Visualização"
+                href: 745.md
+              - name: "Aba Usinagem"
+                href: 724.md
+              - name: "Aba Parâmetros"
+                href: 329.md
+          - name: "Alteração das propriedades visuais"
+            href: 32.md
+          - name: "Exclusão de objetos"
+            href: 104.md
+          - name: "Transformações espaciais"
+            href: 116.md
+          - name: "Inversão"
+            href: 34.md
+          - name: "Projeção dos limites de superfícies"
+            href: 401.md
+          - name: "União de curvas"
+            href: 400.md
+          - name: "Triangulação de superfícies"
+            href: 619.md
+          - name: "Criação de texto"
+            href: 617.md
+          - name: "Interseção de objetos"
+            href: 289.md
+          - name: "Costurar faces"
+            href: 1000.md
+          - name: "Exportação do modelo 3D"
+            href: 10059.md
+          - name: "Fechamento de furos em superfícies"
+            href: 10060.md
+          - name: "Extração de isolinhas"
+            href: 10061.md
+          - name: "Simplificação do modelo geométrico"
+            href: 10401.md
+          - name: "Trabalho com splines"
+            href: 20043.md
+          - name: "Estender superfície"
+            href: 20046.md
+      - name: "Editor de geometria 2D"
+        href: 833.md
+        items:
+          - name: "Construção e edição de elementos"
+            href: 20000.md
+          - name: "Linha"
+            href: 20001.md
+          - name: "Arco"
+            href: 20002.md
+            items:
+              - name: "Arco por dois pontos e raio"
+                href: 20003.md
+              - name: "Arco por centro, ponto inicial e ângulo"
+                href: 20004.md
+              - name: "Arco por três tangentes"
+                href: 20005.md
+              - name: "Edição de arco"
+                href: 20035.md
+          - name: "Círculo"
+            href: 20006.md
+            items:
+              - name: "Construção de círculo por centro e raio; edição de círculo"
+                href: 20007.md
+              - name: "Círculo por três tangentes"
+                href: 20008.md
+          - name: "Retângulo"
+            href: 20009.md
+            items:
+              - name: "Retângulo por dois pontos"
+                href: 20010.md
+              - name: "Retângulo por lado e altura"
+                href: 20011.md
+              - name: "Retângulo por centro e ponto"
+                href: 20012.md
+              - name: "Edição de retângulo"
+                href: 20036.md
+          - name: "Contorno"
+            href: 20013.md
+            items:
+              - name: "Construção por elementos"
+                href: 20014.md
+              - name: "Construção por zona ou limite"
+                href: 20015.md
+              - name: "Edição de contorno"
+                href: 20037.md
+              - name: "Spline"
+                href: 20038.md
+              - name: "Espiral de Arquimedes"
+                href: 20039.md
+              - name: "Perfil definido por função"
+                href: 20040.md
+          - name: "Chanfro e arredondamento"
+            href: 20016.md
+          - name: "Cota"
+            href: 20017.md
+            items:
+              - name: "Cota linear"
+                href: 20018.md
+              - name: "Cota radial"
+                href: 20019.md
+              - name: "Cota angular"
+                href: 20020.md
+          - name: "Deslocamento equidistante"
+            href: 20021.md
+          - name: "Aparar elementos"
+            href: 20022.md
+          - name: "Dividir objeto"
+            href: 20023.md
+          - name: "Funções adicionais"
+            href: 20024.md
+            items:
+              - name: "Copiar"
+                href: 20025.md
+              - name: "Deslocar"
+                href: 20026.md
+              - name: "Girar"
+                href: 20027.md
+              - name: "Espelhar"
+                href: 20028.md
+          - name: "Bloco nomeado"
+            href: 20029.md
+            items:
+              - name: "Parametrização de blocos"
+                href: 20030.md
+          - name: "Restrições"
+            href: 20031.md
+            items:
+              - name: "Edição de vínculos em um bloco"
+                href: 20032.md
+          - name: "Exemplo de desenho"
+            href: 20033.md
+          - name: "Exemplo de construção de um desenho usando restrições"
+            href: 20034.md
+          - name: "Planos"
+            href: 10425.md
+      - name: "Projeto (geometria 3D)"
+        href: 12449.md
+        items:
+          - name: "Janela principal"
+            href: 12450.md
+          - name: "Projeto no modo 2D"
+            href: 12452.md
+          - name: "Projete no modo 3D"
+            href: 12451.md
+          - name: "Modelagem direta"
+            href: 12453.md
+      - name: "Nesting"
+        href: 164717805.md
+  - name: "Criação da tecnologia de usinagem"
+    href: 10064.md
+    items:
+      - name: "Princípios gerais da criação da tecnologia de usinagem"
+        href: 54.md
+        items:
+          - name: "Seleção de uma máquina e definição de seus parâmetros"
+            href: 341.md
+          - name: "Definição da sequência de usinagem"
+            href: 293.md
+          - name: "Criação de uma nova operação"
+            href: 91.md
+          - name: "Execução de uma operação"
+            href: 12.md
+          - name: "Geração de código NC"
+            href: 69.md
+          - name: "Relatório de usinagem"
+            href: 13.md
+          - name: "Sequências de usinagem padrão"
+            href: 345.md
+          - name: "Configuração de operações"
+            href: 10065.md
+            items:
+              - name: "Parâmetros geométricos de uma operação"
+                href: 751.md
+              - name: "Definição da peça, do bruto e dos dispositivos de fixação"
+                href: 294.md
+              - name: "Operações do usuário"
+                href: 10069.md
+              - name: "Painel de status da operação"
+                href: 10070.md
+              - name: "Conversão de uma trajetória arbitrária para a operação Contorno 6D"
+                href: 102010.md
+          - name: "Modelo de percurso da ferramenta"
+            href: 500.md
+            items:
+              - name: "Comandos de macro no modelo de trajetória da ferramenta"
+                href: 10074.md
+          - name: "Operação auxiliar"
+            href: 10075.md
+          - name: "Detecção de colisões na simulação em segundo plano"
+            href: 18921.md
+            items:
+              - name: "Lista de status das operações"
+                href: 1118119.md
+          - name: "Edição da lista de ignorados de colisões"
+            href: 191214.md
+          - name: "Controle de recálculo do percurso da ferramenta"
+            href: 201112.md
+          - name: "Valores padrão do usuário no inspetor"
+            href: 100159.md
+      - name: "Estrutura do modo de usinagem"
+        href: 1020.md
+        items:
+          - name: "Painel de configuração da máquina"
+            href: 1021.md
+            items:
+              - name: "Compensação 3D da ferramenta"
+                href: 102266.md
+          - name: "Painel de configuração"
+            href: 1022.md
+            items:
+              - name: "Posicionamento da peça na máquina (Configuração do material bruto)"
+                href: 10066.md
+              - name: "Sistema de coordenadas do material bruto (G54–G59)"
+                href: 10068.md
+              - name: "Sistema de coordenadas local da operação"
+                href: 726.md
+              - name: "Orientação da ferramenta"
+                href: 260.md
+          - name: "Atribuição de trabalho"
+            href: 301.md
+            items:
+              - name: "Superfície de referência"
+                href: 10156.md
+              - name: "Faces"
+                href: 102121.md
+              - name: "Curva"
+                href: 707.md
+              - name: "Zonas de usinagem"
+                href: 10151.md
+              - name: "Níveis superior e inferior"
+                href: 10153.md
+              - name: "Recurso de cavidade"
+                href: 10154.md
+              - name: "Zonas de restrição"
+                href: 10152.md
+              - name: "Abas"
+                href: 102012.md
+              - name: "Atribuição de trabalho para operações de gravação e abertura de cavidades"
+                href: 806.md
+              - name: "Atribuição de trabalho para operação de usinagem de furos"
+                href: 705.md
+                items:
+                  - name: "Definição de furos por coordenadas"
+                    href: 406.md
+                  - name: "Definição de furos por objeto de ponto geométrico"
+                    href: 706.md
+                  - name: "Reconhecimento automático de furos"
+                    href: 610.md
+                  - name: "Criação de padrão de furos"
+                    href: 407.md
+                  - name: "Ordenação de furos"
+                    href: 10158.md
+              - name: "Reconhecer recursos"
+                href: 100152.md
+              - name: "Restrições"
+                href: 101231.md
+          - name: "Parâmetros de operação"
+            href: 100112.md
+            items:
+              - name: "Verificação do suporte (evitar colisões)"
+                href: 11211.md
+              - name: "Tempo da camada"
+                href: 100113.md
+              - name: "Potência"
+                href: 202012.md
+              - name: "Novo método de cálculo para desbaste e acabamento rotativos"
+                href: 100125.md
+              - name: "Oscilação transversal"
+                href: 100114.md
+          - name: "Ligações e entradas/saídas"
+            href: 100115.md
+            items:
+              - name: "Aproximação/Retorno"
+                href: 100116.md
+                items:
+                  - name: "Regras de aproximação e retorno"
+                    href: 10071.md
+                    items:
+                      - name: "Janela de edição das regras de aproximação/retorno"
+                        href: 10072.md
+                      - name: "Lista de aproximação/retorno da máquina"
+                        href: 10073.md
+                  - name: "Posição de mudança de ferramenta"
+                    href: 10067.md
+              - name: "Movimentos Seguros"
+                href: 100117.md
+              - name: "Configurações avançadas de ligações"
+                href: 100118.md
+              - name: "Ligações"
+                href: 100119.md
+                items:
+                  - name: "Ligações no desbaste por linhas de nível"
+                    href: 100120.md
+                  - name: "Ligações para operações avançadas 3D/5D"
+                    href: 100130.md
+                  - name: "Ligações para operações 3D"
+                    href: 100131.md
+                  - name: "Ligações para operações de contorno"
+                    href: 100132.md
+                  - name: "Ligações em operações de revestimento"
+                    href: 157862569.md
+                  - name: "Ligações em operações de furação"
+                    href: 100133.md
+              - name: "Entradas e saídas"
+                href: 100134.md
+                items:
+                  - name: "Entradas baseadas no desbaste por linhas de nível"
+                    href: 157862622.md
+                  - name: "Entradas e saídas no fresamento de face"
+                    href: 100148.md
+                  - name: "Entradas e saídas para operações 3D"
+                    href: 100135.md
+                  - name: "Entradas e saídas para operações avançadas 3D/5D"
+                    href: 100136.md
+                  - name: "Entradas e saídas para operações de contorno"
+                    href: 101147.md
+                  - name: "Entradas e saídas para operações de revestimento"
+                    href: 100149.md
+              - name: "Distâncias"
+                href: 100137.md
+                items:
+                  - name: "Distância para operações 3D"
+                    href: 100138.md
+                  - name: "Distâncias baseadas no Fresamento de Face"
+                    href: 100146.md
+                  - name: "Distâncias no desbaste por linhas de nível"
+                    href: 100139.md
+                  - name: "Distâncias para operações avançadas 3D/5D"
+                    href: 100140.md
+                  - name: "Distâncias em operações de perfuração"
+                    href: 100141.md
+              - name: "Permitir mergulhos"
+                href: 744.md
+          - name: "Transformação"
+            href: 10168.md
+            items:
+              - name: "Interpolação cilíndrica"
+                href: 10082.md
+              - name: "Interpolação polar"
+                href: 10083.md
+          - name: "Avanços/Velocidades"
+            href: 100142.md
+            items:
+              - name: "Controle de cantos"
+                href: 100144.md
+              - name: "Avanços e velocidades (cálculo)"
+                href: 100128.md
+          - name: "Furos (pontos de furação)"
+            href: 125146.md
+          - name: "Dispositivos de fixação"
+            href: 10283.md
+      - name: "Estrutura de um grupo de operações"
+        href: 1023.md
+        items:
+          - name: "Etapa de configuração"
+            href: 1024.md
+          - name: "Peça (grupo)"
+            href: 1025.md
+          - name: "Cópia da peça"
+            href: 1026.md
+          - name: "Multiplicação de grupos"
+            href: 1027.md
+      - name: "Modo de sequenciamento"
+        href: 1029.md
+      - name: "Lista de tipos de operações de usinagem"
+        href: 95.md
+      - name: "Conceitos básicos de usinagem"
+        href: 10077.md
+        items:
+          - name: "Grupo"
+            href: 844.md
+          - name: "Peça"
+            href: 330.md
+          - name: "Bruto"
+            href: 738.md
+          - name: "Resultado da usinagem"
+            href: 322.md
+          - name: "Ferramenta"
+            href: 37.md
+            items:
+              - name: "Ferramenta de fresamento"
+                href: 323.md
+              - name: "Ferramenta de torneamento"
+                href: 320.md
+              - name: "Balanço da ferramenta"
+                href: 10078.md
+          - name: "Sobremetal"
+            href: 76.md
+          - name: "Ângulo de folga"
+            href: 112.md
+          - name: "Ângulo lateral"
+            href: 737.md
+          - name: "Passo adaptativo (seleção do passo pela altura da crista)"
+            href: 113.md
+          - name: "Ângulo frontal"
+            href: 163.md
+          - name: "Métodos de usinagem em operações por curvas-guia"
+            href: 801.md
+          - name: "Usinagem trocoidal (Equidistant legacy)"
+            href: 854.md
+          - name: "Magazine de ferramentas"
+            href: 10084.md
+          - name: "Compensação da ferramenta em operações de fresamento"
+            href: 10085.md
+      - name: "Usinagem de fresamento"
+        href: 10098.md
+        items:
+          - name: "Tipos de operações de usinagem"
+            href: 98.md
+          - name: "Furos"
+            href: 100168.md
+            items:
+              - name: "Usinagem de furos"
+                href: 10100.md
+              - name: "FBM Mill"
+                href: 10089.md
+                items:
+                  - name: "Procedimento de usinagem FBM"
+                    href: 10090.md
+                  - name: "Interface da biblioteca de procedimentos FBM"
+                    href: 10091.md
+                  - name: "Interface da árvore de recursos"
+                    href: 10092.md
+                  - name: "Interface de atribuição de procedimentos aos recursos"
+                    href: 10094.md
+                  - name: "Interface de edição de procedimentos"
+                    href: 10095.md
+                  - name: "Parâmetros de geração de operações"
+                    href: 10096.md
+                  - name: "Parâmetros da operação de fresamento FBM"
+                    href: 10097.md
+          - name: "2D"
+            href: 100169.md
+            items:
+              - name: "Abertura de cavidades"
+                href: 256.md
+              - name: "Gravação"
+                href: 810.md
+              - name: "Contorno 2D"
+                href: 404.md
+          - name: "Básico"
+            href: 100170.md
+            items:
+              - name: "Fresamento de face"
+                href: 10117.md
+              - name: "Desbaste por linhas de nível"
+                href: 736.md
+                items:
+                  - name: "Desbaste por mergulho"
+                    href: 10122.md
+              - name: "Acabamento por linhas de nível"
+                href: 841.md
+              - name: "Desbaste por planos paralelos"
+                href: 735.md
+              - name: "Contorno 2.5D"
+                href: 10115.md
+              - name: "Superfícies horizontais"
+                href: 759.md
+              - name: "Contorno 3D"
+                href: 700.md
+          - name: "Avançado"
+            href: 100171.md
+            items:
+              - name: "Acabamento combinado"
+                href: 100126.md
+              - name: "Usinagem de superfícies"
+                href: 10135.md
+              - name: "Acabamento com altura de crista constante"
+                href: 10118.md
+              - name: "Usinagem helicoidal 3D"
+                href: 10119.md
+              - name: "Usinagem por interpolação entre curvas (Morph)"
+                href: 10138.md
+              - name: "Usinagem de reentrâncias por linhas de nível"
+                href: 100150.md
+              - name: "Usinagem pelo flanco da ferramenta (Swarf)"
+                href: 1040.md
+              - name: "Desbaste 5D por linhas de nível"
+                href: 102025.md
+              - name: "Usinagem 5D por malhas"
+                href: 10142.md
+              - name: "Fresamento de 5 eixos de perfis sobre superfícies"
+                href: 10129.md
+                items:
+                  - name: "Parâmetros de superfícies-guia"
+                    href: 10130.md
+                  - name: "Parâmetros de curvas"
+                    href: 10131.md
+                  - name: "Fresamento de 5 eixos de superfícies regradas pelo flanco da fresa"
+                    href: 10132.md
+                  - name: "Controle de avanços"
+                    href: 10133.md
+                  - name: "Uso de vetores personalizados"
+                    href: 10134.md
+              - name: "Polimento de contorno"
+                href: 164691982.md
+          - name: "Rotativo"
+            href: 100172.md
+            items:
+              - name: "Usinagem rotativa por linhas de nível"
+                href: 10143.md
+              - name: "Desbaste rotativo"
+                href: 10137.md
+              - name: "Acabamento rotativo"
+                href: 10136.md
+              - name: "Usinagem por interpolação entre curvas 4D (Morph 4D)"
+                href: 10146.md
+              - name: "Usinagem de superfícies 4D"
+                href: 10145.md
+              - name: "Contorno 4D"
+                href: 10144.md
+          - name: "Fresamento de turbomáquinas"
+            href: 100173.md
+            items:
+              - name: "Usinagem de rotores"
+                href: 1041.md
+              - name: "Usinagem de Lâmina"
+                href: 100127.md
+          - name: "Usinagem de restos"
+            href: 727.md
+            items:
+              - name: "Limpeza de cantos"
+                href: 10121.md
+              - name: "Acabamento de cantos por linha de contato"
+                href: 10120.md
+              - name: "Chanframento"
+                href: 10123.md
+          - name: "Usinagem de alto desempenho (HPC)"
+            href: 10148.md
+          - name: "Configuração de operações"
+            href: 10149.md
+            items:
+              - name: "Uso de recursos de projeto e usinagem na Atribuição de trabalho"
+                href: 10150.md
+                items:
+                  - name: "Criação de operações para recursos selecionados"
+                    href: 10155.md
+                  - name: "Desenho de curvas spline"
+                    href: 10157.md
+              - name: "Atribuição de trabalho para operações de usinagem 2.5D"
+                href: 10159.md
+              - name: "Recomendações para desbaste por linhas de nível e abertura de cavidades"
+                href: 295.md
+              - name: "Milling by axis count"
+                items:
+                  - name: "Operações de fresamento de 2/2,5 eixos"
+                    href: 10099.md
+                    items:
+                      - name: "Operações de usinagem 2.5D"
+                        href: 769.md
+                  - name: "Operações de fresamento de 3 eixos"
+                    href: 10116.md
+                  - name: "Usinagem de vários eixos"
+                    href: 10124.md
+                    items:
+                      - name: "Fresamento de 4 eixos com operações de gravação e cavidades"
+                        href: 10128.md
+                      - name: "Usinagem de 5 eixos"
+                        href: 10125.md
+                      - name: "Fresamento indexado de 5 eixos"
+                        href: 10126.md
+                      - name: "Usinagem rotativa com interpolação cilíndrica"
+                        href: 10127.md
+                      - name: "Conversão de trajetória de ferramenta de 5 eixos"
+                        href: 10141.md
+                      - name: "Mapa de eixos para máquinas de 5 eixos"
+                        href: 10147.md
+          - name: "Usinagem adaptativa"
+            href: 10171.md
+          - name: "Estratégias de abertura de cavidades"
+            href: 10172.md
+      - name: "Usinagem de torneamento"
+        href: 10173.md
+        items:
+          - name: "Tipos de operações de torneamento"
+            href: 10174.md
+          - name: "Operações de torneamento"
+            href: 10175.md
+            items:
+              - name: "Faceamento no torno"
+                href: 307.md
+              - name: "Desbaste externo e interno no torno"
+                href: 316.md
+              - name: "Acabamento externo e interno no torno"
+                href: 310.md
+              - name: "Canais externos, internos e de face"
+                href: 312.md
+              - name: "Rosqueamento externo e interno"
+                href: 319.md
+              - name: "Rosqueamento de perfil"
+                href: 10199.md
+              - name: "Corte da peça no torno"
+                href: 313.md
+              - name: "Usinagem de furos no torno"
+                href: 10176.md
+              - name: "Torneamento adaptativo externo"
+                href: 10205.md
+              - name: "Corte da peça com transferência"
+                href: 1060.md
+          - name: "Ciclos de torneamento"
+            href: 10188.md
+            items:
+              - name: "Ciclo de perfil"
+                href: 10189.md
+              - name: "Desbaste por deslocamento"
+                href: 10190.md
+              - name: "Ciclo de deslocamento (ISO G73)"
+                href: 10191.md
+              - name: "Desbaste"
+                href: 10192.md
+              - name: "Ciclo de desbaste"
+                href: 10193.md
+              - name: "Faceamento"
+                href: 10194.md
+              - name: "Ciclo de canais"
+                href: 10195.md
+              - name: "Ciclo de ranhuramento"
+                href: 10196.md
+              - name: "Ciclos de rosqueamento"
+                href: 10197.md
+                items:
+                  - name: "Rosca de perfil padrão"
+                    href: 10198.md
+                  - name: "Tipos de ciclos de rosqueamento"
+                    href: 10200.md
+              - name: "Ciclo em zigue-zague"
+                href: 10201.md
+              - name: "Torneamento de 4 eixos"
+                href: 10202.md
+              - name: "Ciclo de corte da peça"
+                href: 10203.md
+              - name: "Ciclo de canais e furação com quebra de cavaco"
+                href: 10204.md
+          - name: "Configuração de operações"
+            href: 10206.md
+            items:
+              - name: "Definição da tarefa das operações de torneamento"
+                href: 10207.md
+                items:
+                  - name: "Parâmetros de elementos da atribuição de trabalho"
+                    href: 10208.md
+                  - name: "Modos de edição de contorno"
+                    href: 10209.md
+              - name: "Condições de corte das operações de torneamento"
+                href: 292.md
+              - name: "Atribuição de trabalho da operação de usinagem de furos"
+                href: 10210.md
+                items:
+                  - name: "Definição de furos por coordenadas"
+                    href: 10211.md
+                  - name: "Definição de furos por objeto de ponto geométrico"
+                    href: 10212.md
+                  - name: "Reconhecimento automático de furos"
+                    href: 10213.md
+                  - name: "Criação de padrão de furos"
+                    href: 10214.md
+      - name: "Usinagem de torneamento e fresamento"
+        href: 10215.md
+        items:
+          - name: "Tipos de máquinas de torneamento e fresamento"
+            href: 10217.md
+          - name: "Configuração das ferramentas"
+            href: 10218.md
+          - name: "Posicionamento da peça"
+            href: 10219.md
+          - name: "Posição de troca da ferramenta"
+            href: 10220.md
+          - name: "Posicionamento da ferramenta"
+            href: 10221.md
+          - name: "Testes obrigatórios antes da geração final"
+            href: 10222.md
+          - name: "Usinagem com contrafuso"
+            href: 10223.md
+          - name: "Torneamento pelo eixo U"
+            href: 10409.md
+      - name: "Usinagem em máquinas de corte"
+        href: 10224.md
+        items:
+          - name: "Corte a jato"
+            href: 326.md
+          - name: "Corte a jato 4D"
+            href: 10225.md
+          - name: "Corte a jato 5D"
+            href: 10226.md
+          - name: "Configuração de operações"
+            href: 10227.md
+            items:
+              - name: "Definição da tarefa de corte a jato"
+                href: 10228.md
+              - name: "Atribuição de trabalho de operações EDM e corte a jato 4D"
+                href: 10229.md
+                items:
+                  - name: "Propriedades dos elementos 2D da definição da tarefa"
+                    href: 10230.md
+                  - name: "Propriedades dos elementos 4D da definição da tarefa"
+                    href: 10231.md
+                  - name: "Linhas de sincronização"
+                    href: 10232.md
+                  - name: "Aproximações e retornos"
+                    href: 10233.md
+                  - name: "Pontes"
+                    href: 10234.md
+                  - name: "Seleção múltipla"
+                    href: 10235.md
+                  - name: "Recurso de eletroerosão a fio"
+                    href: 10236.md
+              - name: "Condições de usinagem de eletroerosão e corte a jato 4D"
+                href: 10237.md
+              - name: "Estratégia de eletroerosão e corte a jato 4D"
+                href: 10238.md
+      - name: "Corte com faca"
+        href: 10239.md
+        items:
+          - name: "Ferramenta de corte: faca"
+            href: 10240.md
+          - name: "Corte com faca 2D"
+            href: 10241.md
+          - name: "Corte com faca 6D"
+            href: 10242.md
+          - name: "Retração da faca nos cantos"
+            href: 10243.md
+      - name: "Usinagem por eletroerosão a fio"
+        href: 10244.md
+        items:
+          - name: "Operações de eletroerosão a fio"
+            href: 10245.md
+            items:
+              - name: "Contorno 2D por eletroerosão a fio"
+                href: 10246.md
+              - name: "Contorno 4D por eletroerosão a fio"
+                href: 10247.md
+              - name: "Abertura de cavidades sem núcleo por eletroerosão a fio"
+                href: 10392.md
+                items:
+                  - name: "Parâmetros de abertura de cavidades"
+                    href: 10248.md
+                  - name: "Pontos de passagem do fio"
+                    href: 10249.md
+          - name: "Configuração de operações"
+            href: 10250.md
+            items:
+              - name: "Atribuição de trabalho de operações EDM e corte a jato 4D"
+                href: 10251.md
+                items:
+                  - name: "Propriedades dos elementos 2D da definição da tarefa"
+                    href: 10252.md
+                  - name: "Propriedades dos elementos 4D da definição da tarefa"
+                    href: 10253.md
+                  - name: "Aproximações e retornos"
+                    href: 10254.md
+                  - name: "Pontes"
+                    href: 10255.md
+                  - name: "Seleção múltipla"
+                    href: 10256.md
+                  - name: "Linhas de sincronização"
+                    href: 10257.md
+                  - name: "Recurso de eletroerosão a fio"
+                    href: 10258.md
+              - name: "Condições de usinagem de eletroerosão e corte a jato 4D"
+                href: 10259.md
+              - name: "Estratégia de eletroerosão e corte a jato 4D"
+                href: 10260.md
+      - name: "Usinagem com robôs industriais"
+        href: 10261.md
+        items:
+          - name: "Configuração do sistema de coordenadas da ferramenta e do material bruto"
+            href: 10262.md
+          - name: "Programação do sexto eixo do robô"
+            href: 10263.md
+          - name: "Programação da posição do trilho"
+            href: 10264.md
+          - name: "Programação da mesa rotativa"
+            href: 10265.md
+          - name: "Mapa dos eixos do robô"
+            href: 10266.md
+          - name: "Programação das transições do robô (método obsoleto)"
+            href: 10267.md
+            items:
+              - name: "Planejamento das ligações"
+                href: 10268.md
+      - name: "Usinagem multitarefa"
+        href: 10269.md
+        items:
+          - name: "Definição da submáquina nos esquemas da máquina"
+            href: 10410.md
+          - name: "Programação de tornos de cabeçote móvel"
+            href: 104011.md
+          - name: "Inserção automática de marcas de espera"
+            href: 10412.md
+      - name: "Operações de movimentação da peça"
+        href: 10402.md
+        items:
+          - name: "Requisitos da máquina para operações de movimentação da peça"
+            href: 10413.md
+          - name: "Controle dos dispositivos de fixação"
+            href: 10403.md
+          - name: "Operação de pegar e colocar"
+            href: 10404.md
+            items:
+              - name: "Operação de pegar e colocar por ponto"
+                href: 20042.md
+          - name: "Transferência da peça no torno"
+            href: 10406.md
+            items:
+              - name: "Sincronização de fase na transferência da peça no torno"
+                href: 123541.md
+          - name: "Trabalho com contrafuso"
+            href: 10407.md
+          - name: "Alimentação de barras"
+            href: 10408.md
+      - name: "Soldagem"
+        href: 10270.md
+        items:
+          - name: "Soldagem por pontos"
+            href: 20041.md
+          - name: "Soldagem 5D e soldagem 6D"
+            href: 10271.md
+      - name: "Manufatura aditiva"
+        href: 10272.md
+        items:
+          - name: "Revestimento de área"
+            href: 10273.md
+          - name: "Revestimento de curva"
+            href: 10274.md
+          - name: "Revestimento 3D"
+            href: 10275.md
+          - name: "Operação de revestimento 5D"
+            href: 10276.md
+          - name: "Fatiamento planar"
+            href: 1051.md
+          - name: "Fatiamento não planar"
+            href: 1052.md
+          - name: "Revestimento direto"
+            href: 21121.md
+      - name: "Usinagem com ferramenta de disco"
+        href: 10277.md
+        items:
+          - name: "Ferramenta de disco"
+            href: 10278.md
+          - name: "Corte com disco 2D"
+            href: 10279.md
+          - name: "Corte com disco 6D"
+            href: 10280.md
+          - name: "Desbaste com disco"
+            href: 10281.md
+      - name: "Medição com apalpador"
+        href: 1410.md
+        items:
+          - name: "Criação de ciclos de medição"
+            href: 1411.md
+          - name: "Tipos de ciclos de medição"
+            href: 1414.md
+          - name: "Uso de ciclos de medição preparados"
+            href: 1415.md
+          - name: "Janela de modelos de medição"
+            href: 1412.md
+      - name: "Pintura por pulverização"
+        href: 10400.md
+      - name: "Operações legadas"
+        href: 123124.md
+        items:
+          - name: "Operação de usinagem de chanfro 2.5D"
+            href: 765.md
+          - name: "Operação de usinagem de superfícies horizontais 2.5D"
+            href: 766.md
+          - name: "Operação de abertura de cavidades 2.5D"
+            href: 768.md
+          - name: "Operação de usinagem de paredes 2.5D"
+            href: 767.md
+          - name: "Operação combinada (linhas de nível e curvas-guia)"
+            href: 711.md
+          - name: "Acabamento por curvas-guia"
+            href: 840.md
+          - name: "Desbaste por curvas-guia"
+            href: 734.md
+          - name: "Operação de serra"
+            href: 10140.md
+          - name: "Acabamento por planos paralelos"
+            href: 713.md
+          - name: "Usinagem por planos otimizados"
+            href: 714.md
+          - name: "Usinagem combinada de áreas planas e íngremes"
+            href: 839.md
+  - name: "Simulação"
+    href: 10286.md
+    items:
+      - name: "Movimento ao longo do percurso da ferramenta"
+        href: 10287.md
+        items:
+          - name: "Estrutura da trajetória da ferramenta"
+            href: 352.md
+          - name: "Lista dos comandos CLData básicos"
+            href: 286.md
+          - name: "Seleção de comandos CLData na vista gráfica"
+            href: 287.md
+          - name: "Edição da trajetória da ferramenta"
+            href: 353.md
+          - name: "Transformações espaciais do percurso da ferramenta"
+            href: 344.md
+      - name: "Controle do processo de simulação"
+        href: 722.md
+        items:
+          - name: "Controle do movimento da ferramenta"
+            href: 351.md
+          - name: "Erros do percurso da ferramenta detectados pela simulação"
+            href: 742.md
+          - name: "Otimização dos avanços"
+            href: 298.md
+          - name: "Atribuição de parâmetros do material bruto"
+            href: 906.md
+          - name: "Modo de simulação Turbo"
+            href: 10288.md
+          - name: "Exportação do resultado da simulação como modelo"
+            href: 10289.md
+          - name: "Remoção de cavacos na simulação"
+            href: 10290.md
+      - name: "Simulação da usinagem por programa NC"
+        href: 10291.md
+        items:
+          - name: "Simulação de programa baseada em G-code"
+            href: 10432.md
+          - name: "Criação do seu próprio interpretador"
+            href: 10292.md
+      - name: "Simulação de pintura"
+        href: 10330.md
+      - name: "Simulação de sólidos"
+        href: 10331.md
+  - name: "Recursos da ferramenta de usinagem"
+    href: 10332.md
+    items:
+      - name: "Janela Ferramentas"
+        href: 38.md
+        items:
+          - name: "Gerenciamento de bibliotecas"
+            href: 615.md
+          - name: "Edição de ferramenta de fresamento"
+            href: 201.md
+          - name: "Edição de ferramenta de torneamento"
+            href: 350.md
+          - name: "Janela de seleção do suporte de fresamento"
+            href: 10341.md
+      - name: "Lista de ferramentas do projeto"
+        href: 10342.md
+      - name: "Criação de perfis de ferramenta"
+        href: 10343.md
+      - name: "Janela de suportes (*.osd)"
+        href: 10345.md
+      - name: "API de importação de ferramentas de usinagem"
+        href: 10420.md
+      - name: "Conjuntos de ferramentas"
+        href: 200111.md
+        items:
+          - name: "Adaptação de uma máquina para o modo de ferramentas avançadas"
+            href: 200112.md
+          - name: "Bibliotecas de componentes"
+            href: 200113.md
+          - name: "Construção de um conjunto de ferramentas"
+            href: 200115.md
+  - name: "Possibilidades de extensão e integração"
+    href: 10601.md
+    items:
+      - name: "Scripts no ENCY"
+        href: 10346.md
+        items:
+          - name: "Introdução aos scripts no ENCY"
+            href: 10347.md
+          - name: "IDE de scripts"
+            href: 10348.md
+          - name: "Interface de programação de aplicativos"
+            href: 10349.md
+          - name: "Operação com script"
+            href: 10350.md
+          - name: "Operação com eventos de script"
+            href: 10351.md
+          - name: "Inicialização do ENCY por script"
+            href: 10352.md
+      - name: "Integrações PLM"
+        href: 10602.md
+        items:
+          - name: "Autorizar um sistema externo na janela principal do sistema CAM"
+            href: 102015.md
+          - name: "Importação de um modelo geométrico de um sistema externo"
+            href: 102016.md
+          - name: "Instalação e configuração dos módulos de integração PLM"
+            href: 102017.md
+          - name: "Carregamento e salvamento de máquina em um sistema externo"
+            href: 102018.md
+          - name: "Carregamento e salvamento de pós-processadores em um sistema externo"
+            href: 102019.md
+          - name: "Carregamento e salvamento de ferramentas em um sistema externo"
+            href: 102020.md
+          - name: "Abertura e salvamento de projetos em um sistema externo"
+            href: 102021.md
+      - name: "Extensões do sistema CAM"
+        href: 10620.md
+        items:
+          - name: "Instalação de extensões pela janela System Setup"
+            href: 10621.md
+          - name: "Instalação de extensões pela linha de comando"
+            href: 10622.md
+      - name: "Macros"
+        href: 102456.md
+        items:
+          - name: "Gravação de uma macro"
+            href: 102457.md
+          - name: "Edição das etapas"
+            href: 102458.md
+          - name: "Salvamento de uma macro"
+            href: 102459.md
+          - name: "Execução de uma macro"
+            href: 102460.md
+          - name: "Edição do código"
+            href: 102462.md
+      - name: "Loja de extensões"
+        href: 162964210.md
+  - name: "Módulos licenciados do programa"
+    href: 10353.md
+    items:
+      - name: "Usinagem adaptativa"
+        href: 10367.md
+      - name: "Robot +"
+        href: 10368.md
+      - name: "Robot Mill"
+        href: 10369.md
+      - name: "Controle avançado de múltiplos eixos"
+        href: 10371.md
+      - name: "Operações"
+        href: 10372.md
+        items:
+          - name: "Serramento"
+            href: 10373.md
+          - name: "Corte 5D"
+            href: 10374.md
+          - name: "Soldagem"
+            href: 10375.md
+          - name: "Revestimento"
+            href: 10376.md
+          - name: "Corte com faca"
+            href: 10377.md
+          - name: "Operação baseada em G-code e operação de torneamento baseada em G-code"
+            href: 10379.md
+            items:
+              - name: "Atribuição de trabalho para operação baseada em G-code e operação de torneamento baseada em G-code"
+                href: 10380.md
+                items:
+                  - name: "Atalhos de teclado para trabalhar com texto NC"
+                    href: 10381.md
+              - name: "Avanço rápido"
+                href: 102011.md
+      - name: "Operações que exigem adaptação"
+        href: 10382.md
+        items:
+          - name: "Tratamento térmico"
+            href: 10383.md
+          - name: "Soldagem"
+            href: 10384.md
+          - name: "Revestimento"
+            href: 10385.md
+          - name: "Corte a jato"
+            href: 10386.md
+      - name: "Módulo de integração com o Teamcenter"
+        href: 10387.md
+  - name: "Apêndice"
+    href: 10388.md
+    items:
+      - name: "Matriz de operações"
+        href: 10389.md
+      - name: "Matriz de recursos do sistema CAM"
+        href: 10390.md
+      - name: "Lista de interpretadores"
+        href: 10391.md
+      - name: "Obtenção de licença de avaliação"
+        href: 20044.md
+      - name: "Recomendações para relatar erros"
+        href: 20045.md
+      - name: "Solução de problemas de autorização no gerenciador de licenças"
+        href: 20047.md
+      - name: "Software adicional e alterações da instalação"
+        href: 1021423.md
