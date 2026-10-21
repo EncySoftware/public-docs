@@ -1,0 +1,1 @@
+# Connecting to main application in a Delphi application
