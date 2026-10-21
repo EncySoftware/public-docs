@@ -1,0 +1,3 @@
+﻿- name: "ENCY Hyper User Manual"
+  href: src/
+  homepage: src/index.md
