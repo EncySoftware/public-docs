@@ -1,0 +1,23 @@
+﻿{
+  "build": {
+    "content": [
+      { "src": ".", "dest": "sppx", "files": [ "src/**/*.{md,yml}" ] },
+      { "src": "../cldata", "dest": "cldata", "files": [ "**/*.{md,yml}" ] },
+      { "src": "../ai-assisted-development", "dest": "ai-assisted-development", "files": [ "*.md", "toc.yml" ] }
+    ],
+    "resource": [
+      { "src": ".", "dest": "sppx", "files": [ "src/images/**", "src/attachments/**" ] },
+      { "src": "../ai-assisted-development", "dest": "ai-assisted-development", "files": [ "skills/**" ] }
+    ],
+    "dest": "out/html",
+    "globalMetadata": {
+      "_appName": "Postprocessors generator (sppx postprocessors)",
+      "_appTitle": "Postprocessors generator (sppx postprocessors)",
+      "_enableSearch": true,
+      "_disableContribution": true
+    },
+    "postProcessors": [ "ExtractSearchIndex" ],
+    "template": [ "statictoc", "../../_common/templates/custom" ],
+    "markdownEngineName": "markdig"
+  }
+}
