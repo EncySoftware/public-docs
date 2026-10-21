@@ -1,0 +1,22 @@
+﻿- name: Extension Store for authors
+  href: index.md
+- name: Getting started
+  href: getting-started.md
+- name: Store rules and your obligations
+  href: store-rules.md
+- name: Extension anatomy
+  href: extension-anatomy.md
+- name: Build and test locally
+  href: local-testing.md
+- name: Package requirements
+  href: package-requirements.md
+- name: Publishing
+  href: publishing.md
+- name: Review, updates and visibility
+  href: review-and-updates.md
+- name: Paid extensions
+  href: paid-extensions.md
+- name: Troubleshooting
+  href: troubleshooting.md
+- name: External references
+  href: references.md
