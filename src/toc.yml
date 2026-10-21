@@ -1,0 +1,14 @@
+﻿- name: CAM Agent
+  href: index.md
+- name: Getting started
+  href: getting-started.md
+- name: Features
+  href: features.md
+- name: Workflows and commands
+  href: workflows.md
+- name: Agent tools
+  href: mcp-tools.md
+- name: FAQ
+  href: faq.md
+- name: External references
+  href: references.md
