@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 250" width="340" height="250" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="mx" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d62728"/></marker>
+    <marker id="my" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a8c4a"/></marker>
+    <marker id="mz" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1f6feb"/></marker>
+    <marker id="mn" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#888888"/></marker>
+  </defs>
+
+  <!-- sphere -->
+  <circle cx="165" cy="128" r="74" fill="#eef3fb" stroke="#111111" stroke-width="2"/>
+  <!-- equator -->
+  <path d="M 91 128 A 74 22 0 0 0 239 128" fill="none" stroke="#111111" stroke-width="1.4"/>
+  <path d="M 91 128 A 74 22 0 0 1 239 128" fill="none" stroke="#c9c9c9" stroke-width="1.4" stroke-dasharray="5,4"/>
+
+  <!-- axes -->
+  <line x1="165" y1="128" x2="165" y2="28" stroke="#1f6feb" stroke-width="1.6" marker-end="url(#mz)"/>
+  <text x="173" y="42" fill="#1f6feb">vZ</text>
+  <line x1="165" y1="128" x2="272" y2="128" stroke="#d62728" stroke-width="1.6" marker-end="url(#mx)"/>
+  <text x="276" y="132" fill="#d62728">vX</text>
+  <line x1="165" y1="128" x2="120" y2="168" stroke="#2a8c4a" stroke-width="1.6" marker-end="url(#my)"/>
+  <text x="104" y="172" fill="#2a8c4a">vY</text>
+  <circle cx="165" cy="128" r="3" fill="#111111"/>
+  <text x="152" y="120" fill="#888888" text-anchor="end">vT</text>
+
+  <!-- radius -->
+  <line x1="165" y1="128" x2="222" y2="80" stroke="#888888" stroke-width="1" marker-end="url(#mn)"/>
+  <text x="226" y="74" fill="#888888">Radius</text>
+</svg>

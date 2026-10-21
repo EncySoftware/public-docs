@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 200" width="380" height="200" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <!-- segment (curve) -->
+  <line x1="70" y1="150" x2="300" y2="60" stroke="#111111" stroke-width="2.2"/>
+
+  <!-- endpoints -->
+  <circle cx="70"  cy="150" r="4.5" fill="#111111"/>
+  <circle cx="300" cy="60"  r="4.5" fill="#111111"/>
+
+  <!-- labels -->
+  <g fill="#888888" font-size="13">
+    <text x="58"  y="172">sp</text>
+    <text x="292" y="48">tp</text>
+  </g>
+</svg>

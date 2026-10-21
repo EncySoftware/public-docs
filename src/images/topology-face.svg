@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 345" width="640" height="345" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="dir" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7.5" markerHeight="7.5" orient="auto"><path d="M0,1 L9,5 L0,9 z" fill="#7b2cbf"/></marker>
+  </defs>
+
+  <!-- base surface (rectangular) -->
+  <rect x="95" y="92" width="305" height="180" fill="#eef3fb" stroke="#111111" stroke-width="1.5"/>
+
+  <!-- face: trimmed region (outer loop minus the hole) -->
+  <path d="M 150 150 L 310 148 A 60 60 0 0 1 330 225 L 140 228 A 65 65 0 0 1 150 150 Z
+           M 264 188 A 24 24 0 1 0 216 188 A 24 24 0 1 0 264 188 Z"
+        fill="#cfe0f5" fill-rule="evenodd" stroke="none"/>
+
+  <!-- hole — opening: colored like the area outside the surface (background, not surface) -->
+  <circle cx="240" cy="188" r="24" fill="#ffffff"/>
+
+  <!-- outer loop (edges) with traversal-direction arrows (counterclockwise) -->
+  <path d="M 310 148 L 230 149 L 150 150" fill="none" stroke="#7b2cbf" stroke-width="2.6" marker-mid="url(#dir)"/>
+  <path d="M 150 150 A 65 65 0 0 0 136 188 A 65 65 0 0 0 140 228" fill="none" stroke="#7b2cbf" stroke-width="2.6" marker-mid="url(#dir)"/>
+  <path d="M 140 228 L 235 226 L 330 225" fill="none" stroke="#7b2cbf" stroke-width="2.6" marker-mid="url(#dir)"/>
+  <path d="M 330 225 A 60 60 0 0 0 333 187 A 60 60 0 0 0 310 148" fill="none" stroke="#7b2cbf" stroke-width="2.6" marker-mid="url(#dir)"/>
+
+  <!-- hole (inner loop) — traversal in the opposite direction (clockwise) -->
+  <path d="M 216 188 A 24 24 0 0 1 240 164 A 24 24 0 0 1 264 188 A 24 24 0 0 1 240 212 A 24 24 0 0 1 216 188"
+        fill="none" stroke="#7b2cbf" stroke-width="2.2" marker-mid="url(#dir)"/>
+
+  <!-- vertices -->
+  <circle cx="150" cy="150" r="4" fill="#111111"/>
+  <circle cx="310" cy="148" r="4" fill="#111111"/>
+  <circle cx="330" cy="225" r="4" fill="#111111"/>
+  <circle cx="140" cy="228" r="4" fill="#111111"/>
+
+  <!-- labels -->
+  <line x1="140" y1="62" x2="182" y2="92" stroke="#888888" stroke-width="0.8"/>
+  <text x="20" y="58" fill="#888888">base surface</text>
+
+  <line x1="90" y1="156" x2="147" y2="151" stroke="#888888" stroke-width="0.8"/>
+  <text x="84" y="160" fill="#888888" text-anchor="end">vertex</text>
+
+  <line x1="406" y1="178" x2="332" y2="200" stroke="#888888" stroke-width="0.8"/>
+  <text x="410" y="174" fill="#888888">edge (trimmed curve)</text>
+
+  <text x="247" y="125" fill="#888888" text-anchor="middle">outer loop</text>
+
+  <line x1="248" y1="246" x2="244" y2="212" stroke="#888888" stroke-width="0.8"/>
+  <text x="248" y="258" fill="#888888" text-anchor="middle">hole</text>
+
+  <line x1="108" y1="300" x2="165" y2="214" stroke="#888888" stroke-width="0.8"/>
+  <text x="20" y="312" fill="#888888">face (trimmed surface)</text>
+
+  <text x="320" y="336" fill="#888888" text-anchor="middle">arrows: loop direction (face interior on the left)</text>
+</svg>

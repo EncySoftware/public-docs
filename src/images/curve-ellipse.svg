@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" width="360" height="200" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="mx" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#d62728"/>
+    </marker>
+    <marker id="mz" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1f6feb"/>
+    </marker>
+    <marker id="mn" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#888888"/>
+    </marker>
+  </defs>
+
+  <!-- ellipse in isometry (tilted disc) -->
+  <ellipse cx="190" cy="135" rx="110" ry="50" fill="none" stroke="#111111" stroke-width="2.2"/>
+  <circle cx="190" cy="135" r="4" fill="#111111"/>
+  <text x="180" y="155" fill="#888888" text-anchor="end">vT</text>
+
+  <!-- vZ — normal (up) -->
+  <line x1="190" y1="135" x2="190" y2="35" stroke="#1f6feb" stroke-width="1.6" marker-end="url(#mz)"/>
+  <text x="197" y="47" fill="#1f6feb">vZ</text>
+
+  <!-- vX — to the right (along the major axis) -->
+  <line x1="190" y1="135" x2="315" y2="135" stroke="#d62728" stroke-width="1.6" marker-end="url(#mx)"/>
+  <text x="320" y="139" fill="#d62728">vX</text>
+
+  <!-- MajRad (along the major axis) -->
+  <line x1="190" y1="135" x2="80" y2="135" stroke="#888888" stroke-width="1" marker-end="url(#mn)"/>
+  <text x="130" y="128" fill="#888888" text-anchor="middle">MajRad</text>
+
+  <!-- MinRad (along the minor axis) -->
+  <line x1="190" y1="135" x2="190" y2="185" stroke="#888888" stroke-width="1" marker-end="url(#mn)"/>
+  <text x="198" y="168" fill="#888888">MinRad</text>
+</svg>

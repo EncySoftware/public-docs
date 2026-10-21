@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 215" width="360" height="215" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <defs>
+    <marker id="mn" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#888888"/></marker>
+  </defs>
+
+  <!-- extrusion surface (ruled) -->
+  <path d="M 55 175 Q 120 145 195 172 L 230 77 Q 155 50 90 80 Z" fill="#eef3fb"/>
+  <!-- inner generatrix (extrusion guide) -->
+  <line x1="125" y1="151" x2="160" y2="56" stroke="#c9c9c9" stroke-width="1.2" stroke-dasharray="5,4"/>
+  <!-- side edges -->
+  <line x1="55" y1="175" x2="90" y2="80" stroke="#111111" stroke-width="2"/>
+  <line x1="195" y1="172" x2="230" y2="77" stroke="#111111" stroke-width="2"/>
+  <!-- upper (offset) copy of the curve -->
+  <path d="M 90 80 Q 155 50 230 77" fill="none" stroke="#111111" stroke-width="2"/>
+
+  <!-- generatrix -->
+  <path d="M 55 175 Q 120 145 195 172" fill="none" stroke="#7b2cbf" stroke-width="2.8"/>
+  <line x1="120" y1="159" x2="120" y2="190" stroke="#888888" stroke-width="0.8"/>
+  <text x="120" y="204" fill="#7b2cbf" text-anchor="middle">GeneratrixID</text>
+
+  <!-- extrusion vector -->
+  <line x1="262" y1="160" x2="297" y2="65" stroke="#888888" stroke-width="1.4" marker-end="url(#mn)"/>
+  <text x="266" y="182" fill="#888888">ExtrusionVector</text>
+</svg>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 216" width="380" height="216" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+  <!-- Surface 1: cylinder (FirstSurfID) -->
+  <path d="M 107 52 A 58 17 0 0 0 223 52 L 223 198 A 58 17 0 0 1 107 198 Z"
+        fill="#e7eef9" stroke="#8fb0e0" stroke-width="1.4"/>
+  <ellipse cx="165" cy="52" rx="58" ry="17" fill="#eef3fb" stroke="#8fb0e0" stroke-width="1.4"/>
+
+  <!-- Surface 2: cutting plane (SecondSurfID) -->
+  <polygon points="48,135 224,91 281,121 105,165"
+           fill="#fdeede" fill-opacity="0.78" stroke="#e0b483" stroke-width="1.4"/>
+
+  <!-- Intersection curve (ellipse) with discrete points -->
+  <g transform="rotate(-12 165 128)">
+    <ellipse cx="165" cy="128" rx="58" ry="20" fill="none" stroke="#111111" stroke-width="2.4"/>
+    <g fill="#111111">
+      <circle cx="215.2" cy="138" r="3.2"/>
+      <circle cx="165"   cy="148" r="3.2"/>
+      <circle cx="114.8" cy="138" r="3.2"/>
+      <circle cx="114.8" cy="118" r="3.2"/>
+      <circle cx="165"   cy="108" r="3.2"/>
+      <circle cx="215.2" cy="118" r="3.2"/>
+    </g>
+  </g>
+
+  <!-- Surface labels -->
+  <line x1="248" y1="200" x2="212" y2="188" stroke="#888888" stroke-width="0.8"/>
+  <text x="250" y="204" fill="#888888">FirstSurfID</text>
+
+  <line x1="230" y1="86" x2="208" y2="97" stroke="#888888" stroke-width="0.8"/>
+  <text x="232" y="84" fill="#888888">SecondSurfID</text>
+</svg>
