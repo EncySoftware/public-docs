@@ -1,0 +1,40 @@
+{
+  "metadata": [],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_pdf/**",
+          "template/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "src/assets/**"
+        ]
+      }
+    ],
+    "globalMetadata": {
+      "_appTitle": "MachineMaker",
+      "_appFooter": "MachineMaker",
+      "_enableSearch": true,
+      "_appLogoPath": "src/assets/branding/machinemaker.png",
+      "_appFaviconPath": "src/assets/branding/machinemaker.png",
+      "_lang": "en",
+      "_documentationHomePage": "src/index.html"
+    },
+    "postProcessors": [
+      "ExtractSearchIndex"
+    ],
+    "template": [
+      "statictoc",
+      "template/custom"
+    ],
+    "markdownEngineName": "markdig"
+  }
+}
