@@ -1,0 +1,146 @@
+pdf: true
+items:
+- name: "MachineMaker"
+  href: index.md
+- name: "MachineMaker 소개"
+  href: common/128546572.md
+- name: "인터페이스"
+  href: common/128546586.md
+  items:
+  - name: "기본 창"
+    href: common/128546587.md
+  - name: "3D 탐색"
+    href: common/128546599.md
+  - name: "도구 모음"
+    href: common/128546624.md
+  - name: "애플리케이션 설정"
+    href: common/128546673.md
+- name: "시작하기"
+  href: common/129940180.md
+  items:
+  - name: "프로젝트 만들기"
+    href: common/129940181.md
+  - name: "메커니즘 추가"
+    href: common/129940195.md
+  - name: "3D 객체 준비 및 가져오기"
+    href: common/129940210.md
+  - name: "요소를 노드로 그룹화"
+    href: common/129940248.md
+  - name: "색상 지정"
+    href: common/129940403.md
+  - name: "메커니즘 시뮬레이션 및 검증"
+    href: common/129940423.md
+  - name: "어셈블리"
+    href: common/150674458.md
+  - name: "메커니즘 라이브러리"
+    href: common/129932035.md
+  - name: "기계 장비 구성"
+    href: common/129940438.md
+- name: "밀링 기계"
+  href: machines/128546571.md
+  items:
+  - name: "운동학 구조 만들기"
+    href: machines/129940297.md
+  - name: "어셈블리 옵션"
+    href: machines/150674516.md
+  - name: "추가 옵션"
+    href: machines/150674530.md
+  - name: "예제: 기계"
+    href: machines/128546971.md
+    items:
+    - name: "3축 밀링 기계"
+      href: machines/128546972.md
+    - name: "5축 밀링 기계"
+      href: machines/128546976.md
+- name: "로봇"
+  href: robots/129926358.md
+  items:
+  - name: "운동학 구조 구성"
+    href: robots/131903495.md
+    items:
+    - name: "산업용 로봇"
+      href: robots/131903654.md
+    - name: "협동 로봇"
+      href: robots/131903666.md
+    - name: "고하중 로봇"
+      href: robots/131903674.md
+    - name: "플렉시블 고하중 로봇"
+      href: robots/129930802.md
+    - name: "테이블 및 포지셔너"
+      href: robots/129930810.md
+    - name: "레일 및 포털"
+      href: robots/131903688.md
+    - name: "복합 엔드 이펙터"
+      href: robots/131903701.md
+  - name: "어셈블리 시뮬레이션 및 검증"
+    href: robots/131904463.md
+  - name: "테이블 캘리브레이션"
+    href: robots/129931151.md
+  - name: "CAM 시스템에서 어셈블리 받기"
+    href: robots/129933049.md
+  - name: "어셈블리 옵션"
+    href: robots/129935832.md
+  - name: "추가 옵션"
+    href: robots/129936331.md
+  - name: "충돌"
+    href: robots/129936493.md
+  - name: "링크/리드"
+    href: robots/129936705.md
+  - name: "엔드 이펙터 및 TCP 캘리브레이션"
+    href: robots/129930953.md
+  - name: "예제: 로봇 셀"
+    href: robots/131904826.md
+    items:
+    - name: "단순 로봇"
+      href: robots/129932078.md
+    - name: "고하중 로봇"
+      href: robots/129932169.md
+    - name: "플렉시블 고하중 로봇"
+      href: robots/129933030.md
+    - name: "협동 로봇"
+      href: robots/129933035.md
+    - name: "엔드 이펙터"
+      href: robots/129936988.md
+    - name: "외부 공구"
+      href: robots/129937003.md
+    - name: "복합 엔드 이펙터"
+      href: robots/129935339.md
+    - name: "복합 엔드 이펙터: 스팟 용접"
+      href: robots/129937016.md
+    - name: "테이블 및 사용자 좌표계"
+      href: robots/129937026.md
+    - name: "레일"
+      href: robots/129937034.md
+    - name: "H-bot(포털)"
+      href: robots/129937042.md
+    - name: "SCARA 로봇"
+      href: robots/137005116.md
+    - name: "칼럼형 로봇"
+      href: robots/157870578.md
+- name: "선삭-밀링 복합 기계"
+  href: turnmill/1.md
+  items:
+  - name: "운동학 구조 만들기"
+    href: turnmill/20.md
+    items:
+    - name: "척 커넥터"
+      href: turnmill/28.md
+    - name: "공구 블록"
+      href: turnmill/29.md
+    - name: "터렛 헤드 노드"
+      href: turnmill/30.md
+    - name: "2열 공구 터렛"
+      href: turnmill/30_1.md
+  - name: "멀티 공구 헤드"
+    href: turnmill/35.md
+  - name: "예제: 선삭-밀링 복합 기계"
+    href: turnmill/80.md
+    items:
+    - name: "선삭-밀링 복합 기계"
+      href: turnmill/81.md
+    - name: "2열 터렛이 장착된 선삭-밀링 복합 기계"
+      href: turnmill/82.md
+    - name: "스위스형 기계"
+      href: turnmill/2026092101.md
+- name: "Simplifier(단순화 도구)"
+  href: common/128546984.md
