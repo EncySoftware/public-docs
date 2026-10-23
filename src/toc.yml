@@ -1,0 +1,32 @@
+pdf: true
+items:
+  - name: "ENCY Hyper 사용자 설명서"
+    href: index.md
+  - name: "ENCY Hyper 소개"
+    href: content/150697437.md
+  - name: "라이선스 활성화"
+    href: content/150697452.md
+  - name: "홈 페이지"
+    href: content/150697466.md
+    items:
+    - name: "프로젝트 라이브러리"
+      href: content/150697469.md
+  - name: "시스템 기본 창"
+    href: content/150697477.md
+    items:
+    - name: "모드 패널"
+      href: content/150697483.md
+      items:
+      - name: "셀 모드"
+        href: content/150697487.md
+      - name: "부품 모드"
+        href: content/150697513.md
+      - name: "프로그래밍 모드"
+        href: content/150697525.md
+        items:
+        - name: "공간에서의 로봇 이동 내비게이션"
+          href: content/150697591.md
+      - name: "실행 모드"
+        href: content/150697599.md
+    - name: "메인 메뉴"
+      href: content/150697606.md

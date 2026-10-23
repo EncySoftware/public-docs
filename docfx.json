@@ -1,0 +1,39 @@
+{
+  "metadata": [],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_pdf/**",
+          "template/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "src/assets/**"
+        ]
+      }
+    ],
+    "globalMetadata": {
+      "_appTitle": "ENCY Hyper 사용자 설명서",
+      "_appFooter": "ENCY Hyper 사용자 설명서 · 기계 번역",
+      "_enableSearch": true,
+      "_lang": "ko",
+      "_appLogoPath": "src/assets/branding/HYP1EN.png",
+      "_appFaviconPath": "src/assets/branding/HYP1EN.png"
+    },
+    "postProcessors": [
+      "ExtractSearchIndex"
+    ],
+    "template": [
+      "statictoc",
+      "template/custom"
+    ],
+    "markdownEngineName": "markdig"
+  }
+}
