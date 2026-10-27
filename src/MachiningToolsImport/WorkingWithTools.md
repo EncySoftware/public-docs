@@ -1,0 +1,72 @@
+# Working with cutting tools
+
+Three types of cutting tools are available: milling tools, turning tools and custom axial shaped tools. To create cutting tools using the CAMAPI, use the IMTI_MachiningTools instance functions:
+- Milling tools create functions:
+  - CreateCylindricalMill
+  - CreateSpphericalMill
+  - CreateTorusMill
+  - CreateDoubleRadialMill
+  - CreateLimitedDoubleRadialMill
+  - CreateConicalMill
+  - CreateLimitedConicalMill
+  - CreateEngraver
+  - CreateDrill
+  - CreateTwoStageDrill
+  - CreateSpotDrill
+  - CreateCenterDrill
+  - CreateReamer
+  - CreateCounterSinkDrill
+  - CreateCounterBoreDrill
+  - CreateBoringBar
+  - CreateTap
+  - CreateNegativeRadiusMill
+  - CreateKnife
+  - CreateSawBlade
+  - CreateJetCutter
+  - CreateFlatTipCountersink
+  - CreatePilotCounterbore
+  - CreateBackBoringBar
+  - CreateThreadMill
+  - CreateUndercutDoveMill
+  - CreateUndercutSlotMill
+  - CreateUndercutLollipopMill
+  - CreateUndercutTwoAngleMill
+  - CreateUndercutRoundGrooveMill
+  - CreateUndercutSharpChamferMill
+  - CreateUndercutRoundedChamferMill
+  - CreateUndercutIndexableChamferMill
+  - CreateUndercutBarrelMill
+  - CreateUndercutLensBarrelMill
+  - CreateUndercutTaperBarrelMill
+  - CreateTaperJetCutter
+  - CreatePlazmaJetCutter
+  - CreateLaserJetCutter
+  - CreateEmptyGripper
+  - CreateSingleVacuumGripper
+  - CreateFullConeSprayGun
+  - CreateHollowConeSprayGun
+  - CreateElipticFlatFanSprayGun
+  - CreateElipticLinearFanSprayGun
+  - CreateRectangularFlatFanSprayGun
+  - CreateSphericalProbe
+- Turning tools create functions:
+  - CreateTurnToolWithExternalHolder
+  - CreateTurnToolWithBoringHolder
+  - CreateTurnToolWithExternalThreadingHolder
+  - CreateTurnToolWithInternalThreadingHolder
+  - CreateTurnToolWithExternalGroovingHolder
+  - CreateTurnToolWithInternalGroovingHolder
+  - CreateTurnToolWithFaceGroovingHolder
+  - CreateTurnToolWithProbingHolder
+- Custom axial shape tool functions:
+  - CreateCustomAxialShapeTool.
+
+## Helpful links:
+- [How to work with cutting tools in the CAM interface](https://docs.encycam.com/ENCY/3/en/38.html)
+- [Preparing the machining tools import api environment](PrepEnvPage.md)
+- [GitHub: Machining tool import API examples](https://github.com/EncySoftware/cam-api-examples/tree/v3/main/MachiningTools);
+## Continue to read:
+- [Working with Milling Tools](MillingToolsPage.md)
+- [Working with Turning Tools](TurningToolsPage.md)
+- [Working with Custom Axial Shaped Tools](CustomShapedToolPage.md)
+- [Working with the Tool Holder](ToolHolderPage.md)

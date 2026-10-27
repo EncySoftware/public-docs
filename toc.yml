@@ -1,0 +1,219 @@
+- name: Overview
+  href: index.md
+- name: Supported programming languages
+  href: src/SupportedLanguages/Main.md
+  items:
+  - name: C#
+    href: src/SupportedLanguages/CSharp.md
+
+  - name: Delphi
+    href: src/SupportedLanguages/Delphi.md
+
+  - name: C++
+    href: src/SupportedLanguages/CPlusPlus.md
+
+- name: Tutorial lessons
+  href: src/Lessons/Main.md
+  items:
+  - name: Lesson 1 - general introduction to the extension ideology using the example of a C# project
+    href: src/Lessons/Lesson1.md
+
+  - name: Lesson 2 - connecting the SDK to a Delphi project using the build system
+    href: src/Lessons/Lesson2.md
+
+  - name: Lesson 3 - connecting the SDK to a C++ project using the build system
+    href: src/Lessons/Lesson3.md
+
+  - name: Lesson 4 - demonstration of methods for unloading an extension during main application is running
+    href: src/Lessons/Lesson4.md
+
+  - name: Lesson 5 - Creating a custom operation
+    href: src/Lessons/Lesson5.md
+
+  - name: Lesson 6 - Creating a C# application to interact with geometry in main application
+    href: src/Lessons/Lesson6.md
+
+  - name: Lesson 7 - Creating a C# application to connect to main application for managing it
+    href: src/Lessons/Lesson7.md
+
+  - name: Lesson 8 - Creating a C# extension to integrate with a PLM system
+    href: src/Lessons/Lesson8.md
+
+- name: System extensions
+  href: src/SystemExtensions/Main.md
+  items:
+  - name: Extension.Util.Common.Dll
+    href: src/SystemExtensions/ExtensionUtilCommonDll.md
+
+  - name: Extension.Util.Common.Exe
+    href: src/SystemExtensions/ExtensionUtilCommonExe.md
+
+- name: Debugging of extensions
+  href: src/Debugging/Main.md
+  items:
+  - name: Debugging a .NET extension using Visual Studio Code
+    href: src/Debugging/DotnetVSCode.md
+
+  - name: Debugging a Delphi extension using RAD Studio
+    href: src/Debugging/DelphiRad.md
+
+  - name: Debugging a C++ extension using Visual Studio
+    href: src/Debugging/CppVS.md
+
+- name: Entry points
+  href: src/EntryPoints/Main.md
+  items:
+  - name: Utilitiy in main form
+    href: src/EntryPoints/utility.md
+
+  - name: Executor for utility in main form
+    href: src/EntryPoints/utility_runner.md
+
+  - name: New item to the operation's context menu
+    href: src/EntryPoints/operation_popup.md
+
+- name: Machining Tools Import
+  href: src/MachiningToolsImport/MTIStartPage.md
+  items:
+  - name: Preparing the environment
+    href: src/MachiningToolsImport/PrepEnvPage.md
+
+  - name: Working with the tool library
+    href: src/MachiningToolsImport/CreateStoragePage.md
+
+  - name: Working with cutting tools
+    href: src/MachiningToolsImport/WorkingWithTools.md
+    items:
+    - name: Milling Tools
+      href: src/MachiningToolsImport/MillingToolsPage.md
+
+    - name: Turning Tools
+      href: src/MachiningToolsImport/TurningToolsPage.md
+
+    - name: Custom Axial Shaped Tools
+      href: src/MachiningToolsImport/CustomShapedToolPage.md
+
+  - name: Working with the tool holder
+    href: src/MachiningToolsImport/ToolHolderPage.md
+
+- name: External applications
+  href: src/ExternalApplications/Main.md
+  items:
+  - name: Connecting in a C# application
+    href: src/ExternalApplications/ConnectInCSharp.md
+
+  - name: Connecting in a Delphi application
+    href: src/ExternalApplications/ConnectInDelphi.md
+
+  - name: Connecting in a C++ application
+    href: src/ExternalApplications/ConnectInCpp.md
+
+- name: Using ComWrapper
+  href: src/Helpers/ComWrapper.md
+
+- name: Developer guide
+  href: src/DeveloperGuide/Main.md
+  items:
+  - name: Concepts
+    items:
+    - name: Extension entry points
+      href: src/DeveloperGuide/general/extension-entry-points.md
+
+    - name: COM object lifetime
+      href: src/DeveloperGuide/general/com-lifetime.md
+
+    - name: Error handling
+      href: src/DeveloperGuide/general/error-handling.md
+
+    - name: UI patterns
+      href: src/DeveloperGuide/general/ui-patterns.md
+
+    - name: Non-modal WPF window
+      href: src/DeveloperGuide/general/non-modal-window.md
+
+    - name: Theming plugin windows
+      href: src/DeveloperGuide/general/theming-plugin-windows.md
+
+  - name: Macros
+    href: src/DeveloperGuide/macros/README.md
+    items:
+    - name: Writing the macro body
+      href: src/DeveloperGuide/macros/writing-macro.md
+
+    - name: Overridable parameters
+      href: src/DeveloperGuide/macros/macro-params.md
+
+    - name: Reporting progress
+      href: src/DeveloperGuide/macros/notify-step.md
+
+    - name: Recording and saving over IPC
+      href: src/DeveloperGuide/ipc/macros.md
+
+  - name: Extensions (CAMAPI)
+    href: src/DeveloperGuide/api/overview.md
+    items:
+    - name: Application
+      href: src/DeveloperGuide/api/application.md
+
+    - name: Extension system
+      href: src/DeveloperGuide/api/entry-points.md
+
+    - name: Project and technology
+      href: src/DeveloperGuide/api/project.md
+
+    - name: Geometry
+      href: src/DeveloperGuide/api/geometry.md
+
+    - name: CAD
+      href: src/DeveloperGuide/api/cad.md
+
+    - name: Feature finder
+      href: src/DeveloperGuide/api/feature-finder.md
+
+    - name: Tools and machine
+      href: src/DeveloperGuide/api/tools-machine.md
+
+    - name: NC generation and simulation
+      href: src/DeveloperGuide/api/nc-simulation.md
+
+    - name: Probing
+      href: src/DeveloperGuide/api/probing.md
+
+    - name: UI
+      href: src/DeveloperGuide/api/ui.md
+
+  - name: External applications (CAMIPC)
+    href: src/DeveloperGuide/ipc/overview.md
+    items:
+    - name: Connection
+      href: src/DeveloperGuide/ipc/connection.md
+
+    - name: Application
+      href: src/DeveloperGuide/ipc/application.md
+
+    - name: Project and technology
+      href: src/DeveloperGuide/ipc/project.md
+
+    - name: Geometry
+      href: src/DeveloperGuide/ipc/geometry.md
+
+    - name: CAD
+      href: src/DeveloperGuide/ipc/cad.md
+
+    - name: Feature finder
+      href: src/DeveloperGuide/ipc/feature-finder.md
+
+    - name: Tools and machine
+      href: src/DeveloperGuide/ipc/tools-machine.md
+
+    - name: NC generation and simulation
+      href: src/DeveloperGuide/ipc/nc-simulation.md
+
+    - name: UI
+      href: src/DeveloperGuide/ipc/ui.md
+
+    - name: Additional interfaces
+      href: src/DeveloperGuide/ipc/extra.md
+
+- name: API reference
+  href: api/toc.yml
