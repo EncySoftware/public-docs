@@ -1,0 +1,101 @@
+- name: Erstellen eines eigenen Interpreters
+  href: index.md
+  items:
+    - name: Entwicklung eines eigenen Interpreters in (.NET) C#
+      href: src/dotnet/developing-a-custom-interpreter-in-net-csharp.md
+      items:
+        - name: Debuggen des Interpreters in Visual Studio Code
+          href: src/dotnet/interpreter-debugging-in-visual-studio-code/interpreter-debugging-in-visual-studio-code.md
+    - name: Interpretation des NC-Programms
+      href: src/g-code-based-program-simulation/interpretation-of-the-nc-code.md
+    - name: Struktur des Interpreters
+      href: src/interpreter-structure/interpreter-structure.md
+      items:
+        - name: Interpreter-Einstellungsdatei
+          href: src/interpreter-structure/interpreter-settings-file/interpreter-settings-file.md
+        - name: Interpreter-Bibliothek
+          href: src/interpreter-structure/interpreter-library/interpreter-library.md
+        - name: Beispiele für Interpreter mit Quellcodes
+          href: src/interpreter-structure/interpreter-example/interpreter-example.md
+        - name: Geschützte Interpreter
+          href: src/interpreter-structure/protected-interpreters/protected-interpreters.md
+    - name: Ablauf der Interpretation des NC-Programms
+      href: src/g-code-interpretation/g-code-based-program-interpretation.md
+      items:
+        - name: Laden und Initialisierung des Interpreters
+          href: src/g-code-interpretation/interpreter-loading-and-initialization/interpreter-loading-and-initialization.md
+        - name: Übersetzung und Interpretation des NC-Programms
+          href: src/g-code-interpretation/translation-and-interpretation/translation-and-interpretation-g-code-based-program.md
+          items:
+            - name: Algorithmus zur Bestimmung von Register und Wert im Satz des NC-Programms
+              href: src/g-code-interpretation/translation-and-interpretation/algorithm-for-determining-register-and-values-in-g-code-block/algorithm-for-determining-register-and-values-in-g-code-block.md
+        - name: Entladen des Interpreters
+          href: src/g-code-interpretation/interpreter-unloading/interpreter-unloading.md
+        - name: Vererbung von Interpretern
+          href: src/g-code-interpretation/interpreter-inheritance/interpreter-inheritance.md
+        - name: Liste der verwendeten Typen
+          href: src/g-code-interpretation/interfaces/list-of-used-interfaces.md
+          items:
+            - name: Im Interpreter implementierte Schnittstellen
+              href: src/g-code-interpretation/interfaces/interpreter-interfaces/interpreter-interfaces.md
+              items:
+                - name: Interpreter-Schnittstelle
+                  href: src/g-code-interpretation/interfaces/interpreter-interfaces/interpreter-interface/interpreter-interface.md
+                - name: Liste der Interpreter-Register
+                  href: src/g-code-interpretation/interfaces/interpreter-interfaces/list-of-interpreter-registers/list-of-interpreter-registers.md
+                - name: Schutz-Schnittstelle
+                  href: src/g-code-interpretation/interfaces/interpreter-interfaces/protection-interface/protection-interface.md
+        - name: Schnittstellen des CAM-Systems
+          href: src/g-code-interpretation/sprutcam-interfaces/cam-system-interfaces.md
+          items:
+            - name: Grundlegende Schnittstellen
+              href: src/g-code-interpretation/sprutcam-interfaces/basic-interfaces/basic-interfaces.md
+              items:
+                - name: Schnittstelle des CAM-Systemkerns
+                  href: src/g-code-interpretation/sprutcam-interfaces/basic-interfaces/sprutcam-kernel-interface/cam-system-kernel-interface.md
+                - name: Interaktion mit dem Text des NC-Programms
+                  href: src/g-code-interpretation/sprutcam-interfaces/basic-interfaces/nc-program-management/nc-program-management.md
+                - name: Registerliste
+                  href: src/g-code-interpretation/sprutcam-interfaces/basic-interfaces/register-list/register-list.md
+                - name: Liste der zu interpretierenden Objekte
+                  href: src/g-code-interpretation/sprutcam-interfaces/basic-interfaces/list-of-objects-to-interpret/list-of-objects-to-interpret.md
+                - name: Bildung des Werkzeugwegs in Maschinenachsen
+                  href: src/g-code-interpretation/sprutcam-interfaces/basic-interfaces/forming-of-the-toolpath-in-machine-axes/forming-of-the-toolpath-in-machine-axes.md
+                - name: Bildung des Werkzeugwegs in geometrischen Achsen
+                  href: src/g-code-interpretation/sprutcam-interfaces/basic-interfaces/forming-of-the-toolpath-in-geometric-axes/forming-of-the-toolpath-in-geometric-axes.md
+                - name: Parameter der Ausrüstung
+                  href: src/g-code-interpretation/sprutcam-interfaces/basic-interfaces/equipment-parameters/equipment-parameters.md
+            - name: Verwaltung der NC-Programmanalyse
+              href: src/g-code-interpretation/sprutcam-interfaces/managing-nc-program-analysis/managing-nc-program-analysis.md
+            - name: Vereinfachung der Bildung des Werkzeugwegs
+              href: src/g-code-interpretation/sprutcam-interfaces/toolpath-construction/simplifying-tool-path-construction.md
+              items:
+                - name: Lineare Bewegungen
+                  href: src/g-code-interpretation/sprutcam-interfaces/toolpath-construction/linear-movements/linear-movements.md
+                - name: Kreisbogenbewegungen
+                  href: src/g-code-interpretation/sprutcam-interfaces/toolpath-construction/circular-movements/circular-movements.md
+                - name: Bohrzyklus
+                  href: src/g-code-interpretation/sprutcam-interfaces/toolpath-construction/drilling-cycle/drilling-cycle.md
+                - name: Bohrzyklus mit Verschiebung
+                  href: src/g-code-interpretation/sprutcam-interfaces/toolpath-construction/drilling-cycle-with-shift/drilling-cycle-with-shift.md
+                - name: Bohrzyklus mit Spanbruch
+                  href: src/g-code-interpretation/sprutcam-interfaces/toolpath-construction/drilling-cycle-with-chip-breaking/drilling-cycle-with-chip-breaking.md
+                - name: Drehzyklus Einstechen
+                  href: src/g-code-interpretation/sprutcam-interfaces/toolpath-construction/turning-cycle-grooving/turning-cycle-grooving.md
+                - name: Gewindeschneiden mit Drehzyklus
+                  href: src/g-code-interpretation/sprutcam-interfaces/toolpath-construction/turning-cycle-threading/turning-cycle-threading.md
+                - name: Bearbeitungszyklus beim Drehen
+                  href: src/g-code-interpretation/sprutcam-interfaces/toolpath-construction/turning-machining-cycle/turning-machining-cycle.md
+                - name: Gewindefräszyklus
+                  href: src/g-code-interpretation/sprutcam-interfaces/toolpath-construction/thread-milling-cycle/thread-milling-cycle.md
+                - name: Zyklus zum Fräsen kreisförmiger Taschen
+                  href: src/g-code-interpretation/sprutcam-interfaces/toolpath-construction/circular-pocket-milling-cycle/circular-pocket-milling-cycle.md
+        - name: Protokoll der Interaktion mit dem Interpreter
+          href: src/g-code-interpretation/log-interaction-with-the-interpreter/log-interaction-with-the-interpreter.md
+- name: KI-gestützte Interpreterentwicklung
+  href: src/ai-assisted-development/index.md
+- name: Anhang
+  href: src/appendix/appendix.md
+  items:
+    - name: Liste der Interpreter
+      href: src/appendix/list-of-interpreters/list-of-interpreters.md

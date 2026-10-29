@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<NCInterpreter>
+    <CNCSystem>Sample CNC (mill)</CNCSystem>
+    <MachineType>Mill</MachineType>
+    <Date>01.01.2019</Date>
+    <Authors>Ivan Danko</Authors>
+    <Company>SPRUT Technology</Company>
+    <Description>Interpreter for Sample CNC</Description>
+    <Version>1</Version>
+    <ID>{79B1410C-67D5-42B6-867B-A3BF30AB3D8A}</ID>
+    <LibraryID>{80F754D9-EE7B-47CF-A802-A9424D9F6749}</LibraryID>
+    <LibraryFileName_x32>Sample_x32.dll</LibraryFileName_x32>
+    <LibraryFileName_x64>Sample_x64.dll</LibraryFileName_x64>
+    <ParentID>{00000000-0000-0000-0000-000000000000}</ParentID>
+    <ParentFileName/>
+    <FileExtension>*.cnc</FileExtension>
+    <Registers/>
+</NCInterpreter>
