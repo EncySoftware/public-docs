@@ -1,0 +1,22 @@
+- name: Digital Machine Center for publishers
+  href: index.md
+- name: Getting started
+  href: getting-started.md
+- name: Components and archives
+  href: components-and-archives.md
+- name: The card and links
+  href: the-card.md
+- name: Publishing
+  href: publishing.md
+- name: Review, updates and testing
+  href: review-and-updates.md
+- name: Digital Machine Kits
+  href: kits.md
+- name: Access, prices and licences
+  href: licences-and-prices.md
+- name: Requests from customers
+  href: requests.md
+- name: Troubleshooting
+  href: troubleshooting.md
+- name: External references
+  href: references.md
