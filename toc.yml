@@ -1,0 +1,1375 @@
+pdf: true
+items:
+  - name: "ENCYの紹介"
+    href: 4.md
+    items:
+      - name: "システム要件"
+        href: 284.md
+      - name: "構成とオプション"
+        href: 261.md
+      - name: "標準パッケージ"
+        href: 10001.md
+      - name: "プログラムのインストールと起動"
+        href: 280.md
+      - name: "システムファイル"
+        href: 281.md
+      - name: "テクニカルサポート"
+        href: 811.md
+  - name: "概要とクイックスタート"
+    href: 10002.md
+    items:
+      - name: "ENCYの理念"
+        href: 282.md
+      - name: "システムを素早く習得"
+        href: 88.md
+      - name: "ENCY 3.0の新機能"
+        href: 10003.md
+  - name: "一般情報"
+    href: 10004.md
+    items:
+      - name: "ホームページ"
+        href: 10201021.md
+        items:
+          - name: "プロジェクトライブラリ"
+            href: 1020141.md
+      - name: "システムのメインウィンドウ"
+        href: 45.md
+        items:
+          - name: "アプリケーションツールバー"
+            href: 51.md
+            items:
+              - name: "スマートスナップ"
+                href: 10005.md
+              - name: "測定と分析"
+                href: 10006.md
+              - name: "自動保存とプロジェクトのスナップショット"
+                href: 10424.md
+              - name: "プロジェクトライブラリ"
+                href: 10426.md
+              - name: "マシンセットアップ（プロジェクトテンプレート）"
+                href: 10427.md
+              - name: "AI アシスタント"
+                href: 10428.md
+              - name: "バージョン情報ウィンドウ"
+                href: 10429.md
+          - name: "グラフィックウィンドウと視覚化コントロール"
+            href: 169.md
+            items:
+              - name: "標準ビュー"
+                href: 728.md
+              - name: "オブジェクト選択モード"
+                href: 325.md
+              - name: "ウィンドウズーム"
+                href: 11.md
+              - name: "インタラクティブ回転"
+                href: 20.md
+              - name: "インタラクティブパン"
+                href: 19.md
+              - name: "インタラクティブな拡大、縮小"
+                href: 855.md
+              - name: "ズーム拡張"
+                href: 60.md
+              - name: "アンドゥビュー（元に戻す）"
+                href: 358.md
+              - name: "リドゥビュー（やり直し）"
+                href: 332.md
+              - name: "断面平面"
+                href: 333.md
+              - name: "回転モード"
+                href: 100166.md
+              - name: "ギンバル"
+                href: 100151.md
+              - name: "インタラクティブ直動軸ルーラー"
+                href: 100167.md
+          - name: "作業モード"
+            href: 86.md
+          - name: "選択フィルター"
+            href: 127.md
+          - name: "表示パネル"
+            href: 359.md
+          - name: "幾何座標系"
+            href: 753.md
+            items:
+              - name: "ダイアログウィンドウによる座標系の作成"
+                href: 402.md
+              - name: "スマートなローカル座標系の作成"
+                href: 10007.md
+              - name: "原点と2つの先行ベクトルによる座標系の作成"
+                href: 271.md
+              - name: "現在のビュー方向による座標系の作成"
+                href: 805.md
+              - name: "既存の座標系のプロパティ変更"
+                href: 403.md
+          - name: "マシン軸コントロールパネル"
+            href: 10008.md
+            items:
+              - name: "インタラクティブマシン"
+                href: 10009.md
+          - name: "機械軸ウィンドウのグラフ"
+            href: 10010.md
+          - name: "ホルダー閉塞チェックユーティリティ"
+            href: 10011.md
+          - name: "メインパネルのユーティリティボタン"
+            href: 10012.md
+          - name: "メインパネルのヘルプボタン"
+            href: 10014.md
+          - name: "プロセスインジケータ"
+            href: 35.md
+          - name: "アプリケーションイベント通知"
+            href: 10015.md
+          - name: "マルチプロジェクトインターフェース"
+            href: 145145.md
+      - name: "システム設定ウィンドウ"
+        href: 90.md
+        items:
+          - name: "フォルダタブ"
+            href: 715.md
+          - name: "測定単位タブ"
+            href: 22.md
+          - name: "表示タブ"
+            href: 24.md
+          - name: "色タブ"
+            href: 807.md
+          - name: "インポートタブ"
+            href: 264.md
+          - name: "追加設定タブ"
+            href: 23.md
+          - name: "加工タブ"
+            href: 740.md
+          - name: "オンライン機能タブ"
+            href: 10016.md
+          - name: "拡張機能タブ"
+            href: 10017.md
+          - name: "PLM接続タブ"
+            href: 10018.md
+      - name: "交換ファイル"
+        href: 10019.md
+        items:
+          - name: "プロジェクトファイル"
+            href: 77.md
+          - name: "インポート可能なファイル"
+            href: 97.md
+          - name: "DXFエクスポート"
+            href: 297.md
+          - name: "ポストプロセッサー調整ファイル"
+            href: 730.md
+          - name: "NCプログラムファイル"
+            href: 279.md
+          - name: "インタープリターファイル"
+            href: 10020.md
+          - name: "マシンスキーマファイル"
+            href: 10021.md
+          - name: "暗号化コンテナ .stfc"
+            href: 10022.md
+          - name: "マシンセットアップファイル"
+            href: 10430.md
+      - name: "アップデート"
+        href: 10023.md
+      - name: "コンテナマネージャ"
+        href: 10024.md
+      - name: "ライセンスマネージャ"
+        href: 10025.md
+      - name: "システムログ"
+        href: 10026.md
+      - name: "クラウド上でチームとの作業"
+        href: 100321.md
+  - name: "幾何モデルの準備"
+    href: 717.md
+    items:
+      - name: "幾何モデルの構造"
+        href: 33.md
+        items:
+          - name: "オブジェクトの種類"
+            href: 10027.md
+            items:
+              - name: "フェイス、メッシュ、カーブ、点"
+                href: 283.md
+              - name: "グループ（フォルダ）"
+                href: 603.md
+              - name: "アクティブフォルダ"
+                href: 1.md
+              - name: "PMI"
+                href: 10028.md
+          - name: "幾何モデル構造ウィンドウ"
+            href: 718.md
+          - name: "オブジェクトの選択"
+            href: 10.md
+          - name: "インテリジェントオブジェクト選択"
+            href: 10029.md
+          - name: "幾何モデル構造編集"
+            href: 47.md
+            items:
+              - name: "新しいグループの作成"
+                href: 755.md
+              - name: "幾何モデルの構造更新"
+                href: 6231.md
+              - name: "クリップボードの使用"
+                href: 749.md
+      - name: "幾何オブジェクトのインポート"
+        href: 109.md
+        items:
+          - name: "IGES ファイルからインポート"
+            href: 266.md
+            items:
+              - name: "IGESファイルの要件"
+                href: 102.md
+              - name: "インポート可能なオブジェクトの種類"
+                href: 772.md
+              - name: "モデリングプログラムのIGESエクスポートモジュールの調整方法に関する推奨事項"
+                href: 87.md
+          - name: "STEP ファイルからインポート"
+            href: 10030.md
+          - name: "DXF ファイルからインポート"
+            href: 802.md
+          - name: "PostScript ファイルからインポート"
+            href: 268.md
+            items:
+              - name: "GhostScriptライブラリのインストール"
+                href: 10031.md
+          - name: "STL ファイルからインポート"
+            href: 270.md
+          - name: "PLY ファイルからインポート"
+            href: 10032.md
+          - name: "AMF ファイルからインポート"
+            href: 10033.md
+          - name: "VRML ファイルからインポート"
+            href: 721.md
+          - name: "3dmファイル（Rhinoceros™）からインポート"
+            href: 265.md
+          - name: "Parasolid™ ファイルからインポート"
+            href: 267.md
+          - name: "SolidWorks™ ファイルからインポート"
+            href: 10034.md
+          - name: "SolidEdge™ ファイルからインポート"
+            href: 10035.md
+          - name: "SGM ファイルからインポート"
+            href: 10036.md
+          - name: "CAMシステムアドインによるモデルのインポート"
+            href: 10037.md
+          - name: "5DC ファイルからインポート"
+            href: 10038.md
+          - name: "CAMシステム用アドイン"
+            href: 10039.md
+            items:
+              - name: "アドインマネージャ"
+                href: 900.md
+              - name: "アドインのリスト"
+                href: 10040.md
+                items:
+                  - name: "Autodesk Inventor™ ツールバー＆インポートアドイン"
+                    href: 10041.md
+                  - name: "CADbro™ ツールバー"
+                    href: 10042.md
+                  - name: "FreeCAD™ ツールバー＆インポートアドイン"
+                    href: 10043.md
+                  - name: "Alibre Design™ ツールバー＆インポートアドイン"
+                    href: 10044.md
+                  - name: "IronCAD™ ツールバー"
+                    href: 10045.md
+                  - name: "NX™ ツールバー＆インポートアドイン"
+                    href: 10047.md
+                  - name: "Rhinoceros ツールバー＆インポートアドイン"
+                    href: 10048.md
+                  - name: "SolidEdge™ ツールバー & インポート アドイン"
+                    href: 10049.md
+                  - name: "SOLIDWORKS™ ツールバー＆インポートアドイン"
+                    href: 10050.md
+                  - name: "SpaceClaim™ ツールバー＆インポートアドイン"
+                    href: 10051.md
+                  - name: "ZW3D™ ツールバー＆インポートアドイン"
+                    href: 10053.md
+                  - name: "Onshape™ コネクタ"
+                    href: 10054.md
+                  - name: "CAXA 3D™ ツールバー"
+                    href: 10055.md
+                  - name: "KeyCreator™ ツールバー"
+                    href: 10056.md
+                  - name: "SolidCAM™ ツールバー＆インポートアドイン"
+                    href: 10421.md
+              - name: "アドインの関連付け"
+                href: 10057.md
+      - name: "幾何モデルの編集"
+        href: 10058.md
+        items:
+          - name: "オブジェクトのプロパティ"
+            href: 57.md
+            items:
+              - name: "一般タブ"
+                href: 725.md
+              - name: "表示タブ"
+                href: 745.md
+              - name: "加工タブ"
+                href: 724.md
+              - name: "パラメータタブ"
+                href: 329.md
+          - name: "表示プロパティの変更"
+            href: 32.md
+          - name: "削除"
+            href: 104.md
+          - name: "空間変換"
+            href: 116.md
+          - name: "反転"
+            href: 34.md
+          - name: "外形輪郭の投影"
+            href: 401.md
+          - name: "カーブの結合"
+            href: 400.md
+          - name: "サーフェスの三角形化"
+            href: 619.md
+          - name: "テキストの作成"
+            href: 617.md
+          - name: "断面の作成"
+            href: 289.md
+          - name: "フェイスステッチ"
+            href: 1000.md
+          - name: "3Dモデルのエクスポート"
+            href: 10059.md
+          - name: "穴埋め"
+            href: 10060.md
+          - name: "アイソライン（等高線）の抽出"
+            href: 10061.md
+          - name: "幾何モデルの簡略化"
+            href: 10401.md
+          - name: "スプラインの使用"
+            href: 20043.md
+          - name: "サーフェスの延長"
+            href: 20046.md
+      - name: "2D図形スケッチャー"
+        href: 833.md
+        items:
+          - name: "要素の作成と編集"
+            href: 20000.md
+          - name: "直線"
+            href: 20001.md
+          - name: "円弧"
+            href: 20002.md
+            items:
+              - name: "2点と半径"
+                href: 20003.md
+              - name: "中心、開始点、角度"
+                href: 20004.md
+              - name: "3つの接線で"
+                href: 20005.md
+              - name: "円弧編集"
+                href: 20035.md
+          - name: "円"
+            href: 20006.md
+            items:
+              - name: "中心と半径による円の作図と円の編集"
+                href: 20007.md
+              - name: "3つの接線による円"
+                href: 20008.md
+          - name: "長方形"
+            href: 20009.md
+            items:
+              - name: "2点で作図"
+                href: 20010.md
+              - name: "辺と高さで指定"
+                href: 20011.md
+              - name: "中心と点で指定"
+                href: 20012.md
+              - name: "長方形編集"
+                href: 20036.md
+          - name: "輪郭"
+            href: 20013.md
+            items:
+              - name: "要素単位で作成"
+                href: 20014.md
+              - name: "領域または境界で指定"
+                href: 20015.md
+              - name: "輪郭の編集"
+                href: 20037.md
+              - name: "スプライン"
+                href: 20038.md
+              - name: "アルキメデスの螺旋"
+                href: 20039.md
+              - name: "関数プロファイル"
+                href: 20040.md
+          - name: "面取りとフィレット"
+            href: 20016.md
+          - name: "寸法"
+            href: 20017.md
+            items:
+              - name: "直線寸法"
+                href: 20018.md
+              - name: "半径寸法"
+                href: 20019.md
+              - name: "角度寸法"
+                href: 20020.md
+          - name: "オフセット"
+            href: 20021.md
+          - name: "トリム機能"
+            href: 20022.md
+          - name: "分割オブジェクト"
+            href: 20023.md
+          - name: "追加機能"
+            href: 20024.md
+            items:
+              - name: "コピー"
+                href: 20025.md
+              - name: "シフト"
+                href: 20026.md
+              - name: "回転"
+                href: 20027.md
+              - name: "ミラー"
+                href: 20028.md
+          - name: "名前付きブロック"
+            href: 20029.md
+            items:
+              - name: "ブロックパラメータ設定"
+                href: 20030.md
+          - name: "拘束条件"
+            href: 20031.md
+            items:
+              - name: "ブロック内のリンクを編集"
+                href: 20032.md
+          - name: "図面例"
+            href: 20033.md
+          - name: "拘束を使用した作図例"
+            href: 20034.md
+          - name: "平面"
+            href: 10425.md
+      - name: "デザイン（3D図形）"
+        href: 12449.md
+        items:
+          - name: "メインウィンドウ"
+            href: 12450.md
+          - name: "2Dモードでのデザイン"
+            href: 12452.md
+          - name: "3Dモードでのデザイン"
+            href: 12451.md
+          - name: "3Dモデルからブランクを作成する方法"
+            href: 12453.md
+      - name: "ネスティング"
+        href: 164717805.md
+  - name: "加工技術の作成"
+    href: 10064.md
+    items:
+      - name: "加工技術作成の共通原則"
+        href: 54.md
+        items:
+          - name: "マシンの選択とパラメータ定義"
+            href: 341.md
+          - name: "加工順序の定義"
+            href: 293.md
+          - name: "新しいオペレーションの作成"
+            href: 91.md
+          - name: "オペレーションの実行"
+            href: 12.md
+          - name: "NCコードの生成"
+            href: 69.md
+          - name: "加工レポート"
+            href: 13.md
+          - name: "標準加工順序"
+            href: 345.md
+          - name: "オペレーション設定"
+            href: 10065.md
+            items:
+              - name: "オペレーションの幾何パラメータ"
+                href: 751.md
+              - name: "部品、ワーク、治具の定義"
+                href: 294.md
+              - name: "ユーザーオペレーション"
+                href: 10069.md
+              - name: "オペレーションステータスパネル"
+                href: 10070.md
+              - name: "任意ツールパスから6D輪郭加工に変換"
+                href: 102010.md
+          - name: "ツールパステンプレート"
+            href: 500.md
+            items:
+              - name: "ツールパステンプレートのマクロコマンド"
+                href: 10074.md
+          - name: "補助的な加工操作の作成"
+            href: 10075.md
+          - name: "バックグラウンド加工結果計算中の衝突検出"
+            href: 18921.md
+            items:
+              - name: "オペレーションステータス一覧"
+                href: 1118119.md
+          - name: "衝突無視リストの編集"
+            href: 191214.md
+          - name: "ツールパス再計算の管理"
+            href: 201112.md
+          - name: "インスペクターのユーザーデフォルト"
+            href: 100159.md
+      - name: "加工モードの構造"
+        href: 1020.md
+        items:
+          - name: "マシンセットアップパネル"
+            href: 1021.md
+            items:
+              - name: "3D 工具補正"
+                href: 102266.md
+          - name: "セットアップパネル"
+            href: 1022.md
+            items:
+              - name: "マシンでのパーツの位置決め（ワークセットアップ）"
+                href: 10066.md
+              - name: "ワーク座標系 (G54 - G59)"
+                href: 10068.md
+              - name: "オペレーションのローカル座標系"
+                href: 726.md
+              - name: "工具の向き"
+                href: 260.md
+          - name: "ジョブ割り当て"
+            href: 301.md
+            items:
+              - name: "基準サーフェス"
+                href: 10156.md
+              - name: "フェイス"
+                href: 102121.md
+              - name: "カーブ"
+                href: 707.md
+              - name: "ジョブゾーン（加工領域）"
+                href: 10151.md
+              - name: "上部と底部高さ"
+                href: 10153.md
+              - name: "ポケットフィーチャー"
+                href: 10154.md
+              - name: "制限領域"
+                href: 10152.md
+              - name: "タブ"
+                href: 102012.md
+              - name: "彫刻とポケット加工のジョブ割り当て"
+                href: 806.md
+              - name: "穴加工オペレーションのジョブ割り当て"
+                href: 705.md
+                items:
+                  - name: "座標による穴の定義"
+                    href: 406.md
+                  - name: "点要素を使った穴の定義"
+                    href: 706.md
+                  - name: "自動穴検出"
+                    href: 610.md
+                  - name: "穴パターンの作成"
+                    href: 407.md
+                  - name: "穴のソート"
+                    href: 10158.md
+              - name: "フィーチャー認識"
+                href: 100152.md
+              - name: "制限領域"
+                href: 101231.md
+          - name: "オペレーションパラメータ"
+            href: 100112.md
+            items:
+              - name: "チェックホルダー（衝突を回避）"
+                href: 11211.md
+              - name: "レイヤー時間"
+                href: 100113.md
+              - name: "Power（材料供給量）"
+                href: 202012.md
+              - name: "ロータリー荒加工／仕上げで新しい計算方法を使用"
+                href: 100125.md
+              - name: "ウィービング"
+                href: 100114.md
+          - name: "リンク/リード"
+            href: 100115.md
+            items:
+              - name: "アプローチ/リターン"
+                href: 100116.md
+                items:
+                  - name: "アプローチとリターンのルール"
+                    href: 10071.md
+                    items:
+                      - name: "アプローチ／リターンのルール編集画面"
+                        href: 10072.md
+                      - name: "マシンのアプローチ／リターンリスト"
+                        href: 10073.md
+                  - name: "工具交換の位置"
+                    href: 10067.md
+              - name: "安全動作"
+                href: 100117.md
+              - name: "リンクの詳細設定"
+                href: 100118.md
+              - name: "リンク"
+                href: 100119.md
+                items:
+                  - name: "ウォーターライン荒加工に基づくリンク"
+                    href: 100120.md
+                  - name: "3D/5Dの高度なオペレーションに関するリンク"
+                    href: 100130.md
+                  - name: "3Dオペレーションに関するリンク"
+                    href: 100131.md
+                  - name: "輪郭加工のリンク"
+                    href: 100132.md
+                  - name: "クラッディングオペレーションのリンク"
+                    href: 157862569.md
+                  - name: "穴あけ加工におけるリンク"
+                    href: 100133.md
+              - name: "リード"
+                href: 100134.md
+                items:
+                  - name: "ウォータライン荒加工に基づくリード"
+                    href: 157862622.md
+                  - name: "フェイスミルに基づくリード"
+                    href: 100148.md
+                  - name: "3Dオペレーションのリード"
+                    href: 100135.md
+                  - name: "3D/5Dアドバンスオペレーションのリード"
+                    href: 100136.md
+                  - name: "輪郭加工のリード"
+                    href: 101147.md
+                  - name: "クラッディング加工のリード"
+                    href: 100149.md
+              - name: "距離"
+                href: 100137.md
+                items:
+                  - name: "3Dオペレーションの距離"
+                    href: 100138.md
+                  - name: "フェイスミーリングを基準とした距離"
+                    href: 100146.md
+                  - name: "荒取りウォーターラインに基づく距離"
+                    href: 100139.md
+                  - name: "3D/5D高度なオペレーションの距離"
+                    href: 100140.md
+                  - name: "穴あけ加工における距離"
+                    href: 100141.md
+              - name: "プランジを許可"
+                href: 744.md
+          - name: "変換"
+            href: 10168.md
+            items:
+              - name: "円筒補間"
+                href: 10082.md
+              - name: "極座標補間"
+                href: 10083.md
+          - name: "送り速度／切削速度"
+            href: 100142.md
+            items:
+              - name: "コーナーコントロール"
+                href: 100144.md
+              - name: "送り/回転 (計算)"
+                href: 100128.md
+          - name: "穴 (ドリル点)"
+            href: 125146.md
+          - name: "治具"
+            href: 10283.md
+      - name: "オペレーションの構造グループ"
+        href: 1023.md
+        items:
+          - name: "セットアップステージ"
+            href: 1024.md
+          - name: "パーツ（グループ）"
+            href: 1025.md
+          - name: "パーツのコピー"
+            href: 1026.md
+          - name: "複製グループ"
+            href: 1027.md
+      - name: "シーケンスモード"
+        href: 1029.md
+      - name: "加工オペレーションの種類一覧"
+        href: 95.md
+      - name: "基本技術用語"
+        href: 10077.md
+        items:
+          - name: "オペレーショングループ"
+            href: 844.md
+          - name: "部品（パーツ）"
+            href: 330.md
+          - name: "ワーク"
+            href: 738.md
+          - name: "加工結果"
+            href: 322.md
+          - name: "工具"
+            href: 37.md
+            items:
+              - name: "Mill 用の工具"
+                href: 323.md
+              - name: "旋盤工具"
+                href: 320.md
+              - name: "工具の突き出し"
+                href: 10078.md
+          - name: "ストック（残し代）"
+            href: 76.md
+          - name: "工具の逃げ角"
+            href: 112.md
+          - name: "横方向の角度"
+            href: 737.md
+          - name: "スキャロップの高さによるピッチ選択"
+            href: 113.md
+          - name: "フロント角"
+            href: 163.md
+          - name: "ドライブオペレーションにおける加工方法"
+            href: 801.md
+          - name: "トロコイド加工（従来の等距離方式）"
+            href: 854.md
+          - name: "工具マガジン"
+            href: 10084.md
+          - name: "Mill 加工における工具径補正"
+            href: 10085.md
+      - name: "Mill 加工"
+        href: 10098.md
+        items:
+          - name: "加工オペレーションの種類"
+            href: 98.md
+          - name: "穴"
+            href: 100168.md
+            items:
+              - name: "穴加工オペレーション"
+                href: 10100.md
+              - name: "FBM （フィーチャーベースマシニング）"
+                href: 10089.md
+                items:
+                  - name: "FBM加工プロシージャ"
+                    href: 10090.md
+                  - name: "FBMプロシージャライブラリ（手順ライブラリ）UI"
+                    href: 10091.md
+                  - name: "フィーチャーツリーUI"
+                    href: 10092.md
+                  - name: "プロシージャをフィーチャーに割り当て UI"
+                    href: 10094.md
+                  - name: "プロシージャ編集UI"
+                    href: 10095.md
+                  - name: "オペレーション生成パラメータ"
+                    href: 10096.md
+                  - name: "FBM Mill オペレーションパラメータ"
+                    href: 10097.md
+          - name: "2D"
+            href: 100169.md
+            items:
+              - name: "ポケット加工"
+                href: 256.md
+              - name: "彫刻加工"
+                href: 810.md
+              - name: "2D輪郭"
+                href: 404.md
+          - name: "基本"
+            href: 100170.md
+            items:
+              - name: "フェイス加工"
+                href: 10117.md
+              - name: "ウォーターライン荒加工"
+                href: 736.md
+                items:
+                  - name: "プランジ荒加工"
+                    href: 10122.md
+              - name: "ウォーターライン仕上げ加工"
+                href: 841.md
+              - name: "平面荒加工"
+                href: 735.md
+              - name: "2.5D輪郭"
+                href: 10115.md
+              - name: "平坦面加工"
+                href: 759.md
+              - name: "3D輪郭"
+                href: 700.md
+          - name: "高度な加工"
+            href: 100171.md
+            items:
+              - name: "コンボ仕上げ"
+                href: 100126.md
+              - name: "5Dサーフェシング加工"
+                href: 10135.md
+              - name: "スキャロップ仕上げ加工"
+                href: 10118.md
+              - name: "3Dヘリカル加工"
+                href: 10119.md
+              - name: "モーフ加工"
+                href: 10138.md
+              - name: "ウォータラインアンダーカット加工"
+                href: 100150.md
+              - name: "スワーフ"
+                href: 1040.md
+              - name: "5D 荒取りウォーターライン"
+                href: 102025.md
+              - name: "5Dメッシュ加工"
+                href: 10142.md
+              - name: "5D輪郭加工と6D輪郭加工"
+                href: 10129.md
+                items:
+                  - name: "ドライブフェイスのパラメータ"
+                    href: 10130.md
+                  - name: "カーブのパラメータ"
+                    href: 10131.md
+                  - name: "工具側面による線織面の5軸ミーリング"
+                    href: 10132.md
+                  - name: "送り制御機能"
+                    href: 10133.md
+                  - name: "カスタムベクトル機能の使用"
+                    href: 10134.md
+              - name: "輪郭研磨"
+                href: 164691982.md
+          - name: "回転加工"
+            href: 100172.md
+            items:
+              - name: "ロータリーウォータライン加工"
+                href: 10143.md
+              - name: "ロータリー荒取り加工"
+                href: 10137.md
+              - name: "ロータリー仕上げ"
+                href: 10136.md
+              - name: "4Dモーフ加工"
+                href: 10146.md
+              - name: "4Dサーフェシング加工"
+                href: 10145.md
+              - name: "4D輪郭"
+                href: 10144.md
+          - name: "ターボ機械ミーリング"
+            href: 100173.md
+            items:
+              - name: "インペラ加工"
+                href: 1041.md
+              - name: "ブレードミーリング"
+                href: 100127.md
+          - name: "取り残し加工"
+            href: 727.md
+            items:
+              - name: "コーナー仕上げ"
+                href: 10121.md
+              - name: "ペンシル"
+                href: 10120.md
+              - name: "面取り"
+                href: 10123.md
+          - name: "ハイパフォーマンス切削（HPC）"
+            href: 10148.md
+          - name: "オペレーション設定"
+            href: 10149.md
+            items:
+              - name: "ジョブ割り当てでのデザインおよび加工機能の使用"
+                href: 10150.md
+                items:
+                  - name: "選択したフィーチャーに対するオペレーションの作成"
+                    href: 10155.md
+                  - name: "スプライン曲線の作図"
+                    href: 10157.md
+              - name: "2.5D加工のジョブ割り当て"
+                href: 10159.md
+              - name: "ウォーターライン荒加工とポケット加工のヒント"
+                href: 295.md
+              - name: "Milling by axis count"
+                items:
+                  - name: "2/2.5軸Mill加工のオペレーション"
+                    href: 10099.md
+                    items:
+                      - name: "2.5D加工オペレーション"
+                        href: 769.md
+                  - name: "3軸Mill オペレーション"
+                    href: 10116.md
+                  - name: "4軸、5軸 Mill 加工オペレーション"
+                    href: 10124.md
+                    items:
+                      - name: "彫刻とポケット加工を伴う4軸ミーリング"
+                        href: 10128.md
+                      - name: "5軸加工"
+                        href: 10125.md
+                      - name: "割出5軸加工"
+                        href: 10126.md
+                      - name: "円筒補間を用いたロータリー加工"
+                        href: 10127.md
+                      - name: "5軸ツールパス変換"
+                        href: 10141.md
+                      - name: "5軸加工機用軸マップ"
+                        href: 10147.md
+          - name: "アダプティブ"
+            href: 10171.md
+          - name: "ポケット加工方法"
+            href: 10172.md
+      - name: "旋盤加工"
+        href: 10173.md
+        items:
+          - name: "旋盤加工の種類"
+            href: 10174.md
+          - name: "旋盤加工オペレーション"
+            href: 10175.md
+            items:
+              - name: "端面加工"
+                href: 307.md
+              - name: "外径、内径荒取り"
+                href: 316.md
+              - name: "外径、内径仕上げ加工"
+                href: 310.md
+              - name: "外径、内径溝加工および端面溝加工オペレーション"
+                href: 312.md
+              - name: "外径、内径ねじ切り加工"
+                href: 319.md
+              - name: "輪郭ねじ切り加工"
+                href: 10199.md
+              - name: "切り落とし"
+                href: 313.md
+              - name: "旋盤穴加工"
+                href: 10176.md
+              - name: "アダプティブ荒取り（旋盤）"
+                href: 10205.md
+              - name: "掴み換え付き切り落とし"
+                href: 1060.md
+          - name: "旋盤サイクル"
+            href: 10188.md
+            items:
+              - name: "輪郭サイクル"
+                href: 10189.md
+              - name: "荒取りオフセット"
+                href: 10190.md
+              - name: "オフセットサイクル（ISO G73）"
+                href: 10191.md
+              - name: "荒取り"
+                href: 10192.md
+              - name: "荒取りサイクル"
+                href: 10193.md
+              - name: "端面"
+                href: 10194.md
+              - name: "溝加工サイクル"
+                href: 10195.md
+              - name: "スロット加工サイクル"
+                href: 10196.md
+              - name: "ねじ切りサイクル"
+                href: 10197.md
+                items:
+                  - name: "標準形状ねじ"
+                    href: 10198.md
+                  - name: "ねじ切りサイクルの種類"
+                    href: 10200.md
+              - name: "ジグザグサイクル"
+                href: 10201.md
+              - name: "4軸旋削"
+                href: 10202.md
+              - name: "切り落としサイクル"
+                href: 10203.md
+              - name: "ペック溝加工／ドリルサイクル"
+                href: 10204.md
+          - name: "オペレーション設定"
+            href: 10206.md
+            items:
+              - name: "旋盤オペレーションのジョブ割り当て"
+                href: 10207.md
+                items:
+                  - name: "ジョブ割り当て要素パラメータ"
+                    href: 10208.md
+                  - name: "輪郭編集モード"
+                    href: 10209.md
+              - name: "旋盤加工の切削条件"
+                href: 292.md
+              - name: "穴加工のジョブ割り当て"
+                href: 10210.md
+                items:
+                  - name: "座標による穴の定義"
+                    href: 10211.md
+                  - name: "点要素を使った穴の定義"
+                    href: 10212.md
+                  - name: "自動穴認識"
+                    href: 10213.md
+                  - name: "穴パターンの作成"
+                    href: 10214.md
+      - name: "Mill-Turn加工"
+        href: 10215.md
+        items:
+          - name: "複合旋盤の種類"
+            href: 10217.md
+          - name: "工具のセットアップ"
+            href: 10218.md
+          - name: "パーツの位置決め"
+            href: 10219.md
+          - name: "工具交換の位置"
+            href: 10220.md
+          - name: "工具の位置決め"
+            href: 10221.md
+          - name: "最終生成前の必須確認事項"
+            href: 10222.md
+          - name: "カウンタースピンドル加工"
+            href: 10223.md
+          - name: "U軸旋削"
+            href: 10409.md
+      - name: "切断機による加工"
+        href: 10224.md
+        items:
+          - name: "ジェット加工"
+            href: 326.md
+          - name: "4D ジェット加工"
+            href: 10225.md
+          - name: "5Dジェット加工"
+            href: 10226.md
+          - name: "オペレーション設定"
+            href: 10227.md
+            items:
+              - name: "ジェット加工ジョブ割り当て"
+                href: 10228.md
+              - name: "4Dジェットおよびワイヤー放電加工のジョブ割り当て"
+                href: 10229.md
+                items:
+                  - name: "2Dジョブ割り当て要素のプロパティ"
+                    href: 10230.md
+                  - name: "4Dジョブ割り当て項目のプロパティ"
+                    href: 10231.md
+                  - name: "同期線"
+                    href: 10232.md
+                  - name: "アプローチ／リターン"
+                    href: 10233.md
+                  - name: "ブリッジ"
+                    href: 10234.md
+                  - name: "マルチセレクト機能"
+                    href: 10235.md
+                  - name: "ワイヤー放電機能"
+                    href: 10236.md
+              - name: "ワイヤー放電および4Dジェット加工の加工条件"
+                href: 10237.md
+              - name: "ワイヤー放電および4Dジェット加工の加工設定"
+                href: 10238.md
+      - name: "ナイフ切断"
+        href: 10239.md
+        items:
+          - name: "切断工具 - \"ナイフ\""
+            href: 10240.md
+          - name: "2Dナイフ切断"
+            href: 10241.md
+          - name: "6Dナイフ切断"
+            href: 10242.md
+          - name: "ナイフコーナー退避"
+            href: 10243.md
+      - name: "ワイヤー放電加工"
+        href: 10244.md
+        items:
+          - name: "ワイヤー放電加工"
+            href: 10245.md
+            items:
+              - name: "ワイヤー放電2D輪郭加工"
+                href: 10246.md
+              - name: "ワイヤー放電4D輪郭加工"
+                href: 10247.md
+              - name: "ワイヤー放電コアレスポケット加工"
+                href: 10392.md
+                items:
+                  - name: "ポケット加工パラメータ"
+                    href: 10248.md
+                  - name: "ワイヤースレッド点"
+                    href: 10249.md
+          - name: "オペレーション設定"
+            href: 10250.md
+            items:
+              - name: "ワイヤー放電および4Dジェット加工のジョブ割り当て"
+                href: 10251.md
+                items:
+                  - name: "2Dジョブ割り当て項目のプロパティ"
+                    href: 10252.md
+                  - name: "4Dジョブ割り当て要素のプロパティ"
+                    href: 10253.md
+                  - name: "アプローチ／リターン"
+                    href: 10254.md
+                  - name: "ブリッジ"
+                    href: 10255.md
+                  - name: "マルチセレクト機能"
+                    href: 10256.md
+                  - name: "同期線"
+                    href: 10257.md
+                  - name: "ワイヤー放電機能"
+                    href: 10258.md
+              - name: "ワイヤー放電およびジェット切断 4D操作の加工条件"
+                href: 10259.md
+              - name: "ワイヤー放電・4Dジェット切断オペレーションの加工設定"
+                href: 10260.md
+      - name: "産業用ロボットでの加工"
+        href: 10261.md
+        items:
+          - name: "工具およびワークの座標系設定"
+            href: 10262.md
+          - name: "ロボット第6軸のプログラミング"
+            href: 10263.md
+          - name: "レール位置のプログラミング"
+            href: 10264.md
+          - name: "回転テーブルのプログラミング"
+            href: 10265.md
+          - name: "ロボット軸マップ"
+            href: 10266.md
+          - name: "ロボット遷移のプログラミング（旧方式）"
+            href: 10267.md
+            items:
+              - name: "リンクの計画"
+                href: 10268.md
+      - name: "マルチタスク加工"
+        href: 10269.md
+        items:
+          - name: "マシンスキーマにおけるサブマシン定義"
+            href: 10410.md
+          - name: "スイス型旋盤のプログラミング"
+            href: 104011.md
+          - name: "待機ラベルの自動挿入"
+            href: 10412.md
+      - name: "パーツ移動"
+        href: 10402.md
+        items:
+          - name: "パーツ移動の機械要件"
+            href: 10413.md
+          - name: "クランプ装置の制御"
+            href: 10403.md
+          - name: "ピックアンドプレース"
+            href: 10404.md
+            items:
+              - name: "ポイントピックアンドプレース"
+                href: 20042.md
+          - name: "掴み換え"
+            href: 10406.md
+            items:
+              - name: "掴み換えにおける位相同期（フェーズ同期）"
+                href: 123541.md
+          - name: "サブスピンドルの動作"
+            href: 10407.md
+          - name: "バーフィード"
+            href: 10408.md
+      - name: "溶接"
+        href: 10270.md
+        items:
+          - name: "ポイント溶接"
+            href: 20041.md
+          - name: "5D、6D溶接"
+            href: 10271.md
+      - name: "積層造形"
+        href: 10272.md
+        items:
+          - name: "エリアクラッディング"
+            href: 10273.md
+          - name: "カーブクラッディング"
+            href: 10274.md
+          - name: "3Dクラッディング"
+            href: 10275.md
+          - name: "5Dクラッディング"
+            href: 10276.md
+          - name: "平面スライス"
+            href: 1051.md
+          - name: "非平面スライス"
+            href: 1052.md
+          - name: "ダイレクトクラッディング"
+            href: 21121.md
+      - name: "ディスク工具加工"
+        href: 10277.md
+        items:
+          - name: "ディスク工具"
+            href: 10278.md
+          - name: "2Dディスクカッティング"
+            href: 10279.md
+          - name: "6Dディスクカッティング"
+            href: 10280.md
+          - name: "ディスク荒加工"
+            href: 10281.md
+      - name: "プロービング"
+        href: 1410.md
+        items:
+          - name: "独自のプロービングサイクル（テンプレート）の作成"
+            href: 1411.md
+          - name: "測定サイクルの種類"
+            href: 1414.md
+          - name: "事前定義された測定サイクルの使用"
+            href: 1415.md
+          - name: "プロービングテンプレートウィンドウ"
+            href: 1412.md
+      - name: "スプレー塗装"
+        href: 10400.md
+      - name: "レガシーオペレーション"
+        href: 123124.md
+        items:
+          - name: "2.5D面取り加工オペレーション"
+            href: 765.md
+          - name: "2.5D上面加工オペレーション"
+            href: 766.md
+          - name: "2.5Dポケット加工オペレーション"
+            href: 768.md
+          - name: "2.5D壁面加工オペレーション"
+            href: 767.md
+          - name: "複合オペレーション（ウォータライン・ドライブ）"
+            href: 711.md
+          - name: "ドライブ仕上げオペレーション"
+            href: 840.md
+          - name: "ドライブ荒加工オペレーション"
+            href: 734.md
+          - name: "のこ切断オペレーション"
+            href: 10140.md
+          - name: "平面仕上げ加工"
+            href: 713.md
+          - name: "平面最適化加工（平面・平面）"
+            href: 714.md
+          - name: "複合仕上げ加工（ウォータライン - 平面）"
+            href: 839.md
+  - name: "シミュレーション"
+    href: 10286.md
+    items:
+      - name: "ツールパス動作"
+        href: 10287.md
+        items:
+          - name: "ツールパスの構造"
+            href: 352.md
+          - name: "基本CLデータコマンド一覧"
+            href: 286.md
+          - name: "グラフィカルビューからのCLデータコマンドの選択"
+            href: 287.md
+          - name: "ツールパス編集"
+            href: 353.md
+          - name: "ツールパス空間変換"
+            href: 344.md
+      - name: "シミュレーションプロセスの操作"
+        href: 722.md
+        items:
+          - name: "工具動作の操作"
+            href: 351.md
+          - name: "シミュレーションで検出されたツールパスのエラー"
+            href: 742.md
+          - name: "送り速度の最適化"
+            href: 298.md
+          - name: "ワークパラメータの設定"
+            href: 906.md
+          - name: "ターボシミュレーションモード"
+            href: 10288.md
+          - name: "シミュレーション結果をモデルとしてエクスポート"
+            href: 10289.md
+          - name: "チップ削除機能"
+            href: 10290.md
+      - name: "NCプログラムによる加工シミュレーション"
+        href: 10291.md
+        items:
+          - name: "Gコードベースのプログラムシミュレーション"
+            href: 10432.md
+          - name: "インタープリターの作成"
+            href: 10292.md
+      - name: "塗装シミュレーション"
+        href: 10330.md
+      - name: "ソリッドシミュレーション"
+        href: 10331.md
+  - name: "加工工具の機能"
+    href: 10332.md
+    items:
+      - name: "工具ウィンドウ"
+        href: 38.md
+        items:
+          - name: "ライブラリ管理"
+            href: 615.md
+          - name: "Mill工具の編集"
+            href: 201.md
+          - name: "旋盤工具の編集"
+            href: 350.md
+          - name: "Mill ホルダー選択ウィンドウ"
+            href: 10341.md
+      - name: "プロジェクトの工具リスト"
+        href: 10342.md
+      - name: "カスタム工具の作成"
+        href: 10343.md
+      - name: "ホルダー(*.osd) ウィンドウ"
+        href: 10345.md
+      - name: "工具のインポートAPI"
+        href: 10420.md
+      - name: "工具アセンブリ"
+        href: 200111.md
+        items:
+          - name: "高度工具モード用に機械を適合させる"
+            href: 200112.md
+          - name: "コンポーネントライブラリ"
+            href: 200113.md
+          - name: "工具アセンブリの作成"
+            href: 200115.md
+  - name: "拡張および統合の可能性"
+    href: 10601.md
+    items:
+      - name: "ENCYにおけるスクリプト"
+        href: 10346.md
+        items:
+          - name: "ENCYにおけるスクリプトの概要"
+            href: 10347.md
+          - name: "スクリプト IDE"
+            href: 10348.md
+          - name: "アプリケーションプログラミングインターフェース（API）"
+            href: 10349.md
+          - name: "スクリプトオペレーション"
+            href: 10350.md
+          - name: "スクリプトイベントを持つオペレーション"
+            href: 10351.md
+          - name: "スクリプトによるENCYの起動"
+            href: 10352.md
+      - name: "PLMインテグレーション"
+        href: 10602.md
+        items:
+          - name: "CAMメインウィンドウにおける外部システムの認証"
+            href: 102015.md
+          - name: "外部システムからの図形のインポート"
+            href: 102016.md
+          - name: "PLM統合モジュールのインストールと設定"
+            href: 102017.md
+          - name: "外部システムからのマシン読み込みと外部システムへの保存"
+            href: 102018.md
+          - name: "外部システムからのポストプロセッサー読み込みと外部システムへの保存"
+            href: 102019.md
+          - name: "外部システムへの工具の読み込みと保存"
+            href: 102020.md
+          - name: "外部システムへのプロジェクトの読み込みと保存"
+            href: 102021.md
+      - name: "CAMシステムの拡張機能"
+        href: 10620.md
+        items:
+          - name: "システム設定ウィンドウを使用した拡張機能のインストール"
+            href: 10621.md
+          - name: "コマンドラインを使用して拡張機能をインストールする"
+            href: 10622.md
+      - name: "マクロ"
+        href: 102456.md
+        items:
+          - name: "マクロを記録"
+            href: 102457.md
+          - name: "ステップ編集"
+            href: 102458.md
+          - name: "マクロを保存"
+            href: 102459.md
+          - name: "マクロを実行"
+            href: 102460.md
+          - name: "コードを編集"
+            href: 102462.md
+      - name: "拡張機能ストア"
+        href: 162964210.md
+  - name: "プログラムのライセンス済みモジュール"
+    href: 10353.md
+    items:
+      - name: "アダプティブ"
+        href: 10367.md
+      - name: "Robot +"
+        href: 10368.md
+      - name: "Robot Mill"
+        href: 10369.md
+      - name: "高度な多軸制御"
+        href: 10371.md
+      - name: "オペレーション"
+        href: 10372.md
+        items:
+          - name: "ソーイング"
+            href: 10373.md
+          - name: "5D カッティング"
+            href: 10374.md
+          - name: "溶接"
+            href: 10375.md
+          - name: "クラッディング"
+            href: 10376.md
+          - name: "ナイフ"
+            href: 10377.md
+          - name: "G-コードベースオペレーション、 G-コードベース旋盤オペレーション"
+            href: 10379.md
+            items:
+              - name: "Gコードベースのオペレーション、およびGコードベースの旋削オペレーションにおけるジョブ割り当て"
+                href: 10380.md
+                items:
+                  - name: "NCテキスト操作用のキーボードショートカット"
+                    href: 10381.md
+              - name: "早送り速度"
+                href: 102011.md
+      - name: "適応が必要なオペレーション"
+        href: 10382.md
+        items:
+          - name: "熱処理"
+            href: 10383.md
+          - name: "溶接"
+            href: 10384.md
+          - name: "クラッディング"
+            href: 10385.md
+          - name: "ジェットカッティング"
+            href: 10386.md
+      - name: "Teamcenter連携モジュール"
+        href: 10387.md
+  - name: "付録"
+    href: 10388.md
+    items:
+      - name: "オペレーションマトリックス"
+        href: 10389.md
+      - name: "CAMシステム機能マトリックス"
+        href: 10390.md
+      - name: "インタープリターリスト"
+        href: 10391.md
+      - name: "トライアルライセンスの取得"
+        href: 20044.md
+      - name: "バグ報告の推奨手順"
+        href: 20045.md
+      - name: "ライセンスマネージャーでの認証に関するトラブルシューティング"
+        href: 20047.md
+      - name: "追加インストールされるソフトウェア"
+        href: 1021423.md
