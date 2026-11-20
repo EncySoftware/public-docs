@@ -1,0 +1,13 @@
+<ul class="nav level{{level}}">
+{{#items}}
+  <li class="{{#active}}active{{/active}}">
+    {{^leaf}}<span class="expand-stub"></span>{{/leaf}}
+    {{#topicHref}}<a href="{{topicHref}}" title="{{name}}" class="{{#active}}active{{/active}}">{{name}}</a>{{/topicHref}}
+    {{^topicHref}}
+      {{#href}}<a href="{{href}}" title="{{name}}" class="{{#active}}active{{/active}}">{{name}}</a>{{/href}}
+      {{^href}}<a class="{{#active}}active{{/active}}">{{{name}}}</a>{{/href}}
+    {{/topicHref}}
+    {{^leaf}}{{>partials/li}}{{/leaf}}
+  </li>
+{{/items}}
+</ul>
