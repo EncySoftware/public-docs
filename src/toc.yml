@@ -1,0 +1,16 @@
+pdf: true
+items:
+  - name: Preparing for installation
+    href: content/preparation.md
+  - name: "Server PC: installation and activation"
+    href: content/installation.md
+  - name: "Server PC: configuration"
+    href: content/configuration.md
+  - name: How the license server works
+    href: index.md
+  - name: "Workstation: configuration"
+    href: content/clients.md
+  - name: "Workstation: checking ports"
+    href: content/ports-check.md
+  - name: Troubleshooting
+    href: content/troubleshooting.md
